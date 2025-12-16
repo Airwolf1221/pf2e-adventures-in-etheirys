@@ -1,0 +1,176 @@
+{
+	"id": "pf2e-adventures-in-etheirys-content",
+	"title": "PF2e Adventures in Etheirys",
+	"version": "#{VERSION}#",
+	"url": "#{URL}#",
+	"manifest": "#{MANIFEST}#",
+	"download": "#{DOWNLOAD}#",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13"
+	},
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+				"compatibility": {
+					"minimum": "7.6.2",
+					"verified": "7.6.2"
+				}
+			}
+		],
+		"requires": [{
+			"id": "babele",
+			"name": "Babele",
+			"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+			"compatibility": {
+				"minimum": "2.7.5",
+				"verified": "2.7.5"
+			}
+		}]
+	},
+	"authors": [
+	{
+		"name": "Airwolf",
+		"url": "https://github.com/Airwolf1221",
+		"discord": "airwolf"
+	}
+	],
+  "packs": [
+    {
+      "name": "classes-and-features",
+      "label": "Classes & Features",
+      "path": "packs/classes-and-features",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "ancestries",
+      "label": "Ancestries",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "the-blessing-of-light",
+      "label": "The Blessing of Light",
+      "path": "packs/the-blessing-of-light",
+      "type": "Item",
+      "system": "pf2e"
+    },
+    {
+      "name": "deities",
+      "label": "Deities",
+      "path": "packs/deities",
+      "type": "Item",
+      "system": "pf2e"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "pf2e-adventures-in-etheirys": {
+      "triggers": "ff2e-triggers/pf2e-adventures-in-etheirys.json",
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "blizzard-staff": "Blizzard Staff",
+          "fire-staff": "Fire Staff",
+          "quake-staff": "Quake Staff",
+          "bolt-staff": "Bolt Staff",
+          "gust-staff": "Gust Staff",
+          "wave-staff": "Wave Staff",
+          "saya": "Saya",
+          "assault-gunblade": "Assault Gunblade",
+          "aetheric-gunblade": "Aetheric Gunblade"
+        },
+        "weaponGroups": {
+          "power-weapon": "Power Weapon"
+        },
+        "creatureTraits": {
+          "au-ra": "Au Ra",
+          "elezen": "Elezen",
+          "hrothgar": "Hrothgar",
+          "hyur": "Hyur",
+          "lalafell": "Lalafell",
+          "miqote": "Miqo'te",
+          "roegadyn": "Roegadyn",
+          "viera": "Viera"
+        },
+        "equipmentTraits": {
+          "au-ra": "Au Ra",
+          "elezen": "Elezen",
+          "hrothgar": "Hrothgar",
+          "hyur": "Hyur",
+          "lalafell": "Lalafell",
+          "miqote": "Miqo'te",
+          "roegadyn": "Roegadyn",
+          "viera": "Viera"
+        },
+        "weaponTraits": {
+          "au-ra": "Au Ra",
+          "elezen": "Elezen",
+          "hrothgar": "Hrothgar",
+          "hyur": "Hyur",
+          "lalafell": "Lalafell",
+          "miqote": "Miqo'te",
+          "roegadyn": "Roegadyn",
+          "viera": "Viera"
+        },
+        "spellTraits": {},
+        "featTraits": {
+          "au-ra": "Au Ra",
+          "elezen": "Elezen",
+          "hrothgar": "Hrothgar",
+          "hyur": "Hyur",
+          "lalafell": "Lalafell",
+          "miqote": "Miqo'te",
+          "roegadyn": "Roegadyn",
+          "viera": "Viera"
+        },
+        "languages": {
+          "auri": "Auri",
+          "elezen": "Elezen",
+          "bozjan": "Bozjan",
+          "al-bhed": "Al Bhed",
+          "lalafellin": "Lalafellin",
+          "huntspeak": "Huntspeak",
+          "roegadyn": "Roegadyn",
+          "vieran": "Vieran"
+        }
+      }
+    }
+  }
+}

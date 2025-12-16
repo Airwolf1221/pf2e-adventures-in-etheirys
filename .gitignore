@@ -1,0 +1,31 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+/pf2e-adventures-in-etheirys.*
+/.gitattributes
+/node_modules
+/build
+
+# NPM Options
+build.mjs
+extract-packs.mjs
+package.json
+package-lock.json
+
+# Workspace
+*.code-workspace

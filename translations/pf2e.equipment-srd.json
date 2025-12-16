@@ -1,0 +1,17 @@
+{
+    "label":  "Equipment",
+    "entries": {
+        "Gold Pieces": {
+            "name": "Golden Gil"
+        },
+        "Silver Pieces": {
+            "name": "Gil"
+        },
+        "Copper Pieces": {
+            "name": "Copper Gil"
+        },
+        "Platinum Pieces": {
+            "name": "Platinum Gil"
+        }
+    }
+}
