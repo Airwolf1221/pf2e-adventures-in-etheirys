@@ -1,1 +1,1 @@
-Core code implementation of the PF2e Adventures in Etheirys FF conversion; does not include actual content, but rather the total conversion elements of the code (so that content can be used in regular PF2e campaigns as well).
+Actual content implementation for my PF2e total conversion for the FF series - and FF14 in particular - in preparation for the campaign featuring it.

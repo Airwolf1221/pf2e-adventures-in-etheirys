@@ -1,22 +1,3 @@
 {
-    "PF2E": {
-        "CurrencyAbbreviations": {
-            "cp": "cg",
-            "gp": "gg",
-            "pp": "pg",
-            "sp": "g"
-        },
-        "CurrencyCP": "Copper Gil",
-        "CurrencyGP": "Golden Gil",
-        "CurrencyPP": "Platinum Gil",
-        "CurrencySP": "Gil",
-        "TraitCold": "Ice",
-        "TraitElectricity": "Lightning",
-        "TraitVitality": "Holy",
-        "TraitVoid": "Shadow",
-        "TraitArcane": "Thaumaturgy",
-        "TraitDivine": "Conjury",
-        "TraitOccult": "Arcanima",
-        "TraitPrimal": "Blue Magic"
-    }
+    "PF2E": {}
 }
