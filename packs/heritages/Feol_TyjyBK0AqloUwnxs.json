@@ -1,0 +1,66 @@
+{
+  "name": "Feol",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Feol Viera, known as “The Exiled” among other Vieran heritages, often forsake the woodland lands of their birth in order to lie among other ancestries. You become trained in Crafting, or another skill if you were already trained in Crafting, and gain the @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{Specialty Crafting} skill feat, but you can pick two different specialties instead of one.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
+      }
+    ],
+    "slug": "feol",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Viera",
+      "slug": "viera",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.3Xzvf66lKxoqzpgu"
+    }
+  },
+  "img": "icons/skills/trades/academics-investigation-puzzles.webp",
+  "folder": "vCDy4CzJ7pHmw0Rw",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "TyjyBK0AqloUwnxs",
+  "sort": 300000,
+  "_key": "!items!TyjyBK0AqloUwnxs"
+}

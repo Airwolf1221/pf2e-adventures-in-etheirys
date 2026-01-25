@@ -1,0 +1,106 @@
+{
+  "name": "Miqo'te",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>The catlike Miqo’te have a long and storied history of being adventurers, hunters, and wanderers. Hailing from forest and jungle alike, these lithe and agile catfolk often find themselves employed as hunters, guides, and dancers.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.PMbYitEjvDtsflKu]{Miqo'te}</p>"
+    },
+    "rules": [],
+    "slug": "miqote",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "miqote"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 30,
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "dex"
+        ]
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "huntspeak"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "auri",
+        "elezen",
+        "goblin",
+        "moogle"
+      ],
+      "custom": ""
+    },
+    "items": {
+      "o2ZyW": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestry-features.Item.bY7KPHmODAttGdQK",
+        "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+        "name": "Land On Your Feet",
+        "level": 1
+      }
+    },
+    "vision": "low-light-vision"
+  },
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "INIulj7uMlofFCEx",
+  "sort": 200000,
+  "_key": "!items!INIulj7uMlofFCEx"
+}

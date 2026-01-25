@@ -1,0 +1,99 @@
+{
+  "name": "Au Ra",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>It is a matter of fierce debate among scholars if the scaled Au Ra peoples are descended from dragons, Voidsent, both, or neither. All that is known for sure is that they are divided into two peoples: the light-scaled Raen, peaceful of temperament, claiming to have been born from the Sun god Azim; and the dark-scaled Xaela, warlike and brave, born from the Moon goddess Nhaama.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.ow5MmfzVHpYFraaJ]{Au Ra}</p>"
+    },
+    "rules": [],
+    "slug": "au-ra",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "au-ra",
+        "humanoid"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 8,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "str"
+        ]
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "auri"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "abyssal",
+        "draconic",
+        "namazu",
+        "sahagin"
+      ],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "darkvision"
+  },
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "RX2wmC5ecs8CMtqC",
+  "sort": 400000,
+  "_key": "!items!RX2wmC5ecs8CMtqC"
+}

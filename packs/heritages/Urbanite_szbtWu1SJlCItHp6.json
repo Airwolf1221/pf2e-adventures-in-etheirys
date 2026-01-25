@@ -1,0 +1,56 @@
+{
+  "name": "Urbanite",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Lalafell often find a place for themselves in the seedy underworlds of cities, and you are no exception. You gain Darkvision.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "darkvision"
+      }
+    ],
+    "slug": "urbanite",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lalafell",
+      "slug": "lalafell",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.omzHPeY8jOGhmd1m"
+    }
+  },
+  "img": "icons/magic/light/projectile-smoke-blue-white.webp",
+  "folder": "Ul5eaUuXzoBgbNW5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "szbtWu1SJlCItHp6",
+  "sort": 300000,
+  "_key": "!items!szbtWu1SJlCItHp6"
+}

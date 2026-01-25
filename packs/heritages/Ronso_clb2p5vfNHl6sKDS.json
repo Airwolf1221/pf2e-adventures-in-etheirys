@@ -1,0 +1,68 @@
+{
+  "name": "Ronso",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You hail from the Ronso Hrothgar, a subset of the ancestry known for their mighty horns. Your horn is your pride, and a mighty weapon in its own right. You gain a horn unarmed attack that deals 1d6 piercing damage in the brawling category.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Ronso Horn",
+        "traits": [
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "ronso",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Hrothgar",
+      "slug": "hrothgar",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.jN5MUeHp7tE4PLmI"
+    }
+  },
+  "img": "icons/skills/melee/strike-axe-red.webp",
+  "folder": "F7d7X5tDNy6qSfke",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "clb2p5vfNHl6sKDS",
+  "sort": 0,
+  "_key": "!items!clb2p5vfNHl6sKDS"
+}

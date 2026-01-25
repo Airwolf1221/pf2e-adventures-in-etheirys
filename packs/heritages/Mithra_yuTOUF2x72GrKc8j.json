@@ -1,0 +1,70 @@
+{
+  "name": "Mithra",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Prerequisites</strong> You are female</p><hr /><p>You are more bestial than the typical Miqo’te, and your kind is said to even predate modern miqo'te as their ancestors. That extra bit of cat in your physiology comes with its own advantages. You gain a claw unarmed attack that deals 1d6 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Mithra Claws",
+        "traits": [
+          "agile",
+          "finesse",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "mithra",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "ancestry": {
+      "name": "Miqo'te",
+      "slug": "miqote",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.INIulj7uMlofFCEx"
+    }
+  },
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "folder": "6PVr7Ky8rCN72VTS",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "yuTOUF2x72GrKc8j",
+  "sort": 0,
+  "_key": "!items!yuTOUF2x72GrKc8j"
+}

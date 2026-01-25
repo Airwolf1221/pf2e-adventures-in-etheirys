@@ -1,0 +1,82 @@
+{
+  "name": "Sea Wolf",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You don’t just have sea legs. You need to acquire your land legs any time you go on shore! When you succeed at an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim}, you get a critical success instead. You also become trained in Sailing Lore (or another appropriate lore skill if you were already trained in Sailing Lore), and you gain cold resistance equal to half your level (minimum 1).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "cold",
+        "value": "max(@actor.level/2,1)"
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "athletics",
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "predicate": [
+          "action:swim"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "athletics"
+        ],
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "text": "When you succeed at an Athletics check to Swim, you get a critical success instead.",
+        "predicate": [
+          "action:swim"
+        ]
+      }
+    ],
+    "slug": "sea-wolf",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Roegadyn",
+      "slug": "roegadyn",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.IjJMOLwSpkorI05L"
+    }
+  },
+  "img": "icons/magic/water/bubbles-air-water-light.webp",
+  "folder": "qwifrrbIfA6wfWZA",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "mR2xevGgZZQ2djig",
+  "sort": 0,
+  "_key": "!items!mR2xevGgZZQ2djig"
+}

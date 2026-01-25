@@ -1,0 +1,80 @@
+{
+  "name": "Galka",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Prerequisites</strong> You are male</p><hr /><p>You’re big and bestial, with a tail and used to long days of hard work. You gain 12 Hit Points from your ancestry instead of 10 and become trained in Athletics. You gain a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} foes.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.ancestryhp",
+        "value": 12
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "athletics"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "action:shove",
+              "action:trip"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "galka",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "ancestry": {
+      "name": "Roegadyn",
+      "slug": "roegadyn",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.IjJMOLwSpkorI05L"
+    }
+  },
+  "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+  "folder": "qwifrrbIfA6wfWZA",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "cED0Mxal921ZawqU",
+  "sort": 100000,
+  "_key": "!items!cED0Mxal921ZawqU"
+}

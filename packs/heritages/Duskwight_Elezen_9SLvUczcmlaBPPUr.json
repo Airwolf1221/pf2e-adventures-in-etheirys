@@ -1,0 +1,56 @@
+{
+  "name": "Duskwight Elezen",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your people have dwelled underground for generations, and have been called “shaders” or “dark elves” by some due to your dark skin and white hair. You gain Darkvision.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "darkvision"
+      }
+    ],
+    "slug": "duskwight-elezen",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Elezen",
+      "slug": "elezen",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.m3OChN4njQaXPuKU"
+    }
+  },
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "folder": "8AgQezHOMFJpIHX3",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "9SLvUczcmlaBPPUr",
+  "sort": 100000,
+  "_key": "!items!9SLvUczcmlaBPPUr"
+}

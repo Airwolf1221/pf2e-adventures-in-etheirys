@@ -1,0 +1,62 @@
+{
+  "name": "Garlean",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You are a pure-blooded Garlean, gifted with magiteknical insight, but completely incapable of wielding magic. However, your body's resistance to working with aether helps you to shrug off hostile magic. You become an expert in Crafting.</p><p>However, you struggle to use any magic. You cannot gain Focus Points nor Spell Slots, no matter your class or background. You cannot use the Cast a Spell activity or perform actions with the Magical trait unless you use a magical item or tool to provide the required aether for the magic for you.</p><p>You can still invest magical items and Activate magical items which do not require the consumption of Focus Points or Spell Slots, you can also Activate magical items which do not require the Cast a Spell activity. You gain the Garlean Fervor reaction.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 2
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.actions.Item.Mm6Bqm3G3YTKNhPx"
+      }
+    ],
+    "slug": "garlean",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "ancestry": {
+      "name": "Hyur",
+      "slug": "hyur",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.titw1DxUQSSXVitz"
+    }
+  },
+  "img": "icons/skills/ranged/cannon-barrel-firing-yellow.webp",
+  "folder": "5t4auY7YTUBj3hog",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "UfXm41swvyWb70Ws",
+  "sort": 400000,
+  "_key": "!items!UfXm41swvyWb70Ws"
+}

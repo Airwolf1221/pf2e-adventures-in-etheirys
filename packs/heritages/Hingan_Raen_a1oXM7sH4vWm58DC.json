@@ -1,0 +1,68 @@
+{
+  "name": "Hingan Raen",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You were born in one of the undersea cities of the Raen of Hingashi. You gain a swim Speed of 15 feet and the amphibious trait. Like all creatures with the amphibious trait, you can breathe both water and air. Additionally, you gain water resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "water",
+        "value": "max(@actor.level/2,1)"
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "amphibious"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 15
+      }
+    ],
+    "slug": "hingan-raen",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Au Ra",
+      "slug": "au-ra",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.RX2wmC5ecs8CMtqC"
+    }
+  },
+  "img": "icons/magic/water/bubbles-air-water-blue.webp",
+  "folder": "HeT94UNJVM2clzWI",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "a1oXM7sH4vWm58DC",
+  "sort": 300000,
+  "_key": "!items!a1oXM7sH4vWm58DC"
+}

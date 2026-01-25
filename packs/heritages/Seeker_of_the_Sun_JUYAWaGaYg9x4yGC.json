@@ -1,0 +1,71 @@
+{
+  "name": "Seeker of the Sun",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your people’s quick wit and eager attitude has led to an insatiable curiosity, particularly towards magic and the unknown. You can cast @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} as an innate black magic cantrip heightened to half your level, rounded up. You also become trained in Occultism and gain a +1 circumstance bonus to Occultism checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about creatures that originated outside of your home plane.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occultism.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "occultism"
+        ],
+        "value": 1,
+        "predicate": [
+          "action:recall-knowledge",
+          "extraplanar-creature"
+        ],
+        "label": "Creature originated from outside of your home plane",
+        "type": "circumstance"
+      }
+    ],
+    "slug": "seeker-of-the-sun",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Miqo'te",
+      "slug": "miqote",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.INIulj7uMlofFCEx"
+    }
+  },
+  "img": "icons/magic/light/beam-rays-yellow.webp",
+  "folder": "6PVr7Ky8rCN72VTS",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "JUYAWaGaYg9x4yGC",
+  "sort": 0,
+  "_key": "!items!JUYAWaGaYg9x4yGC"
+}

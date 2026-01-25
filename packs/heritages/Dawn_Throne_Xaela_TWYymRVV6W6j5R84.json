@@ -1,0 +1,107 @@
+{
+  "name": "Dawn Throne Xaela",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You’ve lived most of your life in the area surrounding the Xaela capital of the Dawn Throne, and have picked up a thing or two about Xaela social interactions. Unlike the other xaela of the steppe however, you focus your might into other avenues.</p><p>You are trained in Intimidation and Society. Additionally, you can eat and drink things when you are sickened, and you gain a +2 circumstance bonus to saving throws against gaining the @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} condition, and to remove the sickened condition. When you roll a success on a Fortitude save affected by this bonus, you get a critical success instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "skill-check"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "dawn-throne-sickened"
+        ]
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "fortitude",
+        "predicate": [
+          "dawn-throne-sickened"
+        ],
+        "adjustment": {
+          "success": "one-degree-better"
+        }
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "fortitude"
+        ],
+        "text": "When you roll a success on a Fortitude save affected by your dawn throne bonus, you get a critical success instead.",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "dawn-throne-sickened"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "saving-throw",
+        "option": "dawn-throne-sickened",
+        "toggleable": true,
+        "label": "Saving vs the Sickened Condition"
+      }
+    ],
+    "slug": "dawn-throne-xaela",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Au Ra",
+      "slug": "au-ra",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.RX2wmC5ecs8CMtqC"
+    }
+  },
+  "img": "icons/magic/control/control-influence-crown-gold.webp",
+  "folder": "HeT94UNJVM2clzWI",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "TWYymRVV6W6j5R84",
+  "sort": 100000,
+  "_key": "!items!TWYymRVV6W6j5R84"
+}

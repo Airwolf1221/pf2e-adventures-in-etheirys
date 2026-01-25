@@ -1,0 +1,106 @@
+{
+  "name": "Keen Eyes (Viera)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your eyes are sharp, allowing you to make out small details about @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or even @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures that others might miss. You gain a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of you. When you target an opponent that is concealed from you or hidden from you, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Keen Eyes",
+        "value": 2,
+        "predicate": [
+          "action:seek",
+          {
+            "lte": [
+              "target:distance",
+              30
+            ]
+          },
+          {
+            "or": [
+              "target:hidden",
+              "target:undetected"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "selector": [
+          "perception"
+        ]
+      },
+      {
+        "key": "fc-ModifyFlatDC",
+        "type": "hidden",
+        "mode": "downgrade",
+        "value": 9
+      },
+      {
+        "key": "fc-ModifyFlatDC",
+        "type": "concealed",
+        "mode": "downgrade",
+        "value": 3
+      }
+    ],
+    "slug": "keen-eyes-viera",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "viera"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "folder": "2Pyqqj3ScQ9tzYQV",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "hGpAuGX0TfAGBeAH",
+  "sort": 0,
+  "_key": "!items!hGpAuGX0TfAGBeAH"
+}

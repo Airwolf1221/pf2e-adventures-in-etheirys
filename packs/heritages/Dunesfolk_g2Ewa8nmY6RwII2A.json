@@ -1,0 +1,68 @@
+{
+  "name": "Dunesfolk",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You’ve got a sharp set of eyes, and are used to keeping them open to take things in passively. You gain a +1 circumstance bonus to your Perception DCs. This bonus does not apply to Perception checks, however. Additionally, you become trained in Society and gain the @UUID[Compendium.pf2e.feats-srd.Item.0N8TtGSk5enoLBZ8]{Eye for Numbers} and @UUID[Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om]{Bargain Hunter} skill feats.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception-dc"
+        ],
+        "value": 1,
+        "type": "circumstance"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.0N8TtGSk5enoLBZ8"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om"
+      }
+    ],
+    "slug": "dunesfolk",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lalafell",
+      "slug": "lalafell",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.omzHPeY8jOGhmd1m"
+    }
+  },
+  "img": "icons/skills/trades/academics-merchant-scribe.webp",
+  "folder": "Ul5eaUuXzoBgbNW5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "g2Ewa8nmY6RwII2A",
+  "sort": 100000,
+  "_key": "!items!g2Ewa8nmY6RwII2A"
+}

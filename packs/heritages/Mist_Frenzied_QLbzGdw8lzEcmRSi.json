@@ -1,0 +1,51 @@
+{
+  "name": "Mist-Frenzied",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>All Viera are sensitive to Mist - a Vieran term for aether - but you are more sensitive than most. Choose one cantrip from the arcanima spell list. You can cast this spell as an arcanima innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "mist-frenzied",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Viera",
+      "slug": "viera",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.3Xzvf66lKxoqzpgu"
+    }
+  },
+  "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
+  "folder": "vCDy4CzJ7pHmw0Rw",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "QLbzGdw8lzEcmRSi",
+  "sort": 200000,
+  "_key": "!items!QLbzGdw8lzEcmRSi"
+}

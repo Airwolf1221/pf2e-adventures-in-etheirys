@@ -1,0 +1,71 @@
+{
+  "name": "Helion Hrothgar",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You grew up amongst the civil Helion people, and have spent most of your lifetime learning to work in concert with others of your kind. You are trained in Diplomacy, and gain a +1 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} with other Hrothgar.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Make an Impression vs other Hrothgar",
+        "value": 1,
+        "selector": [
+          "diplomacy"
+        ],
+        "type": "circumstance",
+        "predicate": [
+          "action:make-an-impression",
+          "other-hrothgar"
+        ]
+      }
+    ],
+    "slug": "helion-hrothgar",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Hrothgar",
+      "slug": "hrothgar",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.jN5MUeHp7tE4PLmI"
+    }
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "folder": "F7d7X5tDNy6qSfke",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "nSXMXFGmPf1hIXyM",
+  "sort": 100000,
+  "_key": "!items!nSXMXFGmPf1hIXyM"
+}

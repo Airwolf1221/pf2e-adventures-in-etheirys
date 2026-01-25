@@ -1,0 +1,51 @@
+{
+  "name": "Tarutaru",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your body is exceptionally conducive to the flow of aether, and manipulating magic is in your blood. Choose one common cantrip from the black magic spell list. You can cast this spell as a black magic innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by studying magical texts and scrolls; this is a 10-minute activity that has the concentrate trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "tarutaru",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lalafell",
+      "slug": "lalafell",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.omzHPeY8jOGhmd1m"
+    }
+  },
+  "img": "icons/magic/light/beam-rays-magenta-small.webp",
+  "folder": "Ul5eaUuXzoBgbNW5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "kDDSivJ6a7d2L2cQ",
+  "sort": 400000,
+  "_key": "!items!kDDSivJ6a7d2L2cQ"
+}

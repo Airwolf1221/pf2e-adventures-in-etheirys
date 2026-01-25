@@ -1,0 +1,102 @@
+{
+  "name": "Roegadyn",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>From the high seas to the rough deserts, no ancestry is the master of difficult environments than the stalwart Roegadyn. The hulking frames of these mighty beings belie razor-sharp minds underneath.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.VdBqBxN3bxcL5Tpz]{Roegadyn}</p>"
+    },
+    "rules": [],
+    "slug": "roegadyn",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "roegadyn"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "roegadyn"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "auri",
+        "huntspeak",
+        "lalafellin"
+      ],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "IjJMOLwSpkorI05L",
+  "sort": 0,
+  "_key": "!items!IjJMOLwSpkorI05L"
+}

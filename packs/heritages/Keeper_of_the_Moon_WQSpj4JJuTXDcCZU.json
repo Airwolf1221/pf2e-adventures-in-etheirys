@@ -1,0 +1,81 @@
+{
+  "name": "Keeper of the Moon",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You come from a long line of skilled hunters and trackers and have a particularly keen sense of smell. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p><p>In addition, you gain a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} a creature or object if you've smelled it before. Finally, you are trained in Survival and gain the @UUID[Compendium.pf2e.feats-srd.Item.8qebBeOJsyRIchcu]{Forager} skill feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "You've smelled the creature previously",
+        "value": 2,
+        "selector": [
+          "survival"
+        ],
+        "predicate": [
+          "action:track",
+          "previously-smelled"
+        ],
+        "type": "circumstance"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.8qebBeOJsyRIchcu"
+      },
+      {
+        "key": "Sense",
+        "acuity": "imprecise",
+        "range": 30,
+        "selector": "scent"
+      }
+    ],
+    "slug": "keeper-of-the-moon",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Miqo'te",
+      "slug": "miqote",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.INIulj7uMlofFCEx"
+    }
+  },
+  "img": "icons/magic/nature/moon-crescent.webp",
+  "folder": "6PVr7Ky8rCN72VTS",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "WQSpj4JJuTXDcCZU",
+  "sort": 0,
+  "_key": "!items!WQSpj4JJuTXDcCZU"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Fanow",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You are the forest’s shadow, remaining hidden to most outsiders. You are trained in Stealth, and gain a +1 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} when in underbrush or other natural foliage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "stealth"
+        ],
+        "value": 1,
+        "predicate": [
+          "terrain:underbrush",
+          "action:sneak"
+        ],
+        "label": "In underbrush or natural foliage",
+        "type": "circumstance"
+      }
+    ],
+    "slug": "fanow",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Viera",
+      "slug": "viera",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.3Xzvf66lKxoqzpgu"
+    }
+  },
+  "img": "icons/magic/control/debuff-chains-blue.webp",
+  "folder": "vCDy4CzJ7pHmw0Rw",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "xYefUldSGULNqMHF",
+  "sort": 100000,
+  "_key": "!items!xYefUldSGULNqMHF"
+}
