@@ -1,0 +1,88 @@
+{
+  "name": "Sharpened Horns",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your horns are sharp, and you’re accustomed to using them as a weapon in a pinch. You gain a gore unarmed attack that deals 1d6 piercing damage, is in the brawling category, and has the finesse trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Gore",
+        "traits": [
+          "finesse",
+          "unarmed"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/horn.webp"
+      }
+    ],
+    "slug": "sharpened-horns",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "au-ra"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "rfK4H8OXBHwt5SVZ",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.XLVdd1S8kMGvfd3N",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "HLqqCssRsLd05hPY",
+  "_key": "!items!HLqqCssRsLd05hPY"
+}

@@ -1,0 +1,73 @@
+{
+  "_id": "FEOsX8dWPtY9kFj7",
+  "folder": "mINZPKmANJSRdDPR",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Theoretical Acumen (Lalafell)",
+  "system": {
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You succeed at a skill check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} to identify a creature.</p><hr /><p>You study a creature's form and behavior to hypothesize likely means of overcoming its strengths. Once before the end of your next turn, you can use the skill modifier from the triggering check in place of your saving throw modifier against one of the creature's abilities, in place of your Perception modifier to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} the creature, in place of your Deception modifier to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} against the creature, or in place of your Intimidation modifier to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} the creature. Alternatively, against one of the creature's attacks, you can use your DC for the skill used in the triggering check in place of your AC.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Character Guide",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "theoretical-acumen-lalafell",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.MXkklchuimVSHZyd",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!FEOsX8dWPtY9kFj7"
+}

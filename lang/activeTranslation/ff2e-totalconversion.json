@@ -1,0 +1,272 @@
+{
+    "PF2E": {
+        "ArmorPotencyRune1": "Battledance I",
+        "ArmorPotencyRune2": "Battledance II",
+        "ArmorPotencyRune3": "Battledance III",
+        "ArmorPotencyRune4": "Battledance IV",
+        "WeaponPotencyRune1": "Heaven's Eye I",
+        "WeaponPotencyRune2": "Heaven's Eye II",
+        "WeaponPotencyRune3": "Heaven's Eye III",
+        "WeaponPotencyRune4": "Heaven's Eye IV",
+        "StrikingRuneLabel": "Savage Aim Materia",
+        "PotencyRuneLabel": "Heaven's Eye Materia",
+        "PropertyRuneLabel1": "Property Materia (1st)",
+        "PropertyRuneLabel2": "Property Materia (2nd)",
+        "PropertyRuneLabel3": "Property Materia (3rd)",
+        "PropertyRuneLabel4": "Property Materia (4th)",
+        "PropertyRuneLabel5": "Property Materia (5th)",
+        "ArmorResilientRune": "Savage Might I",
+        "ArmorGreaterResilientRune": "Savage Might II",
+        "ArmorMajorResilientRune": "Savage Might III",
+        "ArmorMythicResilientRune": "Savage Might IV",
+        "TraitResilient1": "Savage Might I",
+        "TraitResilient2": "Savage Might II",
+        "TraitResilient3": "Savage Might III",
+        "Item": {
+            "Armor": {
+                "GradeOption": "{grade} (+{bonus}; Savage Might +{resilient})",
+                "Rune": {
+                    "Resilient": {
+                        "Label": "Savage Might Materia"
+                    }
+                }
+            },
+            "Weapon": {
+                "Rune": {
+                    "Potency": "Heaven's Eye",
+                    "Striking": {
+                        "Greater": "Savage Aim II",
+                        "Major": "Savage Aim III",
+                        "Mythic": "Savage Aim IV",
+                        "Striking": "Savage Aim I"
+                    }
+                }
+            },
+            "Shield": {
+                "Rune": {
+                    "Reinforcing": {
+                        "Greater": "Tenacity IV",
+                        "Label": "Tenacity Materia",
+                        "Lesser": "Tenacity II",
+                        "Major": "Tenacity V",
+                        "Minor": "Tenacity I",
+                        "Moderate": "Tenacity III",
+                        "Supreme": "Tenacity VI"
+                    }
+                }
+            }
+        },
+        "CurrencyAbbreviations": {
+            "cp": "cg",
+            "gp": "gg",
+            "pp": "pg",
+            "sp": "g"
+        },
+        "Currency": {
+            "cp": "Copper Gil",
+            "gp": "Golden Gil",
+            "pp": "Platinum Gil",
+            "sp": "Gil"
+        },
+        "Damage": {
+            "RollFlavor": {
+                "cold": "ice",
+                "electricity": "lightning",
+                "vitality": "holy",
+                "void": "shadow",
+                "force": "unaspected"
+            }
+        },
+        "TraitDescriptionFire": "Effects with this trait deal fire damage. Creatures with this trait have a connection to fire-aspected aether.",
+        "TraitCold": "Ice",
+        "TraitDescriptionCold": "Effects with this trait deal ice damage. Creatures with this trait have a connection to ice-aspected aether.",
+        "TraitElectricity": "Lightning",
+        "TraitDescriptionElectricity": "Effects with this trait deal lightning damage. Creatures with this trait have a connection to lightning-aspected aether.",
+        "TraitVitality": "Holy",
+        "TraitDescriptionVitality": "Effects with this trait deal holy damage. Creatures with this trait have a connection to umbral-aspected aether.",
+        "TraitVoid": "Shadow",
+        "TraitDescriptionVoid": "Effects with this trait deal shadow damage. Creatures with this trait have a connection to astral-aspected aether.",
+        "TraitForce": "Unaspected",
+        "TraitDescriptionForce": "Effects with this trait deal unaspected damage, which is seldom resisted or super effective. Creatures with this trait have a connection to completely unaspected aether.",
+        "TraitArcane": "Black Magic",
+        "TraitDescriptionArcane": "This magic comes from the black magic tradition, which is built on raw power and destruction. Anything with this trait is magical. A creature with this trait is primarily constituted of or has a strong connection to black magic.",
+        "TraitDivine": "White Magic",
+        "TraitDescriptionDivine": "This magic comes from the white magic tradition, which is built on restorative power and support. Anything with this trait is magical. A creature with this trait is primarily constituted of or has a strong connection to white magic.",
+        "TraitOccult": "Arcanima",
+        "TraitDescriptionOccult": "This magic comes from the arcanima tradition, which is built on supportive capabilities and summoning. Anything with this trait is magical. A creature with this trait is primarily constituted of or has a strong connection to arcanima magic.",
+        "TraitPrimal": "Blue Magic",
+        "TraitDescriptionPrimal": "This magic comes from the blue magic tradition, which is a tradition of magic derived from the powers of natural beings. Anything with this trait is magical. A creature with this trait is primarily constituted of or has a strong connection to blue magic."
+    },
+"AIE": {
+        "SpellNames": {
+            "Cantrips": {
+                "GougingClaw": "Behemoth's Claw",
+                "HealingPlaster": "Blessing of Earth",
+                "DivineLance": "Holy Lance",
+                "KnowTheWay": "Sight",
+                "ForbiddingWard": "Mysidian Protect",
+                "Stabilize": "Mysidian Raise",
+                "TelekineticHand": "Mysidian Grasp",
+                "VoidWarp": "Mysidian Shadow",
+                "Daze": "Mysidian Stun",
+                "ElectricArc": "Mysidian Thunder",
+                "LiveWire": "Thundaja",
+                "Light": "Torchlight"
+            },
+            "1st": {
+                "MysticArmor": "Aetheric Armor",
+                "ChillingSpray": "Chilling Burst",
+                "GrimTendrils": "Dark",
+                "Snowball": "Icicle",
+                "Grease": "Slick",
+                "ShockingGrasp": "Thunder Grasp",
+                "RunicBody": "Aetheric Fang",
+                "RunicWeapon": "Aetheric Weapon",
+                "Befuddle": "Addle",
+                "GentleLanding": "Choco Feather",
+                "AntHaul": "Choco Haul",
+                "FleetStep": "Choco Step",
+                "Heal": "Cure",
+                "HydraulicPush": "Fluid Aura",
+                "Agitate": "Deep Freeze",
+                "SureStrike": "Focus",
+                "EchoingWeapon": "Gale Weapon",
+                "Restyle": "Glamour",
+                "LeadenSteps": "Leaden",
+                "Mending": "Mend",
+                "Friendfetch": "Rescue",
+                "NoxiousVapors": "Miasma",
+                "ForceBarrage": "Ruin",
+                "PummelingRubble": "Stone Burst",
+                "Synchronize": "Synch",
+                "Shockwave": "Tremor",
+                "Harm": "Unmend",
+                "Tailwind": "Wind Runner",
+                "Enfeeble": "Weaken"
+            },
+            "2nd": {
+                "Status": "Ally Scan",
+                "Everlight": "Continual Flame",
+                "RimeSlick": "Freeze",
+                "BlazingBolt": "Scathe",
+                "OakenResilience": "Barkskin",
+                "SoundBody": "Blindna",
+                "CleanseAffliction": "Cleanse",
+                "DispelMagic": "Dispel",
+                "ClearMind": "Fearna",
+                "RadiantField": "Glare",
+                "Shrink": "Mini",
+                "FinalSacrifice": "Sacrifice",
+                "SureFooting": "Paralna",
+                "Restoration": "Restore",
+                "Invisibility": "Vanish",
+                "ThunderingDominance": "Spur"
+            },
+            "3rd": {
+                "Blindness": "Blind",
+                "VampiricFeast": "Drain",
+                "Fireball": "Fira",
+                "LightningBolt": "Thundara",
+                "Heroism": "Bravery",
+                "HolyLight": "Dia",
+                "AnointedGround": "Elemental Anointment",
+                "LifeConnection": "Excogitation",
+                "Levitate": "Float",
+                "AqueousOrb": "Hydrosphere",
+                "PositiveAttunement": "Regen",
+                "CrashingWave": "Tidal Wave",
+                "Hypercognition": "Libra",
+                "MadMonkeys": "Outrageous Opo-Opos",
+                "TimeJump": "Quicken",
+                "Paralyze": "Stun",
+                "SharedInvisibility": "Vanish Party"
+            },
+            "4th": {
+                "Enervation": "Bio",
+                "SpellImmunity": "Barrier",
+                "Flicker": "Blink",
+                "CloakOfLight": "Holy Garb",
+                "OcularOverload": "Dazzle",
+                "SealFate": "Imperil",
+                "TortoiseAndTheHare": "Reverse Speed",
+                "SoothingSpring": "Sacred Soil",
+                "ReboundingBarrier": "Spikes",
+                "MountainResilience": "Stoneskin",
+                "WhispersOfTheVoid": "Voidal Whispers"
+            },
+            "5th": {
+                "ImaginaryLockbox": "Aetheric Storage",
+                "Banishment": "Banish",
+                "ConeofCold": "Blizzaga",
+                "MantleOfTheMagmaHeart": "Fire Spikes",
+                "MantleOfTheFrozenHeart": "Ice Spikes",
+                "SummonFiend": "Summon Voidsent",
+                "LightningStorm": "Thundaga",
+                "AbyssalPlague": "Voidal Plague",
+                "CorrosiveMuck": "Corrosive Bile",
+                "TransmuteRockAndMud": "Mudslide",
+                "BreathOfLife": "Phoenix Feather",
+                "BlessingOfDefiance": "Resistance",
+                "SpiritualGuardian": "Summon Eidolon Guardian",
+                "DropDead": "Feign",
+                "InvokeSpirits": "Haunt",
+                "RepellingPulse": "Ruin Pulse",
+                "BlackTentacles": "Shadow Flare"
+            },
+            "6th": {
+                "ArrowSalvo": "Arcane Barrage",
+                "Petrify": "Break",
+                "ChainLightning": "Chain Thunder",
+                "Dominate": "Control",
+                "Disintegrate": "Flare",
+                "CursedMetamorphosis": "Toad",
+                "Necrotize": "Decay",
+                "ElementalConfluence": "Elemental Helix",
+                "Teleport": "Exit",
+                "ZealousConviction": "Rage of Halone",
+                "RaiseDead": "Raise",
+                "UnexpectedTransposition": "Swap",
+                "CollectiveTransposition": "Warp"
+            },
+            "7th": {
+                "PowerWordBlind": "Greater Blinding",
+                "EclipseBurst": "Eclipse",
+                "BlightburnBlast": "Nuke",
+                "EnergyAegis": "Absorb Energies",
+                "Deity'sStrike": "Holy",
+                "TrueTarget": "Chain Stratagem",
+                "WarpMind": "Greater Confusion",
+                "SpellRiposte": "Reflect",
+                "ShadowRaid": "Spirit Flare",
+                "DuplicateFoe": "Sketch"
+            },
+            "8th": {
+                "DevourLife": "Devour",
+                "UndermineReality": "Lash of Chaos",
+                "PowerWordStun": "Stop",
+                "Quandary": "X-Zone",
+                "ConfusingColors": "Dazzling Cloud",
+                "AntimagicField": "Nullfield",
+                "Earthquake": "Quake",
+                "Disappearance": "Vanishga"
+            },
+            "9th": {
+                "Implosion": "Gravity",
+                "FallingStars": "Meteor",
+                "VoraciousGestalt": "Voidsent Pact",
+                "WailsOfTheDamned": "Xenoglossy",
+                "UnfathomableSong": "Lunatic Voice",
+                "Nature'sEnmity": "Gaia's Wrath",
+                "Upheaval": "Quaga",
+                "PowerWordKill": "Rend Essence"
+            },
+            "10th": {
+                "Cataclysm": "Calamity",
+                "NatureIncarnate": "Chosen of the Elementals",
+                "AlterReality": "Arcane Convocation",
+                "Miracle": "Chant",
+                "FatedConfrontation": "Instanced Duel"
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "UStdfEBgMJZc221l",
+  "folder": "ktHgK3iMJEXcx9Ox",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Monstrous Peacemaker (Roegadyn)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>While people don’t often see you as a monster, they still spark a small kindred spirit with you. You gain a +1 circumstance bonus to Diplomacy checks against non-humanoid intelligent creatures and against humanoids that are marginalized in human society (at the GM's discretion, but typically at least including giants, goblins, kobolds, and orcs). You also gain this bonus on Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense the Motives} of such creatures.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "monstrous-peacemaker"
+        ],
+        "selector": [
+          "diplomacy",
+          "perception"
+        ],
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "roegadyn"
+      ],
+      "otherTags": []
+    },
+    "slug": "monstrous-peacemaker-roegadyn",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.ZZzgqFTOtUgnzSLZ",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!UStdfEBgMJZc221l"
+}

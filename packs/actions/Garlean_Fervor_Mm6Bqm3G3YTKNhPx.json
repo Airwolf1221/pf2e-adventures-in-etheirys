@@ -41,7 +41,7 @@
     }
   },
   "img": "systems/pf2e/icons/actions/Reaction.webp",
-  "folder": "9BxTUlobWGKSrQoH",
+  "folder": "wlAVe2lST7ywfoJf",
   "ownership": {
     "default": 0,
     "BaYRkOXn1K3wq5i6": 3
@@ -56,6 +56,6 @@
     "systemVersion": "7.9.1"
   },
   "_id": "Mm6Bqm3G3YTKNhPx",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!Mm6Bqm3G3YTKNhPx"
 }

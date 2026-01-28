@@ -1,0 +1,75 @@
+{
+  "name": "Too Stubborn to Die",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would die.</p><hr /><p>You come back from the brink of death, hauling yourself back to consciousness despite your wounds and exhaustion. You push yourself to your absolute limits and don’t die. If you have the @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} conditions, you lose those conditions. If you are at 0 Hit Points, you regain 1 Hit Point. Increase the value of your @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} conditions by 1. You can use this reaction while unconscious.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "too-stubborn-to-die",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "hyur",
+        "mental"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "CDFrEWLMLeLFoXXi",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.N730Ml3pmlEs8SQT",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "O2UPIo9TCsduzZjD",
+  "_key": "!items!O2UPIo9TCsduzZjD"
+}

@@ -1,0 +1,167 @@
+{
+  "_id": "hT6navMJ7E63niBl",
+  "folder": "hP4KqfRn3J2X52zp",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Raging Bull",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>For you, a fight hasn’t started until someone’s bleeding. You gain a circumstance bonus to damage rolls on your melee Strikes equal to twice the sum of your wounded and doomed conditions (to a maximum of a +8 circumstance bonus to damage) whenever you have one or both conditions.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Ancestry Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "item:melee",
+          {
+            "or": [
+              "self:condition:doomed",
+              "self:condition:wounded"
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "lifebloods-call",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "self:condition:doomed:2",
+              "self:condition:wounded:2",
+              {
+                "and": [
+                  "self:condition:doomed",
+                  "self:condition:wounded"
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "raging-bull",
+        "value": 4
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "self:condition:doomed:3",
+              "self:condition:wounded:3",
+              {
+                "and": [
+                  "self:condition:doomed:2",
+                  "self:condition:wounded"
+                ]
+              },
+              {
+                "and": [
+                  "self:condition:doomed",
+                  "self:condition:wounded:2"
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "raging-bull",
+        "value": 6
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "self:condition:doomed:4",
+              "self:condition:wounded:4",
+              {
+                "and": [
+                  "self:condition:doomed:3",
+                  "self:condition:wounded"
+                ]
+              },
+              {
+                "and": [
+                  "self:condition:doomed",
+                  "self:condition:wounded:3"
+                ]
+              },
+              {
+                "and": [
+                  "self:condition:doomed:2",
+                  "self:condition:wounded:2"
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "raging-bull",
+        "value": 8
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "roegadyn"
+      ],
+      "otherTags": []
+    },
+    "slug": "raging-bull",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Ih85PWZSVTwU0xkI",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!hT6navMJ7E63niBl"
+}

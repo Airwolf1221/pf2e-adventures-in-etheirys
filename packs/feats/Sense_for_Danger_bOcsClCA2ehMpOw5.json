@@ -1,0 +1,73 @@
+{
+  "_id": "bOcsClCA2ehMpOw5",
+  "folder": "smL23N8raFIIh0o8",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Sense for Danger",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You can tell when something's off. You can trigger @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.7Jr6rKuIpWuAjaQz]{Miqo'te Luck} after you roll initiative, in addition to its normal trigger, to reroll your Initiative and take the higher of the two results.</p><p>This still counts against Miqo'te Luck's frequency, as normal.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Miqo'te Luck"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Ancestry Guide",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "miqote"
+      ],
+      "otherTags": []
+    },
+    "slug": "sense-for-danger",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.T8cBEhuHWkh3MqgO",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 450000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!bOcsClCA2ehMpOw5"
+}

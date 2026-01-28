@@ -1,0 +1,79 @@
+{
+  "_id": "KrNPbNyMjIufpluA",
+  "folder": "bZivh7B2pa9Et9Rf",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Heartbeat of the Forest",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your heightened senses and connection to nature allow you to almost feel the location of your prey. You gain tremorsense as an imprecise sense with a range of 30 feet.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Ancestry Guide",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "senses": {
+        "tremorsense": {
+          "acuity": "imprecise",
+          "range": 30,
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
+        }
+      },
+      "proficiencies": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "viera"
+      ],
+      "otherTags": []
+    },
+    "slug": "heartbeat-of-the-forest",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.kjRMXN95lQmIi2hP",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!KrNPbNyMjIufpluA"
+}

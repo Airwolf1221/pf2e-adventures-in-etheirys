@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>All Viera are sensitive to Mist - a Vieran term for aether - but you are more sensitive than most. Choose one cantrip from the arcanima spell list. You can cast this spell as an arcanima innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>",
+      "value": "<p>All Viera are sensitive to Mist - a Vieran term for aether - but you are more sensitive than most. Choose one cantrip from the @Localize[PF2E.TraitOccult] spell list. You can cast this spell as an @Localize[PF2E.TraitOccult] innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>",
       "gm": ""
     },
     "publication": {

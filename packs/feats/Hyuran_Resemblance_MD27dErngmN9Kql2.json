@@ -1,0 +1,97 @@
+{
+  "_id": "MD27dErngmN9Kql2",
+  "folder": "OVZMXhy3Wb71vFDv",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Hyuran Resemblance",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your size and skin tone aren’t particularly different from the average Hyur, which has allowed you to fit in with the quite well. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{Adopted Ancestry} general feat, and must select Hyur, and you also gain one 1st-level Hyur ancestry feat.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Othardian Heritage"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "preselectChoices": {
+          "ancestry": "hyur"
+        },
+        "uuid": "Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:trait:{actor|system.details.ancestry.adopted}"
+          ]
+        },
+        "flag": "feat",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.LevelOneAncestryFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.feat}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "roegadyn"
+      ],
+      "otherTags": []
+    },
+    "slug": "cultural-adaptability",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Z56DtGBd3AcZOCeG",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 850000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!MD27dErngmN9Kql2"
+}

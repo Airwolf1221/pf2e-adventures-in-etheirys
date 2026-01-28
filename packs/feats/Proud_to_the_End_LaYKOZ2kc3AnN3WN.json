@@ -1,0 +1,70 @@
+{
+  "name": "Proud to the End",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> An ally within 30 feet brings a foe to 0 hit points.</p><hr /><p>With a shout of triumph, you grant inspiration to an ally to fight on. The triggering ally gains temporary Hit Points equal to their Constitution modifier until the end of their next turn.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.ZLYePc0A4MYPnxX6]{Effect: Proud to the End}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hrothgar"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "x05EKHX0HDFcAUN1",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.VAnyHHkMASVKQuha",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "LaYKOZ2kc3AnN3WN",
+  "_key": "!items!LaYKOZ2kc3AnN3WN"
+}

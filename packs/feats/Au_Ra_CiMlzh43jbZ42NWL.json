@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "D47hI2SXSGANKve3",
+  "name": "Au Ra",
+  "color": null,
+  "sorting": "m",
+  "_id": "CiMlzh43jbZ42NWL",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!CiMlzh43jbZ42NWL"
+}

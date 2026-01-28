@@ -1,0 +1,77 @@
+{
+  "_id": "00oYliYVoJ4Ah51m",
+  "folder": "t5G1GcTRUL2VOphJ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Caterwaul (Miqo'te)",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An ally within 30 feet would be reduced to 0 HP but not immediately killed.</p><hr /><p>You give a daring yowl, calling your companion back from the brink of unconsciousness. Your ally isn't knocked out and remains at 1 Hit Point. Their @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} condition still increases by 1 as though they had been @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} and recovered.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "auditory",
+        "concentrate",
+        "emotion",
+        "mental",
+        "miqote"
+      ],
+      "otherTags": []
+    },
+    "slug": "caterwaul-miqote",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.nePEcAp7lTL35uyx",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!00oYliYVoJ4Ah51m"
+}

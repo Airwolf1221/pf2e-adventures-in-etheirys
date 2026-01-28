@@ -1,0 +1,106 @@
+{
+  "_id": "PfYOWvFff3lq6tKJ",
+  "folder": "hRof9KkXdSMR9TvE",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Fade Away (Lalafell)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your ability to blend into the background allows you to fade away entirely or appear innocuous even to magical effects. You gain @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{@Localize[AIE.SpellNames.2nd.Invisibility]} and @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{@Localize[AIE.SpellNames.2nd.Shrink]} as 2nd-rank innate @Localize[PF2E.TraitOccult] spells. You can target only yourself with these spells. You can cast each spell once per day.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Easily Dismissed"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Character Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:invisibility",
+              "item:slug:shrink"
+            ]
+          },
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:invisibility",
+              "item:slug:shrink"
+            ]
+          },
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell:lalafell"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "fade-away-lalafell",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.qr1E37Tla555tvIO",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!PfYOWvFff3lq6tKJ"
+}

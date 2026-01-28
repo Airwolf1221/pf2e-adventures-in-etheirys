@@ -1,0 +1,84 @@
+{
+  "_id": "nwwfcmG1Djw1S4ML",
+  "folder": "ktHgK3iMJEXcx9Ox",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Until Morale Improves!",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You're skilled at beating an enemy when their morale is already breaking. When you succeed at a melee weapon Strike against a @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} enemy, that enemy can't reduce their frightened condition below 1 until the beginning of your next turn.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "target:condition:frightened",
+          "item:melee"
+        ],
+        "selector": "strike-attack-roll",
+        "text": "{item|system.description.value}",
+        "title": "{item|name}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "roegadyn"
+      ],
+      "otherTags": []
+    },
+    "slug": "until-morale-improves",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.iRztLGEK5OfjZTPg",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 450000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!nwwfcmG1Djw1S4ML"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Rejuvenating Magicks",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per minute</p><p><strong>Trigger</strong> You cast an innate spell from a Lalafell heritage or ancestry feat.</p><hr /><p>The upwelling of innate magic refreshes your body. You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.EUADnYK5taZ00sM4]{Effect: Rejuvenating Magicks}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "rejuvenating-magicks",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lalafell"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.EUADnYK5taZ00sM4",
+      "name": "Effect: Rejuvenating Magicks"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "mINZPKmANJSRdDPR",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.XUNQV4oJdPVD7rvY",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "cgRVcaj9ZuTuGrER",
+  "_key": "!items!cgRVcaj9ZuTuGrER"
+}

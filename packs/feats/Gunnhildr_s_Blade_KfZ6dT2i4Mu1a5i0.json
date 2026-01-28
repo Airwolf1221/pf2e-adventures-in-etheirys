@@ -1,0 +1,127 @@
+{
+  "name": "Gunnhildr's Blade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The great queen of Bozja - Gunnhildr - introduced firearms and gunblades to your people in a time long before the arrival of Garlemald to the region, and they have become an intrinsic part of modern Hrothgar culture. You have taken to training with these weapons, and have developed a finely-honed skill with them.</p><p>You gain access to all uncommon weapons with the hrothgar trait. You have familiarity with weapons with the hrothgar trait plus @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]{Longswords} and firearms - for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</p><p>At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "definition": [
+          {
+            "or": [
+              {
+                "and": [
+                  "item:trait:hrothgar",
+                  "item:category:martial"
+                ]
+              },
+              "item:base:longsword",
+              "item:group:firearm"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "Martial Hrothgar Weapons",
+        "sameAs": "simple",
+        "slug": "martial-hrothgar-weapons"
+      },
+      {
+        "definition": [
+          {
+            "or": [
+              {
+                "and": [
+                  "item:trait:hrothgar",
+                  "item:category:advanced"
+                ]
+              },
+              "item:group:firearm"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "Advanced Hrothgar Weapons",
+        "sameAs": "martial",
+        "slug": "advanced-hrothgar-weapons"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              "item:trait:hrothgar",
+              "item:base:longsword",
+              "item:group:firearm"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "gunnhildrs-blade",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hrothgar"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "eKcIvogCUHHoQo18",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.KfZ6dT2i4Mu1a5i0",
+    "duplicateSource": "Item.RpiWz7ck8Me9A3ED",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "KfZ6dT2i4Mu1a5i0",
+  "_key": "!items!KfZ6dT2i4Mu1a5i0"
+}

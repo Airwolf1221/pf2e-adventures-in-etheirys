@@ -1,0 +1,86 @@
+{
+    "label": "Equipment",
+    "entries": {
+        "Gold Pieces": {
+            "name": "Golden Gil"
+        },
+        "Silver Pieces": {
+            "name": "Gil"
+        },
+        "Copper Pieces": {
+            "name": "Copper Gil"
+        },
+        "Platinum Pieces": {
+            "name": "Platinum Gil"
+        },
+        "Armor Potency (+1)": {
+            "name": "Battledance I"
+        },
+        "Armor Potency (+2)": {
+            "name": "Battledance II"
+        },
+        "Armor Potency (+3)": {
+            "name": "Battledance III"
+        },
+        "Mythic Armor Potency": {
+            "name": "Battledance IV"
+        },
+        "Weapon Potency (+1)": {
+            "name": "Heaven's Eye I"
+        },
+        "Weapon Potency (+2)": {
+            "name": "Heaven's Eye II"
+        },
+        "Weapon Potency (+3)": {
+            "name": "Heaven's Eye III"
+        },
+        "Mythic Weapon Potency": {
+            "name": "Heaven's Eye IV"
+        },
+        "Striking": {
+            "name": "Savage Aim I"
+        },
+        "Striking (Greater)": {
+            "name": "Savage Aim II"
+        },
+        "Striking (Major)": {
+            "name": "Savage Aim III"
+        },
+        "Mythic Striking": {
+            "name": "Savage Aim IV"
+        },
+        "Resilient": {
+            "name": "Savage Might I"
+        },
+        "Resilient (Greater)": {
+            "name": "Savage Might II"
+        },
+        "Resilient (Major)": {
+            "name": "Savage Might III"
+        },
+        "Mythic Resilient": {
+            "name": "Savage Might IV"
+        },
+        "Reinforcing Rune (Minor)": {
+            "name": "Tenacity I"
+        },
+        "Reinforcing Rune (Lesser)": {
+            "name": "Tenacity II"
+        },
+        "Reinforcing Rune (Moderate)": {
+            "name": "Tenacity III"
+        },
+        "Reinforcing Rune (Greater)": {
+            "name": "Tenacity IV"
+        },
+        "Reinforcing Rune (Major)": {
+            "name": "Tenacity V"
+        },
+        "Reinforcing Rune (Supreme)": {
+            "name": "Tenacity VI"
+        },
+        "Tiger Menuki": {
+            "name": "Slash All"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "iS8yjuiyAl5uqDlT",
+  "folder": "JhEEYaqC9iSMKskm",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Clever Improviser (Hyur)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You've learned how to handle situations when you're out of your depth. You gain the @UUID[Compendium.pf2e.feats-srd.Item.9jGaBxLUtevZYcZO]{Untrained Improvisation} general feat. In addition, you can attempt skill actions that normally require you to be trained, even if you are untrained.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.9jGaBxLUtevZYcZO"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "hyur"
+      ],
+      "otherTags": []
+    },
+    "slug": "clever-improviser-hyur",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.KcbSxOPYC5CUqbZQ",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 350000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!iS8yjuiyAl5uqDlT"
+}

@@ -1,0 +1,88 @@
+{
+  "_id": "8RiG3xaQmxTwOpuZ",
+  "folder": "65RB5WZY5X57mknj",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Cooperative Soul (Hyur)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You have developed a soul-deep bond with your comrades and maintain an even greater degree of cooperation with them. If you are at least an expert in the skill you are @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aiding}, when you roll a failure or critical failure to Aid a skill check, you get a success instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "criticalFailure": "to-success",
+          "failure": "to-success"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "action:aid",
+          {
+            "or": [
+              "proficiency:expert",
+              "proficiency:master",
+              "proficiency:legendary"
+            ]
+          }
+        ],
+        "selector": "skill-check"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "hyur"
+      ],
+      "otherTags": []
+    },
+    "slug": "cooperative-soul-hyur",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Z2EiYMtGoNnwW6Tk",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!8RiG3xaQmxTwOpuZ"
+}

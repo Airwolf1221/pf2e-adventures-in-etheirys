@@ -1,0 +1,70 @@
+{
+  "name": "Grand Arrow",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The greatest huntresses need not wait until their hunts are over to bask in the bounties of Etheirys. You draw an arrow (or other ammunition), whisper a short invocation over it, and then Strike with a ranged weapon. The arrow becomes a bolt of nature energy, changing its damage to your choice of spirit or earth and granting it the effects of the @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} materia.</p><p>When the arrow Strikes its target, it draws forth vines from below to wrap around the target's limbs, imposing a -10-foot circumstance penalty to its Speeds for [[/r 2d4 #rounds]]{2d4 rounds} or i@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilizing} it if the Strike was a critical hit. The target can untangle itself by spending an Interact action to break free.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "grand-arrow",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "viera"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "Ai4o95R5E9OeQWf6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.UPn7WAPt5LvteqCD",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "0WbjgyZdG5oLM2mt",
+  "_key": "!items!0WbjgyZdG5oLM2mt"
+}

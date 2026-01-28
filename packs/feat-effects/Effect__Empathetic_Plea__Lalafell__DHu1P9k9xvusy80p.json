@@ -1,0 +1,75 @@
+{
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "name": "Effect: Empathetic Plea (Lalafell)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.QPTiplzqLQuy8ayp]{Empathetic Plea}</p><p>You take a -2 circumstance penalty to damage on the triggering Strike and all its Strikes against the target. The penalty is -4 if an expert in Diplomacy, -6 if master, and -8 if legendary.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Advanced Player's Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "target:signature:{item|origin.signature}"
+        ],
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": "-2*(@origin.system.skills.diplomacy.rank)"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-empathetic-plea",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "DHu1P9k9xvusy80p",
+  "sort": 500000,
+  "_key": "!items!DHu1P9k9xvusy80p"
+}

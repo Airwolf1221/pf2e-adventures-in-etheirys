@@ -1,6 +1,6 @@
 {
-	"id": "pf2e-adventures-in-etheirys-content",
-	"title": "PF2e Adventures in Etheirys - Content",
+	"id": "pf2e-adventures-in-etheirys",
+	"title": "PF2e Adventures in Etheirys",
 	"version": "#{VERSION}#",
 	"url": "#{URL}#",
 	"manifest": "#{MANIFEST}#",
@@ -12,7 +12,7 @@
 		"verified": "13"
 	},
 	"esmodules": [
-		"scripts/module.js"
+		"scripts/config.js"
 	],
 	"relationships": {
 		"systems": [
@@ -26,15 +26,17 @@
 				}
 			}
 		],
-		"requires": [{
-			"id": "babele",
-			"name": "Babele",
-			"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-			"compatibility": {
-				"minimum": "2.7.5",
-				"verified": "2.7.5"
+		"requires": [
+			{
+				"id": "babele",
+				"name": "Babele",
+				"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+				"compatibility": {
+					"minimum": "2.7.5",
+					"verified": "2.7.5"
+				}
 			}
-		}]
+		]
 	},
 	"authors": [
 	{
@@ -433,15 +435,20 @@
           "aetheric-gunblade": "Aetheric Gunblade"
         },
         "damageTypes": {
-          "earth": {
+          "earth-ff": {
             "label": "Earth",
             "category": "energy",
             "icon": "fa-hill-rockslide"
           },
-          "water": {
+          "water-ff": {
             "label": "Water",
             "category": "energy",
             "icon": "fa-water"
+          },
+          "wind-ff": {
+            "label": "Wind",
+            "category": "energy",
+            "icon": "fa-wind"
           }
         },
         "weaponGroups": {
@@ -718,6 +725,7 @@
           "celestial": "Celestial",
           "sylvan": "Sylvan",
           "bozjan": "Bozjan",
+          "hyuran": "Hyuran",
           "ronso": "Ronso",
           "al-bhed": "Al Bhed",
           "garlean": "Garlean",

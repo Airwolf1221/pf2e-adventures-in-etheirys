@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "CiMlzh43jbZ42NWL",
+  "name": "Level 5",
+  "color": null,
+  "sorting": "a",
+  "_id": "2EvGEHn2x2E1O5XG",
+  "description": "",
+  "sort": -50000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!2EvGEHn2x2E1O5XG"
+}

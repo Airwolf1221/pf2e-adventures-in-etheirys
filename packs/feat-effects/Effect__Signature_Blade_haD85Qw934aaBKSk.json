@@ -1,0 +1,108 @@
+{
+  "name": "Effect: Signature Blade",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.YoEFsU1aUzzw5Zju]{Signature Blade}</p><p>The weapon chosen gains the unique trait, and you gain access to its critical specialization effect.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "choices": {
+          "includeHandwraps": true,
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "predicate": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ],
+        "property": "rarity",
+        "value": "unique"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "This is your Signature Blade, and can be summoned into your empty hand as a one action activity, provided it is unattended and within 1 mile. This is an @Localize[PF2E.TraitOccult] summoning effect."
+          }
+        ]
+      }
+    ],
+    "slug": "effect-signature-blade",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-blue-yellow.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "haD85Qw934aaBKSk",
+  "sort": 1200000,
+  "_key": "!items!haD85Qw934aaBKSk"
+}

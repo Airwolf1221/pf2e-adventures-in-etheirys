@@ -1,0 +1,73 @@
+{
+  "name": "Unyielding Ferocity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You resist death's clutches with supernatural vigor. When you use @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.jP4xLeESRWZu2N8Q]{Draconic Ferocity}, you gain temporary Hit Points equal to your level.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.9y41xJHGOl3N6Mth]{Effect: Unyielding Ferocity}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "unyielding-ferocity",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "au-ra"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Draconic Ferocity"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "Q3JCUTfweLZSp0gB",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.6JhHohdMLyjRBwos",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "wDXGtTjBkgEzRe9p",
+  "_key": "!items!wDXGtTjBkgEzRe9p"
+}

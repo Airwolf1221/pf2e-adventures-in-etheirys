@@ -1,0 +1,69 @@
+{
+  "_id": "pKBPjKUEv4nbU7W1",
+  "folder": "Za7eDGswUc7hw69t",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Sure Step",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Trigger</strong> A Large or larger enemy ends a move action adjacent to you.</p>\n<hr />\n<p>You are an expert at avoiding the lumbering footsteps of larger creatures. You Step to another space adjacent to the enemy.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "sure-step",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.l3PosipTLXANeoT8",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 650000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!pKBPjKUEv4nbU7W1"
+}

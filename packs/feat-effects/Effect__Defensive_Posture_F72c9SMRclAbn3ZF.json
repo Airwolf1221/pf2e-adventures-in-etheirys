@@ -1,0 +1,105 @@
+{
+  "name": "Effect: Defensive Posture",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.iILHNWCevPurupBa]{Defensive Posture}</p><p>You gain a +1 circumstance bonus to AC until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": 1,
+        "type": "circumstance"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Bludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Piercing",
+            "value": "piercing"
+          },
+          {
+            "label": "Slashing",
+            "value": "slashing"
+          }
+        ],
+        "flag": "fortified-frame",
+        "adjustName": false,
+        "prompt": "Choose a damage type",
+        "predicate": [
+          "feat:fortified-frame"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.fortified-frame}",
+        "value": "max(1,@actor.level/2)",
+        "predicate": [
+          "feat:fortified-frame"
+        ]
+      }
+    ],
+    "slug": "effect-defensive-posture",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "F72c9SMRclAbn3ZF",
+  "sort": 900000,
+  "_key": "!items!F72c9SMRclAbn3ZF"
+}

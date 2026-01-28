@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "D47hI2SXSGANKve3",
+  "name": "Viera",
+  "color": null,
+  "sorting": "m",
+  "_id": "m0t4QOknLSu2r4RT",
+  "description": "",
+  "sort": 900000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!m0t4QOknLSu2r4RT"
+}

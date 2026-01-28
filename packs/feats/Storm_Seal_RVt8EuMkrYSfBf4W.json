@@ -1,0 +1,139 @@
+{
+  "name": "Storm Seal",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've learned to bind esoteric materials together into an intricate seal in order to focus the power of the seas. You gain a @UUID[Compendium.pf2e-adventures-in-etheirys-content.equipment.Item.sunEPnboj3tGRPEx]{Storm Seal}: a magic item of light Bulk with a level equal to your level with the @Localize[PF2E.TraitDivine] trait. You (and only you) can use the storm seal to cast magic from the storms. If your seal is lost or destroyed, you can make a replacement during your daily preparations; if you do so, the previous seal disintegrates. Further feats might grant you additional activations of your storm seal, but you can never have more than 3 activations per day, no matter how many such feats you have. The DC for spells you cast with your storm seal is your class DC or spell DC, whichever is higher.</p><p>You can cast the 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} spell by activating your storm seal.</p><p><strong>Activation</strong> Interact; <strong>Frequency</strong> once per day; <strong>Effect</strong> You cast one of the spells contained in your storm seal. Activating the seal takes the spell's normal number of actions. You can also Activate the seal to cast a cantrip you've gained from an ancestry feat; this activation doesn't count against the seal's uses per day.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.equipment.Item.sunEPnboj3tGRPEx"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "equipment",
+        "mode": "add",
+        "predicate": [
+          "item:slug:storm-seal"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "**Activate** (Interact)"
+          },
+          {
+            "text": "**Frequency** once per day",
+            "predicate": [
+              {
+                "nor": [
+                  "feat:greater-storm-seal",
+                  "feat:master-storm-seal"
+                ]
+              }
+            ]
+          },
+          {
+            "text": "**Frequency** twice per day",
+            "predicate": [
+              "feat:greater-storm-seal",
+              {
+                "not": "feat:master-storm-seal"
+              }
+            ]
+          },
+          {
+            "text": "**Frequency** three times per day",
+            "predicate": [
+              "feat:master-storm-seal"
+            ]
+          },
+          {
+            "text": "**Effect** You cast one of the spells contained in your storm seal. Activating the seal takes the spell's normal number of actions. You can also Activate the seal to cast a cantrip you've gained from an ancestry feat; this activation doesn't count against the seal's uses per day."
+          },
+          {
+            "text": "**Spells Available**"
+          },
+          {
+            "text": "**1st-rank:** @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind}"
+          },
+          {
+            "text": "**3rd-rank:** @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]{Wall of Wind}",
+            "predicate": [
+              "feat:greater-storm-seal"
+            ]
+          },
+          {
+            "text": "**5th-rank:** @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{@Localize[AIE.SpellNames.3rd.LightningBolt]}",
+            "predicate": [
+              "feat:master-storm-seal"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "storm-seal",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "roegadyn"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magical Adept"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "OVZMXhy3Wb71vFDv",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.dHs9Fm3Z3OsSwDng",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "RVt8EuMkrYSfBf4W",
+  "_key": "!items!RVt8EuMkrYSfBf4W"
+}

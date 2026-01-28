@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "D47hI2SXSGANKve3",
+  "name": "Hyur",
+  "color": null,
+  "sorting": "m",
+  "_id": "xiF332WcJHaO27Kv",
+  "description": "",
+  "sort": 500000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!xiF332WcJHaO27Kv"
+}

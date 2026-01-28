@@ -1,0 +1,69 @@
+{
+  "name": "Dravania's Bane",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have learned to prepare your weapons in ways that makes them devastatingly powerful against dragons. You can spend 1 hour working with a weapon to make it particularly devastating to dragons. The weapon gains the @UUID[Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf]{Bane} property materia, keyed to Dragons, until your next daily preparations.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "dravanias-bane",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "elezen"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "1IAYDwYYxX2b9lW8",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.bJtlqM3vq7hceQ2O",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Qvf6zK9NpIuYQ1ST",
+  "_key": "!items!Qvf6zK9NpIuYQ1ST"
+}

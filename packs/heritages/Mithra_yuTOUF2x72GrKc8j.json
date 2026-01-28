@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Prerequisites</strong> You are female</p><hr /><p>You are more bestial than the typical Miqo’te, and your kind is said to even predate modern miqo'te as their ancestors. That extra bit of cat in your physiology comes with its own advantages. You gain a claw unarmed attack that deals 1d6 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p>",
+      "value": "<p><strong>Access </strong>You are female</p><hr /><p>You are more bestial than the typical Miqo’te, and your kind is said to even predate modern miqo'te as their ancestors. That extra bit of cat in your physiology comes with its own advantages. You gain a claw unarmed attack that deals 1d6 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,6 +19,8 @@
     },
     "rules": [
       {
+        "baseType": "claw",
+        "range": null,
         "key": "Strike",
         "category": "unarmed",
         "damage": {
@@ -29,12 +31,13 @@
           }
         },
         "group": "brawling",
-        "label": "Mithra Claws",
+        "label": "Mithra Claw",
         "traits": [
           "agile",
           "finesse",
           "unarmed"
-        ]
+        ],
+        "slug": "claw"
       }
     ],
     "slug": "mithra",

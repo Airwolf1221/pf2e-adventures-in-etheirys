@@ -1,0 +1,127 @@
+{
+  "name": "Magitek Munitions",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You are familiar with the latest and most cutting edge magitek weaponry, and are trained in its use. You gain access to the @UUID[Compendium.pf2e.equipment-srd.Item.oUaeLZLK7WfolqBb]{Axe Musket}, @UUID[Compendium.pf2e.equipment-srd.Item.10J0WjnfgRvriLXc]{Gun Sword}, @UUID[Compendium.pf2e.equipment-srd.Item.zHJEzmoybIfX1LaV]{Hammer Gun}, and @UUID[Compendium.pf2e.equipment-srd.Item.LDHGjtQHRM8bA8ZZ]{Rapier Pistol}. You have familiarity with weapons with the aforementioned weapons, plus bombs and firearms - for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</p><p>At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</p><p>At 9th level, you gain access to all uncommon combination weapons for which you meet the other requirements to use, and are familiar with all of them.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "definition": [
+          {
+            "not": "item:category:advanced"
+          },
+          {
+            "or": [
+              "item:base:axe-musket",
+              "item:base:gun-sword",
+              "item:base:hammer-gun",
+              "item:base:rapier-pistol",
+              "item:group:firearm",
+              "item:trait:bomb"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "Martial Magitek Munitions",
+        "sameAs": "simple",
+        "slug": "simple-magitek-munitions"
+      },
+      {
+        "definition": [
+          "item:category:advanced",
+          {
+            "or": [
+              "item:group:firearm",
+              "item:trait:bomb"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "Advanced Magitek Munitions",
+        "sameAs": "martial",
+        "slug": "advanced-magitek-munitions"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              "item:base:axe-musket",
+              "item:base:gun-sword",
+              "item:base:hammer-gun",
+              "item:base:rapier-pistol",
+              "item:trait:bomb",
+              "item:group:firearm"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "magitek-munitions",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hyur"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "ExoZF2eq4KcNevTh",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.5xRF44glhh1bg54r",
+    "duplicateSource": "Item.HVN5Pg2lxayP2yOR",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "5xRF44glhh1bg54r",
+  "_key": "!items!5xRF44glhh1bg54r"
+}

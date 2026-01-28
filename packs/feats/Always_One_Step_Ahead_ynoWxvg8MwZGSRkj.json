@@ -1,0 +1,77 @@
+{
+  "_id": "ynoWxvg8MwZGSRkj",
+  "folder": "x1Xpl6wKR7yY8xmV",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Always One Step Ahead",
+  "system": {
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You successfully use Stealth to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} and become @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} from all your current foes, or use Stealth to @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} and become undetected to all your current foes.</p>\n<hr />\n<p>You slip from your adversaries' notice and appear to be somewhere else. You become @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} for 1 minute or until you take a hostile action, whichever comes first. Choose a location within 10 feet of you. Until your invisibility ends, you appear to be hidden in that location to anyone trying to find you. If the searcher gets clear evidence that you're not there, they no longer think you're hidden there, but they don't discover your actual location.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "legendary Stealth"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "always-one-step-ahead",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.7YvOqcdp9Z0RALMp",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!ynoWxvg8MwZGSRkj"
+}

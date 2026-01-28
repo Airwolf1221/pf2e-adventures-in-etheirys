@@ -1,0 +1,74 @@
+{
+  "name": "Effect: No Quarter",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.6cZtKvr45Oehpdqg]{No Quarter}</p><p>You gain a number of temporary hit points equal to your level at the start of each of your turns for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@actor.level",
+        "events": {
+          "onCreate": true,
+          "onTurnStart": true
+        }
+      }
+    ],
+    "slug": "effect-no-quarter",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "qoeNq701ljt9sumX",
+  "sort": 1400000,
+  "_key": "!items!qoeNq701ljt9sumX"
+}

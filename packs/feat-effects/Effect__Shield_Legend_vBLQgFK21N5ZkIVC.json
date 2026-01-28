@@ -1,0 +1,86 @@
+{
+  "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+  "name": "Effect: Shield Legend",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.tBtN9OkGRN1hjaFS]{Shield Legend}</p><p>For the next minute, your shield's hardness, HP and BT increases by 50% of its maximum value.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 9
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "multiply",
+        "predicate": [
+          "item:equipped"
+        ],
+        "property": "hardness",
+        "value": 1.5
+      },
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "multiply",
+        "predicate": [
+          "item:equipped"
+        ],
+        "property": "hp-max",
+        "value": 1.5
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-undying-rage",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "vBLQgFK21N5ZkIVC",
+  "sort": 0,
+  "_key": "!items!vBLQgFK21N5ZkIVC"
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "OGW5vT2nf5Whjs6H",
+  "folder": "Za7eDGswUc7hw69t",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Aetheric Font",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>The magic within you provides increased energy you can use to focus. You regain 1 Focus Point, up to your usual maximum.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "focus pool"
+        },
+        {
+          "value": "at least one innate spell from a lalafell heritage or ancestry feat that shares a tradition with at least one of your focus spells"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "aetheric-font",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.NBDwiz1NDioc2eMP",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!OGW5vT2nf5Whjs6H"
+}

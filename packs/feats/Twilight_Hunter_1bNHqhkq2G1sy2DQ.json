@@ -1,0 +1,78 @@
+{
+  "_id": "1bNHqhkq2G1sy2DQ",
+  "folder": "lP2VLzusU0MQRB2w",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Twilight Hunter",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Your eyes can see through darkness with visual acuity akin to that possessed by most extraplanar beings. You gain darkvision.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "senses": {
+        "darkvision": {
+          "range": null,
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
+        }
+      },
+      "proficiencies": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "viera"
+      ],
+      "otherTags": []
+    },
+    "slug": "twilight-hunter",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.akCO62yBCJLjjCZJ",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 875000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!1bNHqhkq2G1sy2DQ"
+}

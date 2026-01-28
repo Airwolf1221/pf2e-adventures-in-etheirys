@@ -1,0 +1,70 @@
+{
+  "name": "Effect: Victorious Vigor (Au Ra)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.RzvMdGznKu22u1Z4]{Victorious Vigor}</p><p>You gain temporary Hit Points equal to your Constitution modifier until the end of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@actor.abilities.con.mod"
+      }
+    ],
+    "slug": "effect-victorious-vigor-au-ra",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/life/cross-area-circle-green-white.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "MVwuxKiFhwzUcQEA",
+  "sort": 1800000,
+  "_key": "!items!MVwuxKiFhwzUcQEA"
+}

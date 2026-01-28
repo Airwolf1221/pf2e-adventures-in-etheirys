@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your body is exceptionally conducive to the flow of aether, and manipulating magic is in your blood. Choose one common cantrip from the black magic spell list. You can cast this spell as a black magic innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by studying magical texts and scrolls; this is a 10-minute activity that has the concentrate trait.</p>",
+      "value": "<p>Your body is exceptionally conducive to the flow of aether, and manipulating magic is in your blood. Choose one common cantrip from the @Localize[PF2E.TraitArcane] spell list. You can cast this spell as a @Localize[PF2E.TraitArcane] innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by studying magical texts and scrolls; this is a 10-minute activity that has the concentrate trait.</p>",
       "gm": ""
     },
     "publication": {

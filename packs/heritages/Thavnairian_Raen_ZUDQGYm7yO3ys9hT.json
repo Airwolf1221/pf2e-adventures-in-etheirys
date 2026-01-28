@@ -1,5 +1,5 @@
 {
-  "name": "Thanairian Raen",
+  "name": "Thavnairian Raen",
   "type": "heritage",
   "effects": [],
   "system": {
@@ -36,7 +36,7 @@
         "uuid": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
       }
     ],
-    "slug": "thanairian-raen",
+    "slug": "thavnairian-raen",
     "traits": {
       "otherTags": [],
       "value": [],

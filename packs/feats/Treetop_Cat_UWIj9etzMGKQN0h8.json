@@ -1,0 +1,75 @@
+{
+  "_id": "UWIj9etzMGKQN0h8",
+  "folder": "pK10nFf5NXVXaWMx",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Treetop Cat",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You can extend your claws to aid you in climbing. You gain a climb Speed of 10 feet.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 10
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "miqote"
+      ],
+      "otherTags": []
+    },
+    "slug": "treetop-cat",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.TlMSleKR8Bh0EuSW",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 675000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!UWIj9etzMGKQN0h8"
+}

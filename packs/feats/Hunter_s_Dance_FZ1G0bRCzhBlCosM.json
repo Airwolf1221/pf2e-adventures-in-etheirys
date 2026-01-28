@@ -1,0 +1,69 @@
+{
+  "_id": "FZ1G0bRCzhBlCosM",
+  "folder": "dSb0wodU6XLuynhK",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Hunter's Dance",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You have a habit of always being in the way when other creatures attempt to move. Attempt an @Check[acrobatics|defense:reflex] check against an adjacent creature's Reflex DC.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.GWDxcHuOxdrDUNM8]{Effect: Hunter's Dance}</p><hr /><p><strong>Critical Success</strong> The target creature gains a -2 circumstance penalty to Reflex saves and is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p><p><strong>Success</strong> The target creature gains a -2 circumstance penalty to Reflex saves until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "miqote"
+      ],
+      "otherTags": []
+    },
+    "slug": "catfolk-dance",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Iqv8qj7ym63YjexN",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!FZ1G0bRCzhBlCosM"
+}

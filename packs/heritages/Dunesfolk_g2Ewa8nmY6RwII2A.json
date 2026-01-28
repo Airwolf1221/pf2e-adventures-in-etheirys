@@ -33,6 +33,12 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
       }
     ],
     "slug": "dunesfolk",

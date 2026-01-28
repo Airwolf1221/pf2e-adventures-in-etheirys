@@ -1,0 +1,108 @@
+{
+  "_id": "qsPCaAyu7Y82ZiGZ",
+  "folder": "mINZPKmANJSRdDPR",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Center of Gravity",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Whether keeping your balance or climbing, your feet easily find purchase. If you roll a success on an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} or an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} when you attempt to Balance or Climb.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "predicate": [
+          "action:balance"
+        ],
+        "selector": "acrobatics",
+        "text": "PF2E.SpecificRule.Halfling.SureFeet.BalanceNote",
+        "title": "{item|name}"
+      },
+      {
+        "key": "Note",
+        "predicate": [
+          "action:climb"
+        ],
+        "selector": "athletics",
+        "text": "PF2E.SpecificRule.Halfling.SureFeet.ClimbNote",
+        "title": "{item|name}"
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "action:balance"
+        ],
+        "selector": "acrobatics"
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "action:climb"
+        ],
+        "selector": "athletics"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "center-of-gravity",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.ehvHedIwPcxq9cRt",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!qsPCaAyu7Y82ZiGZ"
+}

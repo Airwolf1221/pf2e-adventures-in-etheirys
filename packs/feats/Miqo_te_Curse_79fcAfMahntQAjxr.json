@@ -1,0 +1,75 @@
+{
+  "_id": "79fcAfMahntQAjxr",
+  "folder": "t5G1GcTRUL2VOphJ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Miqo'te Curse",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A creature within 30 feet you can see would succeed at a save.</p><hr /><p>You hiss a spiteful curse. The target rerolls the triggering saving throw and use the worse result.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "miqote",
+        "misfortune",
+        "occult"
+      ],
+      "otherTags": []
+    },
+    "slug": "miqote-curse",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.fX5FybM93HIQRRd1",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!79fcAfMahntQAjxr"
+}

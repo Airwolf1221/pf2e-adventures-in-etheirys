@@ -1,0 +1,70 @@
+{
+  "name": "Effect: Proud to the End",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.LaYKOZ2kc3AnN3WN]{Proud to the End}</p><p>The triggering ally gains temporary Hit Points equal to their Constitution modifier until the end of their next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@actor.abilities.con.mod"
+      }
+    ],
+    "slug": "effect-proud-to-the-end",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ZLYePc0A4MYPnxX6",
+  "sort": 1500000,
+  "_key": "!items!ZLYePc0A4MYPnxX6"
+}

@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You are said to be a descendant of the ancient Cetra people - known on Etheirys as the ancient Ivalicians. Little is known of your forebears, but you maintain an innate connection to magic.</p><p>You become trained in either Arcana, Nature, Religion, or Occultism. Additionally, you treat all innate spells of the tradition tied to the skill you chose (Arcana - Black Magic, Nature - Blue Magic, Religion - White Magic, Occultism - Arcanima) as scaling off of your class' primary spellcasting attribute, if it has one. If not, innate spells scale off of a mental attribute of your choice.</p>",
+      "value": "<p>You are said to be a descendant of the ancient Cetra people - known on Etheirys as the ancient Ivalicians. Little is known of your forebears, but you maintain an innate connection to magic.</p><p>You become trained in either Arcana, Nature, Religion, or Occultism. Additionally, you treat all innate spells of the tradition tied to the skill you chose (Arcana - @Localize[PF2E.TraitArcane], Nature - @Localize[PF2E.TraitPrimal], Religion - @Localize[PF2E.TraitDivine], Occultism - @Localize[PF2E.TraitOccult]) as scaling off of your class' primary spellcasting attribute, if it has one. If not, innate spells scale off of a mental attribute of your choice.</p>",
       "gm": ""
     },
     "publication": {

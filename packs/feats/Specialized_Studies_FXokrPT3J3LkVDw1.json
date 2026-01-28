@@ -1,0 +1,81 @@
+{
+  "_id": "FXokrPT3J3LkVDw1",
+  "folder": "mINZPKmANJSRdDPR",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Specialized Studies",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You might have a flighty nature, but when a topic captures your attention, you dive into it headfirst. You gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} feat and the @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} feat for the chosen Lore. As Lalafellin obsessions can come and go quickly, you can retrain Specialized Studies to a different Lore subcategory in 1 day of downtime.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      },
+      {
+        "key": "GrantItem",
+        "preselectChoices": {
+          "assurance": "lore"
+        },
+        "uuid": "Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "specialized-studies",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.mxhGH4FVYXJwb0BC",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 962500,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!FXokrPT3J3LkVDw1"
+}

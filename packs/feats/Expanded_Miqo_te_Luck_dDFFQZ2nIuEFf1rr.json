@@ -1,0 +1,73 @@
+{
+  "_id": "dDFFQZ2nIuEFf1rr",
+  "folder": "pK10nFf5NXVXaWMx",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Expanded Miqo'te Luck",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You are luckier even than most catfolk. You can trigger @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.7Jr6rKuIpWuAjaQz]{Miqo'te Luck} when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws.</p><p>You still can use Miqo'te Luck only once per day.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Miqo'te Luck"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Advanced Player's Guide",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "miqote"
+      ],
+      "otherTags": []
+    },
+    "slug": "expanded-miqote-luck",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.69h9D3syUYLgIPr7",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!dDFFQZ2nIuEFf1rr"
+}

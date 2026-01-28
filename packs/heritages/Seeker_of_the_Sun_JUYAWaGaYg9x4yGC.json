@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your people’s quick wit and eager attitude has led to an insatiable curiosity, particularly towards magic and the unknown. You can cast @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} as an innate black magic cantrip heightened to half your level, rounded up. You also become trained in Occultism and gain a +1 circumstance bonus to Occultism checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about creatures that originated outside of your home plane.</p>",
+      "value": "<p>Your people’s quick wit and eager attitude has led to an insatiable curiosity, particularly towards magic and the unknown. You can cast @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} as an innate @Localize[PF2E.TraitPrimal] cantrip heightened to half your level, rounded up. You also become trained in Occultism and gain a +1 circumstance bonus to Occultism checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about creatures that originated outside of your home plane.</p>",
       "gm": ""
     },
     "publication": {

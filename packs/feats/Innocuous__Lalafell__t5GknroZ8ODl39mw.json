@@ -1,0 +1,85 @@
+{
+  "_id": "t5GknroZ8ODl39mw",
+  "folder": "mINZPKmANJSRdDPR",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Innocuous (Lalafell)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>People often assume that Lalafells are cute and harmless, and your people count on this assumption of innocence. You gain the trained proficiency rank in Deception (or another skill of your choice, if you're already trained in Deception). If you fail a Deception check to Create a Diversion, humanoid creatures aren't aware that you were trying to trick them unless you get a critical failure on your roll.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Character Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.deception.rank",
+        "value": 1
+      },
+      {
+        "key": "Note",
+        "predicate": [
+          "action:create-a-diversion"
+        ],
+        "selector": "deception",
+        "text": "PF2E.SpecificRule.Halfling.Innocuous.Note",
+        "title": "{item|name}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "lalafell"
+      ],
+      "otherTags": []
+    },
+    "slug": "innocuous-lalafell",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.E1sjYRb4zsZVrzrN",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 650000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!t5GknroZ8ODl39mw"
+}

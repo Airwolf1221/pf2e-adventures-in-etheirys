@@ -1,0 +1,70 @@
+{
+  "img": "icons/magic/life/cross-area-circle-green-white.webp",
+  "name": "Effect: Rejuvenating Magicks",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.cgRVcaj9ZuTuGrER]{Rejuvenating Magicks}</p><p>You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-end",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Advanced Player's Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "max(1,@actor.level/2)"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-rejuvenating-magicks",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "EUADnYK5taZ00sM4",
+  "sort": 600000,
+  "_key": "!items!EUADnYK5taZ00sM4"
+}

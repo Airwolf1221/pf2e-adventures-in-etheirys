@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "VoRuk7F0nnCO57i6",
+  "name": "Level 13",
+  "color": null,
+  "sorting": "a",
+  "_id": "cujoAHaH7ymH2iXR",
+  "description": "",
+  "sort": 362500,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!cujoAHaH7ymH2iXR"
+}

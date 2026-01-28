@@ -1,0 +1,107 @@
+{
+  "name": "Suspicions of Heresy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Many Elezen are wary of those who would seek to tear down their kingdoms from within. You've been trained to resist such manipulation, gaining a +2 circumstance bonus to saving throws against effects that would make you @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}, such as @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate}, and to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} when trying to determine if a creature is under the influence of such an effect. When you roll a success on a saving throw against such an effect, you get a critical success instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "inflicts:controlled"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "predicate": [
+          "action:sense-motive",
+          "suspicions-of-heresy"
+        ],
+        "type": "circumstance",
+        "selector": [
+          "perception"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "saving-throw"
+        ],
+        "title": "{item|name}",
+        "outcome": [
+          "success"
+        ],
+        "text": "When you roll a success on a saving throw against an effect that would make you controlled, you get a critical success instead.",
+        "predicate": [
+          "inflicts:controlled"
+        ]
+      }
+    ],
+    "slug": "suspicions-of-heresy",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "elezen"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "0q24szjzgGQsNntC",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.98cYh0GRwCb38OEQ",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "sSXbXm2e4nizas6H",
+  "_key": "!items!sSXbXm2e4nizas6H"
+}

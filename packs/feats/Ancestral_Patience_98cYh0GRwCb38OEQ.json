@@ -1,0 +1,126 @@
+{
+  "name": "Ancestral Patience",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You work at a pace born from longevity that enhances your thoroughness. You can voluntarily spend twice as much time as normal on a Perception check or skill check that takes 1 action or longer. If you do, you gain a +2 circumstance bonus to the check and don't automatically reduce your degree of success on a natural 1 (you get a critical failure only if your result is 10 lower than the DC). For example, you could get these benefits if you spent 2 actions to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}, which normally takes 1 action. You can get these benefits during exploration by taking twice as long exploring as normal, or in downtime by spending twice as much downtime.</p><p>The GM might determine a situation doesn't grant you a benefit if a delay would be directly counterproductive to your success, such as a tense negotiation with an impatient creature.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "domain": "check",
+        "key": "RollOption",
+        "option": "ancestral-patience",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception",
+          "skill-check"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "ancestral-patience"
+        ]
+      },
+      {
+        "adjustment": {
+          "criticalFailure": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "ancestral-patience",
+          "check:total:natural:1",
+          {
+            "gte": [
+              "check:total:delta",
+              -9
+            ]
+          }
+        ],
+        "selector": "skill-check"
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "perception",
+          "skill-check"
+        ],
+        "title": "{item|name}",
+        "predicate": [
+          "ancestral-patience",
+          "check:total:natural:1",
+          {
+            "not": {
+              "gte": [
+                "check:total",
+                "check:total:delta"
+              ]
+            }
+          }
+        ],
+        "text": "You don’t automatically reduce your degree of success on a natural 1 (you get a critical failure only if your result is 10 lower than the DC)."
+      }
+    ],
+    "slug": "ancestral-patience",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "elezen"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "0q24szjzgGQsNntC",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.8L4rsjTiLtsFBS0j",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "98cYh0GRwCb38OEQ",
+  "_key": "!items!98cYh0GRwCb38OEQ"
+}

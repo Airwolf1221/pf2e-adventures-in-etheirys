@@ -1,0 +1,69 @@
+{
+  "name": "Void Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have a strange, almost inherent connection to the Void. You gain the @UUID[Compendium.pf2e.spells-srd.Item.hoR6w8BqX2F35Tdx]{Blistering Invective}, @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness}, and @UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{@Localize[AIE.SpellNames.2nd.BlazingBolt]} spells as 2nd-rank innate @Localize[PF2E.TraitArcane] spells, each usable once per day.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "void-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "au-ra"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "Q3JCUTfweLZSp0gB",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.6JhHohdMLyjRBwos",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "wIDzqRO34p0OuGtH",
+  "_key": "!items!wIDzqRO34p0OuGtH"
+}

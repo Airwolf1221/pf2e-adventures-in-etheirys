@@ -1,0 +1,80 @@
+{
+  "name": "Effect: Master at Arms (Aura)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.VAxqoFWqwlxkXnUK]{Master at Arms}</p><p>Hrothgar allies adjacent to you and at least one other hrothgar ally also gain the bonuses from your Form Ranks! feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "level": 13,
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.3ZJDfJCBjCQfFTS1",
+            "affects": "allies",
+            "predicate": [
+              "target:trait:hrothgar"
+            ],
+            "includesSelf": false
+          }
+        ]
+      }
+    ],
+    "slug": "effect-master-at-arms-aura",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "E5qKcHSTZRizzOGO",
+  "sort": 200000,
+  "_key": "!items!E5qKcHSTZRizzOGO"
+}

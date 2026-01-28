@@ -1,0 +1,73 @@
+{
+  "_id": "2hcMVM3xvVWaLWpL",
+  "folder": "yRuaYygCf8PvNPyA",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Undying Rage",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You resist death's clutches with supernatural vigor. When you use Warrior's Ferocity, you gain temporary Hit Points equal to your level.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.Km1sc2p8S45KRBx3]{Effect: Undying Rage}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warrior's Ferocity"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "roegadyn"
+      ],
+      "otherTags": []
+    },
+    "slug": "undying-rage",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.zZOycr00XDVTKuXa",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 537500,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!2hcMVM3xvVWaLWpL"
+}

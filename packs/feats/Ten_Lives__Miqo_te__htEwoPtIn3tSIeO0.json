@@ -1,0 +1,73 @@
+{
+  "_id": "htEwoPtIn3tSIeO0",
+  "folder": "cSFuphJAc6451sQX",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Ten Lives (Miqo'te)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>When your character would die, you can attempt a @Check[flat|dc:17]. On a success, you're instead reduced to 0 HP and a @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} value 1 less than what would normally kill you (typically dying 3). This doesn't change the result for any other creature affected.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Inured to Doom"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "miqote"
+      ],
+      "otherTags": []
+    },
+    "slug": "ten-lives-miqote",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.I7S8Snq8FlrBHmbf",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!htEwoPtIn3tSIeO0"
+}

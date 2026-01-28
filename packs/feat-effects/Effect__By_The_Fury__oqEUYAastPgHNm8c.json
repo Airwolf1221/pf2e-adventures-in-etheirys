@@ -1,0 +1,95 @@
+{
+  "name": "Effect: By The Fury!",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.ZaReoX3QpSAr5Rwd]{By The Fury!}</p><p>On your next Strike before the end of your turn, you gain a +2 circumstance bonus to your attack roll and ignore your target's concealed condition, as well as your target's lesser, standard, and greater cover.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "removeAfterRoll": true,
+        "selector": [
+          "attack"
+        ],
+        "value": 2,
+        "type": "circumstance"
+      },
+      {
+        "key": "fc-TreatAs",
+        "condition": "concealed",
+        "mode": "downgrade",
+        "treatAs": "observed",
+        "slug": "by-the-fury"
+      },
+      {
+        "key": "PF2eVisionerEffect",
+        "operations": [
+          {
+            "type": "overrideCover",
+            "state": "none",
+            "direction": "to",
+            "targets": "targeted",
+            "preventAutoCover": true,
+            "source": "by-the-fury"
+          }
+        ]
+      }
+    ],
+    "slug": "effect-by-the-fury",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 17
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/skills/melee/blade-tips-triple-bent-white.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "oqEUYAastPgHNm8c",
+  "sort": 1100000,
+  "_key": "!items!oqEUYAastPgHNm8c"
+}

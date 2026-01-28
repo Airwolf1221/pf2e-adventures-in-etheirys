@@ -1,0 +1,206 @@
+{
+  "name": "Othardian Weaponry",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You are trained in the native weaponry of your homeland. You gain access to the weaponry of your homeland - the @UUID[Compendium.pf2e.equipment-srd.Item.Y1dkRsRd1Z7Jf2y6]{Katana}, @UUID[Compendium.pf2e.equipment-srd.Item.YOpopjoWgU7bkmwh]{Wakizashi} and @UUID[Compendium.pf2e.equipment-srd.Item.KtarUneAx0hibGtW]{Nodachi}, as well as the @UUID[Compendium.pf2e.equipment-srd.Item.LxqA4VC4np2RLkQb]{Butchering Axe} as a Xaela, or the @UUID[Compendium.pf2e.equipment-srd.Item.NufKswitJjxDCX8f]{Naginata} as a Raen. For the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</p><p>At 5th level, whenevver you gain a critical hit with one of these weapons, you get its critical specialization effect.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:base:katana",
+              "item:base:wakizashi"
+            ]
+          }
+        ],
+        "label": "Martial Othardian Weapons",
+        "sameAs": "simple",
+        "slug": "martial-othardian-weapons",
+        "predicate": [
+          {
+            "not": {
+              "or": [
+                "self:heritage:hingan-raen",
+                "self:heritage:thavnairian-raen"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:base:nodachi"
+            ]
+          }
+        ],
+        "label": "Advanced Othardian Weapons",
+        "sameAs": "martial",
+        "slug": "advanced-othardian-weapons",
+        "predicate": [
+          {
+            "not": {
+              "or": [
+                "self:heritage:dawn-throne-xaela",
+                "self:heritage:steppe-xaela"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:base:katana",
+              "item:base:wakizashi",
+              "item:base:naginata"
+            ]
+          }
+        ],
+        "label": "Martial Othardian Weapons",
+        "sameAs": "simple",
+        "slug": "martial-othardian-weapons",
+        "predicate": [
+          {
+            "or": [
+              "self:heritage:hingan-raen",
+              "self:heritage:thavnairian-raen"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:base:nodachi",
+              "item:base:butchering-axe"
+            ]
+          }
+        ],
+        "label": "Advanced Othardian Weapons",
+        "sameAs": "martial",
+        "slug": "advanced-othardian-weapons",
+        "predicate": [
+          {
+            "or": [
+              "self:heritage:dawn-throne-xaela",
+              "self:heritage:steppe-xaela"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              "item:base:katana",
+              "item:base:wakizashi",
+              "item:base:nodachi",
+              {
+                "and": [
+                  {
+                    "or": [
+                      "self:heritage:dawn-throne-xaela",
+                      "self:heritage:steppe-xaela"
+                    ]
+                  },
+                  "item:base:butchering-axe"
+                ]
+              },
+              {
+                "and": [
+                  {
+                    "or": [
+                      "self:heritage:hingan-raen",
+                      "self:heritage:thavnairian-raen"
+                    ]
+                  },
+                  "item:base:naginata"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "othardian-weaponry",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "au-ra"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You come from a region with access to Othardian weapons"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "rfK4H8OXBHwt5SVZ",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.XLVdd1S8kMGvfd3N",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "wNJmkg72TqcqHqzX",
+  "_key": "!items!wNJmkg72TqcqHqzX"
+}

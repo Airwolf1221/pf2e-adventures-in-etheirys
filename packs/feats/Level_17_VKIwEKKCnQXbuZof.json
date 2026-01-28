@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "CiMlzh43jbZ42NWL",
+  "name": "Level 17",
+  "color": null,
+  "sorting": "a",
+  "_id": "VKIwEKKCnQXbuZof",
+  "description": "",
+  "sort": 50000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!VKIwEKKCnQXbuZof"
+}

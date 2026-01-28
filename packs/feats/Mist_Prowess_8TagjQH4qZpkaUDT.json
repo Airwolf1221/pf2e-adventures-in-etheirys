@@ -1,0 +1,73 @@
+{
+  "name": "Mist Prowess",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>While all @UUID[Compendium.pf2e-adventures-in-etheirys-content.heritages.Item.QLbzGdw8lzEcmRSi]{mist-frenzied} viera are sensitive to the potency of mist, you are particularly so. You gain a 1st rank @Localize[PF2E.TraitOccult] innate spell of your choice that you can cast once per day.</p><p>Additionally, you can change your heritage cantrip to a different one from the same list once per day by refocusing yourself and meditating to draw in Mist; this is a 10-minute activity that has the concentrate trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "mist-prowess",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "viera"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mist Sensitivity"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "odHp3pnQ4IO1vstP",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.WBNs1wcORZtjYuHc",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "8TagjQH4qZpkaUDT",
+  "_key": "!items!8TagjQH4qZpkaUDT"
+}

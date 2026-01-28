@@ -1,0 +1,69 @@
+{
+  "name": "Al Bhed Scavenger",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You're used to tinkering with spare bits of machina when you have some free time. You treat all uncommon gadgets as common, and learn the formulas for three gadgets of your level or lower. When you gain a level, you gain the formula for an additional gadget of your level or lower.</p><p>Additionally, you may use Crafting to obtain reagents from machina sources and gain them as though the machina's source was 1 level higher.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "al-bhed-scavenger",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hyur"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "ExoZF2eq4KcNevTh",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HVN5Pg2lxayP2yOR",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "1mkQWfI1vX7V8g83",
+  "_key": "!items!1mkQWfI1vX7V8g83"
+}

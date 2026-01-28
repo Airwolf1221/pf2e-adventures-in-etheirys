@@ -1,0 +1,84 @@
+{
+  "name": "Vieran Knowledge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The Viera’s insular nature means that their culture for a long while was all you ever knew. If you critically fail a check to Recall Knowledge about Viera, Vieran society, or Vieran history, you get a failure instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "skill-check"
+        ],
+        "predicate": [
+          "action:recall-knowledge"
+        ],
+        "text": "If you critically fail a check to Recall Knowledge about Viera, Vieran society, or Vieran history, you get a failure instead.",
+        "outcome": [
+          "criticalFailure"
+        ],
+        "title": "{item|name}"
+      }
+    ],
+    "slug": "vieran-knowledge",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "viera"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "lP2VLzusU0MQRB2w",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.oYXnmikp75HZ9hBr",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "afz1XBKnfyid526T",
+  "_key": "!items!afz1XBKnfyid526T"
+}

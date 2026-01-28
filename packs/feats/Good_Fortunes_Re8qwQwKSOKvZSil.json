@@ -1,0 +1,84 @@
+{
+  "_id": "Re8qwQwKSOKvZSil",
+  "folder": "cSFuphJAc6451sQX",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Good Fortunes",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You survive danger with surprising regularity. You can use @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.7Jr6rKuIpWuAjaQz]{Miqo'te Luck} once per hour, rather than once per day.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Miqo'te Luck"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:miqote-luck"
+        ],
+        "property": "frequency-per",
+        "value": "PT1H"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "miqote"
+      ],
+      "otherTags": []
+    },
+    "slug": "reliable-luck",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.QgNo1s6nVbKPU4St",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!Re8qwQwKSOKvZSil"
+}

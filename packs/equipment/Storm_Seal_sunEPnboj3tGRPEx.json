@@ -1,0 +1,91 @@
+{
+  "name": "Storm Seal",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A magic item of light Bulk with a level equal to your level with the @Localize[PF2E.TraitDivine] trait. You (and only you) can use the storm seal to cast magic from the storms. If your seal is lost or destroyed, you can make a replacement during your daily preparations; if you do so, the previous seal disintegrates.</p><p>Further feats might grant you additional activations of your storm seal, but you can never have more than 3 activations per day, no matter how many such feats you have. The DC for spells you cast with your storm seal is your class DC or spell DC, whichever is higher.</p>"
+    },
+    "rules": [],
+    "slug": "storm-seal",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "img": "icons/magic/lightning/bolt-blue.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "sunEPnboj3tGRPEx",
+  "sort": 0,
+  "_key": "!items!sunEPnboj3tGRPEx"
+}

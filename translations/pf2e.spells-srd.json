@@ -1,0 +1,13 @@
+{
+    "label": "Spells",
+    "mapping": {
+        "name": {
+            "path": "name",
+            "converter": "localizeFF2eNames"
+        },
+        "description": {
+            "path": "system.description.value",
+            "converter": "localizeFF2eDescriptions"
+        }
+    }
+}

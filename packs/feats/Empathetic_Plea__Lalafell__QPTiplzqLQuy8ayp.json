@@ -1,0 +1,77 @@
+{
+  "_id": "QPTiplzqLQuy8ayp",
+  "folder": "mINZPKmANJSRdDPR",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Empathetic Plea (Lalafell)",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Trigger</strong> You are attacked by a creature that you haven't yet acted hostile toward. You must use this reaction before the creature rolls its attack.</p><hr /><p>The way you cringe or use those puppy-dog eyes you've been practicing elicits an empathetic response in the attacker. Attempt a @Check[diplomacy|defense:will] check against your attacker's Will DC.</p><hr /><p><strong>Critical Success</strong> The creature pulls its attack, wasting its action, and can't use hostile actions against you until the beginning of its next turn.</p><p><strong>Success</strong> The creature takes a -2 circumstance penalty to damage on the triggering Strike and all its Strikes against you until the beginning of its next turn. The penalty is -4 if you're an expert in Diplomacy, -6 if you're a master, and -8 if you're legendary.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.DHu1P9k9xvusy80p]{Effect: Empathetic Plea (Lalafell)}</p><p><strong>Failure</strong> The creature's attack is unaffected, and the creature is temporarily immune to your Empathic Pleas for 24 hours.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Diplomacy"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "auditory",
+        "emotion",
+        "lalafell",
+        "mental",
+        "visual"
+      ],
+      "otherTags": []
+    },
+    "slug": "empathetic-plea-lalafell",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.MS53Ds75BT379ZFm",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 450000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!QPTiplzqLQuy8ayp"
+}

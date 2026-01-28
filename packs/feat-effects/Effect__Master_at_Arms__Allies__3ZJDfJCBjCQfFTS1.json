@@ -1,0 +1,101 @@
+{
+  "name": "Effect: Master at Arms (Allies)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.E5qKcHSTZRizzOGO]{Master at Arms (Aura)}</p><p>When you are adjacent to at least two hrothgar allies, you gain a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 on Reflex saves against area effects.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "form-ranks",
+        "toggleable": true,
+        "label": "Adjacent to 2+ Hrothgar allies",
+        "priority": 51
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "saving-throw"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "form-ranks"
+        ],
+        "hideIfDisabled": true,
+        "label": "Form Ranks!"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "reflex"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "form-ranks",
+          "area-effect"
+        ],
+        "hideIfDisabled": true,
+        "label": "Form Ranks!"
+      }
+    ],
+    "slug": "effect-master-at-arms-allies",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+  "folder": "vnkS2EMfnbBLoJzZ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "3ZJDfJCBjCQfFTS1",
+  "sort": 100000,
+  "_key": "!items!3ZJDfJCBjCQfFTS1"
+}

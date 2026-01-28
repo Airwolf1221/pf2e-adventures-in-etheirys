@@ -1,0 +1,85 @@
+{
+  "_id": "iCut9aSMx5rqoL6a",
+  "folder": "odHp3pnQ4IO1vstP",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Rabbit Reflexes",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>You are cautious and light-footed, to ensure that the hunter does not become the hunted. You gain a +2 circumstance bonus to Perception checks attempted as initiative rolls. Additionally, if your initiative roll result is tied with that of an opponent, you go first, regardless of whether you rolled Perception or not.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Character Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "perception"
+        ],
+        "selector": "initiative",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.initiative.tiebreakPriority",
+        "value": 0
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "viera"
+      ],
+      "otherTags": []
+    },
+    "slug": "rabbit-reflexes",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.4M36jGbeSDfZFM38",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "sort": 737500,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_key": "!items!iCut9aSMx5rqoL6a"
+}

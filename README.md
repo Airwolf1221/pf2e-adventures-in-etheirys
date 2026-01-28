@@ -1,1 +1,1 @@
-Actual content implementation for my PF2e total conversion for the FF series - and FF14 in particular - in preparation for the campaign featuring it.
+The Complete Implementation for my PF2e total conversion for the FF series - and FF14 in particular - in preparation for the campaign featuring it.

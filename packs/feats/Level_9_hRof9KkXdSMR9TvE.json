@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "MTmoGFFP1tQ9Hix7",
+  "name": "Level 9",
+  "color": null,
+  "sorting": "a",
+  "_id": "hRof9KkXdSMR9TvE",
+  "description": "",
+  "sort": 250000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!hRof9KkXdSMR9TvE"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Master at Arms",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You can assemble a formation even with members of ancestries that lack the hrothgar’s military discipline, and you can extend these benefits to your hrothgar allies.</p><p>When you are adjacent to at least two humanoid allies, you gain the benefits of @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.FOpB57jf3LDOdtOn]{Form Ranks!}, even if they aren’t hrothgar allies. Hrothgar allies adjacent to you and at least one other hrothgar ally also gain the bonuses from your Form Ranks! feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "form-ranks",
+        "toggleable": true,
+        "label": "Adjacent to 2+ allies",
+        "priority": 51
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.E5qKcHSTZRizzOGO",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "master-at-arms",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hrothgar"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "cujoAHaH7ymH2iXR",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.XLVdd1S8kMGvfd3N",
+    "duplicateSource": "Item.lrABBI7IkeYJyzE0",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "VAxqoFWqwlxkXnUK",
+  "_key": "!items!VAxqoFWqwlxkXnUK"
+}
