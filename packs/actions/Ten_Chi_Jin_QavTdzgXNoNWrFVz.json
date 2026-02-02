@@ -1,0 +1,59 @@
+{
+  "name": "Ten-Chi-Jin",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You rapidly prepare to utilise your ninjutsu. For the rest of this turn, your ninjutsu spells all cost 1 less action to cast, to a minimum of 1 action. You cannot use this benefit with the @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.AqgdRUGvFqVnpKIb]{Goka Mekkyaku} and @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.0w8WhVann5BfPzFi]{Hyosho Ranryu} ninjutsu spells.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "ten-chi-jin",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "rogue"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": "tNCRAvsYpd62IcFW",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "QavTdzgXNoNWrFVz",
+  "sort": 0,
+  "_key": "!items!QavTdzgXNoNWrFVz"
+}

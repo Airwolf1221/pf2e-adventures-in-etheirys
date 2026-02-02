@@ -1,0 +1,296 @@
+{
+  "name": "Spell Effect: Horror Form",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.GQ03uUDoN4tNqY8P]{Horror Form}</p><p>You transform into the shape of a horrific monstrosity, assuming a Huge battle form. When you Cast this Spell, choose Galian Beast, Death Gigas, or Hellmasker. While in this form, you gain the beast trait. You can Dismiss the spell. You gain the following statistics and abilities regardless of which battle form you choose:</p><ul><li>AC = 22 + your level. Ignore your armor's check penalty and Speed reduction.</li><li>25 temporary Hit Points.</li><li>Darkvision.</li><li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +31, and you use the listed damage. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead.</li><li>Athletics modifier of +33, unless your own is higher.</li></ul><p>You gain specific abilities based on the monster you choose:</p><ul><li><p><strong>Death Gigas</strong></p><ul><li>Speed 40 feet, burrow 40 feet;</li><li><strong>Melee</strong> <span class=\"action-glyph\">1</span> gigadunk (reach 10 feet, trip), <strong>Damage</strong> 2d12+20 bludgeoning;</li><li><strong>Ranged</strong> <span class=\"action-glyph\">1</span> live wire (agile, range increment 40 feet), <strong>Damage</strong> 4d8+15 lightning;</li><li><strong>Arcing Lightning</strong> (aura, blue, lightning) 20 feet. You gain an aura of electricity that extends out from you. A creature that enters or ends its turn within the aura takes @Damage[2d6[electricity]] damage. A creature can take this damage only once per turn. You can activate or deactivate this aura with a Sustain action.</li></ul></li></ul><ul><li><p><strong>Galian Beast</strong></p><ul><li>Speed 60 feet;</li><li><strong>Melee</strong> <span class=\"action-glyph\">1</span> bite (reach 15 feet), <strong>Damage</strong> 2d12+20 piercing;</li><li><strong>Melee</strong> <span class=\"action-glyph\">1</span> claw (agile, reach 15 feet), <strong>Damage</strong> 2d8+12 slashing;</li><li><strong>Wall Dive</strong> <span class=\"action-glyph\">2</span> (move) You extend your claws and Stride. Each creature you're adjacent to at any point during your movement takes 4d8+10 slashing damage (@Check[reflex|against:spell|basic] against your spell DC).</li></ul></li></ul><ul><li><p><strong>Hellmasker</strong></p><ul><li>Speed 40 feet;</li><li><strong>Melee</strong> <span class=\"action-glyph\">1</span> splattercombo (reach 15 feet), <strong>Damage</strong> 2d8+15 slashing plus 2d6 persistent bleed;</li><li><strong>Inexorable</strong> You automatically recover from the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} conditions at the end of each of your turns. You're also immune to being @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and ignore difficult terrain and greater difficult terrain.</li></ul></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Death Gigas",
+            "value": "death-gigas"
+          },
+          {
+            "label": "Galian Beast",
+            "value": "galian-beast"
+          },
+          {
+            "label": "Hellmasker",
+            "value": "hellmasker"
+          }
+        ],
+        "flag": "horror-form",
+        "prompt": "PF2E.SpecificRule.Prompt.Form",
+        "rollOption": "horror-form"
+      },
+      {
+        "key": "BattleForm",
+        "overrides": {
+          "armorClass": {
+            "modifier": "22 + @actor.level"
+          },
+          "senses": {
+            "darkvision": {}
+          },
+          "size": "lg",
+          "skills": {
+            "athletics": {
+              "modifier": 33
+            }
+          },
+          "speeds": {
+            "land": 40,
+            "burrow": 40
+          },
+          "strikes": {
+            "gigadunk": {
+              "category": "unarmed",
+              "damage": {
+                "damageType": "bludgeoning",
+                "dice": 2,
+                "die": "d12",
+                "modifier": 20
+              },
+              "modifier": 31,
+              "traits": [
+                "unarmed",
+                "reach-10",
+                "trip"
+              ],
+              "label": "Gigadunk",
+              "img": "systems/pf2e/icons/unarmed-attacks/blade.webp"
+            },
+            "live-wire": {
+              "category": "unarmed",
+              "damage": {
+                "damageType": "electricity",
+                "dice": 4,
+                "die": "d8",
+                "modifier": 15
+              },
+              "modifier": 31,
+              "range": {
+                "increment": 40
+              },
+              "traits": [
+                "unarmed",
+                "agile"
+              ],
+              "label": "Live Wire",
+              "img": "systems/pf2e/icons/unarmed-attacks/lighting-lash.webp"
+            }
+          },
+          "tempHP": 25,
+          "traits": [
+            "beast"
+          ]
+        },
+        "predicate": [
+          "horror-form:death-gigas"
+        ]
+      },
+      {
+        "key": "BattleForm",
+        "overrides": {
+          "armorClass": {
+            "modifier": "22 + @actor.level"
+          },
+          "senses": {
+            "darkvision": {}
+          },
+          "size": "lg",
+          "skills": {
+            "athletics": {
+              "modifier": 33
+            }
+          },
+          "speeds": {
+            "land": 60
+          },
+          "strikes": {
+            "jaws": {
+              "baseType": "jaws",
+              "category": "unarmed",
+              "damage": {
+                "damageType": "piercing",
+                "dice": 2,
+                "die": "d12",
+                "modifier": 20
+              },
+              "modifier": 31,
+              "traits": [
+                "unarmed",
+                "reach-15"
+              ],
+              "label": "PF2E.Weapon.Base.jaws"
+            },
+            "claw": {
+              "baseType": "claw",
+              "category": "unarmed",
+              "damage": {
+                "damageType": "slashing",
+                "dice": 2,
+                "die": "d8",
+                "modifier": 12
+              },
+              "modifier": 31,
+              "traits": [
+                "unarmed",
+                "agile",
+                "reach-15"
+              ],
+              "label": "PF2E.Weapon.Base.claw"
+            }
+          },
+          "tempHP": 25,
+          "traits": [
+            "beast"
+          ]
+        },
+        "predicate": [
+          "horror-form:galian-beast"
+        ]
+      },
+      {
+        "key": "BattleForm",
+        "overrides": {
+          "armorClass": {
+            "modifier": "22 + @actor.level"
+          },
+          "immunities": [
+            {
+              "type": "immobilized"
+            }
+          ],
+          "senses": {
+            "darkvision": {}
+          },
+          "size": "lg",
+          "skills": {
+            "athletics": {
+              "modifier": 33
+            }
+          },
+          "speeds": {
+            "land": 40
+          },
+          "strikes": {
+            "splattercombo": {
+              "category": "unarmed",
+              "damage": {
+                "damageType": "slashing",
+                "dice": 2,
+                "die": "d8",
+                "modifier": 15
+              },
+              "modifier": 31,
+              "traits": [
+                "unarmed",
+                "reach-15"
+              ],
+              "label": "Splattercombo",
+              "img": "systems/pf2e/icons/unarmed-attacks/tendril.webp"
+            }
+          },
+          "tempHP": 25,
+          "traits": [
+            "beast"
+          ]
+        },
+        "predicate": [
+          "horror-form:hellmasker"
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "category": "persistent",
+        "damageType": "bleed",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "predicate": [
+          "horror-form:hellmasker"
+        ],
+        "selector": "splattercombo-damage"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "horror-form:death-gigas"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.787Kpc7mQE1w6Mwp"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "horror-form:galian-beast"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.2GW7TjRg4u538Sz7"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.O0rXW3WgkUjCUwdS",
+        "predicate": [
+          "horror-form:hellmasker"
+        ]
+      }
+    ],
+    "slug": "spell-effect-horror-form",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "vJY8uszwIGSk6xjJ",
+  "sort": 775000,
+  "_key": "!items!vJY8uszwIGSk6xjJ"
+}

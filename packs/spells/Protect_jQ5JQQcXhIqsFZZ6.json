@@ -1,0 +1,80 @@
+{
+  "name": "Protect",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You ward a creature against physical harm. The target gains a +1 status bonus to their AC.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.iHs6mSbbITgY0LFo]{Spell Effect: Protect}</p><hr /><p><strong>Heightened (3rd)</strong> You can choose to have the benefits also affect all your allies in a 10-foot emanation around the target.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.aXsxU7YCwnM9aul1]{Spell Effect: Protect (Aura)}</p><p><strong>Heightened (4th)</strong> The status bonus to AC increases to +2.</p>"
+    },
+    "rules": [],
+    "slug": "protect",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "water"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "folder": "LjxLMJcaeBumoPp8",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "jQ5JQQcXhIqsFZZ6",
+  "sort": 200000,
+  "_key": "!items!jQ5JQQcXhIqsFZZ6"
+}

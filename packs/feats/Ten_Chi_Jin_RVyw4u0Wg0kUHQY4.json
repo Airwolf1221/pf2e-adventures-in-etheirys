@@ -1,0 +1,82 @@
+{
+  "name": "Ten Chi Jin",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have reached the pinnacle of ninjutsu knowledge. You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.0w8WhVann5BfPzFi]{Hyosho Ranryu} and @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.AqgdRUGvFqVnpKIb]{Goka Mekkyaku} ninjutsu spells, as well as the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.QavTdzgXNoNWrFVz]{Ten-Chi-Jin} action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.QavTdzgXNoNWrFVz"
+      }
+    ],
+    "slug": "ten-chi-jin",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "rogue"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Kassatsu"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.C7qC68pQrft12UIC",
+      "name": "Stance: Blitz Stance"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "tNCRAvsYpd62IcFW",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.mY0pLMhQ5JurLLlT",
+    "duplicateSource": "Item.Vodstes1gaLgwF6J",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 600000,
+  "_id": "RVyw4u0Wg0kUHQY4",
+  "_key": "!items!RVyw4u0Wg0kUHQY4"
+}

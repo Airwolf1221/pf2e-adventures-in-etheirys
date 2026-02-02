@@ -1,0 +1,77 @@
+{
+  "name": "Big Brawl",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Range</strong> 60 feet; <strong>Area</strong> @Template[type:burst|distance:15]</p><p><strong>Defense</strong> Will</p><hr /><p>You incite your enemies into a brawl with each other. Each enemy in the Limit Break’s area of effect must attempt a @Check[type:will|against:limit-dc] save.</p><hr /><p><strong>Critical Success</strong> The target is off-guard for one round.</p><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}, and @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused 2}.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused 3}, and takes @Damage[3d12[bludgeoning]] damage, bypassing resistances and immunities.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "big-brawl",
+    "traits": {
+      "otherTags": [
+        "limit-break-3"
+      ],
+      "value": [
+        "limit-break",
+        "mythic",
+        "saboteur"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "GST3qXEmEVPthABY",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.oT2Qh7qZWUU4NMWO",
+    "duplicateSource": "Item.F0yhkSBniWjgcKib",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 200000,
+  "_id": "x1AXXdf5dOhhNgSd",
+  "_key": "!items!x1AXXdf5dOhhNgSd"
+}

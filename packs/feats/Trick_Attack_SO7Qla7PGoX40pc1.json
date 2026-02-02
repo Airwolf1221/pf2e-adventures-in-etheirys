@@ -1,0 +1,77 @@
+{
+  "name": "Trick Attack",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You just scored a critical hit against an @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creature</p><hr /><p>Your precise attack opens up a weak spot for your allies to exploit. Until the beginning of your next turn, your allies deal additional precision damage to the target equal to half your sneak attack dice, rounded down (for example, with 3d6 as your sneak attack die, allies would deal 1d6).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "trick-attack",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "rogue"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trick Attack"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.C7qC68pQrft12UIC",
+      "name": "Stance: Blitz Stance"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "tNCRAvsYpd62IcFW",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.mY0pLMhQ5JurLLlT",
+    "duplicateSource": "Item.Vodstes1gaLgwF6J",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 700000,
+  "_id": "SO7Qla7PGoX40pc1",
+  "_key": "!items!SO7Qla7PGoX40pc1"
+}

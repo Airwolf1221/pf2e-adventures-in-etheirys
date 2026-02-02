@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You are a pure-blooded Garlean, gifted with magiteknical insight, but completely incapable of wielding magic. However, your body's resistance to working with aether helps you to shrug off hostile magic. You become an expert in Crafting.</p><p>However, you struggle to use any magic. You cannot gain Focus Points nor Spell Slots, no matter your class or background. You cannot use the Cast a Spell activity or perform actions with the Magical trait unless you use a magical item or tool to provide the required aether for the magic for you.</p><p>You can still invest magical items and Activate magical items which do not require the consumption of Focus Points or Spell Slots, you can also Activate magical items which do not require the Cast a Spell activity.</p><p>You gain the @UUID[Compendium.pf2e-adventures-in-etheirys-content.actions.Item.Mm6Bqm3G3YTKNhPx]{Garlean Fervor} reaction.</p>",
+      "value": "<p>You are a pure-blooded Garlean, gifted with magiteknical insight, but completely incapable of wielding magic. However, your body's resistance to working with aether helps you to shrug off hostile magic. You become an expert in Crafting.</p><p>However, you struggle to use any magic. You cannot gain Focus Points nor Spell Slots, no matter your class or background. You cannot use the Cast a Spell activity or perform actions with the Magical trait unless you use a magical item or tool to provide the required aether for the magic for you.</p><p>You can still invest magical items and Activate magical items which do not require the consumption of Focus Points or Spell Slots, you can also Activate magical items which do not require the Cast a Spell activity.</p><p>You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.Mm6Bqm3G3YTKNhPx]{Garlean Fervor} reaction.</p>",
       "gm": ""
     },
     "publication": {
@@ -26,7 +26,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.actions.Item.Mm6Bqm3G3YTKNhPx"
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.Mm6Bqm3G3YTKNhPx"
       }
     ],
     "slug": "garlean",
@@ -38,7 +38,7 @@
     "ancestry": {
       "name": "Hyur",
       "slug": "hyur",
-      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestries.Item.titw1DxUQSSXVitz"
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.ancestries.Item.titw1DxUQSSXVitz"
     }
   },
   "img": "icons/skills/ranged/cannon-barrel-firing-yellow.webp",

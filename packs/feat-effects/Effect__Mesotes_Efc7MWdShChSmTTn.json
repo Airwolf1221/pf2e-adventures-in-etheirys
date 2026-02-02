@@ -1,0 +1,71 @@
+{
+  "name": "Effect: Mesotes",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.PG9AgjZSeCLiZW2L]{Mesotes (Aura)}</p><p>You have resistance 25 against all damage from enemies outside of the barrier.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": 25
+      }
+    ],
+    "slug": "effect-mesotes",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 15
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Efc7MWdShChSmTTn",
+  "sort": 2400000,
+  "_key": "!items!Efc7MWdShChSmTTn"
+}

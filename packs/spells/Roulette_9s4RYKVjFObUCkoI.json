@@ -1,0 +1,90 @@
+{
+  "folder": "zaM7vUFWgbE2EOui",
+  "name": "Roulette",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You leave matters of life and death to the whims of fate. Randomly select one creature in the spell's area of effect. That creature becomes @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying 1}. If the creature is immune to Death effects or is too high level to be affected by Incapacitation effects, it instead takes @Damage[(6+2*(floor((@item.level -6)/2)))d10[void]] shadow damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d10, and the range of the burst increases by 5 feet.</p>"
+    },
+    "rules": [],
+    "slug": "roulette",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "death",
+        "incapacitation",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "emanation",
+      "value": 30
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {},
+      "area": 5
+    }
+  },
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "9s4RYKVjFObUCkoI",
+  "sort": 0,
+  "_key": "!items!9s4RYKVjFObUCkoI"
+}

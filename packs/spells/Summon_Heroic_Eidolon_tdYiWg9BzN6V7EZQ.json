@@ -1,0 +1,88 @@
+{
+  "name": "Summon Heroic Eidolon",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create an astral incarnation of a significant character from a novel, historical work, or religious parable. The eidolon is Medium, regardless of the size the character is described as in the inspiring work. When you Cast the Spell, decide what theme the eidolon is, choosing from Hero, Ally, or Villain. The Eidolon appears in an unoccupied space within range. When you first cast the spell and the first time each turn you choose to Sustain, you can direct the Eidolon to Stride or take action granted by its theme. The heroic eidolon has a Speed of 25 feet and an AC of 22. Its saving throw modifiers, Perception modifier, and skill modifiers are +12. It has 90 HP.</p><ul><li><p><strong>Ally</strong> The eidolon takes the form of a recognizable support character. Its thematic action is to grant an adjacent ally [[/r (1+@item.level)d4 #Temporary HP]]{4d4 temporary hit points}, which last for 1 round.</p></li><li><p><strong>Hero</strong> The eidolon takes the form of a legendary hero. Its thematic action is to attempt a melee Strike using your spell attack roll to make the attack, and dealing @Damage[((1+@item.level)d6+6)[mental]] damage on a hit.</p></li><li><p><strong>Villain</strong> The eidolon takes the form of a notorious villain. Its thematic action is to harry and mock an adjacent target. The target must succeed at a Will save or become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} (@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} on a critical failure) until the end of your next turn.</p></li></ul><hr /><p><strong>Heightened (+1)</strong> The eidolon's AC, saving throw modifiers, skill modifiers, and Perception modifier increases by 3, and its HP increases by 30. A heroic eidolon's damage increases by 1d6. An ally eidolon's temporary Hit Points granted increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": "summon-heroic-eidolon",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      },
+      "passive": {
+        "statistic": "ac"
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/control/control-influence-crown-gold.webp",
+  "folder": "3pkTpcyvInUsI0DW",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "tdYiWg9BzN6V7EZQ",
+  "sort": 200000,
+  "_key": "!items!tdYiWg9BzN6V7EZQ"
+}

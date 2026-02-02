@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You gain a claw unarmed attack that deals 1d4 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p><hr /><p><strong>Special</strong> If you are a @UUID[Compendium.pf2e-adventures-in-etheirys-content.heritages.Item.yuTOUF2x72GrKc8j]{Mithra} Miqo'te, you instead increase your claw damage die size to d8.</p>",
+      "value": "<p>You gain a claw unarmed attack that deals 1d4 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p><hr /><p><strong>Special</strong> If you are a @UUID[Compendium.pf2e-adventures-in-etheirys.heritages.Item.yuTOUF2x72GrKc8j]{Mithra} Miqo'te, you instead increase your claw damage die size to d8.</p>",
       "gm": ""
     },
     "publication": {

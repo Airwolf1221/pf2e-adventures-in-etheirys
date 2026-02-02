@@ -1,0 +1,80 @@
+{
+  "name": "Shatterheart",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Area</strong> @Template[type:emanation|distance:20]</p><p><strong>Defense</strong> Fortitude</p><hr /><p>You chill the hearts and bodies of your foes, dragging them down to absolute zero. Enemies within the area of effect must make a @Check[type:fortitude|against:limit-dc] save. This ice damage negates all resistances and immunities to ice.</p><hr /><p><strong>Critical Success</strong> The target takes @Damage[10[cold]] damage, and the effect on them ends.</p><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and takes @Damage[40[cold]] damage, and the effect on them ends.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} and takes @Damage[80[cold]] damage. On the next turn, you may spend an action to force the target to make another save, and afterwards the effect on them ends.</p><p><strong>Critical Failure</strong> The target is reduced to 0 hit points.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "lb4",
+    "traits": {
+      "otherTags": [
+        "limit-break-4"
+      ],
+      "value": [
+        "cold",
+        "death",
+        "incapacitation",
+        "limit-break",
+        "mythic",
+        "ravager"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "utDf1iyEOVi4hNr8",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.hfF6n4IrUC9ggJFf",
+    "duplicateSource": "Item.dCcr3RQKZI6iDtcW",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 100000,
+  "_id": "icJJG7ooP5TGzszu",
+  "_key": "!items!icJJG7ooP5TGzszu"
+}

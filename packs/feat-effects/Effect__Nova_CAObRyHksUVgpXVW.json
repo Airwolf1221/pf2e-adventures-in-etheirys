@@ -1,0 +1,78 @@
+{
+  "name": "Effect: Nova",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.vvwKz6pBwUDJCjcy]{Nova}</p><p>You gain weakness 10 to all elemental damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Weakness",
+        "type": [
+          "fire",
+          "cold",
+          "electricity",
+          "water-ff",
+          "wind-ff",
+          "earth-ff"
+        ],
+        "value": 10
+      }
+    ],
+    "slug": "effect-nova",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 15
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/fire/beam-jet-stream-spiral-yellow.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "CAObRyHksUVgpXVW",
+  "sort": 3200000,
+  "_key": "!items!CAObRyHksUVgpXVW"
+}

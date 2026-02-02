@@ -3,7 +3,7 @@
   "name": "Effect: Shield Legend",
   "system": {
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.tBtN9OkGRN1hjaFS]{Shield Legend}</p><p>For the next minute, your shield's hardness, HP and BT increases by 50% of its maximum value.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.tBtN9OkGRN1hjaFS]{Shield Legend}</p><p>For the next minute, your shield's hardness, HP and BT increases by 50% of its maximum value.</p>",
       "gm": ""
     },
     "duration": {
@@ -13,7 +13,7 @@
       "value": 1
     },
     "level": {
-      "value": 9
+      "value": 17
     },
     "publication": {
       "license": "ORC",

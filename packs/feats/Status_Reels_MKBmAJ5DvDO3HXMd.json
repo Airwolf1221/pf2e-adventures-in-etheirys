@@ -1,0 +1,77 @@
+{
+  "name": "Status Reels",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><hr /><p>You don’t know exactly what poisons you’ve laced your attacks with, but that just makes it harder to defend against, right? Make a Strike against an enemy within range of your weapon. On a hit, in addition to its normal effects, you roll [[/r (1 * @actor.flags.pf2e.limit-rank)d6]] and consult the table below.</p><ul><li>@Damage[1d6[persistent,poison]]</li><li>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}</li><li>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}</li><li>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}</li><li>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}</li><li>@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}</li></ul><p>The target takes a number of status effects equal to the results of the collected rolls. If you roll two or more of the same status effect, the effect of that status also spreads to another target of your choice within 30 feet of the original target for each additional status past the first. If you roll more dice of the same result than there are legal targets within range, you may reroll the excess results, but you must take the second result, even if those targets are wasted.</p><p>If your duplicate effect is Blinded, you instead spread all rolled effects to another target within 30 feet of the original target, rather than just the duplicate effects.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "status-reels",
+    "traits": {
+      "otherTags": [
+        "limit-break-2"
+      ],
+      "value": [
+        "limit-break",
+        "mythic",
+        "saboteur"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "GST3qXEmEVPthABY",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.mTDJWpKyo2OYGJdX",
+    "duplicateSource": "Item.gfix88b6GqQrISZE",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 300000,
+  "_id": "MKBmAJ5DvDO3HXMd",
+  "_key": "!items!MKBmAJ5DvDO3HXMd"
+}

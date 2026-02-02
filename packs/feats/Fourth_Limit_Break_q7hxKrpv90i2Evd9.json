@@ -1,0 +1,98 @@
+{
+  "name": "Fourth Limit Break",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain your final limit break.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "or": [
+                "item:tag:limit-break-1",
+                "item:tag:limit-break-2",
+                "item:tag:limit-break-3",
+                "item:tag:limit-break-4"
+              ]
+            },
+            "item:trait:limit-break",
+            {
+              "or": [
+                "item:trait:{actor|flags.pf2e.first-limit-style}",
+                "item:trait:{actor|flags.pf2e.second-limit-style}"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "prompt": "Select a Limit Break action",
+        "flag": "limit-break-4"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.limit-break-4}"
+      }
+    ],
+    "slug": "fourth-limit-break",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "VQt5jm2CbDhmlJPR",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "q7hxKrpv90i2Evd9",
+  "sort": 200000,
+  "_key": "!items!q7hxKrpv90i2Evd9"
+}

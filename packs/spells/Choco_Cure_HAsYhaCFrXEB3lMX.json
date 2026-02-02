@@ -1,0 +1,104 @@
+{
+  "folder": "LjxLMJcaeBumoPp8",
+  "name": "Choco Cure",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Taking a cue from a chocobo’s healing capabilities, you surround a creature in a healing aura. You restore 1d4 hit points to the creature, and they gain fast healing 1 for the spell's duration. If the target is undead, you deal that amount of vitality damage to it with a basic Fortitude save, and it doesn't get fast healing.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.f1wf0UDnM2n0Rsao]{Spell Effect: Choco Cure}</p><hr /><p><strong>Heightened (+1)</strong> The healing or damage increases by 1d4, and the fast healing increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "choco-cure",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing living creature or 1 undead creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "wF2KfBwSj7FEpUJn": {
+        "formula": "1d4",
+        "kinds": [
+          "damage",
+          "healing"
+        ],
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "wF2KfBwSj7FEpUJn": "1d4"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "HAsYhaCFrXEB3lMX",
+  "sort": 0,
+  "_key": "!items!HAsYhaCFrXEB3lMX"
+}

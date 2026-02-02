@@ -24,7 +24,10 @@
         "value": 10,
         "predicate": [
           {
-            "not": "self:heritage:wildwood-elezen"
+            "nor": [
+              "self:heritage:wildwood-elezen",
+              "self:heritage:rava"
+            ]
           }
         ]
       },
@@ -32,7 +35,12 @@
         "key": "BaseSpeed",
         "value": "@actor.system.attributes.speed.total",
         "predicate": [
-          "self:heritage:wildwood-elezen"
+          {
+            "or": [
+              "self:heritage:wildwood-elezen",
+              "self:heritage:rava"
+            ]
+          }
         ],
         "selector": "climb"
       }

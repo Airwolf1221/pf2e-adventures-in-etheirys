@@ -1,0 +1,105 @@
+{
+  "name": "Zenith Destiny",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain the zenith ability of your mythic destiny, as below.</p><ul><li><strong>Freedom</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.p2FaYlAwIVp1t93F]{Unstoppable Idea}</li><li><strong>Restoration</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.8ZtIQyWaOKh0ZPCi]{Elemental Lord}</li><li><strong>Magister</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.5PM8gPTAKeFCokne]{Power Overwhelming}</li><li><strong>Muse</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.GJb56rV9Od9rDs7Z]{Renaissance Being}</li><li><strong>Warrior</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.Q80G8gV2p3E8nrkM]{Warrior of Light}</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.p2FaYlAwIVp1t93F",
+        "predicate": [
+          "feat:destiny-of-freedom"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feat:destiny-of-restoration"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.8ZtIQyWaOKh0ZPCi"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feat:destiny-of-the-magister"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.5PM8gPTAKeFCokne"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feat:destiny-of-the-muse"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.GJb56rV9Od9rDs7Z"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feat:destiny-of-the-warrior"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.Q80G8gV2p3E8nrkM"
+      }
+    ],
+    "slug": "zenith-destiny",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "VQt5jm2CbDhmlJPR",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "S5ZKPvFiOEHrT4A3",
+  "sort": 150000,
+  "_key": "!items!S5ZKPvFiOEHrT4A3"
+}

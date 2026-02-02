@@ -1,0 +1,78 @@
+{
+  "name": "Effect: The End",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.fTHlZtNryMjVVmV4]{The End}</p><p>You gain resistance to all damage equal to your level and are immune to any mental and emotion effects.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": "@actor.level"
+      },
+      {
+        "key": "Immunity",
+        "type": [
+          "emotion",
+          "mental"
+        ]
+      }
+    ],
+    "slug": "effect-the-end",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 3,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/control/debuff-chains-ropes-net-white.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "xJIld2LDomUeNjS3",
+  "sort": 1500000,
+  "_key": "!items!xJIld2LDomUeNjS3"
+}

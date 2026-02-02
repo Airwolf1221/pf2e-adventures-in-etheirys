@@ -1,0 +1,121 @@
+{
+  "name": "Effect: Meteodrive (Effect)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.k5HBsZ6DS3vYfsFs]{Meteodrive}</p><p>You suffer a penalty to your Speeds for 1 round.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Critical Success",
+            "value": 5
+          },
+          {
+            "label": "Success",
+            "value": 10
+          },
+          {
+            "label": "Failure",
+            "value": 20
+          },
+          {
+            "label": "Critical Failure",
+            "value": "criticalFailure"
+          }
+        ],
+        "flag": "successGrade",
+        "prompt": "What degree of success did the target get?",
+        "rollOption": "meteodrive"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "speed"
+        ],
+        "value": "-{item|flags.pf2e.rulesSelections.successGrade}",
+        "predicate": [
+          {
+            "not": "meteodrive:criticalFailure"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "or": [
+              "meteodrive:20",
+              "meteodrive:criticalFailure"
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "meteodrive:criticalFailure"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe"
+      }
+    ],
+    "slug": "effect-meteodrive-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/fire/flame-burning-chain.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "zVQR737qPkW2iHiu",
+  "sort": 3300000,
+  "_key": "!items!zVQR737qPkW2iHiu"
+}

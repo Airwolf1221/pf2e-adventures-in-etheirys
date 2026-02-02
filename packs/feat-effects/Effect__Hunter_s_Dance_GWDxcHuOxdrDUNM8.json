@@ -3,7 +3,7 @@
   "name": "Effect: Hunter's Dance",
   "system": {
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.FZ1G0bRCzhBlCosM]{Hunter's Dance}</p><p>The target creature gains a -2 circumstance penalty to Reflex saves</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.FZ1G0bRCzhBlCosM]{Hunter's Dance}</p><p>The target creature gains a -2 circumstance penalty to Reflex saves</p>",
       "gm": ""
     },
     "duration": {

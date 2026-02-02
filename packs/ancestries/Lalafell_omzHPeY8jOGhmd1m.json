@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><em>Lalafell, also called Dwarves and Tarutaru, are a small-bodied ancestry famed for their cunning, craftsmanship, and intellect. While it’s tempting to overlook them due to their small; almost child-like by Hyur standards; physiques, such a mistake is often the last one their foes make.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.xW89HQigz0m4vg1H]{Lalafell}</p>"
+      "value": "<p><em>Lalafell, also called Dwarves and Tarutaru, are a small-bodied ancestry famed for their cunning, craftsmanship, and intellect. While it’s tempting to overlook them due to their small; almost child-like by Hyur standards; physiques, such a mistake is often the last one their foes make.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.xW89HQigz0m4vg1H]{Lalafell}</p>"
     },
     "rules": [],
     "slug": "lalafell",
@@ -78,8 +78,8 @@
       "custom": ""
     },
     "items": {
-      "N9Sbm": {
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestry-features.Item.Br3bwkVvSNLAhAmC",
+      "PwDCU": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.ancestry-features.Item.Br3bwkVvSNLAhAmC",
         "img": "icons/skills/melee/blood-slash-foam-red.webp",
         "name": "Magically Imbued",
         "level": 1

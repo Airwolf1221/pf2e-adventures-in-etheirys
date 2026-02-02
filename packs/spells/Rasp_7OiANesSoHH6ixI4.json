@@ -1,0 +1,84 @@
+{
+  "name": "Rasp",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>With an unnerving, croaking breath, you draw the magic out of a creature. A spell is randomly selected from the highest-rank spells the foe knows that have a target or area, to a maximum of 3rd-rank spells; the target makes a Will saving throw.</p><hr /><p><strong>Critical Success</strong> The target is unaffected</p><p><strong>Success</strong> The chosen spell is suppressed for 1 round, and cannot be cast</p><p><strong>Failure</strong> The chosen spell is lost, as though the target had cast the spell themself</p><p><strong>Critical Failure</strong> The chosen spell, as well as another random spell of the same rank or lower, is lost, as though the target had cast the spell themself.</p><hr /><p><strong>Heightened (+1)</strong> The maximum rank of spell that can be affected increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "rasp",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature with prepared, spontaneous, or innate spells"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/control/debuff-chains-green.webp",
+  "folder": "3pkTpcyvInUsI0DW",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "7OiANesSoHH6ixI4",
+  "sort": 100000,
+  "_key": "!items!7OiANesSoHH6ixI4"
+}

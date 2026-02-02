@@ -1,5 +1,10 @@
 {
     "label": "Equipment",
+    "mapping": {
+        "traits": "system.traits.value",
+        "damageType": "system.damage.damageType",
+        "persistentDamageType": "system.damage.persistent.type"
+    },
     "entries": {
         "Gold Pieces": {
             "name": "Golden Gil"
@@ -12,6 +17,195 @@
         },
         "Platinum Pieces": {
             "name": "Platinum Gil"
+        },
+        "Antivenom Potion": {
+            "name": "Antidot"
+        },
+        "Antidote (Lesser)": {
+            "name": "Antidote"
+        },
+        "Antidote (Moderate)": {
+            "name": "Antidote+"
+        },
+        "Antidote (Greater)": {
+            "name": "Hi-Antidote"
+        },
+        "Antidote (Major)": {
+            "name": "Hi-Antidote+"
+        },
+        "Healing Potion (Minor)": {
+            "name": "Potion"
+        },
+        "Healing Potion (Lesser)": {
+            "name": "Potion+"
+        },
+        "Healing Potion (Moderate)": {
+            "name": "Hi-Potion"
+        },
+        "Healing Potion (Greater)": {
+            "name": "Hi-Potion+"
+        },
+        "Healing Potion (Major)": {
+            "name": "X-Potion"
+        },
+        "Bottled Catharsis (Minor)": {
+            "name": "Smelling Salts"
+        },
+        "Bottled Catharsis (Lesser)": {
+            "name": "Smelling Salts+"
+        },
+        "Bottled Catharsis (Moderate)": {
+            "name": "Hi-Smelling Salts"
+        },
+        "Bottled Catharsis (Greater)": {
+            "name": "Hi-Smelling Salts+"
+        },
+        "Bottled Catharsis (Major)": {
+            "name": "X-Smelling Salts"
+        },
+        "Antiplague (Lesser)": {
+            "name": "Vaccine",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Vaccines can fortify the body's defenses against diseases. Upon drinking a vaccine, you gain a +2 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{Effect: Vaccine}</p>"
+        },
+        "Antiplague (Moderate)": {
+            "name": "Vaccine+",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Vaccines can fortify the body's defenses against diseases. Upon drinking a vaccine, you gain a +3 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{Effect: Vaccine}</p>"
+        },
+        "Antiplague (Greater)": {
+            "name": "Hi-Vaccine",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Vaccines can fortify the body's defenses against diseases. Upon drinking a vaccine, you gain a +4 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{Effect: Vaccine}</p>"
+        },
+        "Antiplague (Major)": {
+            "name": "Hi-Vaccine+",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Vaccines can fortify the body's defenses against diseases. Upon drinking a vaccine, you gain a +4 item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.</p><p>When you drink a hi-vaccine+, you can immediately attempt a saving throw against one disease of 14th level or lower affecting you. If you succeed, you are cured of the disease.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{Effect: Vaccine}</p>"
+        },
+        "Elixir of Life (Minor)": {
+            "name": "Tonic",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Tonics accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[1d6[healing]] Hit Points and gain +1 item bonus to saving throws against diseases and poisons for 10 minutes.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Healing Tonic}</p>"
+        },
+        "Elixir of Life (Lesser)": {
+            "name": "Tincture",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Tinctures accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[3d6+6[healing]] Hit Points and gain +1 item bonus to saving throws against diseases and poisons for 10 minutes.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Healing Tonic}</p>"
+        },
+        "Elixir of Life (Moderate)": {
+            "name": "Tincture+",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Tincture+'s accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[5d6+12[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Healing Tonic}</p>"
+        },
+        "Elixir of Life (Greater)": {
+            "name": "Mega Potion",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Mega Potions accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[7d6+18[healing]] Hit Points and gain +2 item bonus to saving throws against diseases and poisons for 10 minutes.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Healing Tonic}</p>"
+        },
+        "Elixir of Life (Major)": {
+            "name": "Elixir",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Elixirs accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[8d6+21[healing]] Hit Points and gain +3 item bonus to saving throws against diseases and poisons for 10 minutes.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Healing Tonic}</p>"
+        },
+        "Elixir of Life (True)": {
+            "name": "Megalixir",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr><p>Megalixirs accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[10d6+27[healing]] Hit Points and gain +4 item bonus to saving throws against diseases and poisons for 10 minutes.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Healing Tonic}</p>"
+        },
+        "Alchemist's Fire (Lesser)": {
+            "name": "Fire Mote",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Fire bombs are a combination of volatile liquids that ignite when exposed to air. A fire mote deals 1d8 fire damage, 1 persistent fire damage, and 1 fire splash damage.</p>"
+        },
+        "Alchemist's Fire (Moderate)": {
+            "name": "Bomb Fragment",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Fire bombs are a combination of volatile liquids that ignite when exposed to air. A bomb fragment deals 2d8 fire damage, 2 persistent fire damage, and 2 fire splash damage. You gain a +1 item bonus to attack rolls.</p>"
+        },
+        "Alchemist's Fire (Greater)": {
+            "name": "Red Gem",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Fire bombs are a combination of volatile liquids that ignite when exposed to air. A red gem deals 3d8 fire damage, 3 persistent fire damage, and 3 fire splash damage. You gain a +2 item bonus to attack rolls.</p>"
+        },
+        "Alchemist's Fire (Major)": {
+            "name": "Ifrit Core",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Fire bombs are a combination of volatile liquids that ignite when exposed to air. An ifrit core deals 4d8 fire damage, 4 persistent fire damage, and 4 fire splash damage. You gain a +3 item bonus to attack rolls.</p>"
+        },
+        "Frost Vial (Lesser)": {
+            "name": "Ice Mote",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. An ice mote deals 1d6 ice damage and 1 ice splash damage. On a hit, the target takes a –5-foot status penalty to its Speeds until the end of its next turn.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Ice Bomb}</p>"
+        },
+        "Frost Vial (Moderate)": {
+            "name": "Yeti Fragment",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A yeti fragment deals 2d6 ice damage and 2 ice splash damage. On a hit, the target takes a –10-foot status penalty to its Speeds until the end of its next turn. You gain a +1 item bonus to attack rolls.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Ice Bomb}</p>"
+        },
+        "Frost Vial (Greater)": {
+            "name": "White Gem",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A white gem deals 3d6 ice damage and 3 ice splash damage. On a hit, the target takes a –10-foot status penalty to its Speeds until the end of its next turn. You gain a +2 item bonus to attack rolls.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Ice Bomb}</p>"
+        },
+        "Frost Vial (Major)": {
+            "name": "Shiva Core",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A shiva core deals 4d6 ice damage and 4 ice splash damage. On a hit, the target takes a –15-foot status penalty to its Speeds until the end of its next turn. You gain a +3 item bonus to attack rolls.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Ice Bomb}</p>"
+        },
+        "Bottled Lightning (Lesser)": {
+            "name": "Lightning Mote",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Lightning bombs are packed with volatile reagents that create a blast of electricity when they are exposed to air. A lightning mote deals 1d6 lightning damage and 1 lightning splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>"
+        },
+        "Bottled Lightning (Moderate)": {
+            "name": "Coeurl Fragment",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Lightning bombs are packed with volatile reagents that create a blast of electricity when they are exposed to air. A coeurl fragment deals 2d6 lightning damage and 2 lightning splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn. You gain a +1 item bonus to attack rolls.</p>"
+        },
+        "Bottled Lightning (Greater)": {
+            "name": "Yellow Gem",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Lightning bombs are packed with volatile reagents that create a blast of electricity when they are exposed to air. A yellow gem deals 3d6 lightning damage and 3 lightning splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn. You gain a +2 item bonus to attack rolls.</p>"
+        },
+        "Bottled Lightning (Major)": {
+            "name": "Ramuh Core",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Lightning bombs are packed with volatile reagents that create a blast of electricity when they are exposed to air. A ramuh core deals 4d6 lightning damage and 4 lightning splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn. You gain a +3 item bonus to attack rolls.</p>"
+        },
+        "Blight Bomb (Lesser)": {
+            "name": "Poison Mote",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Poison bombs contain some of the most volatile toxic chemicals found on Etheirys. A poison mote deals 1d4 poison damage, 1d4 persistent poison damage, and 1 poison splash damage.</p>"
+        },
+        "Blight Bomb (Moderate)": {
+            "name": "Malboro Fragment",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Poison bombs contain some of the most volatile toxic chemicals found on Etheirys. A malboro fragment deals 2d4 poison damage, 2d4 persistent poison damage, and 2 poison splash damage. You gain a +1 item bonus to attack rolls.</p>"
+        },
+        "Blight Bomb (Greater)": {
+            "name": "Purple Gem",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Poison bombs contain some of the most volatile toxic chemicals found on Etheirys. A purple gem deals 3d4 poison damage, 3d4 persistent poison damage, and 3 poison splash damage. You gain a +2 item bonus to attack rolls.</p>"
+        },
+        "Blight Bomb (Major)": {
+            "name": "Doomtrain Core",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr><p>Poison bombs contain some of the most volatile toxic chemicals found on Etheirys. A doomtrain core deals 4d4 poison damage, 4d4 persistent poison damage, and 4 poison splash damage. You gain a +3 item bonus to attack rolls.</p>"
+        },
+        "Necrotic Bomb (Lesser)": {
+            "name": "Shadow Mote",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>Shadow bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A shadow mote deals 1d6 shadow damage and 1 shadow splash damage, and on a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. This damage harms only living creatures.</p>"
+        },
+        "Necrotic Bomb (Moderate)": {
+            "name": "Ahriman Fragment",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>Shadow bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. An ahriman fragment deals 2d6 shadow damage and 2 shadow splash damage, and on a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}. This damage harms only living creatures. You gain a +1 item bonus to attack rolls.</p>"
+        },
+        "Necrotic Bomb (Greater)": {
+            "name": "Black Gem",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>Shadow bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A black gem deals 3d6 shadow damage and 3 shadow splash damage, and on a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}. This damage harms only living creatures. You gain a +2 item bonus to attack rolls.</p>"
+        },
+        "Necrotic Bomb (Major)": {
+            "name": "Hades Core",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>Shadow bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A hades core deals 4d6 shadow damage and 4 shadow splash damage, and on a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4}. This damage harms only living creatures. You gain a +3 item bonus to attack rolls.</p>"
+        },
+        "Blasting Stone (Lesser)": {
+            "name": "Wind Mote",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>When a wind bomb hits a creature or a hard surface, it explodes with a deafening bang. A wind mote deals 1d4 wind damage and 1 wind splash damage, and each creature within 10 feet of the space in which the bomb exploded must succeed at a @Check[fortitude|dc:17|name:Wind Mote|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} until the end of its next turn.</p>",
+            "traits": ["alchemical","bomb","consumable","splash","wind"],
+            "damageType": "wind-ff"
+        },
+        "Blasting Stone (Moderate)": {
+            "name": "Zu Fragment",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>When a wind bomb hits a creature or a hard surface, it explodes with a deafening bang. A zu fragment deals 2d4 wind damage and 2 wind splash damage, and each creature within 10 feet of the space in which the bomb exploded must succeed at a @Check[fortitude|dc:20|name:Zu Fragment|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} until the end of its next turn. You gain a +1 item bonus to attack rolls.</p>",
+            "traits": ["alchemical","bomb","consumable","splash","wind"],
+            "damageType": "wind-ff"
+        },
+        "Blasting Stone (Greater)": {
+            "name": "Green Gem",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>When a wind bomb hits a creature or a hard surface, it explodes with a deafening bang. A green gem deals 3d4 wind damage and 3 wind splash damage, and each creature within 10 feet of the space in which the bomb exploded must succeed at a @Check[fortitude|dc:28|name:Green Gem|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} until the end of its next turn. You gain a +2 item bonus to attack rolls.</p>",
+            "traits": ["alchemical","bomb","consumable","splash","wind"],
+            "damageType": "wind-ff"
+        },
+        "Blasting Stone (Major)": {
+            "name": "Garuda Core",
+            "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p><hr><p>When a wind bomb hits a creature or a hard surface, it explodes with a deafening bang. A green gem deals 4d4 wind damage and 4 wind splash damage, and each creature within 10 feet of the space in which the bomb exploded must succeed at a @Check[fortitude|dc:36|name:Garuda Core|showDC:all] saving throw with the listed DC or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} until the end of its next turn. You gain a +3 item bonus to attack rolls.</p>",
+            "traits": ["alchemical","bomb","consumable","splash","wind"],
+            "damageType": "wind-ff"
         },
         "Armor Potency (+1)": {
             "name": "Battledance I"

@@ -1,0 +1,73 @@
+{
+  "name": "Effect: Limit Break MAP Penalty",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>After this Limit Break resolves, all of your attacks until the end of the turn are made at a -10 multiple attack penalty, even if you are wielding an agile weapon or have another effect which reduces multiple attack penalty.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "selector": "attack-roll",
+        "mode": "override",
+        "slug": "multiple-attack-penalty",
+        "value": -10
+      }
+    ],
+    "slug": "effect-limit-break-map-penalty",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 15
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/fire/dagger-rune-enchant-teal.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "YIfPnQGflktiyGYE",
+  "sort": 2100000,
+  "_key": "!items!YIfPnQGflktiyGYE"
+}

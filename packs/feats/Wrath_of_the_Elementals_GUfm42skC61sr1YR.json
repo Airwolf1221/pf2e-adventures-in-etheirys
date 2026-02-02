@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You are so attuned to the land that you can call forth a bolt of energy from your surroundings. When you gain this feat, select earth, water, or wind. You can call to the land to cast the mysidian stone, mysidian water, or mysidian aero cantrip as an innate @Localize[PF2E.TraitPrimal] spell at will, depending on the element you chose, except the spell lacks the manipulate trait. A cantrip is heightened to a spell level equal to half your level rounded up.</p>",
+      "value": "<p>You are so attuned to the land that you can call forth a bolt of energy from your surroundings. When you gain this feat, select earth, water, or wind. You can call to the land to cast the @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.dUa3YXZLQss1d3yn]{Mysidian Aero}, @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.A3NCltAdZcN3aykg]{Mysidian Stone}, or @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.uhsxOsLU1EB7pKlh]{Mysidian Water} cantrip as an innate @Localize[PF2E.TraitPrimal] spell at will, depending on the element you chose, except the spell lacks the manipulate trait. A cantrip is heightened to a spell level equal to half your level rounded up.</p>",
       "gm": ""
     },
     "publication": {

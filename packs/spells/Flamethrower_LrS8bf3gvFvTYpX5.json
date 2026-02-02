@@ -1,0 +1,107 @@
+{
+  "folder": "EoBsfh2E6VkdCoxw",
+  "name": "Flamethrower",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You belch a massive gout of flame towards your enemies. Creatures in the area of effect take 8d6 fire damage and must make a Reflex save.</p><hr /><p><strong>Critical Success</strong> The creature takes no damage.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and @Damage[(1+(@item.level -4))[persistent,fire]] damage.</p><p><strong>Critical Failure</strong> The creature takes double damage and @Damage[(1+(@item.level -4))d6[persistent,fire]] damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6, the persistent damage on a failure increases by 1, and the persistent damage on a critical failure increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "flamethrower",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "cone",
+      "value": 30
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "cV04RG56JH4SMhks": {
+        "formula": "8d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "cV04RG56JH4SMhks": "2d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/fire/beam-jet-stream-embers.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "LrS8bf3gvFvTYpX5",
+  "sort": 100000,
+  "_key": "!items!LrS8bf3gvFvTYpX5"
+}

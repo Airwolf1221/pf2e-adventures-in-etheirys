@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><em>Known throughout the realms by many names, including Elves and Elvaan, Elezen are a long-lived people known for their impressive and ancient civilizations; tall, slender builds; and their ancient pride.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.zKOCVA9le4eLSWaW]{Elezen}</p>"
+      "value": "<p><em>Known throughout the realms by many names, including Elves and Elvaan, Elezen are a long-lived people known for their impressive and ancient civilizations; tall, slender builds; and their ancient pride.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.zKOCVA9le4eLSWaW]{Elezen}</p>"
     },
     "rules": [],
     "slug": "elezen",

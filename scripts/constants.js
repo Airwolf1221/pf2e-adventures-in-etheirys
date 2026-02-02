@@ -3,13 +3,46 @@
  *
  * **WARNING!** If this changes, you HAVE to change the macros too.
  */
-export const MODULE_NAME = "pf2e-adventures-in-etheirys-content";
+export const MODULE_NAME = "pf2e-adventures-in-etheirys";
 
 /* Import the Total Conversion JSON file, and export the spell names for config options */
 const ConversionTranslationObject = await foundry.utils.fetchJsonWithTimeout(`modules/${MODULE_NAME}/lang/activeTranslation/ff2e-totalconversion.json`);
 export const SpellNames = ConversionTranslationObject.AIE.SpellNames;
+export const SpellTraditions = ConversionTranslationObject.AIE.SpellTraditions;
 
-export async function ApplyTranslations(ModuleTranslation, SystemTranslation) {
+export async function prepareAmmunition(ammoObj) {
+    ammoObj["rounds-aetheric-gunblade"] = {
+        "label": "Rounds (Aetheric Gunblade)",
+        "magazine": false,
+        "parent": "rounds",
+        "stackGroup": "rounds10",
+        "weapon": "aetheric-gunblade"
+    }
+    ammoObj["shells-grafted-arm-cannon"] = {
+        "label": "Shells (Grafted Arm Cannon)",
+        "magazine": false,
+        "parent": "rounds",
+        "stackGroup": "rounds5",
+        "weapon": "grafted-arm-cannon"
+    }
+    ammoObj["gatling grafted-arm-magazine"] = {
+        "label": "Gatling Grafted Arm Magazine",
+        "magazine": 8,
+        "parent": "magazine",
+        "stackGroup": null,
+        "weapon": "gatling-grafted-arm"
+    }
+    ammoObj["assault-gunblade-cartridge"] = {
+        "label": "Assault Gunblade Cartridge",
+        "magazine": 5,
+        "parent": "magazine",
+        "stackGroup": null,
+        "weapon": "assault-gunblade"
+    }
+    return ammoObj;
+}
+
+export async function applyTranslations(ModuleTranslation, SystemTranslation) {
     let newModuleTranslation = ConversionTranslationObject.AIE, overrideSystemTranslation = ConversionTranslationObject.PF2E;
     ModuleTranslation.SpellNames = newModuleTranslation.SpellNames;
     SystemTranslation = deepMerge(SystemTranslation,overrideSystemTranslation);

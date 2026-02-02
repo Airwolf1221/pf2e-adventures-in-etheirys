@@ -1,0 +1,81 @@
+{
+  "name": "Brotherhood",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Whenever an ally within range deals damage to a creature, you gain an untyped bonus to your next Strike. The bonus is equal to the number of times an ally in range deals damage to a creature, to a maximum of +3.</p><hr /><p><strong>Heightened (9th)</strong> The maximum damage bonus increases to +6, and you gain a bonus equal to twice the number of times an ally in range deals damage to a creature.</p>"
+    },
+    "rules": [],
+    "slug": "brotherhood",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "monk"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "emanation",
+      "value": 10
+    },
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/lightning/bolt-blue.webp",
+  "folder": "xeh1EhrzkGTsLVto",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "tpxZsL8rdeOdtKdI",
+  "sort": 100000,
+  "_key": "!items!tpxZsL8rdeOdtKdI"
+}

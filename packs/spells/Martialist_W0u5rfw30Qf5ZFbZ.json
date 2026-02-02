@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "61FZlTt4svKpekLa",
+  "name": "Martialist",
+  "color": null,
+  "sorting": "a",
+  "_id": "W0u5rfw30Qf5ZFbZ",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!W0u5rfw30Qf5ZFbZ"
+}

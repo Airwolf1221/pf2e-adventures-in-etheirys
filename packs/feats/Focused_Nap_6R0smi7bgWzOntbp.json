@@ -12,7 +12,7 @@
     },
     "category": "ancestry",
     "description": {
-      "value": "<p>When you @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.UczWhFe0SRNc9d6Y]{Quick Nap}, you can also @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{Refocus} as you dream of a relevant activity.</p>",
+      "value": "<p>When you @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.UczWhFe0SRNc9d6Y]{Quick Nap}, you can also @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{Refocus} as you dream of a relevant activity.</p>",
       "gm": ""
     },
     "level": {

@@ -1,0 +1,81 @@
+{
+  "name": "Aegis",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Area</strong> @Template[type:emanation|distance:20]</p><p><strong>Duration</strong> [[@actor.flags.pf2e.limit-rank]] round(s)</p><hr /><p>Your very presence strengthens the bodies and minds of your allies. For a number of rounds equal to your Limit Rank, you and your allies within the emanation gain a +2 status bonus to ac, fortitude saves, and will saves.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "aegis",
+    "traits": {
+      "otherTags": [
+        "limit-break-1"
+      ],
+      "value": [
+        "limit-break",
+        "mythic",
+        "sentinel"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.HjUYvt9VmutBXX06",
+      "name": "Effect: Aegis (Aura)"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "Ow6KxCaLrllMs23a",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.KBdZPKsXVPLiPbeb",
+    "duplicateSource": "Item.KBdZPKsXVPLiPbeb",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 400000,
+  "_id": "W5pHJhSo2tr6qDT5",
+  "_key": "!items!W5pHJhSo2tr6qDT5"
+}

@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>While all @UUID[Compendium.pf2e-adventures-in-etheirys-content.heritages.Item.QLbzGdw8lzEcmRSi]{mist-frenzied} viera are sensitive to the potency of mist, you are particularly so. You gain a 1st rank @Localize[PF2E.TraitOccult] innate spell of your choice that you can cast once per day.</p><p>Additionally, you can change your heritage cantrip to a different one from the same list once per day by refocusing yourself and meditating to draw in Mist; this is a 10-minute activity that has the concentrate trait.</p>",
+      "value": "<p>While all @UUID[Compendium.pf2e-adventures-in-etheirys.heritages.Item.QLbzGdw8lzEcmRSi]{mist-frenzied} viera are sensitive to the potency of mist, you are particularly so. You gain a 1st rank @Localize[PF2E.TraitOccult] innate spell of your choice that you can cast once per day.</p><p>Additionally, you can change your heritage cantrip to a different one from the same list once per day by refocusing yourself and meditating to draw in Mist; this is a 10-minute activity that has the concentrate trait.</p>",
       "gm": ""
     },
     "publication": {

@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You Shield Block an attack that would hit you.</p><hr /><p>Your skills with shields have expanded to almost supernatural heights; negate all damage from the triggering hit; your shield takes no damage and neither do you. For the next minute, your shield's hardness, HP and BT increases by 50% of its maximum value.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.vBLQgFK21N5ZkIVC]{Effect: Shield Legend}</p>",
+      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You Shield Block an attack that would hit you.</p><hr /><p>Your skills with shields have expanded to almost supernatural heights; negate all damage from the triggering hit; your shield takes no damage and neither do you. For the next minute, your shield's hardness, HP and BT increases by 50% of its maximum value.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,7 @@
       "remaster": false
     },
     "rules": [],
-    "slug": null,
+    "slug": "shield-legend",
     "traits": {
       "otherTags": [],
       "value": [
@@ -54,6 +54,10 @@
     "frequency": {
       "max": 1,
       "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.vBLQgFK21N5ZkIVC",
+      "name": "Effect: Shield Legend"
     }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",

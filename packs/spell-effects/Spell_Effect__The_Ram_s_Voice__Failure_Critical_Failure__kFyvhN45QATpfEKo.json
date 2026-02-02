@@ -1,0 +1,90 @@
+{
+  "name": "Spell Effect: The Ram's Voice (Failure/Critical Failure)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.e17ljEJKNQ8LNPX8]{The Ram's Voice}</p><p>You take a status penalty to your Speeds for 2 rounds.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Failure",
+            "value": 20
+          },
+          {
+            "label": "Critical Failure",
+            "value": 25
+          }
+        ],
+        "flag": "failureGrade",
+        "prompt": "Failure or Critical Failure?",
+        "adjustName": false
+      },
+      {
+        "key": "FlatModifier",
+        "value": "-{item|flags.pf2e.rulesSelections.failureGrade}",
+        "selector": [
+          "speed"
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": "spell-effect-the-rams-voice-failure-critical-failure",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 2,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/water/barrier-ice-wall-snow.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "kFyvhN45QATpfEKo",
+  "sort": 425000,
+  "_key": "!items!kFyvhN45QATpfEKo"
+}

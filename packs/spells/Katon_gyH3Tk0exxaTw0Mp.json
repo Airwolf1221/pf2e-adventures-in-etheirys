@@ -1,0 +1,107 @@
+{
+  "name": "Katon",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You hurl a blast of fire at the spot you designate, dealing 4d6 fire damage. If the creature fails the save they take an additional @Damage[(2*@item.level)[persistent,fire]] damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6, and the persistent damage increases by 2.</p>"
+    },
+    "rules": [],
+    "slug": "katon",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "focus",
+        "manipulate",
+        "rogue"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 10
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "S5SVQWehNM5wGtrt": {
+        "formula": "4d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "S5SVQWehNM5wGtrt": "2d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/fire/explosion-fireball-small-orange.webp",
+  "folder": "KVhjcDUZ6cygugC8",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.91CdzXVg2mvgzJPo",
+    "duplicateSource": "Item.Q7U706WEnQYpUVfq",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "gyH3Tk0exxaTw0Mp",
+  "_key": "!items!gyH3Tk0exxaTw0Mp"
+}

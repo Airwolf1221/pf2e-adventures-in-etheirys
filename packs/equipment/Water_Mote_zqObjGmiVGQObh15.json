@@ -1,0 +1,149 @@
+{
+  "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/vexing-vapor.webp",
+  "name": "Water Mote",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Water bombs are filled with alchemically-enhanced water combined with the jelly of flans, making it adhere to the target’s body to make their movements clumsy. A water mote deals 1d6 water damage and 1 water splash damage. On a critical hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "{item|_id}-damage"
+        ],
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "text": "The target becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of your next turn."
+      }
+    ],
+    "slug": "water-mote",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "bomb",
+        "consumable",
+        "splash",
+        "water"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "alchemical-bomb",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 3
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Alchemical Bomb",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "martial",
+    "group": "bomb",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "water-ff",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 1
+    },
+    "range": 20,
+    "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": null
+    },
+    "reload": {
+      "value": "-"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yd3kEK21YknZLlcT",
+    "duplicateSource": "Item.fYhYMJB99JeHAPRc",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "1qL4XcQEaPTAMF7O",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Alchemist's Fire (Lesser)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "sort": 400000,
+  "_id": "zqObjGmiVGQObh15",
+  "_key": "!items!zqObjGmiVGQObh15"
+}

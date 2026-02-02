@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You can assemble a formation even with members of ancestries that lack the hrothgar’s military discipline, and you can extend these benefits to your hrothgar allies.</p><p>When you are adjacent to at least two humanoid allies, you gain the benefits of @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.FOpB57jf3LDOdtOn]{Form Ranks!}, even if they aren’t hrothgar allies. Hrothgar allies adjacent to you and at least one other hrothgar ally also gain the bonuses from your Form Ranks! feat.</p>",
+      "value": "<p>You can assemble a formation even with members of ancestries that lack the hrothgar’s military discipline, and you can extend these benefits to your hrothgar allies.</p><p>When you are adjacent to at least two humanoid allies, you gain the benefits of @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.FOpB57jf3LDOdtOn]{Form Ranks!}, even if they aren’t hrothgar allies. Hrothgar allies adjacent to you and at least one other hrothgar ally also gain the bonuses from your Form Ranks! feat.</p>",
       "gm": ""
     },
     "publication": {
@@ -27,7 +27,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.E5qKcHSTZRizzOGO",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.E5qKcHSTZRizzOGO",
         "allowDuplicate": false
       }
     ],

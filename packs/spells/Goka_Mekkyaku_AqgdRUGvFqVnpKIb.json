@@ -1,0 +1,99 @@
+{
+  "name": "Goka Mekkyaku",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A roaring blast of fire appears at a spot you designate, dealing 20d8 fire damage.</p>"
+    },
+    "rules": [],
+    "slug": "goka-mekkyaku",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "focus",
+        "manipulate",
+        "rogue"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 20
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "FOhxNJ9HCuD0hALw": {
+        "formula": "20d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
+  "folder": "KVhjcDUZ6cygugC8",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.91CdzXVg2mvgzJPo",
+    "duplicateSource": "Item.x3qeXNpjHkhp1lt7",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "AqgdRUGvFqVnpKIb",
+  "_key": "!items!AqgdRUGvFqVnpKIb"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Destiny of Restoration",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your destiny is to bring aid to all of those in need of it across Etheirys, and the Mothercrystal has given you great powers and connections with the Elementals to do it.</p><p><strong>Edicts</strong> Bring hope, succor and restoration to others on a large scale, protect the forces of nature, defeat or undermine powerful unholy forces.</p><p><strong>Mythic Power</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.HMl67djdofp2EGhn]{White Salvation}</p><p><strong>Zenith</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.8ZtIQyWaOKh0ZPCi]{Elemental Lord}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.HMl67djdofp2EGhn"
+      }
+    ],
+    "slug": "destiny-of-restoration",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "pCEBw1VEQHj29FMC",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "fC1KstATlXfU0rJ5",
+  "sort": 200000,
+  "_key": "!items!fC1KstATlXfU0rJ5"
+}

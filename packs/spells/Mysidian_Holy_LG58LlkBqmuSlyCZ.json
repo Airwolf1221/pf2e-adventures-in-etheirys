@@ -1,0 +1,105 @@
+{
+  "name": "Mysidian Holy",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You lance the target with energy. The target takes 1d6 holy damage, with a basic Fortitude save. If the creature critically fails the save, it is also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "mysidian-holy",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "vitality"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "JuthyD35MUGmDqs1": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "JuthyD35MUGmDqs1": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
+  "folder": "T6jSsGqNfDn7fod3",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "LG58LlkBqmuSlyCZ",
+  "sort": 1300000,
+  "_key": "!items!LG58LlkBqmuSlyCZ"
+}

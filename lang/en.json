@@ -1,179 +1,547 @@
 {
+    "PF2E": {
+        "SpecificRule": {
+            "FighterWeaponMasteryLegend": {
+                "SimpleMartial": {
+                    "power-weapon": "Simple & Martial Power Weapons"
+                },
+                "Advanced": {
+                    "power-weapon": "Advanced Power Weapons"
+                }
+            }
+        }
+    },
     "AIE": {
         "Settings": {
-            "ConverstionTranslation": {
+            "ConversionTranslation": {
                 "Name": "Total Conversion Translation",
-                "Hint": "Translate vanilla PF2e content to the FF2e versions"
+                "Hint": "Translate vanilla PF2e content to the FF2e versions."
+            },
+            "CCOIntegration": {
+                "Name": "Complete Crafting Overhaul Integration",
+                "Hint": "Provide integration to my Complete Crafting Overhaul (CCO) module."
+            },
+            "BlessingFeats": {
+                "Name": "Add Blessing Feat Slots",
+                "Hint": "Provide distinct feat slots for the mythic Blessing feats."
+            }
+        },
+        "Mythic": {
+            "Blessing": {
+                "Name": "Blessing",
+                "Description": "Special feats available only in mythic play, that have their own feat slots."
+            },
+            "Commando": {
+                "Name": "Commando",
+                "Description": "Limit breaks normally known for high single-target damage. Has the following activation condition:\n\nYou have dealt damage within the previous round that totals more than your current Hit Point amount."
+            },
+            "LimitBreak": {
+                "Name": "Limit Break",
+                "Description": "This action ignores your current multiple attack penalty, and does not increase it, unless the action states otherwise. Additionally, this action makes any checks at Mythic Proficiency."
+            },
+            "Medic": {
+                "Name": "Medic",
+                "Description": "Limit breaks known for healing and restoratation. Has the following activation condition:\n\nMore than half of your party members (rounded down) have less than 50% of their maximum Hit Points remaining, OR your party's total amount of Hit Points remaining is less than 60% of their maximum Hit Points."
+            },
+            "Ravager": {
+                "Name": "Ravager",
+                "Description": "Limit breaks normally known for high area damage. Has the following activation condition:\n\nYou have dealt damage within the previous round that totals more than your current Hit Point amount."
+            },
+            "Saboteur": {
+                "Name": "Saboteur",
+                "Description": "Limit breaks known for debilitations. Has the activation conditions of the Medic or Sentinel limit break styles."
+            },
+            "Sentinel": {
+                "Name": "Sentinel",
+                "Description": "Limit breaks known for personal defensive potency. Has the following activation condition:\n\nYou have less than 50% of your maximum Hit Points remaining, or you were critically hit by an attack or critically failed a saving throw in this or the previous round."
+            },
+            "Synergist": {
+                "Name": "Synergist",
+                "Description": "Limit breaks known for allied support and buffs. Has the activation conditions of the Commando, Ravager, or Medic limit break styles."
+            }
+        },
+        "Identifiers": {
+            "DamageTypes": {
+                "Earth": "Earth",
+                "Water": "Water",
+                "Wind": "Wind"
+            },
+            "WeaponGroups": {
+                "PowerWeapon": "Power Weapon"
+            },
+            "Weapons": {
+                "AethericGunblade": "Aetheric Gunblade",
+                "AssaultGunblade": "Assault Gunblade",
+                "BlizzardStaff": "Blizzard Staff",
+                "BoltStaff": "Bolt Staff",
+                "FireStaff": "Fire Staff",
+                "GraftedArmCannon": "Grafted Arm Cannon",
+                "GatlingGraftedArm": "Gatling Grafted Arm",
+                "GustStaff": "Gust Staff",
+                "QuakeStaff": "Quake Staff",
+                "Saya": "Saya",
+                "WaveStaff": "Wave Staff"
+            },
+            "Traits": {
+                "Classes": {
+                    "Arcanist": {
+                        "Name": "Arcanist",
+                        "Description": "This indicates abilities from the arcanist class."
+                    },
+                    "Astrologian": {
+                        "Name": "Astrologian",
+                        "Description": "This indicates abilities from the astrologian class."
+                    },
+                    "BlackMage": {
+                        "Name": "Black Mage",
+                        "Description": "This indicates abilities from the black mage class."
+                    },
+                    "BlueMage": {
+                        "Name": "Blue Mage",
+                        "Description": "This indicates abilities from the blue mage class."
+                    },
+                    "Chemist": {
+                        "Name": "Chemist",
+                        "Description": "This indicates abilities from the chemist class."
+                    },
+                    "Corsair": {
+                        "Name": "Corsair",
+                        "Description": "This indicates abilities from the corsair class."
+                    },
+                    "Dancer": {
+                        "Name": "Dancer",
+                        "Description": "This indicates abilities from the dancer class."
+                    },
+                    "Disciple": {
+                        "Name": "Disciple",
+                        "Description": "This indicates abilities from the disciple class."
+                    },
+                    "Dragoon": {
+                        "Name": "Dragoon",
+                        "Description": "This indicates abilities from the dragoon class."
+                    },
+                    "Engineer": {
+                        "Name": "Engineer",
+                        "Description": "This indicates abilities from the engineer class."
+                    },
+                    "Martialist": {
+                        "Name": "Martialist",
+                        "Description": "This indicates abilities from the martialist class."
+                    },
+                    "Paladin": {
+                        "Name": "Paladin",
+                        "Description": "This indicates abilities from the paladin class."
+                    },
+                    "Reaper": {
+                        "Name": "Reaper",
+                        "Description": "This indicates abilities from the reaper class."
+                    },
+                    "RedMage": {
+                        "Name": "Red Mage",
+                        "Description": "This indicates abilities from the red mage class."
+                    },
+                    "Sage": {
+                        "Name": "Sage",
+                        "Description": "This indicates abilities from the sage class."
+                    },
+                    "Samurai": {
+                        "Name": "Samurai",
+                        "Description": "This indicates abilities from the samurai class."
+                    },
+                    "Scholar": {
+                        "Name": "Scholar",
+                        "Description": "This indicates abilities from the scholar class."
+                    },
+                    "Warrior": {
+                        "Name": "Warrior",
+                        "Description": "This indicates abilities from the warrior class."
+                    },
+                    "WhiteMage": {
+                        "Name": "White Mage",
+                        "Description": "This indicates abilities from the white mage class."
+                    }
+                },
+                "AetherSurge": {
+                    "Name": "Aether Surge",
+                    "Description": "When an egi can't use a primal power, they sometimes use a weaker effect called an aether surge."
+                },
+                "AethericRefresh": {
+                    "Name": "Aetheric Refresh",
+                    "Description": "A primal power with the aetheric refresh trait realigns the egi's internal aether, allowing them to use their powers again. All aetheric refresh powers include a use of the Aetheric Refresh activity. Egis can use these powers an unlimited number of times without needing to Aetheric Refresh again; this normally only matters if an aetheric refresh primal power is disrupted."
+                },
+                "AethericTether": {
+                    "Name": "Aetheric Tether",
+                    "Description": "Egis require your aether to maintain physical form lest your carbuncle be unable to sustain them, and for an arcanist, little is more fundamental than learning how to lend their aether to their egi. In order for an egi to use their primal powers against anything (and be affected in turn), they need to be given physical substance using the Conjure Egi action, which lends the arcanist's aether to them. Various feats and abilities depend on the tether between the egi and arcanist."
+                },
+                "AMP": {
+                    "Name": "AMP (FF)",
+                    "Description": "Most effects from the engineer's repertoire are based in mechanical and technological to some extent. However, some effects are more magic-like, stemming from the Antimatter Manipulation Principle, or AMP, forming the foundation for numerous phenomena. Any effect or ability that has the AMP trait is magical in nature – While created from technology, mechanics, or another source of your own devising, these abilities are considered magic for the purpose of any bonuses or penalties that would apply to spell attack or damage rolls, or to saving throws or AC against magic. These abilities can be affected by a dispel effect, or by an antimagic field, just like they were a spell. Items with the AMP trait are treated as magic items for the purpose of the same effects.\nThough magical in nature, even those normally incapable of wielding magic or using magic items are capable of utilizing items, abilities, and effects with the AMP trait."
+                },
+                "Art": {
+                    "Name": "Art",
+                    "Description": "Each action with the art trait can only be performed once before it must recharge. You recharge all of your blade arts during your daily preparations or when you use the Refocus activity to spend 10 minutes performing battle drills.\nDespite their pseudo-magical nature, blade arts are not spells and cannot be counterspelled or suppressed. However effects that grant protection against spells and other magical abilities do apply to blade arts."
+                },
+                "Astral": {
+                    "Name": "Astral",
+                    "Description": "Astral spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point."
+                },
+                "AuRa": {
+                    "Name": "Au Ra",
+                    "Description": "A creature with this trait is a member of the au ra ancestry. Au Ra are a humanoid people with notable draconic features. An ability with this trait can be used and selected only by au ra."
+                },
+                "Berserk": {
+                    "Name": "Berserk",
+                    "Description": "You must be berserking to use abilities with the berserk trait, and they end automatically when you stop berserking."
+                },
+                "Combo": {
+                    "Name": "Combo",
+                    "Description": "Some abilities have affinities with other abilities. If in the same round the action preceding a combo action also had the combo trait but had a different name, this new action gains a cumulative circumstance bonus to damage of +1. This bonus is in addition to the +1 from Way of the Warrior."
+                },
+                "Corruption": {
+                    "Name": "Corruption",
+                    "Description": "Class features, feats, or spells with this trait offer great powers, but also increase your corruption by 1, to a maximum of 3. If you are at 3 corruption, these abilities are inaccessible to you, and only your Voidsent can choose to use them, but it can do so freely without increasing your corruption further."
+                },
+                "Dance": {
+                    "Name": "Dance",
+                    "Description": "A special stance which provide benefits your allies. Dances only affect yourself and your dance partner unless you have a feature that states otherwise, and you may only benefit from a single dance at a time. If you were to be under the effects of two dances at the same time, you only gain the benefits of the most recent dance.\nStances with the dance trait require you to be able to take the move action, which must also be satisfied throughout the entire dance. While in a dance, you can only Strike using weapons which have the Agile or Finesse traits, or that are chakrams.\nBecause dancing requires you to be moving, you cannot enter stances if you are immobilized, grabbed or restrained, but you can still enter and remain in such stances if affected by effects that restrict what actions you can use that have the move trait. If you gain any of these conditions while in a dance stance, you immediately exit the dance stance.\nWhile you are in a dance stance, the Sustain action can be substituted for any action that includes a move action with the dance trait."
+                },
+                "DarkImpulse": {
+                    "Name": "Dark Impulse",
+                    "Description": "Dark impulses are a special type of action unique to the dark knight advance, which you gain access to and can take like regular feats. To perform a dark impulse, you must be under the effects of the dark shroud stance, but you do not require a free-hand. As a dark knight, your impulse attack rolls and impulse DCs are equal to your dark magery attack rolls and DCs. You can invest an aetheric attenuator to improve your dark impulses, which is the only way to do so."
+                },
+                "Discovery": {
+                    "Name": "Discovery",
+                    "Description": "A discovery is a spell uncovered by your studies into the properties of aether, and as such it takes time to put such magic to work; you can only use one discovery spell each turn, and any attempts to use a second discovery spell on that turn fail and the actions are lost."
+                },
+                "Diving": {
+                    "Name": "Diving",
+                    "Description": "Some actions may require, or be augmented by, being in a state known as Diving. You are Diving if you start your turn while mid-air, such as from a Leap or High Jump, and you are not currently Flying."
+                },
+                "Dual": {
+                    "Name": "Dual",
+                    "Description": "Actions or Spells with this trait count as both a Strike and a Spell at the same time for the purposes of entering Vermillion Cascade, and thus allow you to choose whether to augment a Strike or a Cantrip when using Enchanted Assault."
+                },
+                "Egi": {
+                    "Name": "Egi",
+                    "Description": "A creature with this trait is a summon created by an Arcanist's aether to achieve combat aims or support them in other ways."
+                },
+                "Elezen": {
+                    "Name": "Elezen",
+                    "Description": "A creature with this trait is a member of the elezen ancestry. Elezen are tall, lanky folk known for their age and longevity. An ability with this trait can be used and selected only by elezen."
+                },
+                "Flair": {
+                    "Name": "Flair",
+                    "Description": "Actions or Spells with this trait are powerful, finishing blows which end your Vermillion Cascade once the action is finished. As such you must be in Vermillion Cascade stance to perform them.\nIf the action also has the spellshape trait or affects your next Strike, Vermillion Cascade ends after the augmented spell or Strike is made."
+                },
+                "Geodance": {
+                    "Name": "Geodance",
+                    "Description": "Geodances are a special type of focus spell that often requires you to use the Performance skill when casting them."
+                },
+                "Geomantic": {
+                    "Name": "Geomantic",
+                    "Description": "Geomantic spells are special in that only one can be active at any given time. It is possible to cast as many as desired in a turn, but casting any geomantic order spell ends previous geomantic order spells."
+                },
+                "Hand": {
+                    "Name": "Hand",
+                    "Description": "A discipline class feat that can be selected with the crafter's art class feature."
+                },
+                "Harvest": {
+                    "Name": "Harvest",
+                    "Description": "Class features, feats, or spells with this trait can either generate soul shards, Hit Points, or temporary Hit Points by harvesting soulforce from a creature. That creature must have something akin to soulforce present within them, living or undead. This limitation applies against constructs almost exclusively."
+                },
+                "Hrothgar": {
+                    "Name": "Hrothgar",
+                    "Description": "A creature with this trait is a member of the hrothgar ancestry. Hrothgar are a bestial feline race known for their honor. An ability with this trait can be used and selected only by hrothgar."
+                },
+                "Hyur": {
+                    "Name": "Hyur",
+                    "Description": "A creature with this trait is a member of the hyur ancestry. Hyur are a diverse people known for their adaptability. An ability with this trait can be used and selected only by hyurs."
+                },
+                "Jump": {
+                    "Name": "Jump",
+                    "Description": "Some abilities possess this trait, which requires you jump across the battlefield."
+                },
+                "JumpReady": {
+                    "Name": "Jump Ready",
+                    "Description": "Some abilities possess this trait, which allows them to enable the usage of Stardiver."
+                },
+                "Lalafell": {
+                    "Name": "Lalafell",
+                    "Description": "A creature with this trait is a member of the lalafell ancestry. Lalafells are a short, dimunitive rae known for magical power. An ability with this trait can be used and selected only by lalafells."
+                },
+                "Miqote": {
+                    "Name": "Miqo'te",
+                    "Description": "A creature with this trait is a member of the miqo'te ancestry. Miqo'te are a humanoid, cat-like race known for their hunting and sharp reflexes. An ability with this trait can be used and selected only by miqo'te."
+                },
+                "Mystic": {
+                    "Name": "Mystic",
+                    "Description": "Mystic weapons use magical power to attack, rather than brute strength. You must use your Intelligence modifier instead of your Strength or Dexterity modifier on attack rolls using this weapon. If you have access to spellcasting from a magical tradition, you may instead use the ability modifier that you use to determine your spell DC or spell attack rolls. Additionally, you may add half the modifier you use to determine your attack roll to the weapon’s damage. Finally, the weapon counts as having the Magical trait for overcoming resistance."
+                },
+                "Overcharge": {
+                    "Name": "Overcharge",
+                    "Description": "Overcharge effects reflect your ability to push your inventions beyond the norm expected of them as part of the overall functionality of the AMP, and allow for anyone to synthesize these magical effects; while AMP features might be constantly usable, Overcharge effects are not, requiring charges of energy to function.\nFor simplicity, these charges are abstracted as aetheric charges, stored in a device known as the Aetherotransformer. Though this device's exact shape and size varies, the classic appearance is that of a small, waist-mounted box, sometimes affectionately referred to as a Lunch Box.\nRegardless of its appearance, your aetherotransformer stores overcharge points in a manner that isn't dissimilar from Focus Points; when you gain a feat with the amp or overcharge traits, you gain one aetheric charge that your aetherotransformer stores, up to a maximum of 3 charges. Your Focus Points are tallied independently of aetheric charges.\nAetheric charges are recovered just like Focus Points, through the Refocus action, doing activities related to your engineering invention. Focus Points cannot be used to activate overcharge abilities, and aetheric charges cannot be used to activate focus spells unless you gain the ability to do so through feats.\nSome actions with the AMP trait also list an Overcharge function, which you can spend an aetheric charge to activate when using the action. If you cannot spend an aetheric charge on the action, you can still use the ability normally, but cannot activate the overcharge function.\nLike spells, some abilities with the AMP trait get stronger as you increase in level. In these cases, the ability ends in one or more “Level” entries. This either lists the particular levels at which the ability gets an upgrade, or has an entry with a plus sign that describes a benefit that increases on a regular basis. For instance, a 1st-level action with a “Level (+4)” entry would get stronger at 5th, 9th, 13th, and 17th levels."
+                },
+                "PrimalPower": {
+                    "Name": "Primal Power",
+                    "Description": "Primal powers, also known as summon powers, are a special type of magical abiity, different from the spells also possessed by the arcanist. Egi use primal powers to battle their foes, and once they use a primal power, they normally can't use that power again until they use an aetheric refresh power, though that limit doesn't apply to aetheric refresh powers themselves. Primal powers have separate proficiencies for attacks and DCs, which aren't the same as spells, class DCs, or weapon or unarmed proficiencies. If an ability normally uses the 'higher of your class DC or spell DC', you can always substitute your primal power DC if it's higher than either. Your primal power DC and primal power attack modifier are based on your key attribute, which for egis is Wisdom."
+                },
+                "PrimalUltimate": {
+                    "Name": "Primal Ultimate",
+                    "Description": "A primal power with the primal ultimate trait is extremely powerful and doesn't work like other primal powers. Primal ultimates significantly alter the aetheric energies around them and take significant energy from the arcanist of the egi who uses them. As such, after using a primal ultimate power, that arcanist's egis can't use a primal ultimate power again for 1 hour, as the aether takes time to coalesce and reshape."
+                },
+                "Roegadyn": {
+                    "Name": "Roegadyn",
+                    "Description": "A creature with this trait is a member of the roegadyn ancestry. Roegadyns are a tall, burly race known for their seamanship and martial skill. An ability with this trait can be used and selected only by roegadyns."
+                },
+                "Soul": {
+                    "1": {
+                        "Name": "Soul 1",
+                        "Description": "Feats or soul arts with this trait require one soul shard to use."
+                    },
+                    "2": {
+                        "Name": "Soul 2",
+                        "Description": "Feats or soul arts with this trait require two soul shards to use."
+                    }
+                },
+                "Stratagem": {
+                    "Name": "Stratagem",
+                    "Description": "Stratagems are powerful abilities with shared frequencies that heavily impact your spellcasting capabilities when used, but can only be used when your grimoire is aligned to the one that a given stratagem uses."
+                },
+                "Trigger": {
+                    "Name": "Trigger",
+                    "Description": "Actions with the trigger trait require the consumption of an aetheric cartridge contained within a gunblade you're currently wielding. Regardless of the action's outcome, the cartridge is expended."
+                },
+                "Twelvesward": {
+                    "Name": "Twelvesward",
+                    "Description": "You can only have a single Twelvesward feat, and retraining to another takes only 4 days."
+                },
+                "Umbral": {
+                    "1": {
+                        "Name": "Umbral 1",
+                        "Description": "Actions or spells with this trait require one umbral soul to use. The umbral trait will be followed with a number (umbral 1, 2 or 3) which denotes how many souls are required to use that feature or spell."
+                    },
+                    "2": {
+                        "Name": "Umbral 2",
+                        "Description": "Actions or spells with this trait require two umbral souls to use. The umbral trait will be followed with a number (umbral 1, 2 or 3) which denotes how many souls are required to use that feature or spell."
+                    },
+                    "3": {
+                        "Name": "Umbral 3",
+                        "Description": "Actions or spells with this trait require three umbral souls to use. The umbral trait will be followed with a number (umbral 1, 2 or 3) which denotes how many souls are required to use that feature or spell."
+                    }
+                },
+                "Viera": {
+                    "Name": "Viera",
+                    "Description": "A creature with this trait is a member of the viera ancestry. Vieras are a tall, lanky humanoid race with lupine ears and a matriarchal culture. An ability with this trait can be used and selected only by vieras."
+                },
+                "Wind": {
+                    "Name": "Wind",
+                    "Description": "Effects with the wind trait either manipulate or conjure wind. Those that manipulate wind have no effect in a vacuum or an area without wind. Creatures wtih this trait consist primarily of wind or have a connection to magical wind."
+                }
+            },
+            "Languages": {
+                "Abyssal": "Abyssal",
+                "AlBhed": "Al Bhed",
+                "Auri": "Auri",
+                "Bozjan": "Bozjan",
+                "Celestial": "Celestial",
+                "Elezen": "Elezen",
+                "Garlean": "Garlean",
+                "Huntspeak": "Huntspeak",
+                "Hyuran": "Hyuran",
+                "Lalafellin": "Lalafellin",
+                "Moogle": "Moogle",
+                "Namazu": "Namazu",
+                "Roegadyn": "Roegadyn",
+                "Ronso": "Ronso",
+                "Sahagin": "Sahagin",
+                "Sylvan": "Sylvan",
+                "Vieran": "Vieran"
             }
         },
         "SpellNames": {
             "Cantrips": {
+                "Daze": "Daze",
+                "DivineLance": "Divine Lance",
+                "ElectricArc": "Electric Arc",
+                "ForbiddingWard": "Forbidding Ward",
                 "GougingClaw": "Gouging Claw",
                 "HealingPlaster": "Healing Plaster",
-                "DivineLance": "Divine Lance",
                 "KnowTheWay": "Know the Way",
-                "ForbiddingWard": "Forbidding Ward",
+                "Light": "Light",
+                "LiveWire": "Live Wire",
+                "SlashingGust": "Slashing Gust",
                 "Stabilize": "Stabilize",
                 "TelekineticHand": "Telekinetic Hand",
-                "VoidWarp": "Void Warp",
-                "Daze": "Daze",
-                "ElectricArc": "Electric Arc",
-                "LiveWire": "Live Wire",
-                "Light": "Light"
+                "VoidWarp": "Void Warp"
             },
             "1st": {
-                "MysticArmor": "Mystic Armor",
-                "ChillingSpray": "Chilling Spray",
-                "GrimTendrils": "Grim Tendrils",
-                "Snowball": "Snowball",
-                "Grease": "Grease",
-                "ShockingGrasp": "Shocking Grasp",
-                "RunicBody": "Runic Body",
-                "RunicWeapon": "Runic Weapon",
-                "Befuddle": "Befuddle",
-                "GentleLanding": "Gentle Landing",
+                "Agitate": "Agitate",
                 "AntHaul": "Ant Haul",
+                "Befuddle": "Befuddle",
+                "ChillingSpray": "Chilling Spray",
+                "DrawIre": "Draw Ire",
+                "EchoingWeapon": "Echoing Weapon",
+                "Enfeeble": "Enfeeble",
                 "FleetStep": "Fleet Step",
+                "ForceBarrage": "Force Barrage",
+                "Friendfetch": "Friendfetch",
+                "GentleLanding": "Gentle Landing",
+                "Grease": "Grease",
+                "GrimTendrils": "Grim Tendrils",
+                "Harm": "Harm",
                 "Heal": "Heal",
                 "HydraulicPush": "Hydraulic Push",
-                "Agitate": "Agitate",
-                "SureStrike": "Sure Strike",
-                "EchoingWeapon": "Echoing Weapon",
-                "Restyle": "Restyle",
                 "LeadenSteps": "Leaden Steps",
                 "Mending": "Mending",
-                "Friendfetch": "Friendfetch",
+                "MysticArmor": "Mystic Armor",
                 "NoxiousVapors": "Noxious Vapors",
-                "ForceBarrage": "Force Barrage",
                 "PummelingRubble": "Pummeling Rubble",
-                "Synchronize": "Synchronize",
+                "Restyle": "Restyle",
+                "RunicBody": "Runic Body",
+                "RunicWeapon": "Runic Weapon",
+                "ShockingGrasp": "Shocking Grasp",
                 "Shockwave": "Shockwave",
-                "Harm": "Harm",
-                "Tailwind": "Tailwind",
-                "Enfeeble": "Enfeeble"
+                "Snowball": "Snowball",
+                "SpiritLink": "Spirit Link",
+                "SureStrike": "Sure Strike",
+                "Synchronize": "Synchronize",
+                "Tailwind": "Tailwind"
             },
             "2nd": {
-                "Status": "Status",
-                "Everlight": "Everlight",
-                "RimeSlick": "Rime Slick",
                 "BlazingBolt": "Blazing Bolt",
-                "OakenResilience": "Oaken Resilience",
-                "SoundBody": "Sound Body",
                 "CleanseAffliction": "Cleanse Affliction",
-                "DispelMagic": "Dispel Magic",
+                "CleanseAir": "Cleanse Air",
                 "ClearMind": "Clear Mind",
-                "RadiantField": "Radiant Field",
-                "Shrink": "Shrink",
+                "DispelMagic": "Dispel Magic",
+                "Everlight": "Everlight",
                 "FinalSacrifice": "Final Sacrifice",
-                "SureFooting": "Sure Footing",
-                "Restoration": "Restoration",
                 "Invisibility": "Invisibility",
-                "ThunderingDominance": "Thundering Dominance"
+                "OakenResilience": "Oaken Resilience",
+                "RadiantField": "Radiant Field",
+                "Restoration": "Restoration",
+                "RimeSlick": "Rime Slick",
+                "Shrink": "Shrink",
+                "SoundBody": "Sound Body",
+                "Status": "Status",
+                "SureFooting": "Sure Footing",
+                "ThunderingDominance": "Thundering Dominance",
+                "VomitSwarm": "Vomit Swarm"
             },
             "3rd": {
+                "AnointedGround": "Anointed Ground",
+                "AqueousOrb": "Aqueous Orb",
                 "Blindness": "Blindness",
-                "VampiricFeast": "Vampiric Feast",
+                "CloudDragon'sCloak": "Cloud Dragon's Cloak",
+                "CozyCabin": "Cozy Cabin",
+                "CrashingWave": "Crashing Wave",
                 "Fireball": "Fireball",
-                "LightningBolt": "Lightning Bolt",
                 "Heroism": "Heroism",
                 "HolyLight": "Holy Light",
-                "AnointedGround": "Anointed Ground",
-                "LifeConnection": "Life Connection",
-                "Levitate": "Levitate",
-                "AqueousOrb": "Aqueous Orb",
-                "PositiveAttunement": "Positive Attunement",
-                "CrashingWave": "Crashing Wave",
                 "Hypercognition": "Hypercognition",
+                "Levitate": "Levitate",
+                "LifeConnection": "Life Connection",
+                "LightningBolt": "Lightning Bolt",
                 "MadMonkeys": "Mad Monkeys",
-                "TimeJump": "Time Jump",
                 "Paralyze": "Paralyze",
-                "SharedInvisibility": "Shared Invisibility"
+                "PositiveAttunement": "Positive Attunement",
+                "SharedInvisibility": "Shared Invisibility",
+                "TimeJump": "Time Jump",
+                "VampiricFeast": "Vampiric Feast"
             },
             "4th": {
-                "Enervation": "Enervation",
-                "SpellImmunity": "Spell Immunity",
-                "Flicker": "Flicker",
                 "CloakOfLight": "Cloak of Light",
-                "OcularOverload": "Ocular Overload",
-                "SealFate": "Seal Fate",
-                "TortoiseAndTheHare": "Tortoise and the Hare",
-                "SoothingSpring": "Soothing Spring",
-                "ReboundingBarrier": "Rebounding Barrier",
+                "Enervation": "Enervation",
+                "Flicker": "Flicker",
                 "MountainResilience": "Mountain Resilience",
+                "OcularOverload": "Ocular Overload",
+                "ReboundingBarrier": "Rebounding Barrier",
+                "SealFate": "Seal Fate",
+                "SoothingSpring": "Soothing Spring",
+                "SpellImmunity": "Spell Immunity",
+                "TortoiseAndTheHare": "Tortoise and the Hare",
                 "WhispersOfTheVoid": "Whispers of the Void"
             },
             "5th": {
-                "ImaginaryLockbox": "Imaginary Lockbox",
-                "Banishment": "Banishment",
-                "ConeOfCold": "Cone of Cold",
-                "MantleOfTheMagmaHeart": "Mantle of the Magma Heart",
-                "MantleOfTheFrozenHeart": "Mantle of the Frozen Heart",
-                "SummonFiend": "Summon Fiend",
-                "LightningStorm": "Lightning Storm",
                 "AbyssalPlague": "Abyssal Plague",
-                "CorrosiveMuck": "Corrosive Muck",
-                "TransmuteRockAndMud": "Transmute Rock And Mud",
-                "BreathOfLife": "Breath of Life",
+                "Banishment": "Banishment",
+                "BlackTentacles": "Black Tentacles",
                 "BlessingOfDefiance": "Blessing of Defiance",
-                "SpiritualGuardian": "Spiritual Guardian",
+                "BreathOfLife": "Breath of Life",
+                "ConeOfCold": "Cone of Cold",
+                "CorrosiveMuck": "Corrosive Muck",
                 "DropDead": "Drop Dead",
+                "ImaginaryLockbox": "Imaginary Lockbox",
                 "InvokeSpirits": "Invoke Spirits",
+                "LightningStorm": "Lightning Storm",
+                "MantleOfTheFrozenHeart": "Mantle of the Frozen Heart",
+                "MantleOfTheMagmaHeart": "Mantle of the Magma Heart",
+                "MoonFrenzy": "Moon Frenzy",
                 "RepellingPulse": "Repelling Pulse",
-                "BlackTentacles": "Black Tentacles"
+                "SpiritualGuardian": "Spiritual Guardian",
+                "SummonFiend": "Summon Fiend",
+                "TransmuteRockAndMud": "Transmute Rock And Mud"
             },
             "6th": {
                 "ArrowSalvo": "Arrow Salvo",
-                "Petrify": "Petrify",
                 "ChainLightning": "Chain Lightning",
-                "Dominate": "Dominate",
-                "Disintegrate": "Disintegrate",
+                "CollectiveTransposition": "Collective Transposition",
                 "CursedMetamorphosis": "Cursed Metamorphosis",
-                "Necrotize": "Necrotize",
+                "Disintegrate": "Disintegrate",
+                "Dominate": "Dominate",
                 "ElementalConfluence": "Elemental Confluence",
-                "Teleport": "Teleport",
-                "ZealousConviction": "Zealous Conviction",
+                "Necrotize": "Necrotize",
+                "Petrify": "Petrify",
                 "RaiseDead": "Raise Dead",
+                "Teleport": "Teleport",
                 "UnexpectedTransposition": "Unexpected Transposition",
-                "CollectiveTransposition": "Collective Transposition"
+                "ZealousConviction": "Zealous Conviction"
             },
             "7th": {
-                "PowerWordBlind": "Power Word Blind",
-                "EclipseBurst": "Eclipse Burst",
+                "BeheadingBuzzSaw": "Beheading Buzz Saw",
                 "BlightburnBlast": "Blightburn Blast",
-                "EnergyAegis": "Energy Aegis",
                 "Deity'sStrike": "Deity's Strike",
-                "TrueTarget": "True Target",
-                "WarpMind": "Warp Mind",
-                "SpellRiposte": "Spell Riposte",
+                "DuplicateFoe": "Duplicate Foe",
+                "EclipseBurst": "Eclipse Burst",
+                "EnergyAegis": "Energy Aegis",
+                "PowerWordBlind": "Power Word Blind",
                 "ShadowRaid": "Shadow Raid",
-                "DuplicateFoe": "Duplicate Foe"
+                "SpellRiposte": "Spell Riposte",
+                "TrueTarget": "True Target",
+                "WarpMind": "Warp Mind"
             },
             "8th": {
+                "AntimagicField": "Antimagic Field",
+                "ConfusingColors": "Confusing Colors",
                 "DevourLife": "Devour Life",
-                "UndermineReality": "Undermine Reality",
+                "Disappearance": "Disappearance",
+                "Earthquake": "Earthquake",
                 "PowerWordStun": "Power Word Stun",
                 "Quandary": "Quandary",
-                "ConfusingColors": "Confusing Colors",
-                "AntimagicField": "Antimagic Field",
-                "Earthquake": "Earthquake",
-                "Disappearance": "Disappearance"
+                "RainbowFumarole": "Rainbow Fumarole",
+                "SpiritSong": "Spirit Song",
+                "UndermineReality": "Undermine Reality"
             },
             "9th": {
-                "Implosion": "Implosion",
+                "CallFluxwraith": "Call Fluxwraith",
                 "FallingStars": "Falling Stars",
-                "VoraciousGestalt": "Voracious Gestalt",
-                "WailsOfTheDamned": "Wails of the Damned",
-                "UnfathomableSong": "Unfathomable Song",
+                "Implosion": "Implosion",
                 "Nature'sEnmity": "Nature's Enmity",
+                "PowerWordKill": "Power Word Kill",
+                "UnfathomableSong": "Unfathomable Song",
                 "Upheaval": "Upheaval",
-                "PowerWordKill": "Power Word Kill"
+                "VoraciousGestalt": "Voracious Gestalt",
+                "WailsOfTheDamned": "Wails of the Damned"
             },
             "10th": {
-                "Cataclysm": "Cataclysm",
-                "NatureIncarnate": "Nature Incarnate",
                 "AlterReality": "Alter Reality",
+                "Cataclysm": "Cataclysm",
+                "FatedConfrontation": "Fated Confrontation",
+                "FreezeTime": "Freeze Time",
+                "Gate": "Gate",
+                "Indestructibility": "Indestructibility",
+                "Manifestation": "Manifestation",
                 "Miracle": "Miracle",
-                "FatedConfrontation": "Fated Confrontation"
+                "NatureIncarnate": "Nature Incarnate"
             }
         }
     }

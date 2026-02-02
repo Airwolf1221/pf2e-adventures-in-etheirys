@@ -1,0 +1,76 @@
+{
+  "name": "Spell Effect: Protect (Aura)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.jQ5JQQcXhIqsFZZ6]{Protect}</p><p>Allies within 10-feet of you gain the same benefits from Protect as you do.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 10,
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.iHs6mSbbITgY0LFo",
+            "affects": "allies"
+          }
+        ]
+      }
+    ],
+    "slug": "spell-effect-protect-aura",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "aXsxU7YCwnM9aul1",
+  "sort": 300000,
+  "_key": "!items!aXsxU7YCwnM9aul1"
+}

@@ -1,0 +1,108 @@
+{
+  "folder": "T6jSsGqNfDn7fod3",
+  "name": "Electrogenesis",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Imitating a lesser wyvern, you hack up a ball of electrical energy and launch it. All creatures in the area of effect take 2d4 lightning damage, and must make a Reflex save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage, and takes a -1 status penalty to AC against attacks from metal weapons until the end of its next turn.</p><p><strong>Critical Failure</strong> As failure, except the creature takes double damage and the status penalty to AC lasts until the end of your next turn.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d4.</p>"
+    },
+    "rules": [],
+    "slug": "electrogenesis",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "electricity",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 5
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "bkTG8rtka10wq9jZ": {
+        "formula": "2d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "electricity",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "bkTG8rtka10wq9jZ": "1d4"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/lightning/bolt-strike-purple-pink.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "2Wjos0N4gBVTlwdg",
+  "sort": 700000,
+  "_key": "!items!2Wjos0N4gBVTlwdg"
+}

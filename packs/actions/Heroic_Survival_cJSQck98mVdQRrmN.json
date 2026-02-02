@@ -1,0 +1,55 @@
+{
+  "name": "Heroic Survival",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You drop to 0 Hit Points or would die outright.</p><p><strong>Cost</strong> spend a Hero Point</p><hr /><p>Against all odds, you survive an assault that would have left you dead or dying. You avoid being knocked out or killed and remain at 1 Hit Point. You do not increase your Wounded condition, nor do you take any effects that would occur from the Dying condition, as you do not start Dying.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "heroic-survival",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "cJSQck98mVdQRrmN",
+  "sort": 1400000,
+  "_key": "!items!cJSQck98mVdQRrmN"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Last Bastion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Area</strong> @Template[type:emanation|distance:20]</p><p><strong>Duration</strong> [[@actor.flags.pf2e.limit-rank]] rounds</p><hr /><p>Your peerless defense ensures that your allies will not fall or falter while they stand by you. While within your emanation, you and your allies cannot fall below 1 hit point. Allies that are at 0 hit points and currently dying are automatically stabilised by the emanation, even if they are no longer within it.</p><p>When Last Bastion expires, all allies within the emanation at the time of expiry gain temporary hitpoints equal to half their total hit points which last for 2 rounds.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "last-bastion",
+    "traits": {
+      "otherTags": [
+        "limit-break-4"
+      ],
+      "value": [
+        "limit-break",
+        "mythic",
+        "sentinel"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.3dpCIPiNF5JcbBx1",
+      "name": "Effect: Last Bastion"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "Ow6KxCaLrllMs23a",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.hfF6n4IrUC9ggJFf",
+    "duplicateSource": "Item.hfF6n4IrUC9ggJFf",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 100000,
+  "_id": "ed39paYSbo4lSenl",
+  "_key": "!items!ed39paYSbo4lSenl"
+}

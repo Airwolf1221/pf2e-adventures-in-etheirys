@@ -1,0 +1,74 @@
+{
+  "name": "Greater Aetheric Materia",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your exposure to the blessing of light has taught you to imbue ever greater materia into your weaponry, imparting some of the most dangerous effects you know. Select one weapon or handwraps of mighty blows when you make your daily preparations. In your hands, this item gains the effect of one of your choice from the @UUID[Compendium.pf2e.equipment-srd.Item.vQUIUAFOTOWj3ohh]{Greater Corrosive}, @UUID[Compendium.pf2e.equipment-srd.Item.RSZwUlCzUX7Nb4UA]{Greater Flaming}, @UUID[Compendium.pf2e.equipment-srd.Item.Sexud7FdxIrg50vU]{Greater Frost}, @UUID[Compendium.pf2e.equipment-srd.Item.TEa1oKZbwsOvC6TZ]{Greater Shock} or @UUID[Compendium.pf2e.equipment-srd.Item.Lb7F2BR9X9TF1vjX]{Greater Thundering} property materia, without it counting as a materia on the weapon.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "greater-aetheric-materia",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "blessing",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "legendary in one type of weapon"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "ECCqe4sICPs3dUI5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "naJcLNJfdIfrOEBB",
+  "sort": 900000,
+  "_key": "!items!naJcLNJfdIfrOEBB"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Unstoppable Idea",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You’ve transcended your mortal self and become the very concept of freedom. You’re immune to the @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}, @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated}, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed}, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}, and @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} conditions, as well as any other effect that would rob you of your agency (for instance, a charm spell). As a single action with the auditory trait, you can end all such conditions and effects on a creature you choose within 120 feet. You must attempt a counteract check against conditions and effects applied by a mythic creature, as with Freedom!, and if you fail to counteract a condition or effect, you can’t attempt to counteract it again for a day.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Immunity",
+        "type": [
+          "controlled",
+          "fascinated",
+          "fleeing",
+          "grabbed",
+          "immobilized",
+          "restrained",
+          "slowed",
+          "stunned",
+          "unconscious"
+        ]
+      }
+    ],
+    "slug": "unstoppable-idea",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "p2FaYlAwIVp1t93F",
+  "sort": 1000000,
+  "_key": "!items!p2FaYlAwIVp1t93F"
+}

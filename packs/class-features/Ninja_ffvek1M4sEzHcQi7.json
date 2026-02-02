@@ -1,0 +1,122 @@
+{
+  "name": "Ninja",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You're trained in the ancient art of ninjutsu; you are skilled at hiding in the shadows, collecting information, sabotaging machina, and performing assassinations, where necessary.</p><p>You're trained in Acrobatics, and you may choose Wisdom as your key attribute score. Additionally, you become trained with the @UUID[Compendium.pf2e.equipment-srd.Item.Y1dkRsRd1Z7Jf2y6]{Katana}, @UUID[Compendium.pf2e.equipment-srd.Item.YOpopjoWgU7bkmwh]{Wakizashi}, and all weapons with the monk trait. Whenever you gain a class feature that grants you expert or greater proficiency with simple or martial weapons, you also gain that proficiency rank with these weapons.</p><p>You can deal sneak attack damage with katanas, wakizashis, and all weapons with the monk trait, in addition to the weapons listed in the sneak attack class feature. When you gain the Weapon Tricks class feature, you can gain the critical specialization effects of katanas, wakizashis, and all weapons with the monk trait, in addition to agile or finesse weapons or unarmed attacks.</p><p>Your almost supernatural focus allows you to perform miraculous feats through the use of Mudras, and you start knowing the Ten Mudra. Your powers allow you to cast special @Localize[PF2E.TraitOccult] spells called ninjutsu spells, which are a type of focus spell. You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.91CdzXVg2mvgzJPo]{Fuma Shuriken} ninjutsu spell.</p><p>It costs 1 Focus Point to cast a focus spell. When you gain your first ninjutsu spell, you also gain a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you regain 1 Focus Point by spenidng 10 minutes using the Refocus activity to meditate on your goals and your missions.</p><p>Your ninjutsu spells are @Localize[PF2E.TraitOccult] spells. Your spellcasting attribute is Wisdom.</p><p>Focus spells are automatically heightened to half your level rounded up. Certain feats give you more focus spells. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but can never be more than 3 points.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.acrobatics.rank",
+        "value": 1
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:base:katana",
+              "item:base:wakizashi",
+              "item:trait:monk"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "sneak-attack"
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:base:katana",
+              "item:base:wakizashi",
+              "item:trait:monk"
+            ]
+          }
+        ],
+        "label": "Ninja Weapons",
+        "sameAs": "simple",
+        "slug": "ninja-weapons"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:tag:sneak-attack",
+          "target:condition:off-guard",
+          {
+            "not": "item:category:unarmed"
+          }
+        ]
+      }
+    ],
+    "slug": "ninja",
+    "traits": {
+      "otherTags": [
+        "rogue-racket"
+      ],
+      "value": [
+        "rogue"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "wis"
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "folder": "tNCRAvsYpd62IcFW",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "ffvek1M4sEzHcQi7",
+  "sort": 0,
+  "_key": "!items!ffvek1M4sEzHcQi7"
+}

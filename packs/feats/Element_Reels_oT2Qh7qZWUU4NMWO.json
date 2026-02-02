@@ -1,0 +1,77 @@
+{
+  "name": "Element Reels",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><hr /><p>You lash out with a flurry of elemental attacks. Make two Strikes. On each successful Strike, in addition to its regular effects, you roll [[/r (1 * @actor.flags.pf2e.limit-rank)d8]] and consult the chart below. The Strike deals an additional 1d6 damage of each of the elemental types chosen. If two dice roll the same element, each damage die of that element is increased to 1d8. If three or more dice roll the same element, each element deals 1d12 damage instead.</p><ol><li>@Localize[PF2E.TraitVoid] @Damage[1d6[void]] @Damage[1d8[void]] @Damage[1d12[void]]</li><li>Fire @Damage[1d6[fire]] @Damage[1d8[fire]] @Damage[1d12[fire]]</li><li>Water @Damage[1d6[water-ff]] @Damage[1d8[water-ff]] @Damage[1d12[water-ff]]</li><li>Earth @Damage[1d6[earth-ff]] @Damage[1d8[earth-ff]] @Damage[1d12[earth-ff]]</li><li>Wind @Damage[1d6[wind-ff]] @Damage[1d8[wind-ff]] @Damage[1d12[wind-ff]]</li><li>@Localize[PF2E.TraitCold] @Damage[1d6[cold]] @Damage[1d8[cold]] @Damage[1d12[cold]]</li><li>@Localize[PF2E.TraitElectricity] @Damage[1d6[electricity]] @Damage[1d8[electricity]] @Damage[1d12[electricity]]</li><li>@Localize[PF2E.TraitVitality] @Damage[1d6[vitality]] @Damage[1d8[vitality]] @Damage[1d12[vitality]]</li></ol>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "element-reels",
+    "traits": {
+      "otherTags": [
+        "limit-break-3"
+      ],
+      "value": [
+        "commando",
+        "limit-break",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "GDPKuRissPrUukMU",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.oT2Qh7qZWUU4NMWO",
+    "duplicateSource": "Item.KBdZPKsXVPLiPbeb",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 100000,
+  "_id": "oT2Qh7qZWUU4NMWO",
+  "_key": "!items!oT2Qh7qZWUU4NMWO"
+}

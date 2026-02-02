@@ -1,0 +1,107 @@
+{
+  "folder": "EoBsfh2E6VkdCoxw",
+  "name": "Level 3 Flare",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You launch a devastating torrent of magical energy that preys on the hubris of creatures as they reach certain milestones. Creatures in the spell's area take 8d6 unaspected damage, with a basic Reflex save. Creatures whose level is a multiple of three (3, 6, 9, 12, 15, 18, 21, etc) treat the result of their Reflex save as one degree worse.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "level-3-flare",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "force",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 20
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "oYnlK5fnio4CG3Bn": {
+        "formula": "8d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "force",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "oYnlK5fnio4CG3Bn": "2d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/lightning/bolt-strike-explosion-blue.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "4IyQQZzHDORTzeVG",
+  "sort": 0,
+  "_key": "!items!4IyQQZzHDORTzeVG"
+}

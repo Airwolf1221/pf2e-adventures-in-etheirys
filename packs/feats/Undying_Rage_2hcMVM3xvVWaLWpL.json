@@ -12,7 +12,7 @@
     },
     "category": "ancestry",
     "description": {
-      "value": "<p>You resist death's clutches with supernatural vigor. When you use Warrior's Ferocity, you gain temporary Hit Points equal to your level.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.Km1sc2p8S45KRBx3]{Effect: Undying Rage}</p>",
+      "value": "<p>You resist death's clutches with supernatural vigor. When you use Warrior's Ferocity, you gain temporary Hit Points equal to your level.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Km1sc2p8S45KRBx3]{Effect: Undying Rage}</p>",
       "gm": ""
     },
     "level": {

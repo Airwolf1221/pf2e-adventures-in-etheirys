@@ -3,7 +3,7 @@
   "name": "Effect: Unyielding Ferocity",
   "system": {
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.wDXGtTjBkgEzRe9p]{Unyielding Ferocity}</p><p>You gain temporary Hit Points equal to your level.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.wDXGtTjBkgEzRe9p]{Unyielding Ferocity}</p><p>You gain temporary Hit Points equal to your level.</p>",
       "gm": ""
     },
     "duration": {

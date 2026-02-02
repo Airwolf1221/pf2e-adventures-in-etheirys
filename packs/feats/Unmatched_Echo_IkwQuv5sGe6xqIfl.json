@@ -1,0 +1,74 @@
+{
+  "name": "Unmatched Echo",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have dealt with the whims of fate dictating your ability to view the past with the Echo for far too long, and have gleaned a means to perhaps control it better than you could before, although this comes at the cost of not being able to see nearly as far into the past as you can when seeing a spontaneous vision thorugh the Echo. You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.3JYTQLJ6si08XDJT]{Lesser Echo} spell as an innate @Localize[PF2E.TraitOccult] spell that you can cast once per day. You cannot learn lesser echo as a spellcaster through any other method than this feat. The DC for The Echo decreases to very easy. Finally, you gain the ability to identify the presence of residual mnemonic aether within 30 feet of you as a free action.</p><p>At 16th level, you can cast lesser echo twice per day, and it heightens to 6th rank. At 19th level, it heightens to 7th rank.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "unmatched-echo",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "blessing",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bolstered Echo"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "ECCqe4sICPs3dUI5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "IkwQuv5sGe6xqIfl",
+  "sort": 500000,
+  "_key": "!items!IkwQuv5sGe6xqIfl"
+}

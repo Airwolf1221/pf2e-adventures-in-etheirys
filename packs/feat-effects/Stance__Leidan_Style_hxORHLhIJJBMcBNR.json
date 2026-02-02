@@ -1,0 +1,89 @@
+{
+  "name": "Stance: Leidan Style",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.l6ulQz7roG0URSFR]{Leidan Style}</p><p>You can make leidan kick attacks that deal 1d6 bludgeoning damage. These attacks are in the brawling group, and have the finesse, nonlethal, reach, sweep, and unarmed traits.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "icons/magic/movement/trail-streak-pink.webp",
+        "label": "Leidan Kick",
+        "range": null,
+        "slug": "leidan-kick",
+        "traits": [
+          "finesse",
+          "reach",
+          "sweep",
+          "nonlethal",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "stance-leidan-style",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 0
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/movement/trail-streak-pink.webp",
+  "folder": "yxpG0s6CtkXkgbck",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "hxORHLhIJJBMcBNR",
+  "sort": 0,
+  "_key": "!items!hxORHLhIJJBMcBNR"
+}

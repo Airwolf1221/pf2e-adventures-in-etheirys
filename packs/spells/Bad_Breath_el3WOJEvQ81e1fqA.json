@@ -1,0 +1,87 @@
+{
+  "folder": "Fr6YuuYv0USbrey1",
+  "name": "Bad Breath",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The wielder breathes in, before exhaling a stream of breath laced with virulent aether. Each creature in the area must roll [[/r 1d8]] on the table below to see what affects it, then attempt a saving throw of the indicated type. The table notes any additional traits that apply to each type of status. If a creature is struck by multiple effects, it uses the same d20 result for all its saving throws. For all effects, a successful saving throw negates the effect for that creature.</p><ol><li>@Check[fortitude|against:spell] (poison); @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} for 1 minute; or Sickened 2 on a critical failure.</li><li>@Check[will|against:spell]; @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute.</li><li>@Check[fortitude|against:spell] (poison); @Damage[3d6[persistent,force]] and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 minute.</li><li>@Check[will|against:spell|traits:incapacitation] (sleep, incapacitation); The target falls asleep</li><li>@Check[will|against:spell]; @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute; or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} for 1 round and then Slowed 1 for 1 minute on a critical failure.</li><li>@Check[will|against:spell] (mental); @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, as per the @UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]{@Localize[AIE.SpellNames.7th.WarpMind]} spell.</li><li>@Check[fortitude|against:spell]; Unable to cast spells or use effects with the auditory trait for 1 minute</li><li>No Save; Roll twice, ignoring any duplicates and rerolling additional rolls of 8</li></ol><hr /><p><strong>Heightened (8th)</strong> Each creature affected must roll twice and take both results.</p><p><strong>Heightened (10th)</strong> Each creature affected must roll three times and take all results.</p>"
+    },
+    "rules": [],
+    "slug": "bad-breath",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "cone",
+      "value": 30
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/unholy/orb-contained-pink.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "el3WOJEvQ81e1fqA",
+  "sort": 0,
+  "_key": "!items!el3WOJEvQ81e1fqA"
+}

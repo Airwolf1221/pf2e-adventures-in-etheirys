@@ -1,0 +1,128 @@
+{
+  "folder": "wmtkYTfwBVxCCZc8",
+  "name": "Level 5 Death",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You utter a dread curse that preys upon the milestones that creatures achieve. The target takes 70 shadow damage with a basic Fortitude save. If the creature is undead, they instead take 70 holy damage. The spell loses the shadow trait and gains the holy trait in this case. If the creature’s level is a multiple of 5 (5, 10, 15, 20, etc), they treat their save against this spell as one degree worse.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 10.</p>"
+    },
+    "rules": [],
+    "slug": "level-5-death",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "incapacitation",
+        "manipulate",
+        "void"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "oROwO6AfQblFssXt": {
+        "formula": "70",
+        "kinds": [
+          "damage"
+        ],
+        "type": "void",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "oROwO6AfQblFssXt": "10"
+      },
+      "area": 0
+    },
+    "overlays": {
+      "g7x31aJ5MObBpqf9": {
+        "name": "Level 5 Death (Holy)",
+        "system": {
+          "traits": {
+            "value": [
+              "concentrate",
+              "vitality",
+              "incapacitation",
+              "manipulate"
+            ]
+          },
+          "damage": {
+            "oROwO6AfQblFssXt": {
+              "type": "vitality",
+              "category": null
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "img": "icons/magic/death/bones-crossed-orange.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "nHTwE7SkFlkzzEMI",
+  "sort": 0,
+  "_key": "!items!nHTwE7SkFlkzzEMI"
+}

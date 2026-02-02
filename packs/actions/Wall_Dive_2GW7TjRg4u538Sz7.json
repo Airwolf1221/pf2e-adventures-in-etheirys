@@ -1,0 +1,55 @@
+{
+  "name": "Wall Dive",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You extend your claws and Stride. Each creature you're adjacent to at any point during your movement takes @Damage[4d8+10[slashing]] damage (@Check[reflex|against:spell|basic] against your spell DC).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "wall-dive",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "move"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": "t0qM3M4VwXTbo9BQ",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "2GW7TjRg4u538Sz7",
+  "sort": 200000,
+  "_key": "!items!2GW7TjRg4u538Sz7"
+}

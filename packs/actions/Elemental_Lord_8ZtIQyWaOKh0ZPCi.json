@@ -1,0 +1,63 @@
+{
+  "name": "Elemental Lord",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Through valor and heroics, you have earned the elementals' favour and can call upon it at will to influence the world.</p><p>You gain the holy and elemental traits. As a single action with the concentrate trait, you can call down the light of the elementals upon you as a @Template[type:emanation|distance:30]{30]-foot radius, infinitely tall} cylinder of bright light centered on you, which has the aura, light, and white magic traits. Allies cannot drop below 1 Hit Point and are immune to death effects while in this light, and each enemy who starts its turn in the light takes 50 spirit damage. You can Dismiss this light, and Dismiss the light automatically if you drop to 0 Hit Points or die.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActorTraits",
+        "add": [
+          "vitality",
+          "elemental"
+        ]
+      }
+    ],
+    "slug": "elemental-lord",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "8ZtIQyWaOKh0ZPCi",
+  "sort": 600000,
+  "_key": "!items!8ZtIQyWaOKh0ZPCi"
+}

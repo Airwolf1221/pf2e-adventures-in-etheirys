@@ -1,0 +1,99 @@
+{
+  "folder": "T6jSsGqNfDn7fod3",
+  "name": "Sharpened Knife",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Mimicking the feared Tonberry, you lash out with a phantom knife. Make a spell attack roll against your target’s AC. Your target is considered off-guard for this attack. The knife deals 1d4 piercing damage.</p><hr /><p><strong>Success</strong> You deal normal damage.</p><p><strong>Critical Success</strong> You deal double damage and@Damage[(2*@item.level)[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d4, and the persistent bleed damage increases by 2.</p>"
+    },
+    "rules": [],
+    "slug": "sharpened-knife",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "WGNFW2kJYjGMALTX": {
+        "formula": "1d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "piercing",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "WGNFW2kJYjGMALTX": "1d4"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/fire/dagger-rune-enchant-purple-orange.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "XLpWcf5J1Jij1fE0",
+  "sort": 0,
+  "_key": "!items!XLpWcf5J1Jij1fE0"
+}

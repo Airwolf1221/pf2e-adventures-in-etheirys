@@ -1,0 +1,56 @@
+{
+  "name": "Mind Blow",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You imprint a piece of ammunition with a disruptive field built upon your magic, disrupting the magic of whatever it hits. Make a grafted arm ranged Strike against a foe you can see. If you hit, you attempt to counteract a spell effect active on the target (your choice, or the highest rank effect if you don't choose). Your counteract level is equal to half your level (rounded up), and your counteract check modifier is equal to your gunslinger class DC – 10.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "mind-blow",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "gunslinger",
+        "magical"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": "rX0rEiE25uCRsDHG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "7clnpYvdfTQpH4Bd",
+  "sort": 200000,
+  "_key": "!items!7clnpYvdfTQpH4Bd"
+}

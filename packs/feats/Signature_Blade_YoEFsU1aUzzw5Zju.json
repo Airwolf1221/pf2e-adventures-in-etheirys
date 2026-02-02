@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You an exceptional wielder of weapons, but one of them is your trademark; it might be one inherited or one tied to your history. Pick a weapon and give it a name; this weapon gains the unique trait. You gain access to its critical specialization effect. You can spend one action saying the name of your weapon, summoning it into your empty hand if the weapon is unattended and within 1 mile; this is an @Localize[PF2E.TraitOccult] summoning effect.</p><p>If your signature weapon is destroyed, you can spend three days and three nights binding a new weapon with your aether, creating a new signature weapon.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.haD85Qw934aaBKSk]{Effect: Signature Blade}</p>",
+      "value": "<p>You an exceptional wielder of weapons, but one of them is your trademark; it might be one inherited or one tied to your history. Pick a weapon and give it a name; this weapon gains the unique trait. You gain access to its critical specialization effect. You can spend one action saying the name of your weapon, summoning it into your empty hand if the weapon is unattended and within 1 mile; this is an @Localize[PF2E.TraitOccult] summoning effect.</p><p>If your signature weapon is destroyed, you can spend three days and three nights binding a new weapon with your aether, creating a new signature weapon.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.haD85Qw934aaBKSk]{Effect: Signature Blade}</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,7 @@
       "remaster": false
     },
     "rules": [],
-    "slug": null,
+    "slug": "signature-blade",
     "traits": {
       "otherTags": [],
       "value": [

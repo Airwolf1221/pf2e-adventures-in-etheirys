@@ -1,0 +1,77 @@
+{
+  "name": "Great Gospel",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Range</strong> 60 feet; <strong>Area</strong> @Template[type:emanation|distance:30]</p><hr /><p>You fill your allies with life, inspiring them to push through hardship. Each ally within the emanation gains 50 temporary hit points, as well as a +1 bonus to their ac and saving throws, both of which last until their next daily preparations. Additionally, everyone within the emanation with the spellcasting feature regains one spell slot of each rank they possess.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Rk3OirxteoyIT7b3]{Effect: Great Gospel}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "great-gospel",
+    "traits": {
+      "otherTags": [
+        "limit-break-4"
+      ],
+      "value": [
+        "limit-break",
+        "mythic",
+        "synergist"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "dpwYtCAc1YWCEQyp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.hfF6n4IrUC9ggJFf",
+    "duplicateSource": "Item.AvQIzXovlxapXSUY",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 100000,
+  "_id": "5vXbSPANqLznSPL1",
+  "_key": "!items!5vXbSPANqLznSPL1"
+}

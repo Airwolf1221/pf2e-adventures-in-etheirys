@@ -3,7 +3,7 @@
   "name": "Effect: Undying Rage",
   "system": {
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.2hcMVM3xvVWaLWpL]{Undying Rage}</p><p>You gain temporary Hit Points equal to your level.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2hcMVM3xvVWaLWpL]{Undying Rage}</p><p>You gain temporary Hit Points equal to your level.</p>",
       "gm": ""
     },
     "duration": {

@@ -1,0 +1,70 @@
+{
+  "name": "Aetheric Materia",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your exposure to the blessing of light has taught you to imbue materia into your weaponry. Select one weapon or handwraps of mighty blows when you make your daily preparations. In your hands, this item gains the effect of one of your choice from the @UUID[Compendium.pf2e.equipment-srd.Item.Qqh586pudsEqITUk]{Energizing}, @UUID[Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf]{Bane} (of any creature type available to the materia, of your choice), @UUID[Compendium.pf2e.equipment-srd.Item.cHCaDiKel0qAIQmC]{Conducting} or @UUID[Compendium.pf2e.equipment-srd.Item.fo6Yhq5mbQXsnZs0]{Wounding} property materia, without it counting as a materia on the weapon.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "aetheric-materia",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "blessing",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "ECCqe4sICPs3dUI5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "EYUA2R1hCSgLGMKr",
+  "sort": 0,
+  "_key": "!items!EYUA2R1hCSgLGMKr"
+}

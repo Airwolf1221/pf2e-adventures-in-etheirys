@@ -12,7 +12,7 @@
     },
     "category": "ancestry",
     "description": {
-      "value": "<p>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.RnO3ufbcjkRDMqBY]{Unconventional Weaponry}.</p>",
+      "value": "<p>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.RnO3ufbcjkRDMqBY]{Unconventional Weaponry}.</p>",
       "gm": ""
     },
     "level": {

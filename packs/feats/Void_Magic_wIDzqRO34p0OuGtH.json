@@ -17,7 +17,42 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:blistering-invective",
+              "item:slug:darkness",
+              "item:slug:blazing-bolt"
+            ]
+          },
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:blistering-invective",
+              "item:slug:darkness",
+              "item:slug:blazing-bolt"
+            ]
+          },
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell"
+      }
+    ],
     "slug": "void-magic",
     "traits": {
       "otherTags": [],

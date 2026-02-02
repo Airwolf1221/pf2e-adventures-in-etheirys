@@ -1,0 +1,76 @@
+{
+  "name": "Arcing Lightning",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain an aura of electricity that extends out 20 feet from you. A creature that enters or ends its turn within the aura takes @Damage[2d6[electricity]] damage. A creature can take this damage only once per turn. You can activate or deactivate this aura with a Sustain action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Arcing Lightning Aura",
+        "option": "arcing-shroud",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "Aura",
+        "radius": 20,
+        "traits": [
+          "electricity",
+          "primal"
+        ],
+        "predicate": [
+          "arcing-shroud"
+        ]
+      }
+    ],
+    "slug": "arcing-lightning",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aura",
+        "electricity",
+        "primal"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": "t0qM3M4VwXTbo9BQ",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "787Kpc7mQE1w6Mwp",
+  "sort": 100000,
+  "_key": "!items!787Kpc7mQE1w6Mwp"
+}

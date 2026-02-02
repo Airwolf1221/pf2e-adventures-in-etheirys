@@ -3,7 +3,7 @@
   "name": "Effect: Quick Nap",
   "system": {
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.UczWhFe0SRNc9d6Y]{Quick Nap}</p><p>You gain temporary Hit Points equal to your level.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.UczWhFe0SRNc9d6Y]{Quick Nap}</p><p>You gain temporary Hit Points equal to your level.</p>",
       "gm": ""
     },
     "duration": {

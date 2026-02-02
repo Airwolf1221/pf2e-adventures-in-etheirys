@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><em>The mighty Hrothgar, known as Ronso on some Shards, are renowned for their mighty statures and dedication to the causes they champion. Many of the world’s most in-demand bodyguards come from this powerful feline ancestry.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.TzmPxF282inNOgbj]{Hrothgar}</p>"
+      "value": "<p><em>The mighty Hrothgar, known as Ronso on some Shards, are renowned for their mighty statures and dedication to the causes they champion. Many of the world’s most in-demand bodyguards come from this powerful feline ancestry.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.TzmPxF282inNOgbj]{Hrothgar}</p>"
     },
     "rules": [],
     "slug": "hrothgar",
@@ -79,8 +79,8 @@
       "custom": ""
     },
     "items": {
-      "wLU6t": {
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestry-features.Item.7ScptboMi28GCbMb",
+      "dMBrR": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.ancestry-features.Item.7ScptboMi28GCbMb",
         "img": "icons/magic/defensive/shield-barrier-blue.webp",
         "name": "Thick Fur",
         "level": 1

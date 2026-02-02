@@ -61,6 +61,7 @@ jobs:
           README.md \
           CHANGELOG.md \
           LICENSE \
+          css/ \
           imgs/ \
           lang/ \
           packs/ \

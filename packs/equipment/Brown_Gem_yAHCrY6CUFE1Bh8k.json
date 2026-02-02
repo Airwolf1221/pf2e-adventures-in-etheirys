@@ -1,0 +1,138 @@
+{
+  "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/crystal-shards.webp",
+  "name": "Brown Gem",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>An earth bomb contains sticky clay with sharpened pebbles, all magically enhanced to hamper movement and dig into the skin. A brown gem deals 3d6 earth damage, 3 earth splash damage, and requires an [[/act escape dc=28]]{Escape Check}. You gain a +2 item bonus to attack rolls.</p><p>On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly} again for 1 round. This effect does not function when used on a creature that is in water.</p><p>The target can end any effects by using the @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} action or spending a total of 3 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} actions to carefully remove the sticky substances. These Interact actions don’t have to be consecutive, and other creatures can provide the actions as well.</p>"
+    },
+    "rules": [],
+    "slug": "brown-gem",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "bomb",
+        "consumable",
+        "earth",
+        "splash"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": "alchemical-bomb",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Alchemical Bomb",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "martial",
+    "group": "bomb",
+    "bonus": {
+      "value": 2
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d6",
+      "damageType": "earth-ff",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 3
+    },
+    "range": 20,
+    "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": null
+    },
+    "reload": {
+      "value": "-"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yd3kEK21YknZLlcT",
+    "duplicateSource": "Item.VdCSxh8Mv6e1aJtK",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "bXzRGj4c3BCPql9d",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Alchemist's Fire (Lesser)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "sort": 200000,
+  "_id": "yAHCrY6CUFE1Bh8k",
+  "_key": "!items!yAHCrY6CUFE1Bh8k"
+}

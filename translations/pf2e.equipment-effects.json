@@ -1,0 +1,20 @@
+{
+    "label": "Equipment Effects",
+    "entries": {
+        "Effect: Frost Vial": {
+            "name": "Effect: Ice Bomb",
+            "description": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.EpxmUtLpCkE8R6KJ]{Ice Mote}, @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]{Yeti Fragment}, @UUID[Compendium.pf2e.equipment-srd.Item.intVPcEzbE9o4NQd]{White Gem}, @UUID[Compendium.pf2e.equipment-srd.Item.4DJQID8GIlxQ7b9C]{Shiva Core}</p><p>You take a status penalty to your Speeds.</p>"
+        },
+        "Effect: Antidote": {
+            "description": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.ktjFOp3U0wQD9t0Z]{Antidote}, @UUID[Compendium.pf2e.equipment-srd.Item.XWkeL34yJK6t5qUE]{Antidote+}, @UUID[Compendium.pf2e.equipment-srd.Item.AJ1dC7EtTIfBey0M]{Hi-Antidote}, @UUID[Compendium.pf2e.equipment-srd.Item.ANzB9WzlGQXDn76G]{Hi-Antidote+}</p><p>You gain an item bonus to Fortitude saves against poisons.</p>"
+        },
+        "Effect: Elixir of Life": {
+            "name": "Effect: Healing Tonic",
+            "description": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.hDLbR56Id2OtU318]{Tonic}, @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{Tincture}, @UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]{Tincture+}, @UUID[Compendium.pf2e.equipment-srd.Item.mYozcVg9fQY6zO7C]{Mega Potion}, @UUID[Compendium.pf2e.equipment-srd.Item.AmxSqEoFhRLMYd1W]{Elixir}, @UUID[Compendium.pf2e.equipment-srd.Item.qK964kZz1ALcysOa]{Megalixir}</p><p>You gain an item bonus to saving throws against diseases and poisons.</p>"
+        },
+        "Effect: Antiplague": {
+            "name": "Effect: Vaccine",
+            "description": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.UqinuuCWePTYGhVO]{Vaccine}, @UUID[Compendium.pf2e.equipment-srd.Item.biRbqKo2C97XLfQ0]{Vaccine+}, @UUID[Compendium.pf2e.equipment-srd.Item.ORDaAzMZLrf6Hn8A]{Hi-Vaccine}, @UUID[Compendium.pf2e.equipment-srd.Item.kajpTXg3oHIJStQa]{Hi-Vaccine+}</p><p>You gain an item bonus to Fortitude saves against diseases.</p>"
+        }
+    }
+}

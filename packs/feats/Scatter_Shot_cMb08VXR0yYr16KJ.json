@@ -1,0 +1,77 @@
+{
+  "name": "Scatter Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action, and you are wielding a ranged weapon.</p><p><strong>Area</strong> @Template[type:cone|distance:30]</p><hr /><p>You fire a blast of projectiles thick enough to be nearly impossible to fully dodge. You deal @Damage[(4 * @actor.flags.pf2e.limit-rank)d6] damage of your weapon's damage type to enemies in the cone, with a @Check[type:reflex|against:limit-dc|basic] save.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "scatter-shot",
+    "traits": {
+      "otherTags": [
+        "limit-break-3"
+      ],
+      "value": [
+        "limit-break",
+        "mythic",
+        "ravager"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "utDf1iyEOVi4hNr8",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.oT2Qh7qZWUU4NMWO",
+    "duplicateSource": "Item.cvyA4qfOHxZXOtvi",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 200000,
+  "_id": "cMb08VXR0yYr16KJ",
+  "_key": "!items!cMb08VXR0yYr16KJ"
+}

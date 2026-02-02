@@ -1,0 +1,74 @@
+{
+  "name": "Destiny of Freedom",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your destiny is to free the oppressed from the shackles of tyrannical powers such as Garlemald and other similar powers, and the Mothercrystal has provided you with freedom from such shackles yourself.</p><p><strong>Edicts</strong> Free others from oppression, prevent a major oppressor from further oppressing others, dismantle a system of oppression</p><p><strong>Mythic Power</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.x7HFvLjznAzNzsWZ]{Freedom!}</p><p><strong>Zenith</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.p2FaYlAwIVp1t93F]{Unstoppable Idea}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.x7HFvLjznAzNzsWZ"
+      }
+    ],
+    "slug": "destiny-of-freedom",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "pCEBw1VEQHj29FMC",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "ZNOyB4ioVsLRei5s",
+  "sort": 100000,
+  "_key": "!items!ZNOyB4ioVsLRei5s"
+}

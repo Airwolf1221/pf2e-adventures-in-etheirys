@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per minute</p><p><strong>Trigger</strong> You cast an innate spell from a Lalafell heritage or ancestry feat.</p><hr /><p>The upwelling of innate magic refreshes your body. You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.EUADnYK5taZ00sM4]{Effect: Rejuvenating Magicks}</p>",
+      "value": "<p><strong>Frequency</strong> once per minute</p><p><strong>Trigger</strong> You cast an innate spell from a Lalafell heritage or ancestry feat.</p><hr /><p>The upwelling of innate magic refreshes your body. You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn.</p>",
       "gm": ""
     },
     "publication": {
@@ -52,7 +52,7 @@
       "per": "PT1M"
     },
     "selfEffect": {
-      "uuid": "Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.EUADnYK5taZ00sM4",
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.EUADnYK5taZ00sM4",
       "name": "Effect: Rejuvenating Magicks"
     }
   },

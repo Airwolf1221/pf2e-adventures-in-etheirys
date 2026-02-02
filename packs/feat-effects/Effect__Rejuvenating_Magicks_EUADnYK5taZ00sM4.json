@@ -3,7 +3,7 @@
   "name": "Effect: Rejuvenating Magicks",
   "system": {
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.cgRVcaj9ZuTuGrER]{Rejuvenating Magicks}</p><p>You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.cgRVcaj9ZuTuGrER]{Rejuvenating Magicks}</p><p>You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn.</p>",
       "gm": ""
     },
     "duration": {

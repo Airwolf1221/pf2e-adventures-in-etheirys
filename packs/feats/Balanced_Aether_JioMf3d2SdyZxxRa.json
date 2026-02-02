@@ -1,0 +1,78 @@
+{
+  "name": "Balanced Aether",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your ability to recover mana in the midst of an adventuring day is exceptional even by caster standards, and has been further bolstered by the Blessing of Light. Once per day, you may spent 10 minutes, which counts as the Refocus activity, and may then - in addition to replenishing your FP as per Refocus - choose to regain one spell slot if you are a spontaneous spellcaster, or regain an already cast spell of your choice if you are a prepared spellcaster. In both cases, the slot or spell must be at least two ranks below your highest rank spell slot.</p><hr /><p><strong>Special</strong> If you're an essence caster, this feat instead lets you Cast one of your highest rank Spells immediately once per day, and trigger an essence cycle immediately afterwards.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "balanced-aether",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "blessing",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Spellcasting class feature"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "ECCqe4sICPs3dUI5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "JioMf3d2SdyZxxRa",
+  "sort": 400000,
+  "_key": "!items!JioMf3d2SdyZxxRa"
+}

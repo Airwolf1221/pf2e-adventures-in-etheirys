@@ -1,0 +1,5 @@
+.chat-message .tags.modifiers .tag.mythic-reroll,
+.chat-message .dice-total.mythic-reroll,
+.chat-message .dice-formula > .mythic-reroll {
+    color: rgb(202, 139, 21);
+}

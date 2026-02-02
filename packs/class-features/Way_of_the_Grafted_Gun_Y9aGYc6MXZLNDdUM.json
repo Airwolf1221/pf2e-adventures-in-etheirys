@@ -1,0 +1,132 @@
+{
+  "name": "Way of the Grafted Gun",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Whether through a terrible accident or intentional body modification, you’ve outfitted yourself with an integrated combination weapon, which you’ve learned to wield with the nature of your own unmodified hand.</p><p><strong>Slinger's Reload</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.NjIR6cmL36UKrpCq]{Full Auto}</p><p><strong>Deeds</strong> <em>Initial</em> @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.EaRP5cb7TsNN0Fsj]{Grafted Gun}; <em>Advanced</em> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.uDYO9YcoqudrYS0P]{Charging Uppercut}; <em>Greater</em> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.7clnpYvdfTQpH4Bd]{Mind Blow}</p><p><strong>Way Skill</strong> Crafting</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.NjIR6cmL36UKrpCq",
+        "predicate": [
+          "class:gunslinger"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.EaRP5cb7TsNN0Fsj",
+        "predicate": [
+          "class:gunslinger"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.gunslinger.slingersReload",
+        "value": "Compendium.pf2e-adventures-in-etheirys.actions.Item.NjIR6cmL36UKrpCq"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.gunslinger.initialDeed",
+        "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.EaRP5cb7TsNN0Fsj"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.uDYO9YcoqudrYS0P",
+        "predicate": [
+          "class:gunslinger",
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "class:gunslinger",
+          {
+            "gte": [
+              "self:level",
+              15
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.7clnpYvdfTQpH4Bd"
+      }
+    ],
+    "slug": "way-of-the-grafted-gun",
+    "traits": {
+      "otherTags": [
+        "gunslinger-way"
+      ],
+      "value": [
+        "gunslinger"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/equipment/weapons/axe-musket.webp",
+  "folder": "rX0rEiE25uCRsDHG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Y9aGYc6MXZLNDdUM",
+  "sort": 0,
+  "_key": "!items!Y9aGYc6MXZLNDdUM"
+}

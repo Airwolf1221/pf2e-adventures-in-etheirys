@@ -1,0 +1,80 @@
+{
+  "name": "Full-Life",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The creature is brought back to life and restored to its maximum Hit Points and cleansed of all negative conditions afflicting it.</p>"
+    },
+    "rules": [],
+    "slug": "full-life",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "healing",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": [
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 dead creature that has been dead for less than an hour"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": "rare phoenix feathers worth 3,000 @Localize[PF2E.Currency.gp]"
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
+  "folder": "0qKmyw3vK3IDZYlz",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "KzknNBlTpm7YVA26",
+  "sort": 0,
+  "_key": "!items!KzknNBlTpm7YVA26"
+}

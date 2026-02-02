@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You’ve learned how to channel the Mist into a terrible fury. You gain the warrior multiclass dedication feat.</p><hr /><p><strong>Special</strong> If you are a @UUID[Compendium.pf2e-adventures-in-etheirys-content.heritages.Item.QLbzGdw8lzEcmRSi]{Mist-Frenzied} Viera, you also gain one 4th level feat from the warrior archetype.</p>",
+      "value": "<p>You’ve learned how to channel the Mist into a terrible fury. You gain the warrior multiclass dedication feat.</p><hr /><p><strong>Special</strong> If you are a @UUID[Compendium.pf2e-adventures-in-etheirys.heritages.Item.QLbzGdw8lzEcmRSi]{Mist-Frenzied} Viera, you also gain one 4th level feat from the warrior archetype.</p>",
       "gm": ""
     },
     "publication": {

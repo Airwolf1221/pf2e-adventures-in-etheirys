@@ -12,7 +12,7 @@
     },
     "category": "ancestry",
     "description": {
-      "value": "<p>You are luckier even than most catfolk. You can trigger @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.7Jr6rKuIpWuAjaQz]{Miqo'te Luck} when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws.</p><p>You still can use Miqo'te Luck only once per day.</p>",
+      "value": "<p>You are luckier even than most catfolk. You can trigger @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.7Jr6rKuIpWuAjaQz]{Miqo'te Luck} when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws.</p><p>You still can use Miqo'te Luck only once per day.</p>",
       "gm": ""
     },
     "level": {

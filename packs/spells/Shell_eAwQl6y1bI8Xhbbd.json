@@ -1,0 +1,80 @@
+{
+  "name": "Shell",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You ward a creature against supernatural forms of attacks. The target gains a +1 status bonus to saving throws.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.SpU8Wk4rRYwyi2Na]{Spell Effect: Shell}</p><hr /><p><strong>Heightened (+2)</strong> The status bonus to saves increases by +1.</p>"
+    },
+    "rules": [],
+    "slug": "shell",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "water"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "folder": "LjxLMJcaeBumoPp8",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "eAwQl6y1bI8Xhbbd",
+  "sort": 800000,
+  "_key": "!items!eAwQl6y1bI8Xhbbd"
+}

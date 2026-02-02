@@ -1,0 +1,79 @@
+{
+  "folder": "Fr6YuuYv0USbrey1",
+  "name": "Mighty Guard",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You weave multiple defensive wards around your allies, letting them charge fearlessly into battle. Each affected creature gains a +1 status bonus to AC and saving throws, and becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for the spell's duration. This extra action can only be used on the Strike or Stride actions.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.lw21ABQU2T7hmt01]{Spell Effect: Mighty Guard}</p><hr /><p><strong>Heightened (9th)</strong> The status bonus to AC and saving throws increases to +2.</p>"
+    },
+    "rules": [],
+    "slug": "mighty-guard",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "requirements": "",
+    "target": {
+      "value": "up to 6 creatures"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "N7auTDqiC22DtMyj",
+  "sort": 0,
+  "_key": "!items!N7auTDqiC22DtMyj"
+}

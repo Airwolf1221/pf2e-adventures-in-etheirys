@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've learned to bind esoteric materials together into an intricate seal in order to focus the power of the seas. You gain a @UUID[Compendium.pf2e-adventures-in-etheirys-content.equipment.Item.sunEPnboj3tGRPEx]{Storm Seal}: a magic item of light Bulk with a level equal to your level with the @Localize[PF2E.TraitDivine] trait. You (and only you) can use the storm seal to cast magic from the storms. If your seal is lost or destroyed, you can make a replacement during your daily preparations; if you do so, the previous seal disintegrates. Further feats might grant you additional activations of your storm seal, but you can never have more than 3 activations per day, no matter how many such feats you have. The DC for spells you cast with your storm seal is your class DC or spell DC, whichever is higher.</p><p>You can cast the 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} spell by activating your storm seal.</p><p><strong>Activation</strong> Interact; <strong>Frequency</strong> once per day; <strong>Effect</strong> You cast one of the spells contained in your storm seal. Activating the seal takes the spell's normal number of actions. You can also Activate the seal to cast a cantrip you've gained from an ancestry feat; this activation doesn't count against the seal's uses per day.</p>",
+      "value": "<p>You've learned to bind esoteric materials together into an intricate seal in order to focus the power of the seas. You gain a @UUID[Compendium.pf2e-adventures-in-etheirys.equipment.Item.sunEPnboj3tGRPEx]{Storm Seal}: a magic item of light Bulk with a level equal to your level with the @Localize[PF2E.TraitDivine] trait. You (and only you) can use the storm seal to cast magic from the storms. If your seal is lost or destroyed, you can make a replacement during your daily preparations; if you do so, the previous seal disintegrates. Further feats might grant you additional activations of your storm seal, but you can never have more than 3 activations per day, no matter how many such feats you have. The DC for spells you cast with your storm seal is your class DC or spell DC, whichever is higher.</p><p>You can cast the 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} spell by activating your storm seal.</p><p><strong>Activation</strong> Interact; <strong>Frequency</strong> once per day; <strong>Effect</strong> You cast one of the spells contained in your storm seal. Activating the seal takes the spell's normal number of actions. You can also Activate the seal to cast a cantrip you've gained from an ancestry feat; this activation doesn't count against the seal's uses per day.</p>",
       "gm": ""
     },
     "publication": {
@@ -20,7 +20,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.equipment.Item.sunEPnboj3tGRPEx"
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.equipment.Item.sunEPnboj3tGRPEx"
       },
       {
         "key": "ItemAlteration",

@@ -1,0 +1,174 @@
+{
+  "folder": "ktGd864E2ClYuwzl",
+  "name": "Self-Destruct",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You concentrate aether into yourself, overloading your internal systems and exploding in a blaze of glory. You are immediately slain, and all creatures in a 20-foot-radius around you take 12d6 fire damage.</p><p>If you are a blue mage, instead of being immediately slain, you are knocked unconscious at Dying 2. Abilities that would trigger upon you hitting 0 HP or gaining the Dying condition do not trigger from Self-Destruct.</p><p>If you have the ice or lightning trait, the spell loses the fire trait and instead deals ice or lightning damage and gains the ice or lightning trait, respectively.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 4d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "property": "traits",
+        "mode": "remove",
+        "value": "fire",
+        "predicate": [
+          "item:slug:self-destruct",
+          {
+            "or": [
+              "self:trait:cold",
+              "self:trait:electricity"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "property": "traits",
+        "mode": "add",
+        "value": "cold",
+        "predicate": [
+          "item:slug:self-destruct",
+          "self:trait:cold"
+        ],
+        "priority": 119
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "property": "traits",
+        "mode": "add",
+        "value": "electricity",
+        "predicate": [
+          "item:slug:self-destruct",
+          "self:trait:electricity"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "cold",
+        "selectors": [
+          "spell-damage"
+        ],
+        "predicate": [
+          "item:slug:self-destruct",
+          "self:trait:cold"
+        ],
+        "priority": 99
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "electricity",
+        "selectors": [
+          "spell-damage"
+        ],
+        "predicate": [
+          "item:slug:self-destruct",
+          "self:trait:electricity"
+        ]
+      }
+    ],
+    "slug": "self-destruct",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "emanation",
+      "value": 20
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "dRTGL2zBTTHPMqzb": {
+        "formula": "12d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "dRTGL2zBTTHPMqzb": "4d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "XHtvtMg43c4rQXJG",
+  "sort": 50000,
+  "_key": "!items!XHtvtMg43c4rQXJG"
+}

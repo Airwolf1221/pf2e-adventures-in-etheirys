@@ -1,0 +1,109 @@
+{
+  "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
+  "name": "Eye Drops",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This bitter-smelling elixir infuses the senses and attempts to counter sources of blinding and deafening. Drinking the elixir allows the recipient to make a [[/r 1d20 + 9 #Counteract]]{Counteract Check (+9)} against a single source causing the @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} or @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} conditions.</p><p>This can counteract both temporary magic and permanent consequences of magic, but it doesn’t cure someone who does not have the sense due to some natural state or effect, such as from birth or from a non-magical wound or toxin.</p>"
+    },
+    "rules": [],
+    "slug": "eye-drops",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "consumable",
+        "elixir",
+        "healing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 25
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Liquid",
+        "img": "systems/pf2e/icons/unidentified_item_icons/potions.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "elixir",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "vwkxWVleIPnffLG7",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Healing Potion (Lesser)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "J2vYsCV0HbxDkqpp",
+  "sort": 200000,
+  "_key": "!items!J2vYsCV0HbxDkqpp"
+}

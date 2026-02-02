@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><em>The catlike Miqo’te have a long and storied history of being adventurers, hunters, and wanderers. Hailing from forest and jungle alike, these lithe and agile catfolk often find themselves employed as hunters, guides, and dancers.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.PMbYitEjvDtsflKu]{Miqo'te}</p>"
+      "value": "<p><em>The catlike Miqo’te have a long and storied history of being adventurers, hunters, and wanderers. Hailing from forest and jungle alike, these lithe and agile catfolk often find themselves employed as hunters, guides, and dancers.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.PMbYitEjvDtsflKu]{Miqo'te}</p>"
     },
     "rules": [],
     "slug": "miqote",
@@ -76,10 +76,10 @@
       "custom": ""
     },
     "items": {
-      "o2ZyW": {
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestry-features.Item.bY7KPHmODAttGdQK",
+      "NcVL7": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.ancestry-features.Item.bY7KPHmODAttGdQK",
         "img": "icons/magic/movement/trail-streak-impact-blue.webp",
-        "name": "Land On Your Feet",
+        "name": "Land on Your Feet (Miqo'te)",
         "level": 1
       }
     },

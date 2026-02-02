@@ -1,0 +1,116 @@
+{
+  "folder": "ktGd864E2ClYuwzl",
+  "name": "Peat Pelt",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You hurl a wad of aetheric mud, paint, or other goopy substance at your foe, coating them in a thick and heavy coat. The target takes 2d8 earth damage plus 1d6 persistent mental damage depending on its Reflex save due to the lingering damage to their self-worth. A creature taking persistent damage from this spell takes a –10-foot status bonus to its Speeds.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.PKzQ7NNAxR03lQiM]{Spell Effect: Peat Pelt}</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and no persistent damage, and you knock them back 5 feet.</p><p><strong>Failure</strong> The creature takes full damage and persistent damage, and they fall prone.</p><p><strong>Critical Failure</strong> The creature takes double damage and normal persistent damage, they fall prone, and a 5-foot-radius around them is considered difficult terrain for as long as they are taking persistent damage.</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 2d8, and the persistent damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "peat-pelt",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "earth",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "hCzQbLGim3QXFBXE": {
+        "formula": "2d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "earth-ff",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "l189qHRmw0OB6z4r": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": "persistent",
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "hCzQbLGim3QXFBXE": "2d8",
+        "l189qHRmw0OB6z4r": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/earth/projectiles-fire-stone-salvo.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Fkrkiry10X965clc",
+  "sort": 100000,
+  "_key": "!items!Fkrkiry10X965clc"
+}

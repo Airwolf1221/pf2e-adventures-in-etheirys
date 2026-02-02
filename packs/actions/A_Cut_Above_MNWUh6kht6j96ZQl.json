@@ -1,0 +1,55 @@
+{
+  "name": "A Cut Above",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> spend three Hero Points</p><hr /><p>You make history in a sublime display of your peerless abilities. Your proficiency ranks in all skills increases by one step until the next time you would gain Hero Points, which allows you to temporarily gain mythic proficiency for skills in which you’re legendary. For the duration, you gain every skill feat whose prerequisites you met before using the ability, and you can use Heroic Fate for all of your skill checks at no additional cost.</p><hr /><p><strong>Special</strong> You can use A Cut Above after rolling a skill check and before determining its result, applying its benefit to the check retroactively.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "a-cut-above",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "MNWUh6kht6j96ZQl",
+  "sort": 500000,
+  "_key": "!items!MNWUh6kht6j96ZQl"
+}

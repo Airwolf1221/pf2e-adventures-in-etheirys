@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><em>Hidden away in secluded forests and jungles, small tribes of the leporine Viera keep their secret ways. However, while the Viera have scarcely left their forest homes in the past, many more are adopting the ways of the wider world.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.UAYFCbsz1pq5Vr8m]{Viera}</p>"
+      "value": "<p><em>Hidden away in secluded forests and jungles, small tribes of the leporine Viera keep their secret ways. However, while the Viera have scarcely left their forest homes in the past, many more are adopting the ways of the wider world.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.oCb5EBfV8olqFjcb.JournalEntryPage.UAYFCbsz1pq5Vr8m]{Viera}</p>"
     },
     "rules": [],
     "slug": "viera",
@@ -79,10 +79,10 @@
       "custom": ""
     },
     "items": {
-      "HSxxO": {
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.ancestry-features.Item.hGpAuGX0TfAGBeAH",
+      "ec99a": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.ancestry-features.Item.hGpAuGX0TfAGBeAH",
         "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
-        "name": "Keen Eyes",
+        "name": "Keen Eyes (Viera)",
         "level": 1
       }
     },

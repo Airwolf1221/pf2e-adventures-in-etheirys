@@ -1,0 +1,56 @@
+{
+  "name": "Limit Break",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> It is your turn, you meet a condition determined by your limit style, and you are not currently under the effects of one of your limit breaks.</p><p><strong>Frequency</strong> a number of times per day equal to your Limit Rank</p><hr /><p>You lash out with a surge of adrenaline, pushing beyond your normal limits. You may use one of your known Limit Break feats.</p><p>Some Limit Breaks require saving throws from enemies. These saving throws use your class DC or spellcasting DC, whichever is higher, and will be called Limit Break DCs.</p><hr /><p><strong>Special</strong> While the Limit Break activity is a free action, the limit breaks themselves have their own action costs. Generally, 1st rank limit breaks take 1 action, while 2nd and 3rd rank limit breaks take 2 actions, and 4th rank limit breaks take 3 actions and are only usable once per day, regardless of your Limit Rank.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "limit-break",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "limit-break"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "zJ3Jakto3oqJTLZR",
+  "sort": 1300000,
+  "_key": "!items!zJ3Jakto3oqJTLZR"
+}

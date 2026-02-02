@@ -1,0 +1,55 @@
+{
+  "name": "White Salvation",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> spend three Hero Points</p><hr /><p>You call down succor from high above, healing the wounded with such pure benevolence that you bring back even the recently slain. All creatures and objects you choose within 1 mile are healed to their maximum Hit Points. Creatures you choose in the radius that have died in the last day from any cause other than old age are brought back to life at 1 Hit Point.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "white-salvation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "HMl67djdofp2EGhn",
+  "sort": 700000,
+  "_key": "!items!HMl67djdofp2EGhn"
+}

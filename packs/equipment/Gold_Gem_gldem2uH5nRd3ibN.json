@@ -1,0 +1,138 @@
+{
+  "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/bottled-sunlight.webp",
+  "name": "Gold Gem",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>Holy bombs are highly sealed grenades that expose a great flare of light and searing holy energy. A gold gem deals 3d6 holy damage and 3 holy splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn. You gain a +2 item bonus to attack rolls.</p>"
+    },
+    "rules": [],
+    "slug": "gold-gem",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "bomb",
+        "consumable",
+        "splash",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": "alchemical-bomb",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Alchemical Bomb",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "martial",
+    "group": "bomb",
+    "bonus": {
+      "value": 2
+    },
+    "damage": {
+      "dice": 3,
+      "die": "d6",
+      "damageType": "vitality",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 3
+    },
+    "range": 20,
+    "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": null
+    },
+    "reload": {
+      "value": "-"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yd3kEK21YknZLlcT",
+    "duplicateSource": "Item.fYhYMJB99JeHAPRc",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "3MZsaLdDNVp1kcoU",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Alchemist's Fire (Lesser)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "sort": 200000,
+  "_id": "gldem2uH5nRd3ibN",
+  "_key": "!items!gldem2uH5nRd3ibN"
+}

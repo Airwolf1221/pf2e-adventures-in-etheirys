@@ -1,0 +1,104 @@
+{
+  "name": "Raiton",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You call down a bolt of lightning on the target, dealing 3d8 lightning damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>"
+    },
+    "rules": [],
+    "slug": "raiton",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "electricity",
+        "focus",
+        "manipulate",
+        "rogue"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "15 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "TX5lzfCrIDJQmc5c": {
+        "formula": "3d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "electricity",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "TX5lzfCrIDJQmc5c": "1d8"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/lightning/bolt-forked-large-blue.webp",
+  "folder": "KVhjcDUZ6cygugC8",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.91CdzXVg2mvgzJPo",
+    "duplicateSource": "Item.Q7U706WEnQYpUVfq",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "8jvabioFHDclFZR8",
+  "_key": "!items!8jvabioFHDclFZR8"
+}

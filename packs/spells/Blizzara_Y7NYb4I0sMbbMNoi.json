@@ -1,0 +1,115 @@
+{
+  "folder": "3pkTpcyvInUsI0DW",
+  "img": "icons/magic/water/projectile-beams-salvo-blue.webp",
+  "name": "Blizzara",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A chilling burst of snow and ice erupts from your hands, dealing 6d8 ice damage to all creatures within the area, with a basic Reflex save.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d8.</p>"
+    },
+    "rules": [],
+    "slug": "blizzara",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "cone",
+      "value": 30
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "7rB9s7XB2hWtPUzf": {
+        "formula": "6d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "cold",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "7rB9s7XB2hWtPUzf": "2d8"
+      },
+      "interval": 2,
+      "type": "interval",
+      "area": 0
+    },
+    "overlays": {}
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Horizon Thunder Sphere"
+    }
+  },
+  "_id": "Y7NYb4I0sMbbMNoi",
+  "sort": 0,
+  "_key": "!items!Y7NYb4I0sMbbMNoi"
+}

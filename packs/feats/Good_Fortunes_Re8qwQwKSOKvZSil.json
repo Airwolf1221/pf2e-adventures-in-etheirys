@@ -12,7 +12,7 @@
     },
     "category": "ancestry",
     "description": {
-      "value": "<p>You survive danger with surprising regularity. You can use @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.7Jr6rKuIpWuAjaQz]{Miqo'te Luck} once per hour, rather than once per day.</p>",
+      "value": "<p>You survive danger with surprising regularity. You can use @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.7Jr6rKuIpWuAjaQz]{Miqo'te Luck} once per hour, rather than once per day.</p>",
       "gm": ""
     },
     "level": {

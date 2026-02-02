@@ -1,0 +1,109 @@
+{
+  "name": "Mysidian Water",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Water blasts upward, coming out of the ground, rising from a pool, or even manifesting from thin air. Any creatures in the area take 2d4 water damage, with a basic Reflex saving throw.</p><p>You can change this spell's area to a 5-foot burst, provided there is at least one hundred gallons of water (approximately 2.5 barrels worth) freely available within thirty feet of you.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": "mysidian-water",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "water"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "type": "cube",
+      "value": 5
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "JuthyD35MUGmDqs1": {
+        "formula": "2d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "water-ff",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      },
+      "passive": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "JuthyD35MUGmDqs1": "1d4"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/water/bubbles-air-water-blue.webp",
+  "folder": "T6jSsGqNfDn7fod3",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "uhsxOsLU1EB7pKlh",
+  "sort": 200000,
+  "_key": "!items!uhsxOsLU1EB7pKlh"
+}

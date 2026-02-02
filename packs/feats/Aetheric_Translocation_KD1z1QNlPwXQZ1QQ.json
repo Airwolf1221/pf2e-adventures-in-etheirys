@@ -1,0 +1,170 @@
+{
+  "name": "Aetheric Translocation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your ability to draw upon your latent source of aether to impart effects upon your weapon is impressive.</p><p>Power weapons you wield have their damage die stepped up to d6. Additionally, as an Interact action, you can reconfigure your power weapons to deal a damage type that is different from their normal output.</p><p>Choose from @Localize[PF2E.TraitCold], @Localize[PF2E.TraitElectricity], Fire, Wind, Earth and Water damage. Your power weapons deal this type of damage until you use the action again. At 10th level, you may also choose from between @Localize[PF2E.TraitVoid] and @Localize[PF2E.TraitVitality] damage, and at 14th level you may choose @Localize[PF2E.TraitForce] damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "damage",
+        "option": "power-weapon-damage",
+        "label": "Power Weapon Element",
+        "suboptions": [
+          {
+            "label": "Earth",
+            "value": "earth-ff"
+          },
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "Water",
+            "value": "water-ff"
+          },
+          {
+            "label": "Wind",
+            "value": "wind-ff"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  10
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  10
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "inline-damage",
+          "strike-damage"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "{item|flags.pf2e.rulesSelections.powerWeaponDamage}",
+        "predicate": [
+          "item:group:power-weapon",
+          "power-weapon-damage"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "strike-damage"
+        ],
+        "property": "dice-faces",
+        "mode": "upgrade",
+        "value": 6,
+        "predicate": [
+          "item:group:power-weapon"
+        ]
+      }
+    ],
+    "slug": "aetheric-translocation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "blessing",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Power Weapons"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "ECCqe4sICPs3dUI5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "KD1z1QNlPwXQZ1QQ",
+  "sort": 0,
+  "_key": "!items!KD1z1QNlPwXQZ1QQ"
+}

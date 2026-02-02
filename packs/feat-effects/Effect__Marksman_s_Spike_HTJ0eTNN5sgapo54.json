@@ -1,0 +1,86 @@
+{
+  "name": "Effect: Marksman's Spike",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.WuwghaawBq5YXBm7]{Marksman's Spite}</p><p>The next time you make an attack roll, roll twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being Concealed or Hidden. Additionally, you treat your result as one degree better. If the attack would have been a critical hit before this adjustment, it instead gains the fatal d12 trait until the end of the attack.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "keep": "higher",
+        "key": "RollTwice",
+        "selector": "ranged-attack-roll"
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "penalty:type:circumstance"
+        ],
+        "selector": "ranged-attack-roll",
+        "suppress": true
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "ranged-attack-roll",
+        "adjustment": {
+          "all": "one-degree-better"
+        }
+      }
+    ],
+    "slug": "effect-marksmans-spike",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "HTJ0eTNN5sgapo54",
+  "sort": 3500000,
+  "_key": "!items!HTJ0eTNN5sgapo54"
+}

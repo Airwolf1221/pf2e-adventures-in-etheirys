@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've continued to refine your ability to read the stars. When you choose a skill in which to become trained with @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.je7qeZGJANF42zK2]{Ishgardian Astrology}, you can also choose a skill in which you are already trained and become an expert in that skill. This lasts until your Ishgardian Astrology expires.</p><p>When the effects of Ishgardian Astrology and Expert Astrology expire, you can retrain one of your skill increases. The skill increase you gain from this retraining must either make you trained in the skill you chose with Ishgardian Astrology or make you an expert in the skill you chose with Expert Astrology.</p>",
+      "value": "<p>You've continued to refine your ability to read the stars. When you choose a skill in which to become trained with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.je7qeZGJANF42zK2]{Ishgardian Astrology}, you can also choose a skill in which you are already trained and become an expert in that skill. This lasts until your Ishgardian Astrology expires.</p><p>When the effects of Ishgardian Astrology and Expert Astrology expire, you can retrain one of your skill increases. The skill increase you gain from this retraining must either make you trained in the skill you chose with Ishgardian Astrology or make you an expert in the skill you chose with Expert Astrology.</p>",
       "gm": ""
     },
     "publication": {

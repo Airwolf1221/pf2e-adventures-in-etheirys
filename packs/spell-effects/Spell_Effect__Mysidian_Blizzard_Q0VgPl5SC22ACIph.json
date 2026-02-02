@@ -1,0 +1,89 @@
+{
+  "name": "Spell Effect: Mysidian Blizzard",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.ojO0jV0Dhu2Z0Z4C]{Mysidian Blizzard}</p><p>You take a status penalty to your Speeds for 1 round.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Critical Success",
+            "value": 20
+          },
+          {
+            "label": "Success",
+            "value": 10
+          }
+        ],
+        "flag": "successGrade",
+        "prompt": "Success or Critical Success?"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "-{item|flags.pf2e.rulesSelections.successGrade}",
+        "selector": [
+          "speed"
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": "spell-effect-mysidian-blizzard",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/water/projectile-ice-snowball.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Q0VgPl5SC22ACIph",
+  "sort": 700000,
+  "_key": "!items!Q0VgPl5SC22ACIph"
+}

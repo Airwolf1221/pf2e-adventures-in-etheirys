@@ -1,0 +1,105 @@
+{
+  "folder": "LjxLMJcaeBumoPp8",
+  "name": "Choco Kick",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>With the speed of a chocobo, you stride forward and deliver a wild flying kick into your target. You Stride up to 30 feet to be adjacent to your target, which doesn't cause reactions triggered by movement, and they must make a Fortitude save at the end of your movement.</p><hr /><p><strong>Failure</strong> The target is pushed back 20 feet away from your space,</p><p><strong>Critical Failure</strong> The target is pushed 40 feet away from your space, falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and takes @Damage[1d6[bludgeoning]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The distance you can Stride increases by 5 feet.</p>"
+    },
+    "rules": [],
+    "slug": "choco-kick",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "3": {},
+        "5": {
+          "range": {
+            "value": "35 feet"
+          }
+        },
+        "7": {
+          "range": {
+            "value": "40 feet"
+          }
+        },
+        "9": {
+          "range": {
+            "value": "45 feet"
+          }
+        }
+      }
+    }
+  },
+  "img": "icons/magic/earth/projectile-boulder-dust.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "OHUj0rmvQbsRfQjT",
+  "sort": 0,
+  "_key": "!items!OHUj0rmvQbsRfQjT"
+}

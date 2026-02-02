@@ -1,0 +1,55 @@
+{
+  "name": "Freedom!",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> spend three Hero Points</p><hr /><p>So long as there is hope left in the world, people shall rise up against their oppressors, and the time for hope is now. You counteract all harmful effects affecting all creatures you choose within 1 mile. If an effect was applied by a mythic creature, you must first succeed at a counteract check against that effect, using the higher of your spell attack modifier or your class DC - 10 as the counteract modifier and half your level rounded up as the counteract rank. You can use Freedom! even if you’re otherwise unable to act, and if you’re unconscious, you wake up, Stand without provoking reactions, and regain 1 Hit Point if you were at 0 Hit Points.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "freedom",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "x7HFvLjznAzNzsWZ",
+  "sort": 400000,
+  "_key": "!items!x7HFvLjznAzNzsWZ"
+}

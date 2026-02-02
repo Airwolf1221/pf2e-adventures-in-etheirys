@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You’ve got a head for magic and the arcane. Choose one common @Localize[PF2E.TraitArcane] cantrip. You can cast this spell as a @Localize[PF2E.TraitArcane] innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><hr /><p><strong>Special</strong> If you are a @UUID[Compendium.pf2e-adventures-in-etheirys-content.heritages.Item.kDDSivJ6a7d2L2cQ]{Tarutaru} Lalafell, you may also choose a common 1st rank @Localize[PF2E.TraitArcane] spell. You learn this spell as a 1st-rank innate spell castable once per day.</p>",
+      "value": "<p>You’ve got a head for magic and the arcane. Choose one common @Localize[PF2E.TraitArcane] cantrip. You can cast this spell as a @Localize[PF2E.TraitArcane] innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p><hr /><p><strong>Special</strong> If you are a @UUID[Compendium.pf2e-adventures-in-etheirys.heritages.Item.kDDSivJ6a7d2L2cQ]{Tarutaru} Lalafell, you may also choose a common 1st rank @Localize[PF2E.TraitArcane] spell. You learn this spell as a 1st-rank innate spell castable once per day.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,7 @@
       "remaster": false
     },
     "rules": [],
-    "slug": null,
+    "slug": "knack-for-wizardry",
     "traits": {
       "otherTags": [],
       "value": [

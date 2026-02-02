@@ -1,0 +1,77 @@
+{
+  "name": "Fury Brand",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Area</strong> @Template[type:burst|distance:15]</p><hr /><p>You fill your allies with a contagious, electrical fervor. You and each ally within the burst immediately restore one Focus Point, if they possess one, and each ally within the emanation regains one daily use of the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action before becoming immune to future versions of Fury Brand's effects.</p><p>You may choose one ally. That ally may @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} on their next turn, even if their prerequisites for the Limit Break activity are not met.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "fury-brand",
+    "traits": {
+      "otherTags": [
+        "limit-break-3"
+      ],
+      "value": [
+        "limit-break",
+        "mythic",
+        "synergist"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "dpwYtCAc1YWCEQyp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.oT2Qh7qZWUU4NMWO",
+    "duplicateSource": "Item.oT2Qh7qZWUU4NMWO",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 200000,
+  "_id": "tlZCD7lTBvYzDR8t",
+  "_key": "!items!tlZCD7lTBvYzDR8t"
+}

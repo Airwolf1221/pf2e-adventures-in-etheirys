@@ -1,0 +1,136 @@
+{
+  "name": "Gatling Grafted Arm",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Most grafted arms are automated, so they don't require a free hand to use. However, you can instead choose to make your grafted arm be manually controlled via a handheld switch, lever, or other device; to make an attack with a manually controlled grafted arm, you must have a hand free to operate it, but the benefit is great control and a more devastating strike. This increases the damage die by one size, to a 1d8 for a grafted arm cannon or 1d6 for a gatling grafted arm. Grafted arms affixed to the hand are always manual, but they use the hand on that arm to operate the gun when making strikes. Manual control is required only in the heat of combat, not for less strenuous adventuring or everyday activities.</p><p>You need to keep your grafted arm wound, but the process isn't particularly onerous. If you spend 1 minute winding up your arm, it can remain active for 24 hours before needing additional winding. However, enemies can attempt to Disable the grafted arm, which has a level equal to your own, to reduce the remaining operational time by 1 hour, or 2 hours on a critical success. Certain other abilities that adversely affect technology might also reduce the arm's remaining operational time. When your grafted arm is out of operational time, you can still use it as a normal prosthetic, but you cannot use your grafted arm ranged attack or any other abilities from this style until you wind the arm again.</p>"
+    },
+    "rules": [],
+    "slug": "gatling-grafted-arm",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "automatic",
+        "combination",
+        "fatal-d8",
+        "repeating"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "gatling-grafted-arm",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "firearm",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d4",
+      "damageType": "bludgeoning",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 30,
+    "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": "gatling grafted-arm-magazine",
+      "capacity": 5
+    },
+    "reload": {
+      "value": "0"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "meleeUsage": {
+      "group": "brawling",
+      "damage": {
+        "die": "d4",
+        "type": "bludgeoning"
+      },
+      "traits": [
+        "critical-fusion",
+        "unarmed"
+      ]
+    }
+  },
+  "img": "systems/pf2e/icons/equipment/weapons/large-bore-gun.webp",
+  "folder": "GLoew2MIy6RSsv5J",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "WosSPXx2btm4A8MX",
+  "sort": 100000,
+  "_key": "!items!WosSPXx2btm4A8MX"
+}

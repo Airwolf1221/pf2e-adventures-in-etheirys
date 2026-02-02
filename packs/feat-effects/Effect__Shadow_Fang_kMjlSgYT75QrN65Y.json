@@ -1,0 +1,82 @@
+{
+  "name": "Effect: Shadow Fang",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.gfix88b6GqQrISZE]{Shadow Fang}</p><p>You deal an additional 1d6 persistent bleed damage per Limit Rank, and 1d6 persistent poison damage per Limit Rank.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "{actor|flags.pf2e.limit-rank}",
+        "dieSize": "d6",
+        "damageType": "bleed",
+        "category": "persistent"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "{actor|flags.pf2e.limit-rank}",
+        "dieSize": "d6",
+        "damageType": "poison",
+        "category": "persistent"
+      }
+    ],
+    "slug": "effect-shadow-fang",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "kMjlSgYT75QrN65Y",
+  "sort": 1100000,
+  "_key": "!items!kMjlSgYT75QrN65Y"
+}

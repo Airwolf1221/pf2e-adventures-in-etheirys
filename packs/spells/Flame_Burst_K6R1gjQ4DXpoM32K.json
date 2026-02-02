@@ -1,0 +1,115 @@
+{
+  "folder": "LjxLMJcaeBumoPp8",
+  "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
+  "name": "Flame Burst",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Gouts of flame rush from your hands. You deal 2d6 fire damage to creatures in the area, with a basic Reflex save.</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "flame-burst",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "cone",
+      "value": 15
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "7rB9s7XB2hWtPUzf": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "7rB9s7XB2hWtPUzf": "2d6"
+      },
+      "interval": 2,
+      "type": "interval",
+      "area": 0
+    },
+    "overlays": {}
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Horizon Thunder Sphere"
+    }
+  },
+  "_id": "K6R1gjQ4DXpoM32K",
+  "sort": 300000,
+  "_key": "!items!K6R1gjQ4DXpoM32K"
+}

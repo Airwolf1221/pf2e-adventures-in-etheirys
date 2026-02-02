@@ -1,0 +1,105 @@
+{
+  "folder": "T6jSsGqNfDn7fod3",
+  "name": "Blood Drain",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You imitate the aether-draining effect of a vampire bat's bite, drawing the life force from a creature whilst replenishing your own. The target takes 2d4 shadow damage, and must make a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target takes half damage.</p><p><strong>Failure</strong> The target takes normal damage, and you gain 1 temporary hit point.</p><p><strong>Critical Failure</strong> The target takes double damage and you gain 2 temporary hit points.</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 1d4, and the temporary hit points gained increase by 1, or 2 on a critical failure.</p>"
+    },
+    "rules": [],
+    "slug": "blood-drain",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "void"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "3EumpWrBxCDPs79Q": {
+        "formula": "2d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "void",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "3EumpWrBxCDPs79Q": "1d4"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "riqRejWQrZFRajqQ",
+  "sort": 600000,
+  "_key": "!items!riqRejWQrZFRajqQ"
+}

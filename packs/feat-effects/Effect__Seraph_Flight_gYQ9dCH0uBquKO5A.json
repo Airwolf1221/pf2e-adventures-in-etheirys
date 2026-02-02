@@ -1,0 +1,72 @@
+{
+  "name": "Effect: Seraph Flight",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.X8oYRqCmpeRdKJ1e]{Seraph Flight}</p><p>When you would be affected by a negative condition, you automatically counteract the negative condition, always rolling a success and reduce the value of Seraph’s Flight by 1 if that success was sufficient to counteract the condition. If multiple conditions would be inflicted at the same time, the player chooses which one to counteract in order.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "effect-seraph-flight",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 2,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": null,
+      "loop": false,
+      "min": null,
+      "max": 5
+    },
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "gYQ9dCH0uBquKO5A",
+  "sort": 2300000,
+  "_key": "!items!gYQ9dCH0uBquKO5A"
+}

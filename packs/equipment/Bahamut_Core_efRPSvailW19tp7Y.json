@@ -1,0 +1,146 @@
+{
+  "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/thunderstone.webp",
+  "name": "Bahamut Core",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p><hr /><p>While these bombs give the impression of being mere mundane grenades, they actually contain tremendous concussive force ready to incapacitate foes. A bahamut core deals 4d6 unaspected damage and 4 unaspected splash damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} until the end of its next turn. You gain a +3 item bonus to attack rolls.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "{item|_id}-damage"
+        ],
+        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} until the end of its next turn."
+      }
+    ],
+    "slug": "bahamut-core",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "bomb",
+        "consumable",
+        "force",
+        "splash"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": "alchemical-bomb",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 2500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Alchemical Bomb",
+        "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "martial",
+    "group": "bomb",
+    "bonus": {
+      "value": 3
+    },
+    "damage": {
+      "dice": 4,
+      "die": "d6",
+      "damageType": "force",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 4
+    },
+    "range": 20,
+    "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": null
+    },
+    "reload": {
+      "value": "-"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.yd3kEK21YknZLlcT",
+    "duplicateSource": "Item.FrTYdOVXsKpfOcCW",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "HHlG26avqqMPH9Yn",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Alchemist's Fire (Lesser)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "sort": 100000,
+  "_id": "efRPSvailW19tp7Y",
+  "_key": "!items!efRPSvailW19tp7Y"
+}

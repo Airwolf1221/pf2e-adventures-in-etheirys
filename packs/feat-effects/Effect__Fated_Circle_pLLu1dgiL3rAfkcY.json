@@ -1,0 +1,73 @@
+{
+  "name": "Effect: Fated Circle",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.8Bku20LMCXCM5GjI]{Fated Circle}</p><p>You deal an additonal 1d6 fire damage per Limit Rank to all creatures your Strike hits.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "melee-strike-damage",
+        "diceNumber": "{actor|flags.pf2e.limit-rank}",
+        "dieSize": "d6",
+        "damageType": "fire"
+      }
+    ],
+    "slug": "effect-fated-circle",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "pLLu1dgiL3rAfkcY",
+  "sort": 2600000,
+  "_key": "!items!pLLu1dgiL3rAfkcY"
+}

@@ -50,6 +50,10 @@
     "frequency": {
       "max": 1,
       "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.qoeNq701ljt9sumX",
+      "name": "Effect: No Quarter"
     }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",

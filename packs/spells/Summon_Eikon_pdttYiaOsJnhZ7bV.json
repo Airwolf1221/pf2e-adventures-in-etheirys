@@ -1,0 +1,80 @@
+{
+  "name": "Summon Eikon",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You briefly conjure an eikon, a massive, rampaging monster with a unique name and legendary reputation. It rises from its secluded lair to annihilate your foes. The summoned eikon occupies the space of a Gargantuan creature. When you Cast this Spell, choose one of the eikon below to summon.</p><ul><li><strong>Diabolos</strong> Speed 100 feet, fly 50 feet; <strong>Arrive</strong> (shadow) <em>Ruinous Omen</em> Each foe in a @Template[type:emanation|distance:100] takes @Damage[16d8[void]] damage with a @Check[fortitude|against:spell|basic] save; <strong>Depart</strong> (incapacitation, gravity) <em>Dark Messenger</em> Each foe in a @Template[type:emanation|distance:50] loses half their current hit points, rounded down, unless it succeeds at a @Check[fortitude|against:spell] save. If a foe has 50 hit points of fewer, it dies instantly on a failure or critical failure.</li><li><strong>Alexander, the Creator</strong> Speed 80 feet, fly 200 feet; <strong>Arrive</strong> (holy) <em>Sacrament</em> Alexander shoots four @Template[type:line|distance:600|width:20]{600-foot lines} of divine light, each as wide as Alexander itself, one from each cardinal direction. The lines can't overlap. Each foe along one of the lines takes @Damage[6d12[vitality]] damage with a @Check[reflex|against:spell|basic] save. On a failure, the foe is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round (or for 1 minute on a critical failure); <strong>Depart</strong> (holy) <em>Divine Judgment</em> Each foe within a @Template[type:emanation|distance:100] takes @Damage[6d10[vitality]] damage with a @Check[reflex|against:spell|basic] save, and is also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} on a failure.</li><li><strong>Phoenix</strong> Speed 30 feet, fly 200 feet; <strong>Arrive</strong> (fire) <em>Phoenix Flame</em> Phoenix descends from the sky where it was summoned, causing all foes in a @Template[type:emanation|distance:50] to take @Damage[8d12[fire]] damage with a @Check[reflex|against:spell|basic] save; <strong>Depart</strong> (fire, healing) <em>Flames of Rebirth</em> Phoenix vanishes in a burst of soothing flame. All allies within a @Template[type:emanation|distance:50] are healed for @Damage[14d12[healing]] hit points, and remove any instances of the @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} or @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} conditions they may have (except for permanent stacks of doomed).</li><li><strong>Bahamut</strong> Speed 100 feet, fly 100 feet; <strong>Arrive</strong> (auditory, mental) <em>Cry of the Fallen Moon</em> Bahamut manifests with an earth-shaking roar, requiring all foes within @Template[type:emanation|distance:60]{60 feet} who can hear him to attempt a @Check[will|against:spell] save, leaving them @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} on a failure; <strong>Depart</strong> (unaspected) <em>Teraflare</em> Bahamut unleashes his scorching breath in a @Template[type:cone|distance:120]. Each foe in the area takes @Damage[10d12[force]] damage with a @Check[reflex|against:spell|basic] save.</li><li><strong>Hades</strong> Speed 50 feet, fly 50 feet, burrow 50 feet; <strong>Arrive</strong> (mental) <em>Black Cauldron</em> Hades' foul presence pollutes magic around him. Each of your enemies within a @Template[type:emanation|distance:60] that are under the effects of a spell must attempt a @Check[fortitude|against:spell] save. On a failure, the foe is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}. Any of your enemies that @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Casts a Spell} within 60 feet of Hades must attempt a Fortitude save with the same effects unless it's already stupefied; <strong>Depart</strong> (poison) <em>Titanomachy</em> Each creature in a @Template[type:emanation|distance:50] takes @Damage[10d6[void],10d6[poison]] damage with a @Check[fortitude|against:spell|basic] save.</li><li><strong>Ark</strong> Speed 20 feet, fly 200 feet, swim 100 feet; <strong>Arrive</strong> (fire, shadow) <em>Designation: Blasty</em> Ark fires countless beams, targeting each of your enemies within @Template[type:emanation|distance:200]{200 feet} of it. The beams deal @Damage[5d6[fire],5d6[void]] damage with a @Check[reflex|against:spell|basic] save; <strong>Depart</strong> (shadow) <em>Eternal Darkness</em> Chilling black mist surges out in a @Template[type:burst|distance:100] centered on Ark and remains for 1 minute. This mist has the effects of the @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist} spell, plus any foe within the area at the end of its turn takes @Damage[5d6[void]] damage with a @Check[fortitude|against:spell|basic] save.</li><li><strong>Knights of the Round</strong> Speed 75 feet, fly 100 feet; <strong>Arrive</strong> (teleportation) <em>Ascalon’s Might</em> Each foe in a @Template[type:emanation|distance:50] is pushed 100 feet away unless it succeeds at a @Check[fortitude|against:spell] save. Foes additionally take @Damage[10d6[bludgeoning]] damage, regardless of the result of their save; <strong>Depart</strong> <em>Ultimate End</em> Each foe in a @Template[type:burst|distance:100] centered on the Knights of the Round takes @Damage[12d8[slashing]] damage with a @Check[fortitude|against:spell|basic] save.</li></ul>"
+    },
+    "rules": [],
+    "slug": "summon-eikon",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "incarnate",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "until the end of your next turn",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/control/fear-fright-monster-purple-blue.webp",
+  "folder": "0qKmyw3vK3IDZYlz",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "pdttYiaOsJnhZ7bV",
+  "sort": 0,
+  "_key": "!items!pdttYiaOsJnhZ7bV"
+}

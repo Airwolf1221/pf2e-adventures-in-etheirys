@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "fwSgaDBjSygX2AKe",
+  "name": "Rogue",
+  "color": null,
+  "sorting": "a",
+  "_id": "tNCRAvsYpd62IcFW",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!tNCRAvsYpd62IcFW"
+}

@@ -1,0 +1,107 @@
+{
+  "folder": "ktGd864E2ClYuwzl",
+  "name": "Stunner",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You build up a charge of static electricity within yourself, which lashes out at everyone surrounding you. All creatures in a 10-foot-radius around you (excluding yourself) take 5d6 lightning damage and make a Fortitude save. This save (but not the damage) has the incapacitation trait.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "stunner",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "electricity",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "emanation",
+      "value": 10
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "jFFyU8phnc08Bgg1": {
+        "formula": "5d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "electricity",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "jFFyU8phnc08Bgg1": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/water/projectile-water-rings.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "3jBlFHuhK5q5fFzP",
+  "sort": 0,
+  "_key": "!items!3jBlFHuhK5q5fFzP"
+}

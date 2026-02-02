@@ -1,0 +1,85 @@
+{
+  "name": "Effect: Great Gospel",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.5vXbSPANqLznSPL1]{Great Gospel}</p><p>You gain 50 temporary Hit Points, as well as a +1 bonus to your ac and saving throws.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "saving-throw"
+        ],
+        "value": 1
+      },
+      {
+        "key": "TempHP",
+        "value": 50
+      }
+    ],
+    "slug": "effect-great-gospel",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 15
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": null,
+      "loop": false,
+      "min": null,
+      "max": null
+    },
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Rk3OirxteoyIT7b3",
+  "sort": 0,
+  "_key": "!items!Rk3OirxteoyIT7b3"
+}

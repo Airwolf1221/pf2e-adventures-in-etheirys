@@ -1,0 +1,107 @@
+{
+  "folder": "T6jSsGqNfDn7fod3",
+  "name": "Mind Blast",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Mimicking the mind flayer's mighty psychic prowess, you shock the systems of all around you. Every creature in a 10-foot emanation around you takes 1d6 mental damage, with a basic Will save. Any creature that critically fails this save is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for the duration.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "mind-blast",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "type": "emanation",
+      "value": 10
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 round",
+      "sustained": false
+    },
+    "damage": {
+      "VdYKPf4xVW7pQAe0": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "VdYKPf4xVW7pQAe0": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/unholy/orb-beam-pink.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "wBI3ySqsh05rm0Yt",
+  "sort": 1000000,
+  "_key": "!items!wBI3ySqsh05rm0Yt"
+}

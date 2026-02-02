@@ -1,0 +1,81 @@
+{
+  "name": "Mesotes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Range</strong> 60 feet; <strong>Area</strong> @Template[type:burst|distance:15]</p><p><strong>Duration</strong> [[1 * @actor.flags.pf2e.limit-rank]] rounds</p><hr /><p>You erect a magical barrier which siphons the life energy from your foes and back into your allies. Allies within the barrier have resistance 25 against all damage from enemies outside of it. Enemies inside the barrier bypass this resistance, but take @Damage[4d6[force]] damage when they enter the barrier, and whenever they begin their turn inside the barrier.</p><p>Whenever a creature is damaged by this limit break’s effect, you may choose an ally inside the limit break’s area of effect and heal half as many hit points as damage dealt, rounded down.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "mesotes",
+    "traits": {
+      "otherTags": [
+        "limit-break-4"
+      ],
+      "value": [
+        "limit-break",
+        "medic",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.PG9AgjZSeCLiZW2L",
+      "name": "Effect: Mesotes (Aura)"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "HLqoWPl7tVRNcEQE",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.Uedu1ErhKWAQiAZj",
+    "duplicateSource": "Item.hfF6n4IrUC9ggJFf",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 150000,
+  "_id": "7A6VcfsKo9uW2o8o",
+  "_key": "!items!7A6VcfsKo9uW2o8o"
+}

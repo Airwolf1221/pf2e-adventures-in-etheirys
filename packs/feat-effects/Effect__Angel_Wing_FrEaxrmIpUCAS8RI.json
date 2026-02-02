@@ -1,0 +1,78 @@
+{
+  "name": "Effect: Angel Wing",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.AvQIzXovlxapXSUY]{Angel Wing}</p><p>You gain a fly Speed of 50 feet, and you can hover as a free action to maintain your flight. While this Limit Break is active, once per round, you may Cast a Spell or use a Focus Spell without expending a spell slot or a Focus Point.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 50
+      }
+    ],
+    "slug": "effect-angel-wing",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 15
+    },
+    "duration": {
+      "value": 4,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": null,
+      "loop": false,
+      "min": null,
+      "max": null
+    },
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "FrEaxrmIpUCAS8RI",
+  "sort": 0,
+  "_key": "!items!FrEaxrmIpUCAS8RI"
+}

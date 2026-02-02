@@ -1,0 +1,82 @@
+{
+  "name": "Effect: Spinning Edge",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.Ep5MiPWb4EPNxaO2]{Spinning Edge}</p><p>You deal damage of your chosen elemental type rather than the normal damage type of the weapon, as well as an additional 1d6 points of elemental damage per weapon die.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "@weapon.system.damage.dice",
+        "dieSize": "d6",
+        "damageType": "{actor|flags.pf2e.spinningEdge}"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "selectors": [
+          "strike-damage"
+        ],
+        "value": "{actor|flags.pf2e.spinningEdge}"
+      }
+    ],
+    "slug": "effect-spinning-edge",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/movement/pinwheel-turning-blue.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "BjrxFU348gPyrFl5",
+  "sort": 3000000,
+  "_key": "!items!BjrxFU348gPyrFl5"
+}

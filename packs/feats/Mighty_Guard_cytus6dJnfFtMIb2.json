@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You are privy to ancient Hrothgar protective magicks, and know the secrets to wielding them most effectively. You gain shell and protect as 4th-rank innate @Localize[PF2E.TraitPrimal] spells available once per day. As a three-action activity, you may cast both of these spells at the same time, provided that you have an available use of both spells remaining for the day.</p>",
+      "value": "<p>You are privy to ancient Hrothgar protective magicks, and know the secrets to wielding them most effectively. You gain @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.jQ5JQQcXhIqsFZZ6]{Protect} and @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.eAwQl6y1bI8Xhbbd]{Shell} as 4th-rank innate @Localize[PF2E.TraitPrimal] spells available once per day. As a three-action activity, you may cast both of these spells at the same time, provided that you have an available use of both spells remaining for the day.</p>",
       "gm": ""
     },
     "publication": {
@@ -17,8 +17,41 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
-    "slug": "mighty-guard",
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:protect",
+              "item:slug:shell"
+            ]
+          },
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:protect",
+              "item:slug:shell"
+            ]
+          },
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell"
+      }
+    ],
+    "slug": "mighty-guard-feat",
     "traits": {
       "otherTags": [],
       "value": [

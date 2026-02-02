@@ -1,0 +1,74 @@
+{
+  "name": "Destiny of the Warrior",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your destiny is to fight and slay the enemies of the light - or indeed, the darkness in some cases - across all realities, and the Mothercrystal has given you poiwers fit for such a purpose.</p><p><strong>Edicts</strong> Prove your worth in a suitable contest of physical prowess, beat a worthy foe in fair competition, make extraordinarily creative use of your combat abilities.</p><p><strong>Mythic Power</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.A6AMcmndKoEPSY9A]{Second to None}</p><p><strong>Zenith</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.Q80G8gV2p3E8nrkM]{Warrior of Light}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.A6AMcmndKoEPSY9A"
+      }
+    ],
+    "slug": "destiny-of-the-warrior",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "blessing",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "pCEBw1VEQHj29FMC",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "dDr1WZiFNSO7Wtu7",
+  "sort": 0,
+  "_key": "!items!dDr1WZiFNSO7Wtu7"
+}

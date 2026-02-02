@@ -8,6 +8,10 @@
         "description": {
             "path": "system.description.value",
             "converter": "localizeFF2eDescriptions"
+        },
+        "traditions": {
+            "path": "system.traits.traditions",
+            "converter": "localizeFF2eSpellTraditions"
         }
     }
 }

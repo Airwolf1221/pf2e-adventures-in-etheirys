@@ -1,0 +1,81 @@
+{
+  "name": "Judgement Blade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You just used the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zJ3Jakto3oqJTLZR]{Limit Break} action.</p><p><strong>Range</strong> [[5 * @actor.flags.pf2e.limit-rank]] feet; <strong>Target</strong> 1 creature</p><p><strong>Duration</strong> [[1 * @actor.flags.pf2e.limit-rank]] rounds</p><p><strong>Defense</strong> basic Fortitude</p><hr /><p>You swing your blade with conviction, knowing that the enemy’s time has come. Make a melee Strike, treating the range of Judgement Blade as your weapon's reach for this Strike. If this Strike hits, you deal an additional 1d12 + 3 damage per Limit Rank, and the target must make a @Check[type:fortitude|against:limit-dc] saving throw.</p><hr /><p><strong>Critical Success</strong> The target takes minimum damage, and the limit break ends.</p><p><strong>Success</strong> The target talkes half damage and takes an additional @Damage[(1 * @actor.flags.pf2e.limit-rank)[force]] damage.</p><p><strong>Failure</strong> The target takes full damage and takes an additional @Damage[(1 * @actor.flags.pf2e.limit-rank)d6[persistent,force]] damage.</p><p><strong>Critical Failure</strong> The target takes double damage and takes an additional @Damage[(1 * @actor.flags.pf2e.limit-rank)d6[persistent,force]] damage. The target does not make a flat check to end this persistent damage until the end of the turn after their next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "judgement-blade",
+    "traits": {
+      "otherTags": [
+        "limit-break-3"
+      ],
+      "value": [
+        "commando",
+        "limit-break",
+        "mythic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.FMyFG4dWYXDGVAM0",
+      "name": "Effect: Judgement Blade"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "GDPKuRissPrUukMU",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-adventures-in-etheirys.feats.Item.oT2Qh7qZWUU4NMWO",
+    "duplicateSource": "Item.oT2Qh7qZWUU4NMWO",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "sort": 100000,
+  "_id": "JDRe21x1n2WQNWtS",
+  "_key": "!items!JDRe21x1n2WQNWtS"
+}

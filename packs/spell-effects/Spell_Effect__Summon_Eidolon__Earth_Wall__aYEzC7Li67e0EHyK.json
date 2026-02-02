@@ -1,0 +1,75 @@
+{
+  "name": "Spell Effect: Summon Eidolon (Earth Wall)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.Pw38aqOVjCr1ITQy]{Summon Eidolon}</p><p>While within 100 feet of Titan, you gain resistance 20 against fire, lightning, and wind.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": [
+          "fire",
+          "electricity",
+          "wind-ff"
+        ],
+        "value": 20
+      }
+    ],
+    "slug": "spell-effect-summon-eidolon-earth-wall",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "aYEzC7Li67e0EHyK",
+  "sort": 800000,
+  "_key": "!items!aYEzC7Li67e0EHyK"
+}

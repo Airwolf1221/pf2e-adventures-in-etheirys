@@ -1,0 +1,74 @@
+{
+  "name": "Effect: Last Bastion",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ed39paYSbo4lSenl]{Last Bastion}</p><p>You and your allies cannot fall below 1 hit point. Allies that are at 0 hit points and currently dying are automatically stabilised by the emanation, even if they are no longer within it.</p><p>When Last Bastion expires, all allies within the emanation at the time of expiry gain temporary hitpoints equal to half their total hit points which last for 2 rounds.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 20,
+        "traits": [
+          "limit-break",
+          "mythic"
+        ]
+      }
+    ],
+    "slug": "effect-last-bastion",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 15
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "3dpCIPiNF5JcbBx1",
+  "sort": 700000,
+  "_key": "!items!3dpCIPiNF5JcbBx1"
+}

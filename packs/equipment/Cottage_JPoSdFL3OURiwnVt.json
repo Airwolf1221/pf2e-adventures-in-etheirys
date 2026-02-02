@@ -1,0 +1,93 @@
+{
+  "name": "Cottage",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Before activation, this item appears to be nothing more than a simple rolled-up tent, barely large enough to fit four Medium creatures. Despite attempts to clean it, the tent is perpetually smudged with dirt in various places.</p><p><strong>Activate Deploy</strong> 10 minutes (interact)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The rolled-up tent expands into a spacious cottage complete with a fire pit, 10 bedrolls, various cooking utensils, and basic food and water.</p><p>The cottage can house and feed you and up to nine other Medium creatures that eat roughly as much as a human does; they need not attempt a Survival check to Subsist when you use the cottage. Fires and light inside the cottage do not extend illumination into the area surrounding it, making it harder to spot from a distance. Individuals that sleep in the cottage do not automatically heal at twice the normal rate while sleeping, but sleeping bags may be used while inside the tent to achieve that effect.</p><p>A large loop of red cloth hangs from one wall. If this loop is pulled, which takes an Interact action, the entire cottage immediately folds back up into its deactivated form, ready for further travel.</p>"
+    },
+    "rules": [],
+    "slug": "cottage",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "structure"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 888
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/environment/settlement/house-farmland-small.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "JPoSdFL3OURiwnVt",
+  "sort": 700000,
+  "_key": "!items!JPoSdFL3OURiwnVt"
+}

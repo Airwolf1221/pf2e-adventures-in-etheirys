@@ -1,0 +1,120 @@
+{
+  "folder": "3pkTpcyvInUsI0DW",
+  "name": "Traveler",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You move quickly towards your foe, converting the energy of your movement into raw kinetic force. Stride up to 40 feet. At the end of your movement, you may make a spell attack roll against an adjacent creature. On a success, that creature takes 1d8 bludgeoning damage per 5 feet between your starting location and your ending location.</p><hr /><p><strong>Heightened (+1)</strong> The maximum distance you can Stride increases by 10 feet.</p>"
+    },
+    "rules": [],
+    "slug": "traveler",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "40 feet Stride"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "4": {
+          "range": {
+            "value": "50 feet Stride"
+          }
+        },
+        "5": {
+          "range": {
+            "value": "60 feet Stride"
+          }
+        },
+        "6": {
+          "range": {
+            "value": "70 feet Stride"
+          }
+        },
+        "7": {
+          "range": {
+            "value": "80 feet Stride"
+          }
+        },
+        "8": {
+          "range": {
+            "value": "90 feet Stride"
+          }
+        },
+        "9": {
+          "range": {
+            "value": "100 feet Stride"
+          }
+        },
+        "10": {
+          "range": {
+            "value": "110 feet Stride"
+          }
+        }
+      }
+    }
+  },
+  "img": "icons/magic/sonic/projectile-shock-wave-blue.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "ZxIIWJ4YWHRrxkjw",
+  "sort": 50000,
+  "_key": "!items!ZxIIWJ4YWHRrxkjw"
+}

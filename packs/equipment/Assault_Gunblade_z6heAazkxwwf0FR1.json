@@ -1,0 +1,137 @@
+{
+  "name": "Assault Gunblade",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This lightweight bozjan gunblade is known for its ability to effectively operate as though it was an aetheric submachine gun. While its damage leaves something to be desired, its quick, maneuverable frame and high rate of fire make it a popular choice among even the Gunnhildr's Blades.</p>"
+    },
+    "rules": [],
+    "slug": "assault-gunblade",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combination",
+        "concussive",
+        "hrothgar",
+        "repeating"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "assault-gunblade",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 13
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "firearm",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 20,
+    "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": "assault-gunblade-cartridge"
+    },
+    "reload": {
+      "value": "0"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "meleeUsage": {
+      "group": "sword",
+      "damage": {
+        "die": "d6",
+        "type": "slashing"
+      },
+      "traits": [
+        "finesse",
+        "versatile-p"
+      ]
+    }
+  },
+  "img": "systems/pf2e/icons/equipment/weapons/gun-sword.webp",
+  "folder": "2J0yrOwYLCgoE2D9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "z6heAazkxwwf0FR1",
+  "sort": 200000,
+  "_key": "!items!z6heAazkxwwf0FR1"
+}

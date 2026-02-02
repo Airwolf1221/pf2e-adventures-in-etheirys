@@ -1,0 +1,106 @@
+{
+  "name": "Spell Effect: Hyoton",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.143nUVSL6JeDnrVr]{Hyoton}</p><p>You take a status penalty to your speed for 2 rounds, or become immobilized.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Success",
+            "value": 5
+          },
+          {
+            "label": "Failure",
+            "value": 10
+          },
+          {
+            "label": "Critical Failure",
+            "value": "criticalFailure"
+          }
+        ],
+        "flag": "successGrade",
+        "prompt": "Success, Failure, or Critical Failure?",
+        "rollOption": "hyotonGrade"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "speed"
+        ],
+        "value": "-{item|flags.pf2e.rulesSelections.successGrade}",
+        "type": "status",
+        "predicate": [
+          {
+            "not": "hyotonGrade:criticalFailure"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "hyotonGrade:criticalFailure"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe"
+      }
+    ],
+    "slug": "spell-effect-huton",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 2,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/water/projectiles-ice-explosion.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "eM5GSGqCm5BZugjn",
+  "sort": 0,
+  "_key": "!items!eM5GSGqCm5BZugjn"
+}

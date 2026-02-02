@@ -1,0 +1,55 @@
+{
+  "name": "Spellsurge",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> spend three Hero Points</p><hr /><p>You unleash a reality-defying burst of mythic magic. You Cast a Spell of your maximum rank spell slot or lower from any tradition, and can heighten the spell to be up to 10 ranks higher than the rank of your highest-rank spell slot, allowing you to cast spells higher than 10th-rank. Though you can normally choose only spells that are common or to which you have access, the GM might allow broader options.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "spellsurge",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "hefcQEK5OeqyNkDt",
+  "sort": 900000,
+  "_key": "!items!hefcQEK5OeqyNkDt"
+}

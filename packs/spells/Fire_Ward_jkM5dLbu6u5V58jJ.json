@@ -1,0 +1,107 @@
+{
+  "folder": "EoBsfh2E6VkdCoxw",
+  "img": "icons/magic/fire/barrier-shield-explosion-yellow.webp",
+  "name": "Fire Ward",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You wreathe yourself in ghostly flames, gaining ice resistance 5. Additionally, adjacent creatures that hit you with a melee attack, as well as creatures that touch you or hit you with an unarmed attack, take 2d6 fire damage each time they do.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.jMfzwFwVPu2iUilm]{Spell Effect: Fire Ward}</p><hr /><p><strong>Heightened (+2)</strong> The resistance increases by 5, and the fire damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "fire-ward",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "hEDuskLSI0pHBAYl": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {},
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "hEDuskLSI0pHBAYl": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Horizon Thunder Sphere"
+    }
+  },
+  "_id": "jkM5dLbu6u5V58jJ",
+  "sort": 0,
+  "_key": "!items!jkM5dLbu6u5V58jJ"
+}

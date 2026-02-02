@@ -1,0 +1,55 @@
+{
+  "name": "Full Auto",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding your grafted gun</p><hr /><p>You unload your entire clip of ammunition into a target, providing both power and a chance to quickly reload as your enemy takes cover. Make up to three ranged Strikes with your grafted gun, reducing the multiple attack penalty of each shot to -3 instead of the usual -5. You may not make more Strikes than you currently have capacity in your grafted gun, but you may @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} to reload as a free action at the end of the attack.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "full-auto",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "gunslinger"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+  "folder": "rX0rEiE25uCRsDHG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "NjIR6cmL36UKrpCq",
+  "sort": 100000,
+  "_key": "!items!NjIR6cmL36UKrpCq"
+}

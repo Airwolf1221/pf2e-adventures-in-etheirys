@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> An ally within 30 feet brings a foe to 0 hit points.</p><hr /><p>With a shout of triumph, you grant inspiration to an ally to fight on. The triggering ally gains temporary Hit Points equal to their Constitution modifier until the end of their next turn.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys-content.feat-effects.Item.ZLYePc0A4MYPnxX6]{Effect: Proud to the End}</p>",
+      "value": "<p><strong>Trigger</strong> An ally within 30 feet brings a foe to 0 hit points.</p><hr /><p>With a shout of triumph, you grant inspiration to an ally to fight on. The triggering ally gains temporary Hit Points equal to their Constitution modifier until the end of their next turn.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.ZLYePc0A4MYPnxX6]{Effect: Proud to the End}</p>",
       "gm": ""
     },
     "publication": {

@@ -1,0 +1,201 @@
+{
+  "name": "Blizzard Staff",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This staff is capable of launching flurries of @Localize[PF2E.TraitCold] elemental energy. It has a bespoke critical specialization effect.</p><hr /><p><strong>Critical Specialization Effect</strong> If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by ice. The target is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and must spend an Interact action to attempt a @Check[athletics|dc:10] check to break loose from the ice; it can’t move from its space until it succeeds. The creature doesn’t become stuck if it is incorporeal, is on fire (such as a fire elemental), or could otherwise escape without effort.</p>"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "alternate": "true",
+        "predicate": [
+          "item:id:{item|_id}"
+        ],
+        "text": "If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by ice. The target is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and must spend an Interact action to attempt a @Check[athletics|dc:10] check to break loose from the ice; it can’t move from its space until it succeeds. The creature doesn’t become stuck if it is incorporeal, is on fire (such as a fire elemental), or could otherwise escape without effort."
+      },
+      {
+        "key": "FlatModifier",
+        "type": "ability",
+        "ability": "int",
+        "selector": [
+          "{item|_id}-attack"
+        ],
+        "predicate": [
+          "mystic:int"
+        ],
+        "hideIfDisabled": true,
+        "force": true
+      },
+      {
+        "key": "FlatModifier",
+        "type": "ability",
+        "ability": "wis",
+        "selector": [
+          "{item|_id}-attack"
+        ],
+        "predicate": [
+          "mystic:wis"
+        ],
+        "hideIfDisabled": true,
+        "force": true
+      },
+      {
+        "key": "FlatModifier",
+        "type": "ability",
+        "ability": "cha",
+        "selector": [
+          "{item|_id}-attack"
+        ],
+        "predicate": [
+          "mystic:cha"
+        ],
+        "hideIfDisabled": true,
+        "force": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "{item|_id}-damage"
+        ],
+        "value": "floor(@actor.system.abilities.{item|flags.pf2e.rulesSelections.mystic}.mod/2)"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "label": "Mystic Attribute",
+        "option": "mystic",
+        "suboptions": [
+          {
+            "label": "Intelligence",
+            "value": "int"
+          },
+          {
+            "label": "Wisdom",
+            "value": "wis"
+          },
+          {
+            "label": "Charisma",
+            "value": "cha"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      }
+    ],
+    "slug": "blizzard-staff",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "cold",
+        "magical",
+        "mystic",
+        "two-hand-d6"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "blizzard-staff",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 75
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "advanced",
+    "group": "power-weapon",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d4",
+      "damageType": "cold",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 30,
+    "expend": null,
+    "ammo": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": []
+  },
+  "_id": "oZgSY1vF0wNajtqq",
+  "img": "systems/pf2e/icons/equipment/staves/atmospheric-staff.webp",
+  "folder": "uPdLK8oaY3t4GrC4",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.oZgSY1vF0wNajtqq",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!oZgSY1vF0wNajtqq"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "LjxLMJcaeBumoPp8",
+  "name": "Flying Sardine",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature within range is using an action with the concentrate trait</p><p>Mimicking the Apkallu's fish-spewing ways is certainly one way to bewilder and disrupt enemy spellcasters. The triggering creature must make a Will save against your spell DC. On a failure, the triggering action is disrupted, so long as its rank is no more than two higher than the rank of this spell, or four levels higher if the action is not a spell.</p>"
+    },
+    "rules": [],
+    "slug": "flying-sardine",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature taking an action with the concentrate trait"
+    },
+    "range": {
+      "value": "15 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "reaction"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/water/barrier-ice-water-cube.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "xU0ZmxmWJW2gPieP",
+  "sort": 0,
+  "_key": "!items!xU0ZmxmWJW2gPieP"
+}

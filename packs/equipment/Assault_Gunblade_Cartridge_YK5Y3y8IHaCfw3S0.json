@@ -1,0 +1,102 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/magazine-light.webp",
+  "name": "Assault Gunblade Cartridge",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A 5-round magazine for an @UUID[Compendium.pf2e-adventures-in-etheirys.equipment.Item.KNU2yTeiBGtR6Sz3]{Aetheric Gunblade}.</p>"
+    },
+    "rules": [],
+    "slug": "assault-gunblade-cartridge",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "hrothgar"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "assault-gunblade-cartridge",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 10
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ammunition",
+        "img": "systems/pf2e/icons/unidentified_item_icons/ammunition.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "craftableAs": null,
+    "uses": {
+      "value": 5,
+      "max": 5,
+      "autoDestroy": true
+    }
+  },
+  "type": "ammo",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "ZH1H2Ka7PnTxs1ZO",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Repeating Crossbow Magazine"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "YK5Y3y8IHaCfw3S0",
+  "sort": 100000,
+  "_key": "!items!YK5Y3y8IHaCfw3S0"
+}

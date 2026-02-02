@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You gain the @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.dZnX8FS3UMH8g1bT]{Retractable Claws} and @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.tzMaKrhGteE4wipy]{Miqo'te Scratch Fever} ancestry feats, and may retrain these feats immediately if you already possess them. Additionally, Your claws gain the deadly d10 trait.</p>",
+      "value": "<p>You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.dZnX8FS3UMH8g1bT]{Retractable Claws} and @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.tzMaKrhGteE4wipy]{Miqo'te Scratch Fever} ancestry feats, and may retrain these feats immediately if you already possess them. Additionally, Your claws gain the deadly d10 trait.</p>",
       "gm": ""
     },
     "publication": {
@@ -20,11 +20,11 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.feats.Item.dZnX8FS3UMH8g1bT"
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feats.Item.dZnX8FS3UMH8g1bT"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-adventures-in-etheirys-content.feats.Item.tzMaKrhGteE4wipy"
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feats.Item.tzMaKrhGteE4wipy"
       },
       {
         "key": "ItemAlteration",

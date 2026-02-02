@@ -1,0 +1,164 @@
+{
+  "name": "Mysidian Ruin",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You generate a small orb of non-elemental energy and fling it at a creature in the shape of your choosing. Make a spell attack roll against the target. If you hit, you deal 1d10 bludgeoning, piercing, or slashing damage - as appropriate for the shape of the energy. No specific traits or magic properties of the hurled item affect the attack or the damage.</p><hr /><p><strong>Critical Success</strong> The target takes double damage.</p><p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+    },
+    "rules": [],
+    "slug": "mysidian-ruin",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "occult",
+        "arcane"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "oofmntd1F1ZXfSza": {
+        "name": "Mysidian Ruin (Piercing)",
+        "system": {
+          "damage": {
+            "uZZ5PbrGQX4j8Bsw": {
+              "formula": "1d10",
+              "type": "piercing",
+              "category": null,
+              "applyMod": false,
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "uZZ5PbrGQX4j8Bsw": "1d10"
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "TJeC8EyH3oE2LoYC": {
+        "name": "Mysidian Ruin (Bludgeoning)",
+        "system": {
+          "damage": {
+            "YzQDETFaEDGRZvv8": {
+              "formula": "1d10",
+              "kinds": [
+                "damage"
+              ],
+              "type": "bludgeoning",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "YzQDETFaEDGRZvv8": "1d10"
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "EF7hCxBKYGAbGses": {
+        "name": "Mysidian Ruin (Slashing)",
+        "system": {
+          "damage": {
+            "9mGGmnWV4bn1qtdC": {
+              "formula": "1d10",
+              "kinds": [
+                "damage"
+              ],
+              "type": "bludgeoning",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "9mGGmnWV4bn1qtdC": "1d10"
+            }
+          }
+        },
+        "sort": 3,
+        "overlayType": "override"
+      }
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {},
+      "area": 0
+    }
+  },
+  "img": "icons/magic/movement/trail-streak-pink.webp",
+  "folder": "T6jSsGqNfDn7fod3",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "hXQALuI9LccPV7ms",
+  "sort": 400000,
+  "_key": "!items!hXQALuI9LccPV7ms"
+}

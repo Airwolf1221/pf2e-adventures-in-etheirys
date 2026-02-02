@@ -1,0 +1,108 @@
+{
+  "name": "Mysidian Aero",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Wind flows from your outstretched hands and whirls around you in a 5-foot emanation. Each creature in the area takes 1d6 wind damage, with a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and is pushed 5 feet away from you.</p><p><strong>Critical Failure</strong> The creature takes double damage and is pushed 10 feet away from you.</p><hr /><p>Heightened (+1) The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "mysidian-aero",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "self"
+    },
+    "area": {
+      "type": "emanation",
+      "value": 5
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "JuthyD35MUGmDqs1": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "wind-ff",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "JuthyD35MUGmDqs1": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
+  "folder": "T6jSsGqNfDn7fod3",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "dUa3YXZLQss1d3yn",
+  "sort": 1200000,
+  "_key": "!items!dUa3YXZLQss1d3yn"
+}

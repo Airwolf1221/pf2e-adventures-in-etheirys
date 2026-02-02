@@ -1,0 +1,81 @@
+{
+  "name": "Effect: Mesotes (Aura)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.7A6VcfsKo9uW2o8o]{Mesotes}</p><p>You erect a magical barrier which siphons the life energy from your foes and back into your allies. Allies within the barrier have resistance 25 against all damage from enemies outside of it. Enemies inside the barrier bypass this resistance, but take @Damage[4d6[force]] damage when they enter the barrier, and whenever they begin their turn inside the barrier.</p><p>Whenever a creature is damaged by this limit break’s effect, you may choose an ally inside the limit break’s area of effect and heal half as many hit points as damage dealt, rounded down.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 60,
+        "traits": [
+          "limit-break",
+          "mythic"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Efc7MWdShChSmTTn",
+            "affects": "allies"
+          }
+        ],
+        "level": 15
+      }
+    ],
+    "slug": "effect-mesotes-aura",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 15
+    },
+    "duration": {
+      "value": 4,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "PG9AgjZSeCLiZW2L",
+  "sort": 2500000,
+  "_key": "!items!PG9AgjZSeCLiZW2L"
+}

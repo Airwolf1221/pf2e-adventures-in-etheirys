@@ -1,0 +1,79 @@
+{
+  "name": "Effect: Meteodrive",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.k5HBsZ6DS3vYfsFs]{Meteodrive}</p><p>Your opponent is off-guard against this strike. If this Strike hits, you deal an extra 2 dice of damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "2"
+      },
+      {
+        "key": "EphemeralEffect",
+        "selectors": [
+          "melee-strike-attack-roll",
+          "melee-strike-damage"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg"
+      }
+    ],
+    "slug": "effect-meteodrive",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/fire/explosion-embers-orange.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "DNZvQqe2r3ZQog2f",
+  "sort": 3100000,
+  "_key": "!items!DNZvQqe2r3ZQog2f"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Heroic Fate",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You roll a check, or another creature rolls a check against you, and you don’t like the result.</p><p><strong>Cost</strong> spend a Hero Point</p><hr /><p>Defying all possibility, you achieve the desired result. You or the triggering creature roll the check again, and you choose the result you prefer. If you still don’t like the result, you can instead treat the check’s roll as a 10. Unlike most effects that alter your rolls, Heroic Fate doesn’t have the fortune or misfortune traits.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "heroic-fate",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": "hF8xgZLhZeNVXw0v",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "eXC2LuhTboko3CZe",
+  "sort": 1200000,
+  "_key": "!items!eXC2LuhTboko3CZe"
+}

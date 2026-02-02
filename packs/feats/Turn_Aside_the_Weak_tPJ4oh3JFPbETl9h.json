@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your defensive fighting style leaves few openings for your opponents to exploit. Melee weapons you wield are treated as though they had the parry trait. If this weapon is one affected by the @UUID[Compendium.pf2e-adventures-in-etheirys-content.feats.Item.KfZ6dT2i4Mu1a5i0]{Gunnhildr's Blade} feat, and you have that feat, the parry trait applies a +2 circumstance bonus to AC until the start of your next turn rather than a +1.</p>",
+      "value": "<p>Your defensive fighting style leaves few openings for your opponents to exploit. Melee weapons you wield are treated as though they had the parry trait. If this weapon is one affected by the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.KfZ6dT2i4Mu1a5i0]{Gunnhildr's Blade} feat, and you have that feat, the parry trait applies a +2 circumstance bonus to AC until the start of your next turn rather than a +1.</p>",
       "gm": ""
     },
     "publication": {

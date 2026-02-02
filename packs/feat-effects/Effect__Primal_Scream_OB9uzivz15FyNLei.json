@@ -1,0 +1,99 @@
+{
+  "name": "Effect: Primal Scream",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.VguLQShxZrVLgcMf]{Primal Scream}</p><p>You gain a +1 status bonus to attack rolls, damage rolls, and saving throws against fear effects, and can demoralize when you hit or critically hit with a Strike.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll",
+          "damage"
+        ],
+        "value": 1,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "value": 1,
+        "predicate": [
+          "fear"
+        ],
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "selector": [
+          "strike-damage"
+        ],
+        "title": "{item|name}",
+        "text": "You may attempt to [[/act demoralize]] the creature they hit and all other enemies within 10 feet of them as a free action, this attempt to Demoralize can use another skill instead of Intimidation if you have a skill with a higher modifier."
+      }
+    ],
+    "slug": "effect-primal-scream",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "OB9uzivz15FyNLei",
+  "sort": 1000000,
+  "_key": "!items!OB9uzivz15FyNLei"
+}

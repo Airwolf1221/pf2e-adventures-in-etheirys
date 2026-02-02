@@ -1,0 +1,100 @@
+{
+  "name": "Fuma Shuriken",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure a giant shuriken and hurl it at a creature in range. Make a ranged attack roll against the target. If you hit, you deal 2d6 wind damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "fuma-shuriken",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "attack",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "rogue"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "HErI0KNNHoSCxFCs": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "wind-ff",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "HErI0KNNHoSCxFCs": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "_id": "91CdzXVg2mvgzJPo",
+  "img": "icons/magic/movement/pinwheel-turning-blue.webp",
+  "folder": "KVhjcDUZ6cygugC8",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.91CdzXVg2mvgzJPo",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!items!91CdzXVg2mvgzJPo"
+}

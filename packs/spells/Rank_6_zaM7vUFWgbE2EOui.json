@@ -1,12 +1,12 @@
 {
   "type": "Item",
-  "folder": null,
-  "name": "Heritage",
+  "folder": "tSEEJUrBS22tJccd",
+  "name": "Rank 6",
   "color": null,
   "sorting": "a",
-  "_id": "wlAVe2lST7ywfoJf",
+  "_id": "zaM7vUFWgbE2EOui",
   "description": "",
-  "sort": 0,
+  "sort": -1562,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -16,5 +16,5 @@
     "systemId": "pf2e",
     "systemVersion": "7.9.1"
   },
-  "_key": "!folders!wlAVe2lST7ywfoJf"
+  "_key": "!folders!zaM7vUFWgbE2EOui"
 }

@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "FlS296sHe9tIoHZN",
+  "name": "Blessing Feats",
+  "color": null,
+  "sorting": "a",
+  "_id": "ECCqe4sICPs3dUI5",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!ECCqe4sICPs3dUI5"
+}

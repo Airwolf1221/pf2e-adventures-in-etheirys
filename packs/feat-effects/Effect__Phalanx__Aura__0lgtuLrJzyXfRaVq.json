@@ -1,0 +1,79 @@
+{
+  "name": "Effect: Phalanx (Aura)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.QtUhF3idkAIO4rxB]{Phalanx}</p><p>You and all allies within the aura gain resistance against physical damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 10,
+        "traits": [
+          "limit-break",
+          "mythic"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.JTLzm92ixcYtzGJM"
+          }
+        ]
+      }
+    ],
+    "slug": "effect-phalanx-aura",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+  "folder": "sq0mfhER44tPRV0o",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "0lgtuLrJzyXfRaVq",
+  "sort": 100000,
+  "_key": "!items!0lgtuLrJzyXfRaVq"
+}

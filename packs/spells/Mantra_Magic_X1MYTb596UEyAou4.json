@@ -1,0 +1,179 @@
+{
+  "folder": "LjxLMJcaeBumoPp8",
+  "name": "Mantra Magic",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You fire a swarm of small, heat-seeking missiles towards your target. It automatically hits and deals 1d6+1 of your choice of fire, bludgeoning, or void damage. For each additional action you use when Casting the Spell, increase the number of missiles you fire by one, to a maximum of three missiles for 3 actions. You choose the target and damage type for each missile individually. If you shoot more than one missile at the same target, combine the damage before applying bonuses or penalties to damage, resistances, weaknesses, and so forth.</p><hr /><p><strong>Heightened (+2)</strong> You fire one additional missile with each action you spend.</p>"
+    },
+    "rules": [],
+    "slug": "mantra-magic",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "vmeg3JnkYzLPtDEo": {
+        "name": "Mantra Magic (Fire)",
+        "system": {
+          "traits": {
+            "value": [
+              "concentrate",
+              "fire",
+              "manipulate"
+            ]
+          },
+          "damage": {
+            "sqcTvVugd4eQeNrC": {
+              "formula": "1d6 + 1",
+              "kinds": [
+                "damage"
+              ],
+              "type": "fire",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "type": "interval",
+            "interval": 2,
+            "damage": {
+              "sqcTvVugd4eQeNrC": "1d6 + 1"
+            },
+            "area": 0
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "V1Zwetx1AJDwM07j": {
+        "name": "Mantra Magic (Shadow)",
+        "system": {
+          "traits": {
+            "value": [
+              "concentrate",
+              "manipulate",
+              "void"
+            ]
+          },
+          "damage": {
+            "yoL5AIzsqSOiY6id": {
+              "formula": "1d6 + 1",
+              "kinds": [
+                "damage"
+              ],
+              "type": "void",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "type": "interval",
+            "interval": 2,
+            "damage": {
+              "yoL5AIzsqSOiY6id": "1d6 + 1"
+            },
+            "area": 0
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "OeMFed2q6iEwqRgL": {
+        "name": "Mantra Magic (Bludgeoning)",
+        "system": {
+          "damage": {
+            "Dby81wIcpGkl2SPv": {
+              "formula": "1d6 + 1",
+              "kinds": [
+                "damage"
+              ],
+              "type": "bludgeoning",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "Dby81wIcpGkl2SPv": "1d6 + 1"
+            },
+            "area": 0
+          }
+        },
+        "sort": 3,
+        "overlayType": "override"
+      }
+    }
+  },
+  "img": "icons/magic/fire/projectile-bolts-salvo-red.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "X1MYTb596UEyAou4",
+  "sort": 0,
+  "_key": "!items!X1MYTb596UEyAou4"
+}
