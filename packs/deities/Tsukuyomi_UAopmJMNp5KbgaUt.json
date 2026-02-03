@@ -1,0 +1,76 @@
+{
+  "name": "Tsukuyomi",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> The moon, fate, and the dreams of man</p><p><strong>Edicts</strong> use divination magics; proffer worship towards the moon and its abilities</p><p><strong>Anathema</strong> lie; use your divinations to do harm</p>"
+    },
+    "rules": [],
+    "slug": "tsukuyomi",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "dreams",
+        "fate",
+        "magic",
+        "moon"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "bolt-staff"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/ibra.webp",
+  "folder": "9yfS03es2jzEEfKM",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "UAopmJMNp5KbgaUt",
+  "sort": 0,
+  "_key": "!items!UAopmJMNp5KbgaUt"
+}

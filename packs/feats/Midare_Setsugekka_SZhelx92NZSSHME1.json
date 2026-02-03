@@ -1,0 +1,71 @@
+{
+  "folder": "ZfiOOtn6jwxdEr1x",
+  "name": "Midare Setsugekka",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a melee Samurai Weapon, and during your previous turn you used three different actions with the Combo trait</p><hr /><p>You Interact to sheathe your blade and enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}, and then make a vicious combo of swift and precise strikes to inflict incredible damage upon an opponent. Make a melee Strike with the required weapon. This counts as three attacks when calculating your multiple attack penalty. This strike gains the following effects.</p><hr /><p><strong>Critical Success</strong> You deal twice the weapon's normal damage, plus the precision damage from hakaze (@Damage[(floor((@actor.level - 4)/3) + 2)d6[precision]]).</p><p><strong>Success</strong> You deal the weapon's normal damage</p><p><strong>Failure</strong> You deal half of the weapon's normal damage.</p><hr /><p>So long as the attack is not a critical failure, the target must also make a @Check[fortitude|against:class|traits:death] save. Regardless of its result, it is then immune to midare setsugekka's save effects for 24 hours. This effect has the death trait.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> If the target has more than three quarters of its maximum HP (rounded down), its current HP is reduced to that amount. Otherwise, they take damage equal to the precision damage of hakaze (@Damage[(floor((@actor.level - 4)/3) + 2)d6[precision]]).</p><p><strong>Failure</strong> If the target has more than a third of its maximum HP (rounded down), its current HP is reduced to that amount. Otherwise, they take damage equal to twice the precision damage of Hakaze (@Damage[(2 * (floor((@actor.level - 4)/3) + 2))d6[precision]]).</p><p><strong>Critical Failure</strong> If the target has less than a third of its maximum HP (rounded down), it dies. Otherwise, its current HP is reduced to a tenth of its maximum HP (rounded down). This effect has the incapacitation trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "midare-setsugekka",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "death",
+        "flourish",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "SZhelx92NZSSHME1",
+  "sort": 0,
+  "_key": "!items!SZhelx92NZSSHME1"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Awakened (Sayado)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you use @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ghCWT2NJ1XsS3fvP]{Blade Block} or currently are in @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.SOIrZjEYFfvhcCGo]{Defensive Iai Stance}, if a Strike made against you was a critical failure, you can Step as a free action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "awakened-sayado",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/beam-jet-stream-yellow.webp",
+  "folder": "fhXvhVSG21f12ESH",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "JS4VGIQjSMeTUbxK",
+  "sort": 100000,
+  "_key": "!items!JS4VGIQjSMeTUbxK"
+}

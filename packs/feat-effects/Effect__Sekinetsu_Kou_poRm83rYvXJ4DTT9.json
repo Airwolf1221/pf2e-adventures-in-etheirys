@@ -1,0 +1,90 @@
+{
+  "name": "Effect: Sekinetsu Kou",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.dpsHwWh07ZU8GjSy]{Sekinetsu Kou}</p><p>You deal an additional 1d12 fire damage to the target and it also takes 1d6 persistent fire damage, or 2d6 on a critical hit.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "melee-strike-damage",
+        "dieSize": "d6",
+        "diceNumber": "floor((@actor.level - 11)/5) + 2",
+        "damageType": "fire",
+        "category": "persistent",
+        "predicate": [
+          "item:tag:samurai-weapon"
+        ],
+        "slug": "sekinetsu-kou-persistent"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "melee-strike-damage",
+        "dieSize": "d12",
+        "diceNumber": 1,
+        "damageType": "fire",
+        "predicate": [
+          "item:tag:samurai-weapon"
+        ],
+        "label": "Sekinetsu Kou",
+        "slug": "sekinetsu-kou-base"
+      }
+    ],
+    "slug": "effect-sekinetsu-kou",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Kaeshi_Namikiri.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "poRm83rYvXJ4DTT9",
+  "sort": 1800000,
+  "_key": "!items!poRm83rYvXJ4DTT9"
+}

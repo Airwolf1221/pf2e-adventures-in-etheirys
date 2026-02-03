@@ -1,0 +1,89 @@
+{
+  "folder": "jejRImFjVtwjoUH0",
+  "name": "Antagonize",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your taunts and threats earn your foes ire. When you successfully @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a creature, its @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition can't decrease to less than 1 at the end of its turn until it either uses a hostile action against you or can no longer observe or sense you for at least 1 round.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "text": "The target's @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition can't decrease to less than 1 at the end of its turn until it either uses a hostile action against you or can no longer observe or sense you for at least 1 round.",
+        "selector": [
+          "intimidation"
+        ],
+        "predicate": [
+          "action:demoralize"
+        ]
+      }
+    ],
+    "slug": "antagonize",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Ronin or Sayado form"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "bOvo3tSkGVgWtDbA",
+  "sort": 0,
+  "_key": "!items!bOvo3tSkGVgWtDbA"
+}

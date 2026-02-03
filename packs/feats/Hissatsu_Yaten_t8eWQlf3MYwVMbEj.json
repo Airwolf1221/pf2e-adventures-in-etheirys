@@ -1,0 +1,78 @@
+{
+  "folder": "poUCqt9VWKdNAR0V",
+  "name": "Hissatsu Yaten",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You Strike in order to generate the least momentum possible. Make a Strike with the agile and finesse traits, which does not add your Strength or Dexterity modifier to damage. If you don't critically fail on the attack, you may Step.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hissatsu-yaten",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combo",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.BBMLuiS4im3NL8Ui",
+      "name": "Effect: Hissatsu Yaten"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "t8eWQlf3MYwVMbEj",
+  "sort": 0,
+  "_key": "!items!t8eWQlf3MYwVMbEj"
+}

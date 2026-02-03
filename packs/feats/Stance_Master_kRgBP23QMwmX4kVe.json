@@ -1,0 +1,73 @@
+{
+  "folder": "Te9JvRdXvjSnRolr",
+  "name": "Stance Master",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You roll initiative, and enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>Your mastery of stances is peerless, and you are able to blend them together at the start of combat. Choose two of the prerequisites stance feats, you apply both of them to Iai Stance even if you ordinarily couldn't.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "stance-master",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Two of the following: Agile Iai Stance, Defensive Iai Stance, Fente Iai Stance, or Offensive Iai Stance"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "kRgBP23QMwmX4kVe",
+  "sort": 0,
+  "_key": "!items!kRgBP23QMwmX4kVe"
+}

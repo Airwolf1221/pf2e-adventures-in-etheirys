@@ -1,0 +1,77 @@
+{
+  "folder": "dSb0wodU6XLuynhK",
+  "name": "Agile Iai Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You enter @UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.rH08Zrof7w8AJi99]{Iai Stance}</p><hr /><p>You eschew traditional strength for flexibility and agility. When you enter Iai Stance, you may choose to enter Agile Iai Stance instead. While in this stance, your Strikes gain the agile and finesse traits. You no longer add your Strength modifier to damage, but instead add half of your Dexterity modifier. While in this stance, the @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} action gains the Combo trait, and benefits from the Combo bonus to the feint check as a status bonus.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "agile-iai-stance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.9KU20iSFFouUtnTG",
+      "name": "Effect: Agile Iai Stance"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "teQAV9Y2BfebRBP3",
+  "sort": 0,
+  "_key": "!items!teQAV9Y2BfebRBP3"
+}

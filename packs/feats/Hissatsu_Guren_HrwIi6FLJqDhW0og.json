@@ -1,0 +1,70 @@
+{
+  "folder": "poUCqt9VWKdNAR0V",
+  "name": "Hissatsu Guren",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You perform a special blow that cuts the soul of your victims. Make a Strike with the required weapon. If you hit, the target must attempt a @Check[will|against:class] saving throw, with a -2 penalty if the initial strike was a critical success. Regardless of the result of the Strike, you may then sheathe the required weapon, and can enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}.</p><hr /><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of your next turn.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} until the start of your next turn.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 4} until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hissatsu-guren",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combo",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "HrwIi6FLJqDhW0og",
+  "sort": 0,
+  "_key": "!items!HrwIi6FLJqDhW0og"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Effect: Defensive Iai Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.SOIrZjEYFfvhcCGo]{Defensive Iai Stance}</p><p>When you enter Iai Stance, you may choose to enter Defensive Iai Stance instead. While in this stance, you benefit from the benefits of your saya's parry trait against all Strikes dealt by opponents that you can see. If you possess the Blade Block feat, these benefits apply to that feat as well, and if you have Instinctive Parry, you further extend defensive stance to also cover reflex saves.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": 1,
+        "type": "circumstance"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "selector": [
+          "reflex"
+        ],
+        "type": "circumstance",
+        "predicate": [
+          "feat:instinctive-parry"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "selector": "ac",
+        "slug": "defensive-iai-stance",
+        "value": 2,
+        "predicate": [
+          "feat:saya-mastery"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "selector": "reflex",
+        "slug": "defensive-iai-stance",
+        "value": 2,
+        "predicate": [
+          "feat:saya-mastery"
+        ]
+      }
+    ],
+    "slug": "effect-defensive-iai-stance",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 12
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Gyofu.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "budSeNMeSwTZYrAh",
+  "sort": 1300000,
+  "_key": "!items!budSeNMeSwTZYrAh"
+}

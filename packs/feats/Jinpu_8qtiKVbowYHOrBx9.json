@@ -1,0 +1,70 @@
+{
+  "folder": "dSb0wodU6XLuynhK",
+  "name": "Jinpu",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You make a low sweep and attempt to make your opponent trip. Make a melee Strike with the sweep trait. If you hit, the victim must attempt a @Check[reflex|against:class] saving throw, with a -2 penalty to the saving throw if the initial Strike is a critical success.</p><hr /><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of its next turn.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} until the start of its next turn.</p><p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "jinpu",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combo",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "8qtiKVbowYHOrBx9",
+  "sort": 0,
+  "_key": "!items!8qtiKVbowYHOrBx9"
+}

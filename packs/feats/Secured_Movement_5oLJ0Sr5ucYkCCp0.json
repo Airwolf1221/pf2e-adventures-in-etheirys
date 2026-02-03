@@ -1,0 +1,69 @@
+{
+  "folder": "poUCqt9VWKdNAR0V",
+  "name": "Secured Movement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> A creature misses you with an attack and you can both see the creature and you used @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ghCWT2NJ1XsS3fvP]{Blade Block} or the parry trait of your Saya last turn</p><hr /><p>When you use blade block or parry an attack successfully with your Saya, you can avoid reactions from that opponent. The triggering creature cannot take reactions against you that are triggered by actions with the move trait until the end of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "secured-movement",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "5oLJ0Sr5ucYkCCp0",
+  "sort": 0,
+  "_key": "!items!5oLJ0Sr5ucYkCCp0"
+}

@@ -1,0 +1,69 @@
+{
+  "folder": "ZiGczm0x3gIEFQVZ",
+  "name": "Kasha",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You Interact to sheathe your weapon and enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}. Until the end of your turn, your next @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} that successfully hits will deal the following effect with a @Check[reflex|against:class] saving throw; on a critical hit, the targeted creature will take a -2 circumstance penalty to its save against Kasha. Creatures immune to being disarmed or without a weapon that is not natural are immune to Kasha's effects.</p><hr /><p><strong>Success</strong> The target is unaffected.</p><p><strong>Failure</strong> The target takes a -2 circumstance penalty to attacks made with the weapon it is holding and to Reflex DCs against @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} attempts made against it until the beginning of its next turn.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.9Oxoz7c3FrQLtD0C]{Effect: Kasha}</p><p><strong>Critical Failure</strong> The target drops a item held in one or both hands in an adjacent square.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "kasha",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Jga0l3ykuhrJ82xa",
+  "sort": 0,
+  "_key": "!items!Jga0l3ykuhrJ82xa"
+}

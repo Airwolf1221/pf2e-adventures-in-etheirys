@@ -1,0 +1,99 @@
+{
+  "name": "Sensei (Kendo)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You get the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.fCi4BwpU5bczNdPm]{Offensive Iai Stance} feat as well as a class feat with the combo trait of 12th level or lower. If you already have the Offensive Stance feat, you get another class feat of your choice of 12th level or lower.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                12
+              ]
+            },
+            "item:trait:samurai",
+            "item:category:class",
+            "item:trait:combo"
+          ],
+          "itemType": "feat"
+        },
+        "prompt": "Select a 12th-level or lower samurai combo feat",
+        "flag": "kendoFeat12"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.kendoFeat12}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feats.Item.fCi4BwpU5bczNdPm",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "sensei-kendo",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-purple-orange.webp",
+  "folder": "fhXvhVSG21f12ESH",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "i8IyBkf6JhqX9jMo",
+  "sort": 300000,
+  "_key": "!items!i8IyBkf6JhqX9jMo"
+}

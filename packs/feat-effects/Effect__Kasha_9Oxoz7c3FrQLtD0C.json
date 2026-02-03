@@ -1,0 +1,85 @@
+{
+  "name": "Effect: Kasha",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.Jga0l3ykuhrJ82xa]{Kasha}</p><p>You take a -2 circumstance penalty to attacks made with the weapon you're holding and to Reflex DCs against @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} attempts made against you until the beginning of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll"
+        ],
+        "value": -2,
+        "type": "circumstance"
+      },
+      {
+        "key": "FlatModifier",
+        "value": -2,
+        "type": "circumstance",
+        "selector": [
+          "reflex-dc"
+        ],
+        "predicate": [
+          "action:disarm"
+        ]
+      }
+    ],
+    "slug": "effect-kasha",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Kasha.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "9Oxoz7c3FrQLtD0C",
+  "sort": 1700000,
+  "_key": "!items!9Oxoz7c3FrQLtD0C"
+}

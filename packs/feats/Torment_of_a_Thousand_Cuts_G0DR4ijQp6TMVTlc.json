@@ -1,0 +1,77 @@
+{
+  "folder": "ZfiOOtn6jwxdEr1x",
+  "name": "Torment of a Thousand Cuts",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Duration</strong> 1 minute</p><p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>You rend the area ahead of you to its very core, making creatures in a @Template[type:burst|distance:30] within 90 feet of you writhe in agony as you slice right through them. Creatures in the area must succeed at a @Check[fortitude|against:class] saving throw or take @Damage[(floor((@actor.level - 4)/3) + 2)d6[persistent,bleed]] damage.</p><p>For the duration of the effect, when a creature ends its turn in the area, it must attempt the saving throw again, and on a failed save, suffer @Damage[((floor((@actor.level - 4)/3) + 2)/2)d6[wind-ff]] damage. If they are no longer suffering from the persistent bleed damage, they instead begin to suffer from it again.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "torment-of-a-thousand-cuts",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "legendary in Athletics"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "G0DR4ijQp6TMVTlc",
+  "sort": 0,
+  "_key": "!items!G0DR4ijQp6TMVTlc"
+}

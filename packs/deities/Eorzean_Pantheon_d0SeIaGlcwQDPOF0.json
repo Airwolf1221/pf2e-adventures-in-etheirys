@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Eorzean Pantheon",
+  "color": null,
+  "sorting": "a",
+  "_id": "d0SeIaGlcwQDPOF0",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!d0SeIaGlcwQDPOF0"
+}

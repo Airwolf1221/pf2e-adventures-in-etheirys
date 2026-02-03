@@ -1,0 +1,95 @@
+{
+  "name": "Effect: Fiery Streak",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.SJBjAaQI2Fg1CGus]{Fiery Streak}</p><p>All of your Strikes gain 2 splash fire damage, increasing by 2 at levels 15 and 20, and you gain a +2 circumstance bonus to your AC and saving throws against reactions triggered by Fiery Streak's movement.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "type": "circumstance",
+        "selector": [
+          "ac"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "value": 2,
+        "label": "Fiery Streak (vs reactions triggered by movement)",
+        "predicate": [
+          "fierystreakreaction"
+        ],
+        "type": "circumstance"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "value": "ternary(gte(@actor.level, 20), 6, ternary(gte(@actor.level, 15), 4, 2)",
+        "damageCategory": "splash",
+        "damageType": "fire"
+      }
+    ],
+    "slug": "effect-fiery-streak",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Shoha.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "vXDNqKBFpG2XMZhI",
+  "sort": 800000,
+  "_key": "!items!vXDNqKBFpG2XMZhI"
+}

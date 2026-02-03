@@ -1,0 +1,76 @@
+{
+  "name": "Llymlaen",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> The winds, navigation, and the seas</p><p><strong>Edicts</strong> embrace change and the future; master adversity with flexibility; foster freedom and progress for others; sail the seas in search of new experiences</p><p><strong>Anathema</strong> allow yourself and your surroundings to stagnate; prevent others from sailing the seas and experiencing her bounties</p>"
+    },
+    "rules": [],
+    "slug": "llymlaen",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "air",
+        "freedom",
+        "travel",
+        "water"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "wis"
+    ],
+    "skill": [
+      "survival"
+    ],
+    "weapons": [
+      "harpoon"
+    ],
+    "spells": {}
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/gods/Llymlaen.webp",
+  "folder": "d0SeIaGlcwQDPOF0",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "yUtW3901nd4qs5JT",
+  "sort": 500000,
+  "_key": "!items!yUtW3901nd4qs5JT"
+}

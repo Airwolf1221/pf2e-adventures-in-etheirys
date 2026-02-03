@@ -1,0 +1,100 @@
+{
+  "name": "Effect: Ikishoten",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.oSkk5srkqZ8W75gi]{Ikishoten}</p><p>The next Strike you make does not force you to leave Iai Stance, and you may roll the attack roll for that Strike twice and take the higher result. This applies even if the Strike is a component of an activity such as Midare Setsugekka, Ogi Namikri or Hissatsu Shinten. Finally, this next Strike critically succeeds if you roll a 19 on the die as long as that result is a success. This has no effect on a 19 if the result would be a failure.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollTwice",
+        "selector": "strike-attack-roll",
+        "keep": "higher"
+      },
+      {
+        "adjustment": {
+          "success": "to-critical-success"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          {
+            "gte": [
+              "check:roll:total:natural",
+              18
+            ]
+          },
+          "feat:savage-critical"
+        ],
+        "selector": "strike-attack-roll"
+      },
+      {
+        "adjustment": {
+          "success": "to-critical-success"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "check:roll:total:natural:19",
+          {
+            "not": "feat:savage-critical"
+          }
+        ],
+        "selector": "strike-attack-roll"
+      }
+    ],
+    "slug": "effect-ikishoten",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 12
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Ikishoten.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "8SRJZm78cOFMj4CL",
+  "sort": 700000,
+  "_key": "!items!8SRJZm78cOFMj4CL"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Leviathan",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Drowning, water, tidal waves</p><p><strong>Edicts</strong> instill thalassophobia in others; kill foes by drowning them; sacrifice treasures to the depths of the ocean</p><p><strong>Anathema</strong> destroy a body of water; use magic to calm the seas</p>"
+    },
+    "rules": [],
+    "slug": "leviathan",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "destruction",
+        "might",
+        "nature",
+        "water"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "con",
+      "wis"
+    ],
+    "skill": [
+      "survival"
+    ],
+    "weapons": [
+      "trident"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/waves-of-the-boundless-sea.webp",
+  "folder": "A3pOAw4SDnTG16Pk",
+  "sort": 101563,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.oKlEOK51Th6hCdGr",
+    "duplicateSource": "Item.AeNqMOkq4DqljgHo",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "gwsWU1hF9CjQWbtO",
+  "_key": "!items!gwsWU1hF9CjQWbtO"
+}

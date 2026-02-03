@@ -1,0 +1,76 @@
+{
+  "name": "Nald'thal",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Commerce, fate, the living, and the dead</p><p><strong>Edicts</strong> earn wealth through hard work and trade; follow the rule of law; protect the sanctity of the dead so that they may pass into Nald'Thal's arms</p><p><strong>Anathema</strong> engage in banditry or piracy; steal; undermine a law-abiding court; despoil the sanctity of the dead</p>"
+    },
+    "rules": [],
+    "slug": "naldthal",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "fate",
+        "toil",
+        "wealth",
+        "undeath"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "int"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "scimitar"
+    ],
+    "spells": {}
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/gods/Nald%27thal.webp",
+  "folder": "d0SeIaGlcwQDPOF0",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "hVBFQpy81V1sUlF7",
+  "sort": 700000,
+  "_key": "!items!hVBFQpy81V1sUlF7"
+}

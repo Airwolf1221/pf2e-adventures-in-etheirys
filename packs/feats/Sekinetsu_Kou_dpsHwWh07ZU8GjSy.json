@@ -1,0 +1,83 @@
+{
+  "folder": "poUCqt9VWKdNAR0V",
+  "name": "Sekinetsu Kou",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once until recharged</p><p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>You fuel your blade with elemental energies to heat it and deal lasting burn on your target. Make a melee Strike. On a hit, you deal an additional 1d12 fire damage to the target and it also takes 1d6 persistent fire damage, or 2d6 on a critical hit. This damage is harder to remove, as you leave molten metal on the skin of the target. The flat check to stop the burn starts at DC 20. The DC is reduced to 15 only if the burnt creature or an ally successfully assists with the recovery.</p><p>At level 11 and every 5 levels thereafter, increase the persistent fire damage by 1d6 on a hit and 2d6 on a critical hit.</p><p>The DC to Administer First Aid to a creature with this burning metal is increased by 5. A creature attempting to use water effects on the burnt target reduces the DC of the flat check by 5 each time the target is subject to one of these effects, be it damage or not. Once the DC of the flat check reaches 0, the persistent fire damage automatically stops.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.7GbIMoGenpKNMQYM]{Effect: Molten Metal}</p><p>You cannot use this ability again for [[/r 1d4 #Recharge Sekinetsu Kou]]{1d4 rounds}, determined upon using it.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "sekinetsu-kou",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire",
+        "flourish",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.poRm83rYvXJ4DTT9",
+      "name": "Effect: Sekinetsu Kou"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "dpsHwWh07ZU8GjSy",
+  "sort": 0,
+  "_key": "!items!dpsHwWh07ZU8GjSy"
+}

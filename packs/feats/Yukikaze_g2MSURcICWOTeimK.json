@@ -1,0 +1,70 @@
+{
+  "folder": "dSb0wodU6XLuynhK",
+  "name": "Yukikaze",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You pierce your opponent with great precision. Make a Strike with the versatile P trait. This Strike has the following special effects:</p><hr /><p><strong>Critical Success</strong> You deal double weapon damage and inflict @Damage[(floor((@actor.level - 5)/4) + 2)d4[persistent,bleed]] damage.</p><p><strong>Success</strong> You deal normal weapon damage and inflict @Damage[(floor((@actor.level - 5)/4) + 2)[persistent,bleed]] damage.</p><hr /><p>At 5th level and every 4 levels thereafter, you increase the persistent bleed damage by 1 on a success and 1d4 on a critical success.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "yukikaze",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combo",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "g2MSURcICWOTeimK",
+  "sort": 0,
+  "_key": "!items!g2MSURcICWOTeimK"
+}

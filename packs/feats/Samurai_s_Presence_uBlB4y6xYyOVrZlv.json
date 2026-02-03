@@ -1,0 +1,99 @@
+{
+  "folder": "aLqhbKf8OQSOzqGF",
+  "name": "Samurai's Presence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>The presence of your weapon brings weight to your arguments. As long as your weapon is able to be seen but not drawn, you gain a circumstance bonus to your Diplomacy checks. When your weapon is drawn, the circumstance bonus applies to your Intimidation checks. The bonus is equal to +1 if you are at least trained in the weapon you wield, or +2 if you're a master with it.</p><p>The reaction of an NPC that has already fought you may be different, at the GM's discretion.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "skill-check",
+        "label": "Samurai's Presence",
+        "option": "presence",
+        "suboptions": [
+          {
+            "label": "Weapon Sheathed",
+            "value": "diplomacy"
+          },
+          {
+            "label": "Weapon Drawn",
+            "value": "intimidation"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "{item|flags.pf2e.rulesSelections.presence}"
+        ],
+        "value": "ternary(gte(@actor.level, 5), 2, 1)",
+        "type": "circumstance"
+      }
+    ],
+    "slug": "samurais-presence",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "fear",
+        "mental",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "uBlB4y6xYyOVrZlv",
+  "sort": 0,
+  "_key": "!items!uBlB4y6xYyOVrZlv"
+}

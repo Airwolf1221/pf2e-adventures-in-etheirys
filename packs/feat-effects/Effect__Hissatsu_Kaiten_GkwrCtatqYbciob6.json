@@ -1,0 +1,220 @@
+{
+  "name": "Effect: Hissatsu Kaiten",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2cwkxc5RbFWY3xhm]{Hissatsu Kaiten}</p><p>You concentrate to bolster your next iaijutsu and turn it into a truly monumental blow. Until the start of your next turn, your speed becomes 0, but your next samurai iaijutsu gains a benefit depending on what iaijutsu it is:</p><ul><li><strong>Hakaze</strong> the next hakaze deals an additional 2d6 precision damage, increasing by 1d6 if you have legendary proficiency with your samurai weapon.</li><li><strong>Hissatsu Shinten</strong> each Strike deals an additional 1d6 precision damage, increasing by 1d6 if you have legendary proficiency with your samurai weapon.</li><li><strong>Sekinetsu Kou</strong> the Strike deals an additional 2d12 fire damage, increasing by 1d12 if you have legendary proficiency with your samurai weapon.</li><li><strong>Scalding Water Thrust</strong> the damage of the Strike treats immunity as resistance equal to the creature's level, or half the creature's level if you have legendary proficiency with your samurai weapon.</li><li><strong>Tenka Goken</strong> the next tenka goken has its range expanded to a 30-foot cone and adds an additional 1d6 precision damage to the damage dealt by your weapon, increasing by 1d6 if you have legendary proficiency with your samurai weapon.</li><li><strong>Midare Setsugekka</strong> the action cost is reduced to two actions so long as it is the very next activity you use, but the saving throw gains the incapacitation trait.</li></ul><p>If you spend two actions on this activity, you may deliver a Hakaze as a reaction with the following trigger: 'A creature within your reach uses a move action, makes a ranged attack, or enters a square during a move action it is using.' As part of the two actions you also no longer leave Iai Stance until the start of your next turn, at which point you automatically leave Iai Stance, even if your weapon is sheathed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "One Action",
+            "value": "1a"
+          },
+          {
+            "label": "Two Actions",
+            "value": "2a"
+          }
+        ],
+        "flag": "kaitenCost",
+        "prompt": "How many actions did you use on Hissatsu Kaiten?",
+        "rollOption": "kaitenCost"
+      },
+      {
+        "key": "FlatModifier",
+        "value": -50,
+        "selector": [
+          "all-speeds"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "melee-strike-damage"
+        ],
+        "property": "dice-number",
+        "value": "ternary(gte(@actor.level, 13), 3, 2)",
+        "predicate": [
+          "dice:slug:hakaze"
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "selector": "melee-strike-damage",
+        "dieSize": "d6",
+        "diceNumber": "ternary(gte(@actor.level, 13), 2, 1)",
+        "category": "precision",
+        "predicate": [
+          "self:effect:hissatsu-shinten",
+          "item:tag:samurai-weapon"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "melee-strike-damage"
+        ],
+        "property": "dice-number",
+        "value": "ternary(gte(@actor.level, 13), 3, 2)",
+        "predicate": [
+          "dice:slug:sekinetsu-kou-base"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          "item:slug:scalding-water-thrust"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "The damage of the Strike treats immunity as resistance equal to half the creature's level.",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  13
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The damage of the Strike treats immunity as resistance equal to the creature's level.",
+            "predicate": [
+              {
+                "lte": [
+                  "self:level",
+                  12
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          "item:slug:tenka-goken"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "The next tenka goken has its range expanded to a @Template[type:cone|distance:30], and adds an additional @Damage[(ternary(gte(@actor.level, 13), 2, 1))d6[precision]] damage to the damage dealt by your weapon."
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          "item:slug:midare-setsugekka"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "The next midare setsugekka has its action cost is reduced to two actions so long as it is the very next activity you use, but the saving throw gains the incapacitation trait."
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "mode": "add",
+        "predicate": [
+          "item:slug:hakaze",
+          "kaitenCost:2a"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You may deliver a Hakaze as a reaction with the following trigger: 'A creature within your reach uses a move action, makes a ranged attack, or enters a square during a move action it is using.'"
+          },
+          {
+            "text": "As part of the two actions you also no longer leave Iai Stance until the start of your next turn, at which point you automatically leave @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}, even if your weapon is sheathed."
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "effect",
+        "mode": "add",
+        "predicate": [
+          "item:slug:effect-hakaze",
+          "kaitenCost:2a"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You may deliver a Hakaze as a reaction with the following trigger: 'A creature within your reach uses a move action, makes a ranged attack, or enters a square during a move action it is using.'"
+          },
+          {
+            "text": "As part of the two actions you also no longer leave Iai Stance until the start of your next turn, at which point you automatically leave @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}, even if your weapon is sheathed."
+          }
+        ]
+      }
+    ],
+    "slug": "effect-hissatsu-kaiten",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Hissatsu%20Kaiten.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "GkwrCtatqYbciob6",
+  "sort": 2000000,
+  "_key": "!items!GkwrCtatqYbciob6"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Awakened Form",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've discovered the secrets of your form. You gain the awakened form benefits of the form you selected at 1st level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:kendo"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.9dsFyzgR2oiAMdyw"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:ronin"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.Qvesomp8NmdCGvFq"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:sayado"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.JS4VGIQjSMeTUbxK"
+      }
+    ],
+    "slug": "awakened-form",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
+  "folder": "PTS9uNRMMN86Kxn4",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "p5j8q5eTGFmpcDMP",
+  "sort": 1000000,
+  "_key": "!items!p5j8q5eTGFmpcDMP"
+}

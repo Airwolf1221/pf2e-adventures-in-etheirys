@@ -1,0 +1,90 @@
+{
+  "name": "Effect: Total Concentration",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.Jg8sY6z96yK1HDkW]{Total Concentration}</p><p>You gain a bonus to the next Strike you make in Iai Stance.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Critical Success",
+            "value": 2
+          },
+          {
+            "label": "Success",
+            "value": 1
+          }
+        ],
+        "flag": "successGrade",
+        "prompt": "Success or Critical Success?"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "removeAfterRoll": true,
+        "value": "{item|flags.pf2e.rulesSelections.successGrade}",
+        "type": "circumstance"
+      }
+    ],
+    "slug": "effect-total-concentration",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 18
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Traits/Enhanced_Ikishoten.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "51V8OZzygpIffQAh",
+  "sort": 100000,
+  "_key": "!items!51V8OZzygpIffQAh"
+}

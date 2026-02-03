@@ -1,0 +1,80 @@
+{
+  "name": "Effect: Kaeshi Goken",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.aC8SpPRGYfuCO1e9]{Kaeshi Goken}</p><p>The area affected by Tenka Goken increases to a 30-foot cone in the direction of your slash, and the precision damage of hakaze is added to tenka goken's damage as water damage, even if the creature succeeds (but doesn't critically succeed) the save. Creatures who critically fail this save also fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. All damage dealt by tenka goken becomes water damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          "item:slug:tenka-goken"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "The area affected by Tenka Goken increases to a @Template[type:cone|distance:30] in the direction of your slash, and the precision damage of hakaze is added to tenka goken's damage as water damage (@Damage[(floor((@actor.level - 4)/3) + 2)d6[water-ff]]), even if the creature succeeds (but doesn't critically succeed) the save. Creatures who critically fail this save also fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. All damage dealt by tenka goken becomes water damage."
+          }
+        ]
+      }
+    ],
+    "slug": "effect-kaeshi-goken",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Kaeshi_Goken.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "QEGEVrQnSKJIYAwO",
+  "sort": 1100000,
+  "_key": "!items!QEGEVrQnSKJIYAwO"
+}

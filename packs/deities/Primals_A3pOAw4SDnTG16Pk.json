@@ -1,12 +1,12 @@
 {
   "type": "Item",
   "folder": null,
-  "name": "Class Feat Effects",
+  "name": "Primals",
   "color": null,
   "sorting": "a",
-  "_id": "fWdXKeiHtl5smeWy",
+  "_id": "A3pOAw4SDnTG16Pk",
   "description": "",
-  "sort": 0,
+  "sort": 100000,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -16,5 +16,5 @@
     "systemId": "pf2e",
     "systemVersion": "7.9.1"
   },
-  "_key": "!folders!fWdXKeiHtl5smeWy"
+  "_key": "!folders!A3pOAw4SDnTG16Pk"
 }

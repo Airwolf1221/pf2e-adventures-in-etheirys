@@ -1,0 +1,65 @@
+{
+  "name": "Stance: Iai Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><p>While in this stance, you gain the following benefits.</p><ul><li>Since your weapon is sheathed, it cannot be disarmed (though a creature can still attempt to steal the weapon from you through other means, such as through the Thievery skill).</li><li>You can make Strikes using your sheathed Samurai Weapon and are considered to be wielding it for the purposes of actions, feats and class features.</li></ul><p>When you make your first Strike while in this stance, you automatically unsheathe your weapon as part of that action, ending the stance immediately after the Strike.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "stance-iai-stance",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Iaijutsu.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "rH08Zrof7w8AJi99",
+  "sort": 2300000,
+  "_key": "!items!rH08Zrof7w8AJi99"
+}

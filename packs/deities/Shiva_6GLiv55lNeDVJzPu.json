@@ -1,0 +1,75 @@
+{
+  "name": "Shiva",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Ice, families, protection</p><p><strong>Edicts</strong> care for your home and family; keep the peace; protect the community</p><p><strong>Anathema</strong> abandon your home in its time of need; choose yourself over others</p>"
+    },
+    "rules": [],
+    "slug": "shiva",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cold",
+        "delirium",
+        "family",
+        "protection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "cha"
+    ],
+    "skill": [
+      "nature"
+    ],
+    "weapons": [
+      "longsword"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/yaraesa.webp",
+  "folder": "A3pOAw4SDnTG16Pk",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.oKlEOK51Th6hCdGr",
+    "duplicateSource": "Item.AeNqMOkq4DqljgHo",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "6GLiv55lNeDVJzPu",
+  "_key": "!items!6GLiv55lNeDVJzPu"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Hakaze",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in Iai Stance and are wielding a Samurai Weapon</p><hr /><p>You deliver a powerful attack by quickly drawing your Samurai Weapon. You Strike a creature within reach of the required weapon, dealing an additional 1d6 precision damage in addition to your regular weapon damage. This attack counts twice towards your multiple-attack penalty. At 4th level, and every 3 levels thereafter, increase the additional precision damage by 1d6.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hakaze",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "samurai"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.tF2gL6gJ5E7rfle4",
+      "name": "Effect: Hakaze"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": "stRvBOqxBA627eGf",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "D6a4phlAxmixy2lo",
+  "sort": 0,
+  "_key": "!items!D6a4phlAxmixy2lo"
+}

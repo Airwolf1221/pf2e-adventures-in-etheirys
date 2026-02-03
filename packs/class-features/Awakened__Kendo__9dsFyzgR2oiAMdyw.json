@@ -1,0 +1,82 @@
+{
+  "name": "Awakened (Kendo)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you use @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze}, it gains the combo trait, counts as two combo actions for calculating the bonus damage, and benefits from your combo bonus.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "itemType": "action",
+        "predicate": [
+          "item:slug:hakaze"
+        ],
+        "property": "traits",
+        "value": [
+          "combo"
+        ]
+      }
+    ],
+    "slug": "awakened-kendo",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-purple-orange.webp",
+  "folder": "fhXvhVSG21f12ESH",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "9dsFyzgR2oiAMdyw",
+  "sort": 600000,
+  "_key": "!items!9dsFyzgR2oiAMdyw"
+}

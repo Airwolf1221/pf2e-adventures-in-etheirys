@@ -1,6 +1,13 @@
 {
     "PF2E": {
         "SpecificRule": {
+            "ClassFeatures": {
+                "Juggernaut": {
+                    "samurai": {
+                        "Description": "<p>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</p>"
+                    }
+                }
+            },
             "FighterWeaponMasteryLegend": {
                 "SimpleMartial": {
                     "power-weapon": "Simple & Martial Power Weapons"
@@ -195,7 +202,7 @@
                 },
                 "Combo": {
                     "Name": "Combo",
-                    "Description": "Some abilities have affinities with other abilities. If in the same round the action preceding a combo action also had the combo trait but had a different name, this new action gains a cumulative circumstance bonus to damage of +1. This bonus is in addition to the +1 from Way of the Warrior."
+                    "Description": "Some abilities have affinities with other abilities. If in the same round the action preceding a combo action also had the combo trait but had a different name, this new action gains a cumulative circumstance bonus to damage of +1."
                 },
                 "Corruption": {
                     "Name": "Corruption",
@@ -356,6 +363,9 @@
                 "Sahagin": "Sahagin",
                 "Sylvan": "Sylvan",
                 "Vieran": "Vieran"
+            },
+            "OtherTags": {
+                "SamuraiWeapon": "Samurai Weapon"
             }
         },
         "SpellNames": {

@@ -1,0 +1,104 @@
+{
+  "folder": "jejRImFjVtwjoUH0",
+  "name": "Traditional Weapon Training",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have learned to expand your training to a wider variety of weapons. Your proficiency rank with @UUID[Compendium.pf2e.equipment-srd.Item.dUC8Fsa6FZtVikS3]{Composite Longbows}, @UUID[Compendium.pf2e.equipment-srd.Item.e4NwsnPnpQKbDZ9F]{Composite Shortbows}, @UUID[Compendium.pf2e.equipment-srd.Item.FVjTuBCIefAgloUU]{Staffs}, and @UUID[Compendium.pf2e.equipment-srd.Item.vlnzTSsRmWeSkt9O]{Glaives} is considered to be the same as your proficiency rank with Samurai Weapons.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:base:staff",
+              "item:base:glaive",
+              "item:base:composite-longbow",
+              "item:base:composite-shortbow"
+            ]
+          }
+        ],
+        "label": "Traditional Samurai Weapons",
+        "slug": "traditional-samurai-weapons",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.traditional-samurai-weapons.rank",
+        "value": 3,
+        "predicate": [
+          "feature:bushido-master"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.traditional-samurai-weapons.rank",
+        "value": 4,
+        "predicate": [
+          "feature:way-of-musosai"
+        ]
+      }
+    ],
+    "slug": "traditional-weapon-training",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "IOQk5GvDHvb4fvCP",
+  "sort": 0,
+  "_key": "!items!IOQk5GvDHvb4fvCP"
+}

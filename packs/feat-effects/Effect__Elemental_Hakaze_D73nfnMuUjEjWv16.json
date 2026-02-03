@@ -1,0 +1,120 @@
+{
+  "name": "Effect: Elemental Hakaze",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.WjkmzLG9dtK91uPq]{Elemental Hakaze}</p><p>Choose an element between earth, lightning, water, fire, ice and wind. Until the end of your current turn, your next @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} acquires the elemental trait of the type you selected, and its damage is converted to be that type.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Earth",
+            "value": "earth-ff"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "Water",
+            "value": "water-ff"
+          },
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "Wind",
+            "value": "wind-ff"
+          }
+        ],
+        "flag": "elementalHakaze",
+        "prompt": "Choose an elemental type",
+        "alterName": false
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "itemType": "action",
+        "predicate": [
+          "item:slug:hakaze"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.elementalHakaze}"
+      },
+      {
+        "key": "DamageAlteration",
+        "property": "damage-type",
+        "value": "{item|flags.pf2e.rulesSelections.elementalHakaze}",
+        "selectors": [
+          "melee-strike-damage"
+        ],
+        "mode": "override",
+        "predicate": [
+          "dice:slug:hakaze"
+        ]
+      }
+    ],
+    "slug": "effect-elemental-hakaze",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 12
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Jinpu.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "D73nfnMuUjEjWv16",
+  "sort": 1400000,
+  "_key": "!items!D73nfnMuUjEjWv16"
+}

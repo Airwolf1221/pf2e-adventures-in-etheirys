@@ -1,0 +1,75 @@
+{
+  "name": "Nophica",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Nature, good harvest, and abundance</p><p><strong>Edicts</strong> cherish, protect, and respect nature in all its forms; share your bounties with others</p><p><strong>Anathema</strong> despoil areas of natural beauty; cause famines and shortages of supplies</p>"
+    },
+    "rules": [],
+    "slug": "nophica",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "family",
+        "nature",
+        "repose",
+        "toil"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "dex",
+      "wis"
+    ],
+    "skill": [
+      "survival"
+    ],
+    "weapons": [
+      "scythe"
+    ],
+    "spells": {}
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/gods/Nophica.webp",
+  "folder": "d0SeIaGlcwQDPOF0",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "86vokcsmILpY5gGg",
+  "sort": 800000,
+  "_key": "!items!86vokcsmILpY5gGg"
+}

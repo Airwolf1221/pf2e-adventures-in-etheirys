@@ -1,12 +1,12 @@
 {
   "type": "Item",
   "folder": null,
-  "name": "Existing PF2e Classes",
+  "name": "Class Feat/Feature Effects",
   "color": null,
   "sorting": "a",
-  "_id": "fwSgaDBjSygX2AKe",
+  "_id": "fWdXKeiHtl5smeWy",
   "description": "",
-  "sort": 100000,
+  "sort": 0,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -16,5 +16,5 @@
     "systemId": "pf2e",
     "systemVersion": "7.9.1"
   },
-  "_key": "!folders!fwSgaDBjSygX2AKe"
+  "_key": "!folders!fWdXKeiHtl5smeWy"
 }

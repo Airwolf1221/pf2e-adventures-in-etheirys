@@ -1,0 +1,112 @@
+{
+  "name": "Effect: Bakufu's Demand",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.6l8FObqtLOa1VeGG]{Bakufu's Demand}</p><p>You have your speed reduced, become restrained, or are knocked prone.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Success",
+            "value": "success"
+          },
+          {
+            "label": "Failure",
+            "value": "failure"
+          },
+          {
+            "label": "Critical Failure",
+            "value": "criticalFailure"
+          }
+        ],
+        "flag": "successGrade",
+        "prompt": "Success, Failure or Critical Failure?",
+        "rollOption": "bakufusDemand"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM",
+        "predicate": [
+          {
+            "not": "bakufusDemand:success"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60",
+        "predicate": [
+          "bakufusDemand:criticalFailure"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "speed"
+        ],
+        "value": "-floor(@actor.system.movement.speeds.land.value / 2)",
+        "predicate": [
+          "bakufusDemand:success"
+        ]
+      }
+    ],
+    "slug": "effect-bakufus-demand",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 18
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Shifu.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Pg6WYiVAf8nUMZ20",
+  "sort": 300000,
+  "_key": "!items!Pg6WYiVAf8nUMZ20"
+}

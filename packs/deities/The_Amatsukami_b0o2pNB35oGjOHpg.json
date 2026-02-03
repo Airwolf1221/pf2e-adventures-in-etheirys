@@ -1,0 +1,77 @@
+{
+  "name": "The Amatsukami",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Unlike the Eorzean Pantheon, ‘Kami’ - the word for ‘god’ in the Far East - has a significantly broader definition than the equivalent term in Eorzea. Gods are not simply beings of their own caliber, but can have widely varying origins and domains; like the Eorzean gods there are entities presiding over the Sun and Moon, but kami can also be personifications of nature (not unlike the Elementals, but also not completely the same), long-lived flora or fauna, objects imbued with spirits, and even great leaders deified in the afterlife. Even within a singular culture, there may not be a single unified origin story, standardized rituals for worship, or even one particular kami that is worshipped over others.</p><p>Despite this, the Amatsukami make up four powerful kami that see near-universal worship in the Far East in some form; while details on the Amatsukami themselves vary from region to region, and even from town to town, their reverence is a constant in the Far East.</p><p><strong>Edicts</strong> maintain the balance of nature where you go; show reverence and respect to the tuskumogami and auspices; show equal regard to the power of the sun and the moon alike</p><p><strong>Anathema</strong> betray the trust of the kami; do harm to the natural balance of the land</p><p><strong>Pantheon Members</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.kZMb7wO66jesB6Bq]{Amaterasu}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.UAopmJMNp5KbgaUt]{Tsukuyomi}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.0YiT1RBkH39hVr0U]{Susano}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.jKOsdwEflzkXFeka]{Izanami}</p>"
+    },
+    "rules": [],
+    "slug": "the-amatsukami",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "sun",
+        "moon",
+        "introspection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "katana",
+      "fist"
+    ],
+    "spells": {}
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/gods/The%20Amatsukami.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "b0o2pNB35oGjOHpg",
+  "sort": 0,
+  "_key": "!items!b0o2pNB35oGjOHpg"
+}

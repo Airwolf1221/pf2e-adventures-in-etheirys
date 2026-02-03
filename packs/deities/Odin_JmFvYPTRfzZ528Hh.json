@@ -1,0 +1,75 @@
+{
+  "name": "Odin",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Glorious battle, challenges, war</p><p><strong>Edicts</strong> constantly strive to be the strongest; crush your enemies and drive them before you</p><p><strong>Anathema</strong> seek peace and diplomacy when you can dominate your foes; disrespect horses; back down from a fight</p>"
+    },
+    "rules": [],
+    "slug": "odin",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "ambition",
+        "death",
+        "might",
+        "nightmares"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "skill": [
+      "intimidation"
+    ],
+    "weapons": [
+      "bastard-sword"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/iomedae.webp",
+  "folder": "A3pOAw4SDnTG16Pk",
+  "sort": 100782,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.oKlEOK51Th6hCdGr",
+    "duplicateSource": "Item.AeNqMOkq4DqljgHo",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "JmFvYPTRfzZ528Hh",
+  "_key": "!items!JmFvYPTRfzZ528Hh"
+}

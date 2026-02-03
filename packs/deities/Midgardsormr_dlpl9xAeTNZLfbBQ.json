@@ -1,0 +1,77 @@
+{
+  "name": "Midgardsormr",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Dragons, the world itself, and the lands of mortals</p><p><strong>Edicts</strong> thwart the plans of those who seek to upend the prospects of peace between man and dragon; maintain the directives of the mothercrysta</p><p><strong>Anathema</strong> proffer your blade in support of those who would defile the mothercrystal; turn your back on the conflict between man and dragon</p>"
+    },
+    "rules": [],
+    "slug": "midgardsormr",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "protection",
+        "vigil",
+        "wyrmkin"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "skill": [
+      "arcana"
+    ],
+    "weapons": [
+      "longspear",
+      "claw"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/apsu.webp",
+  "folder": "d0SeIaGlcwQDPOF0",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "dlpl9xAeTNZLfbBQ",
+  "sort": 150000,
+  "_key": "!items!dlpl9xAeTNZLfbBQ"
+}

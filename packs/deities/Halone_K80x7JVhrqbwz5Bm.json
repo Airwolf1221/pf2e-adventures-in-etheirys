@@ -1,0 +1,73 @@
+{
+  "name": "Halone",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Ice, glorious battle, and war</p><p><strong>Edicts</strong> be temperate; fight for justice and honour; hold valor true to yourself</p><p><strong>Anathema</strong> abandon a companion in need; dishonour yourself; refuse a challenge from an equal</p><p><strong>Divine Skill</strong> Warfare Lore</p>"
+    },
+    "rules": [],
+    "slug": "halone",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cold",
+        "duty",
+        "might",
+        "zeal"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "str",
+      "dex"
+    ],
+    "skill": [],
+    "weapons": [
+      "longspear"
+    ],
+    "spells": {}
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/gods/Halone.webp",
+  "folder": "d0SeIaGlcwQDPOF0",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "K80x7JVhrqbwz5Bm",
+  "sort": 400000,
+  "_key": "!items!K80x7JVhrqbwz5Bm"
+}

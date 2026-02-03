@@ -1,0 +1,89 @@
+{
+  "name": "Awakened (Ronin)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you either [[/act feint]] or [[/act demoralize]] an opponent (depending on your choice at level 1), on a critical success, the opponent is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against all attacks made against them until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "title": "{item|name}",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "text": "The opponent is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against all attacks made against them until the start of your next turn.",
+        "predicate": [
+          {
+            "or": [
+              "action:demoralize",
+              "action:feint"
+            ]
+          }
+        ],
+        "selector": [
+          "{actor|flags.pf2e.roninSkill}"
+        ]
+      }
+    ],
+    "slug": "awakened-ronin",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/control/control-influence-rally-purple.webp",
+  "folder": "fhXvhVSG21f12ESH",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Qvesomp8NmdCGvFq",
+  "sort": 500000,
+  "_key": "!items!Qvesomp8NmdCGvFq"
+}

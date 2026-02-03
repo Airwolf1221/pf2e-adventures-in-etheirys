@@ -1,0 +1,72 @@
+{
+  "folder": "poUCqt9VWKdNAR0V",
+  "name": "Fuga",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You Strike against metallic objets and make them rust. Make a melee Strike. If the target has a hardness and you deal damage, any shield, creature, or object made of metal you hit takes an additional @Damage[(floor((@actor.level - 10)/4) + 2)d6[force]] damage that bypasses all resistances and immunities. This damage is multiplied on a critical hit.</p><p>At 10th level and every 4 levels thereafter, increase the unaspected damage by 1d6.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "fuga",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combo",
+        "earth",
+        "samurai",
+        "water"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "GrmYBhvY4NcbWLUH",
+  "sort": 0,
+  "_key": "!items!GrmYBhvY4NcbWLUH"
+}

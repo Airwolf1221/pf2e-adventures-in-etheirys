@@ -505,6 +505,10 @@
           "viera": {
             "label": "AIE.Identifiers.Traits.Viera.Name",
             "description": "AIE.Identifiers.Traits.Viera.Description"
+          },
+          "wind": {
+            "label": "AIE.Identifiers.Traits.Wind.Name",
+            "description": "AIE.Identifiers.Traits.Wind.Description"
           }
         },
         "equipmentTraits": {
@@ -543,6 +547,10 @@
           "viera": {
             "label": "AIE.Identifiers.Traits.Viera.Name",
             "description": "AIE.Identifiers.Traits.Viera.Description"
+          },
+          "wind": {
+            "label": "AIE.Identifiers.Traits.Wind.Name",
+            "description": "AIE.Identifiers.Traits.Wind.Description"
           }
         },
         "weaponTraits": {
@@ -687,6 +695,10 @@
           "white-mage": {
             "label": "AIE.Identifiers.Traits.Classes.WhiteMage.Name",
             "description": "AIE.Identifiers.Traits.Classes.WhiteMage.Description"
+          },
+          "wind": {
+            "label": "AIE.Identifiers.Traits.Wind.Name",
+            "description": "AIE.Identifiers.Traits.Wind.Description"
           }
         },
         "featTraits": {
@@ -925,6 +937,10 @@
           "white-mage": {
             "label": "AIE.Identifiers.Traits.Classes.WhiteMage.Name",
             "description": "AIE.Identifiers.Traits.Classes.WhiteMage.Description"
+          },
+          "wind": {
+            "label": "AIE.Identifiers.Traits.Wind.Name",
+            "description": "AIE.Identifiers.Traits.Wind.Description"
           },
           "blessing": {
             "label": "AIE.Mythic.Blessing.Name",

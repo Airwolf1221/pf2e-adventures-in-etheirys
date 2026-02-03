@@ -1,0 +1,77 @@
+{
+  "name": "The Twelve",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Quite a few in Eorzea in particular do not pay reverence to just one of the Twelve, but rather they worship them all as a collective pantheon. In this capacity, The Twelve are worshipped as the protectors and stewards of life on the star, and have known to be called upon - often unsuccessfully - to render aid in times of need. Followers of The Twelve believe it is best to maintain an unbiased opinion of each of the Twelve Gods.</p><p><strong>Edicts</strong> protect your homeland; stand up against tyranny; fell primals as they appear</p><p><strong>Anathema</strong> betray those of your homeland; slander any of the gods</p><p><strong>Pantheon Members</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.iJKMMqQTYSIjIxxh]{Althyk}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.pgDHnGG2S4GfDYHU]{Azeyma}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.kYW8LWE4NpR7Pj6A]{Byregot}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.K80x7JVhrqbwz5Bm]{Halone}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.yUtW3901nd4qs5JT]{Llymlaen}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.do85Z7FQWRKXcEj0]{Menphina}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.hVBFQpy81V1sUlF7]{Nald'thal}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.86vokcsmILpY5gGg]{Nophica}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.ShApyxIJC5qoTzTU]{Nymeia}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.kSsvB6Kvj1pRQKKX]{Oschon}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.AbxA0DIc67ZEeCZi]{Rhalgr}, @UUID[Compendium.pf2e-adventures-in-etheirys.deities.Item.Nbp3XzwGV6YsFI94]{Thaliak}</p>"
+    },
+    "rules": [],
+    "slug": "the-twelve",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "pantheon",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "creation",
+        "cities",
+        "magic",
+        "protection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "wis"
+    ],
+    "skill": [
+      "nature"
+    ],
+    "weapons": [
+      "longsword",
+      "shortsword"
+    ],
+    "spells": {}
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/gods/The%20Twelve.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "BMGdmSvM0d03UWEK",
+  "sort": 0,
+  "_key": "!items!BMGdmSvM0d03UWEK"
+}

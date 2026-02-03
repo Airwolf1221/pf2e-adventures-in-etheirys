@@ -1,0 +1,81 @@
+{
+  "folder": "mTupZaa9RPh6Coi6",
+  "name": "Fiery Streak",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>You dash through the battlefield, dealing blows as you pass enemies. Stride twice, making Strikes against up to three different creatures within your reach at any point during your movement. During Fiery Streak, all of your Strikes gain 2 splash fire damage, increasing by 2 at levels 15 and 20, and you gain a +2 circumstance bonus to your AC and saving throws against reactions triggered by Fiery Streak's movement.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{Quick Jump}, @UUID[Compendium.pf2e.feats-srd.Item.X8iSUF1m0eezmrjs]{Wall Jump}, or @UUID[Compendium.pf2e.feats-srd.Item.TVFfTP9fHRidwBlW]{Cloud Jump} skill feats, you may use these as part of your movement.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "fiery-streak",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire",
+        "flourish",
+        "move",
+        "primal",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.vXDNqKBFpG2XMZhI",
+      "name": "Effect: Fiery Streak"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "SJBjAaQI2Fg1CGus",
+  "sort": 0,
+  "_key": "!items!SJBjAaQI2Fg1CGus"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Effect: Agile Iai Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.teQAV9Y2BfebRBP3]{Agile Iai Stance}</p><p>When you enter Iai Stance, you may choose to enter Agile Iai Stance instead. While in this stance, your Strikes gain the agile and finesse traits. You no longer add your Strength modifier to damage, but instead add half of your Dexterity modifier. While in this stance, the @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} action gains the Combo trait, and benefits from the Combo bonus to the feint check as a status bonus.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "property": "weapon-traits",
+        "mode": "add",
+        "value": "agile"
+      },
+      {
+        "key": "AdjustStrike",
+        "property": "weapon-traits",
+        "mode": "add",
+        "value": "finesse"
+      },
+      {
+        "key": "AdjustModifier",
+        "slug": "str",
+        "value": "floor(@actor.system.abilities.dex.mod / 2)",
+        "selector": "strike-damage",
+        "mode": "override",
+        "relabel": "Dexterity"
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "deception"
+        ],
+        "predicate": [
+          "action:feint"
+        ],
+        "text": "This action gains the Combo trait.",
+        "title": "{item|name}"
+      }
+    ],
+    "slug": "effect-agile-iai-stance",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Fuko.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "9KU20iSFFouUtnTG",
+  "sort": 2100000,
+  "_key": "!items!9KU20iSFFouUtnTG"
+}

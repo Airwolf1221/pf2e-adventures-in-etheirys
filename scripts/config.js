@@ -37,6 +37,10 @@ Hooks.once("init", async () => {
     registerSettings();
     prepareAmmunition(CONFIG.PF2E.ammoTypes);
     CONFIG.PF2E.featCategories.blessing = "Mythic Blessing";
+    CONFIG.PF2E.otherWeaponTags["samurai-weapon"] = "AIE.Identifiers.OtherTags.SamuraiWeapon";
+    CONFIG.PF2E.classTraits.samurai = "AIE.Identifiers.Traits.Classes.Samurai.Name";
+    CONFIG.PF2E.classTraits.paladin = "AIE.Identifiers.Traits.Classes.Paladin.Name";
+    CONFIG.PF2E.classTraits.engineer = "AIE.Identifiers.Traits.Classes.Engineer.Name";
     console.log("[Final Fantasy - Adventures in Etheirys]: INITIALISATION READY!");
 
     const conversionTranslation = game.settings.get(MODULE_NAME,"conversionTranslation");
@@ -219,7 +223,7 @@ Hooks.on("preUpdateItem", async(item, updates) => {
 Hooks.on("createItem", async(item) => {
     const itemType = item.type;
     if (itemType === "effect" && item.system.duration?.unit === "rounds" && item.system.duration?.value != 0) {
-        const sourceItem = await fromUuid(item.system.context.origin.item);
+        const sourceItem = await fromUuid(item.system.context?.origin?.item);
         if (!sourceItem) return;
         const limitRanks = ["limit-break-1","limit-break-2","limit-break-3"];
         if ((sourceItem.type === "feat" && sourceItem.system.traits.otherTags.some(t => limitRanks.includes(t))) || sourceItem.slug === "beyond-mortal-limits") {

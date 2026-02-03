@@ -1,0 +1,75 @@
+{
+  "name": "Menphina",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> The moon, love, and ice</p><p><strong>Edicts</strong> aid fellow travellers; explore new places; find what life has to offer</p><p><strong>Anathema</strong> cause fear and despair; use magic to disrupt the dreams of others; engage in bigoted behaviour</p>"
+    },
+    "rules": [],
+    "slug": "menphina",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "healing",
+        "moon",
+        "passion",
+        "travel"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "nature"
+    ],
+    "weapons": [
+      "sickle"
+    ],
+    "spells": {}
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/gods/Menphina.webp",
+  "folder": "d0SeIaGlcwQDPOF0",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "do85Z7FQWRKXcEj0",
+  "sort": 600000,
+  "_key": "!items!do85Z7FQWRKXcEj0"
+}

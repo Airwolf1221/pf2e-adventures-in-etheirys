@@ -1,0 +1,78 @@
+{
+  "folder": "poUCqt9VWKdNAR0V",
+  "name": "Hissatsu Kaiten",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance} and you have not acted yet during this turn, aside from entering Iai Stance</p><hr /><p>You concentrate to bolster your next iaijutsu and turn it into a truly monumental blow. Until the start of your next turn, your speed becomes 0, but your next samurai iaijutsu gains a benefit depending on what iaijutsu it is:</p><ul><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze}</strong> the next hakaze deals an additional 2d6 precision damage, increasing by 1d6 if you have legendary proficiency with your samurai weapon.</li><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ta4tbDDZBGAoS6on]{Hissatsu Shinten}</strong> each Strike deals an additional 1d6 precision damage, increasing by 1d6 if you have legendary proficiency with your samurai weapon.</li><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.dpsHwWh07ZU8GjSy]{Sekinetsu Kou}</strong> the Strike deals an additional 2d12 fire damage, increasing by 1d12 if you have legendary proficiency with your samurai weapon.</li><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.1JSrwPkpwZOis7oH]{Scalding Water Thrust}</strong> the damage of the Strike treats immunity as resistance equal to the creature's level, or half the creature's level if you have legendary proficiency with your samurai weapon.</li><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.8jgzEcxG5mynZZQz]{Tenka Goken}</strong> the next tenka goken has its range expanded to a 30-foot cone and adds an additional 1d6 precision damage to the damage dealt by your weapon, increasing by 1d6 if you have legendary proficiency with your samurai weapon.</li><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.SZhelx92NZSSHME1]{Midare Setsugekka}</strong> the action cost is reduced to two actions so long as it is the very next activity you use, but the saving throw gains the incapacitation trait.</li></ul><p>If you spend two actions on this activity, you may deliver a Hakaze as a reaction with the following trigger: 'A creature within your reach uses a move action, makes a ranged attack, or enters a square during a move action it is using.' As part of the two actions you also no longer leave Iai Stance until the start of your next turn, at which point you automatically leave Iai Stance, even if your weapon is sheathed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hissatsu-kaiten",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.GkwrCtatqYbciob6",
+      "name": "Effect: Hissatsu Kaiten"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "2cwkxc5RbFWY3xhm",
+  "sort": 0,
+  "_key": "!items!2cwkxc5RbFWY3xhm"
+}

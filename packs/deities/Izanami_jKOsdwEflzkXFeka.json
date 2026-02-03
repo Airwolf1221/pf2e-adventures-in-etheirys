@@ -1,0 +1,76 @@
+{
+  "name": "Izanami",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Life and death, and the souls of the departed</p><p><strong>Edicts</strong> be peaceful; lead by example; put the dead to rest using burial rites</p><p><strong>Anathema</strong> despoil the balance of life and death by raising the dead; refuse to accept surrender; desecrate corpses and tombs</p>"
+    },
+    "rules": [],
+    "slug": "izanami",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "creation",
+        "death",
+        "introspection",
+        "repose"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "longspear"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/pharasma.webp",
+  "folder": "9yfS03es2jzEEfKM",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "jKOsdwEflzkXFeka",
+  "sort": 300000,
+  "_key": "!items!jKOsdwEflzkXFeka"
+}

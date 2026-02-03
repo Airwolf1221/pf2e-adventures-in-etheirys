@@ -1,0 +1,77 @@
+{
+  "folder": "ZiGczm0x3gIEFQVZ",
+  "name": "Hissatsu Senei",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You Interact to sheathe your weapon and enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}. Until the end of your turn, your next @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} gains the following effect on a hit:</p><p>Your Hakaze becomes indetectable and you can delay its effects while your weapon is drawn. The victim must attempt a @Check[perception|against:class] check to see it was hit. Other creatures looking at you can make the same check, but do so with a -2 circumstance penalty. You can delay the damage dealt this way for 10 minutes or until you sheathe your samurai weapon, whichever comes first. This duration is extended to 1 hour if you're legendary in stealth.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hissatsu-senei",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "master in Stealth"
+        },
+        {
+          "value": "Ronin form"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "bkdTmufhchSG4JaP",
+  "sort": 0,
+  "_key": "!items!bkdTmufhchSG4JaP"
+}

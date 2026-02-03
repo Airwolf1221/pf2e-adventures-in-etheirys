@@ -1,0 +1,81 @@
+{
+  "folder": "SXAqb0fouo9tQHcs",
+  "name": "Seigan",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You successfully avoid an attack with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2ORcBQibJPXCHyiJ]{Third Eye}</p><hr /><p>Your dodging allows you to regain some vigor as well as reading your opponents thoughts allows to fight better against him. Until the start of your next turn, you gain a +2 status bonus to AC against attacks made by the target that triggered Third Eye, as well as a number of temporary hit points equal to you samurai level plus your Constitution modifier.</p><hr /><p><strong>Special</strong> This ability cannot be used at the same time as Deliverance.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "seigan",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Third Eye"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.7OIpp9ZSFSA4oi9e",
+      "name": "Effect: Seigan"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ycmxVkoD151gRO7K",
+  "sort": 0,
+  "_key": "!items!ycmxVkoD151gRO7K"
+}

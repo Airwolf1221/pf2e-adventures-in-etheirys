@@ -1,0 +1,76 @@
+{
+  "folder": "poUCqt9VWKdNAR0V",
+  "name": "Scalding Water Thrust",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once until recharged</p><p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>You channel fire and water powers into your blade, then thrust your weapon rapidly. Make a ranged attack roll with your current weapon against a creature or unattended object within 60 feet of you. At level 8 and every 2 levels thereafter, increase the water and fire damage by 1d6 each.</p><p>You cannot use this ability again for [[/r 1d4 #Recharge Scalding Water Thrust]]{1d4 rounds}, determined upon using it.</p><hr /><p><strong>Critical Success</strong> The target takes @Damage[(5 + (1 * (floor((@actor.level - 8)/2)) + 1))d6[water-ff]] damage and @Damage[(5 + (1 * (floor((@actor.level - 8)/2)) + 1))d6[fire]] damage and is pushed 10 feet away from you.</p><p><strong>Success</strong> The target takes @Damage[(3 + (1 * (floor((@actor.level - 8)/2)) + 1))d6[water-ff]] damage and @Damage[(3 + (1 * (floor((@actor.level - 8)/2)) + 1))d6[fire]] damage and is pushed 5 feet away from you.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "scalding-water-thrust",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire",
+        "flourish",
+        "samurai",
+        "water"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1M"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "1JSrwPkpwZOis7oH",
+  "sort": 0,
+  "_key": "!items!1JSrwPkpwZOis7oH"
+}

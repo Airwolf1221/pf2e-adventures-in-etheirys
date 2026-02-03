@@ -1,0 +1,80 @@
+{
+  "folder": "S2BPbdvBGK3lEdq8",
+  "name": "Bakufu's Demand",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Duration</strong> 1 minute</p><hr /><p>Infused with something of a divine will vested by the Bakufu of Hingashi, you create a supernatural field in which the creatures present are constrained by the will of the Amatsukami. The field takes the form of a 40-foot radius area centred on you and lasts for up to one minute.</p><p>Creatures in the area must succeed at a @Check[will|against:dc] saving throw or be forced to land, switch from the ethereal plane to the material plane, be prevented from switching planes, or be prevented from wanting wanting to enter or leave the area.</p><p>Any illusion in the area is automatically counteracted as though you had used a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{@Localize[AIE.SpellNames.2nd.DispelMagic]} spell, with a modifier equal to your attack bonus.</p><p>Finally, for the duration of the effect, you may expend three actions to amplify the effects of the field by forcing all creatures of your choice to make a @Check[fortitude|against:dc] saving throw. All effects from this saving throw last until the start of your next turn.</p><hr /><p><strong>Success</strong> The target's Speed is halved.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p><p><strong>Critical Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Pg6WYiVAf8nUMZ20]{Effect: Bakufu's Demand}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "bakufus-demand",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "force",
+        "mental",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Blade of Terror"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "6l8FObqtLOa1VeGG",
+  "sort": 0,
+  "_key": "!items!6l8FObqtLOa1VeGG"
+}

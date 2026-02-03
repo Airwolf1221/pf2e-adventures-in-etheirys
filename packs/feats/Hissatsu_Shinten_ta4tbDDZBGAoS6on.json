@@ -1,0 +1,79 @@
+{
+  "folder": "mTupZaa9RPh6Coi6",
+  "name": "Hissatsu Shinten",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>You bide your time and wait. Striking when you find a window just wide enough to fit two swift strikes. Make two melee strikes against a foe within range using your sheathed Samurai Weapon. Do not increase your Multiple Attack Penalty until both strikes have been made, and combine the damage of both strikes for the purposes of Weaknesses and Resistances. If either strike lands, you can enter Iai Stance immediately after the second strike hits.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hissatsu-shinten",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "flourish",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.lW6i3o2sshajZv2O",
+      "name": "Effect: Hissatsu Shinten"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ta4tbDDZBGAoS6on",
+  "sort": 0,
+  "_key": "!items!ta4tbDDZBGAoS6on"
+}

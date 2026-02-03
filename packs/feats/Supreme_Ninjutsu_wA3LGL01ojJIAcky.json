@@ -1,0 +1,89 @@
+{
+  "folder": "S2BPbdvBGK3lEdq8",
+  "name": "Supreme Ninjutsu",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have the ultimate samurai technique at your disposal at an all-time high. Your @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} now requires only one action, and you can use it even when you are not in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}, though when you do so you reduce its damage dice by 2d6. This does not allow you to forego Iai Stance for feats that require you to use Hakaze as part of their activity, however.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "toggleable": true,
+        "label": "Using Hakaze outside of Iai Stance",
+        "option": "supreme-ninjutsu"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "melee-strike-damage"
+        ],
+        "property": "dice-number",
+        "mode": "subtract",
+        "value": 2,
+        "predicate": [
+          "dice:slug:hakaze",
+          "supreme-ninjutsu"
+        ]
+      }
+    ],
+    "slug": "supreme-ninjutsu",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "wA3LGL01ojJIAcky",
+  "sort": 0,
+  "_key": "!items!wA3LGL01ojJIAcky"
+}

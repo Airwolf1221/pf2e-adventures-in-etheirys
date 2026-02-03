@@ -1,0 +1,74 @@
+{
+  "folder": "SXAqb0fouo9tQHcs",
+  "name": "Antimagical Technique",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> Your last action was a successful @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze}</p><hr /><p>Your iaijutsu attempts to undo the magical web surrounding a target. Attempt to counter a spell that takes effect on the target with a modifier equal to your attack bonus with the same weapon and a level of half your class level (rounded up). If you succeed, the spell ends immediately.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "UZIH5D0i2Om3RTw7",
+  "sort": 0,
+  "_key": "!items!UZIH5D0i2Om3RTw7"
+}

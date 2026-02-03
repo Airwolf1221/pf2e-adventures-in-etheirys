@@ -1,0 +1,74 @@
+{
+  "name": "Effect: Arena of the Thunderous Kami",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.IQwQ65Kxji7xkc2g]{Arena of the Thunderous Kami}</p><p>For the duration of effect, you generate hazardous terrain in a @Template[type:emanation|distance:20]. Any hostile creature that enters, starts or ends its turn in the area takes @Damage[4d8[electricity]] damage.</p><p>The edges of the emanation function as per the @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]{Wall of Wind} spell at 3rd rank, using your class DC for the saving throws required by the spell.</p><p>You and your allies are immune to all effects of Arena of the Thunderous Kami.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 20,
+        "traits": [
+          "electricity",
+          "wind"
+        ]
+      }
+    ],
+    "slug": "effect-arena-of-the-thunderous-kami",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 18
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Hagakure.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "vCpedMj9e24citii",
+  "sort": 400000,
+  "_key": "!items!vCpedMj9e24citii"
+}

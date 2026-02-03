@@ -1,0 +1,77 @@
+{
+  "folder": "gWB5QcXwUCDCk8Ez",
+  "name": "Defensive Iai Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>You alter your iai stance to plug any holes in your defences. When you enter Iai Stance, you may choose to enter Defensive Iai Stance instead. While in this stance, you benefit from the benefits of your saya's parry trait against all Strikes dealt by opponents that you can see. If you possess the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ghCWT2NJ1XsS3fvP]{Blade Block} feat, these benefits apply to that feat as well, and if you have @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.XFJ9RWob4VmirDg1]{Instinctive Parry}, you further extend defensive stance to also cover reflex saves.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "defensive-iai-stance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.budSeNMeSwTZYrAh",
+      "name": "Effect: Defensive Iai Stance"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "SOIrZjEYFfvhcCGo",
+  "sort": 0,
+  "_key": "!items!SOIrZjEYFfvhcCGo"
+}

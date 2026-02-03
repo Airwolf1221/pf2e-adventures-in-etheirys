@@ -1,0 +1,76 @@
+{
+  "name": "Ramuh",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Thunderstorms, natural laws, erudition</p><p><strong>Edicts</strong> pursue academic and intellectual pursuits; be humble; obey just laws</p><p><strong>Anathema</strong> destroy knowledge or allow knowledge to come to harm; flagrantly break laws</p>"
+    },
+    "rules": [],
+    "slug": "ramuh",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "fate",
+        "knowledge",
+        "lightning",
+        "magic"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "society"
+    ],
+    "weapons": [
+      "bolt-staff"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/hei-feng.webp",
+  "folder": "A3pOAw4SDnTG16Pk",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.oKlEOK51Th6hCdGr",
+    "duplicateSource": "Item.AeNqMOkq4DqljgHo",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "BnLSwXlB9tmhho0z",
+  "_key": "!items!BnLSwXlB9tmhho0z"
+}

@@ -1,0 +1,88 @@
+{
+  "folder": "S2BPbdvBGK3lEdq8",
+  "name": "Meikyo Shisui",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your combat expertise allows you to attack with speed at all times. You are permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}, and can use this extra action to Strike, use an action with the combo trait, or to partially pay the action costs of any Samurai Feat that includes the use of @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze}.</p><p>Additionally, at the start of each of your turns, you can sheathe your Samurai Weapon and enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}. This does not count against the uses of Iai Stance for that turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl"
+      },
+      {
+        "itemType": "condition",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:granter:id:{item|id}"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} and can use the extra action to Strike, use an action with the combo trait, or to partially pay the action costs of any Samurai Feat that includes the use of Hakaze."
+          }
+        ]
+      }
+    ],
+    "slug": "meikyo-shisui",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "a62UjU75ch2h0b7w",
+  "sort": 0,
+  "_key": "!items!a62UjU75ch2h0b7w"
+}

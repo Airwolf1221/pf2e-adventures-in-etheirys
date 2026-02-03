@@ -1,0 +1,82 @@
+{
+  "folder": "ZfiOOtn6jwxdEr1x",
+  "name": "Total Concentration",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>With a deep breath, you focus on the battlefield and your foe. Make a @Check[perception] check against a Level-based DC of a level equal to a creature you can see.</p><hr /><p><strong>Critical Success</strong> As success, but the circumstance bonus increases to +2.</p><p><strong>Success</strong> You spot a fatal flaw in your target's defenses. Until the end of your next turn, the first strike while in Iai Stance gains a +1 circumstance bonus to its attack roll.</p><p><strong>Failure</strong> You fail to spot any openings on your oponents defenses.</p><p><strong>Critical Failure</strong> You cannot find any openings on your opponent's form. The creature becomes immune to Total Concentration for 10 minutes.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "total-concentration",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "master in Perception"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.51V8OZzygpIffQAh",
+      "name": "Effect: Total Concentration"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Jg8sY6z96yK1HDkW",
+  "sort": 0,
+  "_key": "!items!Jg8sY6z96yK1HDkW"
+}

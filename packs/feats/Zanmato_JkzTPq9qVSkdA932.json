@@ -1,0 +1,76 @@
+{
+  "folder": "ZfiOOtn6jwxdEr1x",
+  "name": "Zanmato",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>A well aimed devastating blow attempts to disable your target. Make a Strike. If you hit and inflict damage, the victim of this strike must make a @Check[fortitude|against:class] save, with a -3 penalty for a critical success on the initial strike.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} until the end of your next turn.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 4 rounds.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 4 rounds, is in an @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} state for 2 hours, or drops to 0 hit points and dies (your choice).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "zanmato",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "combo",
+        "death",
+        "incapacitation",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Kendo form"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "JkzTPq9qVSkdA932",
+  "sort": 0,
+  "_key": "!items!JkzTPq9qVSkdA932"
+}

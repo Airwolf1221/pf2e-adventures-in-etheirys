@@ -1,0 +1,105 @@
+{
+  "folder": "ZiGczm0x3gIEFQVZ",
+  "name": "Instinctive Parry",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you parry with your Saya, you gain the parry bonus to Reflex saves against spells or abilities that would affect you. If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ghCWT2NJ1XsS3fvP]{Blade Block} feat, this applies to that feat as well.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "selector": [
+          "reflex"
+        ],
+        "type": "circumstance",
+        "predicate": [
+          "self:effect:parry"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "parry-bonus-upgrade:yes"
+        ],
+        "selector": "reflex",
+        "slug": "instinctive-parry",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "reflex"
+        ],
+        "value": 2,
+        "hideIfDisabled": true,
+        "type": "circumstance",
+        "predicate": [
+          "self:effect:blade-block"
+        ],
+        "label": "Instinctive Parry (Blade Block)"
+      }
+    ],
+    "slug": "instinctive-parry",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "XFJ9RWob4VmirDg1",
+  "sort": 0,
+  "_key": "!items!XFJ9RWob4VmirDg1"
+}

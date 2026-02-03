@@ -1,0 +1,91 @@
+{
+  "name": "Kendo",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Kendo, or the way of the sword, is an aggressive martial way, which seeks confrontation at the risk of one's own life. It is a path for those who wish to push their lord's conquests further or those who seek to surpass their master in the way of combat.</p><p>You gain a 1st-level samurai feat with the combo trait of your choice.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:trait:samurai",
+            "item:category:class",
+            "item:trait:combo"
+          ],
+          "itemType": "feat"
+        },
+        "prompt": "Select a 1st-level samurai combo feat",
+        "flag": "kendoFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.kendoFeat}"
+      }
+    ],
+    "slug": "kendo",
+    "traits": {
+      "otherTags": [
+        "samurai-form"
+      ],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-purple-orange.webp",
+  "folder": "fhXvhVSG21f12ESH",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "owP4bMQmVprDv4Pu",
+  "sort": 700000,
+  "_key": "!items!owP4bMQmVprDv4Pu"
+}

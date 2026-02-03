@@ -1,0 +1,85 @@
+{
+  "folder": "ZfiOOtn6jwxdEr1x",
+  "name": "Arena of the Thunderous Kami",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Duration</strong> 1 minute</p><hr /><p>With a swift and complex motion of your blade, you call upon the thunderous power of Susano to generate an arena where lightning and buffeting winds give you an edge in combat. Hostile Creatures within @Template[type:emanation|distance:20]{20 feet of you} must make a @Check[reflex|against:class|basic] save or take @Damage[(floor((@actor.level - 4)/3) + 2)d6[wind-ff]] damage.</p><p>For the duration of effect, you generate hazardous terrain in a @Template[type:emanation|distance:20]. Any hostile creature that enters, starts or ends its turn in the area takes @Damage[4d8[electricity]] damage.</p><p>The edges of the emanation function as per the @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]{Wall of Wind} spell at 3rd rank, using your class DC for the saving throws required by the spell.</p><p>You and your allies are immune to all effects of Arena of the Thunderous Kami.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "arena-of-the-thunderous-kami",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aura",
+        "concentrate",
+        "electricity",
+        "samurai",
+        "wind"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.vCpedMj9e24citii",
+      "name": "Effect: Arena of the Thunderous Kami"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "IQwQ65Kxji7xkc2g",
+  "sort": 0,
+  "_key": "!items!IQwQ65Kxji7xkc2g"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Iai Stance",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> you roll Perception for initiative, use an Interact action to sheathe a Samurai Weapon, or land a critical hit using a Samurai Weapon</p><p><strong>Requirements</strong> You are wearing or wielding a Samurai Weapon and wielding no other weapons or shields other than a @UUID[Compendium.pf2e-adventures-in-etheirys.equipment.Item.TfrKQ49bwfYJWeEU]{Saya}, or you are wielding two Samurai Weapons, one in each hand</p><hr /><p>You quickly sheathe your blade and enter a calm pose. While in this stance, you gain the following benefits.</p><ul><li>Since your weapon is sheathed, it cannot be disarmed (though a creature can still attempt to steal the weapon from you through other means, such as through the Thievery skill).</li><li>You can make Strikes using your sheathed Samurai Weapon and are considered to be wielding it for the purposes of actions, feats and class features.</li></ul><p>When you make your first Strike while in this stance, you automatically unsheathe your weapon as part of that action, ending the stance immediately after the Strike.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "iai-stance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai",
+        "stance"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 2,
+      "per": "round"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.rH08Zrof7w8AJi99",
+      "name": "Stance: Iai Stance"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": "stRvBOqxBA627eGf",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "ymyhuyGwv8vEnLIH",
+  "sort": 0,
+  "_key": "!items!ymyhuyGwv8vEnLIH"
+}

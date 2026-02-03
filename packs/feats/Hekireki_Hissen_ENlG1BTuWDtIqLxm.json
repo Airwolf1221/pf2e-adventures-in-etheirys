@@ -1,0 +1,77 @@
+{
+  "folder": "gWB5QcXwUCDCk8Ez",
+  "name": "Hekireki Hissen",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You interact to sheathe your weapon and enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance} and concentrate your energy to deliver a Strike in a flash of lightning. Until the end of your current turn, your next @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} has its effects changed to the following, replacing its default effect:</p><p>You dash in a @Template[type:line|distance:30]. You can move through creatures during this movement, treating their spaces as normal spaces for movement costs, and this movement doesn't trigger reactions that are triggered by movement or the move trait. Each creature you move through takes @Damage[(floor((@actor.level - 4)/3) + 2)d6[electricity]] damage with a @Check[reflex|against:class|basic] save. If you end your dash in the air, you fall unless you have a Fly speed. If you do have a fly speed, Hekireki Hissen count as the action required to maintain flight.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hekireki-hissen",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "electricity",
+        "move",
+        "primal",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Sayado form"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ENlG1BTuWDtIqLxm",
+  "sort": 0,
+  "_key": "!items!ENlG1BTuWDtIqLxm"
+}

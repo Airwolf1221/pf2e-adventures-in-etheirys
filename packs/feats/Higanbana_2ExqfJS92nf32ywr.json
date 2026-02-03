@@ -1,0 +1,70 @@
+{
+  "folder": "ZiGczm0x3gIEFQVZ",
+  "name": "Higanbana",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You Interact to sheathe your samurai weapon, immediately entering @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance} afterwards. Until the end of your turn, your next Hakaze is empowered to deal an additional @Damage[(floor((@actor.level - 12)/4) + 2)d12[persistent,bleed]] damage with a @Check[fortitude|against:class] saving throw; on a critical hit, the creature takes a -3 circumstance penalty to its saving throw against Higanbana. At 12th level and every 4 levels thereafter, increase the persistent bleeding damage by 1d12.</p><hr /><p><strong>Success</strong> The creature takes the full precision damage of Hakaze, but does not take any bleed damage.</p><p><strong>Failure</strong> As success, but the target takes the full persistent bleed damage.</p><p><strong>Critical Failure</strong> As failure, but the target takes persistent bleed damage equal to the precision damage dice of hakaze in addition to higanbana (@Damage[(floor((@actor.level - 12)/4) + 2)d12[persistent,bleed],(floor((@actor.level - 4)/3) + 2)d6[persistent,bleed]]).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "higanbana",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "2ExqfJS92nf32ywr",
+  "sort": 0,
+  "_key": "!items!2ExqfJS92nf32ywr"
+}

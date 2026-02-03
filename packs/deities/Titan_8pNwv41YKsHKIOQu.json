@@ -1,0 +1,75 @@
+{
+  "name": "Titan",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> Landslides, earthquakes, displays of strength</p><p><strong>Edicts</strong> prove your own strength; train both your body and your will</p><p><strong>Anathema</strong> yield to one of weaker body or will; allow a slight to go unpunished</p>"
+    },
+    "rules": [],
+    "slug": "titan",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "destruction",
+        "dust",
+        "might",
+        "earth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "skill": [
+      "athletics"
+    ],
+    "weapons": [
+      "earthbreaker"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/treasures-of-the-eternal-delve.webp",
+  "folder": "A3pOAw4SDnTG16Pk",
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.oKlEOK51Th6hCdGr",
+    "duplicateSource": "Item.AeNqMOkq4DqljgHo",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "8pNwv41YKsHKIOQu",
+  "_key": "!items!8pNwv41YKsHKIOQu"
+}

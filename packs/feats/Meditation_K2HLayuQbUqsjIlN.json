@@ -1,0 +1,79 @@
+{
+  "folder": "mTupZaa9RPh6Coi6",
+  "name": "Meditation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You refocus on your inner thoughts to renew your abilities and attention to your surroundings. This action requires you to concentrate continuously for 10 minutes, as the @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{Refocus} action. Once this action is completed, you gain a +1 circumstance bonus to all Perception checks for one hour, and you regain one daily use of @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.DdjZYT7NMRL9Vx5Z]{Resolve}.</p><p>You can only regain a daily use of Resolve once per day, but meditation can be used as often as you like.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "meditation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.x9zYG9uY35Raq1WW",
+      "name": "Effect: Meditation"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "K2HLayuQbUqsjIlN",
+  "sort": 0,
+  "_key": "!items!K2HLayuQbUqsjIlN"
+}

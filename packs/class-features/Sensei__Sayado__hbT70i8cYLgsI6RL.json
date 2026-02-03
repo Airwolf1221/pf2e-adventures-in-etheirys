@@ -1,0 +1,85 @@
+{
+  "name": "Sensei (Sayado)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You get the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ghCWT2NJ1XsS3fvP]{Blade Block}, @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.XFJ9RWob4VmirDg1]{Instinctive Parry} and @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.SOIrZjEYFfvhcCGo]{Defensive Iai Stance} feats. If you already have the Defensive Iai Stance feat, you get another class feat of your choice of 12th level or lower.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feats.Item.SOIrZjEYFfvhcCGo",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feats.Item.XFJ9RWob4VmirDg1",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feats.Item.ghCWT2NJ1XsS3fvP",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "sensei-sayado",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/beam-jet-stream-yellow.webp",
+  "folder": "fhXvhVSG21f12ESH",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "hbT70i8cYLgsI6RL",
+  "sort": 0,
+  "_key": "!items!hbT70i8cYLgsI6RL"
+}

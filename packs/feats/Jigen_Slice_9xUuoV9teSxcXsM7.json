@@ -1,0 +1,75 @@
+{
+  "folder": "S2BPbdvBGK3lEdq8",
+  "name": "Jigen-Slice",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You Interact to sheathe your weapon and enter Iai Stance, concentrating all of your energy to deliver a @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} that slices through space between you and your target. Until the end of your turn, your next Hakaze has a reach of 120 feet and the target must also succeed a @Check[fortitude|against:class] saving throw or be teleported to a position of your choice, so long as it is within the confines of a line from you to the target.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "jigen-slice",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai",
+        "teleportation"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Ever Ready"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "9xUuoV9teSxcXsM7",
+  "sort": 0,
+  "_key": "!items!9xUuoV9teSxcXsM7"
+}

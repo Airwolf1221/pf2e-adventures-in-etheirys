@@ -1,0 +1,87 @@
+{
+  "folder": "SXAqb0fouo9tQHcs",
+  "name": "Blade of Terror",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The presence of your weapon in your hands instills terror in the hearts of all those who see you with it. As long as your weapon is drawn, you have an aura of terror around you in 30 foot emanation. Creatures who observe you with your weapon drawn and attempt to attack you must succeed at a @Check[will|against:class] saving throw. Each opponent within the aura must also make a saving throw each time one of their allies is knocked down to 0 hit points by you.</p><hr /><p><strong>Critical Success</strong> The target can attack and take any other action normally.</p><p><strong>Success</strong> As critical success, but the target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The target loses its action, becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and cannot attempt another attack against you until the end of its turn.</p><p><strong>Critical Failure</strong> As failure, but the target cannot attack you while @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 30,
+        "traits": [
+          "emotion",
+          "fear",
+          "mental"
+        ]
+      }
+    ],
+    "slug": "blade-of-terror",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aura",
+        "emotion",
+        "fear",
+        "mental",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Samurai's Presence"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "L0GR3iYdmBke7xkd",
+  "sort": 0,
+  "_key": "!items!L0GR3iYdmBke7xkd"
+}

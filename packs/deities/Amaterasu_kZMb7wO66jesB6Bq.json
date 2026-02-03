@@ -1,0 +1,77 @@
+{
+  "name": "Amaterasu",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Areas of Concern</strong> The sun, fire, and purity of mind</p><p><strong>Edicts</strong> stand up for others when they can't stand up for themselves; offer second chances, even to those who might not deserve it; help others when you are able</p><p><strong>Anathema</strong> challenge the sun; ignore the pleas of others when you are able to help; refuse to give others a chance to speak their truth</p>"
+    },
+    "rules": [],
+    "slug": "amaterasu",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "fate",
+        "fire",
+        "sun"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "wis"
+    ],
+    "skill": [
+      "arcana"
+    ],
+    "weapons": [
+      "longsword",
+      "fist"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/deities/light-of-the-everlasting-flames.webp",
+  "folder": "9yfS03es2jzEEfKM",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "kZMb7wO66jesB6Bq",
+  "sort": 100000,
+  "_key": "!items!kZMb7wO66jesB6Bq"
+}

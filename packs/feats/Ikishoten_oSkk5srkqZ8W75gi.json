@@ -1,0 +1,82 @@
+{
+  "folder": "SXAqb0fouo9tQHcs",
+  "name": "Ikishoten",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You focus your mind and steel your nerves, preparing to deliver a mighty blow. You immediately sheathe your weapon and enter @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}. The next Strike you make does not force you to leave Iai Stance, and you may roll the attack roll for that Strike twice and take the higher result. This applies even if the Strike is a component of an activity such as @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.SZhelx92NZSSHME1]{Midare Setsugekka}, @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.OKwEuMd56RtLLI1Z]{Ogi Namikri} or @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ta4tbDDZBGAoS6on]{Hissatsu Shinten}. Finally, this next Strike critically succeeds if you roll a 19 on the die as long as that result is a success. This has no effect on a 19 if the result would be a failure.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.pf2e.feats-srd.Item.v88bFLoJEF3YfJKb]{Savage Critical} feat, increase the final clause of Ikishoten to an 18 instead of a 19.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "ikishoten",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fortune",
+        "samurai"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.8SRJZm78cOFMj4CL",
+      "name": "Effect: Ikishoten"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "oSkk5srkqZ8W75gi",
+  "sort": 0,
+  "_key": "!items!oSkk5srkqZ8W75gi"
+}

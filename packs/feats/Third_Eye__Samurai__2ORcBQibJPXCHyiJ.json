@@ -1,0 +1,79 @@
+{
+  "folder": "ZiGczm0x3gIEFQVZ",
+  "name": "Third Eye (Samurai)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You are targetted by a Strike and you can see the attacker</p><p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}</p><hr /><p>You attempt to masterfully deflect the triggering attack. Make a @Check[perception] check against a Level-based-DC of a level equal to the triggering creature's level. Regardless of the outcome, your blade is unsheathed and you end Iai Stance.</p><hr /><p><strong>Critical Success</strong> You completely deflect the strike, causing it to deal minimum damage to you. You still take any effects the strike would deal.</p><p><strong>Success</strong> You make the blow miss vital organs, granting you Resistance to the triggering damage equal to your level.</p><p><strong>Failure</strong> You are barely able to alter the blow on you, only granting Resistance to the triggering damage equal to half your level and making you @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of your next turn.</p><p><strong>Critical Failure</strong> You are unable to alter the course of this attack at all. You fail to deflect the blow and become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "third-eye-samurai",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "samurai",
+        "visual"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.cHX49zKO1kGLnjpe",
+      "name": "Effect: Third Eye"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "2ORcBQibJPXCHyiJ",
+  "sort": 0,
+  "_key": "!items!2ORcBQibJPXCHyiJ"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Effect: Offensive Iai Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.fCi4BwpU5bczNdPm]{Offensive Iai Stance}</p><p>When you enter Iai Stance, you may choose to enter Offensive Iai Stance instead. While in this stance, you suffer a -2 status penalty to your AC, but all of your strikes made with the agile trait are made with a -3 penalty for the second attack and a -6 penalty for the third (instead of -4 and -8 respectively).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": -2,
+        "type": "status"
+      },
+      {
+        "key": "MultipleAttackPenalty",
+        "selector": "attack",
+        "value": -3
+      }
+    ],
+    "slug": "effect-offensive-iai-stance",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 12
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Mangetsu.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "mJGNqmwisL2gXIDk",
+  "sort": 500000,
+  "_key": "!items!mJGNqmwisL2gXIDk"
+}
