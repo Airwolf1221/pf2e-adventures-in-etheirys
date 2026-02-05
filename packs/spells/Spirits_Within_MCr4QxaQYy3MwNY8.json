@@ -1,0 +1,147 @@
+{
+  "folder": "deLa7uHuiSVe7Ysh",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Spirits_Within.png",
+  "name": "Spirits Within",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your hands become infused with powerful vitality, capable of healing a living creature or damaging an undead creature with a touch.</p><ul><li><strong>Willing Living Creature</strong> The target regains 6 Hit Points. If the target is someone other than yourself, it also gains a +2 status bonus to AC for 1 round.</li><li><strong>Undead Creature</strong> The target takes 1d6 vitality damage with a basic Fortitude save; on a failure, the target also takes a –2 status penalty to AC for 1 round.</li></ul><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 6, and the damage to an undead target increases by 1d6.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.gqqIUXnRyDugmB1z]{Spell Effect: Spirits Within}</p>"
+    },
+    "rules": [],
+    "slug": "spirits-within",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "healing",
+        "manipulate",
+        "paladin"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing living creature or 1 undead creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": [],
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "a33QUFoKgoOprovO": {
+        "name": "Spirits Within (Vs. Undead)",
+        "system": {
+          "damage": {
+            "37YW4ZGhxx7Y2mdI": {
+              "applyMod": false,
+              "category": null,
+              "formula": "1d6",
+              "kinds": [
+                "damage"
+              ],
+              "materials": [],
+              "type": "vitality"
+            }
+          },
+          "defense": {
+            "save": {
+              "basic": true,
+              "statistic": "fortitude"
+            }
+          },
+          "heightening": {
+            "damage": {
+              "37YW4ZGhxx7Y2mdI": "1d6"
+            },
+            "interval": 1,
+            "type": "interval"
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "uLuOg62dVyxvbW66": {
+        "name": "Spirits Within (Healing)",
+        "system": {
+          "damage": {
+            "b39tbePoPlJSzLku": {
+              "applyMod": false,
+              "category": null,
+              "formula": "6",
+              "kinds": [
+                "healing"
+              ],
+              "materials": [],
+              "type": "vitality"
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "b39tbePoPlJSzLku": "6"
+            },
+            "interval": 1,
+            "type": "interval"
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Lay on Hands"
+    }
+  },
+  "_id": "MCr4QxaQYy3MwNY8",
+  "sort": 100000,
+  "_key": "!items!MCr4QxaQYy3MwNY8"
+}

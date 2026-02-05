@@ -1,0 +1,88 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Spirits_Within.png",
+  "name": "Spell Effect: Spirits Within",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.MCr4QxaQYy3MwNY8]{Spirits Within}</p><p>You gain a +2 status bonus to AC. If you're undead, you take a –2 status penalty to AC instead.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "status",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "downgrade",
+        "predicate": [
+          "self:mode:undead"
+        ],
+        "selector": "ac",
+        "slug": "spirits-within",
+        "value": -2
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-lay-on-hands",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "v4vf4L1Kp6KOAldb",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Spell Effect: Lay on Hands"
+    }
+  },
+  "_id": "gqqIUXnRyDugmB1z",
+  "sort": 300000,
+  "_key": "!items!gqqIUXnRyDugmB1z"
+}

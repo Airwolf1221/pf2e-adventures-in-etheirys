@@ -1,6 +1,115 @@
 {
   "name": "Archetypes",
-  "pages": [],
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Multiclass Archetypes",
+      "type": "text",
+      "_id": "0N1WrDN7HHihPCbu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Some archetypes have the multiclass trait. These allow you to diversify your training into another class's specialties. You can't select a multiclass archetype's dedication feat if you are already a member of that class.</p><p><span style=\"float:right\"><em>Source: Pathfinder Player Core pg. 215</em></span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "BaYRkOXn1K3wq5i6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "_key": "!journal.pages!ZDsnoPK15uLTpQG8.0N1WrDN7HHihPCbu"
+    },
+    {
+      "sort": 200000,
+      "name": "Paladin",
+      "type": "text",
+      "_id": "zM5PadKyMQWPw14S",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You have embarked upon a path of great sacrifice and oaths, granting you the power to wield the light as you see fit.</p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.BJsXCfHbmT9E4n4S]{Paladin Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li class=\"tag traits\">dedication</li><li class=\"tag traits\">multiclass</li></ul><p><strong>Prerequisites</strong> Strength +2, Charisma +2</p><hr /><p>Choose a teaching from the paladin class. You become trained in your teaching's associated skill; if you were already trained in this skill, you instead become trained in a skill of your choice.</p><p>You become trained in paladin class DC. If you later gain a holy spell, you become trained in spell attack modifier and spell DC.</p><p>You become trained in light armor and medium armor. If you already were trained in light armor and medium armor, you gain training in heavy armor as well. Whenever you gain a class feature that grants you expert or greater proficiency in any type of armor (but not unarmored defense), you also gain that proficiency in the armor types granted to you by this feat. If you have a class feature that grants you expert proficiency in unarmored defense and you’re 13th level or higher, you also become an expert in the armor types granted to you by this feat.</p><p>You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zhNSaLTFP5jqE6Lq]{Iron Will} action</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.6G8azNv39p1PqqOq]{Basic Edict} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.6G8azNv39p1PqqOq inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.vzTXjTqv9FHm6Zrs]{Holy Magic} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.vzTXjTqv9FHm6Zrs inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.EZOf1hsQIEIfjaSg]{Paladin's Resiliency} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.EZOf1hsQIEIfjaSg inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.s02dnqFeYu9zwJNn]{Advanced Edict} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.s02dnqFeYu9zwJNn inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.BHt94kqO1ajnSV2z]{Paladin's Cover} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.BHt94kqO1ajnSV2z inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.9upTm5mUwpG67K0s]{Teachings Beneficiary} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.9upTm5mUwpG67K0s inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.m8C3g5oaa4CEskwn]{Divine Resistance} <span style=\"float:right\">Feat 8</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.m8C3g5oaa4CEskwn inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ttkyYfpf3GlQ8JFe]{Paladin's Boons} <span style=\"float:right\">Feat 8</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.ttkyYfpf3GlQ8JFe inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.Guski0pli0LHH1vW]{Paladin's Fortitude} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.Guski0pli0LHH1vW inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "BaYRkOXn1K3wq5i6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "_key": "!journal.pages!ZDsnoPK15uLTpQG8.zM5PadKyMQWPw14S"
+    },
+    {
+      "sort": 300000,
+      "name": "Samurai",
+      "type": "text",
+      "_id": "LWPzb8T8PjUNz1OP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You have spent time learning the art of wielding swords, improving your skills in such weapons and wearing armor. You have acquired certain credentials and a strict code of conduct. With further training, you can acquire unique skills in close combat.</p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.qHrsnPNC9Z2ynNcV]{Samurai Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li class=\"tag traits\">dedication</li><li class=\"tag traits\">multiclass</li></ul><p><strong>Prerequisites</strong> Strength +2, Dexterity +2</p><hr /><p>You become trained in Samurai Weapons, as well as in your choice of Acrobatics or Athletics and Society. If you are already trained in any of these skills, you become trained in another skill of your choice for each of the skills you cannot take.</p><p>You become trained in light and medium armor, as well as Samurai class DC. Choose a Samurai Form. You may take Samurai feats of that form, but you do not gain that form's benefits.</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.kHSQtG5rpqKeWu9k]{Basic Technique} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.kHSQtG5rpqKeWu9k inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.0nbBZiK5mhvVD9Em]{Discovery of Form} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.0nbBZiK5mhvVD9Em inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.Ja70xjmVMDye7nrh]{Iai Slash} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li class=\"tag traits\">flourish</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.Ja70xjmVMDye7nrh inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.f4UiziZTC6M62HCR]{Samurai's Resiliency} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.f4UiziZTC6M62HCR inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.9FfWj38TlIL1sLy9]{Advanced Technique} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.9FfWj38TlIL1sLy9 inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.eHhnNY4QUig4rMN9]{Form Adept} <span style=\"float:right\">Feat 10</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.eHhnNY4QUig4rMN9 inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.SBRoIBuqtB7Lijpe]{Expert Samurai} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.SBRoIBuqtB7Lijpe inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.7cgOYsCAWqSK07JE]{Master Samurai} <span style=\"float:right\">Feat 18</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.7cgOYsCAWqSK07JE inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "BaYRkOXn1K3wq5i6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "_key": "!journal.pages!ZDsnoPK15uLTpQG8.LWPzb8T8PjUNz1OP"
+    }
+  ],
   "folder": null,
   "categories": [],
   "ownership": {

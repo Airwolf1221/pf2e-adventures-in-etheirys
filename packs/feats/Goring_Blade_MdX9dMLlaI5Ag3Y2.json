@@ -1,0 +1,110 @@
+{
+  "folder": "QarnJ6gEqxxxCo1U",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Goring Blade",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your Strikes currently deal extra damage from your teaching reaction.</p><hr /><p>Make a Strike against the creature that triggered your teaching reaction. If you hit, double the extra damage the target takes from your reaction, and the target must succeed at a @Check[fortitude|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. Regardless of the result, the creature is temporarily immune to your Goring Blade for 24 hours.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Teachings of Vengeance or Justice"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "goring-blade",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "goring-blade"
+        ],
+        "selector": [
+          "strike-attack-roll"
+        ],
+        "text": "The target must succeed at a @Check[fortitude|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.",
+        "title": "{item|name}"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "predicate": [
+          "goring-blade"
+        ],
+        "selector": "strike-damage",
+        "slug": "teaching-extra-damage",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "goring-blade",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Gruesome Strike"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "MdX9dMLlaI5Ag3Y2",
+  "sort": 0,
+  "_key": "!items!MdX9dMLlaI5Ag3Y2"
+}

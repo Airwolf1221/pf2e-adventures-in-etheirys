@@ -1,0 +1,66 @@
+{
+  "folder": "zWLpiq5h4r7LSlKh",
+  "name": "Oath of Shields",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You assume a stance which channels protection against all evils. While in this stance, you gain a +1 untyped bonus to your AC and saving throws, but you take a -2 untyped penalty to all damage rolls.</p><hr /><p><strong>Level (11th)</strong> The AC and saving throw bonuses increase to +2.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "oath-of-blades",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "magical",
+        "paladin",
+        "stance"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "defensive",
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.WIEptVla085of7bQ",
+      "name": "Stance: Oath of Shields"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "D1B0CJtMuz6w4uxy",
+  "sort": 400000,
+  "_key": "!items!D1B0CJtMuz6w4uxy"
+}

@@ -3,11 +3,11 @@
     "mapping": {
         "name": {
             "path": "name",
-            "converter": "localizeFF2eNames"
+            "converter": "localizeTotalConversionNames"
         },
         "description": {
             "path": "system.description.value",
-            "converter": "localizeFF2eDescriptions"
+            "converter": "localizeTotalConversionDescriptions"
         }
     }
 }

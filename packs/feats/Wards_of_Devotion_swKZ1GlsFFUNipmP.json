@@ -1,0 +1,73 @@
+{
+  "folder": "J6cKZALjM1rHQlN3",
+  "name": "Wards of Devotion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You are about to enter oath of shields stance</p><hr /><p>You extend the wards of your stance to your allies. Allies within your paladin's aura gain a +1 untyped bonus to their AC until you leave the oath of shields stance.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.dLjaJiGZg4BIVWRs]{Effect: Wards of Devotion}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "wards-of-devotion",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Defenders' Oaths"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "swKZ1GlsFFUNipmP",
+  "sort": 0,
+  "_key": "!items!swKZ1GlsFFUNipmP"
+}

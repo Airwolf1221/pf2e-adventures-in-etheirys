@@ -1,0 +1,110 @@
+{
+  "folder": "deLa7uHuiSVe7Ysh",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Blade_of_Valor.png",
+  "name": "Litany Against Wrath",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your litany rails against the sin of wrath, punishing the target for attacking good creatures. The target must attempt a Will save. A particularly wrathful creature, such as a wrath demon, uses the outcome one degree of success worse than the result of its saving throw. The target then becomes temporarily immune to all of your litanies for 1 minute.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The first time the target uses an action that deals damage to at least one creature without the shadow trait, the target takes 3d6 holy damage.</p><p><strong>Failure</strong> Each time the target uses an action that deals damage to at least one creature without the shadow trait, the target takes 3d6 holy damage.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}. Each time it uses an action that deals damage to at least one creature without the shadow trait, the target takes 3d6 holy damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "litany-against-wrath",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "litany",
+        "paladin"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature with the @Localize[PF2E.TraitVoid] trait"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 round",
+      "sustained": false
+    },
+    "damage": {
+      "lDBkdSzyJiVNF1bN": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "lDBkdSzyJiVNF1bN": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shields of the Spirit"
+    }
+  },
+  "_id": "XnAMy4DVNntABhH4",
+  "sort": 0,
+  "_key": "!items!XnAMy4DVNntABhH4"
+}

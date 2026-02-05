@@ -1,0 +1,115 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Requiescat_Mastery.png",
+  "name": "Paladin Mastery",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You're known for your exceptionally durable armor more than almost anything else. Your proficinecy rank for spell attack rolls, spell DCs, and your paladin class DC increases to master.</p><p>While wearing armor, when you attempt a Reflex save to avoid a damaging effect, such as a fireball, you can add your armor’s item bonus to AC instead of your Dexterity modifier; if your armor has the bulwark trait, increase this bonus by 1. If you get a success when you do this, you get a critical success instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 19
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "reflex"
+        ],
+        "value": "@actor.wornArmor.system.acBonus",
+        "type": "item",
+        "predicate": [
+          "damaging-effect"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "damaging-effect"
+        ],
+        "selector": "reflex",
+        "slug": "dex",
+        "suppress": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "predicate": [
+          "armor:trait:bulwark"
+        ],
+        "selector": "reflex",
+        "slug": "paladin-mastery",
+        "value": 1
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "paladin-mastery",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3,
+          "attribute": null
+        },
+        "paladin": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "26Wa1oNE2BEe6QIS",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Conflux Spells"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "pAWjGdnwprjLWKgQ",
+  "sort": 500000,
+  "_key": "!items!pAWjGdnwprjLWKgQ"
+}

@@ -1,0 +1,76 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Spirits_Within.png",
+  "name": "Spell Effect: Spirits Within (Clemency)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.bKFC8Ty46PSIMpQ2]{Empowered Clemency}</p><p>You gain fast healing.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": "@item.origin.system.abilities.cha.mod"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-spirits-within-clemency",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "v4vf4L1Kp6KOAldb",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Spell Effect: Lay on Hands"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "HXUYVvepbuLHrQfG",
+  "sort": 0,
+  "_key": "!items!HXUYVvepbuLHrQfG"
+}

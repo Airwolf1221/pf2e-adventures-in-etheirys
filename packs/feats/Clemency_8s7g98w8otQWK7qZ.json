@@ -1,0 +1,94 @@
+{
+  "folder": "J6cKZALjM1rHQlN3",
+  "name": "Clemency",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your power over the spirits is far greater than anyone else. You gain the intiial domain spell for the healing domain if you don't already have it. You can cast @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.MCr4QxaQYy3MwNY8]{Spirits Within} as a reaction, with the trigger being \"an ally within your paladin's aura takes damage\". When you cast spirits within you can change its range to be that of your paladin's aura.</p><hr /><p><strong>Special</strong> If you have the holy spells class feature, once per day, when you cast spirits within as a reaction, you can do so without expending a Focus Point. You can do this one additional time per day at 9th level, and again at 19th level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "mode": "add",
+        "predicate": [
+          "item:slug:spirits-within"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You can cast spirits within as a reaction, with the trigger being 'an ally within your paladin's aura takes damage'. When you cast spirits within you can change its range to be that of your paladin's aura, if you have one."
+          },
+          {
+            "text": "When you cast spirits within as a reaction, you can do so without expending a Focus Point. You can do this one additional time per day at 9th level, and again at 19th level.",
+            "predicate": [
+              "feature:holy-spells"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "clemency",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Spirits Within"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "8s7g98w8otQWK7qZ",
+  "sort": 0,
+  "_key": "!items!8s7g98w8otQWK7qZ"
+}

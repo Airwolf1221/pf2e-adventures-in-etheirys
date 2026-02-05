@@ -1,0 +1,9 @@
+{
+    "label": "Class Features",
+    "mapping": {
+        "traits": {
+            "path": "system.traits.value",
+            "converter": "appendClassTraits"
+        }
+    }
+}

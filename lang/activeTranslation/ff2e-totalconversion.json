@@ -620,8 +620,7 @@
                 "Petrify": "Break",
                 "RaiseDead": "Raise",
                 "Teleport": "Exit",
-                "UnexpectedTransposition": "Swap",
-                "ZealousConviction": "Rage of Halone"
+                "UnexpectedTransposition": "Swap"
             },
             "7th": {
                 "BeheadingBuzzSaw": "Buzzsaw",

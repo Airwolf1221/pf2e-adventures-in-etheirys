@@ -1,0 +1,59 @@
+{
+  "folder": "zWLpiq5h4r7LSlKh",
+  "name": "Oath Shift",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> special (see below)</p><p><strong>Requirements</strong> You are in either the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.lczkHT2svCEpGYaV]{Oath of Blades} or the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D1B0CJtMuz6w4uxy]{Oath of Shields} stance.</p><hr /><p>You manipulate your aetheric signature briefly to switch oaths on the fly. You switch from the oath of blades to the oath of shields or vice versa. Each oath has a trigger condition that must be met for you to switch out of it, shown below.</p><ul><li><p><strong>Oath of Blades</strong> You would be hit by an attack</p></li><li><p><strong>Oath of Shields</strong> You have just Cast a Spell or made a Strike, but before effects are resolved</p></li></ul><p>In both cases, apply the bonuses of the stance you switch into for the purposes of the trigerring effect of this action; for oath of blades, that would be applying the +1 bonus to AC, potentially turning a hit into a miss.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "oath-shift",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "defensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Rpyad07uGnGakwlG",
+  "sort": 0,
+  "_key": "!items!Rpyad07uGnGakwlG"
+}

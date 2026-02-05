@@ -1,0 +1,74 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Intervention.png",
+  "name": "Effect: Divine Healing",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.iUWjTiau2YVfQREC]{Divine Healing}</p><p>You gain 10 temporary Hit Points immediately and at the start of your turns.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 10
+    },
+    "level": {
+      "value": 18
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "events": {
+          "onCreate": true,
+          "onTurnStart": true
+        },
+        "key": "TempHP",
+        "value": 10
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-divine-healing",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "JxWw5kOb50AX9d3j",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "iKtr7qfnSCpJB1Yd",
+  "sort": 500000,
+  "_key": "!items!iKtr7qfnSCpJB1Yd"
+}

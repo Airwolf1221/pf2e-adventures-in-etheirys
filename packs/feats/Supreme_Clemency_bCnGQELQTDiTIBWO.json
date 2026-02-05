@@ -1,0 +1,99 @@
+{
+  "folder": "aJ9rsmb47WDk725y",
+  "name": "Supreme Clemency",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your mastery of the healing magics is nearly perfect. When you cast @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.MCr4QxaQYy3MwNY8]{Spirits Within}, all allies within 5 feet of the target regain Hit Points equal to your level, excluding the initial target.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:spirits-within"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "When you cast spirits within, all allies within 5 feet of the target regain Hit Points equal to your level, excluding the initial target.",
+            "predicate": [
+              {
+                "not": "feat:exalted-teachings"
+              }
+            ]
+          },
+          {
+            "text": "When you cast spirits within, all allies within your paladin's aura regain Hit Points equal to your level, excluding the initial target.",
+            "predicate": [
+              "feat:exalted-teachings"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "supreme-clemency",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Empowered Clemency"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "bCnGQELQTDiTIBWO",
+  "sort": 0,
+  "_key": "!items!bCnGQELQTDiTIBWO"
+}

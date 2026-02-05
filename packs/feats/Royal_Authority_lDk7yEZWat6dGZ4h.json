@@ -1,0 +1,87 @@
+{
+  "folder": "CUXKq2RNpD2ltD33",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Royal Authority",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>The idea that you would hurt your companions, even when you've lost your reason, is unthinkable. Each time you would attack an ally due to being @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} or controlled, you can attempt another saving throw against the effect that caused you to be confused or controlled with a +4 circumstance bonus to the save.</p><p>If you succeed, you don't make the attack, though you still expend any actions it would have taken. If your save ends the effect making you confused or controlled, you can take any remaining actions during your turn as normal. Failing or critically failing this additional save doesn't increase the effect's duration or otherwise worsen it.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 16
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "royal-authority"
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "type": "circumstance",
+        "value": 4
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "royal-authority",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Never!"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "lDk7yEZWat6dGZ4h",
+  "sort": 0,
+  "_key": "!items!lDk7yEZWat6dGZ4h"
+}

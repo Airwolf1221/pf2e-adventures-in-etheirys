@@ -1,0 +1,79 @@
+{
+  "folder": "jgpJhYx79Koabwnl",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Ultimate Restoration",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your mercy transcends the bounds of life and death. Add ultimate restoration to the types of restoration you can provide. When you use @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.wN42CBphkUdxOkSv]{Spiritual Restoration}, you can target a creature that died since your last turn to return it to life. The target returns to life with 1 Hit Point and becomes @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 1}. You can't return the target to life if it died from @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{@Localize[AIE.SpellNames.6th.Disintegrate]} or a death effect. The creature gains the other benefits of @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.MCr4QxaQYy3MwNY8]{Spirits Within} after it returns to life.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 18
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Spiritual Restoration"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "ultimate-restoration",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Ultimate Mercy"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "mRNgl2YgLTpuIwGp",
+  "sort": 0,
+  "_key": "!items!mRNgl2YgLTpuIwGp"
+}

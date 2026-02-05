@@ -1,0 +1,79 @@
+{
+  "folder": "CUXKq2RNpD2ltD33",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Passage of Arms",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your shield can help save nearby allies. When you use @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} against damage resulting from a Reflex save, adjacent allies who would take damage due to Reflex saves against the same effect also benefit from the damage reduction.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 16
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Reflexive Shield"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "passage-of-arms",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shield of Grace"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "GMaIuoI1LTFiZsnR",
+  "sort": 0,
+  "_key": "!items!GMaIuoI1LTFiZsnR"
+}

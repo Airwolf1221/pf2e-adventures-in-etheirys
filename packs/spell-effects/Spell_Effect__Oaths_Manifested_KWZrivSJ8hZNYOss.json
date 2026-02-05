@@ -1,0 +1,172 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Blade_of_Faith.png",
+  "name": "Spell Effect: Oaths Manifested",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.jmkzjECWr40ZzH42]{Oaths Manifested}</p><p>You gain a bonus dependant upon your active defenders' oath stance.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level, 6), 2, 1)",
+        "selector": [
+          "attack-roll"
+        ],
+        "type": "status",
+        "predicate": [
+          "self:effect:oath-of-blades"
+        ],
+        "slug": "oaths-manifested",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "predicate": [
+          "self:effect:oath-of-blades",
+          "target:trait:void"
+        ],
+        "selector": "attack-roll",
+        "slug": "oaths-manifested",
+        "value": 1
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:oath-of-shields",
+          {
+            "nand": [
+              "feature:holy-armor",
+              "armor:category:heavy"
+            ]
+          }
+        ],
+        "type": "physical",
+        "value": "max(3, 3 + (floor((@item.level - 1) / 2) * 2))"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:oath-of-shields",
+          {
+            "nand": [
+              "feature:holy-armor",
+              "armor:category:heavy"
+            ]
+          }
+        ],
+        "type": "void",
+        "value": "max(3, 3 + (floor((@item.level - 1) / 2) * 2))"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:oath-of-shields",
+          "feature:holy-armor",
+          "armor:category:heavy",
+          {
+            "not": "feat:guardian"
+          }
+        ],
+        "type": "physical",
+        "value": "1 + floor(@actor.level / 2) + max(3, 3 + (floor((@item.level - 1) / 2) * 2))"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:oath-of-shields",
+          "feature:holy-armor",
+          "armor:category:heavy",
+          {
+            "not": "feat:guardian"
+          }
+        ],
+        "type": "void",
+        "value": "1 + @actor.level + max(3, 3 + (floor((@item.level - 1) / 2) * 2))"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:oath-of-shields",
+          "feature:holy-armor",
+          "armor:category:heavy",
+          "feat:guardian"
+        ],
+        "type": "physical",
+        "value": "6 + floor(@actor.level / 2) + max(3, 3 + (floor((@item.level - 1) / 2) * 2))"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "self:effect:oath-of-shields",
+          "feature:holy-armor",
+          "armor:category:heavy",
+          "feat:guardian"
+        ],
+        "type": "void",
+        "value": "6 + @actor.level + max(3, 3 + (floor((@item.level - 1) / 2) * 2))"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-oaths-manifested",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "v4vf4L1Kp6KOAldb",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Spell Effect: Shields of the Spirit"
+    }
+  },
+  "_id": "KWZrivSJ8hZNYOss",
+  "sort": 100000,
+  "_key": "!items!KWZrivSJ8hZNYOss"
+}

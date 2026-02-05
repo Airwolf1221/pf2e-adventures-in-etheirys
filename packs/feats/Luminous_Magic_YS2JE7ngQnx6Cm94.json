@@ -1,0 +1,73 @@
+{
+  "folder": "3WNQQ4MwrZvmQJzw",
+  "name": "Luminous Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You learn the initial domain spell for either the duty, family, healing, might, protection, or sun domain as a holy spell.</p><hr /><p><strong>Special</strong> You can take this feat multiple times, choosing an additional domain spell each time to gain as a holy spell.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "luminous-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Holy Spells"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "YS2JE7ngQnx6Cm94",
+  "sort": 0,
+  "_key": "!items!YS2JE7ngQnx6Cm94"
+}

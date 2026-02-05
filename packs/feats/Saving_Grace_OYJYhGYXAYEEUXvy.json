@@ -1,0 +1,88 @@
+{
+  "folder": "nPtzOAb2yNIeWyaT",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Saving Grace",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Trigger</strong> You attempt a save against a spell, but you haven't rolled yet.</p><hr /><p>You find conviction in your cause. You gain a +2 circumstance bonus to the save.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "item:type:spell",
+          "saving-grace"
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "saving-grace",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Divine Grace"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "OYJYhGYXAYEEUXvy",
+  "sort": 0,
+  "_key": "!items!OYJYhGYXAYEEUXvy"
+}

@@ -1,0 +1,117 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Divine_Veil.png",
+  "name": "Spell Effect: Divine Veil",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.f4cSfEhUWNxnF7qF]{Divine Veil}</p><p><strong>Paladin:</strong> You Raise your Shield.</p><p><strong>Ally:</strong> You gain a +1 status bonus to AC while in the Paladin's aura.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "predicate": [
+          "paladins-aura",
+          "self:signature:{item|origin.signature}"
+        ],
+        "radius": "@actor.flags.pf2e.paladin.aura",
+        "slug": "champions-aura",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.Hkf5cL4AbkoCxkx0",
+            "includesSelf": false,
+            "predicate": [
+              {
+                "not": "target:effect:divine-veil-divine-security"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "not": "self:signature:{item|origin.signature}"
+          }
+        ],
+        "selector": "ac",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "allowDuplicate": false,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "cascade",
+          "granter": "detach"
+        },
+        "predicate": [
+          "self:signature:{item|origin.signature}"
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-divine-veil",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "v4vf4L1Kp6KOAldb",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Spell Effect: Shields of the Spirit"
+    }
+  },
+  "_id": "Hkf5cL4AbkoCxkx0",
+  "sort": 400000,
+  "_key": "!items!Hkf5cL4AbkoCxkx0"
+}

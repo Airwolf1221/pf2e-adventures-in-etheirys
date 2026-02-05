@@ -1,0 +1,187 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Iron_Will.png",
+  "name": "Effect: Iron Will",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zhNSaLTFP5jqE6Lq]{Iron Will}</p><p>You take a –1 circumstance penalty to attack rolls and DCs that don't target the origin. If you take a hostile action that doesn't target the origin, you also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Iron Will - Hostile action excluding the origin",
+        "option": "provoke-dc-penalty",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "not": "target:signature:{item|origin.signature}"
+          }
+        ],
+        "selector": "attack-roll",
+        "slug": "provoke-attack-roll",
+        "type": "circumstance",
+        "value": -1
+      },
+      {
+        "key": "Note",
+        "predicate": [
+          {
+            "not": "target:signature:{item|origin.signature}"
+          }
+        ],
+        "selector": [
+          "attack-roll"
+        ],
+        "text": "If you take a hostile action that includes at least one of the paladin's allies but doesn't include them, you also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.",
+        "title": "Iron Will"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "provoke-dc-penalty"
+        ],
+        "selector": [
+          "inline-dc",
+          "spell-dc"
+        ],
+        "slug": "provoke-dc",
+        "type": "circumstance",
+        "value": -1
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "Iron Will",
+        "mode": "add",
+        "predicate": [
+          "provoke-dc-penalty"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "If you take a hostile action that includes at least one of the paladin's allies but doesn't include them, you also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn."
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "Iron Will",
+        "mode": "add",
+        "predicate": [
+          "provoke-dc-penalty"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "If you take a hostile action that includes at least one of the paladin's allies but doesn't include them, you also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn."
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "label": "Iron Will",
+        "mode": "add",
+        "predicate": [
+          "provoke-dc-penalty"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "If you take a hostile action that includes at least one of the paladin's allies but doesn't include them, you also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn."
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Covering Guard - Hostile action against the origin's charge",
+        "option": "covering-guard-provoke",
+        "predicate": [
+          "parent:origin:item:tag:covering-guard"
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "downgrade",
+        "predicate": [
+          "covering-guard-provoke",
+          {
+            "or": [
+              "penalty:slug:provoke-attack-roll",
+              "penalty:slug:provoke-dc"
+            ]
+          }
+        ],
+        "selectors": [
+          "attack-roll",
+          "inline-dc",
+          "spell-dc"
+        ],
+        "value": -2
+      },
+      {
+        "key": "RollOption",
+        "option": "self:effect:provoke:{item|origin.signature}"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-iron-will",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "JxWw5kOb50AX9d3j",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "sU8QEx8ZhMztw2aW",
+  "sort": 1600000,
+  "_key": "!items!sU8QEx8ZhMztw2aW"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "zWLpiq5h4r7LSlKh",
+  "name": "Oath of Blades",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You assume a stance which channels holy power to purge evil. While in this stance, you gain a +2 untyped bonus to damage on Strikes and spells, but you take a -1 untyped penalty to your AC and saving throws.</p><hr /><p><strong>Level (11th)</strong> The damage bonus increases to +4.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "oath-of-blades",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "magical",
+        "paladin",
+        "stance"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.22ajrcGgVf6VN84o",
+      "name": "Stance: Oath of Blades"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "lczkHT2svCEpGYaV",
+  "sort": 500000,
+  "_key": "!items!lczkHT2svCEpGYaV"
+}

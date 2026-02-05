@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "wKbRHpiT9s3rZvVw",
+  "name": "Level 12",
+  "color": null,
+  "sorting": "a",
+  "_id": "QarnJ6gEqxxxCo1U",
+  "description": "",
+  "sort": 400000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!QarnJ6gEqxxxCo1U"
+}

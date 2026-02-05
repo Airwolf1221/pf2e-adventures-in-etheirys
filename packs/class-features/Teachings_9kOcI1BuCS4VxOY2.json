@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "26Wa1oNE2BEe6QIS",
+  "name": "Teachings",
+  "color": null,
+  "sorting": "a",
+  "_id": "9kOcI1BuCS4VxOY2",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!9kOcI1BuCS4VxOY2"
+}

@@ -1,0 +1,92 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Hallowed_Ground.png",
+  "name": "Effect: Hallowed Ground",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.sfynV8DudliYF0EP]{Hallowed Ground}</p><p>You gain resistance to all damage equal to twice your level, or become immune if you're level 20.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 16
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": "floor(@actor.level * 2)",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Immunity",
+        "type": "custom",
+        "definition": [
+          {
+            "not": "item:damage:type:anti-immunity"
+          }
+        ],
+        "label": "All Damage",
+        "predicate": [
+          "self:level:20"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-hallowed-ground",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "JxWw5kOb50AX9d3j",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "U27kNtF3wm9VYdAi",
+  "sort": 200000,
+  "_key": "!items!U27kNtF3wm9VYdAi"
+}

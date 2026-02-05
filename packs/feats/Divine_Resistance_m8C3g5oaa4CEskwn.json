@@ -1,0 +1,102 @@
+{
+  "folder": "YhwpEXP8Aq19sO54",
+  "name": "Divine Resistance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>While you are wearing heavy armor, you gain resistance to physical damage and shadow damage equal to half your character level when you use the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.CQlySU8JRBTsXMvK]{Cover} reaction to take damage instead of your ally.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.paladin.archetypeFeatCount",
+        "value": 1
+      },
+      {
+        "disabledIf": [
+          {
+            "not": "armor:category:heavy"
+          }
+        ],
+        "disabledValue": false,
+        "key": "RollOption",
+        "option": "divine-resistance",
+        "toggleable": true
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armored-resistance"
+        ],
+        "type": [
+          "physical",
+          "void"
+        ],
+        "value": "floor(@actor.level / 2)"
+      }
+    ],
+    "slug": "divine-resistance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Paladin's Cover"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "m8C3g5oaa4CEskwn",
+  "sort": 400000,
+  "_key": "!items!m8C3g5oaa4CEskwn"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "deLa7uHuiSVe7Ysh",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Divine_Veil.png",
+  "name": "Divine Veil",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a shield.</p><hr /><p>You Raise your Shield, causing ephemeral spirit shields to float within your champion's aura. The shields last until the start of your next turn or until you're no longer raising your shield, whichever comes first. While one of your allies is in your champion's aura, the shields grant them a +1 status bonus to AC, and each time an enemy makes an attack against the ally, the enemy takes 1d4 spirit damage (even if it misses).</p><p>The benefit applies only while an ally is in your aura, ending for any ally that leaves and applying to any that enters later. As normal, you don't count as your own ally and therefore don't get the benefits of the spirit shields yourself.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.Hkf5cL4AbkoCxkx0]{Spell Effect: Divine Veil}</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": "divine-veil",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "paladin",
+        "spirit"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "You are wielding a shield.",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": [],
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "DqmI0zlt2l9eMNYJ": "1d4"
+      },
+      "interval": 2,
+      "type": "interval"
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shields of the Spirit"
+    }
+  },
+  "_id": "f4cSfEhUWNxnF7qF",
+  "sort": 0,
+  "_key": "!items!f4cSfEhUWNxnF7qF"
+}

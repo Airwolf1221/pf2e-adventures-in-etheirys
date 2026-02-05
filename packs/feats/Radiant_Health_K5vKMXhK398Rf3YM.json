@@ -1,0 +1,139 @@
+{
+  "folder": "nPtzOAb2yNIeWyaT",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Radiant Health",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your radiant power makes you resistant to disease, protecting you as you offer succor to the ill. You gain a +2 status bonus to saves against diseases and poisons and to flat checks to recover from persistent poison damage. Allies in your paladin's aura get this benefit, but their bonus is +1.</p><p>In addition, if you roll a success on a save against a disease or poison, you get a critical success instead. (Your allies don't share this benefit.) If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.VTHNgc2eNH1MTBli]{Fortified Warrior} class feature, when you roll a critical failure on a save against a disease or poison, you get a failure instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:disease",
+              "item:trait:poison"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "status",
+        "value": 2
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:disease",
+              "item:trait:poison"
+            ]
+          }
+        ],
+        "selector": "saving-throw"
+      },
+      {
+        "adjustment": {
+          "criticalFailure": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "feature:fortified-warrior",
+          {
+            "or": [
+              "item:trait:disease",
+              "item:trait:poison"
+            ]
+          }
+        ],
+        "selector": "saving-throw"
+      },
+      {
+        "key": "Aura",
+        "predicate": [
+          "paladins-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ],
+        "radius": "@actor.flags.pf2e.paladin.aura",
+        "slug": "champions-aura",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.R6EeFhJn2LSWzRgh",
+            "affects": "allies",
+            "includesSelf": false
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "radiant-health",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Divine Health"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "K5vKMXhK398Rf3YM",
+  "sort": 0,
+  "_key": "!items!K5vKMXhK398Rf3YM"
+}

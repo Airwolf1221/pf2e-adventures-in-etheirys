@@ -1,0 +1,75 @@
+{
+  "folder": "aJ9rsmb47WDk725y",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Unyielding Determination",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You are forever vigilant to protect your allies. At the start of each of your turns, you gain one additional reaction you can use to perform @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.CQlySU8JRBTsXMvK]{Cover}, your teaching reaction, and the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ovV3vy0SB0Rz7YNV]{Blades of Retribution} reaction, if you have it.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "unyielding-determination",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Divine Reflexes"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Ric7tu7cddrd4XOD",
+  "sort": 0,
+  "_key": "!items!Ric7tu7cddrd4XOD"
+}

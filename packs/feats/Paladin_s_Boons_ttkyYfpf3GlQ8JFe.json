@@ -1,0 +1,103 @@
+{
+  "folder": "YhwpEXP8Aq19sO54",
+  "name": "Paladin's Boons",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain the shield benefits of @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.FxAeu0cIDLpawkWo]{Paladin's Toughness}, and count as having paladin's toughness for the purposes of paladin feats that require that class feature (such as the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.nn4JZgYbctHaQ6n9]{Blessed Shield} feat).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.paladin.archetypeFeatCount",
+        "value": 1
+      },
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped",
+          {
+            "or": [
+              "item:slug:sturdy-shield-minor",
+              "item:slug:sturdy-shield-lesser",
+              "item:slug:sturdy-shield-moderate",
+              "item:slug:sturdy-shield-greater",
+              "item:slug:sturdy-shield-major",
+              "item:slug:sturdy-shield-supreme"
+            ]
+          },
+          {
+            "not": "feat:blessed-shield"
+          }
+        ],
+        "property": "hardness",
+        "value": 1
+      }
+    ],
+    "slug": "paladins-boons",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Paladin Dedication"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "ttkyYfpf3GlQ8JFe",
+  "sort": 0,
+  "_key": "!items!ttkyYfpf3GlQ8JFe"
+}

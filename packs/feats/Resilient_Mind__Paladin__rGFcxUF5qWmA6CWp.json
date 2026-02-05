@@ -1,0 +1,103 @@
+{
+  "folder": "nPtzOAb2yNIeWyaT",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Resilient Mind (Paladin)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You're firm in your convictions and have girded your mind against outside influence. You gain a +1 circumstance bonus to saves against mental effects. This bonus increases to +2 against mental effects originating from undead or creatures with the shadow trait.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Knights of Lastwall",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "item:trait:mental"
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "slug": "resilient-mind-paladin",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "override",
+        "predicate": [
+          {
+            "or": [
+              "origin:mode:undead",
+              "origin:trait:void"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "resilient-mind-paladin",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "resilient-mind-paladin",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Resilient Mind"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "rGFcxUF5qWmA6CWp",
+  "sort": 0,
+  "_key": "!items!rGFcxUF5qWmA6CWp"
+}

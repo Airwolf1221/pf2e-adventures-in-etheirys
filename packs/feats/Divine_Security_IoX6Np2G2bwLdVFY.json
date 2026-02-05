@@ -1,0 +1,104 @@
+{
+  "folder": "3WNQQ4MwrZvmQJzw",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Divine Security",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Those you shield can benefit from your lasting protection. You can cast @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.f4cSfEhUWNxnF7qF]{Divine Veil} using 2 actions instead of 1. If you do, you can choose one ally in your paladin's aura to gain an ephemeral shield that accompanies it. For 1 minute, that ally gains the benefits of <em>divine veil</em>, even while the ally isn't in your paladin's aura and even if your shield isn't raised. If you create another companion shield, any previous one ends.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Divine Veil"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "divine-security",
+        "placement": "spellcasting",
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "divine-security",
+          "item:slug:divine-veil"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You can cast divine veil using 2 actions instead of 1. If you do, you can choose one ally in your paladin's aura to gain an ephemeral shield that accompanies it. For 1 minute, that ally gains the benefits of divine veil, even while the ally isn’t in your paladin's aura and even if your shield isn't raised. If you create another ephemeral companion shield, any previous one ends."
+          },
+          {
+            "text": "@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.QJe0U1ZQsrqBKVrK]{Spell Effect: Divine Veil (Divine Security)}"
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "divine-security",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Security"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "IoX6Np2G2bwLdVFY",
+  "sort": 0,
+  "_key": "!items!IoX6Np2G2bwLdVFY"
+}

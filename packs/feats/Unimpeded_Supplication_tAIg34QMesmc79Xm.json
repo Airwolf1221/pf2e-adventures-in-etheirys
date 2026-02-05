@@ -1,0 +1,94 @@
+{
+  "folder": "7uhLf2XRtLhJ8fgp",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Unimpeded Supplication",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>With a burst of holy liberation, your ally's movement from your @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.HZmZfVyhS9AaYFZj]{Supplication} is unaffected by difficult terrain, greater difficult terrain, narrow surfaces, and uneven ground. If you have the supreme reaction benefit, this applies to everyone who Steps.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Teachings of Liberation"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:supplication"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "your ally's movement is unaffected by difficult terrain, greater difficult terrain, narrow surfaces, and uneven ground. If you have the supreme reaction benefit, this applies to everyone who Steps."
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "unimpeded-supplication",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Unimpeded Step"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "tAIg34QMesmc79Xm",
+  "sort": 0,
+  "_key": "!items!tAIg34QMesmc79Xm"
+}

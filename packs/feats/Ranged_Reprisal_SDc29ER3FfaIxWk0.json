@@ -1,0 +1,95 @@
+{
+  "folder": "7uhLf2XRtLhJ8fgp",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Ranged Reprisal",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You can use @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.YWdCLwG9q0fghbjL]{Protective Retribution} at greater distance. You can use a ranged weapon to make a ranged Strike instead of a melee Strike for Protective Retribution. The enemy needs to be in range, but not in reach, and it must still be in your paladin's aura.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Teachings of Retribution"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:protective-retribution"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "You can use a ranged weapon to make a ranged Strike instead of a melee Strike for Protective Retribution. The enemy needs to be in range, but not in reach, and it must still be in your paladin's aura."
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "ranged-reprisal",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Nimble Reprisal"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "SDc29ER3FfaIxWk0",
+  "sort": 0,
+  "_key": "!items!SDc29ER3FfaIxWk0"
+}

@@ -1,0 +1,75 @@
+{
+  "folder": "hr4u2NopRUNGAIYV",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Projectile Shielding",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Trigger</strong> An adjacent ally is the target of a physical ranged Strike.</p><p><strong>Requirements</strong> You can see the attacker, you are not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, and you have Raised your Shield.</p><hr /><p>You place your shield in the path of an oncoming projectile. Your adjacent ally gains a +4 circumstance bonus to AC against the triggering attack. If the attack misses, you have deflected it with your shield.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.72oOydnwePEbuT1K]{Effect: Projectile Shielding}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "projectile-shielding",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shield from Arrows"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "1nYDiL5wvqnfPoiK",
+  "sort": 0,
+  "_key": "!items!1nYDiL5wvqnfPoiK"
+}

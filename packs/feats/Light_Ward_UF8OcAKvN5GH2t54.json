@@ -1,0 +1,155 @@
+{
+  "folder": "nPtzOAb2yNIeWyaT",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Light Ward",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You reflexively place your shield between your eyes and visual dangers. While your shield is raised, you gain a +2 circumstance bonus to all defenses against effects with the light or visual trait. If you critically fail your save against such an effect while your shield is raised, you fail instead. Likewise, if such an effect critically succeeds against your DC, it's a success instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "self:effect:raise-a-shield",
+          {
+            "or": [
+              "item:trait:light",
+              "item:trait:visual"
+            ]
+          }
+        ],
+        "selector": [
+          "ac",
+          "fortitude",
+          "reflex",
+          "will"
+        ],
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "adjustment": {
+          "success": "to-critical-success"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "self:effect:raise-a-shield",
+          {
+            "or": [
+              "item:trait:light",
+              "item:trait:visual"
+            ]
+          }
+        ],
+        "selector": "fortitude"
+      },
+      {
+        "adjustment": {
+          "success": "to-critical-success"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "self:effect:raise-a-shield",
+          {
+            "or": [
+              "item:trait:light",
+              "item:trait:visual"
+            ]
+          }
+        ],
+        "selector": "reflex"
+      },
+      {
+        "adjustment": {
+          "success": "to-critical-success"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "self:effect:raise-a-shield",
+          {
+            "or": [
+              "item:trait:light",
+              "item:trait:visual"
+            ]
+          }
+        ],
+        "selector": "will"
+      },
+      {
+        "affects": "origin",
+        "key": "EphemeralEffect",
+        "selectors": [
+          "ac",
+          "fortitude-dc",
+          "reflex-dc",
+          "will-dc"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.4J41XD9WlOheQxRG"
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "light-ward",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shield Your Eyes"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "UF8OcAKvN5GH2t54",
+  "sort": 0,
+  "_key": "!items!UF8OcAKvN5GH2t54"
+}

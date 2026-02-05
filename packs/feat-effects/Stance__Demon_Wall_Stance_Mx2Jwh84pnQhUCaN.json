@@ -1,0 +1,91 @@
+{
+  "img": "systems/pf2e/icons/equipment/shields/specific-shields/spellguard-shield.webp",
+  "name": "Stance: Demon Wall Stance",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.BcOlf0KyyFTnYdry]{Demon Wall Stance}</p><p>You wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield's boss or spikes by one step, and increase the shield's Hardness by 2 when using the Shield Block reaction.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "encounter",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Character Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:hands-held:2"
+        ],
+        "property": "hardness",
+        "value": 2
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "item:hands-held:2",
+          {
+            "or": [
+              "item:base:shield-boss",
+              "item:base:shield-spikes"
+            ]
+          }
+        ],
+        "property": "damage-dice-faces"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "stance-demon-wall-stance",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "JxWw5kOb50AX9d3j",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "Mx2Jwh84pnQhUCaN",
+  "sort": 1300000,
+  "_key": "!items!Mx2Jwh84pnQhUCaN"
+}

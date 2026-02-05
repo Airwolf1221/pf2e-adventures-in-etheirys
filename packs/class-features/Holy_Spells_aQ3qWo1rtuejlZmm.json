@@ -1,0 +1,75 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Enhanced_Reprisal.png",
+  "name": "Holy Spells",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your teachings grant you access to special white magic spells called holy spells, which are a type of focus spell. Choose either @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.f4cSfEhUWNxnF7qF]{Divine Veil} or @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.MCr4QxaQYy3MwNY8]{Spirits Within}.</p><p>It costs 1 Focus Point to cast a focus spell. When you gain your first holy spell, you also gain a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you regain 1 Focus Point by spending 10 minutes using the Refocus activity to reflect upon your teachings.</p><p>Your holy spells are white magic spells. Your spellcasting attribute is Charisma.</p><p>Focus spells are automatically heightened to half your level rounded up. Certain feats give you more focus spells. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but can never be more than 3 points.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "holy-spells",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "26Wa1oNE2BEe6QIS",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Conflux Spells"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "aQ3qWo1rtuejlZmm",
+  "sort": 1000000,
+  "_key": "!items!aQ3qWo1rtuejlZmm"
+}

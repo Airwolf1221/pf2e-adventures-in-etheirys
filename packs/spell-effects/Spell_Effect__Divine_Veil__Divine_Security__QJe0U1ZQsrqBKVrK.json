@@ -1,0 +1,100 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Divine_Veil.png",
+  "name": "Spell Effect: Divine Veil (Divine Security)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.IoX6Np2G2bwLdVFY]{Divine Security}</p><p>You gain a +1 status bonus to AC.</p><hr /><p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.aiYolapE6x4AtQVS]{Greater Divine Security}</p><p>If the paladin's shield is raised, you gain the same bonus to AC their shield grants.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "slug": "shields-of-the-spirit-status",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "key": "RollOption",
+        "label": "Paladin's shield is Raised",
+        "option": "greater-divine-security",
+        "predicate": [
+          "parent:origin:item:tag:greater-divine-security"
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "greater-divine-security"
+        ],
+        "selector": [
+          "ac"
+        ],
+        "slug": "shields-of-the-spirit-shield",
+        "type": "circumstance",
+        "value": "@item.origin.system.attributes.shield.ac"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-divine-veil-divine-security",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "v4vf4L1Kp6KOAldb",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Spell Effect: Shields of the Spirit (Security)"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "QJe0U1ZQsrqBKVrK",
+  "sort": 200000,
+  "_key": "!items!QJe0U1ZQsrqBKVrK"
+}

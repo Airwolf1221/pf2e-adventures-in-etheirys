@@ -1,0 +1,113 @@
+{
+  "folder": "3WNQQ4MwrZvmQJzw",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Spiritual Restoration",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your touch soothes the body or mind. You can cast spirits within targeting a living creature using 2 actions instead of 1. If you do, you can attempt to counteract one condition of your choice affecting the target. When you select this feat, choose one of the following options, which determines the conditions you can choose:</p><ul><li><p><strong>Restoration of the Body</strong> @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened};</p></li><li><p><strong>Restoration of Grace</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed};</p></li><li><p><strong>Restoration of the Mind</strong> @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}.</p></li></ul><hr /><p><strong>Special</strong> You can select this feat up to three times. Each time, choose a different type of restoration and add its options to those you can choose when you cast a 2-action spirits within.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "maxTakable": 3,
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Spirits Within"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "Restoration of the Body",
+            "predicate": [
+              {
+                "not": "spiritual-restoration:body"
+              }
+            ],
+            "value": "body"
+          },
+          {
+            "label": "Restoration of Grace",
+            "predicate": [
+              {
+                "not": "spiritual-restoration:grace"
+              }
+            ],
+            "value": "grace"
+          },
+          {
+            "label": "Restoration of the Mind",
+            "predicate": [
+              {
+                "not": "spiritual-restoration:mind"
+              }
+            ],
+            "value": "mind"
+          }
+        ],
+        "key": "ChoiceSet",
+        "rollOption": "spiritual-restoration"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "spiritual-restoration",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Mercy"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "wN42CBphkUdxOkSv",
+  "sort": 0,
+  "_key": "!items!wN42CBphkUdxOkSv"
+}

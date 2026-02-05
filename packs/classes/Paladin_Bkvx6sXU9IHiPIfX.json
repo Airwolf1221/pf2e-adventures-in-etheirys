@@ -1,0 +1,257 @@
+{
+  "name": "Paladin",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><em>Clad in heavy armor and unimpeachable ideals, you stride onto the battlefield assured in your safety. Using your peerless defenses, you protect those near to you and live to tell the tale.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.WrRmQzoPcGbDtmAf.JournalEntryPage.V7uv471mdjErY3C7]{Paladin}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "paladin",
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "items": {
+      "qbJ4N": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH",
+        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+        "name": "Shield Block",
+        "level": 1
+      },
+      "oBn7H": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 7
+      },
+      "1RyLr": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 11
+      },
+      "Wb02e": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 17
+      },
+      "YwPJS": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.pAWjGdnwprjLWKgQ",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Requiescat_Mastery.png",
+        "name": "Paladin Mastery",
+        "level": 19
+      },
+      "t13Jb": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.bqI1pPb7KGyD2gUW",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Spirits_Within_Mastery.png",
+        "name": "Resolute Warrior",
+        "level": 17
+      },
+      "cP5Hp": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.wm14OOJD9atYzgTx",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Sheltron_Mastery.png",
+        "name": "Armored Legend",
+        "level": 15
+      },
+      "F2DUO": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.bKB0HN3BUuYFwtJc",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Melee_Mastery_II.png",
+        "name": "Swordsmanship Mastery",
+        "level": 13
+      },
+      "T2cVR": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.GZEVpZ7wcyYzLIVe",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Enhanced_Sheltron.png",
+        "name": "Armored Mastery",
+        "level": 11
+      },
+      "PvSZ8": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5QWUezYs6GuekiCa",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Enhanced_Requiescat.png",
+        "name": "Paladin Expertise",
+        "level": 9
+      },
+      "mTloA": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.VTHNgc2eNH1MTBli",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Shield_Lob.png",
+        "name": "Fortified Warrior",
+        "level": 9
+      },
+      "K9L73": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.ogYCX9b4M1DGhJZR",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Melee_Mastery.png",
+        "name": "Swordsmanship Expertise",
+        "level": 5
+      },
+      "kkwD8": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.eAtRD7lALCJD53Qt",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Enhanced_Rampart.png",
+        "name": "Armored Expertise",
+        "level": 5
+      },
+      "zrrRZ": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.FxAeu0cIDLpawkWo",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Tank_Mastery.png",
+        "name": "Paladin's Toughness",
+        "level": 3
+      },
+      "TrpCr": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.J9qkOduujHvgtBAF",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Total_Eclipse.png",
+        "name": "Paladin's Aura",
+        "level": 1
+      },
+      "vKHkE": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.AJbCA5az8GghQKgp",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Oath_Mastery.png",
+        "name": "Paladin Teachings",
+        "level": 1
+      },
+      "akKcW": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.YyLNc5RlqZS3tzDn",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Iron_Will.png",
+        "name": "Iron Will",
+        "level": 1
+      },
+      "UMwdY": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.aQ3qWo1rtuejlZmm",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Enhanced_Reprisal.png",
+        "name": "Holy Spells",
+        "level": 1
+      },
+      "DCYdh": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.KC5PdHSulPzHE5o3",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Bulwark.png",
+        "name": "Holy Armor",
+        "level": 1
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "str"
+      ],
+      "selected": null
+    },
+    "hp": 12,
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 1
+    },
+    "spellcasting": 1,
+    "trainedSkills": {
+      "value": [
+        "religion"
+      ],
+      "additional": 0
+    },
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classes/Paladin.png",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Bkvx6sXU9IHiPIfX",
+  "sort": 0,
+  "_key": "!items!Bkvx6sXU9IHiPIfX"
+}

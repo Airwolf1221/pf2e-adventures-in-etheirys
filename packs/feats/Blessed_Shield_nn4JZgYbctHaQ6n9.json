@@ -1,0 +1,114 @@
+{
+  "folder": "J6cKZALjM1rHQlN3",
+  "name": "Blessed Shield",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your shield's blessings are even greater. The sturdy shield benefits of @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.FxAeu0cIDLpawkWo]{Paladin's Toughness} increase to the following: the shield's Hardness instead increases by 2, its HP is increased by four times your level, and its BT increases by twice your level (for a maximum bonus of 2 additional Hardness, 80 additional HP, and 40 additional BT).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped",
+          {
+            "or": [
+              "item:slug:sturdy-shield-minor",
+              "item:slug:sturdy-shield-lesser",
+              "item:slug:sturdy-shield-moderate",
+              "item:slug:sturdy-shield-greater",
+              "item:slug:sturdy-shield-major",
+              "item:slug:sturdy-shield-supreme"
+            ]
+          }
+        ],
+        "property": "hardness",
+        "value": 2
+      },
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped",
+          {
+            "or": [
+              "item:slug:sturdy-shield-minor",
+              "item:slug:sturdy-shield-lesser",
+              "item:slug:sturdy-shield-moderate",
+              "item:slug:sturdy-shield-greater",
+              "item:slug:sturdy-shield-major",
+              "item:slug:sturdy-shield-supreme"
+            ]
+          }
+        ],
+        "property": "hp-max",
+        "value": "@actor.level * 4"
+      }
+    ],
+    "slug": "blessed-shield",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Paladin's Toughness"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "nn4JZgYbctHaQ6n9",
+  "sort": 0,
+  "_key": "!items!nn4JZgYbctHaQ6n9"
+}

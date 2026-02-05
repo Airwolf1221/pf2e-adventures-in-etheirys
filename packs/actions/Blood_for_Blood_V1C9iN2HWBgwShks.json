@@ -1,0 +1,79 @@
+{
+  "name": "Blood for Blood",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> An enemy in your paladin's aura damages you</p><hr /><p>Bloodshed begets bloodshed, and you aim to punish your foe for their insolence. You increase the amount of damage you take by @Damage[(ternary(gte(@actor.level, 19), 6, ternary(gte(@actor.level, 16), 5, ternary(gte(@actor.level, 12), 4, ternary(gte(@actor.level, 9), 3, ternary(gte(@actor.level, 5), 2, 1))))))d6] of the triggering damage, and you deal @Damage[(ternary(gte(@actor.level, 19), 6, ternary(gte(@actor.level, 16), 5, ternary(gte(@actor.level, 12), 4, ternary(gte(@actor.level, 9), 3, ternary(gte(@actor.level, 5), 2, 1))))))d6[vitality]|options:blood-for-blood:enemy] damage to the triggering enemy. The damage you take and deal with this reaction increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and to 6d6 at 19th level.</p><p>In addition, until the end of your next turn, your Strikes against the triggering creature deal an additional 2 holy damage. This extra damage increases to 4 at 9th level and to 6 at 16th level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "value": [
+          {
+            "text": "The enemy also takes @Damage[@actor.system.abilities.cha.mod[persistent,holy]] damage."
+          }
+        ],
+        "predicate": [
+          "feat:empowered-teachings"
+        ]
+      }
+    ],
+    "slug": "blood-for-blood",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "paladin"
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.AhyNraGizLDoXoub",
+      "name": "Effect: Blood for Blood"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "folder": "zWLpiq5h4r7LSlKh",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "V1C9iN2HWBgwShks",
+  "sort": 700000,
+  "_key": "!items!V1C9iN2HWBgwShks"
+}

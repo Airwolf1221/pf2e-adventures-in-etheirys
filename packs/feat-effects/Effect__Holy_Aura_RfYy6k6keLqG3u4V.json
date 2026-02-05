@@ -1,0 +1,91 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Supplication.png",
+  "name": "Effect: Holy Aura",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.a9t3UABLvvGTzfmb]{Holy Aura}</p><p>You add the holy trait to your Strikes, and your Strikes deal an additional 1 holy damage. This damage increases to 2 if the target of a Strike has the shadow trait.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 12
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "holy"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "value": 1,
+        "damageType": "vitality",
+        "slug": "holy-aura-damage"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "strike-damage",
+        "slug": "holy-aura-damage",
+        "mode": "upgrade",
+        "value": 2,
+        "predicate": [
+          "target:trait:void"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-holy-aura",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "JxWw5kOb50AX9d3j",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "RfYy6k6keLqG3u4V",
+  "sort": 100000,
+  "_key": "!items!RfYy6k6keLqG3u4V"
+}

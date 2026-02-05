@@ -1,0 +1,71 @@
+{
+  "folder": "zWLpiq5h4r7LSlKh",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "name": "Protective Retribution",
+  "system": {
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "description": {
+      "value": "<p><strong>Trigger</strong> An enemy damages an ally, and either is in your paladin's aura</p><hr /><p><strong>Effect</strong> You protect your ally and strike your enemy. The ally gains resistance to all damage against the triggering damage equal to 2 + your level. If the enemy is within reach, make a melee Strike against it.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.B3jJnpKXwRvCne3Q]{Effect: Paladin's Resistance}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "value": [
+          {
+            "text": "The enemy also takes @Damage[@actor.system.abilities.cha.mod[persistent,holy]] damage."
+          }
+        ],
+        "predicate": [
+          "feat:empowered-teachings"
+        ]
+      }
+    ],
+    "traits": {
+      "value": [
+        "divine",
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "protective-retribution",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "deathNote": false
+  },
+  "type": "action",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "YWdCLwG9q0fghbjL",
+  "sort": 200000,
+  "_key": "!items!YWdCLwG9q0fghbjL"
+}

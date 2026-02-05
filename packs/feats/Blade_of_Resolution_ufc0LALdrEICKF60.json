@@ -1,0 +1,98 @@
+{
+  "folder": "EecZKbfvj4XNBeKd",
+  "name": "Blade of Resolution",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in the oath of blades stance</p><hr /><p>You continue a resolute attack. Make another Strike, your multiple attack penalty for this attack becomes –3 for your second attack and –6 for subsequent attacks (rather than –5 and –10).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "disabledIf": [
+          {
+            "not": "self:effect:oath-of-swords"
+          }
+        ],
+        "disabledValue": false,
+        "key": "RollOption",
+        "option": "blade-of-resolution",
+        "toggleable": true
+      },
+      {
+        "key": "MultipleAttackPenalty",
+        "selector": "attack",
+        "value": -3,
+        "predicate": [
+          "blade-of-resolution"
+        ]
+      }
+    ],
+    "slug": "blade-of-resolution",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin",
+        "press"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Defenders' Oaths"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ufc0LALdrEICKF60",
+  "sort": 0,
+  "_key": "!items!ufc0LALdrEICKF60"
+}

@@ -1,0 +1,101 @@
+{
+  "folder": "7k9e2S3JrcEGpF1Y",
+  "name": "Form Adept",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain the benefits of the @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.l4ePrDcwsOf3pTu8]{Deepened Form} samurai class feature for your corresponding form that was chosen at the beginning of this archetype.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.samurai.archetypeFeatCount",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.s4Mh3KBxfToNAzp0",
+        "predicate": [
+          "feature:kendo"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.DXGM90MgLPwyYe62",
+        "predicate": [
+          "feature:ronin"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UNCJrJJRSmAH17K6",
+        "predicate": [
+          "feature:sayado"
+        ]
+      }
+    ],
+    "slug": "form-adept",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Discovery of Form"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "eHhnNY4QUig4rMN9",
+  "sort": 100000,
+  "_key": "!items!eHhnNY4QUig4rMN9"
+}

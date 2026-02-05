@@ -1,0 +1,91 @@
+{
+  "folder": "aJ9rsmb47WDk725y",
+  "name": "Fearless in the Face of Evil",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>While in the oath of blades or oath of shields stance, and when making saving throws against fear effects, you treat a critical failure as a regular failure, and a failure as a success.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "saving-throw",
+        "predicate": [
+          "fear",
+          {
+            "or": [
+              "self:effect:oath-of-blades",
+              "self:effect:oath-of-shields"
+            ]
+          }
+        ],
+        "adjustment": {
+          "failure": "one-degree-better",
+          "criticalFailure": "one-degree-better"
+        }
+      }
+    ],
+    "slug": "fearless-in-the-face-of-evil",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Defenders' Oaths"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "cYRtqqQk6e7bXjJp",
+  "sort": 0,
+  "_key": "!items!cYRtqqQk6e7bXjJp"
+}

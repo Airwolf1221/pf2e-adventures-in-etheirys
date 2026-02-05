@@ -1,0 +1,57 @@
+{
+  "folder": "zWLpiq5h4r7LSlKh",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "name": "Iron Will",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "description": {
+      "value": "<p>You raise your blade and call upon radiant energy, attempting to provoke an enemy to attack you instead of your allies. Even mindless creatures are drawn to your taunts. Choose an enemy within 30 feet to be your provoked enemy. If your provoked enemy takes a hostile action that includes at least one of your allies but doesn't include you, they take a -1 circumstance penalty to their attack rolls and DCs for that action, and they also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of their next turn.</p><p>Your enemy remains provoked until the start of your next turn, and you can have only one Iron Will in effect at a time. Provoking a new enemy ends this effect on any current target.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.sU8QEx8ZhMztw2aW]{Effect: Iron Will}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "concentrate",
+        "paladin",
+        "visual"
+      ],
+      "otherTags": []
+    },
+    "slug": "iron-will",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "deathNote": false
+  },
+  "type": "action",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "zhNSaLTFP5jqE6Lq",
+  "sort": 600000,
+  "_key": "!items!zhNSaLTFP5jqE6Lq"
+}

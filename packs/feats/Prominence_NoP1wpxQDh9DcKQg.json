@@ -1,0 +1,75 @@
+{
+  "folder": "3WNQQ4MwrZvmQJzw",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Prominence",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a shield.</p><hr /><p>You aim to provoke attacks from foes that might otherwise stop your allies from moving. @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise your Shield}, then choose whether to Stride up to half your Speed. This movement triggers enemies' reactions as normal. Each enemy who could have reacted to your movement is unable to react to your allies' movement until the start of your next turn (regardless of whether it chose to react to your movement).</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "prominence",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shielded Attrition"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "NoP1wpxQDh9DcKQg",
+  "sort": 0,
+  "_key": "!items!NoP1wpxQDh9DcKQg"
+}

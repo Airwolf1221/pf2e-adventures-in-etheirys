@@ -1,0 +1,92 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Enhanced_Sheltron.png",
+  "name": "Armored Mastery",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>When clad in steel, you fend off most attacks. Your proficiency rank with heavy armor increases to master. Your proficiency ranks for light and medium armor, as well as unarmored defense increase to expert.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 11
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "armored-mastery",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {
+        "heavy": {
+          "rank": 3,
+          "attribute": null
+        },
+        "light": {
+          "rank": 2,
+          "attribute": null
+        },
+        "medium": {
+          "rank": 2,
+          "attribute": null
+        },
+        "unarmored": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "26Wa1oNE2BEe6QIS",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Conflux Spells"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "GZEVpZ7wcyYzLIVe",
+  "sort": 1500000,
+  "_key": "!items!GZEVpZ7wcyYzLIVe"
+}

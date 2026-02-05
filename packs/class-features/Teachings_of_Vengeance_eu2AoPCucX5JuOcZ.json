@@ -1,0 +1,92 @@
+{
+  "name": "Teachings of Vengeance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your teachings espouse that those who wrong you and your allies - but mostly you - deserve utmost repayment.</p><p><strong>Teaching Skill</strong> Intimidation</p><hr /><p><strong>Teaching Reaction</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.V1C9iN2HWBgwShks]{Blood for Blood}</p><p><strong>Empowered Reaction (12th Feat)</strong> An enemy damaged by the teaching reaction's initial damage also takes persistent holy damage equal to your Charisma modifier. (This applies only to the damage the teaching reaction itself deals, not the damage you deal with subsequent Strikes.)</p><p><strong>Supreme Reaction (14th Feat)</strong> Each enemy in your paladin's aura, other than the triggering creature, takes half the damage you deal to the triggering enemy.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.V1C9iN2HWBgwShks",
+        "predicate": [
+          {
+            "or": [
+              "class:paladin",
+              "feat:teachings-beneficiary"
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "teachings-of-vengeance",
+    "traits": {
+      "otherTags": [
+        "paladin-teaching"
+      ],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Riot_Blade.png",
+  "folder": "9kOcI1BuCS4VxOY2",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "eu2AoPCucX5JuOcZ",
+  "sort": 300000,
+  "_key": "!items!eu2AoPCucX5JuOcZ"
+}

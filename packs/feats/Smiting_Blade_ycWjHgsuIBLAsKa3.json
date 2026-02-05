@@ -1,0 +1,87 @@
+{
+  "folder": "QarnJ6gEqxxxCo1U",
+  "name": "Smiting Blade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You call upon your inner resolve and make a weapon or unarmed Strike against a foe you have witnessed harming an ally or innocent. The Strike deals two extra weapon damage dice if the target of your Strike has the shadow trait. If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.YWdCLwG9q0fghbjL]{Protective Retribution} teaching reaction, the Strike applies all effects that normally apply on a Protective Retribution.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "smiting-blade",
+        "toggleable": true
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "strike-damage"
+        ],
+        "property": "dice-number",
+        "value": 2,
+        "predicate": [
+          "smiting-blade",
+          "target:trait:void"
+        ]
+      }
+    ],
+    "slug": "smiting-blade",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ycWjHgsuIBLAsKa3",
+  "sort": 0,
+  "_key": "!items!ycWjHgsuIBLAsKa3"
+}

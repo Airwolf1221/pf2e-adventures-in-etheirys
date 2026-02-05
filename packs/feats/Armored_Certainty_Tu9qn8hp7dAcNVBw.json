@@ -1,0 +1,79 @@
+{
+  "folder": "EecZKbfvj4XNBeKd",
+  "name": "Armored Certainty",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Even if you're knocked off balance, your armor continues to protect you. You don't take a penalty to AC from the clumsy condition if you're wearing heavy armor. Your clumsy condition still applies to other Dexterity-based checks and DCs, and this benefit is negated if the armor is broken.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "selector": "ac",
+        "slug": "clumsy",
+        "suppress": true,
+        "predicate": [
+          "armor:category:heavy"
+        ]
+      }
+    ],
+    "slug": "armored-certainty",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Tu9qn8hp7dAcNVBw",
+  "sort": 0,
+  "_key": "!items!Tu9qn8hp7dAcNVBw"
+}

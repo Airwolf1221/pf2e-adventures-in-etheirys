@@ -1,0 +1,97 @@
+{
+  "folder": "QarnJ6gEqxxxCo1U",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Holy Aura",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You radiate an aura of pure zeal that imbues your attacks and those of nearby allies with holy power. You and each willing ally within your paladin's aura adds the holy trait to their Strikes.</p><p>Additionally, the Strikes of all affected creatures deal an additional 1 holy damage. This damage increases to 2 if the target of a Strike has the shadow trait.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Paladin's Aura"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "predicate": [
+          "paladins-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ],
+        "radius": "@actor.flags.pf2e.paladin.aura",
+        "slug": "champions-aura",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.RfYy6k6keLqG3u4V",
+            "affects": "allies"
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "holy-aura",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Aura of Faith"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "a9t3UABLvvGTzfmb",
+  "sort": 0,
+  "_key": "!items!a9t3UABLvvGTzfmb"
+}

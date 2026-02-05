@@ -26,9 +26,7 @@
           "item:slug:hakaze"
         ],
         "property": "traits",
-        "value": [
-          "combo"
-        ]
+        "value": "combo"
       }
     ],
     "slug": "awakened-kendo",

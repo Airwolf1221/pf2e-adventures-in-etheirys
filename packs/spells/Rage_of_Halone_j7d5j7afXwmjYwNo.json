@@ -1,0 +1,126 @@
+{
+  "folder": "deLa7uHuiSVe7Ysh",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Rage_of_Halone.png",
+  "name": "Rage of Halone",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You fire a ray of freezing light from your weapon. You must be wielding a sword or spear to cast rage of halone. Make a spell attack roll. The ray deals 1d6 ice damage. If the target has the shadow trait, the ray deals an additional 1d6 holy damage.</p><hr /><p><strong>Critical Success</strong> The ray deals double damage.</p><p><strong>Success</strong> The ray deals full damage.</p><hr /><p><strong>Heightened (+1)</strong> The normal damage and damage to shadow creatures both increase by 1d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "spell-damage",
+        "predicate": [
+          "item:tag:rage-of-halone",
+          "target:trait:void"
+        ],
+        "diceNumber": "@spell.level - 1",
+        "dieSize": "d6",
+        "damageType": "vitality",
+        "label": "Rage of Halone (vs Shadow)"
+      }
+    ],
+    "slug": "rage-of-halone",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cold",
+        "concentrate",
+        "focus",
+        "light",
+        "manipulate",
+        "paladin"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "MfaVkzxKwJfn4CfI": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "cold",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "MfaVkzxKwJfn4CfI": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shields of the Spirit"
+    }
+  },
+  "_id": "j7d5j7afXwmjYwNo",
+  "sort": 50000,
+  "_key": "!items!j7d5j7afXwmjYwNo"
+}

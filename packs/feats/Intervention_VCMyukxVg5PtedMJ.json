@@ -1,0 +1,79 @@
+{
+  "folder": "EecZKbfvj4XNBeKd",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Intervention",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>When saving your allies from harm, you push them behind you to better protect them. When you use @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.CQlySU8JRBTsXMvK]{Cover} to protect an ally, you can move that ally up to 10 feet if they’re willing. You can’t move the ally to a position outside your reach, you can’t move them into or through obstacles, and you must move them farther away from the source of the attack if possible. This movement doesn’t trigger reactions.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cover"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "intervention",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Get Behind Me!"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "VCMyukxVg5PtedMJ",
+  "sort": 0,
+  "_key": "!items!VCMyukxVg5PtedMJ"
+}

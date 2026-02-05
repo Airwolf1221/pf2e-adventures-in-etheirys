@@ -1,0 +1,103 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Total_Eclipse.png",
+  "name": "Paladin's Aura",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You're surrounded by an aura in a 15-foot emanation. It has the aura trait. This aura is used as the range for your cover reaction and for various other effects. You can suppress or resume the aura as a single action, which has the concentrate trait, and it ends if you fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. Additionally, you gain the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.CQlySU8JRBTsXMvK]{Cover} reaction.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "paladins-aura",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.paladin.aura",
+        "value": 15
+      },
+      {
+        "key": "Aura",
+        "predicate": [
+          "paladins-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ],
+        "radius": "@actor.flags.pf2e.paladin.aura",
+        "slug": "champions-aura"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.CQlySU8JRBTsXMvK"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "champion"
+      ],
+      "otherTags": []
+    },
+    "slug": "paladins-aura",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "26Wa1oNE2BEe6QIS",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Champion's Aura"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "J9qkOduujHvgtBAF",
+  "sort": 600000,
+  "_key": "!items!J9qkOduujHvgtBAF"
+}

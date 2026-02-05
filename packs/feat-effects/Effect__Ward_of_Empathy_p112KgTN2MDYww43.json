@@ -1,0 +1,93 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Tank_Mastery.png",
+  "name": "Effect: Ward of Empathy",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.TsKdoMETEVcpddJd]{Ward of Empathy}</p><p>You gain a +2 circumstance bonus to your AC, or increase your sihled's AC bonus by 1 if you have a raised shield.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "encounter",
+      "value": -1
+    },
+    "level": {
+      "value": 8
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": 2,
+        "predicate": [
+          {
+            "not": "self:effect:raise-a-shield"
+          },
+          "origin:effect:oath-of-shields"
+        ],
+        "type": "circumstance",
+        "hideIfDisabled": true
+      },
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped",
+          "self:effect:raise-a-shield",
+          "origin:effect:oath-of-shields"
+        ],
+        "property": "ac-bonus",
+        "value": 1
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-ward-of-empathy",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "JxWw5kOb50AX9d3j",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "p112KgTN2MDYww43",
+  "sort": 800000,
+  "_key": "!items!p112KgTN2MDYww43"
+}

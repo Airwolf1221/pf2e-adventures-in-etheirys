@@ -28,9 +28,9 @@
                 "Name": "Complete Crafting Overhaul Integration",
                 "Hint": "Provide integration to my Complete Crafting Overhaul (CCO) module."
             },
-            "BlessingFeats": {
-                "Name": "Add Blessing Feat Slots",
-                "Hint": "Provide distinct feat slots for the mythic Blessing feats."
+            "Mythic": {
+                "Name": "Enable Mythic Overhaul",
+                "Hint": "Enable the mythic functionality, including mythic rerolls, the blessing of light slots, and limit break automation."
             }
         },
         "Mythic": {
@@ -68,6 +68,7 @@
             }
         },
         "Identifiers": {
+            "MythicBlessing": "Mythic Blessing",
             "DamageTypes": {
                 "Earth": "Earth",
                 "Water": "Water",
@@ -503,8 +504,7 @@
                 "Petrify": "Petrify",
                 "RaiseDead": "Raise Dead",
                 "Teleport": "Teleport",
-                "UnexpectedTransposition": "Unexpected Transposition",
-                "ZealousConviction": "Zealous Conviction"
+                "UnexpectedTransposition": "Unexpected Transposition"
             },
             "7th": {
                 "BeheadingBuzzSaw": "Beheading Buzz Saw",

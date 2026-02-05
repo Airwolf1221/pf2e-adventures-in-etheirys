@@ -1,0 +1,80 @@
+{
+  "folder": "3WNQQ4MwrZvmQJzw",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Demon Wall Strike",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a shield in two hands.</p>\n<hr />\n<p>Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise your Shield}.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Demon Wall Stance"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Character Guide",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "paladin",
+        "press"
+      ],
+      "otherTags": []
+    },
+    "slug": "demon-wall-strike",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Everstand Strike"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "u2o5SDnP0nhMr6YI",
+  "sort": 0,
+  "_key": "!items!u2o5SDnP0nhMr6YI"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "deLa7uHuiSVe7Ysh",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Blade_of_Faith.png",
+  "name": "Oaths Manifested",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are in the oath of blades or oath of shields stance.</p><hr /><p>You channel and then manifest another aspect of your oath, gaining a benefit based on your current stance. This spell ends when you are no longer in either stance or after 1 minute, whichever occurs first.</p><ul><li><p><strong>Oath of Blades</strong> You gain a +1 status bonus to attack rolls, which increases to +2 against creatures with the shadow trait.</p></li><li><p><strong>Oath of Shields</strong> You gain resistance 3 to physical and shadow damage, this is in addition to your holy armor resistance.</p></li></ul><p>@UUID[Compendium.pf2e-adventures-in-etheirys.spell-effects.Item.KWZrivSJ8hZNYOss]{Spell Effect: Oaths Manifested}</p><hr /><p><strong>Heightened (+2)</strong> The resistance from oath of shields increases by 2.</p><p><strong>Heightened (6th)</strong> The status bonus from oath of blades increases to +2, or +3 against shadow creatures.</p>"
+    },
+    "rules": [],
+    "slug": "oaths-manifested",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate",
+        "paladin"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "You are in the oath of blades or oath of shields stance.",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": [],
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shields of the Spirit"
+    }
+  },
+  "_id": "jmkzjECWr40ZzH42",
+  "sort": 0,
+  "_key": "!items!jmkzjECWr40ZzH42"
+}

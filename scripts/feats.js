@@ -1,7 +1,50 @@
-import { MODULE_NAME } from "./constants.js";
+const featTraits = {
+    // Paladn Class Features/Feats
+    'Shield Block': ['paladin'],
+    'Reflex Expertise': ['paladin'],
+    'Agile Shield Grip': ['paladin'],
+    'Reactive Shield': ['paladin'],
+    'Devoted Guardian': ['paladin'],
+    'Reliable Squire': ['paladin'],
+    'Knock Sense': ['paladin'],
+    'Reflexive Shield': ['paladin'],
+    'Shield Warden': ['paladin'],
+    'Impassable Wall Stance': ['paladin'],
+    'Quick Shield Block': ['paladin'],
+    'Shield of Grace': ['paladin'],
+    'Perfect Protection': ['paladin'],
+    // Samurai Class Features/Feats
+    'Bravery': ['samurai'],
+    'Armor Expertise': ['samurai'],
+    'Evasion': ['samurai'],
+    'Armor Mastery': ['samurai'],
+    'Juggernaut': ['samurai'],
+    'Lunge': ['dragoon', 'samurai'],
+    'Quick Reversal': ['samurai'],
+    'Two-Weapon Flurry': ['samurai'],
+    'Impossible Flurry': ['samurai'],
+    // Shared Class Features/Feats
+    'Determination': ['paladin','samurai'],
+    'Weapon Specialization': ['paladin','samurai'],
+    'Greater Weapon Specialization': ['paladin','samurai'],
+    'Intimidating Strike': ['dragoon','samurai','warrior'],
+    'Whirlwind Strike': ['dragoon','reaper','samurai','warrior'],
+    'Reactive Strike': ['paladin'],
+    'Savage Critical': ['dragoon','samurai']
+};
 
-export const hardcodedFeats = {
-    /*"Compendium.pf2e.equipment-srd.Item.Xnqglykl3Cif8rN9": { // Lesser Blasting Stone (FF conversion)
+function assignClassTraits(original, translation, data) {
+    if (!featTraits[data.name]) {
+        if (translation) return translation;
+        else return original;
+    }
+
+    const finalArray = original.concat(featTraits[data.name]);
+    return finalArray;
+}
+
+/*const hardcodedFeats = {
+    "Compendium.pf2e.equipment-srd.Item.Xnqglykl3Cif8rN9": { // Lesser Blasting Stone (FF conversion)
         check: (item) => {
             return true;
         },
@@ -32,101 +75,27 @@ export const hardcodedFeats = {
         translationRequired: true,
         deleteOldTraits: true,
         newTraits: ["alchemical","bomb","consumable","splash","wind"]
-    }*/
-}
+    }
+};*/
 
-const elementalTraits = [
-    "air",
-    "cold",
-    "earth",
-    "electricity",
-    "fire",
-    "water"
-]
+// Hardcode in notable feat rules for existing items
+/*Hooks.on("createItem", async (item) => {
+    const sourceId = item.sourceId ?? "";
 
-export async function convertSpellDamage(spell) {
-    const itemType = spell.type ?? null;
-    if (itemType === null || itemType != "spell") return;
-    const spellTraits = spell.system.traits.value;
-    let elementKey, elementCount = 1;
-    for (const key of spellTraits.keys()) {
-        if(elementalTraits.includes(spellTraits[key])) {
-            if (elementKey) elementCount++;
-            elementKey = spellTraits[key];
-        }
-    }
-    if (!elementKey) {
-        await replaceDamageType(spell, "wind-ff", "sonic");
-        return;
-    }
-    if (elementKey === "wind" || elementKey === "earth" || elementKey === "water") {
-        elementKey = elementKey + "-ff";
-    }
-    if (elementCount > 1) {
-        if (spellTraits.includes("air")) elementCount--;
-        if (elementCount > 1) {
-            console.log(`Spell has more than one elemental trait! It has ${elementCount} in total. Skipping the spell!`);
-            return;
-        }
-    }
-    let damageTypesReplaced = await replaceDamageType(spell, elementKey);
-}
-
-async function replaceDamageType(spell, newDamageType, filterDamageType = null) {
-    let existingSpellDmg = spell.system.damage, damageTypesReplaced = 0;
-    // Parse Basic Damage
-    for (const spellDamage in existingSpellDmg) {
-        const damageType = existingSpellDmg[spellDamage].type;
-        if (!filterDamageType || damageType === filterDamageType) {
-            if (damageType === newDamageType) {
-                continue;
-            } else {
-                existingSpellDmg[spellDamage].type = newDamageType;
-                damageTypesReplaced++;
+    if (sourceId in hardcodedFeats) {
+        if (hardcodedFeats[sourceId].check(item)) {
+            if(hardcodedFeats[sourceId.newREs]) {
+            const keepOldREs = hardcodedFeats[sourceId].deleteOldREs ? [] : item.system.rules;
+            await item.update({ "system.rules": keepOldREs.concat(hardcodedFeats[sourceId].newREs)});
             }
-        } else {
-            continue;
-        }
-    }
-    // Parse Heightening
-    let existingSpellHeightened = spell.system.heightening?.levels ?? null;
-    if (!existingSpellHeightened) return damageTypesReplaced;
-    for (const heightenedRank in existingSpellHeightened) {
-        for (const rankDamage in existingSpellHeightened[heightenedRank].damage) {
-            const damageType = existingSpellHeightened[heightenedRank].damage[rankDamage].type;
-            if (!filterDamageType || damageType === filterDamageType) {
-                if (damageType === newDamageType) {
-                    continue;
-                } else {
-                    existingSpellHeightened[heightenedRank].damage[rankDamage].type = newDamageType;
-                    damageTypesReplaced++;
-                }
-            } else {
-                continue;
+            if(hardcodedFeats[sourceId.newTraits]) {
+                const replaceTraits = hardcodedFeats[sourceId].deleteOldTraits? [] : item.system.traits.value;
+                await item.update({ "system.traits.value": replaceTraits.concat(hardcodedFeats[sourceId].newTraits)});
             }
         }
     }
-    return damageTypesReplaced;
-}
+});*/
 
-export async function blessingFeats() {
-    const blessingFeats = game.settings.get(MODULE_NAME, "blessingFeats");
-    if (blessingFeats) {
-        const campaignFeatSections = game.settings.get("pf2e", "campaignFeatSections",);
-        if (!campaignFeatSections.find((section) => section.id === "blessingFeats")) {
-            campaignFeatSections.push({
-                id: "blessingFeats",
-                label: "Blessing of Light Feats",
-                supported: ["blessing"],
-                slots: [1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20],
-            })
-        }
-        await game.settings.set("pf2e", "campaignFeatSections", campaignFeatSections);
-    }
-    const campaignFeatSections = game.settings.get("pf2e", "campaignFeatSections",);
-
-    if (campaignFeatSections && !blessingFeats && campaignFeatSections.find((section) => section.id === "blessingFeats")) {
-        campaignFeatSections.splice(campaignFeatSections.findIndex((section) => section.id === "blessingFeats"));
-        await game.settings.set("pf2e", "campaignFeatSections", campaignFeatSections);
-    }
+export let featHandler = {
+    'assignClassTraits': assignClassTraits
 }

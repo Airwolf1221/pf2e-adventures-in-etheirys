@@ -1,0 +1,81 @@
+{
+  "name": "Justiciar's Command",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> An enemy damages you or an ally, and either is in your paladin's aura</p><hr /><p>You inflict justice upon the enemy who dared to harm you or your ally. You demand that your foe kneel before you to face judgement for their slight. If they dare refuse, they will feel the wrath of justice. The enemy must choose one of the following options.</p><ul><li><p><strong>Kneel</strong> The enemy drops @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} as a free action.</p></li><li><p><strong>Refuse</strong> You deal @Damage[(ternary(gte(@actor.level, 19), 6, ternary(gte(@actor.level, 16), 5, ternary(gte(@actor.level, 12), 4, ternary(gte(@actor.level, 9), 3, ternary(gte(@actor.level, 5), 2, 1))))))d6[vitality]] damage to the enemy. This damage increases to 2d6 at 5th level, 3d6 at 9th level, 4d6 at 12th level, 5d6 at 16th level, and to 6d6 at 19th level.</p></li></ul><p>Regardless of which option the enemy chose, your Strikes against it deal an additional 1 holy damage until the end of your next turn. This extra damage increases to 2 at 9th level and to 3 at 16th level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "value": [
+          {
+            "text": "The enemy also takes @Damage[@actor.system.abilities.cha.mod[persistent,holy]] damage if it refuses."
+          }
+        ],
+        "predicate": [
+          "feat:empowered-teachings"
+        ]
+      }
+    ],
+    "slug": "justiciars-command",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "emotion",
+        "mental",
+        "paladin"
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.HIpIz7Vj3cekSfdj",
+      "name": "Effect: Justiciar's Command"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "folder": "zWLpiq5h4r7LSlKh",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "fmWkarho9YG2ikPT",
+  "sort": 300000,
+  "_key": "!items!fmWkarho9YG2ikPT"
+}

@@ -1,0 +1,97 @@
+{
+  "folder": "aJ9rsmb47WDk725y",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Aura of Determination (Paladin)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your aura protects against powers that would twist the mind and body. You and all allies in your paladin's aura gain a +1 status bonus to saving throws against mental, morph, and polymorph effects.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Paladin's Aura"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "predicate": [
+          "paladins-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ],
+        "radius": "@actor.flags.pf2e.paladin.aura",
+        "slug": "champions-aura",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.EuCjOlfMQlFnGqnn",
+            "affects": "allies"
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "aura-of-determination-paladin",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Aura of Determination"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "r6PowHY6xBgvmyet",
+  "sort": 0,
+  "_key": "!items!r6PowHY6xBgvmyet"
+}

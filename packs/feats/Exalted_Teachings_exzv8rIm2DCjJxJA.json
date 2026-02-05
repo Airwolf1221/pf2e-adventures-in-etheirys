@@ -1,0 +1,73 @@
+{
+  "folder": "CUXKq2RNpD2ltD33",
+  "name": "Exalted Teachings",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've reached a truly incredible level of power, and improve your supreme reaction benefits with the benefit listed for your teaching.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.eu2AoPCucX5JuOcZ]{Teachings of Vengeance} The damage dealt to enemies other than the triggering creatures increases by an amount equal to the damage dice of Blood for Blood (apply this after you halve the damage).</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.p8IuayN7tEBBZ0gT]{Teachings of Retribution} The penalty is –2 instead of –5.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.3J1kINUXmez9iEhv]{Teachings of Justice} The damage dealt to creatures other than the triggering creature who refuse to drop prone increases to half the damage the triggering creature would take (roll the damage only once for all affected creatures).</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.jR16lvyWiBJ2wAwm]{Teachings of Liberation} You and all affected allies can attempt to break free, not just the triggering ally.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.bCnGQELQTDiTIBWO]{Supreme Clemency} feat, you get the following benefit: Instead of applying to all allies within 5 feet of the target, you can have the Hit Points that are restored apply to all allies within your paladin's aura.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "exalted-teachings",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Supreme Teachings"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "exzv8rIm2DCjJxJA",
+  "sort": 0,
+  "_key": "!items!exzv8rIm2DCjJxJA"
+}

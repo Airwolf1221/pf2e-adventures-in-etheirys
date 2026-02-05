@@ -1,0 +1,81 @@
+{
+  "folder": "CUXKq2RNpD2ltD33",
+  "name": "Hallowed Ground",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> A Strike or spell would reduce you to 0 hit points.</p><p><strong>Requirements</strong> You had at least one hit point before the triggering damage.</p><hr /><p>Your devotion to helping others keeps you going, even against insurmountable odds. Instead of being knocked out, negate the damage, gain resistance to all damage equal to twice your level until the beginning of your next turn. You do not increase your wounded value. Until the start of your next turn, the next source of healing that affects you heals for its maximum healing value.</p><p>At 20th level, instead of gaining resistance to all damage, you gain immunity to all damage until the beginning of your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "hallowed-ground",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.U27kNtF3wm9VYdAi",
+      "name": "Effect: Hallowed Ground"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "sfynV8DudliYF0EP",
+  "sort": 0,
+  "_key": "!items!sfynV8DudliYF0EP"
+}

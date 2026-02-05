@@ -1,0 +1,75 @@
+{
+  "folder": "3WNQQ4MwrZvmQJzw",
+  "name": "Mighty Resolve",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in the oath of blades or oath of shields stance</p><hr /><p>You attemt to inspire your allies to fight on. Make a @Check[Diplomacy] check to counteract a fear effect afflicting you or an ally inside your paladin's aura. Regardless of outcome, you cannot attempt to Counteract this effect this way again for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "mighty-resolve",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "paladin",
+        "visual"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Defenders' Oaths"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "HtaP0PbqYH3gxJfj",
+  "sort": 0,
+  "_key": "!items!HtaP0PbqYH3gxJfj"
+}

@@ -1,0 +1,86 @@
+{
+  "folder": "7uhLf2XRtLhJ8fgp",
+  "name": "Defenders' Oaths",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have sworn an oath to protect and support your allies, which requires you to both defend them but also take aggressive actions. You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.lczkHT2svCEpGYaV]{Oath of Blades} and @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D1B0CJtMuz6w4uxy]{Oath of Shields} actions, which allow you to take stances based on your swordplay and shield handling. Additionally, you gain the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.Rpyad07uGnGakwlG]{Oath Shift} action, which allows you to more fluidly swap your oaths in the midst of battle.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.lczkHT2svCEpGYaV"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.D1B0CJtMuz6w4uxy"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.Rpyad07uGnGakwlG"
+      }
+    ],
+    "slug": "defenders-oaths",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Holy Spells"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "7xbOD5VutKdFnKqN",
+  "sort": 0,
+  "_key": "!items!7xbOD5VutKdFnKqN"
+}

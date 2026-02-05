@@ -1,0 +1,92 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Bulwark.png",
+  "name": "Holy Armor",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Even when you are struck, your armor protects you from some harm. While wearing heavy armor, you gain resistance to physical damage equal to 1 + half your level, as well as resistance to @Localize[PF2E.TraitVoid] damage equal to 1 + your level. In addition, you can rest normally while wearing medium and heavy armor.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy"
+        ],
+        "type": "physical",
+        "value": "1 + floor(@actor.level / 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy"
+        ],
+        "type": "void",
+        "value": "1 + @actor.level"
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "holy-armor",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "26Wa1oNE2BEe6QIS",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Guardian's Armor"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "KC5PdHSulPzHE5o3",
+  "sort": 800000,
+  "_key": "!items!KC5PdHSulPzHE5o3"
+}

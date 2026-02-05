@@ -1,0 +1,73 @@
+{
+  "folder": "hr4u2NopRUNGAIYV",
+  "name": "Advanced Luminous Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You learn the @UUID[Compendium.pf2e-adventures-in-etheirys.spells.Item.XnAMy4DVNntABhH4]{Litany Against Wrath} holy spell, and if you have the initial domain spell for the duty, family, healing, might, protection, or sun domains, you learn the advanced domain spell for one of those domains as a holy spell.</p><hr /><p><strong>Special</strong> You can take this feat more than once, choosing a different domain spell each time to learn as a holy spell.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "advanced-luminous-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Luminous Magic"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "hpLwXliRYsTZRfeC",
+  "sort": 0,
+  "_key": "!items!hpLwXliRYsTZRfeC"
+}

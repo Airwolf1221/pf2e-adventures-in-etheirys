@@ -1,0 +1,92 @@
+{
+  "name": "Teachings of Justice",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your teachings espouse that the justice of society is of utmost value and is a powerful virtue indeed, and one worth protecting.</p><p><strong>Teaching Skill</strong> Diplomacy</p><hr /><p><strong>Teaching Reaction</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.fmWkarho9YG2ikPT]{Justiciar's Command}</p><p><strong>Empowered Reaction (12th Feat)</strong> If the enemy refuses, it takes persistent holy damage equal to your Charisma modifier.</p><p><strong>Supreme Reaction (14th Feat)</strong> Each enemy in your paladin's aura other than the triggering creature must also either drop prone or take holy damage (each enemy chooses). These creatures take only minimum damage (typically 3 damage at 11th level, 4 at 12th, 5 at 16th, and 6 at 19th), and the effects they take can't be adjusted by anything that changes your Justiciar's Command.</p><p>For instance, the Justiciar Repercussions feat couldn't turn the damage into persistent holy damage for creatures other than the triggering creature.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.fmWkarho9YG2ikPT",
+        "predicate": [
+          {
+            "or": [
+              "class:paladin",
+              "feat:teachings-beneficiary"
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      }
+    ],
+    "slug": "teachings-of-justice",
+    "traits": {
+      "otherTags": [
+        "paladin-teaching"
+      ],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Circle_of_Scorn.png",
+  "folder": "9kOcI1BuCS4VxOY2",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "3J1kINUXmez9iEhv",
+  "sort": 100000,
+  "_key": "!items!3J1kINUXmez9iEhv"
+}

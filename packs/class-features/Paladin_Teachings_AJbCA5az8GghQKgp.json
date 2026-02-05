@@ -1,0 +1,91 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Oath_Mastery.png",
+  "name": "Paladin Teachings",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>All paladins follow a certain set of teachings, that grant them special benefits. Your teachings grant you a skill, as well as a teaching reaction that can be used with your aura in addition to Cover.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.3J1kINUXmez9iEhv]{Teachings of Justice}</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.jR16lvyWiBJ2wAwm]{Teachings of Liberation}</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.p8IuayN7tEBBZ0gT]{Teachings of Retribution}</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.eu2AoPCucX5JuOcZ]{Teachings of Vengeance}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:paladin-teaching"
+          ]
+        },
+        "flag": "teaching",
+        "key": "ChoiceSet",
+        "prompt": "Select a paladin teaching"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.teaching}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "paladin-teachings",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "26Wa1oNE2BEe6QIS",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Conflux Spells"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "AJbCA5az8GghQKgp",
+  "sort": 700000,
+  "_key": "!items!AJbCA5az8GghQKgp"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "7uhLf2XRtLhJ8fgp",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Demon Wall Stance",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a shield.</p>\n<hr />\n<p>You brace your shield with both hands, enhancing its potential for both offense and defense. When in this stance, you wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield's boss or spikes by one step, and increase the shield's Hardness by 2 when using the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Character Guide",
+      "authors": ""
+    },
+    "rules": [],
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Mx2Jwh84pnQhUCaN",
+      "name": "Stance: Demon Wall Stance"
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin",
+        "stance"
+      ],
+      "otherTags": []
+    },
+    "slug": "demon-wall-stance",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Everstand Stance"
+    },
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "BcOlf0KyyFTnYdry",
+  "sort": 0,
+  "_key": "!items!BcOlf0KyyFTnYdry"
+}

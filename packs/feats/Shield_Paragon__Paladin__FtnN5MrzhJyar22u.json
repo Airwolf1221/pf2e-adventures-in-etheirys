@@ -1,0 +1,75 @@
+{
+  "folder": "MHnNTr0N7KmXh0LL",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Shield Paragon (Paladin)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your shield is a vessel of divine protection. When you're wielding your chosen shield, it is always raised, even without you using the Raise a Shield action.</p><p>If the shield would be destroyed, it vanishes to the aetherial sea instead, where it is repaired. During your next daily preparations, the shield returns to you fully repaired. While the shield is gone, you can spend 1 minute to infuse a different shield with the benefits of your preferred shield until your true shield returns.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 20
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "shield-paragon-paladin",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Shield Paragon"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "FtnN5MrzhJyar22u",
+  "sort": 0,
+  "_key": "!items!FtnN5MrzhJyar22u"
+}

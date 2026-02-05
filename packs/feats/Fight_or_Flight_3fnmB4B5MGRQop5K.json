@@ -1,0 +1,83 @@
+{
+  "folder": "J6cKZALjM1rHQlN3",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Fight or Flight",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your blade shares your fanaticism to keep the world in balance. Designate one enemy you can see. Until the start of your next turn, your Strikes against that enemy gain a +3 status bonus to damage, increasing to +4 if you have master proficiency with the weapon or unarmed attack you're using for the Strike. If the target has the shadow trait, the bonus is +4 (or +6 if you're a master).</p><p>If the target takes a hostile action against you or one of your allies before the start of your next turn, the duration extends to the end of that enemy's next turn. If the enemy continues to attack you each turn, the duration continues to extend.</p><p>Your current Fight or Flight ends if you use the Fight or Flight action again.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.npdIAN1ZbM7x4zc4",
+      "name": "Effect: Fight or Flight"
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "concentrate",
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "fight-or-flight",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Smite"
+    },
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "3fnmB4B5MGRQop5K",
+  "sort": 0,
+  "_key": "!items!3fnmB4B5MGRQop5K"
+}

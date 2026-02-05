@@ -1,0 +1,92 @@
+{
+  "folder": "MHnNTr0N7KmXh0LL",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Guardian",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Thanks to your holy blessings, almost nothing can stop you. While you are wearing heavy armor, the resistance you receive from holy armor increases to 6 + half your level for physical damage, and 6 + your level for shadow damage.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 20
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy"
+        ],
+        "type": "physical",
+        "value": "6 + floor(@actor.level / 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy"
+        ],
+        "type": "void",
+        "value": "6 + @actor.level"
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "guardian",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Unyielding Force"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "8NQd4arEDfZklXbq",
+  "sort": 0,
+  "_key": "!items!8NQd4arEDfZklXbq"
+}

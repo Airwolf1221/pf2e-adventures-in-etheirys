@@ -1,0 +1,119 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Fight_or_Flight.png",
+  "name": "Effect: Fight or Flight",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.3fnmB4B5MGRQop5K]{Fight or Flight}</p><p>Designate one enemy you can see. Until the start of your next turn, your Strikes against that enemy gain a +3 status bonus to damage, increasing to +4 if you have master proficiency with the weapon or unarmed attack you're using for the Strike. If you're holy or unholy and the target has the opposite trait, the bonus is +4 (or +6 if you're a master).</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 6
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "fight-or-flight",
+        "uuid": ""
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "target:mark:fight-or-flight"
+        ],
+        "selector": [
+          "strike-damage"
+        ],
+        "slug": "smite",
+        "type": "status",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:void",
+              {
+                "gte": [
+                  "item:proficiency:rank",
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "fight-or-flight",
+        "value": 4
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              3
+            ]
+          },
+          "target:trait:void"
+        ],
+        "selector": "strike-damage",
+        "slug": "fight-or-flight",
+        "value": 6
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-fight-or-flight",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "JxWw5kOb50AX9d3j",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "npdIAN1ZbM7x4zc4",
+  "sort": 900000,
+  "_key": "!items!npdIAN1ZbM7x4zc4"
+}

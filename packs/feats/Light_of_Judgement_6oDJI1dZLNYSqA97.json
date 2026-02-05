@@ -1,0 +1,129 @@
+{
+  "folder": "J6cKZALjM1rHQlN3",
+  "name": "Light of Judgement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your light manifests into pure radiant energy. When entering the oath of blades stance, you can choose to turn the bonus damage to turn into holy sanctified spirit damage. Additionally, while in oath of shields stance, you gain resistance to unholy sanctified spirit damage damage equal to half your level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "disabledIf": [
+          {
+            "not": "self:effect:oath-of-swords"
+          }
+        ],
+        "disabledValue": false,
+        "key": "RollOption",
+        "option": "light-of-judgement",
+        "label": "Sanctified Oath of Blades",
+        "toggleable": true
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "strike-damage",
+        "slug": "oath-of-blades-damage",
+        "damageType": "spirit",
+        "mode": "override",
+        "predicate": [
+          "light-of-judgement"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "spell-damage",
+        "slug": "oath-of-blades-damage",
+        "damageType": "spirit",
+        "mode": "override",
+        "predicate": [
+          "light-of-judgement"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "custom",
+        "value": "floor(@actor.level /2)",
+        "label": "Unholy Spirit Damage",
+        "definition": [
+          "damage:type:spirit",
+          {
+            "or": [
+              "item:trait:unholy",
+              "origin:trait:unholy"
+            ]
+          }
+        ],
+        "predicate": [
+          "self:effect:oath-of-shields"
+        ]
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "vitality"
+        ],
+        "predicate": [
+          "light-of-judgement"
+        ]
+      }
+    ],
+    "slug": "light-of-judgement",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "6oDJI1dZLNYSqA97",
+  "sort": 0,
+  "_key": "!items!6oDJI1dZLNYSqA97"
+}

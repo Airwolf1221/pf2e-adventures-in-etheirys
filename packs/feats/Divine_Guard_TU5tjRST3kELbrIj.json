@@ -1,0 +1,92 @@
+{
+  "folder": "QarnJ6gEqxxxCo1U",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Divine Guard",
+  "system": {
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Trigger</strong> You enter a stance</p><p><strong>Requirements</strong> You are wielding a shield</p><hr /><p>Once you've had a moment to set your stance, you always have your shield ready without a thought. While you are in the triggering stance, you constantly have your shield raised as if you'd used the @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} action, as long as you meet that action's requirements.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "divine-guard",
+        "toggleable": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.raised",
+        "predicate": [
+          "self:shield:equipped",
+          "divine-guard"
+        ],
+        "value": true
+      }
+    ],
+    "selfEffect": null,
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "divine-guard",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Paragon's Guard"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "TU5tjRST3kELbrIj",
+  "sort": 0,
+  "_key": "!items!TU5tjRST3kELbrIj"
+}

@@ -1,0 +1,103 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Traits/Tank_Mastery.png",
+  "name": "Paladin's Toughness",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your shield and armor work in concert to ensure that you are protected from all harm, and that even if you fall, you take longer to die. You gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} general feat. If you already have the Diehard feat, you can retrain it when you get Paladin's Toughness.</p><p>Additionally, in your hands, a shield gains the @UUID[Compendium.pf2e.equipment-srd.Item.x9SNVpAAnXKJeoqp]{@Localize[PF2E.Item.Shield.Rune.Reinforcing.Minor]} rune. As you go up in level, the shield gets the @Localize[PF2E.Item.Shield.Rune.Reinforcing.Label] of your level (@Localize[PF2E.Item.Shield.Rune.Reinforcing.Lesser] at 7th level, @Localize[PF2E.Item.Shield.Rune.Reinforcing.Moderate] at 10th level, @Localize[PF2E.Item.Shield.Rune.Reinforcing.Greater] at 13th level, @Localize[PF2E.Item.Shield.Rune.Reinforcing.Major] at 16th level, and @Localize[PF2E.Item.Shield.Rune.Reinforcing.Supreme] at 19th level). If your shield already has the appropriate @Localize[PF2E.Item.Shield.Rune.Reinforcing.Label] for your level, or if it's a @UUID[Compendium.pf2e.equipment-srd.Item.f9ygr5Cjrmop8LWV]{Sturdy Shield} of the same level as the appropriate @Localize[PF2E.Item.Shield.Rune.Reinforcing.Label], the shield's Hardness instead increases by 1.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg"
+      },
+      {
+        "itemType": "shield",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped",
+          {
+            "or": [
+              "item:slug:sturdy-shield-minor",
+              "item:slug:sturdy-shield-lesser",
+              "item:slug:sturdy-shield-moderate",
+              "item:slug:sturdy-shield-greater",
+              "item:slug:sturdy-shield-major",
+              "item:slug:sturdy-shield-supreme"
+            ]
+          },
+          {
+            "not": "feat:blessed-shield"
+          }
+        ],
+        "property": "hardness",
+        "value": 1
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "paladins-toughness",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "26Wa1oNE2BEe6QIS",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Tough To Kill"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "FxAeu0cIDLpawkWo",
+  "sort": 100000,
+  "_key": "!items!FxAeu0cIDLpawkWo"
+}

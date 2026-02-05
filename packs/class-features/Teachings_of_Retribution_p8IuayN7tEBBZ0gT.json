@@ -1,0 +1,92 @@
+{
+  "name": "Teachings of Retribution",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your teachings espouse that retribution is a vital tenet of society and that you should seek it against all who wrong you.</p><p><strong>Teaching Skill</strong> Intimidation</p><hr /><p><strong>Teaching Reaction</strong> @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.YWdCLwG9q0fghbjL]{Protective Retribution}</p><p><strong>Empowered Reaction (12th Feat)</strong> If your teaching reaction's Strike hits, the target takes persistent holy damage equal to your Charisma modifier.</p><p><strong>Supreme Reaction (14th Feat)</strong> Each ally in your paladin’s aura with the target in their melee reach can spend a reaction to Strike the target with a –5 penalty.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.YWdCLwG9q0fghbjL",
+        "predicate": [
+          {
+            "or": [
+              "class:paladin",
+              "feat:teachings-beneficiary"
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      }
+    ],
+    "slug": "teachings-of-retribution",
+    "traits": {
+      "otherTags": [
+        "paladin-teaching"
+      ],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Rage_of_Halone.png",
+  "folder": "9kOcI1BuCS4VxOY2",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "p8IuayN7tEBBZ0gT",
+  "sort": 400000,
+  "_key": "!items!p8IuayN7tEBBZ0gT"
+}

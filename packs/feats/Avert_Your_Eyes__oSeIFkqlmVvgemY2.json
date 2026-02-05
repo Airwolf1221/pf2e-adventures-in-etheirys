@@ -1,0 +1,78 @@
+{
+  "folder": "EecZKbfvj4XNBeKd",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Avert Your Eyes!",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You raise your arms to the sky and pray fervently, surrounding yourself in a beacon of holy light. The beacon sheds bright light in a @Template[cylinder|distance:30]{30-foot-radius, 100-foot-high cylinder} centered on you until the beginning of your next turn. Creatures with the shadow trait in the area must succeed at a @Check[will|against:class-spell] save equal to your class DC or spell DC (whichever is higher) or become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p>Regardless of the result, creatures are then temporarily immune to this ability for 24 hours.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Lost Omens Knights of Lastwall",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "concentrate",
+        "divine",
+        "light",
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "avert-your-eyes",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Holy Light"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "oSeIFkqlmVvgemY2",
+  "sort": 0,
+  "_key": "!items!oSeIFkqlmVvgemY2"
+}

@@ -1,0 +1,73 @@
+{
+  "folder": "J6cKZALjM1rHQlN3",
+  "name": "Blades of Retribution",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are in the oath of blades stance</p><p><strong>Trigger</strong> A creature you can observe attacks your ally and the creature is within 5 feet of your weapon's reach, or within your first range increment if wielding a ranged weapon.</p><hr /><p>You avenge your ally against the actions of evildoers, allowing you to Step if wielding a melee weapon, and then make a Strike against the triggering creature. If the strike is a Critical Success, you interrupt the attack against your ally.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "blades-of-retribution",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Defenders' Oaths"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ovV3vy0SB0Rz7YNV",
+  "sort": 0,
+  "_key": "!items!ovV3vy0SB0Rz7YNV"
+}

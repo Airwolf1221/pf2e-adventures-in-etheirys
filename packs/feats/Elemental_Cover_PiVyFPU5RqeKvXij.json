@@ -1,0 +1,94 @@
+{
+  "folder": "3WNQQ4MwrZvmQJzw",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Elemental Cover",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Though all paladins understand how to anticipate the flow of martial combat, your strengths extend to magical combat, traps and more. You can use @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.CQlySU8JRBTsXMvK]{Cover} when an ally would take elemental (Fire, @Localize[PF2E.TraitCold], @Localize[PF2E.TraitElectricity], Earth, Water, or Wind) damage, not only when they would take physical or shadow damage.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cover"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Battlecry!",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:cover"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You can use Cover when an ally would take elemental (Fire, @Localize[PF2E.TraitCold], @Localize[PF2E.TraitElectricity], Earth, Water, or Wind) damage, not only when they would take physical or shadow damage."
+          }
+        ]
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "paladin"
+      ],
+      "otherTags": []
+    },
+    "slug": "elemental-cover",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Energy Interceptor"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "PiVyFPU5RqeKvXij",
+  "sort": 0,
+  "_key": "!items!PiVyFPU5RqeKvXij"
+}

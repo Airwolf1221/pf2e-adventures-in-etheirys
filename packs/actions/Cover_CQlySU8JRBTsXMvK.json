@@ -1,0 +1,55 @@
+{
+  "name": "Cover",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> An ally within your aura takes physical or shadow damage.</p><hr /><p>You fling yourself into harm's way to protect an ally. You can Step, but you must end your movement adjacent to the triggering ally. Regardless, you take the damage instead of the triggering ally. Apply your own immunities, weaknesses, and resistances to this damage, not the ally's.</p><hr /><p><strong>Special</strong> If the damage comes from your provoked target and the ally is farther than you can Step to reach, you can Stride instead of Stepping; you still must end the movement adjacent to your ally.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "cover",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "paladin"
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "defensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "folder": "zWLpiq5h4r7LSlKh",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "CQlySU8JRBTsXMvK",
+  "sort": 800000,
+  "_key": "!items!CQlySU8JRBTsXMvK"
+}
