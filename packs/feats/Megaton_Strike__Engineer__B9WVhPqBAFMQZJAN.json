@@ -1,0 +1,180 @@
+{
+  "folder": "45ReKbThaaviRqGm",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Megaton Strike (Engineer)",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You activate gears, explosives, and other hidden mechanisms in your invention to make a powerful attack. You make a Strike, dealing an extra die of weapon damage. If you're at least 10th level, increase this to two extra dice, and if you're at least 18th level, increase it to three extra dice. The type of Strike you can make depends on your type of invention.</p><ul><li><p><strong>Magitek Armor</strong> You Strike with a melee unarmed attack or a melee weapon. To use a melee weapon for this, you must have prepared it in advance with special contraptions when you make your daily preparations.</p></li><li><p><strong>Skysteel Multi-Tool</strong> You Strike with your multi-tool invention.</p></li><li><p><strong>Magitek Mech</strong> Your mech makes an unarmed Strike.</p></li><li><p><strong>Magitek Pawn</strong> Your pawn Strikes.</p></li></ul><hr /><p><strong>Overcharge Function</strong> You put even more force into the Strike, though you risk stress fractures to your invention. Add the amp and overcharge traits to Megaton Strike. The Strike deals another extra damage die, for a total of two extra dice at 4th level, three at 10th level, and four at 18th level.</p><hr /><p><strong>Special</strong> If your invention is a minion, it can take this action rather than you.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Armor, Magitek Mech, Magitek Pawn, or Skysteel Multi-Tool invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "megaton-strike",
+        "predicate": [
+          {
+            "not": "feature:magitek-pawn"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "overcharged",
+          "megaton-strike"
+        ],
+        "property": "traits",
+        "value": "amp-ff"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "overcharged",
+          "megaton-strike"
+        ],
+        "property": "traits",
+        "value": "overcharge"
+      },
+      {
+        "diceNumber": "ternary(gte(@actor.level, 18), 3, ternary(gte(@actor.level, 10), 2, 1))",
+        "key": "DamageDice",
+        "predicate": [
+          "megaton-strike",
+          {
+            "or": [
+              {
+                "and": [
+                  "feature:skysteel-multi-tool",
+                  "item:id:{actor|flags.pf2e.inventionId}"
+                ]
+              },
+              {
+                "and": [
+                  "feature:magitek-armor",
+                  "item:melee"
+                ]
+              },
+              {
+                "and": [
+                  "feature:magitek-mech",
+                  {
+                    "or": [
+                      "item:category:unarmed",
+                      "item:tag:mech-strike"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "megaton-strike"
+      },
+      {
+        "key": "DamageAlteration",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "dice-number",
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "megaton-strike",
+        "value": 1
+      },
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "traits",
+        "value": "amp-ff"
+      },
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "traits",
+        "value": "overcharge"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ],
+      "otherTags": [
+        "overcharged"
+      ]
+    },
+    "slug": "megaton-strike-engineer",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Megaton Strike"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "B9WVhPqBAFMQZJAN",
+  "sort": 0,
+  "_key": "!items!B9WVhPqBAFMQZJAN"
+}

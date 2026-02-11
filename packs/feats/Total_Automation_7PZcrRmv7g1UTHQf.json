@@ -1,0 +1,120 @@
+{
+  "folder": "M0ZtBiQP2fY2AMXh",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Total Automation",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You become so entwined with your invention that you can use them without a second thought. You're permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}. How you can use the extra action depends on your invention.</p><ul><li><strong>Magitek Armor </strong>Your armor responds to the most subtle stimuli to move you in the right direction as long as you are wearing it. You can use the extra action to Stride, Step, or use a form of movement provided by your invention (such as Fly or Swim).</li><li><strong>Magitek Mech </strong>Your mech is a manifestation and extension of your own body and soul, and you can control it with barely a thought. You can use the extra action to pilot your mech in a Strike, Stride, or Step, or another form of movement provided by your mech.</li><li><strong>Magitek Pawn </strong>Your ability to command your construct becomes instinctive. You can use the extra action to Command your construct invention (or to provide 1 of the actions if you choose to spend 2 actions to Command your construct).</li><li><strong>Skysteel Multi-Tool </strong>Your weapon becomes easier to wield with deadly efficacy, almost as if it is an extension of your body. It speeds effortlessly toward whatever target you choose as long as you are holding it. You can use the extra action to Strike with your invention.</li></ul>",
+      "gm": ""
+    },
+    "level": {
+      "value": 20
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Armor, Magitek Mech, Magitek Pawn, or Skysteel Multi-Tool invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl"
+      },
+      {
+        "itemType": "condition",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:granter:id:{item|id}"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "predicate": [
+              "feature:magitek-armor"
+            ],
+            "text": "Your armor responds to the most subtle stimuli to move you in the right direction as long as you are wearing it. You can use the extra action to Stride, Step, or use a form of movement provided by your invention (such as Fly or Swim)."
+          },
+          {
+            "predicate": [
+              "feature:magitek-mech"
+            ],
+            "text": "Your mech is a manifestation and extension of your own body and soul, and you can control it with barely a thought. You can use the extra action to pilot your mech in a Strike, Stride, or Step, or another form of movement provided by your mech."
+          },
+          {
+            "predicate": [
+              "feature:magitek-pawn"
+            ],
+            "text": "Your ability to command your construct becomes instinctive. You can use the extra action to Command your construct invention (or to provide 1 of the actions if you choose to spend 2 actions to Command your construct)."
+          },
+          {
+            "predicate": [
+              "feature:skysteel-multi-tool"
+            ],
+            "text": "Your weapon becomes easier to wield with deadly efficacy, almost as if it is an extension of your body. It speeds effortlessly toward whatever target you choose as long as you are holding it. You can use the extra action to Strike with your invention."
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ],
+      "otherTags": []
+    },
+    "slug": "full-automation",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Full Automation"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "7PZcrRmv7g1UTHQf",
+  "sort": 0,
+  "_key": "!items!7PZcrRmv7g1UTHQf"
+}

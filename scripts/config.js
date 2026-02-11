@@ -4,6 +4,7 @@ import { totalConversion } from "./totalConversion/totalConversion.js";
 import { configureDailies } from "./newDailies.js";
 import { MODULE_NAME, registerSettings } from "./settings.js";
 import { featHandler } from "./feats.js";
+import { macros } from "./macros/macros.js";
 
 // Initialise the Module
 Hooks.once("init", async () => {
@@ -36,6 +37,9 @@ Hooks.once("ready", async () => {
     const conversionTranslation = game.settings.get(MODULE_NAME,"conversionTranslation"), mythicSetting = game.settings.get(MODULE_NAME, 'mythic');
     mythic.blessingFeats.featHandling();
 
+    // Engineer Handling
+    Hooks.on('createItem', macros.engineer.multiTool.createTool);
+
     // Assign various hooks
     if (conversionTranslation) { // If the total conversion is enabled, enable the myriad of specific hooks for that.
         console.log("[Final Fantasy - Adventures in Etheirys]: CONFIGURING TOTAL CONVERSION!");
@@ -54,6 +58,7 @@ Hooks.once("ready", async () => {
         Hooks.on('preUpdateItem', mythic.limitBreak.decrementUses);
         Hooks.on('createItem', mythic.limitBreak.syncEffects);
         Hooks.on('updateActor', mythic.limitBreak.updateActor);
+        Hooks.on('pf2e.restForTheNight', mythic.limitBreak.restLB4Reset);
     }
 
     // Create PF2e Dailies

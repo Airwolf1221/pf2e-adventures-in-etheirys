@@ -1,0 +1,74 @@
+{
+  "folder": "D4UqfmDWq6v91mVv",
+  "name": "Advanced Tool",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You further refine your multi-tool's mechanisms and moving parts, allowing you to shift the form far more efficiently. All multi-tools you wield that allow you to spend one or more actions to change their forms, instead require only 1. If the cost was 1 action before taking this feat, you can instead change their forms as a free action once per turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "advanced-tool",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer",
+        "modification"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Dual-Purpose Tool"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "grhlZHRQJvrOPiFj",
+  "sort": 0,
+  "_key": "!items!grhlZHRQJvrOPiFj"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Invention Expert",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You're an expert when it comes to inventing things. You become an expert in Crafting and gain the @UUID[Compendium.pf2e.feats-srd.Item.XR95taODq1sq82Du]{Inventor} feat even if you don't meet meet the prerequisites for it. At 7th level, you become a master in Crafting, and at 15th level, you become legendary in Crafting. You can use Crafting instead of Thievery to Disable a Device or Pick a Lock.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": "ternary(gte(@actor.level,15),4,ternary(gte(@actor.level,7),3,2))"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.XR95taODq1sq82Du"
+      }
+    ],
+    "slug": "invention-expert",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Reassemble.png",
+  "folder": "SCBe82dhXeuinZ1q",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "MQYfJeVryIHQviRW",
+  "sort": 500000,
+  "_key": "!items!MQYfJeVryIHQviRW"
+}

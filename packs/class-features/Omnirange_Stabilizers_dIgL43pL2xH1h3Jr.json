@@ -1,0 +1,141 @@
+{
+  "img": "systems/pf2e/icons/features/classes/blunt-shot.webp",
+  "name": "Omnirange Stabilizers",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Ranged only</strong></p><hr /><p>You've modified your invention to be dangerous and effective at any range. If your invention had the volley trait, remove the volley trait. Otherwise, increase your invention's range increment by 50 feet or an amount equal to the weapon's base range increment, whichever is more.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:volley"
+        ],
+        "property": "other-tags",
+        "value": "removed-volley"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "remove",
+        "predicate": [
+          "item:tag:removed-volley"
+        ],
+        "property": "traits",
+        "value": "volley-20"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "remove",
+        "predicate": [
+          "item:tag:removed-volley"
+        ],
+        "property": "traits",
+        "value": "volley-30"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "remove",
+        "predicate": [
+          "item:tag:removed-volley"
+        ],
+        "property": "traits",
+        "value": "volley-50"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "remove",
+        "predicate": [
+          "item:tag:removed-volley"
+        ],
+        "property": "traits",
+        "value": "volley-60"
+      },
+      {
+        "definition": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          {
+            "not": "removed-volley"
+          }
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "range-increment",
+        "value": 50
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "ranged",
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "omnirange-stabilizers",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "AD1wpqZGUCIc7jsu",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Omnirange Stabilizers"
+    }
+  },
+  "_id": "dIgL43pL2xH1h3Jr",
+  "sort": 0,
+  "_key": "!items!dIgL43pL2xH1h3Jr"
+}

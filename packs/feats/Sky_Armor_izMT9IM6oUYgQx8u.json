@@ -1,0 +1,124 @@
+{
+  "folder": "VX8f5OWHbCWr9RVU",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Sky Armor",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Magitek Armor</strong> Whether through a release of jets of flame, propeller blades, sonic bursts, streamlined aerodynamic structure, electromagnetic fields, or some combination of the above, you've managed to free your invention from the bonds of gravity! While wearing your magitek armor, you gain a fly Speed equal to your land Speed.</p><p><strong>Magitek Mech</strong> You've enhanced your mech for aerial superiority, whether through powerful engines, propeller blades, streamlined aerodynamics, electromagnetic fields, or through some combination of the above or beyond. While piloting your mech, it gains a fly speed equal to its land speed.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Armor or Magitek Mech invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "predicate": [
+          {
+            "or": [
+              {
+                "and": [
+                  "feature:magitek-armor",
+                  "armor:id:{actor|flags.pf2e.innovationId}"
+                ]
+              },
+              {
+                "and": [
+                  "feature:magitek-mech",
+                  "mech-status:crewed"
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "fly",
+        "value": "@actor.system.movement.speeds.land.value"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "text": "Whether through a release of jets of flame, propeller blades, sonic bursts, streamlined aerodynamic structure, electromagnetic fields, or some combination of the above, you've managed to free your invention from the bonds of gravity! While wearing your magitek armor, you gain a fly Speed equal to your land Speed.",
+            "predicate": [
+              "feature:magitek-armor"
+            ]
+          },
+          {
+            "text": "You've enhanced your mech for aerial superiority, whether through powerful engines, propeller blades, streamlined aerodynamics, electromagnetic fields, or through some combination of the above or beyond. While piloting your mech, it gains a fly speed equal to its land speed.",
+            "predicate": [
+              "feature:magitek-mech"
+            ]
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "modification"
+      ],
+      "otherTags": []
+    },
+    "slug": "sky-armor",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Soaring Armor"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "izMT9IM6oUYgQx8u",
+  "sort": 0,
+  "_key": "!items!izMT9IM6oUYgQx8u"
+}

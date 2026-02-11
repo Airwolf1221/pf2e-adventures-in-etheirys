@@ -1,6 +1,6 @@
 {
   "folder": "S2BPbdvBGK3lEdq8",
-  "name": "Supreme Ninjutsu",
+  "name": "Supreme Iaijutsu",
   "type": "feat",
   "effects": [],
   "system": {
@@ -23,7 +23,7 @@
         "key": "RollOption",
         "toggleable": true,
         "label": "Using Hakaze outside of Iai Stance",
-        "option": "supreme-ninjutsu"
+        "option": "supreme-iajutsu"
       },
       {
         "key": "DamageAlteration",
@@ -35,11 +35,11 @@
         "value": 2,
         "predicate": [
           "dice:slug:hakaze",
-          "supreme-ninjutsu"
+          "supreme-iajutsu"
         ]
       }
     ],
-    "slug": "supreme-ninjutsu",
+    "slug": "supreme-iaijutsu",
     "traits": {
       "otherTags": [],
       "value": [

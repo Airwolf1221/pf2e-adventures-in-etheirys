@@ -1,0 +1,70 @@
+{
+  "name": "Overcharge",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You temporarily overclock your inventions into high gear, adding greater power to your attacks. You consume an aetheric charge, and for the next minute, your Strikes deal additional damage equal to half your Intelligence modifier.</p><p>If you spend two actions on Overcharge, the additional damage is instead equal to your Intelligence modifier, and the Overcharge action loses the manipulate trait.</p><p>When you become an expert in Crafting, this additional damage increases by 1, by 2 when you become a master in Crafting, and by 3 when you become legendary in Crafting.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "overcharge",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "amp-ff",
+        "engineer",
+        "manipulate",
+        "overcharge"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.PxtXjQR9Bpkxb8xj",
+      "name": "Effect: Overcharge"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneTwoActions.webp",
+  "folder": "PqrIDL4niX9Ur1Ys",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "6XzXI0nDNSefLMJm",
+  "sort": 100000,
+  "_key": "!items!6XzXI0nDNSefLMJm"
+}

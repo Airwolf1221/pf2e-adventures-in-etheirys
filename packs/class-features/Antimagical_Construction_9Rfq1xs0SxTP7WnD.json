@@ -1,0 +1,126 @@
+{
+  "name": "Antimagical Construction",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Hot_Shot_Mastery.png",
+  "effects": [],
+  "folder": "tHjvYWVCx5t2jliV",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Whether plating your mech in special metals, enchanting its armor plates, or using magic-resistant materials, you shelter both your mech and yourself from magic. Your mech gains a +1 circumstance bonus to all saving throws and to its AC against spells. You gain this bonus while operating your mech. If you have the Defender-class modification, the circumstance bonus is equal to your shield's AC bonus, if it's Raised.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "predicate": [
+          "mech-status:crewed",
+          "spell"
+        ],
+        "slug": "antimagical-construction",
+        "value": 1,
+        "type": "circumstance",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "predicate": [
+          "mech-status:crewed",
+          "spell"
+        ],
+        "slug": "antimagical-construction",
+        "value": 1,
+        "type": "circumstance",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "antimagical-construction",
+        "predicate": [
+          "self:effect:raise-a-shield"
+        ],
+        "selector": "saving-throw",
+        "value": "@actor.heldShield.system.acBonus"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "slug": "antimagical-construction",
+        "predicate": [
+          "self:effect:raise-a-shield"
+        ],
+        "selector": "ac",
+        "value": "@actor.heldShield.system.acBonus"
+      }
+    ],
+    "slug": "antimagical-construction",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "9Rfq1xs0SxTP7WnD",
+  "sort": 300000,
+  "_key": "!items!9Rfq1xs0SxTP7WnD"
+}

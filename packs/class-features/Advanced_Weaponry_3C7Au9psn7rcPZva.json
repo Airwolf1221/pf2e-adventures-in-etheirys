@@ -1,0 +1,74 @@
+{
+  "name": "Advanced Weaponry",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Air_Anchor.png",
+  "effects": [],
+  "folder": "M9BEVURza9NfomyU",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've powered up your construct's weaponry. Choose one of your construct's unarmed attacks to gain your choice of one initial skysteel multi-tool modification, choosing any initial skysteel multi-tool modifications to which you have access. The unarmed attack must meet any requirements for the chosen traits (such as being a melee attack for entangling tool), and since it's an unarmed attack, it can never meet certain requirements.</p><hr /><p><em><strong>Foundry note</strong> Weapon Modifications are not in this module or the system currently, the strike rule elements on the appropriate feature can be modified to apply the modifications.</em></p>"
+    },
+    "rules": [],
+    "slug": "advanced-weaponry",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "3C7Au9psn7rcPZva",
+  "sort": 100000,
+  "_key": "!items!3C7Au9psn7rcPZva"
+}

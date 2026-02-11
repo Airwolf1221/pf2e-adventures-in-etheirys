@@ -69,6 +69,10 @@
         },
         "Identifiers": {
             "MythicBlessing": "Mythic Blessing",
+            "BaseArmors": {
+                "LightFrame": "Light Frame",
+                "HeavyFrame": "Heavy Frame"
+            },
             "DamageTypes": {
                 "Earth": "Earth",
                 "Water": "Water",
@@ -86,6 +90,7 @@
                 "GraftedArmCannon": "Grafted Arm Cannon",
                 "GatlingGraftedArm": "Gatling Grafted Arm",
                 "GustStaff": "Gust Staff",
+                "MultiTool": "Multi-Tool",
                 "QuakeStaff": "Quake Staff",
                 "Saya": "Saya",
                 "WaveStaff": "Wave Staff"
@@ -366,7 +371,9 @@
                 "Vieran": "Vieran"
             },
             "OtherTags": {
-                "SamuraiWeapon": "Samurai Weapon"
+                "SamuraiWeapon": "Samurai Weapon",
+                "MultiTool": "Multi-Tool",
+                "MechStrike": "Magitek Mech Strike"
             }
         },
         "SpellNames": {

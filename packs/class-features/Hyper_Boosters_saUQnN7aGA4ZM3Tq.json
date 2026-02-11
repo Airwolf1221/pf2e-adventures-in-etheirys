@@ -1,0 +1,111 @@
+{
+  "img": "icons/skills/ranged/cannon-barrel-firing-orange.webp",
+  "name": "Hyper Boosters",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've improved your speed boosters' power through a breakthrough that significantly increases the energy flow without risking exploding. You gain a +10-foot status bonus to your Speed, which increases to a +20-foot status bonus while you have an active Overcharge ability. If you're legendary in Crafting, it instead increases to a +30-foot status bonus while you have an active Overcharge ability. You must have the speed boosters modification to select this modification.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}"
+        ],
+        "selector": [
+          "land-speed"
+        ],
+        "slug": "hyper-boosters",
+        "type": "status",
+        "value": 10
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "self:effect:overcharge"
+        ],
+        "selector": "land-speed",
+        "slug": "hyper-boosters",
+        "value": 20
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "skill:crafting:rank:4",
+          "self:effect:overcharge"
+        ],
+        "selector": "land-speed",
+        "slug": "hyper-boosters",
+        "value": 30
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "hyper-boosters",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "aQcBT9cfkrkjubJd",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Hyper Boosters"
+    }
+  },
+  "_id": "saUQnN7aGA4ZM3Tq",
+  "sort": 0,
+  "_key": "!items!saUQnN7aGA4ZM3Tq"
+}

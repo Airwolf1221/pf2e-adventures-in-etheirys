@@ -1,0 +1,99 @@
+{
+  "name": "Heavy Frame",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mech invention has a heavy, incredibly bulky frame that shrugs off hits.</p>"
+    },
+    "rules": [],
+    "slug": "heavy-frame",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "heavy-frame",
+    "bulk": {
+      "value": 18
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 4,
+    "strength": 0,
+    "dexCap": 1,
+    "checkPenalty": -2,
+    "speedPenalty": 0,
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+  "folder": "GLoew2MIy6RSsv5J",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "1x4LOQbgtuPNUWMd",
+  "sort": 200000,
+  "_key": "!items!1x4LOQbgtuPNUWMd"
+}

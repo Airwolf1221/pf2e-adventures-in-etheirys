@@ -1,0 +1,127 @@
+{
+  "name": "Defender Class",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Hot_Shot.png",
+  "effects": [],
+  "folder": "11fFBTkNZtvmv5FB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mech's design features bulkier armor and an integrated shield. The mech's AC Bonus increases to +6, and its Dex Cap is set to +0, it gains the bulwark trait, and your mech’s Speed is lowered by 5 feet. Your mech’s tower shield folds into part of its frame or arm until it Raises its Shield, and functions as normal for a tower shield, but has a Hardness of 6, 30 HP, and a BT of 15.</p><p>When your proficiency in Crafting increases to Expert, the shield’s Hardness increases by 1, and its HP increase by 10. At Master, the Hardness increases by an additional 2, and its HP by another 20. At Legendary, its Hardness increases by another 4, and its HP by another 40. You also gain the Shield Block feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.equipment.Item.UilbIHXsQcKEunjm",
+        "onDeleteActions": {
+          "granter": "cascade"
+        },
+        "allowDuplicate": false
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:crewed"
+        ],
+        "mode": "upgrade",
+        "property": "ac-bonus",
+        "value": 6
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:crewed"
+        ],
+        "mode": "override",
+        "property": "dex-cap",
+        "value": 0
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:crewed"
+        ],
+        "mode": "add",
+        "property": "traits",
+        "value": "bulwark"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8"
+      },
+      {
+        "key": "FlatModifier",
+        "value": -5,
+        "selector": [
+          "land-speed"
+        ]
+      }
+    ],
+    "slug": "defender-class",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "U7L20cRg7rtehm4Y",
+  "sort": 0,
+  "_key": "!items!U7L20cRg7rtehm4Y"
+}

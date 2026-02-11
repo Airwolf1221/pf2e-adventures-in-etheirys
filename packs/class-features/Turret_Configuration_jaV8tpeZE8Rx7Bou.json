@@ -1,0 +1,159 @@
+{
+  "name": "Turret Configuration",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Rook_Overdrive.png",
+  "effects": [],
+  "folder": "M9BEVURza9NfomyU",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your invention can transform from a mobile construct to a stationary turret. Your construct companion can transform as a single action, which has the manipulate trait, turning into a turret in its space (or transforming back from a turret into its normal configuration). While it's a turret, your invention is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, but the damage die from its projectile launcher increases to 1d6 and the range increment increases to 60 feet. You must have the projectile launcher modification or have an Autoturret companion to select this modification.</p><hr /><p><strong>Special</strong> if you have a Rook companion, when it uses Turret Configuration, it increases its primary attack’s damage to 1d8, its deadly trait increases to d10, its Strikes gain the forceful trait, its range increases to 120 feet and it gains volley 30 feet. If your Autoturret has the Projectile Launcher modification, its attack does not gain the Volley trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "turretMode",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "projectile-launcher-damage",
+        "override": {
+          "dieSize": "d6"
+        },
+        "predicate": [
+          "turretMode",
+          {
+            "not": "turret-model:rook"
+          }
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "selector": "rook-autocannon-damage",
+        "override": {
+          "dieSize": "d8"
+        },
+        "predicate": [
+          "turretMode",
+          "turret-model:rook"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "deadly-d10",
+        "definition": [
+          "item:slug:rook-autocannon"
+        ],
+        "predicate": [
+          "turretMode",
+          "turret-model:rook"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "forceful",
+        "definition": [
+          "item:slug:rook-autocannon"
+        ],
+        "predicate": [
+          "turretMode",
+          "turret-model:rook"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "volley-30",
+        "definition": [
+          "item:slug:rook-autocannon"
+        ],
+        "predicate": [
+          "turretMode",
+          "turret-model:rook",
+          {
+            "not": "feature:projectile-launcher"
+          }
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "upgrade",
+        "property": "range-increment",
+        "value": 120,
+        "definition": [
+          "item:slug:rook-autocannon"
+        ],
+        "predicate": [
+          "turretMode",
+          "turret-model:rook"
+        ]
+      }
+    ],
+    "slug": "turret-configuration",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "jaV8tpeZE8Rx7Bou",
+  "sort": 0,
+  "_key": "!items!jaV8tpeZE8Rx7Bou"
+}

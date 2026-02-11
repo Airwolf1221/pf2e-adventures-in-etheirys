@@ -1,0 +1,83 @@
+{
+  "folder": "q58N7HxVHt4k2EEI",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Engineering Repair",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You quickly mend your invention. You @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} your magitek pawn immediately. You don't have to place the pawn on a flat surface, but you do need to be adjacent to it (including holding, wearing, or operating it), as well as having a repair kit as normal.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Pawn invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ],
+      "otherTags": []
+    },
+    "slug": "engineering-repair",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Haphazard Repair"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "0C8sDvLX2hBXg9LT",
+  "sort": 0,
+  "_key": "!items!0C8sDvLX2hBXg9LT"
+}

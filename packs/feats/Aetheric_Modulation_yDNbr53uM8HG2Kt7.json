@@ -1,0 +1,339 @@
+{
+  "folder": "ov8hPY9DDVxKJ2nN",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Aetheric Modulation",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once. Choose two additional aetheric boosts. You can use an Interact action to change the aetheric boost currently affecting your weapon, choosing between the one you chose for the class feature and the two you chose for this modification. If your weapon has the modular trait, you can swap the aetheric boost as part of the Interact action you take to use that trait.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "offensive boost"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "alwaysActive": true,
+        "key": "RollOption",
+        "option": "aetheric-modulation",
+        "suboptions": [
+          {
+            "label": "Chill",
+            "predicate": [
+              "aetheric-boost:cold"
+            ],
+            "value": "cold"
+          },
+          {
+            "label": "Dust",
+            "predicate": [
+              "aetheric-boost:earth-ff"
+            ],
+            "value": "earth-ff"
+          },
+          {
+            "label": "Gust",
+            "predicate": [
+              "aetheric-boost:wind-ff"
+            ],
+            "value": "wind-ff"
+          },
+          {
+            "label": "Ignition",
+            "predicate": [
+              "aetheric-boost:fire"
+            ],
+            "value": "fire"
+          },
+          {
+            "label": "Jet",
+            "predicate": [
+              "aetheric-boost:water-ff"
+            ],
+            "value": "water-ff"
+          },
+          {
+            "label": "Jolt",
+            "predicate": [
+              "aetheric-boost:electricity"
+            ],
+            "value": "electricity"
+          },
+          {
+            "label": "Momentum",
+            "predicate": [
+              "aetheric-boost:bludgeoning"
+            ],
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Saws",
+            "predicate": [
+              "aetheric-boost:slashing"
+            ],
+            "value": "slashing"
+          },
+          {
+            "label": "Spike",
+            "predicate": [
+              "aetheric-boost:piercing"
+            ],
+            "value": "piercing"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "Chill",
+            "predicate": [
+              {
+                "not": "aetheric-boost:cold"
+              }
+            ],
+            "value": "cold"
+          },
+          {
+            "label": "Dust",
+            "predicate": [
+              {
+                "not": "aetheric-boost:earth-ff"
+              }
+            ],
+            "value": "earth-ff"
+          },
+          {
+            "label": "Gust",
+            "predicate": [
+              {
+                "not": "aetheric-boost:wind-ff"
+              }
+            ],
+            "value": "wind-ff"
+          },
+          {
+            "label": "Ignition",
+            "predicate": [
+              {
+                "not": "aetheric-boost:fire"
+              }
+            ],
+            "value": "fire"
+          },
+          {
+            "label": "Jet",
+            "predicate": [
+              {
+                "not": "aetheric-boost:water-ff"
+              }
+            ],
+            "value": "water-ff"
+          },
+          {
+            "label": "Jolt",
+            "predicate": [
+              {
+                "not": "aetheric-boost:electricity"
+              }
+            ],
+            "value": "electricity"
+          },
+          {
+            "label": "Momentum",
+            "predicate": [
+              {
+                "not": "aetheric-boost:bludgeoning"
+              }
+            ],
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Saws",
+            "predicate": [
+              {
+                "not": "aetheric-boost:slashing"
+              }
+            ],
+            "value": "slashing"
+          },
+          {
+            "label": "Spike",
+            "predicate": [
+              {
+                "not": "aetheric-boost:piercing"
+              }
+            ],
+            "value": "piercing"
+          }
+        ],
+        "flag": "aethericModulationFirst",
+        "key": "ChoiceSet",
+        "prompt": "Select an Aetheric Modulation damage type",
+        "rollOption": "aetheric-boost"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "Chill",
+            "predicate": [
+              {
+                "not": "aetheric-boost:cold"
+              }
+            ],
+            "value": "cold"
+          },
+          {
+            "label": "Dust",
+            "predicate": [
+              {
+                "not": "aetheric-boost:earth-ff"
+              }
+            ],
+            "value": "earth-ff"
+          },
+          {
+            "label": "Gust",
+            "predicate": [
+              {
+                "not": "aetheric-boost:wind-ff"
+              }
+            ],
+            "value": "wind-ff"
+          },
+          {
+            "label": "Ignition",
+            "predicate": [
+              {
+                "not": "aetheric-boost:fire"
+              }
+            ],
+            "value": "fire"
+          },
+          {
+            "label": "Jet",
+            "predicate": [
+              {
+                "not": "aetheric-boost:water-ff"
+              }
+            ],
+            "value": "water-ff"
+          },
+          {
+            "label": "Jolt",
+            "predicate": [
+              {
+                "not": "aetheric-boost:electricity"
+              }
+            ],
+            "value": "electricity"
+          },
+          {
+            "label": "Momentum",
+            "predicate": [
+              {
+                "not": "aetheric-boost:bludgeoning"
+              }
+            ],
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Saws",
+            "predicate": [
+              {
+                "not": "aetheric-boost:slashing"
+              }
+            ],
+            "value": "slashing"
+          },
+          {
+            "label": "Spike",
+            "predicate": [
+              {
+                "not": "aetheric-boost:piercing"
+              }
+            ],
+            "value": "piercing"
+          }
+        ],
+        "flag": "aethericModulationSecond",
+        "key": "ChoiceSet",
+        "prompt": "Select an Aetheric Modulation damage type",
+        "rollOption": "aetheric-boost"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.engineer.aethericBoost",
+        "priority": 51,
+        "value": "{item|flags.pf2e.rulesSelections.aethericModulation}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "manipulate"
+      ],
+      "otherTags": []
+    },
+    "slug": "aetheric-modulation",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Boost Modulation"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "yDNbr53uM8HG2Kt7",
+  "sort": 0,
+  "_key": "!items!yDNbr53uM8HG2Kt7"
+}

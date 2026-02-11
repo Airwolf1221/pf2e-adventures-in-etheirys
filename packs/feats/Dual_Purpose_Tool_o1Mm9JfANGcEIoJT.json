@@ -1,0 +1,127 @@
+{
+  "folder": "45ReKbThaaviRqGm",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Dual-Purpose Tool",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You've built your skysteel multi-tool to be extremely compact and convertible, allowing you to transform it into another configuration. When you select this feat, you build a second multi-tool using the engineer's multi-tool rules, starting with 12 TP just like your regular multi-tool. This configuration becomes your invention's second configuration.</p><p>Select a new set of skysteel modifications for this new configuration. You can spend two Interact actions to switch your multi-tool between the two configurations. These actions don't need to be taken consecutively, but if you've provided the first and not the second, the weapon is non-functional as it is stranded between states. Your weapon's Bulk is always the greater Bulk of the two configurations, regardless of which configuration it's in — if one weapon is smaller than the other, you still need to keep any weapon parts on hand. Any materia on your multi-tool affect the second weapon configuration, as long as it would normally qualify for them.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Skysteel Multi-Tool invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:slug:multi-tool"
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "multiTool",
+        "prompt": "Select a multi-tool"
+      },
+      {
+        "key": "GrantItem",
+        "flag": "dualPurposeTool",
+        "track": true,
+        "uuid": "{item|flags.pf2e.rulesSelections.multiTool}",
+        "onDeleteActions": {
+          "granter": "cascade"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.dualPurposeMultiToolId",
+        "priority": 5,
+        "value": "{item|flags.pf2e.itemGrants.dualPurposeTool.id}"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.dualPurposeTool.id}",
+        "mode": "override",
+        "property": "name",
+        "value": "Dual-Purpose Multi-Tool"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|flags.pf2e.itemGrants.dualPurposeTool.id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "text": "This is the dual-form variant of your skysteel multi-tool"
+          }
+        ]
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "modification"
+      ],
+      "otherTags": []
+    },
+    "slug": "dual-purpose-tool",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Dual-Form Weapon"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "o1Mm9JfANGcEIoJT",
+  "sort": 0,
+  "_key": "!items!o1Mm9JfANGcEIoJT"
+}

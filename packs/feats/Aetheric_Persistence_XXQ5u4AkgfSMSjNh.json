@@ -1,0 +1,134 @@
+{
+  "folder": "R2TiwUrmpc1ovKbR",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Aetheric Persistence",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your innovation sets foes on fire, covers them in acid, leaves barbed thorns behind, or otherwise deals persistent damage to your foes that sticks around long after you deliver your boosted attack. When you or your construct innovation damage a foe with offensive boost, that foe also takes 1d8 persistent damage of the same damage type as the offensive boost damage.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 16
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Aetheric Boost"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:aetheric-boost"
+        ],
+        "property": "other-tags",
+        "value": "aetheric-persistence"
+      },
+      {
+        "category": "persistent",
+        "damageType": "{actor|flags.pf2e.engineer.aethericBoost}",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "hideIfDisabled": true,
+        "key": "DamageDice",
+        "predicate": [
+          {
+            "or": [
+              {
+                "and": [
+                  "feature:magitek-armor",
+                  {
+                    "or": [
+                      "unarmed",
+                      "item:id:{actor|flags.pf2e.multiToolId}"
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "feature:skysteel-multi-tool",
+                  "item:id:{actor|flags.pf2e.multiToolId}"
+                ]
+              },
+              {
+                "and": [
+                  "mech-status:crewed",
+                  "feature:magitek-mech",
+                  {
+                    "or": [
+                      "item:tag:mech-strike",
+                      "item:category:unarmed"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ],
+      "otherTags": []
+    },
+    "slug": "aetheric-persistence",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Persistent Boost"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "XXQ5u4AkgfSMSjNh",
+  "sort": 0,
+  "_key": "!items!XXQ5u4AkgfSMSjNh"
+}

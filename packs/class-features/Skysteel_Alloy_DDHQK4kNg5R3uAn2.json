@@ -1,0 +1,77 @@
+{
+  "img": "icons/commodities/metal/ingot-rough-steel.webp",
+  "name": "Skysteel Alloy",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Other engineers and smiths claim it's not even technically possible, but you've managed to create several metal alloys that seem to work for only you. These alloys can damage opponents vulnerable to any one of the seven skymetals. Your invention is treated as all types of skymetals (abysium, adamantine, djezet, inubrix, noqual, orichalcum, and siccatite, as well as any custom skymetals). This means you deal more damage to a variety of creatures, though you don't apply any of the other special effects for weapons made of those skymetals.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "otherTags": [
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "skysteel-alloy",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "AD1wpqZGUCIc7jsu",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Impossible Alloy"
+    }
+  },
+  "_id": "DDHQK4kNg5R3uAn2",
+  "sort": 0,
+  "_key": "!items!DDHQK4kNg5R3uAn2"
+}

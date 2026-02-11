@@ -1,0 +1,83 @@
+{
+  "folder": "AzMaxqzrdJsJFWHa",
+  "name": "Detonator",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You construct a small device that stores and accumulates energy from your attacks before reacting violently. Your next attack with your invention carries this Detonator along with it, attaching it to your target on a successful hit.</p><p>Once attached to the target, the Detonator explodes at the end of your next turn, dealing @Damage[2d6[@actor.flags.pf2e.engineer.aethericBoost]] damage to all creatures in a @Template[type:burst|distance:5] centered on the target, with a @Check[reflex|against:engineer|basic] save against your class DC. This damage matches the type chosen for your aetheric boost at the time you activate Detonator.</p><p>Each time you deal damage to the target using your invention’s aetheric boost before the detonation, increase the damage of the burst by @Damage[1d6[@actor.flags.pf2e.engineer.aethericBoost]], which resets when the detonator is destroyed or explodes.</p><p>The target can attempt to remove the Detonator by attempting an @Check[athletics|dc:resolve(@actor.attributes.classDC.value)] check against your class DC, or by attempting to smash the Detonator. The Detonator has AC 10, [[@actor.level + @actor.system.abilities.int.mod]] hit points, and immunity to critical hits and precision damage. Once destroyed, the Detonator deals @Damage[1[@actor.flags.pf2e.engineer.aethericBoost]] damage for each die of damage it would have dealt upon exploding to all creatures in the same square as it.</p><p>As a single action with the manipulate trait, you can deactivate the Detonator harmlessly.</p><hr /><p><strong>Overcharge Function</strong> Detonator lasts for 1 minute, but does not explode automatically. Each time you deal damage to the target using your invention’s aetheric boost, increase the damage dealt by the burst by @Damage[2d6[@actor.flags.pf2e.engineer.aethericBoost]] rather than by 1d6.</p><p>At any point while Detonator is active, you can use a single action with the manipulate trait to activate the Detonator and force it to explode.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "detonator",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Skysteel Multi-Tool invention"
+        },
+        {
+          "value": "Aetheric Boost"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 4,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ZxhLW2W3oUleWyYL",
+  "sort": 0,
+  "_key": "!items!ZxhLW2W3oUleWyYL"
+}

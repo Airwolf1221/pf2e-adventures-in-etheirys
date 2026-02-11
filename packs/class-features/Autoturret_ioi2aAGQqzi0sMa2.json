@@ -1,0 +1,111 @@
+{
+  "name": "Autoturret",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "zG61TvjuhSofBBBB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disableABP",
+        "value": true,
+        "priority": 10
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.wkVpJKm7ZhIAkODQ",
+        "predicate": [
+          {
+            "not": "class:autoturret"
+          }
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 25
+      }
+    ],
+    "slug": "autoturret",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "construct",
+        "minion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "tiny",
+    "hands": 2,
+    "reach": 5,
+    "speed": 5,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "normal"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ioi2aAGQqzi0sMa2",
+  "sort": 1000000,
+  "_key": "!items!ioi2aAGQqzi0sMa2"
+}

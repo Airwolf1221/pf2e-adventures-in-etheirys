@@ -1,0 +1,81 @@
+{
+  "name": "Miracle Gears",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Enhanced_Reassemble.png",
+  "effects": [],
+  "folder": "k6Aiq1jeDKBqxxgT",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As you perfect your invention's cortex, it becomes much more intelligent. Its Intelligence modifier increases by 2, and it learns a language of your choice from among the languages you know. Your construct gains the ability to use actions that require greater Intelligence, like @Compendium[pf2e.actionspf2e.Coerce]{Coerce} and @Compendium[pf2e.actionspf2e.d9gbpiQjChYDYA2L]{Decipher Writing}. Finally, your construct becomes legendary in two Intelligence- or Charisma-based skills of your choice. You must have the marvelous gears modification to select this modification.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      }
+    ],
+    "slug": "miracle-gears",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "XKySWqvdKe93dIUt",
+  "sort": 50000,
+  "_key": "!items!XKySWqvdKe93dIUt"
+}

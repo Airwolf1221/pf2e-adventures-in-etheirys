@@ -1,0 +1,123 @@
+{
+  "name": "Effect: Overcharge",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.8NnCAINkLL8h23EI]{Overcharge}</p><p>Your Strikes deal additional damage equal to half your Intelligence modifier, or equal to your Intelligence modifier if you spent two actions to use Overcharge.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "One Action",
+            "value": "1a"
+          },
+          {
+            "label": "Two Actions",
+            "value": "2a"
+          }
+        ],
+        "flag": "baseDamage",
+        "rollOption": "overcharge",
+        "prompt": "One or Two Actions?"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.engineer.overchargeBaseDamage",
+        "phase": "beforeDerived",
+        "predicate": [
+          "overcharge:1a"
+        ],
+        "value": "floor(@item.origin.system.abilities.int.mod/2)"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.engineer.overchargeBaseDamage",
+        "phase": "beforeDerived",
+        "predicate": [
+          "overcharge:2a"
+        ],
+        "value": "@item.origin.system.abilities.int.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "value": "@actor.flags.pf2e.engineer.overchargeBaseDamage + ternary(gte(@item.origin.skills.crafting.rank,4),3, ternary(gte(@item.origin.skills.crafting.rank,3),2, ternary(gte(@item.origin.skills.crafting.rank,2),1, 0)))"
+      },
+      {
+        "key": "RollOption",
+        "option": "self:effect:overcharge:1a",
+        "predicate": [
+          "overcharge:1a"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "option": "self:effect:overcharge:2a",
+        "predicate": [
+          "overcharge:2a"
+        ]
+      }
+    ],
+    "slug": "effect-overcharge",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Hypercharge.png",
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "PxtXjQR9Bpkxb8xj",
+  "sort": 300000,
+  "_key": "!items!PxtXjQR9Bpkxb8xj"
+}

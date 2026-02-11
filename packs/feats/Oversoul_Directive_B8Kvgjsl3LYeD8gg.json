@@ -1,0 +1,107 @@
+{
+  "folder": "0ORz2u84p1s53Y6K",
+  "name": "Oversoul Directive",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've integrated the very fibre of your being into your mech, becoming one with it at the cost of your ability to operate outside of it. You gain the following benefits and changes:</p><ul><li>Your magitek's mech body becomes your own.</li><li>You gain the attribute boosts from Advanced Intelligence and Quantum Intelligence.</li><li>You gain a +2 bonus to all mental effects, and the shared Hit Point pool when piloting your mech becomes your standard Hit Point pool, but you cannot leave your mech.</li><li>You do not benefit from the mech's immunities, instead gaining the Automaton's Constructed Body and Automaton Core racial features.</li><li>You are not immediately broken or destroyed when reaching 0 Hit Points. Instead, you begin Dying as normal. If you have the Emergency Repair Matrix feat, you are no longer ejected. Instead, you just drop to 1 Hit Point on a success, and a critical failure increases your Dying value by 1.</li><li>Your consciousness is stored within your mech's black box, which is where your CPU core is copied upon destruction and serves as your means of living. Even if your body is destroyed, you are not killed so long as your CPU core and black box survive. You can take over the body of any construct that is 5th level or lower by hooking your black box to the creature and can build yourself a new body over a period of one week, following the same rules as replacing a destroyed innovation.</li></ul><p>Your survival depends upon your CPU being stored safely within your black box, and obtaining one is difficult. Only you can Craft a black box, and the process takes a month and costs you 250,000 gil (25,000 golden gil). Unlike normal crafting, you can do this in parallel to any other crafting projects. If your body is ever destroyed while you lack a functioning black box to download into, you die permanently.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "mech-status:crewed"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "property": "bulk",
+        "value": 0
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "all"
+        ],
+        "value": 2,
+        "predicate": [
+          "mental"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.E28a45fUC2OkXZXY"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.RYrY7o0i6s7KW9io"
+      }
+    ],
+    "slug": "oversoul-directive",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Quantum Intelligence"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "B8Kvgjsl3LYeD8gg",
+  "sort": 400000,
+  "_key": "!items!B8Kvgjsl3LYeD8gg"
+}

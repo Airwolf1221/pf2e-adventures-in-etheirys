@@ -1,0 +1,73 @@
+{
+  "folder": "AzMaxqzrdJsJFWHa",
+  "name": "Improved AMP Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You further refine your invention’s aetheric generator, allowing you to create powerful ammunition out of pure, elemental energy, albeit temporarily. When you activate AMP Shot, you can create a piece of ammunition for your invention, and you can Interact to Reload it. Using AMP Shot in this way changes the damage type of your invention to the chosen element for the next attack.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "improved-amp-shot",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "AMP Shot"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "85rJuhPOPFqeNSPJ",
+  "sort": 0,
+  "_key": "!items!85rJuhPOPFqeNSPJ"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Magitek Shell",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Enhanced_Tactician.png",
+  "effects": [],
+  "folder": "H6Y5MHRw4QhAASJg",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you use @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.V1DiAEs2eYMpHJxP]{AMP Resistance}, your mech gains far better resistances. When you select elements with AMP Resistance, you and your mech gain immunity to the first element chosen, resistance equal to your level for the second, and resistance equal to half your level for the third. You must have the AMP Resistance modification to select this modification.</p>"
+    },
+    "rules": [],
+    "slug": "magitek-shell",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "v6w5MB9VGVXTTcVD",
+  "sort": 200000,
+  "_key": "!items!v6w5MB9VGVXTTcVD"
+}

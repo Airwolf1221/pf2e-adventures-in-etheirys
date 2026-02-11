@@ -1,0 +1,95 @@
+{
+  "img": "icons/equipment/head/helm-goggles-leather.webp",
+  "name": "Multisensory Mask",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Subterfuge Suit only</strong></p><hr /><p>You've built a multisensory mask over your armor that protects you by distorting your figure from all senses, leaving behind only a hazy image, muffled sounds, and so forth. While wearing the armor, you gain concealment against all creatures, even if they are using a nonvisual precise sense, such as a bat's echolocation. As normal for effects that leave your location obvious, you can't use this concealment to Hide or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}. If you use a hostile action, the concealment ends until you restore the mask as a single action, which has the manipulate trait.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "multisensory-mask",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}"
+        ],
+        "toggleable": true
+      },
+      {
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "predicate": [
+          "multisensory-mask"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification",
+        "subterfuge-suit-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "multisensory-mask",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jvy7nGzmMAtBRSVC",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Multisensory Mask"
+    }
+  },
+  "_id": "eDo5nt7FNHAx9Rij",
+  "sort": 50000,
+  "_key": "!items!eDo5nt7FNHAx9Rij"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Pile Bunker",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Pile_Bunker.png",
+  "effects": [],
+  "folder": "M9BEVURza9NfomyU",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Automaton Queen gains a Pile Bunker unarmed strike. The Pile Bunker deals 1d10 piercing damage, with the concussive, deadly d12, razing, and reach traits. Upon using the Pile Bunker, it must be reset with 1 Interact action before being used again. You must have an Automaton Queen construct companion to select this modification.</p>"
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d10"
+          }
+        },
+        "group": "brawling",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "concussive",
+          "deadly-d12",
+          "razing",
+          "reach"
+        ]
+      }
+    ],
+    "slug": "pile-bunker",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "nKjKmkgj35t1JgZv",
+  "sort": 0,
+  "_key": "!items!nKjKmkgj35t1JgZv"
+}

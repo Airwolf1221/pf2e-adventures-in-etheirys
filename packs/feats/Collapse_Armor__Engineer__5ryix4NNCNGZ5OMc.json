@@ -1,0 +1,81 @@
+{
+  "folder": "TdnffYt2INLjMBnt",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Collapse Armor (Engineer)",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wearing your magitek armor, or holding it in both hands in its compact form (see text).</p><hr /><p>You've modified your armor innovation to collapse into a more compact form so you can don or remove it in an instant. If you’re wearing your innovation when you Collapse your Armor, you remove it instantly, and it compresses into its compact form, after which it latches onto your body, typically by attaching to a belt, bandoleer, or other convenient carrying surface as a nondescript satchel. If your armor is stowed and carried on your person in its compact form when you take this action, it unfolds back into its armor form onto your body.</p><p>In compact form, your armor innovation is easier to carry, with a Bulk 1 lower than the Bulk listed for it, to a minimum of light Bulk (carried armor normally has a Bulk 1 higher than listed in the armor entry).</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Armor invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "manipulate",
+        "modification"
+      ],
+      "otherTags": []
+    },
+    "slug": "collapse-armor-engineer",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Collapse Armor"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "5ryix4NNCNGZ5OMc",
+  "sort": 0,
+  "_key": "!items!5ryix4NNCNGZ5OMc"
+}

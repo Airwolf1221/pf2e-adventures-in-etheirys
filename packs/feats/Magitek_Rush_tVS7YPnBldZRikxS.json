@@ -1,0 +1,79 @@
+{
+  "folder": "TdnffYt2INLjMBnt",
+  "name": "Magitek Rush",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your armor holds an array of powerful motors, jets, and servos, allowing you to surge forward. You gain a +10-foot status bonus to your Speed until the end of your turn. You then Stride twice. You can use this ability to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.</p><hr /><p><strong>Overcharge Function</strong> Your armor charges with power, carrying you forward at a speed that's probably still safe. You can use Magitek Rush as a single action. You can expend two charges to gain the follow effect:</p><ul><li><p>As you charge forward, your armor discharges power around you. All creatures you pass within 5 feet of during the movement granted by Magitek Rush takes @Damage[(2 + (floor((@actor.level - 1)/2)))d6[fire]] damage, with a @Check[reflex|against:engineer|basic] save against your class DC. This damage increases by 1d6 at 3rd level, and every 2 levels thereafter. Creatures only make this save once, even if you pass by them multiple times.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "magitek-rush",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Armor invention"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "tVS7YPnBldZRikxS",
+  "sort": 0,
+  "_key": "!items!tVS7YPnBldZRikxS"
+}

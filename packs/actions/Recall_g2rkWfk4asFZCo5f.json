@@ -1,0 +1,58 @@
+{
+  "folder": "PqrIDL4niX9Ur1Ys",
+  "name": "Recall",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You activate gadgets that guide your invention back to you.</p><p>If your invention is within 30 feet of you, your invention Strides to you and Collapses to its compact form. If your invention has a Burrow, Climb. Fly, or Swim Speed, it can use that form of movement instead. If your invention was Collapsed already, its compact form can use this movement, instead.</p><hr /><p><strong>Overcharge Function</strong> If your invention is within 120 feet of you, you activate an experimental drive within it, causing it to teleport to a square adjacent to you in its collapsed form.</p><p>Alternatively, you can store its form as aether in your aetherotransformer. No other creatures teleport along with your invention, and objects that aren't built into your invention don't enter your Aetherotransformer alongside it.</p><p>Your invention can remain stored in your aetherotransformer for 8 hours, during which you cannot recover the aetheric charge used to overcharge the effect. After that time, a failsafe automatically Dismisses the effect, causing your invention to appear in an unoccupied space within 5 feet of your aetherotransformer. At any point before the effect ends, you can use the Overcharge Function of Deploy without spending an aetheric charge. Alternatively, you can Dismiss the effect, causing your invention to appear in an adjacent square, in your choice of its Compact or normal forms.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "recall",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": null,
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "g2rkWfk4asFZCo5f",
+  "sort": 0,
+  "_key": "!items!g2rkWfk4asFZCo5f"
+}

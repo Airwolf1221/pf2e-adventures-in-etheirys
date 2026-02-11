@@ -1,0 +1,132 @@
+{
+  "img": "icons/commodities/tech/metal-pistons.webp",
+  "name": "Powered Exoskeleton",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your armor reinforces and supports your muscles with a finely tuned exoskeleton. You gain a +1 circumstance bonus to Athletics checks, which increases to a +2 if you're a master in Crafting. While you have an active Overcharge ability, this bonus increases to +2, or +3 if you're a master in Crafting.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "armor-innovation:power-suit"
+        ],
+        "selector": [
+          "athletics"
+        ],
+        "slug": "powered-exoskeleton",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              {
+                "gte": [
+                  "skill:crafting:rank",
+                  3
+                ]
+              },
+              "self:effect:overcharge"
+            ]
+          }
+        ],
+        "selector": "athletics",
+        "slug": "powered-exoskeleton",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "and": [
+              {
+                "gte": [
+                  "skill:crafting:rank",
+                  3
+                ]
+              },
+              "self:effect:overcharge"
+            ]
+          }
+        ],
+        "selector": "athletics",
+        "slug": "muscular-exoskeleton",
+        "value": 3
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification",
+        "power-suit-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "muscular-exoskeleton",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jFTTkSUP3SH6vh5L",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Muscular Exoskeleton"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "bBiyQorsWoZImXQj",
+  "sort": 50000,
+  "_key": "!items!bBiyQorsWoZImXQj"
+}

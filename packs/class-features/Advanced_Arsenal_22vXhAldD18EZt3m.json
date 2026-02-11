@@ -1,0 +1,77 @@
+{
+  "name": "Advanced Arsenal",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Gauss_Round.png",
+  "effects": [],
+  "folder": "tHjvYWVCx5t2jliV",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Select one of your magitek's unarmed attacks, and apply one initial skysteel multi-tool modification to it. If your primary multi-tool is attached to your mech, you can apply this modification to that instead, and it only applies while it is attached to the mech.</p><hr /><p><em><strong>Foundry note</strong> This is not automated, and will have to be handled manually.</em></p>"
+    },
+    "rules": [],
+    "slug": "advanced-arsenal",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "22vXhAldD18EZt3m",
+  "sort": 200000,
+  "_key": "!items!22vXhAldD18EZt3m"
+}

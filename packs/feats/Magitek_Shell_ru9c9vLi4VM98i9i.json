@@ -1,0 +1,80 @@
+{
+  "folder": "D4UqfmDWq6v91mVv",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Magitek Shell",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You've adjusted your invention so that when it’s ridden, special plates, hollows, or similar form partial barriers around its riders to add additional protection. You, and any passengers on your invention, have lesser cover from all attacks while riding or operating your invention, not just from attacks where the invention would be in the way.</p><p>Additionally, if you use an emanation with your mech, or if your construct invention uses an emanation, any willing riders can choose to not be affected by the emanation.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 6
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Mech or Magitek Pawn invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "modification"
+      ],
+      "otherTags": []
+    },
+    "slug": "magitek-shell",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Construct Shell"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ru9c9vLi4VM98i9i",
+  "sort": 0,
+  "_key": "!items!ru9c9vLi4VM98i9i"
+}

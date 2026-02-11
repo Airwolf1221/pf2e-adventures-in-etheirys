@@ -1,0 +1,83 @@
+{
+  "folder": "45ReKbThaaviRqGm",
+  "name": "Charged Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your aetherotransformer is on your person</p><hr /><p>Your invention carries a powerful aetheric charge, bursting when it hits your target. If you hit with your next attack roll using your skysteel firearm or crossbow before the end of your turn, you deal an additional 1d6 lightning damage to your target. At 12th level, this increases to 2d6 additional damage, and at 18th level, it increases to 3d6 additional damage.</p><p>If you have the aetheric boost class feature, you can change this damage to a type matching your current boost.</p><hr /><p><strong>Overcharge Function</strong> Hit or miss, all creatures in a @Template[type:burst|distance:5] centered on the target take @Damage[((@actor.level)[splash])[electricity]]{additional lightning splash damage equal to your level}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "charged-shot",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Aetheric Ammunition"
+        },
+        {
+          "value": "Skysteel Multi-Tool invention"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "xMrORh8brSMolGIa",
+  "sort": 0,
+  "_key": "!items!xMrORh8brSMolGIa"
+}

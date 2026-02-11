@@ -1,0 +1,76 @@
+{
+  "folder": "hCZaOJwgxgFqztx8",
+  "name": "Wildfire",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You toss a small, pressurized flask of specialized pitch at your foe, which ignites when it comes into contact with the air. The target takes @Damage[(floor(@actor.level/2))d4[fire]] damage, and @Damage[(floor(@actor.level/4))d4[persistent,fire]] damage, with a @Check[reflex|against:engineer|basic] save.</p><p>At 10th level, and every 2 levels thereafter, the initial fire damage increases by 1d4, and at 12th level and every 4 levels thereafter, the persistent fire damage increases by 1d4.</p><p>Alternatively, you can target a @Template[type:burst|distance:10] with the flask, igniting the area for 1 minute. The area becomes hazardous terrain. Any creature that moves on the ground through the area takes @Damage[(floor(@actor.level/4))[fire]] damage for each square of the area it moves into. Creatures in the area when you use Wildfire, and any creature that ends its turn in the area must succeed at a @Check[reflex|against:engineer] save against your class DC or take @Damage[(floor(@actor.level/4))[persistent,fire]] damage.</p><p>At 12th level and every 4 levels thereafter, increase the hazardous terrain damage and the persistent damage by 1, and increase the radius of the burst by 10 feet.</p><hr /><p><strong>Overcharge Function</strong> If you targeted a single creature with Wildfire, all creatures in a @Template[type:burst|distance:5] centered on the target take the persistent fire damage, as well as the target, with a @Check[reflex|against:engineer|basic] save.</p><p>If you use Wildfire as a Burst, all creatures in the area when you use this ability take @Damage[(floor(@actor.level/2))d6[fire]] damage, with a @Check[reflex|against:engineer|basic] save. This damage increases by 1d6 at 10th level, and by an additional 1d6 for every 2 levels thereafter.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "wildfire",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "33DQjrtHBAVS4tW8",
+  "sort": 0,
+  "_key": "!items!33DQjrtHBAVS4tW8"
+}

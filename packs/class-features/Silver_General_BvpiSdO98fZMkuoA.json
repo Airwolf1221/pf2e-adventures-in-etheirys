@@ -1,0 +1,101 @@
+{
+  "name": "Silver General",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Increased_Action_Damage.png",
+  "effects": [],
+  "folder": "M9BEVURza9NfomyU",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You improve your Bishop’s Aetheric Mortar. Each time you Command your Bishop to use the Aetheric Mortar, you can choose between the following options. You must have a Bishop companion to select this modification.</p><ul><li><p>Increase the Bishop’s melee reach to 10 feet, rather than 5 feet.</p></li><li><p>Allies within the area of the Aetheric Mortar are unaffected by its Strikes.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "silver-general",
+        "label": "Silver General - Reach Improvement",
+        "toggleable": true,
+        "predicate": [
+          {
+            "not": "feature:gold-general"
+          }
+        ]
+      },
+      {
+        "key": "CreatureSize",
+        "value": 0,
+        "reach": {
+          "override": 10
+        },
+        "predicate": [
+          {
+            "or": [
+              "silver-general",
+              "feature:gold-general"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "silver-general",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "BvpiSdO98fZMkuoA",
+  "sort": 0,
+  "_key": "!items!BvpiSdO98fZMkuoA"
+}

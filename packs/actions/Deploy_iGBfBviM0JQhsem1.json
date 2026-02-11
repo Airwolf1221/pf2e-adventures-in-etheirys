@@ -1,0 +1,58 @@
+{
+  "folder": "PqrIDL4niX9Ur1Ys",
+  "name": "Deploy",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You install gadgets onto your invention to allow you to throw its collapsed form, or even cause it to warp a short distance.</p><p>If your invention is collapsed, you can throw it up to 30 feet and return it to its normal form. If your invention is a magitek pawn, you spend two actions to Order it as part of using this ability.</p><p>If your invention is a magitek mech, you can instead revert your mech to its full form and Operate it as part of using this ability, and can Stride up to its Speed.</p><hr /><p><strong>Overcharge Function</strong> You trigger an experimental drive in your invention, causing it to teleport. You can Deploy your invention to any unoccupied square within 120 feet of you, rather than throwing it. If your invention is a magitek mech, you can instead Deploy the mech in an adjacent square, Board it and then teleport up to 60 feet into an unoccupied space.</p><hr /><p><strong>Overcharge Level (8th)</strong> You can teleport your Boarded mech up to 120 feet into an unoccupied space instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "deploy",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "iGBfBviM0JQhsem1",
+  "sort": 200000,
+  "_key": "!items!iGBfBviM0JQhsem1"
+}

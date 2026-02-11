@@ -1,0 +1,86 @@
+{
+  "name": "Climbing Treads",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Arm_Punch.png",
+  "effects": [],
+  "folder": "tHjvYWVCx5t2jliV",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Whether building appendages for your mech to create suction, precise applications of gravitational energies, or through production and secretion of a sticky alchemical substances, your mech gains a climb Speed equal to half its land Speed.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": "floor(@actor.system.movement.speeds.land.base / 2)",
+        "predicate": [
+          "mech-status:crewed"
+        ]
+      }
+    ],
+    "slug": "climbing-treads",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "fHZzQK3mzq2RM8ic",
+  "sort": 0,
+  "_key": "!items!fHZzQK3mzq2RM8ic"
+}

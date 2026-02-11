@@ -1,0 +1,74 @@
+{
+  "folder": "q58N7HxVHt4k2EEI",
+  "name": "Armor Link",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Through careful linked gadgetry, you've connected the materia attached to your armor to your mech. You apply all foundation materia applied to your armor, to your mech. Any item bonus to your AC also applies to your mech. If your mech has any foundation materia slotted, they are suppressed for as long as this ability is active, but you can deactivate this ability as an Interact action made to Operate your mech.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "armor-link",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer",
+        "modification"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Mech invention"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "jGhaToYFvIDmqPwK",
+  "sort": 0,
+  "_key": "!items!jGhaToYFvIDmqPwK"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "D4UqfmDWq6v91mVv",
+  "name": "Heat Blast",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your invention stores the heat produced from its STrikes, and can channel it through a Strike to great effect. Make a ranged Strike with your firearm. You deal an additional 1d4 fire damage for each die of damage your firearm deals.</p><hr /><p><strong>Overcharge Function</strong> The damage increases to 1d8, and the Strike deals 1d6 persistent fire damage for each die of damage the firearm normally deals.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "heat-blast",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer",
+        "fire"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Skysteel Multi-Tool invention"
+        },
+        {
+          "value": "your invention is a firearm"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "sa4Xae6HBfMZWMwY",
+  "sort": 0,
+  "_key": "!items!sa4Xae6HBfMZWMwY"
+}

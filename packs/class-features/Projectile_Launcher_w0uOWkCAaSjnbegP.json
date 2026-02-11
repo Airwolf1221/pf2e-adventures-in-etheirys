@@ -1,0 +1,131 @@
+{
+  "name": "Projectile Launcher",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Heated_Split_Shot.png",
+  "effects": [],
+  "folder": "2plqk1Nxu06mUr5S",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your invention has a mounted dart launcher, embedded cannon, or similar armament. Your invention gains a ranged unarmed attack that deals 1d4 bludgeoning or piercing damage (you choose when you pick this modification). The attack has the propulsive trait and a range increment of 30 feet.</p><hr /><p><strong>Special</strong> If you have a Rook Autoturret companion, the range of its primary attack increases by 30 feet.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          }
+        ],
+        "flag": "damageType",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt",
+        "key": "ChoiceSet",
+        "predicate": [
+          {
+            "not": "turret-model:rook"
+          }
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "{item|flags.pf2e.rulesSelections.damageType}",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "key": "Strike",
+        "range": {
+          "increment": 30
+        },
+        "traits": [
+          "propulsive",
+          "unarmed"
+        ],
+        "predicate": [
+          {
+            "not": "turret-model:rook"
+          }
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "range-increment",
+        "value": 30,
+        "definition": [
+          "item:slug:rook-autocannon"
+        ],
+        "predicate": [
+          "turret-model:rook"
+        ]
+      }
+    ],
+    "slug": "projectile-launcher",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "w0uOWkCAaSjnbegP",
+  "sort": 300000,
+  "_key": "!items!w0uOWkCAaSjnbegP"
+}

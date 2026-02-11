@@ -1,0 +1,96 @@
+{
+  "folder": "45ReKbThaaviRqGm",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Double Rocket Punch",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your construct innovation is adjacent to you, or you are operating your mech.</p><hr /><p>You’ve practiced an impressive spin technique with your invention, automatically attacking in tandem as you launch each other through the air.</p><p>If your invention is a magitek mech, you Operate your mech and have it Leap. You can make two melee Strikes with your mech at the start or end of the Leap; both of these Strikes increase the mech's multiple attack penalty.</p><p>If your invention is a magitek pawn, you Command your pawn to fight alongside you, after which you both Leap in the same direction, each making an unarmed Strike at the start or end of the Leap; this uses your companion’s actions for the turn.</p><p>If the Strikes both hit the same creature, combine their damage for the purposes of resistances and weaknesses.</p><hr /><p><strong>Overcharge Function</strong> Utilizing powerful jets, fans, and short-distance rockets, you augment the Leaps allowed by Double Rocket Punch. Add the amp and overcharge traits to Double Rocket Punch. Increase the distance of your Leaps by 10 feet if horizontal or 5 feet if vertical.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Mech invention or Magitek Pawn invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Lost Omens Tian Xia Character Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "traits",
+        "value": "amp-ff"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ],
+      "otherTags": [
+        "overcharged"
+      ]
+    },
+    "slug": "double-rocket-punch",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Duo Dragon Kick"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "AHGIU2IEwt6rbFSR",
+  "sort": 0,
+  "_key": "!items!AHGIU2IEwt6rbFSR"
+}

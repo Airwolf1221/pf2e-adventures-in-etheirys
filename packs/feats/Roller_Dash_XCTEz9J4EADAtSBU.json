@@ -1,0 +1,80 @@
+{
+  "folder": "D4UqfmDWq6v91mVv",
+  "name": "Roller Dash",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You Command the automaton queen. Rather than taking its normal actions, it Strides twice. If it ends this movement within melee reach of at least one enemy, it can make a melee Strike against that enemy. If your automaton queen has a Burrow, Climb, Fly, or Swim speed, it can use that movement type instead of its land speed.</p><hr /><p><strong>Overcharge Function</strong> Your automaton queen gains a +10-foot status bonus to their speed for Roller Dash. All creatures the automaton queen passes within 5 feet of during this movement takes @Damage[(3 + (max(0,floor((@actor.level - 6)/2))))d8] points of damage based on your construct’s design, with a @Check[reflex|against:engineer|basic] save. Typically, this is bludgeoning, piercing, or slashing damage. If you have the aetheric boost class feature, this damage can match your automaton queen’s current boost. Even if the automaton queen passes by a creature more than once, that creature only makes a single save.</p><hr /><p><strong>Overcharge Level (+2)</strong> The damage increases by 1d8.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "roller-dash",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Automaton Queen construct companion"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "XCTEz9J4EADAtSBU",
+  "sort": 0,
+  "_key": "!items!XCTEz9J4EADAtSBU"
+}

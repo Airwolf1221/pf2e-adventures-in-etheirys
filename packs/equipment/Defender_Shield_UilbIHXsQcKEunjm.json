@@ -1,0 +1,103 @@
+{
+  "name": "Defender Shield",
+  "type": "shield",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>These massive shields can be used to provide cover to nearly the entire body of the mech. Due to their size, they are typically made of wood reinforced with metal. AC increases to +4 if you are using the @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "predicate": [
+          "mech-status:crewed"
+        ],
+        "mode": "override",
+        "property": "bulk",
+        "value": 0
+      }
+    ],
+    "slug": "defender-shield",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique",
+      "integrated": null
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "tower-shield",
+    "bulk": {
+      "value": 4
+    },
+    "hp": {
+      "value": 30,
+      "max": 30
+    },
+    "hardness": 6,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Shield",
+        "img": "systems/pf2e/icons/unidentified_item_icons/shields.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "acBonus": 2,
+    "grade": null,
+    "runes": {
+      "reinforcing": 0
+    },
+    "specific": null,
+    "speedPenalty": 0,
+    "subitems": []
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Heated_Clean_Shot.png",
+  "folder": "GLoew2MIy6RSsv5J",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "UilbIHXsQcKEunjm",
+  "sort": 0,
+  "_key": "!items!UilbIHXsQcKEunjm"
+}

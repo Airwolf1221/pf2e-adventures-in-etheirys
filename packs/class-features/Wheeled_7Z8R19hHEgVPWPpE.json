@@ -1,0 +1,86 @@
+{
+  "name": "Wheeled",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Checkmate.png",
+  "effects": [],
+  "folder": "11fFBTkNZtvmv5FB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Rather than legs, your mech has wheels or treads, allowing for greater overall speed and mobility. Your mech might take the form of a car or motorcycle, or another similar form. Your magitek's Speed increases to 40 feet, and it gains the effect of Vehicle Momentum. You can lower the dimensions of your mech to a 5-foot width and a 10-foot length, narrowing its profile.</p><p>Your mech can seat multiple other creatures as passengers, up to one creature per square your mech occupies. These creatures take a circumstance penalty on all attack rolls equal to the number of creatures currently riding your mech. A creature can spend a single action to negate this penalty until the start of their next turn.</p><p>If you take this modification, you cannot take the Enhanced Locomotion modification.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "land",
+        "value": 40,
+        "predicate": [
+          "mech-status:crewed"
+        ]
+      }
+    ],
+    "slug": "wheeled",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "7Z8R19hHEgVPWPpE",
+  "sort": 100000,
+  "_key": "!items!7Z8R19hHEgVPWPpE"
+}

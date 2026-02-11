@@ -1,0 +1,74 @@
+{
+  "folder": "0ORz2u84p1s53Y6K",
+  "name": "Artificial Intelligence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You install a rudimentary intelligence into your mech, allowing it some degree of self-sufficiency, even while you aren't operating it. Your mech gains the following benefits.</p><ul><li>Your mech gains mental attribute modifiers of +2, +1, and +0, arranged as you choose. You can increase one of these attributes by two, or two of these attributes by one. Perform this attribute boost twice, following the normal rules for increasing attribute modifiers. At 15th level and 20th level, you can repeat the process, boosting one attribute by two or two by one (as normal, to go from +4 to +5 requires two boosts).</li><li>Your mech has precise vision, imprecise hearing, and vague touch senses, but no sense of smell or taste.</li><li>You can choose to grant a Biomechanical mech a sense of smell and/or taste.</li><li>Your mech is trained in Perception and all saves, and its proficiency increases as yours does.</li><li>Your mech is trained in two skills of your choice, expert in one additional skill, and master in another.</li><li>Your mech loses immunity to mental effects.</li><li>Your mech no longer Collapses when you aren't operating it. While you are not operating your mech, it gains a Strength modifier equal to its Intelligence modifier, a Dexterity modifier equal to its Wisdom modifier, and a Constitution modifier equal to its Charisma modifier.</li><li>While not operating it, your mech gains the minion trait, and must be ordered to use actions. If you don't spend at least one action to Command your mech, it may use one action to Stride or Strike.</li><li>You can choose to apply modifications from the magitek pawn invention to your mech whenever you could choose a magitek mech modification.</li></ul><p>When you choose this feat, you can choose how your mech communicates. You might install a speaker into the mech's frame that it can speak from, or you might form a telepathic bond with it, communicate via text on another gadget, or any combination of methods.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "artificial-intelligence",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Pilot Dedication"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "sYPZI2qE6wewV2vv",
+  "sort": 1600000,
+  "_key": "!items!sYPZI2qE6wewV2vv"
+}

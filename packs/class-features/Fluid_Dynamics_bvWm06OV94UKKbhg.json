@@ -1,0 +1,101 @@
+{
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "name": "Fluid Dynamics",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Through the studies of both aerodynamics and hydrodynamics, you've learned how to structure your invention in such a way as to divert most forms of fluid away. You gain resistance equal to 3 + half your level to Water and Wind damage. While you have an active Overcharge ability, this resistance increases to 3 + your level.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}"
+        ],
+        "type": [
+          "water-ff",
+          "wind-ff"
+        ],
+        "value": "3 + floor(@actor.level / 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "self:effect:overcharge"
+        ],
+        "type": [
+          "water-ff",
+          "wind-ff"
+        ],
+        "value": "3 + @actor.level"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "fluid-dynamics",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jFTTkSUP3SH6vh5L",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Metallic Reactance"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "bvWm06OV94UKKbhg",
+  "sort": 0,
+  "_key": "!items!bvWm06OV94UKKbhg"
+}

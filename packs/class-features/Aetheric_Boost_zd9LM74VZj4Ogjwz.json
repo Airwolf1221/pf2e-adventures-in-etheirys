@@ -1,0 +1,164 @@
+{
+  "name": "Aetheric Boost",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've made additions to your invention to upgrade your offensive capabilities. Your improvements make any Strikes that rely on your invention deal an additional 1d6 damage, with a type determined by the boost you choose. If your invention is magitek armor, the boost applies to your melee unarmed Strikes and to your melee Strikes with your engineer's multi-tool; if your invention is the skysteel multi-tool, the boost applies to Strikes with your engineer's multi-tool; if your invention is the magitek mech, the boost applies to your mech’s Strikes and attached weapons, and if your invention is a magitek pawn, the boost applies to your construct’s Strikes.</p><p>You can spend downtime to switch to a different boost in the same way as switching your modification. Choose one of the following boosts, with the damage type in parentheses.</p><ul><li><strong>Chill (@Localize[PF2E.TraitCold])</strong> Your invention rapidly absorbs heat, creating an intense chill.</li><li><strong>Dust (Earth)</strong> Your invention follows attacks with fine particulates like glass.</li><li><strong>Gust (Wind)</strong> Your invention blasts foes with biting winds.</li><li><strong>Ignition (Fire)</strong> Your invention shoots out gouts of searing flame.</li><li><strong>Jet (Water)</strong> Your invention fires powerful jets of water.</li><li><strong>Jolt (@Localize[PF2E.TraitElectricity])</strong> Your invention shocks foes with charges of electricity.</li><li><strong>Momentum (Bludgeoning)</strong> Your invention slams into foes with added momentum.</li><li><strong>Saws (Slashing)</strong> Your invention reveals spinning saw blades during your attacks.</li><li><strong>Spike (Piercing)</strong> Your invention reveals wicked spikes during your attacks.</li></ul><hr /><p><em>Note: The included effect is only needed for magitek pawns.</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.96P8rx2qZyLBIVPP]{Effect: Aetheric Boost}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Chill",
+            "value": "cold"
+          },
+          {
+            "label": "Dust",
+            "value": "earth-ff"
+          },
+          {
+            "label": "Gust",
+            "value": "wind-ff"
+          },
+          {
+            "label": "Ignition",
+            "value": "fire"
+          },
+          {
+            "label": "Jet",
+            "value": "water-ff"
+          },
+          {
+            "label": "Jolt",
+            "value": "electricity"
+          },
+          {
+            "label": "Momentum",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Saws",
+            "value": "slashing"
+          },
+          {
+            "label": "Spike",
+            "value": "piercing"
+          }
+        ],
+        "flag": "aethericBoostDamage",
+        "prompt": "Select an Aetheric Boost damage type",
+        "rollOption": "aetheric-boost"
+      },
+      {
+        "key": "DamageDice",
+        "damageType": "{actor|flags.pf2e.engineer.aethericBoost}",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "hideIfDisabled": true,
+        "label": "Aetheric Boost",
+        "predicate": [
+          {
+            "or": [
+              {
+                "and": [
+                  "feature:magitek-armor",
+                  {
+                    "or": [
+                      "unarmed",
+                      "item:id:{actor|flags.pf2e.multiToolId}"
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "feature:skysteel-multi-tool",
+                  "item:id:{actor|flags.pf2e.multiToolId}"
+                ]
+              },
+              {
+                "and": [
+                  "mech-status:crewed",
+                  "feature:magitek-mech",
+                  {
+                    "or": [
+                      "item:tag:mech-strike",
+                      "item:category:unarmed"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.engineer.aethericBoost",
+        "value": "{item|flags.pf2e.rulesSelections.aethericBoostDamage}"
+      }
+    ],
+    "slug": "aetheric-boost",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Blazing_Shot.png",
+  "folder": "SCBe82dhXeuinZ1q",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "zd9LM74VZj4Ogjwz",
+  "sort": 1200000,
+  "_key": "!items!zd9LM74VZj4Ogjwz"
+}

@@ -1,0 +1,101 @@
+{
+  "img": "icons/magic/water/barrier-ice-shield.webp",
+  "name": "Permafrost Barrier",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've developed special platings, padding and insulation across your invention, allowing you to prevent ice and earth buildup. You gain resistance equal to 3 + half your level to Earth and Ice damage. While you have an active Overcharge ability, this resistance increases to 3 + your level.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}"
+        ],
+        "type": [
+          "earth-ff",
+          "cold"
+        ],
+        "value": "3 + floor(@actor.level / 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "self:effect:overcharge"
+        ],
+        "type": [
+          "earth-ff",
+          "cold"
+        ],
+        "value": "3 + @actor.level"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "permafrost-barrier",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jFTTkSUP3SH6vh5L",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Metallic Reactance"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "qj3vLMs89tYNS2wV",
+  "sort": 0,
+  "_key": "!items!qj3vLMs89tYNS2wV"
+}

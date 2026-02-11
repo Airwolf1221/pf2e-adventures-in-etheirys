@@ -1,0 +1,81 @@
+{
+  "folder": "U0Xphg5yv6LDFi6R",
+  "name": "Checkmate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> An ally dealt additional damage with a Strike due to Double Check in the last round, and you are wielding a melee skysteel multi-tool or a loaded ranged skysteel multi-tool</p><hr /><p>You saw your foe's weaknesses, and you made contingencies for their moves. Use Analysis against the creature the required ally damaged, then make a single Strike against that creature with the required weapon. On a hit, your weapon deal maximum damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for a number of rounds equal to your Intelligence modifier.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "checkmate",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "amp-ff",
+        "concentrate",
+        "engineer",
+        "manipulate",
+        "overcharge"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Double Check"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "KvR3bwFq7M0jbZgX",
+  "sort": 0,
+  "_key": "!items!KvR3bwFq7M0jbZgX"
+}

@@ -1,0 +1,93 @@
+{
+  "img": "systems/pf2e/icons/features/classes/blunt-shot.webp",
+  "name": "Blunt Shot",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Ranged Only</strong></p><hr /><p>Your weapon innovation can file the edges off your ammunition and adjust the blunt force of the shot to deliver an attack that can batter as much as pierce, or even knock an opponent right off their feet. Your innovation gains the concussive and ranged trip (worth <strong>3 TP</strong>) traits, and you add the Ranged Trip trait to the list of traits you can select for ranged multi-tool upgrades.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "concussive"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "ranged-trip"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "ranged",
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "blunt-shot",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "wyeI6K5yb8nBTZ8W",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Blunt Shot"
+    }
+  },
+  "_id": "UOavXsgGKwuDhMGZ",
+  "sort": 100000,
+  "_key": "!items!UOavXsgGKwuDhMGZ"
+}

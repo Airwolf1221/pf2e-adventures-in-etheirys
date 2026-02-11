@@ -1,0 +1,84 @@
+{
+  "folder": "TdnffYt2INLjMBnt",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Magitek Restoration",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>They told you there was no way that explosions could heal people, but they were fools… Fools who didn't understand your brilliance! You create a minor explosion from your invention, altering the combustion to cauterize wounds using vaporized medicinal herbs. You or a living creature adjacent to you regains @Damage[max(1,ceil(@actor.level/2))d10[healing]] Hit Points. In addition, the creature you heal can attempt an immediate flat check to recover from a single source of persistent bleed damage, with the DC reduction from appropriate assistance.</p><p>At 3rd level, and every 2 levels thereafter, increase the healing by 1d10.</p><hr /><p><strong>Special </strong>If your invention is a minion, it can take this action rather than you, though because it's not a living creature, it can't use the ability on itself.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "amp-ff",
+        "engineer",
+        "fire",
+        "healing",
+        "manipulate",
+        "overcharge"
+      ],
+      "otherTags": []
+    },
+    "slug": "searing-restoration",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Searing Restoration"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "0PPdXyYgeDkrSq1K",
+  "sort": 0,
+  "_key": "!items!0PPdXyYgeDkrSq1K"
+}

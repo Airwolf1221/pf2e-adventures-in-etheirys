@@ -1,0 +1,111 @@
+{
+  "folder": "D4UqfmDWq6v91mVv",
+  "name": "Additional Multi-Tools",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have opened up the floodgates to new multi-tools with your innovations. You can build as many multi-tools as you please, but instead of starting with 6 TP like your original did, your additional multi-tools only start with 4 TP, and are treated as martial weapons (gaining 2 TP instead of the 4 TP of the advanced primary multi-tool). Additionally, you add the resonant trait (worth 2 TP) and the injection trait (worth 3 TP) to the list of traits you can use when creating melee multi-tools, and you add the propulsive trait (worth 1 TP) to the list of traits you can use when creating ranged multi-tools.</p><hr /><p><strong>Special</strong> If your invention is a skysteel multi-tool, you immediately gain your second multi-tool, and it starts with 6 TP, and then any additional multi-tools start with just 4 TP. You cannot add your modifications to these tools, but you can use any unlocked traits when building them.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:slug:multi-tool"
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "multiTool",
+        "prompt": "Select a multi-tool",
+        "predicate": [
+          "feature:skysteel-multi-tool"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "flag": "secondSkysteelTool",
+        "track": true,
+        "uuid": "{item|flags.pf2e.rulesSelections.multiTool}",
+        "onDeleteActions": {
+          "granter": "cascade"
+        },
+        "predicate": [
+          "feature:skysteel-multi-tool"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.secondSkysteelMultiToolId",
+        "priority": 5,
+        "value": "{item|flags.pf2e.itemGrants.secondSkysteelTool.id}",
+        "predicate": [
+          "feature:skysteel-multi-tool"
+        ]
+      }
+    ],
+    "slug": "additional-multi-tools",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Engineer's Multi Tool"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "9Gcp1oOITYyDB1CU",
+  "sort": 0,
+  "_key": "!items!9Gcp1oOITYyDB1CU"
+}

@@ -1,0 +1,93 @@
+{
+  "img": "icons/skills/melee/strikes-sword-triple-gray.webp",
+  "name": "Aerodynamic Construction",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Melee Only</strong></p><hr /><p>You carefully engineer the shape of your weapon to maintain its momentum in attacks against successive targets. Your invention gains the sweep trait and the versatile S trait.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "sweep"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "versatile-s"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "melee",
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "aerodynamic-construction",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "vOinOFVoVoyzFsOG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Aerodynamic Construction"
+    }
+  },
+  "_id": "ubbZJRP5owp81Egd",
+  "sort": 0,
+  "_key": "!items!ubbZJRP5owp81Egd"
+}

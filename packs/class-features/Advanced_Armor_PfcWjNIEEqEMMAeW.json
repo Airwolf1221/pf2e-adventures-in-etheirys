@@ -1,0 +1,116 @@
+{
+  "name": "Advanced Armor",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Reassemble.png",
+  "effects": [],
+  "folder": "tHjvYWVCx5t2jliV",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can apply one initial armor modification to your mech’s armor. You gain all the benefits of this modification while operating your mech.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:type:feature",
+            "item:trait:engineer",
+            "item:tag:magitek-armor-modification",
+            {
+              "or": [
+                "magitek-armor-invention:power-suit",
+                {
+                  "not": "item:tag:power-suit-modification"
+                }
+              ]
+            },
+            {
+              "or": [
+                "magitek-armor-invention:subterfuge-suit",
+                {
+                  "not": "item:tag:subterfuge-suit-modification"
+                }
+              ]
+            }
+          ]
+        },
+        "flag": "initialModification",
+        "key": "ChoiceSet",
+        "predicate": [
+          "class:engineer"
+        ],
+        "prompt": "Choose an initial modification"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.initialModification}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "advanced-armor",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "PfcWjNIEEqEMMAeW",
+  "sort": 100000,
+  "_key": "!items!PfcWjNIEEqEMMAeW"
+}

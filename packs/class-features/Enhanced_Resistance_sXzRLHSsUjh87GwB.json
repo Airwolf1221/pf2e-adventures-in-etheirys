@@ -1,0 +1,210 @@
+{
+  "img": "systems/pf2e/icons/features/classes/enhanced-resistance.webp",
+  "name": "Enhanced Resistance",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've improved upon your initial modification's ability to resist damage. The resistance from your initial armor modification adds your full level, instead of half your level, or twice your level while you have an active Overcharge ability. If you have more than one initial modification that gives resistance, choose which one this applies to.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              "feature:alignment-nullification"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.QkvdTqdDqoeIGTrA"
+          },
+          {
+            "predicate": [
+              "feature:fluid-dynamics"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.bvWm06OV94UKKbhg"
+          },
+          {
+            "predicate": [
+              "feature:permafrost-barrier"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.qj3vLMs89tYNS2wV"
+          },
+          {
+            "predicate": [
+              "feature:plasma-shielding"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.3q79TGlPJSQjcWsx"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Choose an initial resistance modification to improve",
+        "rollOption": "enhanced-resistance"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:alignment-nullification"
+        ],
+        "type": [
+          "void",
+          "vitality"
+        ],
+        "value": " 3 + @actor.level"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:alignment-nullification",
+          "self:effect:overcharge"
+        ],
+        "type": [
+          "void",
+          "vitality"
+        ],
+        "value": "3 + floor(@actor.level * 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:fluid-dynamics"
+        ],
+        "type": [
+          "water-ff",
+          "wind-ff"
+        ],
+        "value": "3 + @actor.level"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:fluid-dynamics",
+          "self:effect:overcharge"
+        ],
+        "type": [
+          "water-ff",
+          "wind-ff"
+        ],
+        "value": "3 + floor(@actor.level * 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:permafrost-barrier"
+        ],
+        "type": [
+          "earth-ff",
+          "cold"
+        ],
+        "value": "3 + @actor.level"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:permafrost-barrier",
+          "self:effect:overcharge"
+        ],
+        "type": [
+          "earth-ff",
+          "cold"
+        ],
+        "value": "3 + floor(@actor.level * 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:plasma-shielding"
+        ],
+        "type": [
+          "fire",
+          "electricity"
+        ],
+        "value": "3 + @actor.level"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "enhanced-resistance:plasma-shielding",
+          "self:effect:overcharge"
+        ],
+        "type": [
+          "fire",
+          "electricity"
+        ],
+        "value": "3 + floor(@actor.level * 2)"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "enhanced-resistance",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "aQcBT9cfkrkjubJd",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Enhanced Resistance"
+    }
+  },
+  "_id": "sXzRLHSsUjh87GwB",
+  "sort": 100000,
+  "_key": "!items!sXzRLHSsUjh87GwB"
+}

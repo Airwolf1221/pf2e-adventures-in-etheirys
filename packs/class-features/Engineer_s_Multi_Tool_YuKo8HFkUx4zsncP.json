@@ -1,0 +1,98 @@
+{
+  "name": "Engineer's Multi Tool",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>As part of entering into the line of work of an engineer, all students have to first build their multi-tool - a powerful, engineer-exclusive weapon built from the ground up to suit you. You start play with a multi-tool built from the options outlined in the Engineer's Multi-Tool section. To build your multi-tool, go through each step of the multi-tool section one at a time.</p><p>You have <strong>6 Tool Points</strong> (referred to going forward as <strong>TP</strong>) which you can use to design your multi-tool, but your major engineering invention might grant you more. Your magitek tool is a very interesting innovation indeed, and as you develop it you empower it more. You can only have a single multi-tool, unless you later gain a feat that allows you to create more.</p><p>You can freely upgrade and reconfigure your multi-tool's <strong>TP</strong> investments, so long as you do not remove traits it was given for free from other sources.</p><p>If your tool is two-handed, it has <strong>2 Bulk</strong>. Otherwise, it has <strong>1 Bulk</strong>. You are not bound to the decisions you made when you created your tool, and you can restructure it and reallocate its TP freely by using a full 6 hours of the <strong>Craft Project</strong> activity from <strong>Complete Crafting Overhaul</strong>. If your GM is not using CCO, instead you spend a full day of downtime.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:slug:multi-tool"
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "multiTool",
+        "prompt": "Select a multi-tool"
+      },
+      {
+        "key": "GrantItem",
+        "flag": "multiTool",
+        "track": true,
+        "uuid": "{item|flags.pf2e.rulesSelections.multiTool}",
+        "onDeleteActions": {
+          "granter": "cascade"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.multiToolId",
+        "priority": 5,
+        "value": "{item|flags.pf2e.itemGrants.multiTool.id}"
+      }
+    ],
+    "slug": "engineers-multi-tool",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Auto_Crossbow.png",
+  "folder": "SCBe82dhXeuinZ1q",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "YuKo8HFkUx4zsncP",
+  "sort": 1600000,
+  "_key": "!items!YuKo8HFkUx4zsncP"
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Magitek Armor",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your invention is a suit of cutting-edge medium armor, with a wide variety of attached modifications. Choose one of the two sets of statistics below for your invention, or choose another set for which you have access.</p><p>Your invention can have materia slotted just as an ordinary suit of armor. Because of the unique construction and features of your invention, everyone except you is untrained in it, even if they would normally be trained (or better) in medium armor.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "allowedDrops": {
+          "label": "Engineer Magitek Armor Inventions",
+          "predicate": [
+            "item:type:armor",
+            "item:group:medium",
+            "item:rarity:unique",
+            {
+              "lte": [
+                "item:level",
+                0
+              ]
+            }
+          ]
+        },
+        "choices": [
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.equipment.Item.0cmRijP28gLJFcEq"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.equipment.Item.a97gPzK92MOQ6dtA"
+          }
+        ],
+        "flag": "armorInvention",
+        "prompt": "Choose a suit of magitek armor",
+        "rollOption": "magitek-armor-invention"
+      },
+      {
+        "key": "GrantItem",
+        "flag": "armorInvention",
+        "uuid": "{item|flags.pf2e.rulesSelections.armorInvention}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.inventionId",
+        "priority": 5,
+        "value": "{item|flags.pf2e.itemGrants.armorInvention.id}"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:type:feature",
+            "item:trait:engineer",
+            "item:tag:magitek-armor-modification",
+            {
+              "or": [
+                "magitek-armor-invention:power-suit",
+                {
+                  "not": "item:tag:power-suit-modification"
+                }
+              ]
+            },
+            {
+              "or": [
+                "magitek-armor-invention:subterfuge-suit",
+                {
+                  "not": "item:tag:subterfuge-suit-modification"
+                }
+              ]
+            }
+          ]
+        },
+        "flag": "initialModification",
+        "key": "ChoiceSet",
+        "predicate": [
+          "class:engineer"
+        ],
+        "prompt": "Choose an initial modification"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.initialModification}",
+        "allowDuplicate": false,
+        "predicate": [
+          "class:engineer"
+        ]
+      }
+    ],
+    "slug": "magitek-armor",
+    "traits": {
+      "otherTags": [
+        "engineer-invention"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Double-barrel_Mastery.png",
+  "folder": "6vtcTQhCbv6zmjQG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "BhzHC2X8UhGh0gJ6",
+  "sort": 0,
+  "_key": "!items!BhzHC2X8UhGh0gJ6"
+}

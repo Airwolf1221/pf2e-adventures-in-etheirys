@@ -1,0 +1,69 @@
+{
+  "name": "Engineer's Pinnacle Invention",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your ability to adjust your invention has reached impossible heights, and you can use these skills to make major adjustments in your spare time. During your daily preparations, you automatically fix your invention if it's destroyed or broken, and you can change to a different invention (magitek armor, skysteel multi-tools, magitech mechs, and magitek pawns) and change your modifications.</p><p>If you have any feats that had your previous invention as a prerequisite, you can't use them until you retrain the feats as normal. However, it takes you only 1 day of downtime to retrain such a feat into a feat that has your new invention as a prerequisite, instead of 1 week.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "engineers-pinnacle-invention",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Excavator.png",
+  "folder": "SCBe82dhXeuinZ1q",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "pFLvfhjfYRqBeN7m",
+  "sort": 1500000,
+  "_key": "!items!pFLvfhjfYRqBeN7m"
+}

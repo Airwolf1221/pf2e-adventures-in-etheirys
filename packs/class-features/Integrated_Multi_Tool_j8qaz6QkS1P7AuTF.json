@@ -1,0 +1,103 @@
+{
+  "name": "Integrated Multi-Tool",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Auto_Crossbow.png",
+  "effects": [],
+  "folder": "M9BEVURza9NfomyU",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your invention is able to fit a multi-tool into it. You can build a brand new multi-tool tailor made for your construct companion. This multi-tool starts with <strong>6 Tool Points</strong> instead of 8. You integrate this multi-tool into the design of your construct, allowing it to use the multi-tool as part of its actions, and to use multi-tool overcharge feats.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:slug:multi-tool"
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "multiTool",
+        "prompt": "Select a multi-tool"
+      },
+      {
+        "key": "GrantItem",
+        "flag": "multiTool",
+        "track": true,
+        "uuid": "{item|flags.pf2e.rulesSelections.multiTool}",
+        "onDeleteActions": {
+          "granter": "cascade"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.pawnToolUuid",
+        "priority": 5,
+        "value": "{item|flags.pf2e.itemGrants.multiTool.id}"
+      }
+    ],
+    "slug": "integrated-multi-tool",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "j8qaz6QkS1P7AuTF",
+  "sort": 500000,
+  "_key": "!items!j8qaz6QkS1P7AuTF"
+}

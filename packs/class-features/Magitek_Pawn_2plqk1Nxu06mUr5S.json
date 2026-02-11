@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "Tok6OdVajXjDeMHo",
+  "name": "Magitek Pawn",
+  "color": null,
+  "sorting": "a",
+  "_id": "2plqk1Nxu06mUr5S",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_key": "!folders!2plqk1Nxu06mUr5S"
+}

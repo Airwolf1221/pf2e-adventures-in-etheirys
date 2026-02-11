@@ -1,0 +1,133 @@
+{
+  "name": "Slayer Class",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Split_Shot.png",
+  "effects": [],
+  "folder": "11fFBTkNZtvmv5FB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You integrate melee weapons into your Magitek's arsenal. This can be any common weapon, or any weapon to which you have access that isn't your multi-tool. You can modify and integrate any single melee weapon into your mech by spending one hour of work. While integrated in such a way, this weapon counts as an unarmed strike, and takes the place of either the mech's primary or secondary attacks. To integrate a weapon into the magitek's secondary attack, the weapon must have the agile or finesse traits. While integrated, the weapon cannot be disarmed or thrown, unless that weapon also has the tethered trait.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:0",
+            "item:melee",
+            {
+              "or": [
+                "item:category:martial",
+                "item:category:simple"
+              ]
+            },
+            {
+              "not": "item:trait:consumable"
+            }
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "slayerWeapon",
+        "key": "ChoiceSet",
+        "prompt": "Choose a weapon to integrate into your mech"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Primary Strike",
+            "value": "first",
+            "predicate": [
+              {
+                "not": "mech-strike-replaced:first"
+              }
+            ]
+          },
+          {
+            "label": "Secondary Strike",
+            "value": "second",
+            "predicate": [
+              {
+                "not": "mech-strike-replaced:second"
+              }
+            ]
+          }
+        ],
+        "flag": "mechStrikeReplaced",
+        "rollOption": "mech-strike-replaced",
+        "prompt": "Choose a mech strike to replace"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.slayerWeapon}",
+        "onDeleteActions": {
+          "granter": "cascade"
+        }
+      }
+    ],
+    "slug": "slayer-class",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "veZ6NDgfVYxVORJg",
+  "sort": 200000,
+  "_key": "!items!veZ6NDgfVYxVORJg"
+}

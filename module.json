@@ -445,6 +445,7 @@
           "grafted-arm-cannon": "AIE.Identifiers.Weapons.GraftedArmCannon",
           "gatling-grafted-arm": "AIE.Identifiers.Weapons.GatlingGraftedArm",
           "gust-staff": "AIE.Identifiers.Weapons.GustStaff",
+          "multi-tool": "AIE.Identifiers.Weapons.MultiTool",
           "quake-staff": "AIE.Identifiers.Weapons.QuakeStaff",
           "saya": "AIE.Identifiers.Weapons.Saya",
           "wave-staff": "AIE.Identifiers.Weapons.WaveStaff"
@@ -561,6 +562,10 @@
           "elezen": {
             "label": "AIE.Identifiers.Traits.Elezen.Name",
             "description": "AIE.Identifiers.Traits.Elezen.Description"
+          },
+          "engineer": {
+            "label": "AIE.Identifiers.Traits.Classes.Engineer.Name",
+            "description": "AIE.Identifiers.Traits.Classes.Engineer.Description"
           },
           "hrothgar": {
             "label": "AIE.Identifiers.Traits.Hrothgar.Name",

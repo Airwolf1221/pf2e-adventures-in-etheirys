@@ -1,0 +1,80 @@
+{
+  "folder": "45ReKbThaaviRqGm",
+  "name": "Promote Autoturret",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your autoturret releases a protective field, granting a barrier around your allies. All allies in a 5-foot emanation around your autoturret gain temporary Hit Points equal to your level. These temporary Hit Points last for 1 round. On a subsequent turn, the autoturret can Sustain the effect, granting these temporary Hit Points again to all allies in the emanation, including those that entered the area since your last turn. Your autoturret can Sustain this ability for up to 1 minute, but the ability ends if the autoturret uses an action to attack. When this ability ends, any allies that gained temporary hit points in this way are immune for 10 minutes, unless the autoturret was promoted via this ability’s Overcharge Function.</p><p>If you have the breakthrough invention class feature, you can choose either a 5-foot or 10-foot emanation when you Promote your autoturret. If you have the revolutionary invention class feature, you can choose a 5-foot, 10-foot, or 15-foot emanation, instead.</p><hr /><p><strong>Overcharge Function</strong> Your autoturret puts its all into the barrier, doubling the temporary Hit Points received for the duration of the ability. Additionally, all allies in the area also receive Fast Healing equal to your level for 1 turn when this ability is activated, and the first time on subsequent turns that the effect is Sustained.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "promote-autoturret",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Autoturret construct companion"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Eh8Z9Bo5z2iDO2m8",
+  "sort": 0,
+  "_key": "!items!Eh8Z9Bo5z2iDO2m8"
+}

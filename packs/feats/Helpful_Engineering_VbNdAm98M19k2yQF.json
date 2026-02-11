@@ -1,0 +1,84 @@
+{
+  "folder": "AzMaxqzrdJsJFWHa",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Helpful Engineering",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You don't just tinker with your own innovation, you fiddle with your allies' weapons as well (for their benefit, of course). Choose an ally in your reach and one of their weapons. Attempt a @Check[crafting|dc:@self.level|adjustment:2] check against a high DC for your level.</p><hr /><p><strong>Success</strong> For 1 minute, the chosen ally's Strikes with the chosen weapon gain the same offensive boost your innovation has.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.2FUEDiF8ujONkm8T]{Effect: Helpful Engineering}</p><p><strong>Critical Failure</strong> Your ally takes @Damage[1d6[@actor.flags.pf2e.engineer.aethericBoost]]{damage} of the type and amount that your aetheric boost normally deals on a successful Strike.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Aetheric Boost"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "manipulate"
+      ],
+      "otherTags": []
+    },
+    "slug": "helpful-engineering",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Helpful Tinkering"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "VbNdAm98M19k2yQF",
+  "sort": 0,
+  "_key": "!items!VbNdAm98M19k2yQF"
+}

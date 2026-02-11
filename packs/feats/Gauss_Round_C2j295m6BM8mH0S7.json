@@ -1,0 +1,83 @@
+{
+  "folder": "q58N7HxVHt4k2EEI",
+  "name": "Gauss Round",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Installing a series of powerful magnetic gadgets and fields in your firearm's barrel or your arrow’s rest, you charge your invention with lightning before firing a powerful shot. Make a ranged strike with your invention, doubling your invention’s range increment. On a hit, the target takes normal damage, plus an additional 1d4 points of lightning damage for each die of damage your invention deals.</p><hr /><p><strong>Overcharge Function</strong> The damage dice for the additional lightning damage increases to 1d8. Your ammunition retains the magnet's charge, creating a brief magnetic field around the target. The target takes @Damage[(max(1, floor(@actor.level/2)))[persistent,electricity]] damage equal to half your level. For as long as the target is taking this persistent damage, creatures gain a +1 status bonus to all attack rolls against the target with metal weapons or effects with the lightning trait, and the target takes a –1 status penalty to all saving throws against effects with the lightning trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "gauss-round",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Skysteel Multi-Tool invention"
+        },
+        {
+          "value": "your invention is in the bow, crossbow, or firearm weapon group"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "C2j295m6BM8mH0S7",
+  "sort": 0,
+  "_key": "!items!C2j295m6BM8mH0S7"
+}

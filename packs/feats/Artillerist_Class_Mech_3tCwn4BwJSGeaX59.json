@@ -1,0 +1,74 @@
+{
+  "folder": "TdnffYt2INLjMBnt",
+  "name": "Artillerist-Class Mech",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You integrate and add a single ranged weapon to your magitek. This can be any common weapon from the Firearm or Bow group, or a weapon from the firearm or bow groups to which you have access, but it cannot be your multi-tool. The reload cost of the weapon remains the same, but you can load the weapon from the cockpit of your magitek. You must be operating your magitek to use the integrated weapon.</p><p>You can alternatively integrate or create a special, thrown weapon into your mech. This counts as an unarmed strike and uses expendable ammunition created automatically by your mech.</p><p><em><strong>Foundry note</strong> Simply add the magitek mech strike trait to the weapon you select to have it count as an integrated mech weapon for class features.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "artillerist-class-mech",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer",
+        "modification"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Mech invention"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "3tCwn4BwJSGeaX59",
+  "sort": 0,
+  "_key": "!items!3tCwn4BwJSGeaX59"
+}

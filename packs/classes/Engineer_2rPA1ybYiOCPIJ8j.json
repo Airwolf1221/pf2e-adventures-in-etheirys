@@ -1,0 +1,301 @@
+{
+  "name": "Engineer",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><em>Equipped with naught but your brain, your multi-tool and potentially a mechanical suit to assist you, you stride onto the battlefield to show to your foes what true technological superiority looks like!</em></p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.WrRmQzoPcGbDtmAf.JournalEntryPage.Y0WBqUJFmrocka8m]{Engineer}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:tag:multi-tool"
+        ],
+        "label": "Multi-Tools",
+        "slug": "multi-tools",
+        "value": 1
+      }
+    ],
+    "slug": "engineer",
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "items": {
+      "SfX2e": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.uRKfgpChuQ5HsLzD",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Heated_Clean_Shot.png",
+        "name": "Engineering Reconfiguration",
+        "level": 3
+      },
+      "BcfUN": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.MQYfJeVryIHQviRW",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Reassemble.png",
+        "name": "Invention Expert",
+        "level": 3
+      },
+      "V4RI8": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.AZwumuwlnzAMtgGp",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Enhanced_Multiweapon.png",
+        "name": "Engineering Weapon Expertise",
+        "level": 5
+      },
+      "lKeO1": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5X59DPbcAMdrQ4dO",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Slug_Shot.png",
+        "name": "Breakthrough Invention",
+        "level": 7
+      },
+      "UCeQc": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 7
+      },
+      "2CzJZ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      },
+      "zNsHg": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.zd9LM74VZj4Ogjwz",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Blazing_Shot.png",
+        "name": "Aetheric Boost",
+        "level": 9
+      },
+      "zMIYL": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.fznbKRbgkqnx1XuJ",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Increased_Action_Damage.png",
+        "name": "Engineering Expertise",
+        "level": 9
+      },
+      "RuJxV": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.spmwyE4qKN97G0nv",
+        "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+        "name": "Medium Armor Expertise (Engineer)",
+        "level": 11
+      },
+      "rzVdw": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.9YWu4DHj2aUehP8v",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Enhanced_Reassemble.png",
+        "name": "Resolute Engineer",
+        "level": 11
+      },
+      "pwpUs": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5QjmzBW8LgSxN57j",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Enhanced_Multiweapon_II.png",
+        "name": "Engineering Weapon Mastery",
+        "level": 13
+      },
+      "vhEFU": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.4sEeR7ofbKPDhaML",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Enhanced_Barrel_Stabilizer.png",
+        "name": "Perceptive Engineering",
+        "level": 13
+      },
+      "wcdZk": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.pjS12AxVlt3ZjZJu",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Double_Check.png",
+        "name": "Complete Engineering Reconfiguration",
+        "level": 13
+      },
+      "FzoVb": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      },
+      "JJh77": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.IqHqNGJOSZ7zEDJK",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Slug_Shot_Mastery.png",
+        "name": "Revolutionary Invention",
+        "level": 15
+      },
+      "evXJu": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.31tJvh5PyBXgeCWX",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Charged_Action_Mastery.png",
+        "name": "Engineer's Fortitude",
+        "level": 17
+      },
+      "XeZ1x": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.1BwtB7e5rVmflo1R",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Increased_Action_Damage_II.png",
+        "name": "Engineering Mastery",
+        "level": 17
+      },
+      "MjtE8": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.pFLvfhjfYRqBeN7m",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Excavator.png",
+        "name": "Engineer's Pinnacle Invention",
+        "level": 19
+      },
+      "aPdPn": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cGMSYAErbUG5E8X2",
+        "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "name": "Medium Armor Mastery",
+        "level": 19
+      },
+      "np4PM": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.YuKo8HFkUx4zsncP",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Auto_Crossbow.png",
+        "name": "Engineer's Multi Tool",
+        "level": 1
+      },
+      "1PBOS": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.A79E0aI7DPyyh1FD",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Full_Metal_Field.png",
+        "name": "Engineer Innovations",
+        "level": 1
+      },
+      "NRobe": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.hZ6bCLi01jqZK46y",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Checkmate.png",
+        "name": "Major Engineering Invention",
+        "level": 1
+      },
+      "llRPV": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.8NnCAINkLL8h23EI",
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Hypercharge.png",
+        "name": "Overcharge",
+        "level": 1
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "int"
+      ],
+      "selected": null
+    },
+    "hp": 8,
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "value": [
+        "crafting"
+      ],
+      "additional": 3
+    },
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classes/Engineer.png",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "2rPA1ybYiOCPIJ8j",
+  "sort": 0,
+  "_key": "!items!2rPA1ybYiOCPIJ8j"
+}

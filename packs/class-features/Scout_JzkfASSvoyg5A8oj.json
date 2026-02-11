@@ -1,0 +1,129 @@
+{
+  "name": "Scout",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Queen%27s_Gambit.png",
+  "effects": [],
+  "folder": "11fFBTkNZtvmv5FB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You built your mech for agility and speed. Your mech's speed increases by 10 feet, or 15 feet while you have an active Overcharge ability. In addition, your mech's Dex Cap increases by 1, but its AC Bonus decreases by 1. You can choose to make your mech's size medium instead of large, but your mech must be at least one size category larger than you to operate.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "land-speed"
+        ],
+        "slug": "scout",
+        "value": 10,
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "self:effect:overcharge"
+        ],
+        "selector": "land-speed",
+        "slug": "scout",
+        "value": 15
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Medium",
+            "value": "medium",
+            "predicate": [
+              {
+                "or": [
+                  "self:size:tiny",
+                  "self:size:small"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Large",
+            "value": "large"
+          }
+        ],
+        "flag": "scoutSize",
+        "prompt": "Medium or large mech size?"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.engineer.mechSize",
+        "value": "{item|flags.pf2e.rulesSelections.scoutSize}"
+      }
+    ],
+    "slug": "scout",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "JzkfASSvoyg5A8oj",
+  "sort": 400000,
+  "_key": "!items!JzkfASSvoyg5A8oj"
+}

@@ -1,0 +1,100 @@
+{
+  "img": "systems/pf2e/icons/features/classes/tangle-line.webp",
+  "name": "Tangle Line",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Thrown Only</strong></p><hr /><p>Your weapon has an extensible line that you can use to knock your enemies over and quickly recall the weapon back to your hand. Your invention gains the parry (worth <strong>2 TP</strong>), ranged trip (worth <strong>3 TP</strong>), and tethered traits, and you add the parry and ranged trip traits to the list of traits you can select for ranged multi-tool upgrades.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "parry"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "ranged-trip"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "tethered"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "skysteel-modification",
+        "thrown"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "tangle-line",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "vOinOFVoVoyzFsOG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Tangle Line"
+    }
+  },
+  "_id": "DNOj8ExRpe4tzz73",
+  "sort": 0,
+  "_key": "!items!DNOj8ExRpe4tzz73"
+}

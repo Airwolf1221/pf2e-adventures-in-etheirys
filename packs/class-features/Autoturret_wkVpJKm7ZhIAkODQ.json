@@ -1,0 +1,388 @@
+{
+  "name": "Autoturret",
+  "type": "class",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Rook_Autoturret.png",
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Rook Autoturret",
+            "value": "rook"
+          },
+          {
+            "label": "Bishop Autoturret",
+            "value": "bishop"
+          }
+        ],
+        "flag": "turretModel",
+        "rollOption": "turret-model",
+        "prompt": "Choose an autoturret variation"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod",
+        "predicate": [
+          "turret-model:rook"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "add",
+        "path": "system.abilities.str.mod",
+        "predicate": [
+          "turret-model:bishop"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "add",
+        "path": "system.abilities.dex.mod",
+        "predicate": [
+          "turret-model:rook"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod",
+        "predicate": [
+          "turret-model:bishop"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "unarmed-attack-damage",
+        "override": {
+          "dieSize": "d8"
+        }
+      },
+      {
+        "key": "Immunity",
+        "type": "bleed"
+      },
+      {
+        "key": "Immunity",
+        "type": "death-effects"
+      },
+      {
+        "key": "Immunity",
+        "type": "disease"
+      },
+      {
+        "key": "Immunity",
+        "type": "doomed"
+      },
+      {
+        "key": "Immunity",
+        "type": "drained"
+      },
+      {
+        "key": "Immunity",
+        "type": "fatigued"
+      },
+      {
+        "key": "Immunity",
+        "type": "healing"
+      },
+      {
+        "key": "Immunity",
+        "type": "void"
+      },
+      {
+        "key": "Immunity",
+        "type": "nonlethal-attacks"
+      },
+      {
+        "key": "Immunity",
+        "type": "paralyzed"
+      },
+      {
+        "key": "Immunity",
+        "type": "poison"
+      },
+      {
+        "key": "Immunity",
+        "type": "sickened"
+      },
+      {
+        "key": "Immunity",
+        "type": "unconscious"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Firearm",
+            "value": "firearm"
+          },
+          {
+            "label": "Bow",
+            "value": "bow"
+          }
+        ],
+        "flag": "rookGroup",
+        "rollOption": "rook-group",
+        "adjustName": false,
+        "prompt": "Choose a weapon group for your rook autocannon Strike",
+        "predicate": [
+          "turret-model:rook"
+        ]
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "{item|flags.pf2e.rulesSelections.rookGroup}",
+        "label": "Rook Autocannon",
+        "predicate": [
+          "turret-model:rook"
+        ],
+        "range": {
+          "increment": 60
+        },
+        "traits": [
+          "unarmed",
+          "deadly-d8"
+        ],
+        "replaceBasicUnarmed": true,
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Rook_Overload.png"
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Aetheric Mortar",
+        "predicate": [
+          "turret-model:bishop"
+        ],
+        "range": null,
+        "traits": [
+          "unarmed",
+          "reach",
+          "concussive"
+        ],
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Rook_Overdrive.png"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "turret-model:bishop"
+        ],
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5goTd6AoFgSV93uF"
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Propeller (Slashing)",
+            "value": "propeller"
+          },
+          {
+            "label": "Wing (Bludgeoning)",
+            "value": "wing"
+          }
+        ],
+        "flag": "turretDamage",
+        "rollOption": "turret-damage",
+        "prompt": "Choose a form for your autoturret's secondary attack."
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse"
+        ],
+        "label": "Propeller",
+        "predicate": [
+          "turret-damage:propeller"
+        ]
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse"
+        ],
+        "label": "Wing",
+        "predicate": [
+          "turret-damage:wing"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:slug:rook-autocannon"
+        ],
+        "mode": "add",
+        "predicate": [
+          "rook-group:firearm"
+        ],
+        "property": "weapon-traits",
+        "value": "concussive"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:slug:rook-autocannon"
+        ],
+        "mode": "add",
+        "predicate": [
+          "rook-group:bow"
+        ],
+        "property": "weapon-traits",
+        "value": "propulsive"
+      }
+    ],
+    "slug": "autoturret",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [],
+      "selected": null
+    },
+    "items": {},
+    "hp": 6,
+    "trainedSkills": {
+      "value": [
+        "acrobatics",
+        "athletics"
+      ],
+      "additional": 0
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 1
+    },
+    "attacks": {
+      "simple": 0,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 0,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": []
+    },
+    "classFeatLevels": {
+      "value": []
+    },
+    "generalFeatLevels": {
+      "value": []
+    },
+    "skillFeatLevels": {
+      "value": []
+    },
+    "skillIncreaseLevels": {
+      "value": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "folder": "zG61TvjuhSofBBBB",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "wkVpJKm7ZhIAkODQ",
+  "sort": 800000,
+  "_key": "!items!wkVpJKm7ZhIAkODQ"
+}

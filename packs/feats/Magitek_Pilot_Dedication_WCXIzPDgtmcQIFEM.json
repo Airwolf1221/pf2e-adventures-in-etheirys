@@ -1,0 +1,275 @@
+{
+  "folder": "0ORz2u84p1s53Y6K",
+  "name": "Magitek Pilot Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You excel behind the controls of your mech. Your mech's Hit Points while inactive are doubled, and you gain an additional modification for your mech, chosen from your magitek mech initial modifications, or from the initial modifications of the invention you chose to have part of your mech count as.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.ZDsnoPK15uLTpQG8.JournalEntryPage.oHlbiCHSRD1EiPnf]{Magitek Pilot (Class Archetype)}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              "secondary-invention:armor",
+              {
+                "not": "feature:alignment-nullification"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.QkvdTqdDqoeIGTrA"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor",
+              {
+                "not": "feature:fluid-dynamics"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.bvWm06OV94UKKbhg"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor",
+              {
+                "not": "feature:permafrost-barrier"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.qj3vLMs89tYNS2wV"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor",
+              {
+                "not": "feature:plasma-shielding"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.3q79TGlPJSQjcWsx"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor",
+              {
+                "not": "feature:speed-boosters"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.I5fwlVe9JZnxelD0"
+          },
+          {
+            "predicate": [
+              "feature:magitek-mech",
+              {
+                "not": "feature:biomechanical"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.kEOABgvMtcO0gEBt"
+          },
+          {
+            "predicate": [
+              "feature:magitek-mech",
+              {
+                "not": "feature:defender-class"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.U7L20cRg7rtehm4Y"
+          },
+          {
+            "predicate": [
+              "feature:magitek-mech",
+              {
+                "nor": [
+                  "feature:enhanced-locomotion",
+                  "feature:wheeled"
+                ]
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.ZgeGhCyZ04Xp1Hou"
+          },
+          {
+            "predicate": [
+              "feature:magitek-mech",
+              {
+                "not": "feature:scout"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.JzkfASSvoyg5A8oj"
+          },
+          {
+            "predicate": [
+              "feature:magitek-mech",
+              {
+                "not": "feature:slayer-class"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.veZ6NDgfVYxVORJg"
+          },
+          {
+            "predicate": [
+              "feature:magitek-mech",
+              {
+                "nor": [
+                  "feature:enhanced-locomotion",
+                  "feature:wheeled"
+                ]
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.7Z8R19hHEgVPWPpE"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:complex-multi-tool"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NRThsOwNhoJoROAX"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:dynamic-weighting"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.u8GzsQluXw3RtVyw"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:entangling-tool"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.lmfSsbnOK9dMvElJ"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:hampering-tool"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.FU9Ddz3KodMioguf"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:hefty-composition"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.vX4BC8dGRqffCMqC"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:modular-head"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5xIwGbfrV2OVRV0y"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:pacification-tools"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UbQgV5NyNht3o1kz"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:razor-prongs"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.wckjrxWOkWb5dIG3"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon",
+              {
+                "not": "feature:segmented-tool"
+              }
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.RyugAXTdbmuJGYwD"
+          }
+        ],
+        "flag": "initialModification",
+        "prompt": "Choose an initial invention"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.initialModification}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "magitek-pilot-dedication",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "engineer"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Mechtech"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "WCXIzPDgtmcQIFEM",
+  "sort": 1000000,
+  "_key": "!items!WCXIzPDgtmcQIFEM"
+}

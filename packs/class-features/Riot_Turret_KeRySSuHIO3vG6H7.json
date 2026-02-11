@@ -1,0 +1,101 @@
+{
+  "name": "Riot Turret",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Ricochet.png",
+  "effects": [],
+  "folder": "2plqk1Nxu06mUr5S",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your autoturret can adjust the force of its attacks to avoid striking a lethal blow. Your Autoturret’s attacks gain the nonlethal and versatile B trait. Each time you Command your autoturret, you can choose whether to apply the nonlethal trait to your autoturret for that turn. You must have an Autoturret companion to select this modification.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "label": "Riot Turret - Nonlethal",
+        "option": "riot-turret",
+        "toggleable": true
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          {
+            "or": [
+              "item:slug:rook-autocannon",
+              "item:slug:aetheric-mortar",
+              "item:slug:wing",
+              "item:slug:propeller"
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "nonlethal",
+        "predicate": [
+          "riot-turret"
+        ]
+      }
+    ],
+    "slug": "riot-turret",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "KeRySSuHIO3vG6H7",
+  "sort": 500000,
+  "_key": "!items!KeRySSuHIO3vG6H7"
+}

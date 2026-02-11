@@ -1,0 +1,383 @@
+{
+  "name": "Magitek Mech",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You stride in the path blazed by a myriad of people; Cid nan Garlond and his famed G-Warrior project, the feared Garlean Weapon project, and many more besides, and through your study under these figures, you've learned how to build your very own Magitek Mech, a true fusion of machinery and aetheric life.</p><p>This mech functions as a combination of armor, mount and vehicle, and is extremely customisable. Unlike a true construct, however, your magitek mech is still ultimately an object, and cannot operate without a pilot, relying entirely upon your skills as a pilot to operate. You become trained in Magitek Mech Lore, which is used specifically to control any magitek mechs, and your proficiency rank in Magitek Mech Lore increases to match your Crafting proficiency rank.</p><h2>Hit Points &amp; Defenses</h2><p>Owing to your tutelage, your magitek mech is quite sturdy. While inactive, it has 10 Hit Points, plus an additional number of Hit Points equal to 6 + your Intelligence modifier for each level you have.</p><p>However, while you are piloting your mech, you instead use and share your own Hit Points; damage taken by either you or your mech both reduce your own Hit Points directly. If you and your mech are both subjects of the same effect that affects your Hit Points, apply those effects only once (applying your result over that of your mech). This also means that if you are healed, you still regain Hit Points, even though your mech is immune to healing effects.</p><p>This shared pool is somewhat abstract in nature; Much of the damage dealt to you might be absorbed and prevented by your mech's sturdy design, but the effort required to keep control of your mech might wear you out over time, leaving you tired and opening yourself up for far more dangerous attacks. When your mech is targeted with an attack, internal systems might spark or jostle, damaging you on the inside, or breaking some aspects of your mech just enough to delay your movements.</p><p>Depending on how you choose to interface with your mech, you might even feel the pain inflicted upon your mech; essentially sharing a body.</p><p>Conversely, actions that repair your mech directly affect your hit points as well; calming your nerves and any fixing systems that might have been damaged by battle damage. Your GM might rule that damage dealt to your hit points cannot be repaired in this way, especially if that damage didn’t affect you while piloting your mech.</p><p>While constructs and objects are usually immediately destroyed at 0 Hit Points, your mech is a little harder to destroy than other constructs are. When your mech reaches 0 Hit Points, it becomes broken and begins sparking and might be destroyed if you don't Repair it, while you are left at 1 Hit Point. This works the same as the normal dying rules and determines if your mech is destroyed, with the following two changes. First, most effects that end the dying condition don't work to save a mech, but a mech can be stabilized using the Administer First Aid action, using Crafting instead of Medicine (unless your mech has the Biomechanical modification), and requiring a repair kit instead of a healer's toolkit.</p><p>Second, instead of gaining and tracking the wounded condition, if your mech becomes broken in this way more than twice within a 10 minute period, it's destroyed, and you'll need to reconstruct it by using the Craft Project action from Complete Crafting Overhaul, though you don't have to spend any money to do so, and it only takes you the single set of 6 hours. If CCO isn't being used, you need a single day of downtime instead.</p><p>You gain the Magitek Collapse action.</p><h2>Mech Immunities</h2><p>As an inanimate object, your mech is immune to bleed, death effects, disease, healing, mental effects, nonlethal attacks, and poison, as well as the doomed, drained, fatigued, paralyzed, sickened, and unconscious conditions. Your mech may have additional hardness based on the material(s) used to construct its frame, subject to GM approval.</p><p>If you later take the Artificial Intelligence feat from the magitek pilot class archetype, the mech loses its immunity to mental effects.</p><p>While operating your mech, most statuses that would affect your mech affect you instead, up to your GM’s approval.</p><h2>Size &amp; Space</h2><p>By default, your Magitek Mech is large, occupying a 10-foot by 10-foot square.</p><p>This shape may change depending on feats or modifications you apply to your mech.</p><h2>Movement</h2><p>Your mech has a base land speed of 25 feet, though you can alter this movement with certain actions and upgrades. The movement of the mech can trigger reactions, just like a creature, and the actions of its current pilot and any passengers will also trigger reactions as normal, with the exception listed at the end of Piloting Your Magitek Mech.</p><p>Like many other vehicles, the mech cannot turn on a dime, it must move in the direction it's facing, called its heading, unless you possess the Full Speed Ahead! skill feat.</p><p>When the mech moves, it must move in the direction of its heading – it can't move backwards or sideways, though it can turn gradually as it moves forward. Like other vehicles, the mech can turn up to 90 degrees for each of its full lengths it moves forward.</p><p>If an effect has your mech move in a straight line, this line is measured from the center of its front edge, and it can skew up to 45 degrees from the magitek's current heading.</p><p>When piloting your magitek in exploration mode, the magitek's Speed determines its travel speed just like a creature. No Drive actions or piloting checks are necessary to pilot your mech at these speeds.</p><h2>Piloting Your Magitek Mech</h2><p>In encounter mode, your mech moves on your turn, and you must use actions to control it. In the event that multiple creatures Take Control your mech in the same round, your mech cannot take more than 3 total actions.</p><p>However, your mech’s control scheme is custom-tailored to your specifications, making it impractical for others to use. Any other creature who attempts to Take Control of your mech are untrained in its use, regardless of their proficiency with other vehicles.</p><p>In order to Operate your mech, you must spend one action while adjacent to your mech to Board and Take Control of it. While Operating your mech, you can spend actions to Interact with the controls. Each action spent Interacting with the controls allow your mech to perform the same number of actions; any actions that require multiple actions to use, they require an equal number of Interact actions during the same turn while in control of your mech. For instance, you could order your mech to Stike while operating it, which requires one Interact action. Once you use the required actions during the same turn, your mech Strikes.</p><p>The actions taken don’t need to be consecutive, but if you don’t take all required actions for an ability by the end of that turn, the actions are lost with no effect. If you have your mech use the Run Over action, it deals a number of d6s equal to half your level (minimum 1d6) with a save against your class DC.</p><p>While Operating your mech, you are treated as part of your mech for any emanations you create, and can thus choose whether or not to exclude yourself from the area. Additionally, Interact actions you make to use the controls of the mech don't have the manipulate trait.</p><h2>Vehicle Momentum</h2><p>Unlike most other vehicles, your mech does not build momentum while in motion. If an effect mentions adding momentum to the mech, such as with the Wheeled initial modification, it gains the following effect:</p><p>While your mech is in motion, it builds up momentum that keeps it in motion. Each round, if your mech has moved in the previous round, the pilot must either use another move action or Stop the mech. If the pilot does neither of these things on their turn (Even if the pilot Delays) The mech continues to move and becomes Uncontrolled.</p><h2>Attribute Modifiers</h2><p>While your mech is an inanimate object, it truly comes alive under your control.</p><p>While you're at your mech's helm, you use half of your Intelligence modifier in place of your Strength modifier for any damage rolls using your mech's unarmed strikes and weapons.</p><p>You still use your Dexterity modifier while operating your mech for dexterity-based attacks and skill checks, as your reaction time at the controls dictate how effective your mech is in its movement, and you still use your Strength modifier for any attack rolls and skill checks.</p><h2>Strikes</h2><p>Your mech begins with two kinds of melee unarmed attacks. Its first unarmed attack deals 1d8 points of damage.</p><p>The second unarmed attack deals 1d6 points of damage, and has the Agile and Finesse traits.</p><p>Depending on the shape and design of your mech, these weapons deal bludgeoning, piercing, or slashing damage, and can take any form you choose, from a fist, claw, or even something based on an existing weapon.</p><p><strong>Foundry note</strong> These weapons can be renamed in the rule elements of this feature.</p><h2>Gear</h2><p>Your mech can't wear or use magic items, though with your GM's approval, you can modify most effects to fit your mech's design, allowing you to Invest items attached to it. This modification typically requires 1 hour of work when adding or removing items.</p><p>Your mech can have fundamental or property materia, just as a suit of armor.</p><p>Most armor interferes with the operation of your mech. The heaviest armor you can wear is Light armor, and all benefits from your armor are suppressed while operating your mech.</p><p>Other permanent items that grant or increase item bonuses to AC and saves should apply to your mech, as determined by the GM.</p><p>All of your mech's Strikes benefit from any fundamental and property materia on your handwraps of mighty blows. Alternatively, you can apply any materia directly to a mech's weapon, and can choose to use the materia or effects from either your handwraps or the applied materia. You can change which materia to apply to your mech’s strikes by spending a single action with the manipulate trait.</p><h2>Mech Statistics</h2><p>Your mech starts as one of two general models. Much like a suit of armor, your mech has an AC Bonus, a Dex Cap, and a Check Penalty. Essentially, these stats determine how responsive your mech is to your control. While operating your Mech, you add your proficiency in operating your mech or vehicles to your AC.</p><p>Most armor interferes with the operation of your mech. The heaviest armor you can wear without penalty is Light armor, and all benefits from your armor, including your proficiency, are suppressed while operating your mech, but any Check Penalty applies to relevant checks while operating your mech, and you use the lower of the Dex Cap between your mech and your worn armor when calculating your AC.</p><p>While wearing medium or heavy armor, even if you meet that armor’s Strength requirement, you take your armor’s check penalty on all Strength- and Dexterity-based skill checks made with your mech, including attack rolls, and you add that check penalty to your chosen frame’s check penalty. You otherwise ignore your Mech’s check penalty. For instance, while operating a mech with a Light Frame, with a Dex Cap of +4, but wearing a set of Quilted Armor with a Dex Cap of +2, you use the lower Dex Cap of +2 with the Light Frame’s +1 bonus to AC, where the Quilted Armor’s +2 bonus to AC is suppressed.</p><hr /><p>Provided your engineer's multi-tool has the Attached trait, you can integrate it into your mech's design. You attach your multi-tool to the mech's weapon mounting points, which have room to fit two distinct multi-tools - or a single multi-tool if that tool is two-handed or has the two-handed trait, though you need feats to design the second one. While attached in this way, your mech can use the multi-tool as one of its Strikes, but doesn't replace its standard Strikes with it, allowing it to have up to 4 Strikes baseline, once you can build another multi-tool for it.</p><p>Unlike normal vehicles, you don't need to make Piloting checks to operate your magitek mech, unless a feat or modification specifically calls for one, as the mech is something you are so accustomed to piloting. If it is called for, you use Magitek Mech Lore instead of any other Lore type.</p><p>Choose one initial magitek mech modification to apply to your mech. These modifications can alter your mech's abilities or form.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.equipment.Item.zCLRi5LFdFWC0pvf"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.equipment.Item.1x4LOQbgtuPNUWMd"
+          }
+        ],
+        "flag": "mechInvention",
+        "prompt": "Choose a mech frame type",
+        "rollOption": "magitek-mech-invention"
+      },
+      {
+        "key": "GrantItem",
+        "flag": "mechInvention",
+        "track": true,
+        "uuid": "{item|flags.pf2e.rulesSelections.mechInvention}",
+        "onDeleteActions": {
+          "granter": "cascade"
+        },
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.inventionId",
+        "priority": 5,
+        "value": "{item|flags.pf2e.itemGrants.mechInvention.id}"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "ac",
+        "predicate": [
+          "bonus:type:item",
+          {
+            "or": [
+              "bonus:slug:heavy-frame",
+              "bonus:slug:light-frame"
+            ]
+          },
+          "mech-status:collapsed"
+        ],
+        "suppress": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.CuXYaJbW9zUonNup",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "not": "feat:oversoul-directive"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "label": "PF2E.AbilityInt",
+        "slug": "mech-strike",
+        "value": 0,
+        "selector": [
+          "melee-strike-damage"
+        ],
+        "type": "ability",
+        "ability": "int",
+        "force": true,
+        "hideIfDisabled": true,
+        "predicate": [
+          "class:engineer",
+          {
+            "or": [
+              "item:category:unarmed",
+              "item:tag:mech-strike"
+            ]
+          },
+          "mech-status:crewed"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "melee-strike-damage",
+        "slug": "int",
+        "mode": "multiply",
+        "value": 0.5,
+        "predicate": [
+          "class:engineer",
+          {
+            "or": [
+              "item:category:unarmed",
+              "item:tag:mech-strike"
+            ]
+          },
+          "mech-status:crewed",
+          {
+            "not": "feature:mechtech-mastery"
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.engineer.mechSize",
+        "value": "large"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "{actor|flags.pf2e.engineer.mechSize}",
+        "predicate": [
+          "mech-status:crewed"
+        ]
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          }
+        ],
+        "flag": "firstDamageChoice",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt",
+        "key": "ChoiceSet"
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "{item|flags.pf2e.rulesSelections.firstDamageChoice}",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "label": "Pile Driver",
+        "slug": "mech-unarmed-1",
+        "traits": [
+          "unarmed"
+        ],
+        "predicate": [
+          "mech-status:crewed",
+          {
+            "not": "mech-strike-replaced:first"
+          }
+        ],
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Pile_Bunker.png"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          }
+        ],
+        "flag": "secondDamageChoice",
+        "prompt": "PF2E.UI.RuleElements.ChoiceSet.Prompt",
+        "key": "ChoiceSet"
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "{item|flags.pf2e.rulesSelections.secondDamageChoice}",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Lightning Fist",
+        "slug": "mech-unarmed-2",
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse"
+        ],
+        "predicate": [
+          "mech-status:crewed",
+          {
+            "not": "mech-strike-replaced:second"
+          }
+        ],
+        "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Heat_Blast.png"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": "2 + @actor.level",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.mechInvention}",
+          "mech-status:crewed"
+        ],
+        "type": "proficiency",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "ac",
+        "slug": "magitek-mech",
+        "mode": "upgrade",
+        "value": "4 + @actor.level",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.mechInvention}",
+          "mech-status:crewed",
+          "skill:crafting:rank:2"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "ac",
+        "slug": "magitek-mech",
+        "mode": "upgrade",
+        "value": "6 + @actor.level",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.mechInvention}",
+          "mech-status:crewed",
+          "skill:crafting:rank:3"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "ac",
+        "slug": "magitek-mech",
+        "mode": "upgrade",
+        "value": "8 + @actor.level",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.trackedItems.mechInvention}",
+          "mech-status:crewed",
+          "skill:crafting:rank:4"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "land",
+        "value": 25,
+        "predicate": [
+          "mech-status:crewed"
+        ]
+      },
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "label": "Unarmed Attack",
+        "baseType": "fist",
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse",
+          "nonlethal"
+        ],
+        "replaceBasicUnarmed": true,
+        "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+        "predicate": [
+          "mech-status:collapsed"
+        ]
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:type:feature",
+            "item:trait:engineer",
+            "item:tag:mech-modification"
+          ]
+        },
+        "flag": "initialModification",
+        "key": "ChoiceSet",
+        "predicate": [
+          "class:engineer"
+        ],
+        "prompt": "Choose an initial modification"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.initialModification}",
+        "predicate": [
+          "class:engineer"
+        ]
+      }
+    ],
+    "slug": "magitek-mech",
+    "traits": {
+      "otherTags": [
+        "engineer-invention"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Roller_Dash.png",
+  "folder": "6vtcTQhCbv6zmjQG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "Qr2ETlQLUrgAh9IE",
+  "sort": 0,
+  "_key": "!items!Qr2ETlQLUrgAh9IE"
+}

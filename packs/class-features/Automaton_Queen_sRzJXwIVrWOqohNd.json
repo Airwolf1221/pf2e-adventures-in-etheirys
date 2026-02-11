@@ -1,0 +1,141 @@
+{
+  "name": "Automaton Queen",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "zG61TvjuhSofBBBB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.my7vWJfd7GCsNtI7",
+        "predicate": [
+          {
+            "not": "class:automaton-queen"
+          }
+        ],
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disableABP",
+        "value": true,
+        "priority": 10
+      }
+    ],
+    "slug": "automaton-queen",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "construct",
+        "minion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "td83s": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.EtPoAOV3cSq0CgBf",
+        "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+        "name": "Queen Strike 1",
+        "level": 1
+      },
+      "AV68x": {
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.SdZ23c3Mp1XriZ12",
+        "img": "systems/pf2e/icons/spells/impaling-spike.webp",
+        "name": "Queen Strike 2",
+        "level": 1
+      }
+    },
+    "vision": "normal"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "sRzJXwIVrWOqohNd",
+  "sort": 900000,
+  "_key": "!items!sRzJXwIVrWOqohNd"
+}

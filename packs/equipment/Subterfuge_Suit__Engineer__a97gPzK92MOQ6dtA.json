@@ -1,0 +1,120 @@
+{
+  "img": "systems/pf2e/icons/equipment/armor/subterfuge-suit.webp",
+  "name": "Subterfuge Suit (Engineer)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your invention is a cutting-edge suit of medium armor with a variety of attached gizmos and devices.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "downgrade",
+        "predicate": [
+          "bonus:proficiency",
+          {
+            "not": "feature:magitek-armor-invention"
+          }
+        ],
+        "requiresInvested": false,
+        "selector": "ac",
+        "value": 0
+      }
+    ],
+    "slug": "subterfuge-suit",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "subterfuge-suit",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Subterfuge Suit",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "medium",
+    "group": "composite",
+    "acBonus": 2,
+    "strength": 0,
+    "dexCap": 4,
+    "checkPenalty": -1,
+    "speedPenalty": 0,
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "GLoew2MIy6RSsv5J",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Subterfuge Suit"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "a97gPzK92MOQ6dtA",
+  "sort": 400000,
+  "_key": "!items!a97gPzK92MOQ6dtA"
+}

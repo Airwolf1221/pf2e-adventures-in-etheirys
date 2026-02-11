@@ -1,0 +1,101 @@
+{
+  "folder": "hCZaOJwgxgFqztx8",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Overcharge Ally",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> Overcharge is currently active.</p><hr /><p>You quickly fling some of your powered-up mechanisms to an ally, sharing your benefits with them briefly. Choose an ally within 30 feet. Until the end of their next turn, that ally's Strikes deal additional damage equal to half your Intelligence modifier, or your full Intelligence modifier if you were in a two-action overcharge. The ally doesn't gain the increased damage from expert, master, or legendary overcharge.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.J46kBfgKL12mtYUu]{Effect: Overcharge Ally}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Overcharge"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.engineer.overchargeAlly.damage",
+        "phase": "afterDerived",
+        "predicate": [
+          "self:effect:overcharge-1a"
+        ],
+        "value": "floor(@actor.system.abilities.int.mod/2)"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.inventor.overchargeAlly.damage",
+        "phase": "afterDerived",
+        "predicate": [
+          "self:effect:overcharge-2a"
+        ],
+        "value": "@actor.system.abilities.int.mod"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "manipulate"
+      ],
+      "otherTags": []
+    },
+    "slug": "overcharge-ally",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Overdrive Ally"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "7RpvKev1wygqTVGH",
+  "sort": 0,
+  "_key": "!items!7RpvKev1wygqTVGH"
+}

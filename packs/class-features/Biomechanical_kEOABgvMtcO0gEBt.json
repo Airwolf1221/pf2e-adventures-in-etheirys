@@ -1,0 +1,77 @@
+{
+  "name": "Biomechanical",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Bioblaster.png",
+  "effects": [],
+  "folder": "11fFBTkNZtvmv5FB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mech's design incorporates organic components. While parts of the mech may be mechanical in nature, it might feature blood, bone, flesh, or even plant matter in its design – synthetic or natural. You might physically connect with your mech via various apparatuses. Your mech counts as your choice of either a living creature or an undead creature, and can be affected by Healing effects accordingly for the chosen type. It is still mindless, and cannot be affected by Mental effects.</p><p>Your mech becomes susceptible to bleed, disease, and poison, as well as to the paralyzed and sickened conditions, but remains immune to death effects, mental effects, as well as the doomed, drained, fatigued, and unconscious conditions.</p>"
+    },
+    "rules": [],
+    "slug": "biomechanical",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "kEOABgvMtcO0gEBt",
+  "sort": 0,
+  "_key": "!items!kEOABgvMtcO0gEBt"
+}

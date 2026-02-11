@@ -1,0 +1,128 @@
+{
+  "name": "Magitek Collapse",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>While durable and sturdy, your mech is built with materials and technology that allow it to collapse into a more compact form. As long as you are adjacent to your mech, you can Collapse it into its compact form, or return it to its normal form. You can activate this ability as part of the same action required to Pilot your mech.</p><p>In its compact form, the mech cannot be piloted, but can easily be carried or dragged. The mech has a bulk of 4 if it's medium, 8 if it's large, or 16 if it's huge. The compact form has wheels, so you can easily drag it behind you at half your speed (rather than the usual slower speed for dragging).</p><hr /><p><strong>Special</strong> If you spend one full round outside of your mech's cockpit, this effect is automatically activated at the end of your turn, unless you spend an action with the manipulate trait during your turn to keep it at its normal size. You must be adjacent to your mech to perform this action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "label": "Magitek Mech Status",
+        "option": "mech-status",
+        "suboptions": [
+          {
+            "label": "Collapsed",
+            "value": "collapsed"
+          },
+          {
+            "label": "Crewed",
+            "value": "crewed"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:crewed"
+        ],
+        "mode": "override",
+        "property": "bulk",
+        "value": 0
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:collapsed",
+          "mech-size:medium"
+        ],
+        "mode": "override",
+        "property": "bulk",
+        "value": 4
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:collapsed",
+          "mech-size:large"
+        ],
+        "mode": "override",
+        "property": "bulk",
+        "value": 8
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:collapsed",
+          "mech-size:huge"
+        ],
+        "mode": "override",
+        "property": "bulk",
+        "value": 16
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:collapsed"
+        ],
+        "mode": "override",
+        "property": "dex-cap",
+        "value": 10
+      }
+    ],
+    "slug": "magitek-collapse",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer",
+        "manipulate"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": "PqrIDL4niX9Ur1Ys",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "CuXYaJbW9zUonNup",
+  "sort": 300000,
+  "_key": "!items!CuXYaJbW9zUonNup"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Materia Slots",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Enhanced_Barrel_Stabilizer.png",
+  "effects": [],
+  "folder": "k6Aiq1jeDKBqxxgT",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've incorporated gadgets into your invention to allow it to hold a property materia, even though it isn't a weapon or suit of armor. An armor property materia affects your invention itself if it would affect the wearer of the armor. A weapon property materia grants whatever properties it would normally grant to a weapon to your invention's unarmed attacks, following all the requirements as normal; if the materia affects only ranged attacks, it has no effect unless your invention has a built-in ranged attack (from the projectile launcher initial modification, for example). If the materia would affect the physical shape or appearance of the weapon or armor itself, like glamered, the materia has no effect when slotted into your construct.</p>"
+    },
+    "rules": [],
+    "slug": "materia-slots",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "i2Wh7CFvyp7e56NJ",
+  "sort": 25000,
+  "_key": "!items!i2Wh7CFvyp7e56NJ"
+}

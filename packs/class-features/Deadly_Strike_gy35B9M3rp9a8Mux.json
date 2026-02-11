@@ -1,0 +1,101 @@
+{
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "name": "Deadly Strike",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Through precise calculation, you've found the perfect shape for your weapon to deal extreme damage on a well-placed strike. Your invention gains the deadly d8 trait. If your invention was already deadly, it increases its deadly die to d12 instead of gaining deadly d8.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          "item:trait:deadly"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "deadly-d12"
+      },
+      {
+        "definition": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          {
+            "not": "item:trait:deadly"
+          }
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "priority": 112,
+        "property": "weapon-traits",
+        "value": "deadly-d6"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "deadly-strike",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "AD1wpqZGUCIc7jsu",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Deadly Strike"
+    }
+  },
+  "_id": "gy35B9M3rp9a8Mux",
+  "sort": 200000,
+  "_key": "!items!gy35B9M3rp9a8Mux"
+}

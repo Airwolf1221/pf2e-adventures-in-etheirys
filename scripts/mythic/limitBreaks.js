@@ -35,18 +35,20 @@ async function decrementUses(item, updates) {
         const lbUses = actor.system.resources.lbUses.value, newLbUses = lbUses - 1;
         let newUses = undefined;
 
-        if (!item.system.traits.otherTags.includes('limit-rank-4')) {
+        if (!item.system.traits.otherTags.includes('limit-break-4')) {
             newUses = updates.system?.frequency?.value;
             if (lbUses != newLbUses) actor.updateResource('lbUses', newUses, { render: true });
         } else actor.updateResource('lbUses', newLbUses, { render: true });
+
+        if (item.system.traits.otherTags.includes('limit-break-4')) item.update({ "flags.pf2e.dailyLB4Use": true, "flags.pf2e.forcedUpdate": true });
 
         const otherLimitBreaks = actor.items.filter((i) => i.id != item.id && i.type === 'feat' && i.system.traits.otherTags.some(t => limitBreakRanks.includes(t)));
         if (!otherLimitBreaks) return;
 
         for (const limitBreak in otherLimitBreaks) {
-            if (!otherLimitBreaks[limitBreak].system.traits.otherTags.includes('limit-rank-4')) {
-                if (newUses) otherLimitBreaks[limitBreak].update({ "system.frequency.value": newUses, "flags.pf2e.forcedUpdate": true });
-            } else if (newUses = 0) otherLimitBreaks[limitBreak].update({ "system.frequency.value": 0, "flags.pf2e.forcedUpdate": true });
+            if (!otherLimitBreaks[limitBreak].system.traits.otherTags.includes('limit-break-4')) {
+                if (newUses != undefined) otherLimitBreaks[limitBreak].update({ "system.frequency.value": newUses, "flags.pf2e.forcedUpdate": true });
+            } else if (newUses === 0) otherLimitBreaks[limitBreak].update({ "system.frequency.value": 0, "flags.pf2e.forcedUpdate": true });
         }
     } else if (item.slug === 'blessing-of-the-limit') {
         let newLbUses = updates.system?.rules?.filter((i) => i.key === 'SpecialResource');
@@ -55,10 +57,19 @@ async function decrementUses(item, updates) {
 
         const limitBreaks = item.actor.items.filter((i) => i.type === "feat" && i.system.traits.otherTags.some(t => limitBreakRanks.includes(t)));
         for (const limitBreak in limitBreaks) {
-            if (!limitBreaks[limitBreak].system.traits.otherTags.includes("limit-break-4")) {
+            if (newLbUses === 0) limitBreaks[limitBreak].update({ "system.frequency.value": 0, "flags.pf2e.forcedUpdate": true });
+            else if (!limitBreaks[limitBreak].system.traits.otherTags.includes("limit-break-4")) {
                 limitBreaks[limitBreak].update({ "system.frequency.value": newLbUses, "flags.pf2e.forcedUpdate": true });
-            } else if (newLbUses === 0) limitBreaks[limitBreak].update({ "system.frequency.value": 0, "flags.pf2e.forcedUpdate": true });
+            } else if (!limitBreaks[limitBreak].flags.pf2e.dailyLB4Use) limitBreaks[limitBreak].update({ "system.frequency.value": 1, "flags.pf2e.forcedUpdate": true });
         }
+    }
+}
+
+// Reset daily LB4 counter
+async function resetLB4(actor) {
+    const LB4s = actor.items.filter((i) => i.type === "feat" && i.system.traits.otherTags.includes("limit-break-4"));
+    for (const lb4 in LB4s) {
+        LB4s[lb4].update({ "flags.pf2e.dailyLB4Use": false, "flags.pf2e.forcedUpdate": true });
     }
 }
 
@@ -74,6 +85,12 @@ async function syncEffectDuration(effect) {
             if (!duration) return;
             return effect.update({ 'system.duration.value': limitDuration });
         }
+    } else if (effect.system.traits?.otherTags?.includes("limit-break-1") || effect.system.traits?.otherTags?.includes("limit-break-2") || effect.system.traits?.otherTags?.includes("limit-break-3")) {
+        const actorLevel = effect.actor.level;
+        if (!actorLevel) return;
+
+        const limitBreakUses = getLimitBreakLevel(actorLevel);
+        if (effect.system.frequency.max != limitBreakUses) effect.update({ "system.frequency.max" : limitBreakUses, "system.frequency.value": effect.actor.system.resources.lbUses.value, "flags.pf2e.forcedUpdate": true });
     }
 }
 
@@ -97,5 +114,6 @@ async function updateActorLBs(actor, changes) {
 export let limitBreaks = {
     'decrementUses': decrementUses,
     'syncEffects': syncEffectDuration,
-    'updateActor': updateActorLBs
+    'updateActor': updateActorLBs,
+    'restLB4Reset': resetLB4
 }

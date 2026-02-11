@@ -1,0 +1,77 @@
+{
+  "name": "Enhanced Locomotion",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Roller_Dash.png",
+  "effects": [],
+  "folder": "11fFBTkNZtvmv5FB",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mech has refined legs – possibly more than most. Your mech might be modeled after Scorpion-class models, with six legs arrayed in a pattern around the main \"torso\" positioned in the center on a 360-degree rotary axel. Your mech might be shaped vaguely like a Chocobo, with a pair of powerful, digitigrade legs. It might be vaguely horse- or centaur-like, with four strong legs.</p><p>Your mech can ignore its Heading when moving, and can turn any direction any number of times while in motion, or even move backwards. If a creature attempts to Trip your mech, it treats the result of its Athletics check as one degree of success worse than normal. If you take this modification, you cannot take the Wheeled modification.</p>"
+    },
+    "rules": [],
+    "slug": "enhanced-locomotion",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ZgeGhCyZ04Xp1Hou",
+  "sort": 300000,
+  "_key": "!items!ZgeGhCyZ04Xp1Hou"
+}

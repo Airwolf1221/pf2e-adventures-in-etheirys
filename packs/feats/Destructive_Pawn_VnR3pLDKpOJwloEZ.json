@@ -1,0 +1,79 @@
+{
+  "folder": "U0Xphg5yv6LDFi6R",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Destructive Pawn",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Your pawn unleashes a broad swath of devastation by separating its limbs, deploying hidden armaments, or using a similar technique to wreak havoc. You Command your magitek pawn. Instead of its normal actions, it Strides once, then makes a Strike against each foe within 30 feet of it with a +2 circumstance bonus to its attack rolls. The multiple attack penalty doesn't increase until after the pawn makes all the attacks.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.yibGs2mZ4eUFGe7M]{Effect: Destructive Pawn}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 18
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Pawn invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ],
+      "otherTags": []
+    },
+    "slug": "destructive-pawn",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Engine of Destruction"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "VnR3pLDKpOJwloEZ",
+  "sort": 0,
+  "_key": "!items!VnR3pLDKpOJwloEZ"
+}

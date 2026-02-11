@@ -1,0 +1,87 @@
+{
+  "img": "icons/magic/symbols/cog-shield-white-blue.webp",
+  "name": "Perfected Fortification",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Power Suit only</strong></p><hr /><p>You've outfitted your armor with such heavy fortifications that deadly attacks often lose their edge. Each time you're critically hit while wearing the armor, attempt a @Check[flat|dc:13|showDC:all]. On a success, it becomes a normal hit. This isn't cumulative with <em>fortification</em> runes or other abilities that reduce critical hits with a flat check. Additionally, you gain resistance 2 + half your level against precision damage.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}"
+        ],
+        "type": "precision",
+        "value": "2 + floor(@actor.level / 2)"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification",
+        "power-suit-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "perfected-fortification",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jvy7nGzmMAtBRSVC",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Perfect Fortification"
+    }
+  },
+  "_id": "8BRdtMDyTYPmfeZI",
+  "sort": 0,
+  "_key": "!items!8BRdtMDyTYPmfeZI"
+}

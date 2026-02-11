@@ -1,0 +1,78 @@
+{
+  "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+  "name": "Materia Slots",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Whether you've done some dabbling in rare alloys or found another engineering solution, you've built your invention in such a way that it can hold an additional property materia. Your invention can have one more property materia than a normal item of its kind (to a maximum of four property materia with a +3 potency armor or +3 potency weapon).</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification",
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "materia-slots",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "7cY0vw9psg9VpBVP",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Rune Capacity"
+    }
+  },
+  "_id": "p78JM5nOm7i9dDHv",
+  "sort": 100000,
+  "_key": "!items!p78JM5nOm7i9dDHv"
+}

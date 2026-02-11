@@ -1,0 +1,83 @@
+{
+  "folder": "D4UqfmDWq6v91mVv",
+  "name": "AMP Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your invention has a small, elemental generator, capable of empowering ammunition in its power. Choose between earth, fire, ice, lightning, water, or wind. Your next Strike deals an additional 1d6 damage of that type on a hit.</p><hr /><p><strong>Overcharge Function</strong> The additional damage increases to 1d6, and the Strike also deals 1d6 persistent damage of the type for each die of damage your weapon normally deals.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "amp-shot",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Skysteel Multi-Tool invention"
+        },
+        {
+          "value": "your invention is in the bow, crossbow, or firearm group"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "H1g8AXxlIhH6faws",
+  "sort": 0,
+  "_key": "!items!H1g8AXxlIhH6faws"
+}

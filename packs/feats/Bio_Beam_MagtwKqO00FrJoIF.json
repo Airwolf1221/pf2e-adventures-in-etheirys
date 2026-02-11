@@ -1,0 +1,93 @@
+{
+  "folder": "0ORz2u84p1s53Y6K",
+  "name": "Bio Beam",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your mech’s beam cannon can fire noxious energy. You activate Black Magic Beam, dealing persistent damage of the chosen element instead of its normal damage. Its area also changes from a 30-foot line to a @Template[type:cone|distance:15], and affected creatures make a @Check[fortitude|against:engineer|basic] save instead of Reflex.</p><hr /><p><strong>Overcharge Function</strong> You put ever more power into bio blaster, though you risk overstressing the projector. Add the amp and overcharge traits to Black Magic Beam. The area becomes a @Template[type:cone|distance:30]. You cannot add the effects of more than one Beam overcharge function to a single use of a beam.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "traits",
+        "value": "amp-ff"
+      }
+    ],
+    "slug": "bio-beam",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "arcane",
+        "archetype",
+        "engineer",
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Black Magic Beam"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "MagtwKqO00FrJoIF",
+  "sort": 1500000,
+  "_key": "!items!MagtwKqO00FrJoIF"
+}

@@ -1,0 +1,102 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Air_Anchor.png",
+  "name": "Effect: Cryovolt",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.FzrOrIulVtx4CjEO]{Cryovolt}</p><p>On a <strong>Success</strong>, you take a –5-foot status penalty to your Speeds.</p><p>On a <strong>Failure</strong>, you take a –10-foot status penalty to your Speeds.</p><p>On a <strong>Critical Failure</strong>, you are slowed 1 and take a –15-foot status penalty to your Speeds.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 12
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": 5
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.failure",
+            "value": 10
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalFailure",
+            "value": 15
+          }
+        ],
+        "flag": "cryovoltSpeedPenalty",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess",
+        "rollOption": "cryovolt-penalty"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "all-speeds"
+        ],
+        "type": "circumstance",
+        "value": "-@item.flags.pf2e.rulesSelections.cryovoltSpeedPenalty"
+      },
+      {
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "predicate": [
+          "cryovolt-penalty:15"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-cryovolt",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "y97SULj2pQ4Yn1aj",
+  "sort": 0,
+  "_key": "!items!y97SULj2pQ4Yn1aj"
+}

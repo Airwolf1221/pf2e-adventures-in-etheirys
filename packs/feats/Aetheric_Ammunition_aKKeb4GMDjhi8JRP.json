@@ -1,0 +1,76 @@
+{
+  "folder": "TdnffYt2INLjMBnt",
+  "name": "Aetheric Ammunition",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Through careful applications of aetheric manipulation, deep understanding of the antimatter manipulation principle, or perhaps another ingenious creation of yours, you've created a device capable of creating and using temporary ammunition.</p><p>If you don't already have an aetherotransformer due to gaining AMP abilities, you create one. As long as your aetherotransformer is on your person, it can synthesize basic firearm ammunition or crossbow bolts you can load into your multi-tool.</p><p>Unlike normal ammunition, bullets created by this ability contain no gunpowder, black powder, or any similar substances. No matter the type created, this ammunition is condensed, hardened lightning-aspected energy, propelled through your tool through a rapid, explosive conversion of lightning-aspected energy into wind.</p><p>Using your aetherotransformer to create such mundane ammunition requires no additional actions; this ammunition is simply created as part of the action to load it. However, due to their unique nature, ammunition created in such a way functions only in your multi-tools, and disappears within 1 minute if not actively loaded in one of your multi-tools.</p><p>While your multi-tool is loaded with aetheric ammunition created by your aetherotransformer, if your tool had the concussive trait, it loses that trait and instead uses the worse of a target's resistances to its normal damage type or to wind damage when calculating damage dealt. Regardless of your tool's form, it gains the AMP trait, treating damage dealt as though it were magical, even without attached materia.</p><hr /><p><strong>Special</strong> If your multi-tool is attached to your magitek mech, you can build in this system for your mech to be able to utilise the same functionality when wielding your multi-tool.</p><p><em><strong>Foundry note</strong> This isn't automated, simply add extra ammunition to your sheet to emulate this feature.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "aetheric-ammunition",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Engineer's Multi-Tool"
+        },
+        {
+          "value": "your multi-tool is in the crossbow or firearm group"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "aKKeb4GMDjhi8JRP",
+  "sort": 0,
+  "_key": "!items!aKKeb4GMDjhi8JRP"
+}

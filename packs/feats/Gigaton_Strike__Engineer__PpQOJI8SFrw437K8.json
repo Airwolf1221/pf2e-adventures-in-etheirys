@@ -1,0 +1,91 @@
+{
+  "folder": "hCZaOJwgxgFqztx8",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Gigaton Strike (Engineer)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>When you use a full-power Megaton Strike, you can knock your foe back. When you succeed at your Strike while using an overcharged Megaton Strike, your target must attempt a @Check[fortitude|against:engineer] save against your class DC.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is pushed back 5 feet.</p><p><strong>Failure</strong> The creature is pushed back 10 feet.</p><p><strong>Critical Failure</strong> The creature is pushed back 20 feet.</p><hr /><p><strong>Special</strong> If your invention is a minion, this benefit applies on its overcharged Megaton Strikes.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 8
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Megaton Strike"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "predicate": [
+          "megaton-strike",
+          "overcharged"
+        ],
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "{item|description}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ],
+      "otherTags": []
+    },
+    "slug": "gigaton-strike-engineer",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Gigaton Strike"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "PpQOJI8SFrw437K8",
+  "sort": 0,
+  "_key": "!items!PpQOJI8SFrw437K8"
+}

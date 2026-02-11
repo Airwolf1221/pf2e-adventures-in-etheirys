@@ -1,0 +1,117 @@
+{
+  "name": "Magitek Colossus",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Promotion.png",
+  "effects": [],
+  "folder": "H6Y5MHRw4QhAASJg",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your mech's size increases by one size category, to a maximum of Huge. It gains a +4 bonus to melee damage rolls, your Dex Cap decreases by 1, to a minimum of +0, and its melee attacks gain the Reach trait. If your multi-tool is attached to your mech and it already had the reach trait, you can spend 3 TP on additional traits to grant your multi-tool, but these traits are only active while it is attached to your mech.</p>"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": 1,
+        "predicate": [
+          "mech-status:crewed"
+        ]
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.mechInvention}",
+        "key": "ItemAlteration",
+        "predicate": [
+          "mech-status:crewed"
+        ],
+        "mode": "subtract",
+        "property": "dex-cap",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "melee-strike-damage"
+        ],
+        "value": 4,
+        "predicate": [
+          "mech-status:crewed"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:category:unarmed"
+        ],
+        "predicate": [
+          "mech-status:crewed"
+        ],
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "reach"
+      }
+    ],
+    "slug": "magitek-colossus",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "mech-modification"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "L83Yyf3Bt346s7ET",
+  "sort": 300000,
+  "_key": "!items!L83Yyf3Bt346s7ET"
+}

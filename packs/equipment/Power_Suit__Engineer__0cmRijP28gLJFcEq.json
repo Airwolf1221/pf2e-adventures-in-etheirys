@@ -1,0 +1,120 @@
+{
+  "img": "systems/pf2e/icons/equipment/armor/power-suit.webp",
+  "name": "Power Suit (Engineer)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your invention is a cutting-edge suit of medium armor with a variety of attached gizmos and devices.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "downgrade",
+        "predicate": [
+          "bonus:proficiency",
+          {
+            "not": "feature:magitek-armor-invention"
+          }
+        ],
+        "requiresInvested": false,
+        "selector": "ac",
+        "value": 0
+      }
+    ],
+    "slug": "power-suit",
+    "_migration": {
+      "version": 0.954,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "power-suit",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Power Suit",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "medium",
+    "group": "composite",
+    "acBonus": 5,
+    "strength": 3,
+    "dexCap": 1,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "GLoew2MIy6RSsv5J",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Power Suit"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "0cmRijP28gLJFcEq",
+  "sort": 100000,
+  "_key": "!items!0cmRijP28gLJFcEq"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Major Engineering Invention",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain a major engineering invention, your greatest achievement that defined your engineering career; maybe you worked with the Skysteel Manufactory to make a particularly incredible magitek tool, or with Garlond Ironworks on their G-Warrior Project. Choose a major engineering invention from the options below. Your invention's level is equal to your level.</p><p>If your invention is destroyed, you may use the <strong>Craft Project</strong> activity from <strong>Complete Crafting Overhaul</strong> to rebuild it over a 6 hour day, without spending any resources. An invention only functions due to your meticulous efforts, and has no market price. If your GM is not using CCO, you instead spend 1 day of downtime and attempt a Crafting check with a standard DC for your level; on a success, you rebuild your invention.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.BhzHC2X8UhGh0gJ6]{Magitek Armor}</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.Qr2ETlQLUrgAh9IE]{Magitek Mech}</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.pUOVAWI9beq9AVH1]{Magitek Pawn}</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.8hdUkjcsnA5Acine]{Skysteel Multi-Tool}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:engineer-invention"
+          ]
+        },
+        "flag": "invention",
+        "key": "ChoiceSet",
+        "prompt": "Choose an engineering invention"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.invention}"
+      }
+    ],
+    "slug": "major-engineering-invention",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Checkmate.png",
+  "folder": "SCBe82dhXeuinZ1q",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "hZ6bCLi01jqZK46y",
+  "sort": 700000,
+  "_key": "!items!hZ6bCLi01jqZK46y"
+}

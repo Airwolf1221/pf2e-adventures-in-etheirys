@@ -1,0 +1,78 @@
+{
+  "name": "Magitek Pawn",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You stride in the path of those who develop mechanical puppets, generally known as Pawn. Choose the Automaton Queen or an Autoturret to be your invention, or choose another set of pawn statistics to which you have access.</p><h2>The Automaton Queen</h2><p>The Automaton Queen is the most balanced option. It's a prototype construct companion, and its statistics can be modified by taking feats at higher levels, such as Pawn Promotion.</p><h2>Autoturrets</h2><p>An Autoturret is a Tiny, floating clockwork construct that comes in two distinct varieties: the Rook and the Bishop.</p><p>The <strong>Rook Autoturret</strong> is weaker and more fragile than the Automaton Queen, but features a powerful ranged attack known as the rook autocannon as its primary attack, dealing 1d6 piercing damage with a 60ft. range increment, Reload 0, and has the deadly d8 trait. This attack is either in the firearm or bow weapon group, of your choice; the firearm version gains the concussive trait, while the bow version gains the propulsive trait. The Rook's attribute modifiers are as follows: <strong>Str</strong> +2; <strong>Dex</strong> +4; <strong>Con</strong> +0; <strong>Int</strong> -4; <strong>Wis</strong> +1; <strong>Cha</strong> +0.</p><p>By contrast, the <strong>Bishop Autoturret</strong> is a stronger cousin that specialises in fighting a larger number of enemies. The Bishop's primary attack is an aetheric mortar, which is a melee unarmed attack that deals 1d6 piercing damage with a reach of 5 feet, is in the firearm weapon group, and has the concussive trait. Unlike a normal attack, however, the Bishop's aetheric mortar requires two actions to use, but is an indiscrimiate area of affect. You must Command your Bishop to use aetheric mortar, and when it does so, the Bishop makes a Strike against all creatures within the mortar's Reach, including allies, applying its MAP as normal, but not increasing it until all Strikes have been made. The Bishop's attribute modifiers are as follows: <strong>Str</strong> +4; <strong>Dex</strong> +0; <strong>Con</strong> +2; <strong>Int</strong> -4; <strong>Wis</strong> +1; <strong>Cha</strong> +0.</p><p>Both autoturrets have a secondary attack, as well, dealing 1d4 damage with the agile and finesse traits. This attack deals damage appropriate for your autoturret’s form; typically slashing damage for a propeller, or bludgeoning damage for a wing. Autoturrets float 5 feet off the ground, and are thus immune to ground-based difficult terrain. Your turret has a 25 foot fly Speed, and a land Speed of 5 feet.</p><p>Unless your autoturret has the Flight Chassis modification, it cannot fly farther than 5 feet off the ground, but it does not need to spend an action to Fly each turn to avoid falling; it simply remains stationary at the same point in the air. If it gains the Flight Chassis modification, it must use an action each turn to Fly, as normal, unless it remains 5 feet above the ground. Beyond these changes, the Autoturret is otherwise treated as a prototype companion for statistics and behaviors. Certain effects affect the Autoturret differently, as noted in the ability’s description. Both Autoturret’s continually create generic, non-magical ammo inside themselves for use with their attacks, and don’t need to be reloaded. However, you can install a reservoir for ammunition in your turret to fire any type of ammunition inserted inside.</p><hr /><p>No matter which construct you choose, when you use an Overcharge action, your construct gains the same Overcharge benefits you do, and it also takes the same penalties, if appropriate.</p><p>You know how to spend additional time directing, controlling, or programming your construct invention for a more complex plan of action. You can spend 2 actions to Command instead of 1 when commanding your construct companion; your construct companion can then use an additional action (normally 3 actions, rather than 2).</p><p>Choose one initial pawn modification to apply to your invention from the options found below. These modifications alter the construct's abilities or form.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.inventionId",
+        "value": null
+      }
+    ],
+    "slug": "magitek-pawn",
+    "traits": {
+      "otherTags": [
+        "engineer-invention"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Automaton_Queen.png",
+  "folder": "6vtcTQhCbv6zmjQG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "pUOVAWI9beq9AVH1",
+  "sort": 100000,
+  "_key": "!items!pUOVAWI9beq9AVH1"
+}

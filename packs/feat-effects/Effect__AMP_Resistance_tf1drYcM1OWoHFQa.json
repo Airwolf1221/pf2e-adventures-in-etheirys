@@ -1,0 +1,277 @@
+{
+  "name": "Effect: AMP Resistance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.V1DiAEs2eYMpHJxP]{AMP Resistance}</p><p>As part of your daily preparations, choose three elements from amongst Earth, Fire, Ice, Lightning, Water, or Wind. For the first element, your mech gains resistance equal to your level. For the second, the mech gains resistance equal to half your level. For the third, your mech gains a weakness to the damage equal to half your level. Each must be a different element. This effect lasts until your next daily preparations.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Earth",
+            "value": "earth-ff"
+          },
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "Water",
+            "value": "water-ff"
+          },
+          {
+            "label": "Wind",
+            "value": "wind-ff"
+          }
+        ],
+        "flag": "firstAMP",
+        "rollOption": "amp-resistance-one",
+        "prompt": "Choose a damage resistance"
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Earth",
+            "value": "earth-ff",
+            "predicate": [
+              {
+                "not": "amp-resistance-one:earth-ff"
+              }
+            ]
+          },
+          {
+            "label": "Fire",
+            "value": "fire",
+            "predicate": [
+              {
+                "not": "amp-resistance-one:fire"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold",
+            "predicate": [
+              {
+                "not": "amp-resistance-one:cold"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              {
+                "not": "amp-resistance-one:electricity"
+              }
+            ]
+          },
+          {
+            "label": "Water",
+            "value": "water-ff",
+            "predicate": [
+              {
+                "not": "amp-resistance-one:water-ff"
+              }
+            ]
+          },
+          {
+            "label": "Wind",
+            "value": "wind-ff",
+            "predicate": [
+              {
+                "not": "amp-resistance-one:wind-ff"
+              }
+            ]
+          }
+        ],
+        "flag": "secondAMP",
+        "rollOption": "amp-resistance-two",
+        "prompt": "Choose a damage resistance"
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Earth",
+            "value": "earth-ff",
+            "predicate": [
+              {
+                "not": "amp-resistance-two:earth-ff"
+              }
+            ]
+          },
+          {
+            "label": "Fire",
+            "value": "fire",
+            "predicate": [
+              {
+                "not": "amp-resistance-two:fire"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold",
+            "predicate": [
+              {
+                "not": "amp-resistance-two:cold"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              {
+                "not": "amp-resistance-two:electricity"
+              }
+            ]
+          },
+          {
+            "label": "Water",
+            "value": "water-ff",
+            "predicate": [
+              {
+                "not": "amp-resistance-two:water-ff"
+              }
+            ]
+          },
+          {
+            "label": "Wind",
+            "value": "wind-ff",
+            "predicate": [
+              {
+                "not": "amp-resistance-two:wind-ff"
+              }
+            ]
+          }
+        ],
+        "flag": "thirdAMP",
+        "prompt": "Choose a damage weakness"
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.firstAMP}",
+        "value": "@actor.level",
+        "predicate": [
+          {
+            "not": "feature:magitek-shell"
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.secondAMP}",
+        "value": "max(1, floor(@actor.level / 2))",
+        "predicate": [
+          {
+            "not": "feature:magitek-shell"
+          }
+        ]
+      },
+      {
+        "key": "Weakness",
+        "type": "{item|flags.pf2e.rulesSelections.thirdAMP}",
+        "value": "max(1, floor(@actor.level / 2))",
+        "predicate": [
+          {
+            "not": "feature:magitek-shell"
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.secondAMP}",
+        "value": "@actor.level",
+        "predicate": [
+          "feature:magitek-shell"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.thirdAMP}",
+        "value": "max(1, floor(@actor.level / 2))",
+        "predicate": [
+          "feature:magitek-shell"
+        ]
+      },
+      {
+        "key": "Immunity",
+        "type": "{item|flags.pf2e.rulesSelections.firstAMP}",
+        "predicate": [
+          "feature:magitek-shell"
+        ]
+      }
+    ],
+    "slug": "effect-amp-resistance",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Tactician.png",
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "tf1drYcM1OWoHFQa",
+  "sort": 200000,
+  "_key": "!items!tf1drYcM1OWoHFQa"
+}

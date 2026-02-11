@@ -1,0 +1,74 @@
+{
+  "folder": "0ORz2u84p1s53Y6K",
+  "name": "Quantum Intelligence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your mech's mental attribute modifiers are increased by 1, unless they are already +4, in which case the increase is stored as a partial boost. This increase stacks with the effects of Advanced Intelligence. Your mech increases the proficiency rank of one of its expert skills to master, and one of its trained skills to expert; it also becomes trained in a skill of your choice.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "quantum-intelligence",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Advanced Intelligence"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "qtT0RjT7Xs7imLKb",
+  "sort": 0,
+  "_key": "!items!qtT0RjT7Xs7imLKb"
+}

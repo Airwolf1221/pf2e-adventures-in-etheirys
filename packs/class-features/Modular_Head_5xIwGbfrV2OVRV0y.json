@@ -1,0 +1,104 @@
+{
+  "img": "systems/pf2e/icons/features/classes/modular-head.webp",
+  "name": "Modular Head",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've constructed a multi-purpose, adjustable striking surface for your weapon, or you've made special ammunition you can swiftly alter. Your invention gains the modular trait (worth <strong>2 TP</strong>) for bludgeoning, piercing, and slashing. When you Interact to use the modular trait, you can also choose to give the weapon the nonlethal trait if it doesn't currently have it, or to remove that trait if it's currently nonlethal. You add the modular trait to the list of traits you can select for melee and ranged multi-tool upgrades.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.Inventor.Modification.NonlethalModularHead",
+        "option": "nonlethal-modular-head",
+        "predicate": [
+          "multi-tool:equipped"
+        ],
+        "toggleable": true
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "nonlethal-modular-head"
+        ],
+        "property": "traits",
+        "value": "nonlethal"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "modular"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "modular-head",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "wyeI6K5yb8nBTZ8W",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Modular Head"
+    }
+  },
+  "_id": "5xIwGbfrV2OVRV0y",
+  "sort": 0,
+  "_key": "!items!5xIwGbfrV2OVRV0y"
+}

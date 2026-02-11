@@ -1,0 +1,90 @@
+{
+  "folder": "0ORz2u84p1s53Y6K",
+  "name": "Heal Beam",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your mech can fire a healing beam, restoring @Damage[(floor(@actor.level/2))d8[healing]] Hit Points to all creatures within a @Template[type:cone|distance:30]. Affected creatures then gain partial immunity to this ability; for the next 10 minutes, instead of healing those creatures, this ability grants them half as many temporary Hit Points for 1 round.</p><hr /><p><strong>Overcharge Function</strong> You put ever more power into your heal beam's energy, though you risk overstressing the projector. Add the amp and overcharge traits to Heal Beam. The area becomes a @Template[type:cone|distance:60], and the healing increases to d10s. You cannot add the effects of more than one Beam overcharge function to a single use of a beam.</p><hr /><p><strong>Level (+2)</strong> Increase the healing by 1d6.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "traits",
+        "value": "amp-ff"
+      }
+    ],
+    "slug": "heal-beam",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "archetype",
+        "divine",
+        "engineer",
+        "healing",
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "White Magic Beam"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "2CkhBJYyKBhRDM1M",
+  "sort": 1100000,
+  "_key": "!items!2CkhBJYyKBhRDM1M"
+}

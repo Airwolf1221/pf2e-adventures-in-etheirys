@@ -1,0 +1,115 @@
+{
+  "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+  "name": "Magitek Barricade",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>While wearing your invention, you gain resistance equal to 2 + half your level against earth, fire, ice, lightning, water, wind, holy, shadow, and unaspected damage, which increases to 2 + your level while you have an active Overcharge ability. You must have at least one basic modification from amongst @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.QkvdTqdDqoeIGTrA]{Alignment Nullification}, @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.bvWm06OV94UKKbhg]{Fluid Dynamics}, @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.qj3vLMs89tYNS2wV]{Permafrost Barrier}, or @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.3q79TGlPJSQjcWsx]{Plasma Shielding} in order to select this modification.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}"
+        ],
+        "type": [
+          "earth-ff",
+          "fire",
+          "cold",
+          "electricity",
+          "water-ff",
+          "wind-ff",
+          "vitality",
+          "sonic",
+          "force"
+        ],
+        "value": "2 + floor(@actor.level / 2)"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "self:effect:overcharge"
+        ],
+        "type": [
+          "earth-ff",
+          "fire",
+          "cold",
+          "electricity",
+          "water-ff",
+          "wind-ff",
+          "vitality",
+          "sonic",
+          "force"
+        ],
+        "value": "2 + @actor.level"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "magitek-barricade",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jvy7nGzmMAtBRSVC",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Energy Barrier"
+    }
+  },
+  "_id": "xIbLXElfoD1A0KO1",
+  "sort": 100000,
+  "_key": "!items!xIbLXElfoD1A0KO1"
+}

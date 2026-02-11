@@ -1,0 +1,132 @@
+{
+  "img": "systems/pf2e/icons/features/classes/subtle-dampeners.webp",
+  "name": "Subtle Dampeners",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've designed your invention to assist you in blending in and dampening noise slightly. You gain a +1 circumstance bonus to Stealth checks, which increases to a +2 if you're a master in Crafting. While you have an active Overcharge ability, this bonus increases to +2, or +3 if you're a master in Crafting.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "armor:id:{actor|flags.pf2e.inventionId}",
+          "magitek-armor-invention:subterfuge-suit"
+        ],
+        "selector": [
+          "stealth"
+        ],
+        "slug": "subtle-dampeners",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              {
+                "gte": [
+                  "skill:crafting:rank",
+                  3
+                ]
+              },
+              "self:effect:overcharge"
+            ]
+          }
+        ],
+        "selector": "stealth",
+        "slug": "subtle-dampeners",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "and": [
+              {
+                "gte": [
+                  "skill:crafting:rank",
+                  3
+                ]
+              },
+              "self:effect:overcharge"
+            ]
+          }
+        ],
+        "selector": "stealth",
+        "slug": "subtle-dampeners",
+        "value": 3
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "magitek-armor-modification",
+        "subterfuge-suit-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "subtle-dampeners",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "jFTTkSUP3SH6vh5L",
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Subtle Dampeners"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "syPW73RfuLefXW3v",
+  "sort": 0,
+  "_key": "!items!syPW73RfuLefXW3v"
+}

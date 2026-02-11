@@ -1,0 +1,97 @@
+{
+  "folder": "U0Xphg5yv6LDFi6R",
+  "name": "Citadel Buster",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Refining your mech's offensive capabilities, you focus your mech’s electricity to a devastating beam that pierces through even the most defensible structures.</p><p>When you use Megavolt, the damage increases to 10d4. The damage increases to 12d4 at 20th level.</p><p>You can choose to have the beam attempt to destroy any solid terrain it hits, rather than reflecting off of it. If you do, deal maximum damage to that obstacle. If the barrier is destroyed, the beam continues past it, up to its maximum range, continuing to damage barriers in the way. If the beam cannot destroy a barrier, the line stops.</p><p>If you use Megavolt’s Overcharge Function, the line increases to a 180-foot line, rather than a 120 foot line, but the damage increases to d8s instead of d12s.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "megavolt-engineer-inline-damage"
+        ],
+        "property": "dice-number",
+        "value": 10,
+        "mode": "upgrade"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "megavolt-engineer-inline-damage"
+        ],
+        "property": "dice-number",
+        "value": 2,
+        "predicate": [
+          "self:level:20"
+        ]
+      }
+    ],
+    "slug": "citadel-buster",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Mech invention"
+        },
+        {
+          "value": "Gigavolt"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "LLpx1vAMOmpxGWce",
+  "sort": 0,
+  "_key": "!items!LLpx1vAMOmpxGWce"
+}

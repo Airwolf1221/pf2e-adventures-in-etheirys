@@ -1,0 +1,118 @@
+{
+  "folder": "AzMaxqzrdJsJFWHa",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Electrification",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wearing your magitek armor, or piloting your magitek mech</p><hr /><p>You electrify your invention to punish foes who dare to attack you. For 1 round, any creature that touches you or your mech, or that hits you or your mech with a melee unarmed attack or a non-reach melee weapon attack, takes @Damage[1d4[electricity]|overrideTraits] damage. The effect ends if you cease wearing your armor innovation or cease piloting your magitek mech.</p><p>If you have the revolutionary invention class feature, the damage increases to 2d4.</p><p><strong>Overcharge Function</strong> You create an unstable chain reaction, sending countless sparks dancing across your armor or mech. Add the amp and overcharge traits to Electrification. The effects last for 1 minute instead of 1 round, and the damage dice increase from d4s to d12s.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 10
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Armor or Magitek Mech invention"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "traits",
+        "value": "amp-ff"
+      },
+      {
+        "key": "DamageAlteration",
+        "predicate": [
+          "feature:revolutionary-invention"
+        ],
+        "property": "dice-number",
+        "selectors": [
+          "{item|id}-inline-damage"
+        ],
+        "slug": "base",
+        "value": 1
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "dice-faces",
+        "selectors": [
+          "{item|id}-inline-damage"
+        ],
+        "slug": "base",
+        "value": 12
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "engineer",
+        "manipulate"
+      ],
+      "otherTags": [
+        "overcharged"
+      ]
+    },
+    "slug": "electrify-armor",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Electrify Armor"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "KRVTxH82blwxl9xE",
+  "sort": 0,
+  "_key": "!items!KRVTxH82blwxl9xE"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Skysteel Multi-Tool",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your invention is an even greater version of the standard multi-tool, with a wide variety of additional modifications. You gain an additional 2 TP to spend on your multi-tool, bringing your baseline total to 8 TP. Because of the unique features of your invention, everyone except you is untrained in it, even if they would normally be trained (or better) in engineer's multi-tools. You can only have a single multi-tool as your invention, even if you can make multiple.</p><p>Choose one initial skysteel modification to apply to your invention from the options found below. These modifications grant additional weapon traits, sometimes with extra abilities.</p><p>A modification might give your multi-tool the versatile trait with a damage type that the multi-tool could already deal. In that case, if you select that modification, you can instead choose to give the multi-tool the versatile trait for a different damage type: bludgeoning, piercing, or slashing. Otherwise, any traits you grant your multi-tool from modifications are counted as a free part of your weapon with no TP costs involved.</p><hr /><p><em><strong>Foundry note</strong> These modifications cannot be well automated due to the nature of how the multi-tool is built. In foundry all initial modifications will be available, irrespective of what traits and type the multi-tool has. It will be on you to take note of what modifications you have when selecting traits for your multi-tool.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.inventionId",
+        "priority": 5,
+        "value": "{actor|flags.pf2e.multiToolId}"
+      },
+      {
+        "adjustName": false,
+        "allowedDrops": {
+          "label": "Initial Skysteel Multi-Tool Modifications",
+          "predicate": [
+            "item:level:1",
+            "item:type:feature",
+            "item:trait:engineer"
+          ]
+        },
+        "choices": [
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UOavXsgGKwuDhMGZ"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NRThsOwNhoJoROAX"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.u8GzsQluXw3RtVyw"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.lmfSsbnOK9dMvElJ"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.FU9Ddz3KodMioguf"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.vX4BC8dGRqffCMqC"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5xIwGbfrV2OVRV0y"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UbQgV5NyNht3o1kz"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.wckjrxWOkWb5dIG3"
+          },
+          {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.RyugAXTdbmuJGYwD"
+          }
+        ],
+        "flag": "initialModification",
+        "key": "ChoiceSet",
+        "predicate": [
+          "class:engineer"
+        ],
+        "prompt": "Choose an initial modification"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.initialModification}",
+        "predicate": [
+          "class:engineer"
+        ],
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "skysteel-multi-tool",
+    "traits": {
+      "otherTags": [
+        "engineer-invention"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Scattergun.png",
+  "folder": "6vtcTQhCbv6zmjQG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "8hdUkjcsnA5Acine",
+  "sort": 0,
+  "_key": "!items!8hdUkjcsnA5Acine"
+}

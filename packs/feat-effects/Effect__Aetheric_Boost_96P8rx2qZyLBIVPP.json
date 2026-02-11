@@ -1,0 +1,91 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Blazing_Shot.png",
+  "name": "Effect: Aetheric Boost",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.zd9LM74VZj4Ogjwz]{Aetheric Boost}</p><p>Your improvements make any of your Pawn's Strikes deal an additional 1d6 damage, with a type determined by the boost you choose.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "damageType": "{item|origin.flags.pf2e.engineer.aethericBoost}",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "hideIfDisabled": true,
+        "key": "DamageDice",
+        "predicate": [
+          "self:trait:minion"
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "category": "persistent",
+        "damageType": "{item|origin.flags.pf2e.engineer.aethericBoost}",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "hideIfDisabled": true,
+        "key": "DamageDice",
+        "label": "Aetheric Persistence",
+        "predicate": [
+          "parent:origin:item:tag:aetheric-persistence",
+          "self:trait:minion"
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-aetheric-boost",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "96P8rx2qZyLBIVPP",
+  "sort": 100000,
+  "_key": "!items!96P8rx2qZyLBIVPP"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "q58N7HxVHt4k2EEI",
+  "name": "Artificial Boost",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your magitek armor visibly radiates power, boosting your physical capabilities for a short time. You gain a +1 status bonus on all checks relying on strength, and on any DCs relying on strength. This bonus lasts until the end of your turn.</p><p>If your armor has any attached materia granting an item bonus to your AC, you can increase the status bonus to the bonus granted by the materia instead, if it would be higher.</p><hr /><p><strong>Overcharge Function</strong> The status bonus also applies to damage rolls, and lasts for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "artificial-boost",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek armor invention"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 3,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "aehkfF8oeBeoe0tM",
+  "sort": 0,
+  "_key": "!items!aehkfF8oeBeoe0tM"
+}

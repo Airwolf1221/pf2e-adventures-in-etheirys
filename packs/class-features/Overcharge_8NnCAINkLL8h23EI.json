@@ -1,0 +1,150 @@
+{
+  "name": "Overcharge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've learned a bevy of techniques for empowering your inventions. You gain the @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.6XzXI0nDNSefLMJm]{Overcharge} action, which lets you empower your inventions with your intellect. You gain an aetheric charge, which actions with the overcharge trait use to provide their abilities. You can gain more overcharge actions from engineer feats.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.actions.Item.6XzXI0nDNSefLMJm"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "predicate": [
+          "item:trait:overcharge"
+        ],
+        "mode": "override",
+        "property": "frequency-max",
+        "value": "ternary(gte(@actor.flags.pf2e.engineer.aethericCharges,3),3,@actor.flags.pf2e.engineer.aethericCharges)"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "predicate": [
+          "item:trait:overcharge"
+        ],
+        "mode": "override",
+        "property": "frequency-max",
+        "value": "ternary(gte(@actor.flags.pf2e.engineer.aethericCharges,3),3,@actor.flags.pf2e.engineer.aethericCharges)"
+      },
+      {
+        "key": "RollOption",
+        "option": "overcharged",
+        "label": "Overcharging",
+        "toggleable": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "predicate": [
+          "overcharged",
+          "item:tag:overcharged"
+        ],
+        "mode": "add",
+        "property": "traits",
+        "value": "overcharge"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "predicate": [
+          "overcharged",
+          "item:tag:overcharged"
+        ],
+        "mode": "override",
+        "property": "frequency-per",
+        "value": "PT10M"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "predicate": [
+          "overcharged",
+          "item:tag:overcharged"
+        ],
+        "mode": "add",
+        "property": "traits",
+        "value": "overcharge"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "predicate": [
+          "overcharged",
+          "item:tag:overcharged"
+        ],
+        "mode": "override",
+        "property": "frequency-per",
+        "value": "PT10M"
+      }
+    ],
+    "slug": "overcharge",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Hypercharge.png",
+  "folder": "SCBe82dhXeuinZ1q",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "8NnCAINkLL8h23EI",
+  "sort": 100000,
+  "_key": "!items!8NnCAINkLL8h23EI"
+}

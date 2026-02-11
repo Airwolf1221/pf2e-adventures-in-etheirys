@@ -1,0 +1,90 @@
+{
+  "folder": "ov8hPY9DDVxKJ2nN",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Cryovolt",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You vent a jet of supercooled fluid from your invention, damaging a foe and slowing it down. Target one creature within 60 feet. That creature takes @Damage[@actor.level[cold]] damage, with effects depending on its @Check[reflex|against:inventor] save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target takes half damage and takes a –5-foot status penalty to its Speeds for 1 round.</p><p><strong>Failure</strong> The target takes full damage and takes a –10-foot status penalty to its Speeds for 1 round.</p><p><strong>Critical Failure</strong> The target takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round, and takes a –15-foot status penalty to its Speeds for 1 round.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.y97SULj2pQ4Yn1aj]{Effect: Cryovolt}</p><hr /><p><strong>Overcharge Function</strong> Your invention discharges an enormous cone of supercooled fluid, potentially causing cascading failures. Add the amp and overcharge traits to Cryovolt. The ability affects all creatures within a @Template[cone|distance:60] instead of a single target, and it deals @Damage[(2*@actor.level)[cold]|traits:overcharge,amp-ff|options:area-damage]{damage equal to double your level} instead of equal to your level.</p><p>If you have the revolutionary invention class feature, you can choose a @Template[cone|distance:60] or a @Template[cone|distance:90] when you use an overcharged Cryovolt.</p><hr /><p><strong>Special</strong> If your inventionis a minion, it can take this action rather than you.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 12
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "overcharged"
+        ],
+        "property": "traits",
+        "value": "amp-ff"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "cold",
+        "engineer",
+        "manipulate"
+      ],
+      "otherTags": [
+        "overcharged"
+      ]
+    },
+    "slug": "cryovolt",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Deep Freeze"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "FzrOrIulVtx4CjEO",
+  "sort": 0,
+  "_key": "!items!FzrOrIulVtx4CjEO"
+}

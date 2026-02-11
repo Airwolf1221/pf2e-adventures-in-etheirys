@@ -1,0 +1,89 @@
+{
+  "name": "Gold General",
+  "type": "feat",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Traits/Increased_Action_Damage_II.png",
+  "effects": [],
+  "folder": "k6Aiq1jeDKBqxxgT",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You improve your Bishop's mechanics further. When you Command your Bishop to use the aetheric mortar, its reach increases to 10 feet. If the Bishop scores a critical hit, that creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn. Allies take no damage from the aetheric mortar, instead gaining temporary hit points equal to the damage that would be dealt. Once a creature gains temporary hit points in this way, they are immune to those temporary hit points for the next 10 minutes, but otherwise continue to take no damage. You must have the Silver General modification to select this modification.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "strike-damage"
+        ],
+        "title": "{item|name}",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.",
+        "predicate": [
+          "item:slug:aetheric-mortar"
+        ]
+      }
+    ],
+    "slug": "gold-general",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0tWA9mscoVx3YLRI": 3,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "ZtQpFG2Y9KztfQsE",
+  "sort": 100000,
+  "_key": "!items!ZtQpFG2Y9KztfQsE"
+}

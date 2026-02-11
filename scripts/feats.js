@@ -1,7 +1,12 @@
 const featTraits = {
+    // Engineer Class Features/Feats
+    'Medium Armor Mastery': ['engineer'],
+    'Tamper': ['engineer'],
+    'Visual Fidelity': ['engineer'],
+    'Gigavolt': ['engineer'],
+    'You Failed to Account For... This!': ['engineer'],
     // Paladn Class Features/Feats
     'Shield Block': ['paladin'],
-    'Reflex Expertise': ['paladin'],
     'Agile Shield Grip': ['paladin'],
     'Reactive Shield': ['paladin'],
     'Devoted Guardian': ['paladin'],
@@ -25,16 +30,17 @@ const featTraits = {
     'Impossible Flurry': ['samurai'],
     // Shared Class Features/Feats
     'Determination': ['paladin','samurai'],
-    'Weapon Specialization': ['paladin','samurai'],
-    'Greater Weapon Specialization': ['paladin','samurai'],
+    'Weapon Specialization': ['engineer','paladin','samurai'],
+    'Greater Weapon Specialization': ['engineer','paladin','samurai'],
     'Intimidating Strike': ['dragoon','samurai','warrior'],
     'Whirlwind Strike': ['dragoon','reaper','samurai','warrior'],
+    'Reflex Expertise': ['engineer','paladin'],
     'Reactive Strike': ['paladin'],
     'Savage Critical': ['dragoon','samurai']
 };
 
 function assignClassTraits(original, translation, data) {
-    if (!featTraits[data.name]) {
+    if (!featTraits[data.name] || (data.name === "Shield Block" && data.system.category === "general")) {
         if (translation) return translation;
         else return original;
     }

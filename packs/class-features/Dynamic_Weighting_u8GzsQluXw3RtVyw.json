@@ -1,0 +1,147 @@
+{
+  "img": "systems/pf2e/icons/features/classes/dynamic-weighting.webp",
+  "name": "Dynamic Weighting",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your weapon is modified to be heavier and easier to retrieve. Your invention gains the two-hand trait, with a damage die one size higher than the weapon's normal weapon damage die size instead of 2 (for instance, a longsword would gain the two-hand d10 trait). Your invention also gains the versatile B trait. If it was a thrown weapon, it gains the tethered trait.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "versatile-b"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:damage:die:faces:4"
+        ],
+        "property": "traits",
+        "value": "two-hand-d6"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:damage:die:faces:6"
+        ],
+        "property": "traits",
+        "value": "two-hand-d8"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:damage:die:faces:8"
+        ],
+        "property": "traits",
+        "value": "two-hand-d10"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:damage:die:faces:10"
+        ],
+        "property": "traits",
+        "value": "two-hand-d12"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "versatile-b"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:thrown"
+        ],
+        "property": "traits",
+        "value": "tethered"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "melee",
+        "not-agile-trait",
+        "not-attached-trait",
+        "not-free-hand-trait",
+        "one-handed",
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "dynamic-weighting",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "wyeI6K5yb8nBTZ8W",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Dynamic Weighting"
+    }
+  },
+  "_id": "u8GzsQluXw3RtVyw",
+  "sort": 400000,
+  "_key": "!items!u8GzsQluXw3RtVyw"
+}

@@ -23,7 +23,13 @@
         "selector": [
           "melee-strike-damage"
         ],
-        "value": "(1d12 + 3) * @actor.flags.pf2e.limit-rank"
+        "value": "3 * @actor.flags.pf2e.limit-rank"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "melee-strike-damage",
+        "diceNumber": "@actor.flags.pf2e.limit-rank",
+        "dieSize": "d12"
       }
     ],
     "slug": "effect-judgement-blade",

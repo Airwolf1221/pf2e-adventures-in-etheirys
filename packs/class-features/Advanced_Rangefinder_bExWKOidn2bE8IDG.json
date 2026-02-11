@@ -1,0 +1,93 @@
+{
+  "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+  "name": "Advanced Rangefinder",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Ranged Only</strong></p><hr /><p>A carefully tuned scope or targeting device makes your weapon especially good at hitting weak points. Your invention gains the backstabber trait (worth <strong>1 TP</strong>) and increases its range increment by 20 feet, and you add the backstabber trait to the list of traits you can select for ranged multi-tool upgrades.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "backstabber"
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "range-increment",
+        "value": 20
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "ranged",
+        "skysteel-modification"
+      ],
+      "rarity": "common",
+      "value": [
+        "engineer"
+      ]
+    },
+    "slug": "advanced-rangefinder",
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "vOinOFVoVoyzFsOG",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {
+    "babele": {
+      "translated": true,
+      "hasTranslation": false,
+      "originalName": "Advanced Rangefinder"
+    }
+  },
+  "_id": "bExWKOidn2bE8IDG",
+  "sort": 0,
+  "_key": "!items!bExWKOidn2bE8IDG"
+}

@@ -1,0 +1,275 @@
+{
+  "name": "Magitek Mechtech",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your knowledge over magitek mechs is truly staggering, and it reflects in how extreme your focus is on them, and this makes you a Magitek Pilot. You must select the Magitek Pilot Dedication as your 2nd-level class feat.</p><p><strong>Prerequisites:</strong></p><ul><li><p>You must be an Engineer</p></li><li><p>You don't gain the @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.pFLvfhjfYRqBeN7m]{Engineer's Pinnacle Invention} class feature.</p></li><li><p>You cannot qualify for the @UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{Toughness} general feat, nor can you take any feat like it that grants you improved Hit Points.</p></li></ul><p><strong>Class HP:</strong> Your class HP is reduced to 4 instead of 8.</p><p><strong>Magitek Pilot Adjustments:</strong> You become untrained in medium armor, and you can only spend <strong>4 Tool Points</strong> on your engineer's multi-tool. You don't choose a major engineering invention, instead gaining the Magitek Mech invention, which gives you a magitek mech.</p><p>Your mech is empowered with the benefits below, and you can choose for one of its weapons (but not your multi-tool) to count as a Skysteel Multi-Tool, or for its frame to count as Magitek Armor. Whatever you choose, the mech can access initial modifications for that invention in addition to its own.</p><p><em><strong>Foundry note </strong>This part cannot be automated, you can pick the secondary invention but the features have to be manually altered.</em></p><p><strong>Magitek Mech Adjustments:</strong> Your magitek mech is far more durable, regardless of when it is online or inactive. While inactive, your mech gains additional Hit Points equal to 8 + your Intelligence modifier instead of 6. While online and when you are Piloting your mech, you add your mech's Hit Points to your own, though you only add half your Intelligence modifier. This functionally grants you 12 + your Constitution modifier + half of your Intelligence modifier in HP.</p><p><strong>Engineering Weapon Expertise &amp; Mastery Adjustments:</strong> Instead of gaining these two class features, you instead gain Mechtech Expertise and Mechtech Mastery, which are the same, but improve your mech's Intelligence modifier substitution features.</p><p>Finally, at 19th level, you gain the <strong>Pinnacle Mechtech feature:</strong> Your mech is a truly incredible piece of engineering, far superior to any mech used by your peers. You gain an additional modification for your magitek mech, which can be any magitek mech modification, or any initial or breakthrough modification of the other inventions your mech incorporates (the option you chose at level 1, and any others gained through feats).</p><p></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.Qr2ETlQLUrgAh9IE",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "downgrade",
+        "path": "system.attributes.classhp",
+        "value": 4
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "hp"
+        ],
+        "value": "floor(8 * @actor.level) + floor(@actor.system.abilities.int.mod/2)",
+        "slug": "mech-int-hp",
+        "predicate": [
+          {
+            "not": "feat:mind-over-matter"
+          },
+          "mech-status:crewed"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "hp"
+        ],
+        "value": "floor(8 * @actor.level) + @actor.system.abilities.int.mod",
+        "predicate": [
+          "feat:mind-over-matter",
+          "mech-status:crewed"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.ff2QWkAxOlKRY1sr",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.k6kYfz3jN9M9xeaX"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.rnxqWUOd91dGOJbI",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              19
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "Magitek Armor",
+            "value": "armor"
+          },
+          {
+            "label": "Skysteel Multi-Tool",
+            "value": "weapon"
+          }
+        ],
+        "flag": "secondaryInvention",
+        "prompt": "Choose a secondary invention",
+        "rollOption": "secondary-invention"
+      },
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              "secondary-invention:armor"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.QkvdTqdDqoeIGTrA"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.bvWm06OV94UKKbhg"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.qj3vLMs89tYNS2wV"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.3q79TGlPJSQjcWsx"
+          },
+          {
+            "predicate": [
+              "secondary-invention:armor"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.I5fwlVe9JZnxelD0"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NRThsOwNhoJoROAX"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.u8GzsQluXw3RtVyw"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.lmfSsbnOK9dMvElJ"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.FU9Ddz3KodMioguf"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.vX4BC8dGRqffCMqC"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5xIwGbfrV2OVRV0y"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UbQgV5NyNht3o1kz"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.wckjrxWOkWb5dIG3"
+          },
+          {
+            "predicate": [
+              "secondary-invention:weapon"
+            ],
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.RyugAXTdbmuJGYwD"
+          }
+        ],
+        "flag": "initialModification",
+        "prompt": "Choose an initial invention"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.initialModification}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "magitek-mechtech",
+    "traits": {
+      "otherTags": [
+        "class-archetype",
+        "engineer-invention"
+      ],
+      "value": [
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You must be an Engineer"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [
+        "Compendium.pf2e-adventures-in-etheirys.class-features.Item.pFLvfhjfYRqBeN7m",
+        "Compendium.pf2e-adventures-in-etheirys.class-features.Item.AZwumuwlnzAMtgGp",
+        "Compendium.pf2e-adventures-in-etheirys.class-features.Item.5QjmzBW8LgSxN57j"
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Full_Metal_Field.png",
+  "folder": "ElVWLAPQEyXQYDhC",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "_id": "7bAg41CdNqBJzdWk",
+  "sort": 300000,
+  "_key": "!items!7bAg41CdNqBJzdWk"
+}

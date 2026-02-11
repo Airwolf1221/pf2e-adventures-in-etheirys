@@ -1,0 +1,80 @@
+{
+  "folder": "q58N7HxVHt4k2EEI",
+  "name": "Magitek Cannon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.954,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You fit a powerful cannon into your mech’s frame, though it takes a moment to fire at full power. Make a ranged Strike against a creature within 60 feet. On a hit, the target takes@Damage[(2 + (floor((@actor.level - 1)/4)))d4[fire]] damage, or twice as much on a critical hit.</p><hr /><p><strong>Overcharge Function</strong> Rather than an attack, all creatures in a @Template[type:burst|distance:5] within range take @Damage[(2 + (floor((@actor.level - 1)/2)))d6[fire]] damage, with a @Check[reflex|against:engineer|basic] save.</p><hr /><p><strong>Level (+4)</strong> The cannon's damage increases by 1d4</p><p><strong>Overcharge Level (+2)</strong> The damage increases by 1d6</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "magitek-cannon",
+    "traits": {
+      "otherTags": [
+        "overcharged"
+      ],
+      "value": [
+        "amp-ff",
+        "engineer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magitek Mech invention"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "turn"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "57R8rQpAVcexbSA6",
+  "sort": 0,
+  "_key": "!items!57R8rQpAVcexbSA6"
+}
