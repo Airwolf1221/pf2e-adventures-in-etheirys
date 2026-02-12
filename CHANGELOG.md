@@ -1,3 +1,6 @@
+# 1.0 Release
+All content needed for the campaign to run is in.
+
 # 0.5 Release
 All content aside from classes and class feats are in! Completely with significant background work to implement various systems such as the total conversion aspects, mythic rules and so on. All that remains are the classes.
 
