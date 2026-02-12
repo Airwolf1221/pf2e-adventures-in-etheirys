@@ -65,5 +65,6 @@ Hooks.once("ready", async () => {
     if (game.modules.get("pf2e-dailies")?.active && game.user.isGM) {
         console.log("[Final Fantasy - Adventures in Etheirys]: CONFIGURING DAILIES!");
         configureDailies.elezen();
+        configureDailies.disciple();
     }
 });

@@ -1,0 +1,116 @@
+{
+  "name": "Panning",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>If the land didn’t adore you, surely it wouldn’t carry such pretty things directly to you.</p><ul><li><strong>Preferred Weapon Groups:</strong> clubs, shields</li><li><strong>Preferred Element:</strong> lightning/electricity</li><li><strong>Preferred Saving Throws:</strong> Reflex, Will</li><li><strong>Preferred Terrain Types:</strong> aquatic, desert, mountain</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.giftElement",
+        "value": "electricity"
+      },
+      {
+        "key": "RollOption",
+        "option": "gift-element:electricity"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "predicate": [
+          "item:category:martial",
+          {
+            "or": [
+              "item:group:club",
+              "item:group:shield"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "gift-weapon"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank",
+        "value": "ternary(gte(@actor.level,15),4,ternary(gte(@actor.level,7),3,2))",
+        "predicate": [
+          "class:disciple"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.will.rank",
+        "value": "ternary(gte(@actor.level,11),3,2)",
+        "predicate": [
+          "class:disciple"
+        ]
+      }
+    ],
+    "slug": "panning",
+    "traits": {
+      "otherTags": [
+        "gift-of-the-land"
+      ],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Scour.png",
+  "folder": "VHO41gV1dzg2VxFa",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "3GSXNgxMkbaRKGEQ",
+  "sort": 200000,
+  "_key": "!items!3GSXNgxMkbaRKGEQ"
+}

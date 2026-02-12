@@ -1,0 +1,77 @@
+{
+  "folder": "BunIpiAEl9stgf8O",
+  "name": "Materia Completion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have a gemstone worth at least 2,000 gp embedded in your skin or in a headpiece with the materia crowning feat.</p><p><strong>Trigger</strong> You take damage that would reduce you to 0 Hit Points.</p><hr /><p>You drain your embedded gemstone, regaining 10d6 + 10 Hit Points, plus an additional 10 Hit Points per 1,000 gp of the gem's value beyond the minimum required by your Materia Crowning feat. If this is enough to prevent the damage from bringing you to 0 Hit Points, you don’t become unconscious or dying, and you don’t increase your wounded value. This cannot be used against effects with the death trait or that would leave no remains.</p><p>Either way, your gemstone becomes a worthless rock until your next daily preparations, preventing you from benefiting from your Materia Crowning feat or this feat again until then.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "materia-completion",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Materia Crowning"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "B86OL3KqePdXOaC9",
+  "sort": 0,
+  "_key": "!items!B86OL3KqePdXOaC9"
+}

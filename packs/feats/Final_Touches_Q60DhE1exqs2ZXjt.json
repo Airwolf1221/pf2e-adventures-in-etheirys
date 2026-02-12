@@ -1,0 +1,92 @@
+{
+  "folder": "YCe7Kb12PjY8nNlm",
+  "name": "Final Touches",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>If your previous action was to Cast a Spell from one of the highest-rank spell slots available at your level, you may Cast a Spell from a lower-rank spell slot that takes 1 or 2 actions to cast without expending the spell, depending on how many actions you spend on this ability.</p><p>At 20th level, this ability can be used once per minute instead of once per 10 minutes.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "predicate": [
+          "self:level:20"
+        ],
+        "mode": "override",
+        "property": "frequency-per",
+        "value": "PT1M"
+      }
+    ],
+    "slug": "final-touches",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cyclical Elements, Glorious Light, or Wild Jubilation discipline"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Q60DhE1exqs2ZXjt",
+  "sort": 0,
+  "_key": "!items!Q60DhE1exqs2ZXjt"
+}

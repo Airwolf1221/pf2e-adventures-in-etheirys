@@ -1,0 +1,78 @@
+{
+  "name": "Disciple Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You’ve come into your own with both your natural gifts and your crafting techniques. Your proficiency ranks for your disciple class DC and for spell attack rolls and spell DCs increase to expert.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "disciple-expertise",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "disciple": {
+          "rank": 2,
+          "attribute": null
+        },
+        "spellcasting": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Patience.png",
+  "folder": "GPOjOIQTmpqvBWot",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "eMRAq8AGVEHIg8Z7",
+  "sort": 2500000,
+  "_key": "!items!eMRAq8AGVEHIg8Z7"
+}

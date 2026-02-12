@@ -1,0 +1,74 @@
+{
+  "name": "Gift of Immunity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You are immune to your gift’s preferred element.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Immunity",
+        "type": "{actor|flags.pf2e.giftElement}"
+      }
+    ],
+    "slug": "gift-of-immunity",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Traits/Fisher%27s_Instinct.png",
+  "folder": "GPOjOIQTmpqvBWot",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "1n6eQfZxiEeZirs3",
+  "sort": 800000,
+  "_key": "!items!1n6eQfZxiEeZirs3"
+}

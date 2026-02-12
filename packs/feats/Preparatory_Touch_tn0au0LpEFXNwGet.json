@@ -1,0 +1,77 @@
+{
+  "folder": "jOoTHOOT3jKPfnbK",
+  "name": "Preparatory Touch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You succeed at your save against a foe's harmful spell, or a foe fails a spell attack roll against you from a harmful spell</p><hr /><p>When you resist a spell, you capture some of its magic for your own use. You enter your Basic Touch stance, using the triggering spell to determine what damage type your Basic Touch deals. Alternatively, if you're already in Basic Touch, you can instead amplify its effects temporarily. Until the end of your next turn, you gain a +2 status bonus to the damage from your Basic Touch.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "preparatory-touch",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Synthesis"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "tn0au0LpEFXNwGet",
+  "sort": 0,
+  "_key": "!items!tn0au0LpEFXNwGet"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "jLIcY4E1Yl6uoPM9",
+  "name": "Trained Eye",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You've successfully used Oddly Specific Lore to Recall Knowledge about a creature today</p><hr /><p>Make a Strike against a required creature. If your Strike hits and deals damage to that creature, you deal an equal amount of damage to its armor, subject to Hardness as normal. Armor broken this way imparts a status penalty to AC equal to its item bonus to AC (including from its materia) instead of the normal penalty for its category.</p><p>Armor destroyed this way tangles, splinters or shatters, imparting half this penalty for 1 minute. That creature or adjacent creatures can end this penalty by removing the fragments, which requires a total of 2 Interact actions.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "trained-eye",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Boundless Sky discipline"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "enmozVO5yw8e0E3w",
+  "sort": 0,
+  "_key": "!items!enmozVO5yw8e0E3w"
+}

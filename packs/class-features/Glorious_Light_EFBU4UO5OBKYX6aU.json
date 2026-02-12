@@ -1,0 +1,96 @@
+{
+  "name": "Glorious Light",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Access</strong> This discipline is only accessible to those who have visited another Reflection</p><hr /><p>You held a deep appreciation for the crafting and magic of another reflection, and have resolved to be a beacon of that reflection yourself, becoming a guiding beacon and strengthening your allies in combat. Your key attribute is the same as the discipline you had prior to retraining into Glorious Light, and you become trained in Religion. You treat white magic spells with the light trait as if they were on the arcanima spell list.</p><p>Your devotion grants you additional power. You gain 3 additional spell slots each day at your highest rank of disciple spell slots. You can prepare only spells with the light trait in these slots.</p><p><strong>Discipline Student (Splendorous Guidance):</strong> During your daily preparations, choose an ally. That ally can use your bonuses to skill check modifiers in place of their own. If they're a spontaneous spellcaster, they can treat any disciple spell you have prepared as a known spell, as if it were in their normal spell list. If they're a prepared spellcaster, they can expend one of their prepared spells to cast a disciple spell you have prepared in the same rank; this doesn't expend your prepared spell.</p><p><strong>Discipline Apprentice (Crystalline Spells):</strong> You treat black magic spells with the light trait as if they were on the arcanima spell list. All spells you cast with those traits that have a duration longer than 1 round have their duration doubled on you and any ally targets.</p><p><strong>Discipline Journeyman (Choral Guidance):</strong> You may choose a second ally for your splendorous guidance ability. You and all chosen allies benefit from each other’s skill bonuses and prepared spells this way.</p><p><strong>Discipline Mentor (Brilliant Spells):</strong> You treat blue magic spells with the light trait as if they were on the arcanima spell list. All spells you cast with the light trait deal or heal twice as much damage, if applicable, and have double the light radius, if applicable.</p><p><strong>Discipline Leader (Visionary Guidance):</strong> You may choose a third ally for your splendorous guidance ability. All chosen allies share each other's special senses.</p><p><strong>Discipline Grandmaster (Lodestar Spells):</strong> You gain a single 10th-rank spell slot and can prepare a spell with the light trait in that slot using gift of magic. Unlike with other spell slots, you can't use 10th-rank slots with abilities that give you more spell slots (other than glorious light) or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the Immaculate Gift feat to gain a second slot, subject to the same restrictions.</p><hr /><p><strong>Special</strong> After you meet the requirements to take this discipline, you may retrain your current discipline to take the glorious light discipline instead, which takes a week and replaces all features that require your current discipline; if you have any feats that no longer work as a result of this change, you can retrain those for free as part of this process.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disciple",
+        "value": {
+          "studentBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.MEieF927bhMvzvm8",
+          "apprenticeBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.4WLrzHreBHCvd1WR",
+          "journeymanBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.EUa1Ywo0OuHMSaLu",
+          "mentorBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.RccHuqnCvzAhy0WU",
+          "leaderBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NcOWIkVp0kslAHFm",
+          "grandmasterBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.Kxk1KpZYdX8ZHX3M"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.religion.rank",
+        "value": 1
+      }
+    ],
+    "slug": "glorious-light",
+    "traits": {
+      "otherTags": [
+        "discipline-of-the-forge"
+      ],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "int",
+        "wis",
+        "cha"
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Thaliak%27s_Favor.png",
+  "folder": "pwwYkz06uaz2VnN5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "EFBU4UO5OBKYX6aU",
+  "sort": 0,
+  "_key": "!items!EFBU4UO5OBKYX6aU"
+}

@@ -1,0 +1,100 @@
+{
+  "folder": "jOoTHOOT3jKPfnbK",
+  "name": "Soul of the Culinarian",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>Whenever you activate or use an ingestible consumable item you created, you add your key ability to the damage or healing dealt, and you may use your class DC in place of the item's normal save DC. (Feeding such items to others counts as you activating them.)</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "healing",
+          "damage"
+        ],
+        "value": "@actor.system.abilities.{actor|system.details.keyability.value}.mod",
+        "predicate": [
+          "item:trait:consumable"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:trait:consumable"
+        ],
+        "selector": "inline-dc",
+        "slug": "base",
+        "value": "@actor.classDCs.disciple.mod"
+      }
+    ],
+    "slug": "soul-of-the-culinarian",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "hand"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Hand of the Culinarian"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "wMx3qaIWNH72XtYg",
+  "sort": 0,
+  "_key": "!items!wMx3qaIWNH72XtYg"
+}

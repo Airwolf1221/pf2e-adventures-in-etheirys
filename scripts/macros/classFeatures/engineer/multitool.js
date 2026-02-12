@@ -573,7 +573,7 @@ function prepareTraitIndex(toolType, tool) {
     // Pull Skysteel Modifications
     const skysteelInvention = actor.items.filter((i) => i.sourceId === "Compendium.pf2e-adventures-in-etheirys.class-features.Item.8hdUkjcsnA5Acine")[0] ? true: false;
     // Pull Additional Multi-Tools Feat
-    const additionalMultiTools = actor.items.filter((i) => i.sourceId === "")[0] ? true: false;
+    const additionalMultiTools = actor.items.filter((i) => i.sourceId === "Compendium.pf2e-adventures-in-etheirys.feats.Item.9Gcp1oOITYyDB1CU")[0] ? true: false;
     // Initial
     const bluntShot = actor.items.filter((i) => i.sourceId === "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UOavXsgGKwuDhMGZ")[0] ? true : false;
     const entanglingTool = actor.items.filter((i) => i.sourceId === "Compendium.pf2e-adventures-in-etheirys.class-features.Item.lmfSsbnOK9dMvElJ")[0] ? true : false;

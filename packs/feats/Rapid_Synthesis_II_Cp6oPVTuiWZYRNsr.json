@@ -1,0 +1,77 @@
+{
+  "folder": "BunIpiAEl9stgf8O",
+  "name": "Rapid Synthesis II",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your Synthestrike is charged</p><hr /><p>You combine the might of a multitarget spell with a whirling flurry of attacks. You use Synthestrike, making a melee Strike against each enemy within your reach instead of against one enemy. If your spell can affect multiple targets, your spell affects all foes you hit, not just the first target, up to the spell's normal maximum targets. If you Strike more foes than the spell could target, choose which foes are affected by the spell.</p><p>If you use Standard Synthesis to Synthestrike with an area spell, apply the area as described in Standard Synthesis, choosing one of the creatures you Strike to determine the area and whether the spell fails due to a critically failed Strike. If you use Standard Synthesis to Synthestrike with a targeted spell, each creature you critically fail to Strike is unaffected by the spell, but the spell isn't lost completely from a single critical failure. You can use this activity with only melee Strikes.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "rapid-synthesis-2",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Synthesis"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Cp6oPVTuiWZYRNsr",
+  "sort": 0,
+  "_key": "!items!Cp6oPVTuiWZYRNsr"
+}

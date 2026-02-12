@@ -1,0 +1,55 @@
+{
+  "name": "Synthestrike",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> until recharged (see below)</p><hr /><p>You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Synthestrike. The infusion of spell energy grants your Strike your spellcasting tradition trait, making it magical.</p><p>After you use Synthestrike, you can't do so again until you recharge your Synthestrike as a single action, which has the concentrate trait. The base rules for Synthestrike cover most spells, but for more complex spells, refer to the specific rules for a @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "synthestrike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": "lTpPN33B07ouQoXV",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "het2E8jTuLAbWvEK",
+  "sort": 300000,
+  "_key": "!items!het2E8jTuLAbWvEK"
+}

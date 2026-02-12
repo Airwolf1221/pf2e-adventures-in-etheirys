@@ -1,0 +1,114 @@
+{
+  "name": "Wild Jubilation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You take great joy in crafting, and in life itself, and this joy is infectious. Your key attribute is Charisma, and you become trained in your choice of Diplomacy, Performance, or Intimidation.</p><p>Your connection with the land also attunes you to the lifestream, allowing you to channel healing energies. You gain 3 additional spell slots each day at your highest rank of disciple spell slots. You can prepare only spells with the healing trait in these slots.</p><p><strong>Discipline Student (Manderville Mambo):</strong> You may use the skill you chose in place of Medicine for all purposes, including meeting feat prerequisites and when using Treat Wounds. When you make a check with your chosen skill in place of a Medicine check, the action gains the auditory trait.</p><p><strong>Discipline Apprentice (Amazing Joy):</strong> When you cast a cure spell or use Treat Wounds, you roll d10s instead of d8s for the amount of healing given.</p><p><strong>Discipline Journeyman (Supra Cure):</strong> You can replace any prepared spell with a cure spell, heightened to the appropriate rank.</p><p><strong>Discipline Mentor (Majestic Mender):</strong> When you cast a cure spell or use Treat Wounds, you add a status bonus to the healing equal to your level.</p><p><strong>Discipline Leader (Lucis Cure):</strong> When you cast a cure spell by spending 2 actions, you can get the effects of the 3-action version instead of the 2-action version.</p><p><strong>Discipline Grandmaster (Mandervillous!):</strong> You gain a single 10th-rank spell slot and can prepare a spell with the healing trait in that slot using gift of magic. Unlike with other spell slots, you can't use 10th-rank slots with abilities that give you more spell slots (other than wild jubilation) or that let you cast spells without expending spell slots. You don't gain more 10th-rank spells as you level up, but you can take the Immaculate Gift feat to gain a second slot, subject to the same restrictions.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disciple",
+        "value": {
+          "studentBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.C260ws6Bc1XRdJJc",
+          "apprenticeBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.oKCy3Hv0VXKXAqzC",
+          "journeymanBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NOkHdMthOBTdcsvu",
+          "mentorBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.Z4fCGHIl5uTLO5JD",
+          "leaderBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.PbJ7qPyWW8uHUPpB",
+          "grandmasterBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.0qTHUrmoe4FEPVin"
+        }
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Skill.Diplomacy",
+            "value": "diplomacy"
+          },
+          {
+            "label": "PF2E.Skill.Performance",
+            "value": "performance"
+          },
+          {
+            "label": "PF2E.Skill.Intimidation",
+            "value": "intimidation"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "value": 1
+      }
+    ],
+    "slug": "wild-jubilation",
+    "traits": {
+      "otherTags": [
+        "discipline-of-the-forge"
+      ],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "cha"
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Flora_Mastery.png",
+  "folder": "pwwYkz06uaz2VnN5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "XbxbHIHH27I9a1ww",
+  "sort": 0,
+  "_key": "!items!XbxbHIHH27I9a1ww"
+}

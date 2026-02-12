@@ -1,0 +1,112 @@
+{
+  "folder": "iVEgCApWpBrdtIZm",
+  "name": "Prudent Touch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>You've trained with the staff to use it as readily as any other tool. When you critically succeed at an attack roll using a staff, you apply the critical specialization effect of the club group. While you're in Basic Touch stance, your staff gains the deadly d6 trait and its damage type changes to that of your preferred element.</p><p>In addition, you can slot materia into a magic staff you prepare, even though a magic staff can't typically hold materia. You must first inscribe the materia into your spellbook, using the same process as transferring materia. The materia takes the form of a specialized diagram in your spellbook, occupying one page. You can't slot materia that can't be placed on a non-magical staff, nor can you inscribe the @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Shifting} materia. When you prepare a staff, you can impart any number of materia from your spellbook into the staff, up to the limit imposed by the staff's heaven's eye materia.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:base:staff"
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:base:staff",
+          "self:effect:basic-touch"
+        ],
+        "property": "traits",
+        "value": "deadly-d6"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:base:staff",
+          "self:effect:basic-touch",
+          {
+            "not": "basic-touch-damage:weapon-damage"
+          }
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "melee-strike-damage"
+        ],
+        "slug": "deadly-d6",
+        "value": "{actor|flags.pf2e.basicTouch.damageType}"
+      }
+    ],
+    "slug": "prudent-touch",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Synthesis"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "jgISCwvpVQzVuGAm",
+  "sort": 0,
+  "_key": "!items!jgISCwvpVQzVuGAm"
+}

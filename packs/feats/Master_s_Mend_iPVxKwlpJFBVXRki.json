@@ -1,0 +1,82 @@
+{
+  "folder": "iVEgCApWpBrdtIZm",
+  "name": "Master's Mend",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>You can cast @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{@Localize[AIE.SpellNames.1st.Mending]} as an arcanima innate spell once per day per rank of Crafting you have, automatically heightened to half your level. In addition, whenever you roll a critical failure on a Crafting check, you get a failure instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "crafting",
+        "adjustment": {
+          "criticalFailure": "to-failure"
+        }
+      }
+    ],
+    "slug": "masters-mend",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "hand"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "iPVxKwlpJFBVXRki",
+  "sort": 0,
+  "_key": "!items!iPVxKwlpJFBVXRki"
+}

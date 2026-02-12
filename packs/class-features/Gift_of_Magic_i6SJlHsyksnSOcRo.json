@@ -1,0 +1,69 @@
+{
+  "name": "Gift of Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The land also grants you moderate magical gifts. You can cast arcanima spells using the Cast a Spell activity.</p><p>At 1st level, you can prepare one 1st-level spell and five cantrips each morning from the spells in your spellbook. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.</p><p>As you increase in level as a disciple, your number of spells per day increases, as does the highest rank of spells you can cast, as shown on the Disciple Spells per Day table.</p><p>Because you split your focus between crafting and combat, you have no more than two spell slots of your highest rank and, if you can cast 2nd-rank spells or higher, two spell slots of 1 rank lower than your highest spell rank. However, you may also prepare 1 additional spell per day of each spell rank available to you; these additional spells must have the trait matching your gift's preferred element.</p><p>Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Your spell attack rolls and spell DCs use the key attribute gained from your discipline.</p><h2>Spellbook</h2><p>The collection of spells you can cast is called your spellbook. At 1st level, you learn four 1st-rank arcanima spells of your choice and eight arcanima cantrips of your choice. You choose these from the common spells from the arcanima list or from other arcanima spells to which you have access. You can cast any spell in your spellbook by using a spell slot of an appropriate spell rank.</p><p>You add to this spellbook as you increase in level. Each time you gain a level, you add two spells to your spellbook of any level of spell you can cast. Though you lose some lower spell slots as you increase in level, you keep the spells in your spellbook and can prepare them in your higher-level slots as normal.</p><h2>Heightening Spells</h2><p>When you get spell slots of 2nd-rank and higher, you can fill those slots with stronger versions of lower ranked spells. This increases the spell's rank to match the spell slot. You must have a spell in your spellbook at the rank you want to cast to heighten it to that rank. Many spells have specific improvements when heightened to certain ranks.</p><h2>Swapping Spells in Your Spellbook</h2><p>As you gain new spells, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "gift-of-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Byregot%27s_Blessing.png",
+  "folder": "GPOjOIQTmpqvBWot",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "i6SJlHsyksnSOcRo",
+  "sort": 900000,
+  "_key": "!items!i6SJlHsyksnSOcRo"
+}

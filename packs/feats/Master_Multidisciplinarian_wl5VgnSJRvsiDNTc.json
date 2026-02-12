@@ -1,0 +1,162 @@
+{
+  "folder": "TpLhVo6lRmHoQ8VD",
+  "name": "Master Multidisciplinarian",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>You gain the discipline mentor and discipline leader benefits of the discipline you chose with the Multidisciplined feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:boundless-sky"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.t9wZj2aKFqYdOCnJ"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:boundless-sky"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NA8OLgMAc6QkXqDP"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:cyclical-elements"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.rIYD5aTUl4qVnktu"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:cyclical-elements"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.nDaBNEPDiRaThEDk"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:entwined-souls"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.iOASLpOam53bSofY"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:entwined-souls"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UuGlemQAFgf7l9h1"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:glorious-light"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.RccHuqnCvzAhy0WU"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:glorious-light"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NcOWIkVp0kslAHFm"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:materia-constellation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.dtAtDHaBgABoyD9v"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:materia-constellation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.vKNNfYYxFjVPbBMd"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:wild-jubilation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.Z4fCGHIl5uTLO5JD"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:wild-jubilation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.PbJ7qPyWW8uHUPpB"
+      }
+    ],
+    "slug": "master-multidisciplinarian",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Greater Multidisciplinarian"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "wl5VgnSJRvsiDNTc",
+  "sort": 0,
+  "_key": "!items!wl5VgnSJRvsiDNTc"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Dragonsung Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Whenever you make a Recall Knowledge check about a creature using Oddly Specific Lore, you learn about one of its weaknesses (or that it doesn’t have any) in addition to any other information. Successful Strikes with your skysteel strike ability deal an additional @Damage[2d6] damage of a type the target has a weakness to. If it has no weaknesses, you instead deal an additional @Damage[3d6[force]] damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "dragonsung-strike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Flora_Mastery.png",
+  "folder": "XpexytBVBQ3lOGIK",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "SYv3dhIBf512F7mK",
+  "sort": 2400000,
+  "_key": "!items!SYv3dhIBf512F7mK"
+}

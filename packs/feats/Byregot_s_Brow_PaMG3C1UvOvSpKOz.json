@@ -1,0 +1,74 @@
+{
+  "folder": "lsbJIsu4G99EfiAq",
+  "name": "Byregot's Brow",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>You gain the Shield Block general feat as a bonus feat. You can alter non-tower shields to be wieldable even with an occupied hand, including when using a two-handed weapon, though this only functions for you. Such a shield's hardness and circumstance bonus to AC is reduced by 1.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "byregots-brow",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "hand"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "PaMG3C1UvOvSpKOz",
+  "sort": 0,
+  "_key": "!items!PaMG3C1UvOvSpKOz"
+}

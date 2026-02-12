@@ -1,0 +1,76 @@
+{
+  "name": "Animated Familiar",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your familiar gains the independent familiar ability, which doesn't count against its normal ability limit. Your familiar can now wield itself; treat the inhabited weapon as if it had the animated materia. While acting on its own, it can make Strikes; it uses your proficiency bonus, Wisdom modifier, and the inhabited weapon's item bonus for its attack rolls. It doesn't otherwise benefit from bonuses you would gain to attack rolls. If the inhabited weapon is destroyed, your familiar becomes unusable until your next daily preparations or you Refocus, at which point you may choose another weapon for it to inhabit.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.attributes.familiarAbilities.value",
+        "value": "1"
+      }
+    ],
+    "slug": "animated-familiar",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Flora_Mastery.png",
+  "folder": "XpexytBVBQ3lOGIK",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "iOASLpOam53bSofY",
+  "sort": 1300000,
+  "_key": "!items!iOASLpOam53bSofY"
+}

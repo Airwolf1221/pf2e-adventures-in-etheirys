@@ -1,0 +1,189 @@
+{
+  "folder": "jLIcY4E1Yl6uoPM9",
+  "name": "Multidisciplined",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>Choose another discipline that you qualify for. You gain its initial and discipline student benefits (though not its skill increase), and qualify for feats as though it were your dicipline, but you don't gain any other benefits from that discipline. You can't gain additional spell slots this way if you already have a discipline that grants them, but spell slots from disciplines can be used to prepare spells with traits matching any of your disciplines' restrictions.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Boundless Sky",
+            "value": "boundless-sky",
+            "predicate": [
+              {
+                "not": "feature:boundless-sky"
+              }
+            ]
+          },
+          {
+            "label": "Cyclical Elements",
+            "value": "cyclical-elements",
+            "predicate": [
+              {
+                "not": "feature:cyclical-elements"
+              }
+            ]
+          },
+          {
+            "label": "Entwined Souls",
+            "value": "entwined-souls",
+            "predicate": [
+              {
+                "not": "feature:entwined-souls"
+              }
+            ]
+          },
+          {
+            "label": "Glorious Light",
+            "value": "glorious-light",
+            "predicate": [
+              {
+                "not": "feature:glorious-light"
+              }
+            ]
+          },
+          {
+            "label": "Materia Constellation",
+            "value": "materia-constellation",
+            "predicate": [
+              {
+                "not": "feature:materia-constellation"
+              }
+            ]
+          },
+          {
+            "label": "Wild Jubilation",
+            "value": "wild-jubilation",
+            "predicate": [
+              {
+                "not": "feature:wild-jubilation"
+              }
+            ]
+          }
+        ],
+        "flag": "multidisciplined",
+        "rollOption": "multidisciplined",
+        "prompt": "Choose a discipline of the forge"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:boundless-sky"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.cL2i8z8tNuRt9KXA"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:boundless-sky"
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:cyclical-elements"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.BWPdM2Fewp2X5FTx"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:entwined-souls"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.oX2wtseKMhJugqDH"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:glorious-light"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.MEieF927bhMvzvm8"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:materia-constellation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.Bjp0vs5GZFStcGWQ"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:wild-jubilation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.C260ws6Bc1XRdJJc"
+      }
+    ],
+    "slug": "multidisciplined",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You are a Disciple"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ShRSgUu5h6GWIG3p",
+  "sort": 0,
+  "_key": "!items!ShRSgUu5h6GWIG3p"
+}

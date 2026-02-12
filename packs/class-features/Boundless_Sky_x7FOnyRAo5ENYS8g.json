@@ -1,0 +1,92 @@
+{
+  "name": "Boundless Sky",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>While your knowledge is as boundless as the sky, it’s often also as trivial as the clouds. Your key attribute is Intelligence. You become trained in two Lore skills of your choice.</p><p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} skill feat as a bonus feat, choosing Oddly Specific Lore. This is a special Lore skill which can be applied to any check that a Lore skill could normally be used in, such as Recall Knowledge, but only for specific uses, subject to GM discretion. For example, you could use Oddly Specific Lore to recall knowledge about a particular mutation or offshoot of a creature family that lives in a different habitat, but not about common characteristics associated with the Animal creature type trait.</p><p>You can use Oddly Specific Lore twice per day, plus two additional uses per day for each proficiency rank above trained. Once you’ve used Oddly Specific Lore about a particular subject, further Lore checks about the same subject in the same day don’t consume any additional daily uses.</p><p><strong>Discipline Student (Skysteel Strike):</strong> If you succeed at an Oddly Specific Lore check about a creature family, for 1 minute, you may replace the proficiency bonus and modifier of an attack roll with those of your Oddly Specific Lore when making a Strike against that creature family.</p><p><strong>Discipline Apprentice (Superlative Lore):</strong> Choose two skills with a Recall Knowledge action other than Crafting. Whenever you make an Oddly Specific Lore check in place of a check with one of the chosen skills, you don't consume a daily use of Oddly Specific Lore.</p><p><strong>Discipline Journeyman (Dragonsung Strike):</strong> Whenever you make a Recall Knowledge check about a creature using Oddly Specific Lore, you learn about one of its weaknesses (or that it doesn’t have any) in addition to any other information. Successful Strikes with your skysteel strike ability deal an additional 2d6 damage of a type the target has a weakness to. If it has no weaknesses, you instead deal an additional 3d6 unaspected damage.</p><p><strong>Discipline Mentor (Augmented Lore):</strong> Choose two additional skills with a Recall Knowledge action for your superlative lore ability.</p><p><strong>Discipline Leader (Skysung Strike):</strong> Your dragonsung strike adds two additional dice of damage. If the target has a weakness to a damage type, that weakness is doubled against this Strike; otherwise, this ability deals d10s instead of d6s.</p><p><strong>Discipline Grandmaster (Skybuilders' Lore):</strong> Once per hour, you may use Oddly Specific Lore in place of any other skill check, regardless of specificity. This alternative use of Oddly Specific Lore does not consume a daily use.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disciple",
+        "value": {
+          "studentBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.cL2i8z8tNuRt9KXA",
+          "apprenticeBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.S3FDHdDkxtCgWpgg",
+          "journeymanBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.SYv3dhIBf512F7mK",
+          "mentorBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.t9wZj2aKFqYdOCnJ",
+          "leaderBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NA8OLgMAc6QkXqDP",
+          "grandmasterBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NczruoliKiqmGfTV"
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      }
+    ],
+    "slug": "boundless-sky",
+    "traits": {
+      "otherTags": [
+        "discipline-of-the-forge"
+      ],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "int"
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Salvage.png",
+  "folder": "pwwYkz06uaz2VnN5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "x7FOnyRAo5ENYS8g",
+  "sort": 100000,
+  "_key": "!items!x7FOnyRAo5ENYS8g"
+}

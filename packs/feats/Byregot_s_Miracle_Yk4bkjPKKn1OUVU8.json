@@ -1,0 +1,96 @@
+{
+  "folder": "BunIpiAEl9stgf8O",
+  "name": "Byregot's Miracle",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>Byregot's Brow no longer reduces the hardness or AC bonus of tower shields. In addition, you are permanently quickened, and can use the additional action only to Raise your Shield, or to Take Cover behind your tower shield after you have Raised it.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl"
+      },
+      {
+        "itemType": "condition",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:granter:id:{item|id}"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You are permanently quickened, and can use the additional action only to Raise your Shield, or to Take Cover behind your tower shield after you have Raised it."
+          }
+        ]
+      }
+    ],
+    "slug": "byregots-miracle",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Byregot's Mastery"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Yk4bkjPKKn1OUVU8",
+  "sort": 0,
+  "_key": "!items!Yk4bkjPKKn1OUVU8"
+}

@@ -1,0 +1,169 @@
+{
+  "folder": "jOoTHOOT3jKPfnbK",
+  "name": "Soul of the Armorsmith",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your proficiency rank in all armor is treated as one rank higher than your proficiency rank in unarmored defense, and you gain the relevant armor specialization effects when wearing such armor.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.light.rank",
+        "value": "@actor.system.proficiencies.defenses.unarmored.rank + 1"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.medium.rank",
+        "value": "@actor.system.proficiencies.defenses.unarmored.rank + 1"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "value": "@actor.system.proficiencies.defenses.unarmored.rank + 1"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:composite"
+        ],
+        "type": "piercing",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:leather"
+        ],
+        "type": "bludgeoning",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:plate"
+        ],
+        "type": "slashing",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:composite"
+        ],
+        "type": "piercing",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:leather"
+        ],
+        "type": "bludgeoning",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:plate"
+        ],
+        "type": "slashing",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:skeletal"
+        ],
+        "type": "precision",
+        "value": "3 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:skeletal"
+        ],
+        "type": "precision",
+        "value": "5 + @armor.system.runes.potency"
+      }
+    ],
+    "slug": "soul-of-the-armorsmith",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "hand"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Hand of the Armorsmith"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "lICbEpGBdS8boAeS",
+  "sort": 0,
+  "_key": "!items!lICbEpGBdS8boAeS"
+}

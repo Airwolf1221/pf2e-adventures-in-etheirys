@@ -1,0 +1,95 @@
+{
+  "folder": "lsbJIsu4G99EfiAq",
+  "name": "Jubilant Touch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your energy is even more vibrant and restorative. When you cast cure with one or two actions, you roll d10s instead of d8s.</p><hr /><p><strong>Special</strong> When you gain the discipline apprentice class feature, if you are a wild jubilation disciple, you increase the rolls on Cure spells and Treat Wounds to d12s, and you are not restricted based on actions.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "override": {
+          "dieSize": "d10"
+        },
+        "predicate": [
+          "item:slug:heal",
+          {
+            "or": [
+              "item:cast:actions:1",
+              "item:cast:actions:2"
+            ]
+          },
+          {
+            "not": "feature:amazing-joy"
+          }
+        ],
+        "selector": [
+          "spell-healing"
+        ]
+      }
+    ],
+    "slug": "jubilant-touch",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "HxCGqroKDNnuHtgl",
+  "sort": 0,
+  "_key": "!items!HxCGqroKDNnuHtgl"
+}

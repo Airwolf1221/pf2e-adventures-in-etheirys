@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "gnHwBTuIyZdX8VME",
+  "name": "Level 20",
+  "color": null,
+  "sorting": "a",
+  "_id": "BunIpiAEl9stgf8O",
+  "description": "",
+  "sort": 800000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_key": "!folders!BunIpiAEl9stgf8O"
+}

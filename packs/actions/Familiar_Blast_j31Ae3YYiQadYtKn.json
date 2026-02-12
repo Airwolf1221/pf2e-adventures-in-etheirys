@@ -1,0 +1,57 @@
+{
+  "name": "Familiar Blast",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your familiar fires a blast at a creature within 30 feet, dealing @Damage[10d10] damage of your preferred element, with a basic Fortitude save against your spell DC.</p><p>If the creature fails its save and takes damage, it is also @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} (or @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4} on a critical failure). You may regain any one spell you had prepared today in a slot lower than your highest-rank spell slot, or in one of the additional spell slots granted by your discipline. If you have focus spells, you may instead choose to regain 1 Focus Point.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "familiar-blast",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": "lTpPN33B07ouQoXV",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "j31Ae3YYiQadYtKn",
+  "sort": 0,
+  "_key": "!items!j31Ae3YYiQadYtKn"
+}

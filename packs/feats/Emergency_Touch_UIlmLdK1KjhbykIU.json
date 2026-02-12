@@ -1,0 +1,77 @@
+{
+  "folder": "iVEgCApWpBrdtIZm",
+  "name": "Emergency Touch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You're wielding a shield or have the shield cantrip prepared and usable.</p><p><strong>Trigger</strong> An enemy hits you with a melee Strike or a melee spell attack roll, or you fail a save against an enemy's spell</p><hr /><p>You immediately @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} or cast @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Shield}. The circumstance bonus applies to your defenses when determining the outcome of the triggering attack or spell.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "emergency-touch",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Advanced Touch"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "UIlmLdK1KjhbykIU",
+  "sort": 0,
+  "_key": "!items!UIlmLdK1KjhbykIU"
+}

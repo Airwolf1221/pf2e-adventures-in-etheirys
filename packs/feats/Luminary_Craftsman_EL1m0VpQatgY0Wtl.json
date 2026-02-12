@@ -1,0 +1,99 @@
+{
+  "folder": "lsbJIsu4G99EfiAq",
+  "name": "Luminary Craftsman",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>You glow with magical luminance. You naturally shed light as a torch; this light has the arcanima and light traits. You can extinguish, rekindle, or change the color of this light using a single action, which has the concentrate trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 40,
+          "bright": 20,
+          "color": "#ffae3d",
+          "animation": {
+            "type": "flame",
+            "speed": 2,
+            "intensity": 1
+          },
+          "attenuation": 0.4,
+          "shadows": 0.2
+        },
+        "predicate": [
+          "luminary-light"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Luminary Light",
+        "option": "luminary-light",
+        "toggleable": true
+      }
+    ],
+    "slug": "luminary-craftsman",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "hand"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "EL1m0VpQatgY0Wtl",
+  "sort": 0,
+  "_key": "!items!EL1m0VpQatgY0Wtl"
+}

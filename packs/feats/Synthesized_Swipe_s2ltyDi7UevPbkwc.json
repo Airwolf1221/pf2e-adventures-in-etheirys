@@ -1,0 +1,77 @@
+{
+  "folder": "jOoTHOOT3jKPfnbK",
+  "name": "Synthesized Swipe",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your Synthestrike is charged.</p><hr /><p>You attack in an arc and enact your spell against everyone you hit. Make a Synthestrike, but roll separate Strikes to attack two creatures, each of whom must be within your melee reach and adjacent to each other. If your spell could affect two or more targets, your spell affects whichever foes you hit, not just the first target; otherwise, choose one target to affect with the spell. A Spell Swipe counts as two attacks for your multiple attack penalty, but the penalty doesn't increase until after you make both attacks.</p><p>If you're using a weapon that has the sweep trait, its circumstance bonus applies against both targets. You can use this activity with only melee Strikes.</p><p>If you use Expansive Synthesis to Synthestrike with an area spell, apply the area as described in Expansive Synthesis, choosing one of the creatures you Strike to determine the area and whether the spell fails due to a critically failed Strike. If you use Expansive Synthesis to Synthestrike with a targeted spell, the spell is lost completely only if both Strikes are critical failures.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "synthesized-swipe",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Synthesis"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "s2ltyDi7UevPbkwc",
+  "sort": 0,
+  "_key": "!items!s2ltyDi7UevPbkwc"
+}

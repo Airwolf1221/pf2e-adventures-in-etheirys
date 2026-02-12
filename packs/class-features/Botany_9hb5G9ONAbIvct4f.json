@@ -1,0 +1,116 @@
+{
+  "name": "Botany",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The land encourages you to cultivate crops, pluck berries, and trim grass.</p><ul><li><strong>Preferred Weapon Groups:</strong> knives, swords</li><li><strong>Preferred Element:</strong> wind</li><li><strong>Preferred Saving Throws:</strong> Will, Fortitude</li><li><strong>Preferred Terrain Types:</strong> forest, plains, swamp</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.giftElement",
+        "value": "wind-ff"
+      },
+      {
+        "key": "RollOption",
+        "option": "gift-element:wind-ff"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "predicate": [
+          "item:category:martial",
+          {
+            "or": [
+              "item:group:knife",
+              "item:group:sword"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "gift-weapon"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.will.rank",
+        "value": "ternary(gte(@actor.level,15),4,ternary(gte(@actor.level,7),3,2))",
+        "predicate": [
+          "class:disciple"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank",
+        "value": "ternary(gte(@actor.level,11),3,2)",
+        "predicate": [
+          "class:disciple"
+        ]
+      }
+    ],
+    "slug": "botany",
+    "traits": {
+      "otherTags": [
+        "gift-of-the-land"
+      ],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Role_Actions/Arbor_Call.png",
+  "folder": "VHO41gV1dzg2VxFa",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "9hb5G9ONAbIvct4f",
+  "sort": 400000,
+  "_key": "!items!9hb5G9ONAbIvct4f"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "GLWHIBQGlbheNK8o",
+  "name": "Refined Touch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You Cast a Spell using a spell slot</p><p><strong>Requirements</strong> You're in Basic Touch stance.</p><hr /><p>You pull magic into your weapon, using its substance to transform the magic into restorative energy. You regain Hit Points equal to double the spell's level and roll to end any persistent negative damage you have.</p><p>If the spell was a healing spell, any persistent @Localize[PF2E.TraitVoid] damage you have ends automatically, and you can change the damage type from Basic Touch to @Localize[PF2E.TraitVitality] if you wish.</p><p>If the spell dealt damage, any persistent @Localize[PF2E.TraitVitality] damage you have ends automatically, and you can change the damage type from Basic Touch to @Localize[PF2E.TraitVoid] if you wish.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "refined-touch",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "healing",
+        "occult",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Touch"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "SFpPMgDPgAOcMiHR",
+  "sort": 0,
+  "_key": "!items!SFpPMgDPgAOcMiHR"
+}

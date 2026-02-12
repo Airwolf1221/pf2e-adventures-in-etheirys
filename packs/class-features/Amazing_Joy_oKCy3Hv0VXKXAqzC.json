@@ -1,0 +1,98 @@
+{
+  "name": "Amazing Joy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you cast a cure spell or use Treat Wounds, you roll d10s instead of d8s for the amount of healing given.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "override": {
+          "dieSize": "d10"
+        },
+        "predicate": [
+          "item:slug:heal",
+          {
+            "not": "feat:jubilant-touch"
+          }
+        ],
+        "selector": [
+          "spell-healing"
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "override": {
+          "dieSize": "d12"
+        },
+        "predicate": [
+          "item:slug:heal",
+          "feat:jubilant-touch"
+        ],
+        "selector": [
+          "spell-healing"
+        ]
+      }
+    ],
+    "slug": "amazing-joy",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Innovation.png",
+  "folder": "XpexytBVBQ3lOGIK",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "oKCy3Hv0VXKXAqzC",
+  "sort": 0,
+  "_key": "!items!oKCy3Hv0VXKXAqzC"
+}

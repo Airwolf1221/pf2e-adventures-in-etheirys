@@ -373,7 +373,8 @@
             "OtherTags": {
                 "SamuraiWeapon": "Samurai Weapon",
                 "MultiTool": "Multi-Tool",
-                "MechStrike": "Magitek Mech Strike"
+                "MechStrike": "Magitek Mech Strike",
+                "GiftWeapon": "Gift Weapon"
             }
         },
         "SpellNames": {

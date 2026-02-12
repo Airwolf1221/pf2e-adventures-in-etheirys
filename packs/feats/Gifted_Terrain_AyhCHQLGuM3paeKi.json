@@ -1,0 +1,73 @@
+{
+  "folder": "lsbJIsu4G99EfiAq",
+  "name": "Gifted Terrain",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your gift teaches you how to traverse the wilds. When in your current gift's preferred terrain, you can ignore the effects of non-magical difficult terrain. If you have Unimpeded Gathering, you gain a second benefit while in each of your preferred terrains:</p><ul><li><strong>Aquatic</strong> You gain a swim Speed equal to your Speed. If you already had a swim Speed, you instead gain a +10-foot status bonus to your swim Speed.</li><li><strong>Arctic</strong> You need to eat and drink only one-tenth as much as usual, you aren’t affected by severe or extreme cold, and you can walk across ice and snow at full Speed without needing to Balance.</li><li><strong>Desert</strong> You need to eat and drink only one-tenth as much as usual, you aren’t affected by severe or extreme heat, and you can walk along sand at full Speed without needing to Balance.</li><li><strong>Forest, Mountain, or Underground</strong> You gain a climb Speed equal to your Speed. If you already had a climb Speed, you instead gain a +10-foot status bonus to your climb Speed.</li><li><strong>Plains</strong> You gain a +10-foot status bonus to your land Speed.</li><li><strong>Sky</strong> You gain a +10-foot status bonus to your fly Speed, if you have one.</li><li><strong>Swamp</strong> You can move across bogs at full Speed, even if they are deep enough to be greater difficult terrain or to normally require you to Swim.</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "gifted-terrain",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "AyhCHQLGuM3paeKi",
+  "sort": 0,
+  "_key": "!items!AyhCHQLGuM3paeKi"
+}

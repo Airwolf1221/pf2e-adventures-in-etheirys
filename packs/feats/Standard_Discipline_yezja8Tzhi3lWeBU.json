@@ -1,0 +1,162 @@
+{
+  "folder": "lnJsQCSgCd13ABVd",
+  "name": "Standard Discipline",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>You gain the discipline apprentice and discipline journeyman benefits of the discipline you chose with the Discipline Entrant feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:boundless-sky"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.S3FDHdDkxtCgWpgg"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:boundless-sky"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.SYv3dhIBf512F7mK"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:cyclical-elements"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.J2mVvEN3hWJ63ipy"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:cyclical-elements"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.jI0E9zkZjc2ohcoF"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:entwined-souls"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.fQktjVHMnoH8e4Yy"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:entwined-souls"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.4ZLEhWuG2yPyk254"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:glorious-light"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.4WLrzHreBHCvd1WR"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:glorious-light"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.EUa1Ywo0OuHMSaLu"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:materia-constellation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.6ji5hjW1nz32hFJI"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:materia-constellation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.PWVvU1JCBlCflVpx"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:wild-jubilation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.oKCy3Hv0VXKXAqzC"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "multidisciplined:wild-jubilation"
+        ],
+        "uuid": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.NOkHdMthOBTdcsvu"
+      }
+    ],
+    "slug": "standard-discipline",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Discipline Entrant"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "yezja8Tzhi3lWeBU",
+  "sort": 0,
+  "_key": "!items!yezja8Tzhi3lWeBU"
+}

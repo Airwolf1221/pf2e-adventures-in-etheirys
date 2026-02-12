@@ -1,0 +1,116 @@
+{
+  "folder": "lsbJIsu4G99EfiAq",
+  "name": "Advanced Touch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>When you enter Basic Touch stance and at the start of each of your turns while you're in that stance, choose either heavy touch, ranged touch, or shielded touch.:</p><ul><li><strong>Heavy Touch:</strong> If you're wielding a melee weapon in two hands, you gain temporary Hit Points equal to half your level. These temporary Hit Points last until the beginning of your next turn.</li><li><strong>Ranged Touch:</strong> Until the end of your turn, you can make Synthestrikes with a ranged weapon or ranged unarmed attack, as long as the target is within the first range increment of your ranged weapon or ranged unarmed attack. You can deliver the spell even if its range is shorter than the range increment of your ranged attack.</li><li><strong>Shielded Touch:</strong> If you're wielding a shield, until the start of your next turn, the circumstance bonus to AC from your shield also applies to your saves against spells and other magical effects, nonphysical damage from such spells or effects can also trigger your Shield Block reaction, and your shield's hardness increases by an amount equal to the bonus damage from Basic Touch. These benefits also apply to shield-like effects such as the shield spell, or a raised tool if you have the Raise a Tool feat.</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "label": "Advanced Touch",
+        "option": "advanced-touch",
+        "predicate": [
+          "self:effect:basic-touch"
+        ],
+        "suboptions": [
+          {
+            "label": "Heavy Touch",
+            "value": "heavy-touch"
+          },
+          {
+            "label": "Ranged Touch",
+            "value": "ranged-touch"
+          },
+          {
+            "label": "Shielded Touch",
+            "value": "shielded-touch"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@actor.heldShield.system.acBonus",
+        "predicate": [
+          "advanced-touch:shielded-touch",
+          "self:effect:basic-touch",
+          {
+            "or": [
+              "spell",
+              "magical"
+            ]
+          }
+        ],
+        "selector": [
+          "saving-throw"
+        ]
+      }
+    ],
+    "slug": "advanced-touch",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "PcsPrHg0Nvok1FVi",
+  "sort": 0,
+  "_key": "!items!PcsPrHg0Nvok1FVi"
+}

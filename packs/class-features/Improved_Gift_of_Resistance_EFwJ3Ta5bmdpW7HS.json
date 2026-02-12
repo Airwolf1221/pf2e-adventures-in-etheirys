@@ -1,0 +1,80 @@
+{
+  "name": "Improved Gift of Resistance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your bond with the land has matured. Your gift now gives you resistance to its preferred element equal to your level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "{actor|flags.pf2e.giftElement}",
+        "value": "@actor.level",
+        "predicate": [
+          {
+            "not": "feature:gift-of-immunity"
+          }
+        ]
+      }
+    ],
+    "slug": "improved-gift-of-resistance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Mountaineer%27s_Gift_II.png",
+  "folder": "GPOjOIQTmpqvBWot",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "EFwJ3Ta5bmdpW7HS",
+  "sort": 700000,
+  "_key": "!items!EFwJ3Ta5bmdpW7HS"
+}

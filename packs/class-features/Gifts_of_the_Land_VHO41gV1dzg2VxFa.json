@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "GPOjOIQTmpqvBWot",
+  "name": "Gifts of the Land",
+  "color": null,
+  "sorting": "a",
+  "_id": "VHO41gV1dzg2VxFa",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_key": "!folders!VHO41gV1dzg2VxFa"
+}

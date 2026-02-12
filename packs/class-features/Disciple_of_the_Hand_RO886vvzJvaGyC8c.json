@@ -1,0 +1,92 @@
+{
+  "name": "Disciple of the Hand",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You can craft items far more proficiently than the average adventurer, and you can do so at a far greater level of meticulous detail compared to others.</p><p>When you Craft a non-consumable item that is not magical or alchemical, you can either create that item with a 50% discount (ignoring all other discounts, such as the Specialty Crafting feat) or create it as a High Quality item by supplying additional materials equal to half the item's cost. This effect also applies to magical items for which you have a 1st-level disciple feat with the Hand trait.</p><p>High Quality items have different benefits depending on the type of item they are; HQ weapons gain a +1 to their damage rolls for each of their damage dice (so a 4d8 weapon will gain +4 to damage), while HQ armor grants damage resistance to bludgeoning damage equal to half your level (minimum of 1), which is in addition to any bludgeoning damage resistance the armor grants from imbued materia. Non-armor, non-weapon high quality items grant benefits depending on the item, at the discretion of the GM.</p><p>Choose a 1st-level discipline feat with the hand trait, or the Combat Synthesis feat. You gain the chosen feat as a bonus feat.</p><hr /><p><strong>Special</strong> If not using Complete Crafting Overhaul, this feature instead treats you as having spent an extra day crafting the appropriate items if your Crafting check is successful. You still gain the feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:trait:disciple",
+            {
+              "or": [
+                "item:trait:hand",
+                "item:slug:combat-synthesis"
+              ]
+            }
+          ]
+        },
+        "flag": "hand",
+        "key": "ChoiceSet",
+        "prompt": "Select a feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.hand}"
+      }
+    ],
+    "slug": "disciple-of-the-hand",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Hasty_Touch.png",
+  "folder": "GPOjOIQTmpqvBWot",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "RO886vvzJvaGyC8c",
+  "sort": 1300000,
+  "_key": "!items!RO886vvzJvaGyC8c"
+}

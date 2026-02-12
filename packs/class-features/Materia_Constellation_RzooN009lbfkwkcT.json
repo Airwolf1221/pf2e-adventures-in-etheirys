@@ -1,0 +1,110 @@
+{
+  "name": "Materia Constellation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have a penchant for all things sparkly, and you can make materia shine like gemstones. Your key attribute is Charisma, and you become trained in your choice of Diplomacy or Deception.</p><p>Invested jewelry you wear and other bejeweled equipment grants you resistance equal to your level, based on the color of the primary gemstone in the item as per the elemental jewelry table below. You may invest non-magical jewelry to gain these benefits.</p><p><strong>Table: Elemental Jewelry</strong></p><table class=\"pf2e remaster\"><thead><tr><th>Colour</th><th>Resistance Type</th></tr></thead><tbody><tr><td>Black</td><td>@Localize[PF2E.TraitVoid]</td></tr><tr><td>Blue</td><td>Water</td></tr><tr><td>Brown / Orange</td><td>Earth</td></tr><tr><td>Gray</td><td>@Localize[PF2E.TraitForce]</td></tr><tr><td>Green</td><td>Wind</td></tr><tr><td>Multicoloured</td><td>Physical</td></tr><tr><td>Gold</td><td>@Localize[PF2E.TraitVitality]</td></tr><tr><td>Purple</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>White</td><td>@Localize[PF2E.TraitCold]</td></tr><tr><td>Yellow</td><td>@Localize[PF2E.TraitElectricity]</td></tr></tbody></table><p><strong>Discipline Student (Zenith Sparkle):</strong> Armor, shields, and weapons you wear or wield that are inlaid with gemstones are treated as having a magic materia of your level or less slotted of the elemental type matching the color of the primary gemstone, as per the elemental jewelry table above. This doesn't count against the normal maximum of magic materia or materia fragments the item can normally hold. For a multicolored gemstone, you may choose gravity, protect, restore, or time materia.</p><p><strong>Discipline Apprentice (Atma Weapons):</strong> Weapons you wield, shields you wear, and unarmed strikes you make gain the weapon benefits and activation abilities of property materia slotted into armor you’re wearing.</p><p><strong>Discipline Journeyman (Novus Sparkle):</strong> When activating materia and talismans, you may use your own spell attack bonuses and spell DC in place of that of the materia, and you may activate them one additional time per day, if applicable.</p><p><strong>Discipline Mentor (Nexus Armor):</strong> Armor you wear and shields you have drawn gain the weapon benefits and activation abilities of property materia slotted into weapons you’re wielding.</p><p><strong>Discipline Leader (Zodiac Gear):</strong> When you invest an item, you can slot a single property materia into it, even if it isn't a weapon or armor. Weapons affected by your atma weapons ability and armor affected by your nexus armor ability gain the appropriate benefits and activation abilities of materia slotted this way.</p><p><strong>Discipline Grandmaster (Zeta Sparkle):</strong> When you invest a weapon or armor you created, you may slot an additional property materia into it. This materia doesn’t count against the item’s maximum materia slots.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disciple",
+        "value": {
+          "studentBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.Bjp0vs5GZFStcGWQ",
+          "apprenticeBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.6ji5hjW1nz32hFJI",
+          "journeymanBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.PWVvU1JCBlCflVpx",
+          "mentorBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.dtAtDHaBgABoyD9v",
+          "leaderBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.vKNNfYYxFjVPbBMd",
+          "grandmasterBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.co8QTohy7cvy1CYZ"
+        }
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Skill.Diplomacy",
+            "value": "diplomacy"
+          },
+          {
+            "label": "PF2E.Skill.Deception",
+            "value": "deception"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "value": 1
+      }
+    ],
+    "slug": "materia-constellation",
+    "traits": {
+      "otherTags": [
+        "discipline-of-the-forge"
+      ],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "cha"
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/The_Twelve%27s_Bounty.png",
+  "folder": "pwwYkz06uaz2VnN5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "RzooN009lbfkwkcT",
+  "sort": 0,
+  "_key": "!items!RzooN009lbfkwkcT"
+}

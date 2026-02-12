@@ -1,0 +1,77 @@
+{
+  "folder": "YCe7Kb12PjY8nNlm",
+  "name": "Materia Crowning",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>During your daily preparations, you may embed a gemstone worth at least 100 gp per level in your skin or into a headpiece, or swap such a gemstone for another. Only one such gemstone may be active at a time, and you can only choose which such gemstone is active during your daily preparations. As long as this embedded gemstone is openly visible or exposed, you gain an effect based on its primary color:</p><ul><li><strong>Black:</strong> You gain low-light vision, darkvision if you already had low-light vision, or greater darkvision if you already had darkvision.</li><li><strong>Blue:</strong> You gain a swim Speed equal to 40 feet or your land Speed, whichever is higher.</li><li><strong>Brown / Orange:</strong> You gain a burrow Speed equal to 40 feet or your land Speed, whichever is higher.</li><li><strong>Gray:</strong> You gain resistance to unaspected damage equal to half your level (minimum 1). This is in addition to the subclass resistance.</li><li><strong>Green:</strong> You gain a fly Speed equal to 40 feet or your land speed, whichever is higher.</li><li><strong>Multicolored:</strong> Your unarmed attacks deal 1d8 bludgeoning damage, gain the forceful trait, and lose the non-lethal and finesse traits.</li><li><strong>Gold:</strong> You gain a +2 status bonus to Diplomacy and Intimidate checks.</li><li><strong>Purple:</strong> Increase your maximum Hit Points by your level.</li><li><strong>Red:</strong> You gain a +2 status bonus to Athletics and Acrobatics checks.</li><li><strong>White:</strong> You can carry Bulk equal to 6 + your Strength modifier before becoming encumbered, and you can hold and carry a total Bulk up to 11 + your Strength modifier.</li><li><strong>Yellow:</strong> You gain a 10-foot status bonus to your land Speed.</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "materia-crowning",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Materia Constellation discipline"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "MPKt95WQDp5HqPZd",
+  "sort": 0,
+  "_key": "!items!MPKt95WQDp5HqPZd"
+}

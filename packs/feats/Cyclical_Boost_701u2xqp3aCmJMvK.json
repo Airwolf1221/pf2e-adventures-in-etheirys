@@ -1,0 +1,77 @@
+{
+  "folder": "lsbJIsu4G99EfiAq",
+  "name": "Cyclical Boost",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> The last spell you cast since the start of your previous turn was a damaging spell with an elemental trait.</p><hr /><p>Whenever you cast a damaging spell with an elemental trait, if the required spell didn't share an elemental trait with this one, you deal an additional die of damage. Any additional damage dice this ability granted the previous spell are also added to this spell's damage, to a maximum total of additional dice equal to half your level, rounded up. (For example, at 2nd level, you only add one die, even if this ability applies twice in a row.)</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "cyclical-boost",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cyclical Elements discipline"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "701u2xqp3aCmJMvK",
+  "sort": 0,
+  "_key": "!items!701u2xqp3aCmJMvK"
+}

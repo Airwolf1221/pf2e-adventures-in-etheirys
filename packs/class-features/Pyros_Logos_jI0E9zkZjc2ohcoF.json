@@ -1,0 +1,158 @@
+{
+  "name": "Pyros Logos",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You can safely use wands an additional time per day each, but only if the spell cast from that wand has an elemental trait. When you Strike with a staff, it gains the mystic trait for that attack, and you deal additional damage equal to the number of charges it has remaining. This damage is of an element of your choice from among the elemental traits of the spells within that staff; if no spells in the staff have elemental traits, you don't deal any additional damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack"
+        ],
+        "value": 0,
+        "predicate": [
+          "item:trait:mystic",
+          "mystic:int"
+        ],
+        "type": "ability",
+        "ability": "int",
+        "force": true,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack"
+        ],
+        "value": 0,
+        "predicate": [
+          "item:trait:mystic",
+          "mystic:wis"
+        ],
+        "type": "ability",
+        "ability": "wis",
+        "force": true,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack"
+        ],
+        "value": 0,
+        "predicate": [
+          "item:trait:mystic",
+          "mystic:cha"
+        ],
+        "type": "ability",
+        "ability": "cha",
+        "force": true,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "damage"
+        ],
+        "value": "floor(@actor.system.abilities.{item|flags.pf2e.rulesSelections.mystic}.mod/2)",
+        "predicate": [
+          "item:trait:mystic"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "label": "Mystic Attribute",
+        "option": "mystic",
+        "suboptions": [
+          {
+            "label": "Intelligence",
+            "value": "int"
+          },
+          {
+            "label": "Wisdom",
+            "value": "wis"
+          },
+          {
+            "label": "Charisma",
+            "value": "cha"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "property": "traits",
+        "predicate": [
+          "item:base:staff"
+        ],
+        "value": "mystic"
+      }
+    ],
+    "slug": "pyros-logos",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Brazen_Prospector.png",
+  "folder": "XpexytBVBQ3lOGIK",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "jI0E9zkZjc2ohcoF",
+  "sort": 1100000,
+  "_key": "!items!jI0E9zkZjc2ohcoF"
+}

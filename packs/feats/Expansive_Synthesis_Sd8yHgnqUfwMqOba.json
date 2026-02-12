@@ -1,0 +1,77 @@
+{
+  "folder": "lsbJIsu4G99EfiAq",
+  "name": "Expansive Synthesis",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>You've adapted a wider array of spells to work with your attacks. Rather than needing to use a spell that has a spell attack roll for a Synthestrike, you can use a harmful spell that can target a creature or that has an area of a burst, cone, or line (abiding by any other restrictions of Synthestrike). When you Cast a Spell that doesn't have a spell attack roll as part of a Synthestrike, it works in the following ways.</p><ul><li>If your Strike critically fails, the spell is lost with no effect.</li><li>Creatures use their normal defenses against the spell, such as saving throws.</li><li>If the spell lets you select a number of targets, it instead targets only the creature you attacked with your Strike.</li><li>If the spell has an area, the target must be in that area. A burst is centered on a corner of the target's square, or the square corner closest to the center of the target, if the target is Large or larger; you choose the corner if more than one is eligible. A cone or line emits from you and must include the target; if you're not adjacent to the target (using a reach weapon, for example), choose any square adjacent to the target as the source. The spell affects all creatures in the area as normal, but the Strike still targets only one creature.</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "expansive-synthesis",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Synthesis"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Sd8yHgnqUfwMqOba",
+  "sort": 0,
+  "_key": "!items!Sd8yHgnqUfwMqOba"
+}

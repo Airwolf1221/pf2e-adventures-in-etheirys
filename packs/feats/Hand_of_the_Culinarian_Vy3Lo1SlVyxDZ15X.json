@@ -1,0 +1,100 @@
+{
+  "folder": "ZaCzCouOLWprgx0d",
+  "name": "Hand of the Culinarian",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your disciple of the hand class feature also applies to all ingestible consumable items, such as potions or alchemical foods, at the GM's discretion. You also treat chef weapons (knives and frying pans) as being in your gift's preferred weapons list, and you gain access to the frying pan, which loses the halfling trait for you.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:base:knife",
+              "item:base:frying-pan"
+            ]
+          }
+        ],
+        "property": "other-tags",
+        "value": "gift-weapon"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "predicate": [
+          "item:slug:frying-pan"
+        ],
+        "mode": "remove",
+        "property": "traits",
+        "value": "halfling"
+      }
+    ],
+    "slug": "hand-of-the-culinarian",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "hand"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Vy3Lo1SlVyxDZ15X",
+  "sort": 0,
+  "_key": "!items!Vy3Lo1SlVyxDZ15X"
+}

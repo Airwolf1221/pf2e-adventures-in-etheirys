@@ -1,0 +1,77 @@
+{
+  "folder": "GLWHIBQGlbheNK8o",
+  "name": "Rapid Synthesis",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You're wielding a ranged or thrown weapon, or have a ranged unarmed attack, and your Synthestrike is charged.</p><hr /><p>A trail of energy flows from your target back to you. Make a Synthestrike with a ranged weapon or ranged unarmed attack against a target within the ranged weapon or unarmed attack's first range increment. The spell you cast for the Synthestrike can't be a cantrip or focus spell. Each creature in a line between you and the target, excluding you and the target, takes damage equal to double the spell's level. Determine the damage type as described in Basic Touch.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "rapid-synthesis",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Combat Synthesis"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "UBPPQWNMaOUe4SqF",
+  "sort": 0,
+  "_key": "!items!UBPPQWNMaOUe4SqF"
+}

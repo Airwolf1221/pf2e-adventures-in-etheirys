@@ -30,8 +30,8 @@ const featTraits = {
     'Impossible Flurry': ['samurai'],
     // Shared Class Features/Feats
     'Determination': ['paladin','samurai'],
-    'Weapon Specialization': ['engineer','paladin','samurai'],
-    'Greater Weapon Specialization': ['engineer','paladin','samurai'],
+    'Weapon Specialization': ['disciple','engineer','paladin','samurai'],
+    'Greater Weapon Specialization': ['disciple','engineer','paladin','samurai'],
     'Intimidating Strike': ['dragoon','samurai','warrior'],
     'Whirlwind Strike': ['dragoon','reaper','samurai','warrior'],
     'Reflex Expertise': ['engineer','paladin'],

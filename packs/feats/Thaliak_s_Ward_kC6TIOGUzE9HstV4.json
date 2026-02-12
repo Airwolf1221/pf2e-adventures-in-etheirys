@@ -1,0 +1,112 @@
+{
+  "folder": "ukYrEQi9soMrgUjS",
+  "name": "Thaliak's Ward",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>The wind element is counted as one of your current gift's preferred elements, unless it already is.</p><hr /><p><strong>Special</strong> You can only have a single Twelvesward feat, and retraining to another takes only 4 days.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "predicate": [
+          "item:damage:type:wind-ff",
+          {
+            "not": "gift-element:wind-ff"
+          }
+        ],
+        "selector": [
+          "damage"
+        ],
+        "damageType": "wind-ff"
+      },
+      {
+        "key": "Resistance",
+        "type": "wind-ff",
+        "value": "ternary(gte(@actor.level,13),@actor.level,floor(@actor.level/2))",
+        "predicate": [
+          {
+            "nor": [
+              "feature:gift-of-immunity",
+              "gift-element:wind-ff"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Immunity",
+        "type": "wind-ff",
+        "predicate": [
+          "feature:gift-of-immunity",
+          {
+            "not": "gift-element:wind-ff"
+          }
+        ]
+      }
+    ],
+    "slug": "thaliaks-ward",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "twelvesward"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "kC6TIOGUzE9HstV4",
+  "sort": 0,
+  "_key": "!items!kC6TIOGUzE9HstV4"
+}

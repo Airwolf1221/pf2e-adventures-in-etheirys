@@ -53,6 +53,7 @@ export function registerFeatures() {
         "samurai-weapon": "AIE.Identifiers.OtherTags.SamuraiWeapon",
         "multi-tool": "AIE.Identifiers.OtherTags.MultiTool",
         "mech-strike": "AIE.Identifiers.OtherTags.MechStrike",
+        "gift-weapon": "AIE.Identifiers.OtherTags.GiftWeapon"
     }, newFeatCategories = {
         blessing: "AIE.Identifiers.MythicBlessing"
     }, newArmorTypes = {

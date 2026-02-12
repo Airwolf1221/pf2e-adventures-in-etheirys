@@ -216,6 +216,42 @@
       },
       "_id": "oHlbiCHSRD1EiPnf",
       "_key": "!journal.pages!ZDsnoPK15uLTpQG8.oHlbiCHSRD1EiPnf"
+    },
+    {
+      "sort": 125000,
+      "name": "Disciple",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You’ve picked up a knack for crafting and an appreciation for the land and its materials.</p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ouaf04fm420lNjfq]{Disciple Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li class=\"tag traits\">dedication</li><li class=\"tag traits\">multiclass</li></ul><p><strong>Prerequisites</strong> Strength or Dexterity +2, Intelligence +2</p><hr /><p>You cast spells like a disciple, gaining a spellbook with four common arcanima cantrips of your choice. You gain the Cast a Spell activity. You can prepare two cantrips each day from your spellbook. Each time you gain a spell slot of a new level from the disciple archetype, add a spell of that level or lower to your spellbook. You're trained in arcanima spell attack rolls and spell DCs. Your key spellcasting ability for disciple archetype spells is Intelligence, and they are arcanima disciple spells.</p><p>You become trained in your choice of Arcana or Crafting; if you were already trained in both of these skills, you instead become trained in a skill of your choice. You also gain the gift of the land disciple class feature, except you do not gain the saving throws.</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.MPO5Yimo0qwfXk0s]{Basic Disciple} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.MPO5Yimo0qwfXk0s inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.84INEJowfPPMAY5y]{Disciple's Art} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.84INEJowfPPMAY5y inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.AkGdrSb9POVCtuz5]{Advanced Discipline} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.AkGdrSb9POVCtuz5 inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.BgmKyDc3twXFGY9n]{Basic Disciple's Gift} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.BgmKyDc3twXFGY9n inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.Rtplxb8HTJogjneh]{Discipline Entrant} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.Rtplxb8HTJogjneh inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.a6W5gLG9rQwTuFNj]{Expert Disciple's Gift} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.a6W5gLG9rQwTuFNj inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.yezja8Tzhi3lWeBU]{Standard Discipline} <span style=\"float:right\">Feat 14</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.yezja8Tzhi3lWeBU inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p><p></p><h2>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.4e3cPeQAfepULC4w]{Master Disciple's Gift} <span style=\"float:right\">Feat 18</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.pf2e-adventures-in-etheirys.feats.Item.4e3cPeQAfepULC4w inline]</p><p><span style=\"float:right\"><em>Source: Adventures in Etheirys</em></span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "BaYRkOXn1K3wq5i6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.pf2e-adventures-in-etheirys.journals.JournalEntry.ZDsnoPK15uLTpQG8.JournalEntryPage.LWPzb8T8PjUNz1OP",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "_id": "difsnGNg3Im9ZtWH",
+      "_key": "!journal.pages!ZDsnoPK15uLTpQG8.difsnGNg3Im9ZtWH"
     }
   ],
   "folder": null,

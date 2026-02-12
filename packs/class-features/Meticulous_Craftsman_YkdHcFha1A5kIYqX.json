@@ -1,0 +1,93 @@
+{
+  "name": "Meticulous Craftsman",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your attention to detail is master-class. Your proficiency rank for Perception increases to master, and your proficiency rank for Crafting increases to legendary. In addition, whenever you make a Crafting check, you can treat the result of the die as a natural 12, applying all relevant bonuses, penalties, and modifiers as normal.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 4
+      },
+      {
+        "key": "SubstituteRoll",
+        "label": "Meticulous Craftsman",
+        "selector": "crafting",
+        "slug": "meticulous-craftsman",
+        "value": 12,
+        "predicate": [
+          {
+            "not": "feature:conscientious-craftsman"
+          }
+        ]
+      }
+    ],
+    "slug": "meticulous-craftsman",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Traits/Bountiful_Yield%20Mastery.png",
+  "folder": "GPOjOIQTmpqvBWot",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "YkdHcFha1A5kIYqX",
+  "sort": 200000,
+  "_key": "!items!YkdHcFha1A5kIYqX"
+}

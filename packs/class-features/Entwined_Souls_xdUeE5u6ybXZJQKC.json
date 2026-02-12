@@ -1,0 +1,114 @@
+{
+  "name": "Entwined Souls",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You’ve put enough of your soul into crafting that you’ve generated a new, nascent soul within a weapon. Your key attribute is Wisdom, and you become trained in your choice of Arcana, Religion, or Occultism. You cast spells from that skill's corresponding spell list rather than arcanima spells, if applicable (black magic for arcana, white magic for religion, arcanima for occultism).</p><p>You gain a clockwork familiar. This functions as normal for such a familiar, except the required abilities to gain the clockwork familiar type are reduced to 2, it has no Speed, and it can’t take movement abilities. Rather than an animal, your familiar is a consciousness bound to a weapon; during your daily preparations, you may change which weapon your familiar inhabits for the day. Your familiar and its inhabited weapon are treated as one entity.</p><p>Your familiar gains the following innate master abilities in addition to its normal ones:</p><ul><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.HAEl6WEyNYazIHIX]{Anima Strike} (Familiar Ability):</strong> Once per round, your familiar can spend an action for you to make a Strike with it. Your familiar can only activate this ability if you’re wielding it.</li><li><strong>@UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ZYsd3m0yhDhS8FE7]{Familiar Grip} (Familiar Ability):</strong> If you’re not wielding your familiar, it’s not stowed, it's within your reach, and you have enough hands free to wield it, your familiar can spend an action for you to Interact to draw it.</li></ul><p>Whenever an ability, effect, or spell would allow your companion to Strike, you may choose to have your familiar activate its anima strike ability instead.</p><p><strong>Discipline Student (Awoken Weapon):</strong> Your familiar has a special materia slot, which can emulate a property materia of your level or lower. You may choose a different materia during your daily preparations, or when Refocusing. The inhabited weapon is treated as having that materia, which doesn’t count against its maximum materia.</p><p><strong>Discipline Apprentice (Anima Familiar):</strong> Your familiar gains 1 extra familiar ability.</p><p><strong>Discipline Journeyman (Reconditioned Weapon):</strong> Your familiar gains a second special materia slot, as per your awoken weapon ability. Additionally, instead of emulating materia, your familiar can instead imbue its own abilities into the slots, allowing the weapon to receive familiar abilities in place of any of these materia slots.</p><p><strong>Discipline Mentor (Animated Familiar):</strong> Your familiar gains the independent familiar ability, which doesn't count against its normal ability limit. Your familiar can now wield itself; treat the inhabited weapon as if it had the animated materia. While acting on its own, it can make Strikes; it uses your proficiency bonus, Wisdom modifier, and the inhabited weapon's item bonus for its attack rolls. It doesn't otherwise benefit from bonuses you would gain to attack rolls. If the inhabited weapon is destroyed, your familiar becomes unusable until your next daily preparations or you Refocus, at which point you may choose another weapon for it to inhabit.</p><p><strong>Discipline Leader (Hyperconductive Weapon):</strong> Your familiar gains a third special materia slot, as per your awoken weapon ability.</p><p><strong>Discipline Grandmaster (Lux Familiar):</strong> Your familiar gains 1 extra familiar ability.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.disciple",
+        "value": {
+          "studentBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.oX2wtseKMhJugqDH",
+          "apprenticeBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.fQktjVHMnoH8e4Yy",
+          "journeymanBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.4ZLEhWuG2yPyk254",
+          "mentorBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.iOASLpOam53bSofY",
+          "leaderBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.UuGlemQAFgf7l9h1",
+          "grandmasterBenefit": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.LcWGkVhPXGx7351v"
+        }
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Skill.Arcana",
+            "value": "arcana"
+          },
+          {
+            "label": "PF2E.Skill.Religion",
+            "value": "religion"
+          },
+          {
+            "label": "PF2E.Skill.Occultism",
+            "value": "occultism"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "value": 1
+      }
+    ],
+    "slug": "entwined-souls",
+    "traits": {
+      "otherTags": [
+        "discipline-of-the-forge"
+      ],
+      "value": [
+        "disciple"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "wis"
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Brazen_Woodsman.png",
+  "folder": "pwwYkz06uaz2VnN5",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "xdUeE5u6ybXZJQKC",
+  "sort": 300000,
+  "_key": "!items!xdUeE5u6ybXZJQKC"
+}

@@ -1,0 +1,112 @@
+{
+  "folder": "ukYrEQi9soMrgUjS",
+  "name": "Llymlaen's Ward",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p>The water element is counted as one of your current gift's preferred elements, unless it already is.</p><hr /><p><strong>Special</strong> You can only have a single Twelvesward feat, and retraining to another takes only 4 days.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "predicate": [
+          "item:damage:type:water-ff",
+          {
+            "not": "gift-element:water-ff"
+          }
+        ],
+        "selector": [
+          "damage"
+        ],
+        "damageType": "water-ff"
+      },
+      {
+        "key": "Resistance",
+        "type": "water-ff",
+        "value": "ternary(gte(@actor.level,13),@actor.level,floor(@actor.level/2))",
+        "predicate": [
+          {
+            "nor": [
+              "feature:gift-of-immunity",
+              "gift-element:water-ff"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Immunity",
+        "type": "water-ff",
+        "predicate": [
+          "feature:gift-of-immunity",
+          {
+            "not": "gift-element:water-ff"
+          }
+        ]
+      }
+    ],
+    "slug": "llymlaens-ward",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disciple",
+        "twelvesward"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "8YpxuubYR8SeS8kb",
+  "sort": 0,
+  "_key": "!items!8YpxuubYR8SeS8kb"
+}
