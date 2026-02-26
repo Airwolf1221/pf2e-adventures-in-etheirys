@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You gain the discipline apprentice and discipline journeyman benefits of the discipline you chose with the Multidisciplined feat.</p>",
+      "value": "<p>You gain the discipline apprentice and discipline journeyman benefits of the discipline you chose with the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ShRSgUu5h6GWIG3p]{Multidisciplined} feat.</p>",
       "gm": ""
     },
     "publication": {

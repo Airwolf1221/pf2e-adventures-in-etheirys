@@ -1,0 +1,59 @@
+{
+    "name": "Analysis",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "7iyF2xYZ3BNGcnRJ",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 346,
+          "y": 300
+        },
+        "id": "wwyQujqRoP7zI4aL",
+        "outs": {
+          "out": {
+            "connection": "f9a4VTJxkTC4TXbQ:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 597.9230769230769,
+          "y": 301.4
+        },
+        "id": "f9a4VTJxkTC4TXbQ",
+        "inputs": {
+          "target": {
+            "connection": "wwyQujqRoP7zI4aL:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.lkt7TIHIjqPD5kpt"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "HeLnjW6ZAtKseeis:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "f9a4VTJxkTC4TXbQ:outputs:item"
+          }
+        },
+        "position": {
+          "x": 877,
+          "y": 318.25
+        },
+        "id": "HeLnjW6ZAtKseeis"
+      }
+    ]
+}

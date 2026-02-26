@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You assume direct control of your automaton's actions. Your Automaton Queen makes a Strike with one of its unarmed attacks as a free action. This counts as using 2 actions to Command your invention.</p><hr /><p><strong>Overcharge Function</strong> The Strike gains a +1 untyped bonus and deals an additional 1d6 points of damage. This increases by one additional die at 12th level, and again at 18th level, and the untyped bonus increases to +2 at 18th level.</p>",
+      "value": "<p>You assume direct control of your automaton's actions. Your Automaton Queen makes a Strike with one of its unarmed attacks as a free action. This counts as using 2 actions to Command your invention.</p><hr /><p><strong>Overcharge Function</strong> The Strike gains a +1 untyped bonus and deals an additional 1d6 points of damage. This increases by one additional die at 12th level, and again at 18th level, and the untyped bonus increases to +2 at 18th level.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.oyF35FBD6d0qdmG0]{Effect: Remote Control (Overcharged)}</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,14 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      }
+    ],
     "slug": "remote-control",
     "traits": {
       "otherTags": [
@@ -68,7 +75,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

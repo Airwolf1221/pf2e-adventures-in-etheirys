@@ -25,7 +25,7 @@
         "property": "description",
         "value": [
           {
-            "text": "The enemy also takes @Damage[@actor.system.abilities.cha.mod[persistent,holy]] damage."
+            "text": "The enemy also takes @Damage[@actor.system.abilities.cha.mod[persistent,vitality]] damage."
           }
         ],
         "predicate": [
@@ -49,10 +49,7 @@
     },
     "category": "offensive",
     "deathNote": false,
-    "selfEffect": {
-      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.AhyNraGizLDoXoub",
-      "name": "Effect: Blood for Blood"
-    }
+    "selfEffect": null
   },
   "img": "systems/pf2e/icons/actions/Reaction.webp",
   "folder": "zWLpiq5h4r7LSlKh",
@@ -71,7 +68,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "V1C9iN2HWBgwShks",
   "sort": 700000,

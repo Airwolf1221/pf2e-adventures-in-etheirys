@@ -1,0 +1,807 @@
+{
+    "name": "Justiciar's Command",
+    "folder": "FF2e - Paladin",
+    "priority": 0,
+    "tags": [
+      "ff2e"
+    ],
+    "id": "13NpESLo77XMmnEk",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 342,
+          "y": 271
+        },
+        "id": "S2ivFNAETmkD3h8g",
+        "outs": {
+          "out": {
+            "connection": "wxYUwvM9BbPtUSMG:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 573,
+          "y": 470
+        },
+        "id": "oRwSiGdy7iwBUFLa",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.8UqBnqJ9qT6yqdLO"
+          },
+          "target": {
+            "connection": "OyAQuRWks95gvYgS:outputs:tJhHXIrNFAR7ZtlX"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "G0yZuaQQD379Y3jW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-persistent",
+        "position": {
+          "x": 1082.9999999999993,
+          "y": 469.87777777777774
+        },
+        "id": "gCBuwM6F0mZd6ZAB",
+        "inputs": {
+          "die": {
+            "connection": "G0yZuaQQD379Y3jW:outputs:5Me4Y3y1Riqz38mx"
+          },
+          "type": {
+            "value": "vitality"
+          },
+          "target": {
+            "connection": "OyAQuRWks95gvYgS:outputs:VJTNR13UyUJELMmx"
+          }
+        }
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 846.3333333333335,
+          "y": 489.3333333333335
+        },
+        "id": "G0yZuaQQD379Y3jW",
+        "custom": {
+          "outputs": {
+            "5Me4Y3y1Riqz38mx": {
+              "id": "5Me4Y3y1Riqz38mx",
+              "input": "system.abilities.cha.mod",
+              "label": "Charisma",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "OyAQuRWks95gvYgS:outputs:tJhHXIrNFAR7ZtlX"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "gCBuwM6F0mZd6ZAB:ins:in"
+          }
+        }
+      },
+      {
+        "custom": {
+          "title": "Empowered Reaction",
+          "outputs": {
+            "tJhHXIrNFAR7ZtlX": {
+              "id": "tJhHXIrNFAR7ZtlX",
+              "label": "Paladin",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            },
+            "VJTNR13UyUJELMmx": {
+              "id": "VJTNR13UyUJELMmx",
+              "label": "Target",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            }
+          }
+        },
+        "type": "__gate_exit__",
+        "position": {
+          "x": 344,
+          "y": 472
+        },
+        "id": "OyAQuRWks95gvYgS",
+        "outs": {
+          "out": {
+            "connection": "oRwSiGdy7iwBUFLa:ins:in"
+          }
+        }
+      },
+      {
+        "type": "inside-aura",
+        "position": {
+          "x": 600.9230769230769,
+          "y": 272.4
+        },
+        "id": "wxYUwvM9BbPtUSMG",
+        "inputs": {
+          "target": {
+            "connection": "S2ivFNAETmkD3h8g:outputs:origin"
+          },
+          "slug": {
+            "value": "paladins-aura"
+          },
+          "affects": {
+            "value": "allies"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "FKkKzooGMMZoIbhA:ins:in"
+          }
+        }
+      },
+      {
+        "type": "actors-match",
+        "position": {
+          "x": 934.9230769230769,
+          "y": 288.5
+        },
+        "id": "FKkKzooGMMZoIbhA",
+        "inputs": {
+          "b": {
+            "connection": "wxYUwvM9BbPtUSMG:outputs:source"
+          },
+          "a": {
+            "connection": "S2ivFNAETmkD3h8g:outputs:origin"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "QNbZBHuQfVGzZ7aW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-option",
+        "position": {
+          "x": 1528.923076923077,
+          "y": 304.5
+        },
+        "id": "H6eYhQSjLAYj3Chh",
+        "inputs": {
+          "option": {
+            "value": "self:effect:justiciars-command"
+          },
+          "target": {
+            "connection": "NvuNXopX5DDLKjjw:outputs:entry"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "qgDuOvMW4U19ILKI:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "wxYUwvM9BbPtUSMG:outputs:source"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1032,
+          "y": 415.75
+        },
+        "id": "NvuNXopX5DDLKjjw"
+      },
+      {
+        "type": "await-confirm",
+        "position": {
+          "x": 470.42307692307725,
+          "y": 906.8999999999999
+        },
+        "id": "D6RRjQ55lygCWfkz",
+        "inputs": {
+          "title": {
+            "value": "Reaction: Justiciar's Command"
+          },
+          "plain": {
+            "value": "Kneel (Yes) or Refuse (No)?"
+          },
+          "user": {
+            "connection": "5EEyeAulYIx1cB6T:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "XvWNjP7e5Jj2et9M:ins:in"
+          },
+          "false": {
+            "connection": "b4UrLuPSLykFipNB:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "S2ivFNAETmkD3h8g:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 343.16666666666697,
+          "y": 1022.4166666666665
+        },
+        "id": "5EEyeAulYIx1cB6T"
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 848.2564102564106,
+          "y": 619.4277777777777
+        },
+        "id": "XvWNjP7e5Jj2et9M",
+        "inputs": {
+          "condition": {
+            "value": "prone"
+          },
+          "target": {
+            "connection": "HdTmFL2ACVxOjhK1:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "mOvguV9KH9lGzpAR:ins:in"
+          }
+        },
+        "state": "fixed"
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 1153.923076923077,
+          "y": 313.4
+        },
+        "id": "QNbZBHuQfVGzZ7aW",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.actions.Item.fmWkarho9YG2ikPT"
+          },
+          "target": {
+            "connection": "NvuNXopX5DDLKjjw:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "H6eYhQSjLAYj3Chh:ins:in"
+          }
+        }
+      },
+      {
+        "type": "item-formula",
+        "position": {
+          "x": 773.1730769230775,
+          "y": 973
+        },
+        "id": "b4UrLuPSLykFipNB",
+        "inputs": {
+          "item": {
+            "connection": "9UYYg3srUxiwC3wR:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "i8sKF1ZUQZil9n6T:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "QNbZBHuQfVGzZ7aW:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 533.5000000000003,
+          "y": 1085.25
+        },
+        "id": "9UYYg3srUxiwC3wR"
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 1464.8397435897436,
+          "y": 1147.5388888888888
+        },
+        "id": "al82TkI1j8AlBNVF",
+        "inputs": {
+          "formula": {
+            "connection": "b4UrLuPSLykFipNB:outputs:formula"
+          },
+          "options": {
+            "connection": "b4UrLuPSLykFipNB:outputs:options"
+          },
+          "traits": {
+            "connection": "b4UrLuPSLykFipNB:outputs:traits"
+          },
+          "targets": {
+            "connection": "5jfGDc5oRqcSirul:outputs:entry"
+          },
+          "origin": {
+            "connection": "JQHZdndOR1QtbCq8:outputs:entry"
+          },
+          "item": {
+            "connection": "GP5Q2lhyExyub9UJ:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "mOvguV9KH9lGzpAR:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "S2ivFNAETmkD3h8g:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1291.0000000000005,
+          "y": 1219.25
+        },
+        "id": "5jfGDc5oRqcSirul"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "wxYUwvM9BbPtUSMG:outputs:source"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1291.7500000000005,
+          "y": 1259
+        },
+        "id": "JQHZdndOR1QtbCq8"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "QNbZBHuQfVGzZ7aW:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1204.7500000000005,
+          "y": 1295
+        },
+        "id": "GP5Q2lhyExyub9UJ"
+      },
+      {
+        "type": "create-effect",
+        "position": {
+          "x": 1884.6111111111118,
+          "y": 763.361111111111
+        },
+        "id": "mOvguV9KH9lGzpAR",
+        "custom": {
+          "inputs": {
+            "IfCbZx5UdYwnISjH": {
+              "id": "IfCbZx5UdYwnISjH",
+              "label": "Mark",
+              "slug": "rule",
+              "type": "text"
+            },
+            "Kfbc5I0jhYt7xwsL": {
+              "id": "Kfbc5I0jhYt7xwsL",
+              "label": "Flat Modifier",
+              "slug": "rule",
+              "type": "text"
+            }
+          }
+        },
+        "inputs": {
+          "expiry": {
+            "value": "turn-end"
+          },
+          "name": {
+            "value": "Effect: Justiciar's Command"
+          },
+          "pf2eImg": {
+            "value": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Goring_Blade.png"
+          },
+          "slug": {
+            "value": "effect-justiciars-command"
+          },
+          "IfCbZx5UdYwnISjH": {
+            "value": "{\n  \"key\": \"TokenMark\",\n  \"slug\": \"justiciars-command\",\n  \"uuid\": \"\"\n}"
+          },
+          "Kfbc5I0jhYt7xwsL": {
+            "value": "{\n  \"key\": \"FlatModifier\",\n  \"selector\": [\n    \"strike-damage\"\n  ],\n  \"value\": \"ternary(gte(@actor.level, 16), 6, ternary(gte(@actor.level, 9), 4, 2))\",\n  \"predicate\": [\n    \"target:mark:justiciars-command\"\n  ],\n  \"slug\": \"teaching-extra-damage\",\n  \"damageType\": \"vitality\"\n}"
+          },
+          "target": {
+            "connection": "Quw5C83pWIn2BI3s:outputs:entry"
+          },
+          "origin": {
+            "connection": "Quw5C83pWIn2BI3s:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "i5CEniLr6h6M6A4h:ins:in"
+          }
+        }
+      },
+      {
+        "custom": {
+          "inputs": {
+            "tJhHXIrNFAR7ZtlX": {
+              "id": "tJhHXIrNFAR7ZtlX",
+              "label": "Paladin",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            },
+            "VJTNR13UyUJELMmx": {
+              "id": "VJTNR13UyUJELMmx",
+              "label": "Target",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            }
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "OyAQuRWks95gvYgS:ins:in"
+          }
+        },
+        "type": "__gate_entry__",
+        "position": {
+          "x": 2230.034188034189,
+          "y": 764.1111111111109
+        },
+        "id": "i5CEniLr6h6M6A4h",
+        "inputs": {
+          "VJTNR13UyUJELMmx": {
+            "connection": "p7tfnsYlkfWlHs65:outputs:entry"
+          },
+          "tJhHXIrNFAR7ZtlX": {
+            "connection": "U3gBwlWZvQKHEKwF:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "S2ivFNAETmkD3h8g:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2092.1111111111118,
+          "y": 875.3611111111109
+        },
+        "id": "p7tfnsYlkfWlHs65"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "wxYUwvM9BbPtUSMG:outputs:source"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2091.1111111111118,
+          "y": 839.3611111111109
+        },
+        "id": "U3gBwlWZvQKHEKwF"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "S2ivFNAETmkD3h8g:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 627.2777777777783,
+          "y": 858.6666666666665
+        },
+        "id": "HdTmFL2ACVxOjhK1"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "wxYUwvM9BbPtUSMG:outputs:source"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1746.6111111111118,
+          "y": 1017.1111111111109
+        },
+        "id": "Quw5C83pWIn2BI3s"
+      },
+      {
+        "type": "await-confirm",
+        "position": {
+          "x": 2337.919108669109,
+          "y": 220.33253968253945
+        },
+        "id": "7tGe9YI1yA95wkWL",
+        "inputs": {
+          "title": {
+            "value": "Justiciar Repercussions"
+          },
+          "plain": {
+            "value": "Deal Persistent damage?"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "Ig74HY1qOmAnfl9U:ins:in"
+          },
+          "true": {
+            "connection": "Ydz6XxDeiq3DdnVW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 2017.6413308913325,
+          "y": 328.3880952380951
+        },
+        "id": "nmDoe9opM0raHNU1",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.nNoxvlAzxvRIVgnn"
+          },
+          "target": {
+            "connection": "Pyh377ohMRJlMzOe:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "7tGe9YI1yA95wkWL:ins:in"
+          },
+          "false": {
+            "connection": "Ig74HY1qOmAnfl9U:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "wxYUwvM9BbPtUSMG:outputs:source"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2003.7182539682553,
+          "y": 506.488095238095
+        },
+        "id": "Pyh377ohMRJlMzOe"
+      },
+      {
+        "custom": {
+          "title": "Repercussion",
+          "outputs": {
+            "19Nq7gbU5z4PlSjT": {
+              "id": "19Nq7gbU5z4PlSjT",
+              "label": "Repercussions Active",
+              "slug": "entry",
+              "isArray": false,
+              "type": "boolean"
+            }
+          }
+        },
+        "type": "__gate_exit__",
+        "position": {
+          "x": 256.6666666666665,
+          "y": 906.583333333333
+        },
+        "id": "X42ngSAue3OM7S98",
+        "outs": {
+          "out": {
+            "connection": "D6RRjQ55lygCWfkz:ins:in"
+          }
+        }
+      },
+      {
+        "outs": {
+          "out": {
+            "connection": "X42ngSAue3OM7S98:ins:in"
+          }
+        },
+        "type": "__gate_entry__",
+        "position": {
+          "x": 2670.9468864468863,
+          "y": 353.73809523809524
+        },
+        "id": "Ig74HY1qOmAnfl9U"
+      },
+      {
+        "custom": {
+          "inputs": {
+            "19Nq7gbU5z4PlSjT": {
+              "id": "19Nq7gbU5z4PlSjT",
+              "label": "Repercussions Active",
+              "slug": "entry",
+              "isArray": false,
+              "type": "boolean"
+            }
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "X42ngSAue3OM7S98:ins:in"
+          }
+        },
+        "type": "__gate_entry__",
+        "position": {
+          "x": 2670.9468864468863,
+          "y": 247.48809523809524
+        },
+        "id": "Ydz6XxDeiq3DdnVW",
+        "inputs": {
+          "19Nq7gbU5z4PlSjT": {
+            "value": true
+          }
+        }
+      },
+      {
+        "type": "if-truthy",
+        "position": {
+          "x": 1127.3397435897434,
+          "y": 958.0666666666666
+        },
+        "id": "i8sKF1ZUQZil9n6T",
+        "custom": {
+          "inputs": {
+            "KbpBIziEm3ZfNStj": {
+              "id": "KbpBIziEm3ZfNStj",
+              "label": "Repercussions Active",
+              "slug": "condition",
+              "isArray": false,
+              "type": "boolean"
+            }
+          }
+        },
+        "inputs": {
+          "KbpBIziEm3ZfNStj": {
+            "connection": "hiSariLnqxPTcgwY:outputs:entry"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "al82TkI1j8AlBNVF:ins:in"
+          },
+          "true": {
+            "connection": "dXVlZLOy5daQSVBO:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "X42ngSAue3OM7S98:outputs:19Nq7gbU5z4PlSjT"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 876.4166666666665,
+          "y": 1113.6666666666667
+        },
+        "id": "hiSariLnqxPTcgwY"
+      },
+      {
+        "type": "await-confirm",
+        "position": {
+          "x": 1743.9111721611719,
+          "y": 328.6738095238096
+        },
+        "id": "qgDuOvMW4U19ILKI",
+        "inputs": {
+          "title": {
+            "value": "Reaction: Justiciar's Command"
+          },
+          "plain": {
+            "value": "Use Justiciar's Command?"
+          },
+          "user": {
+            "connection": "X6xdeOk4ncbEvWOS:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "nmDoe9opM0raHNU1:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "wxYUwvM9BbPtUSMG:outputs:source"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1619,
+          "y": 431
+        },
+        "id": "X6xdeOk4ncbEvWOS"
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 1474.173076923077,
+          "y": 836.65
+        },
+        "id": "dXVlZLOy5daQSVBO",
+        "inputs": {
+          "targets": {
+            "connection": "5jfGDc5oRqcSirul:outputs:entry"
+          },
+          "origin": {
+            "connection": "JQHZdndOR1QtbCq8:outputs:entry"
+          },
+          "item": {
+            "connection": "GP5Q2lhyExyub9UJ:outputs:entry"
+          },
+          "formula": {
+            "value": "(ternary(gte(@actor.level, 19), 6, ternary(gte(@actor.level, 16), 5, ternary(gte(@actor.level, 12), 4, ternary(gte(@actor.level, 9), 3, ternary(gte(@actor.level, 5), 2, 1))))))d6[persistent,vitality]"
+          },
+          "options": {
+            "connection": "b4UrLuPSLykFipNB:outputs:options"
+          },
+          "traits": {
+            "connection": "b4UrLuPSLykFipNB:outputs:traits"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "mOvguV9KH9lGzpAR:ins:in"
+          }
+        }
+      }
+    ],
+    "variables": {
+      "S2ivFNAETmkD3h8g:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "S2ivFNAETmkD3h8g:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      },
+      "wxYUwvM9BbPtUSMG:outputs:source": {
+        "isArray": false,
+        "label": "Paladin",
+        "type": "target"
+      },
+      "QNbZBHuQfVGzZ7aW:outputs:item": {
+        "isArray": false,
+        "label": "Justiciar's Command",
+        "type": "item"
+      },
+      "X42ngSAue3OM7S98:outputs:19Nq7gbU5z4PlSjT": {
+        "isArray": false,
+        "label": "Repercussions Active",
+        "type": "boolean"
+      }
+    }
+}

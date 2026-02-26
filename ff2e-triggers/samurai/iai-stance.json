@@ -1,0 +1,59 @@
+{
+    "name": "Iai Stance",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "q2h2Se7OJ0OCycux",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 282,
+          "y": 220
+        },
+        "id": "IO0jnN7bQwMfd3va",
+        "outs": {
+          "out": {
+            "connection": "MOhGiTbk9aW2nVmJ:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 504.9230769230769,
+          "y": 219.39999999999998
+        },
+        "id": "MOhGiTbk9aW2nVmJ",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.rH08Zrof7w8AJi99"
+          },
+          "target": {
+            "connection": "IO0jnN7bQwMfd3va:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "wgMtSfheuJMI1CDT:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 791.9230769230769,
+          "y": 219.5
+        },
+        "id": "wgMtSfheuJMI1CDT",
+        "inputs": {
+          "item": {
+            "connection": "MOhGiTbk9aW2nVmJ:outputs:item"
+          }
+        }
+      }
+    ]
+}

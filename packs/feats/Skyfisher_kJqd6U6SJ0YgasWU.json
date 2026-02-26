@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Add sky to the list of preferred terrains for fishing. If you have the Gifted Terrain feat, the bonus to fly Speed you get from it within such terrain is doubled, and if you didn't have a fly Speed you instead gain one of the listed bonus value.</p>",
+      "value": "<p>Add sky to the list of preferred terrains for fishing. If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.AyhCHQLGuM3paeKi]{Gifted Terrain} feat, the bonus to fly Speed you get from it within such terrain is doubled, and if you didn't have a fly Speed you instead gain one of the listed bonus value.</p>",
       "gm": ""
     },
     "publication": {

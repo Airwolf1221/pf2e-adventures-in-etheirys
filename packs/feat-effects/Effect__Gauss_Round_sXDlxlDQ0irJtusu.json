@@ -1,0 +1,119 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Gauss_Round.png",
+  "name": "Effect: Gauss Round",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.C2j295m6BM8mH0S7]{Gauss Round}</p><p>Your invention deals an additional 1d4 points of lightning damage per damage die of the invention, or 1d8 damage plus persistent damage equal to half your level if gauss round was overcharged.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 10
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "@weapon.system.damage.dice",
+        "dieSize": "d8",
+        "damageType": "electricity",
+        "predicate": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          "overcharged"
+        ],
+        "label": "Gauss Round",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "@weapon.system.damage.dice",
+        "dieSize": "d6",
+        "damageType": "electricity",
+        "predicate": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          {
+            "not": "overcharged"
+          }
+        ],
+        "label": "Gauss Round",
+        "hideIfDisabled": true
+      },
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "multiply",
+        "property": "range-increment",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "hideIfDisabled": true,
+        "value": "max(1,floor(@actor.level/2))",
+        "predicate": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          "overcharged"
+        ],
+        "selector": [
+          "strike-damage"
+        ],
+        "damageCategory": "persistent",
+        "damageType": "electricity"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-gauss-round",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "sXDlxlDQ0irJtusu",
+  "sort": 1200000,
+  "_key": "!items!sXDlxlDQ0irJtusu"
+}

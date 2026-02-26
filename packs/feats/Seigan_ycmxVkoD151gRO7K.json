@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You successfully avoid an attack with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2ORcBQibJPXCHyiJ]{Third Eye}</p><hr /><p>Your dodging allows you to regain some vigor as well as reading your opponents thoughts allows to fight better against him. Until the start of your next turn, you gain a +2 status bonus to AC against attacks made by the target that triggered Third Eye, as well as a number of temporary hit points equal to you samurai level plus your Constitution modifier.</p><hr /><p><strong>Special</strong> This ability cannot be used at the same time as Deliverance.</p>",
+      "value": "<p><strong>Requirements</strong> You successfully avoid an attack with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2ORcBQibJPXCHyiJ]{Third Eye}</p><hr /><p>Your dodging allows you to regain some vigor as well as reading your opponents thoughts allows to fight better against him. Until the start of your next turn, you gain a +2 status bonus to AC against attacks made by the target that triggered Third Eye, as well as a number of temporary hit points equal to you samurai level plus your Constitution modifier.</p><hr /><p><strong>Special</strong> This ability cannot be used at the same time as @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.0qYKl1y280o1K1c5]{Deliverance}.</p>",
       "gm": ""
     },
     "publication": {
@@ -69,7 +69,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

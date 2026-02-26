@@ -1,0 +1,59 @@
+{
+    "name": "AMP Shot",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "mCKhZ6Ug5zwJq6ts",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 293,
+          "y": 264
+        },
+        "id": "7sdCjkbQQ7EdfI8e",
+        "outs": {
+          "out": {
+            "connection": "QE8WzK0QprBreDtY:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 557.9230769230769,
+          "y": 263.4
+        },
+        "id": "QE8WzK0QprBreDtY",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.1B2hFLh3V7l6y9kC"
+          },
+          "target": {
+            "connection": "7sdCjkbQQ7EdfI8e:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "kkogBXs6antY491c:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 832.9230769230769,
+          "y": 264.5
+        },
+        "id": "kkogBXs6antY491c",
+        "inputs": {
+          "item": {
+            "connection": "QE8WzK0QprBreDtY:outputs:item"
+          }
+        }
+      }
+    ]
+}

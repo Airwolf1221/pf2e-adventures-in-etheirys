@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You can wield tools as if they were preferred weapons instead of as improvised weapons, and their damage dice is increased to d6. If the tool is appropriate to your current gift and grants a bonus to skill checks, the tool is treated as having a heaven's eye materia of the same bonus when you wield it this way. If you have the Raise a Tool feat, you can't use the same tool as both a weapon and a shield in the same round.</p>",
+      "value": "<p>You can wield tools as if they were preferred weapons instead of as improvised weapons, and their damage dice is increased to d6. If the tool is appropriate to your current gift and grants a bonus to skill checks, the tool is treated as having a heaven's eye materia of the same bonus when you wield it this way. If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.vS2g02Hfg3Kqy30b]{Raise a Tool} feat, you can't use the same tool as both a weapon and a shield in the same round.</p>",
       "gm": ""
     },
     "publication": {

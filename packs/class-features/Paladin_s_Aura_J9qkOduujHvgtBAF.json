@@ -47,7 +47,7 @@
           }
         ],
         "radius": "@actor.flags.pf2e.paladin.aura",
-        "slug": "champions-aura"
+        "slug": "paladins-aura"
       },
       {
         "key": "GrantItem",
@@ -82,7 +82,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "folder": "26Wa1oNE2BEe6QIS",

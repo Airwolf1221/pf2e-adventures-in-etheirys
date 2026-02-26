@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You gain the Shield Block general feat as a bonus feat. You can alter non-tower shields to be wieldable even with an occupied hand, including when using a two-handed weapon, though this only functions for you. Such a shield's hardness and circumstance bonus to AC is reduced by 1.</p>",
+      "value": "<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} general feat as a bonus feat. You can alter non-tower shields to be wieldable even with an occupied hand, including when using a two-handed weapon, though this only functions for you. Such a shield's hardness and circumstance bonus to AC is reduced by 1.</p>",
       "gm": ""
     },
     "publication": {
@@ -22,7 +22,12 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8"
+      }
+    ],
     "slug": "byregots-brow",
     "traits": {
       "otherTags": [],

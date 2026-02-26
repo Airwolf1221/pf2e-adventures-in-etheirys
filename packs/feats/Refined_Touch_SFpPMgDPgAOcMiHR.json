@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You Cast a Spell using a spell slot</p><p><strong>Requirements</strong> You're in Basic Touch stance.</p><hr /><p>You pull magic into your weapon, using its substance to transform the magic into restorative energy. You regain Hit Points equal to double the spell's level and roll to end any persistent negative damage you have.</p><p>If the spell was a healing spell, any persistent @Localize[PF2E.TraitVoid] damage you have ends automatically, and you can change the damage type from Basic Touch to @Localize[PF2E.TraitVitality] if you wish.</p><p>If the spell dealt damage, any persistent @Localize[PF2E.TraitVitality] damage you have ends automatically, and you can change the damage type from Basic Touch to @Localize[PF2E.TraitVoid] if you wish.</p>",
+      "value": "<p><strong>Trigger</strong> You Cast a Spell using a spell slot</p><p><strong>Requirements</strong> You're in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.K2TXdqQGwIEZcpSf]{Basic Touch} stance.</p><hr /><p>You pull magic into your weapon, using its substance to transform the magic into restorative energy. You regain Hit Points equal to double the spell's level and roll to end any persistent negative damage you have.</p><p>If the spell was a healing spell, any persistent @Localize[PF2E.TraitVoid] damage you have ends automatically, and you can change the damage type from Basic Touch to @Localize[PF2E.TraitVitality] if you wish.</p><p>If the spell dealt damage, any persistent @Localize[PF2E.TraitVitality] damage you have ends automatically, and you can change the damage type from Basic Touch to @Localize[PF2E.TraitVoid] if you wish.</p>",
       "gm": ""
     },
     "publication": {

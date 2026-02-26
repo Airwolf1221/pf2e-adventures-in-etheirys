@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> Your last action was a successful @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} or @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ta4tbDDZBGAoS6on]{Hissatsu Shinten}, you have not used @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.QCBequ9ebtNfjjgj]{Thunderous Iaijutsu} this turn</p><hr /><p>The violence of your hit allows you to terrorize your opponent. You [[/act demoralize]] your opponent, but the action loses the audible trait.</p>",
+      "value": "<p><strong>Requirements</strong> Your last action was a successful @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo]{Hakaze} or @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ta4tbDDZBGAoS6on]{Hissatsu Shinten}, you have not used @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.QCBequ9ebtNfjjgj]{Thunderous Iaijutsu} this turn</p><hr /><p>The violence of your hit allows you to terrorize your opponent. You [[/act demoralize options=sudden-cruelty]] your opponent, but the action loses the audible trait.</p>",
       "gm": ""
     },
     "publication": {
@@ -64,7 +64,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

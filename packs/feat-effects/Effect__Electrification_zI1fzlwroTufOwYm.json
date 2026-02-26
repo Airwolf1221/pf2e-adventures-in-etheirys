@@ -1,0 +1,84 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Checkmate.png",
+  "name": "Effect: Electrification",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.KRVTxH82blwxl9xE]{Electrification}</p><p>Any creature that hits you or your mech with a melee unarmed attack or a melee weapon without reach takes 1d4 damage, or 1d12 if overcharged.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 10
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Overcharged",
+            "value": "overcharged"
+          }
+        ],
+        "flag": "electrification",
+        "rollOption": "electrification",
+        "predicate": [
+          "overcharged"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-electrification",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "zI1fzlwroTufOwYm",
+  "sort": 0,
+  "_key": "!items!zI1fzlwroTufOwYm"
+}

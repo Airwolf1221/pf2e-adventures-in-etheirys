@@ -1,0 +1,268 @@
+{
+    "name": "Yami no Kata",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "MGxk1erzvC6jks50",
+    "nodes": [
+      {
+        "type": "has-item",
+        "position": {
+          "x": 656.9230769230769,
+          "y": 364.4
+        },
+        "id": "SRcbadsf7xFWQ5IP",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.o00j9W29QOoaS1zp"
+          },
+          "target": {
+            "connection": "MxbPlqPnUzx1BCcb:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "QuGB45U1iRqG6laZ:ins:in"
+          }
+        }
+      },
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 382,
+          "y": 366
+        },
+        "id": "MxbPlqPnUzx1BCcb",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "SRcbadsf7xFWQ5IP:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "SRcbadsf7xFWQ5IP:outputs:item"
+          }
+        },
+        "position": {
+          "x": 944,
+          "y": 365.25
+        },
+        "id": "QuGB45U1iRqG6laZ",
+        "outs": {
+          "out": {
+            "connection": "MOGnc9zAbVNJBXAb:ins:in"
+          }
+        }
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 1169.923076923077,
+          "y": 381.4
+        },
+        "id": "MOGnc9zAbVNJBXAb",
+        "custom": {
+          "outputs": {
+            "3xNxbLDdEHeahXBk": {
+              "id": "3xNxbLDdEHeahXBk",
+              "input": "attributes.classDC.value",
+              "label": "Class DC",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "MxbPlqPnUzx1BCcb:outputs:origin"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "8rlPhQ4oQ5H6fNPl:ins:in"
+          }
+        }
+      },
+      {
+        "type": "roll-save",
+        "position": {
+          "x": 1435.923076923077,
+          "y": 354.4
+        },
+        "id": "8rlPhQ4oQ5H6fNPl",
+        "inputs": {
+          "value": {
+            "connection": "MOGnc9zAbVNJBXAb:outputs:3xNxbLDdEHeahXBk"
+          },
+          "origin": {
+            "connection": "7r1rglIUMujy3SxD:outputs:entry"
+          },
+          "target": {
+            "connection": "aAtE44l9cn53KNaG:outputs:entry"
+          },
+          "item": {
+            "connection": "Xc06kjzJTssB3Aw4:outputs:item"
+          },
+          "traits": {
+            "value": "incapacitation"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "QHRjRXvEzdqAEede:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "MxbPlqPnUzx1BCcb:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1263,
+          "y": 470.75
+        },
+        "id": "7r1rglIUMujy3SxD"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "MxbPlqPnUzx1BCcb:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1263,
+          "y": 508.75
+        },
+        "id": "aAtE44l9cn53KNaG"
+      },
+      {
+        "type": "item-value",
+        "position": {
+          "x": 1139,
+          "y": 551.75
+        },
+        "id": "Xc06kjzJTssB3Aw4",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.iwvxFLCAKHhFeq8C"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "8rlPhQ4oQ5H6fNPl:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 1672,
+          "y": 370.25
+        },
+        "id": "QHRjRXvEzdqAEede",
+        "outs": {
+          "failure": {
+            "connection": "hYEL4mhAdhuy7PiX:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "C8jNB22A9EWqL612:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1977.923076923077,
+          "y": 443.4
+        },
+        "id": "hYEL4mhAdhuy7PiX",
+        "inputs": {
+          "condition": {
+            "value": "stunned"
+          },
+          "target": {
+            "connection": "EVIDH5zwyX46uXWQ:outputs:entry"
+          },
+          "origin": {
+            "connection": "TZ9deIOZOREh3ee7:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "MxbPlqPnUzx1BCcb:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1797,
+          "y": 564.75
+        },
+        "id": "EVIDH5zwyX46uXWQ"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "MxbPlqPnUzx1BCcb:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1797,
+          "y": 604.75
+        },
+        "id": "TZ9deIOZOREh3ee7"
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1973.923076923077,
+          "y": 5.400000000000006
+        },
+        "id": "C8jNB22A9EWqL612",
+        "inputs": {
+          "condition": {
+            "value": "stunned"
+          },
+          "value": {
+            "value": 3
+          },
+          "target": {
+            "connection": "EVIDH5zwyX46uXWQ:outputs:entry"
+          },
+          "origin": {
+            "connection": "TZ9deIOZOREh3ee7:outputs:entry"
+          }
+        }
+      }
+    ],
+    "variables": {
+      "MxbPlqPnUzx1BCcb:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "MxbPlqPnUzx1BCcb:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      }
+    }
+}

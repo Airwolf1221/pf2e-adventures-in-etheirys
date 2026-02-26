@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You become trained in Survival. At 3rd, 7th, and 15th levels, you gain an additional skill increase you can apply only to Survival. You gain the @UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{Terrain Stalker} skill feat as a bonus feat, and if you have the Gifted Terrain feat, you gain the benefits of Terrain Stalker in your current gift's preferred terrains as well.</p>",
+      "value": "<p>You become trained in Survival. At 3rd, 7th, and 15th levels, you gain an additional skill increase you can apply only to Survival. You gain the @UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{Terrain Stalker} skill feat as a bonus feat, and if you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.AyhCHQLGuM3paeKi]{Gifted Terrain} feat, you gain the benefits of Terrain Stalker in your current gift's preferred terrains as well.</p>",
       "gm": ""
     },
     "publication": {

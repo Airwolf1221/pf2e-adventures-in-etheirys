@@ -1,0 +1,76 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Detonator.png",
+  "name": "Effect: Detonator",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ZxhLW2W3oUleWyYL]{Detonator}</p><p>Deals 2d6 + 1d6 (or 2d6 if overcharged) damage matching your aetheric boost per counter value, in a @Template[type:burst|distance:5] centered on the target, with a @Check[reflex|dc:resolve(@item.origin.attributes.classDC.value)|basic] save against your class DC.</p><p>Lasts until the end of your next round unless overcharged.</p><p>Current damage is: @Damage[(2 + 1 * @item.badge.value)d6[@actor.flags.pf2e.engineer.aethericBoost]], or @Damage[(2 + 2 * @item.badge.value)d6[@actor.flags.pf2e.engineer.aethericBoost]] if overcharged</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-end",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 10
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-detonator",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "unidentified": false,
+    "badge": {
+      "type": "counter",
+      "value": 0,
+      "labels": null,
+      "loop": false,
+      "min": 0,
+      "max": null
+    },
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "ARTu6h0NZGPeqwWY",
+  "sort": 0,
+  "_key": "!items!ARTu6h0NZGPeqwWY"
+}

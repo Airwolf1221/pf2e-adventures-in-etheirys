@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You are in Basic Touch stance and have a hand free, and your Synthestrike is charged.</p><hr /><p>You make a deliberately slow attack, fooling foes into blocking or dodging at the wrong time. Make a Basic Synthestrike and @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} against the target of your Strike. Do this immediately before making the Strike, but after choosing your target.</p><p>The [[/act feint traits=occult,illusion,visual]] gains the arcanima, illusion, and visual traits, and it always has the basic effects of a Feint, rather than applying any adjustments or alternate effects from other feats or abilities.</p>",
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.K2TXdqQGwIEZcpSf]{Basic Touch} stance and have a hand free, and your @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.het2E8jTuLAbWvEK]{Synthestrike} is charged.</p><hr /><p>You make a deliberately slow attack, fooling foes into blocking or dodging at the wrong time. Make a Synthestrike and @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} against the target of your Strike. Do this immediately before making the Strike, but after choosing your target.</p><p>The [[/act feint traits=occult,illusion,visual]] gains the arcanima, illusion, and visual traits, and it always has the basic effects of a Feint, rather than applying any adjustments or alternate effects from other feats or abilities.</p>",
       "gm": ""
     },
     "publication": {

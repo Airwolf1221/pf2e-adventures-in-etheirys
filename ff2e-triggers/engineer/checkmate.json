@@ -1,0 +1,172 @@
+{
+    "name": "Checkmate",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "WzOjrN24ppUO9Hrz",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 310,
+          "y": 356
+        },
+        "id": "0x8h1p00foXc7sQ5",
+        "outs": {
+          "out": {
+            "connection": "QgBNs2XhTxeoMSjV:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 534.9230769230769,
+          "y": 355.4
+        },
+        "id": "QgBNs2XhTxeoMSjV",
+        "inputs": {
+          "target": {
+            "connection": "0x8h1p00foXc7sQ5:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.BqlkVBuJ85TiNRgI"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "U6B2SzUZ3ed3MrbZ:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "QgBNs2XhTxeoMSjV:outputs:item"
+          }
+        },
+        "position": {
+          "x": 812,
+          "y": 356.25
+        },
+        "id": "U6B2SzUZ3ed3MrbZ",
+        "outs": {
+          "out": {
+            "connection": "MbeldTpe2HCQwsel:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "0x8h1p00foXc7sQ5:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 1064,
+          "y": 448.25
+        },
+        "id": "MbeldTpe2HCQwsel",
+        "outs": {
+          "success": {
+            "connection": "bmAaLuIEBjlVTH9I:ins:in"
+          },
+          "criticalSuccess": {
+            "connection": "bmAaLuIEBjlVTH9I:ins:in"
+          }
+        }
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 1330.923076923077,
+          "y": 546.4
+        },
+        "id": "bmAaLuIEBjlVTH9I",
+        "custom": {
+          "outputs": {
+            "yFwHwLGooUT4McBc": {
+              "id": "yFwHwLGooUT4McBc",
+              "input": "system.abilities.int.mod",
+              "label": "Int Mod",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "4ikiBxZRjQmMbSRQ:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "Y0pXhCHF4Dt66xdT:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "0x8h1p00foXc7sQ5:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1175,
+          "y": 609.75
+        },
+        "id": "4ikiBxZRjQmMbSRQ"
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1585.923076923077,
+          "y": 517.4
+        },
+        "id": "Y0pXhCHF4Dt66xdT",
+        "inputs": {
+          "condition": {
+            "value": "off-guard"
+          },
+          "duration": {
+            "connection": "bmAaLuIEBjlVTH9I:outputs:yFwHwLGooUT4McBc"
+          },
+          "target": {
+            "connection": "mCzrWlvbUcACETpx:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "0x8h1p00foXc7sQ5:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1432,
+          "y": 633.75
+        },
+        "id": "mCzrWlvbUcACETpx"
+      }
+    ],
+    "variables": {
+      "0x8h1p00foXc7sQ5:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "0x8h1p00foXc7sQ5:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      }
+    }
+}

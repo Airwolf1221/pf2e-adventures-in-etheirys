@@ -11,7 +11,7 @@
     },
     "category": "class",
     "description": {
-      "value": "<p>You prepare a variety of incredible gizmos on each of your allies, linking them together through careful modification to enable you to power them up all at once. During your daily preparations, select up to six willing allies. Whenever you Overcharge, you grant the benefits of your overcharge to any of these allies you choose who are within 30 feet of you. The allies don't gain the increased damage from expert, master, or legendary overcharge.</p>",
+      "value": "<p>You prepare a variety of incredible gizmos on each of your allies, linking them together through careful modification to enable you to power them up all at once. During your daily preparations, select up to six willing allies. Whenever you @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.8NnCAINkLL8h23EI]{Overcharge}, you grant the benefits of your overcharge to any of these allies you choose who are within 30 feet of you. The allies don't gain the increased damage from expert, master, or legendary overcharge.</p>",
       "gm": ""
     },
     "level": {
@@ -59,7 +59,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "flags": {

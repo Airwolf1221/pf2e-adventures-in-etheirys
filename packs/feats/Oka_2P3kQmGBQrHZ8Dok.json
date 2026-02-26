@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You Strike against organic creatures and make them shiver in pain. Make a melee Strike. If you hit, the victim must make a @Check[fortitude|against:class] saving throw, with a -2 penalty to the save if the result of the initial Strike is a critical success.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The target takes @Damage[(floor((@actor.level - 10)/4) + 2)d12[poison]] damage.</p><p><strong>Critical Failure</strong> As failure, but the target also takes @Damage[(floor((@actor.level - 10)/4) + 2)d6[persistent,poison]] damage.</p><hr /><p>At 10th level and every 4 levels thereafter, increase the poison damge on a failure by 1d12 and the persistent poison damage on a critical failure by 1d6.</p>",
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You Strike against organic creatures and make them shiver in pain. Make a melee Strike. If you hit, the victim must make a @Check[fortitude|against:class] saving throw, with the DC being 2 higher if the initial Strike is a critical success.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The target takes @Damage[(floor((@actor.level - 10)/4) + 2)d12[poison]] damage.</p><p><strong>Critical Failure</strong> As failure, but the target also takes @Damage[(floor((@actor.level - 10)/4) + 2)d6[persistent,poison]] damage.</p><hr /><p>At 10th level and every 4 levels thereafter, increase the poison damge on a failure by 1d12 and the persistent poison damage on a critical failure by 1d6.</p>",
       "gm": ""
     },
     "publication": {
@@ -49,17 +49,25 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.bI1yDPR1wsUng16E",
+      "name": "Effect: Oka"
+    }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

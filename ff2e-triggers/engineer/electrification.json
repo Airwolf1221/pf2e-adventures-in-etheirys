@@ -1,0 +1,321 @@
+{
+    "name": "Electrification",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e"
+    ],
+    "id": "juj6yKph47eTdPXn",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 269,
+          "y": 377
+        },
+        "id": "XOBKfqWpLH7pMWQm",
+        "outs": {
+          "out": {
+            "connection": "NumSWePhPOoMXfZg:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 482.9230769230769,
+          "y": 376.4
+        },
+        "id": "NumSWePhPOoMXfZg",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.zI1fzlwroTufOwYm"
+          },
+          "target": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:target"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "PP6OoxR9F75ZlMmX:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 810.9230769230769,
+          "y": 391.5
+        },
+        "id": "PP6OoxR9F75ZlMmX",
+        "inputs": {
+          "options": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"item:melee\",\n  {\n    \"or\": [\n      {\"not\": \"item:trait:reach\"},\n      \"item:category:unarmed\"\n    ]\n  }\n]"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "AdwQdg1qBCbBGmzs:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 1029.923076923077,
+          "y": 374.4
+        },
+        "id": "AdwQdg1qBCbBGmzs",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.IqHqNGJOSZ7zEDJK"
+          },
+          "target": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:target"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "icTsN8F18L7LKppE:ins:in"
+          },
+          "false": {
+            "connection": "24JX1Es6z4rfkIcx:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-option",
+        "position": {
+          "x": 1368.5,
+          "y": 77
+        },
+        "id": "icTsN8F18L7LKppE",
+        "inputs": {
+          "option": {
+            "value": "electrification:overcharged"
+          },
+          "target": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:target"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "Wi1PlGH75uG8n2F9:ins:in"
+          },
+          "false": {
+            "connection": "pOlEbO0TEma4zKbh:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-option",
+        "position": {
+          "x": 1345,
+          "y": 614
+        },
+        "id": "24JX1Es6z4rfkIcx",
+        "inputs": {
+          "option": {
+            "value": "electrification:overcharged"
+          },
+          "target": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:target"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "6bz8nsi3eamY7kC4:ins:in"
+          },
+          "true": {
+            "connection": "ugn3CyP4ZijHXUQP:ins:in"
+          }
+        }
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 1665.923076923077,
+          "y": 764.4
+        },
+        "id": "6bz8nsi3eamY7kC4",
+        "inputs": {
+          "formula": {
+            "value": "1d4[electricity]"
+          },
+          "origin": {
+            "connection": "WgBmYJ3CCVAXMFQI:outputs:entry"
+          },
+          "targets": {
+            "connection": "iqTjZRN43gFhwm9g:outputs:entry"
+          },
+          "item": {
+            "connection": "pGZn5F67TRMtk5XE:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1442,
+          "y": 755.75
+        },
+        "id": "WgBmYJ3CCVAXMFQI"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1441,
+          "y": 793.75
+        },
+        "id": "iqTjZRN43gFhwm9g"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "NumSWePhPOoMXfZg:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1394,
+          "y": 836.75
+        },
+        "id": "pGZn5F67TRMtk5XE"
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 1670.923076923077,
+          "y": 453.4
+        },
+        "id": "ugn3CyP4ZijHXUQP",
+        "inputs": {
+          "formula": {
+            "value": "1d12[electricity]"
+          },
+          "origin": {
+            "connection": "WgBmYJ3CCVAXMFQI:outputs:entry"
+          },
+          "targets": {
+            "connection": "iqTjZRN43gFhwm9g:outputs:entry"
+          },
+          "item": {
+            "connection": "pGZn5F67TRMtk5XE:outputs:entry"
+          }
+        }
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 1670.923076923077,
+          "y": 138.14999999999998
+        },
+        "id": "pOlEbO0TEma4zKbh",
+        "inputs": {
+          "formula": {
+            "value": "2d4[electricity]"
+          },
+          "origin": {
+            "connection": "NUbKElSE6j8Tr6RO:outputs:entry"
+          },
+          "targets": {
+            "connection": "WaSfqiYrSqVbhx1c:outputs:entry"
+          },
+          "item": {
+            "connection": "RHN6TNOFo31gNgnj:outputs:entry"
+          }
+        }
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 1675.923076923077,
+          "y": -172.85000000000002
+        },
+        "id": "Wi1PlGH75uG8n2F9",
+        "inputs": {
+          "formula": {
+            "value": "2d12[electricity]"
+          },
+          "origin": {
+            "connection": "NUbKElSE6j8Tr6RO:outputs:entry"
+          },
+          "targets": {
+            "connection": "WaSfqiYrSqVbhx1c:outputs:entry"
+          },
+          "item": {
+            "connection": "RHN6TNOFo31gNgnj:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1479.7500000000002,
+          "y": 208.24999999999994
+        },
+        "id": "NUbKElSE6j8Tr6RO"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "XOBKfqWpLH7pMWQm:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1481.0000000000002,
+          "y": 249.49999999999994
+        },
+        "id": "WaSfqiYrSqVbhx1c"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "NumSWePhPOoMXfZg:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1439.25,
+          "y": 286.99999999999994
+        },
+        "id": "RHN6TNOFo31gNgnj"
+      }
+    ],
+    "variables": {
+      "XOBKfqWpLH7pMWQm:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      },
+      "XOBKfqWpLH7pMWQm:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "NumSWePhPOoMXfZg:outputs:item": {
+        "isArray": false,
+        "label": "Electrification",
+        "type": "item"
+      }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "name": "Houkouryu",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "dlyLexk64Bz8GTvI",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 365,
+          "y": 397
+        },
+        "id": "lyIrgzWx9lq9SxLG",
+        "outs": {
+          "out": {
+            "connection": "H1fPUoOczxZaWhFR:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "inputs": {
+          "options": {
+            "connection": "lyIrgzWx9lq9SxLG:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"item:slug:houkouryu\"\n]"
+          }
+        },
+        "position": {
+          "x": 593,
+          "y": 413.25
+        },
+        "id": "H1fPUoOczxZaWhFR",
+        "outs": {
+          "true": {
+            "connection": "TGAvfQ7t2f10yHyr:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "lyIrgzWx9lq9SxLG:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 836,
+          "y": 437.25
+        },
+        "id": "TGAvfQ7t2f10yHyr",
+        "outs": {
+          "failure": {
+            "connection": "2P7loaN6hqimO17z:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "YyPhtWOMBE4i5Bj8:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1092.923076923077,
+          "y": 523.4
+        },
+        "id": "2P7loaN6hqimO17z",
+        "inputs": {
+          "condition": {
+            "value": "frightened"
+          },
+          "origin": {
+            "connection": "lyIrgzWx9lq9SxLG:outputs:origin"
+          },
+          "target": {
+            "connection": "lyIrgzWx9lq9SxLG:outputs:roller"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1090.923076923077,
+          "y": 98.4
+        },
+        "id": "YyPhtWOMBE4i5Bj8",
+        "inputs": {
+          "duration": {
+            "value": 2
+          },
+          "condition": {
+            "value": "frightened"
+          },
+          "value": {
+            "value": 2
+          },
+          "origin": {
+            "connection": "lyIrgzWx9lq9SxLG:outputs:origin"
+          },
+          "target": {
+            "connection": "lyIrgzWx9lq9SxLG:outputs:roller"
+          }
+        }
+      }
+    ]
+}

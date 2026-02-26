@@ -1,0 +1,121 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Brazen_Prospector.png",
+  "name": "Effect: Blessed Touch",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.qr3JzcfppCEFk3CM]{Blessed Touch}</p><p>You emanate a 5-foot aura. If you're not the origin, you deal extra damage with your melee Strikes of the same damage type as the origin's Basic Touch damage.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "encounter",
+      "value": -1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 16
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e.feat-effects.Item.BKyq3deWdCbYzAHA",
+            "affects": "allies",
+            "includesSelf": false
+          }
+        ],
+        "key": "Aura",
+        "predicate": [
+          "self:effect:basic-touch",
+          "self:signature:{item|origin.signature}"
+        ]
+      },
+      {
+        "damageType": "{item|origin.flags.pf2e.stanceBasicTouch}",
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "not": "self:signature:{item|origin.signature}"
+          }
+        ],
+        "selector": [
+          "melee-strike-damage"
+        ],
+        "slug": "blessed-touch",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:weapon-specialization",
+          {
+            "not": "self:signature:{item|origin.signature}"
+          }
+        ],
+        "selector": "melee-strike-damage",
+        "slug": "blessed-touch",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:greater-weapon-specialization",
+          {
+            "not": "self:signature:{item|origin.signature}"
+          }
+        ],
+        "selector": "melee-strike-damage",
+        "slug": "blessed-touch",
+        "value": 3
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-blessed-touch",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "mrv338IjnB8RuayA",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "PfuDdebTnFuJe76V",
+  "sort": 300000,
+  "_key": "!items!PfuDdebTnFuJe76V"
+}

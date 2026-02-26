@@ -1,0 +1,307 @@
+{
+    "name": "Thunderous Iaijutsu",
+    "folder": "FF2e - Samurai",
+    "priority": 1,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "behU1RoGGpIafrIL",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 497,
+          "y": 371
+        },
+        "id": "7ZqlGi908r0WgidP",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "V1WI7vUxO38LzhhH:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 751.9230769230769,
+          "y": 371.4
+        },
+        "id": "V1WI7vUxO38LzhhH",
+        "inputs": {
+          "target": {
+            "connection": "7ZqlGi908r0WgidP:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.tF2gL6gJ5E7rfle4"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "0ksanIkgllwoSylh:ins:in"
+          },
+          "false": {
+            "connection": "SyOb4JHANxqalUdr:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-option",
+        "position": {
+          "x": 1847.065934065934,
+          "y": 373.92857142857144
+        },
+        "id": "5CCEtfTanrnpvCkN",
+        "inputs": {
+          "target": {
+            "connection": "7ZqlGi908r0WgidP:outputs:origin"
+          },
+          "option": {
+            "value": "self:effect:thunderous-iaijutsu-immunity"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "O1NdcKkRlTKtNuYS:ins:in"
+          }
+        }
+      },
+      {
+        "type": "await-confirm",
+        "position": {
+          "x": 2068.065934065934,
+          "y": 441.8285714285714
+        },
+        "id": "O1NdcKkRlTKtNuYS",
+        "inputs": {
+          "title": {
+            "value": "Thunderous Iaijutsu"
+          },
+          "plain": {
+            "value": "Use Thunderous Iaijutsu?"
+          },
+          "user": {
+            "connection": "vP5yYaCYmg8NSFGQ:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "f7qziNF4KHBZTWbB:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 1575.065934065934,
+          "y": 373.8285714285714
+        },
+        "id": "0ksanIkgllwoSylh",
+        "inputs": {
+          "target": {
+            "connection": "7ZqlGi908r0WgidP:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.QCBequ9ebtNfjjgj"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "5CCEtfTanrnpvCkN:ins:in"
+          }
+        }
+      },
+      {
+        "type": "roll-save",
+        "position": {
+          "x": 2625.0659340659345,
+          "y": 441.8285714285714
+        },
+        "id": "I4u0eCW9aVKgR1Gu",
+        "inputs": {
+          "origin": {
+            "connection": "vP5yYaCYmg8NSFGQ:outputs:entry"
+          },
+          "target": {
+            "connection": "yBwcMoRJYwwzx5Ko:outputs:entry"
+          },
+          "item": {
+            "connection": "0ksanIkgllwoSylh:outputs:item"
+          },
+          "value": {
+            "connection": "f7qziNF4KHBZTWbB:outputs:EfkDQQmzi5Ud6Hk7"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "pWWbg41et6EMsNTQ:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "7ZqlGi908r0WgidP:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1895.1428571428573,
+          "y": 655.1785714285714
+        },
+        "id": "vP5yYaCYmg8NSFGQ"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "7ZqlGi908r0WgidP:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1897.1428571428573,
+          "y": 694.1785714285714
+        },
+        "id": "yBwcMoRJYwwzx5Ko"
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "I4u0eCW9aVKgR1Gu:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 2888.1428571428573,
+          "y": 458.67857142857144
+        },
+        "id": "pWWbg41et6EMsNTQ",
+        "outs": {
+          "failure": {
+            "connection": "XFYF0IilLrInVwR6:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "XFYF0IilLrInVwR6:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 3175.0659340659345,
+          "y": 467.8285714285714
+        },
+        "id": "XFYF0IilLrInVwR6",
+        "inputs": {
+          "condition": {
+            "value": "deafened"
+          },
+          "unit": {
+            "value": "minutes"
+          },
+          "target": {
+            "connection": "MsZnfjWPYDEXxFNb:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "7ZqlGi908r0WgidP:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2993.1428571428573,
+          "y": 650.1785714285714
+        },
+        "id": "MsZnfjWPYDEXxFNb"
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 2351.065934065934,
+          "y": 457.8285714285714
+        },
+        "id": "f7qziNF4KHBZTWbB",
+        "custom": {
+          "outputs": {
+            "EfkDQQmzi5Ud6Hk7": {
+              "id": "EfkDQQmzi5Ud6Hk7",
+              "input": "attributes.classDC.value",
+              "label": "Class DC",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "vP5yYaCYmg8NSFGQ:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "I4u0eCW9aVKgR1Gu:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 1019.7802197802198,
+          "y": 471.82857142857154
+        },
+        "id": "SyOb4JHANxqalUdr",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.w8xc6658rtooQehH"
+          },
+          "target": {
+            "connection": "7ZqlGi908r0WgidP:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "EY9GDy1U9BRPpKpA:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "SyOb4JHANxqalUdr:outputs:item"
+          }
+        },
+        "position": {
+          "x": 1326.857142857143,
+          "y": 480.67857142857156
+        },
+        "id": "EY9GDy1U9BRPpKpA",
+        "outs": {
+          "out": {
+            "connection": "0ksanIkgllwoSylh:ins:in"
+          }
+        }
+      }
+    ],
+    "variables": {
+      "7ZqlGi908r0WgidP:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "7ZqlGi908r0WgidP:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      }
+    }
+}

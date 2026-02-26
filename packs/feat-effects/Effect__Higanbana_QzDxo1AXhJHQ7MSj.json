@@ -1,14 +1,18 @@
 {
-  "name": "Effect: Hissatsu Shinten",
+  "name": "Effect: Higanbana",
   "type": "effect",
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.954,
-      "previous": null
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ta4tbDDZBGAoS6on]{Hissatsu Shinten}</p><p>Do not increase your Multiple Attack Penalty until both strikes have been made, and combine the damage of both strikes for the purposes of Weaknesses and Resistances. If either strike lands, you can enter Iai Stance immediately after the second strike hits.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2ExqfJS92nf32ywr]{Higanbana}</p><p>Your next Hakaze deals additional bleed damage, with a fortitude saving throw.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,13 +22,13 @@
       "remaster": false
     },
     "rules": [],
-    "slug": "effect-hissatsu-shinten",
+    "slug": "effect-higanbana",
     "traits": {
       "otherTags": [],
       "value": []
     },
     "level": {
-      "value": 10
+      "value": 12
     },
     "duration": {
       "value": 0,
@@ -44,7 +48,7 @@
     "fromSpell": false,
     "context": null
   },
-  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Hissatsu_Shinten.png",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Higanbana.png",
   "folder": "U1SRQ2CJL9urVdO9",
   "ownership": {
     "default": 0,
@@ -57,9 +61,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
-  "_id": "lW6i3o2sshajZv2O",
-  "sort": 900000,
-  "_key": "!items!lW6i3o2sshajZv2O"
+  "_id": "QzDxo1AXhJHQ7MSj",
+  "sort": 0,
+  "_key": "!items!QzDxo1AXhJHQ7MSj"
 }

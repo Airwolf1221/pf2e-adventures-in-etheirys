@@ -1,0 +1,59 @@
+{
+    "name": "Gauss Round",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "C8dLh7dlqUfnKZJm",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 367,
+          "y": 388
+        },
+        "id": "6yH8Kmduk6yHpw9Q",
+        "outs": {
+          "out": {
+            "connection": "RVCiUJnyh6sXHJ41:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 620.9230769230769,
+          "y": 387.4
+        },
+        "id": "RVCiUJnyh6sXHJ41",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.sXDlxlDQ0irJtusu"
+          },
+          "target": {
+            "connection": "6yH8Kmduk6yHpw9Q:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "uru7nMFxksfXbVeV:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "RVCiUJnyh6sXHJ41:outputs:item"
+          }
+        },
+        "position": {
+          "x": 896,
+          "y": 395.25
+        },
+        "id": "uru7nMFxksfXbVeV"
+      }
+    ]
+}

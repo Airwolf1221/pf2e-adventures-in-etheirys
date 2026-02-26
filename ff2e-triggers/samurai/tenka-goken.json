@@ -1,0 +1,160 @@
+{
+    "name": "Tenka Goken",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "ZqvPCAan5GFyNXOh",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 306,
+          "y": 406
+        },
+        "id": "fdjHdQfHGFXqaap6",
+        "outs": {
+          "out": {
+            "connection": "JvNuBkoYPCshIqa4:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 542.9230769230769,
+          "y": 422.5
+        },
+        "id": "JvNuBkoYPCshIqa4",
+        "inputs": {
+          "predicate": {
+            "value": "[\n  \"item:slug:tenka-goken\"\n]"
+          },
+          "options": {
+            "connection": "fdjHdQfHGFXqaap6:outputs:options"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "rtPhKN9nne4BoV19:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "fdjHdQfHGFXqaap6:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 758,
+          "y": 423.25
+        },
+        "id": "rtPhKN9nne4BoV19",
+        "outs": {
+          "criticalFailure": {
+            "connection": "0ry6Ul0OqYdx2yZo:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1028.923076923077,
+          "y": 369.4
+        },
+        "id": "0ry6Ul0OqYdx2yZo",
+        "inputs": {
+          "condition": {
+            "value": "slowed"
+          },
+          "target": {
+            "connection": "fdjHdQfHGFXqaap6:outputs:roller"
+          },
+          "origin": {
+            "connection": "fdjHdQfHGFXqaap6:outputs:origin"
+          },
+          "expiry": {
+            "value": "turn-end"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "sySHEzmk7bhUVPmh:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 1275.923076923077,
+          "y": 355.4
+        },
+        "id": "sySHEzmk7bhUVPmh",
+        "inputs": {
+          "target": {
+            "connection": "fdjHdQfHGFXqaap6:outputs:roller"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.QEGEVrQnSKJIYAwO"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "Y6qPdzOLf0RnGtcm:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1575.923076923077,
+          "y": 352.4
+        },
+        "id": "Y6qPdzOLf0RnGtcm",
+        "inputs": {
+          "condition": {
+            "value": "prone"
+          },
+          "target": {
+            "connection": "MtkJ5vtyK6AwYzgN:outputs:entry"
+          },
+          "origin": {
+            "connection": "g0hIjxu3jQ0lrT4F:outputs:entry"
+          },
+          "fixed": {
+            "value": "encounter"
+          }
+        },
+        "state": "fixed"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "fdjHdQfHGFXqaap6:outputs:roller"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1426,
+          "y": 509.75
+        },
+        "id": "MtkJ5vtyK6AwYzgN"
+      }
+    ],
+    "variables": {
+      "fdjHdQfHGFXqaap6:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "fdjHdQfHGFXqaap6:outputs:roller": {
+        "isArray": false,
+        "label": "Roller",
+        "type": "target"
+      }
+    }
+}

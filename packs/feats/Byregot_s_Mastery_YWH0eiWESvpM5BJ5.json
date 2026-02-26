@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You can use Byregot's Brow with tower shields, and it no longer reduces a non-tower shield's hardness or AC.</p>",
+      "value": "<p>You can use @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.PaMG3C1UvOvSpKOz]{Byregot's Brow} with tower shields, and it no longer reduces a non-tower shield's hardness or AC.</p>",
       "gm": ""
     },
     "publication": {

@@ -48,17 +48,25 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.T4BHAIa6Q1P71TGR",
+      "name": "Effect: Yukikaze"
+    }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

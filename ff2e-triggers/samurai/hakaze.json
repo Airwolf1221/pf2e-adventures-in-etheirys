@@ -1,0 +1,64 @@
+{
+    "name": "Hakaze",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "t3Ly0DNWL60TaSOO",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 313,
+          "y": 348
+        },
+        "id": "UjHRLc4DfWGB8q4u",
+        "outs": {
+          "out": {
+            "connection": "SVx3k0IlX8w2cuYl:ins:in"
+          }
+        },
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 576.9230769230769,
+          "y": 347.4
+        },
+        "id": "SVx3k0IlX8w2cuYl",
+        "inputs": {
+          "target": {
+            "connection": "UjHRLc4DfWGB8q4u:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.tF2gL6gJ5E7rfle4"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "wMjXDMCEXUyrSO6s:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 860.9230769230769,
+          "y": 348.5
+        },
+        "id": "wMjXDMCEXUyrSO6s",
+        "inputs": {
+          "item": {
+            "connection": "SVx3k0IlX8w2cuYl:outputs:item"
+          }
+        }
+      }
+    ]
+}

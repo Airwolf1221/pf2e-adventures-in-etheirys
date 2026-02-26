@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Whenever you succeed at an Oddly Specific Lore check about a creature, you gain temporary Hit Points equal to your level, or equal to twice your level on a critical success. These temporary Hit Points disappear after 1 minute.</p>",
+      "value": "<p>Whenever you succeed at an Oddly Specific Lore check about a creature, you gain temporary Hit Points equal to your level, or equal to twice your level on a critical success. These temporary Hit Points disappear after 1 minute.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Jwi1tfObQ4zq256w]{Effect: Boundless Observation}</p>",
       "gm": ""
     },
     "publication": {
@@ -22,7 +22,20 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "oddly-specific-lore"
+        ],
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "text": "{item|description}"
+      }
+    ],
     "slug": "boundless-observation",
     "traits": {
       "otherTags": [],

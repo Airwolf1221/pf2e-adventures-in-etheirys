@@ -1,0 +1,509 @@
+{
+    "name": "Oka",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "6y27xLbERJYys52v",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 497,
+          "y": 425
+        },
+        "id": "UjWwEs4W5GNHo934",
+        "outs": {
+          "out": {
+            "connection": "ETG5sTgg6mnNGBnm:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 721.9230769230769,
+          "y": 425.4
+        },
+        "id": "ETG5sTgg6mnNGBnm",
+        "inputs": {
+          "target": {
+            "connection": "UjWwEs4W5GNHo934:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.bI1yDPR1wsUng16E"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "Txd2xiBiEsuX9dXW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "UjWwEs4W5GNHo934:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 1497,
+          "y": 442.25
+        },
+        "id": "D0dzfFMxgmAQWMK4",
+        "outs": {
+          "criticalSuccess": {
+            "connection": "dWtkFYq5I0xlWTLC:ins:in"
+          },
+          "success": {
+            "connection": "4kEnMmuDbmZKD83T:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 992.9230769230769,
+          "y": 426.4
+        },
+        "id": "Txd2xiBiEsuX9dXW",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.2P3kQmGBQrHZ8Dok"
+          },
+          "target": {
+            "connection": "UjWwEs4W5GNHo934:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "kXBTd4cZ58r4Cwpv:ins:in"
+          }
+        }
+      },
+      {
+        "type": "item-formula",
+        "position": {
+          "x": 2742.923076923077,
+          "y": 745.75
+        },
+        "id": "UbO5Q52yZH0zJOHw",
+        "inputs": {
+          "item": {
+            "connection": "DycjFA4KD2w8SbhR:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "sSVdudssdEuoJKeL:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "Txd2xiBiEsuX9dXW:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2514.25,
+          "y": 871.5
+        },
+        "id": "DycjFA4KD2w8SbhR"
+      },
+      {
+        "type": "roll-damage",
+        "state": "none",
+        "inputs": {
+          "formula": {
+            "connection": "UbO5Q52yZH0zJOHw:outputs:formula"
+          },
+          "options": {
+            "connection": "UbO5Q52yZH0zJOHw:outputs:options"
+          },
+          "traits": {
+            "connection": "UbO5Q52yZH0zJOHw:outputs:traits"
+          },
+          "item": {
+            "connection": "DycjFA4KD2w8SbhR:outputs:entry"
+          },
+          "origin": {
+            "connection": "JRJowMD5isenrrN1:outputs:entry"
+          },
+          "targets": {
+            "connection": "3aeKawnabeGHdKO6:outputs:entry"
+          }
+        },
+        "position": {
+          "x": 3093,
+          "y": 730.4
+        },
+        "id": "sSVdudssdEuoJKeL"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "UjWwEs4W5GNHo934:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2942,
+          "y": 882
+        },
+        "id": "JRJowMD5isenrrN1"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "UjWwEs4W5GNHo934:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2940,
+          "y": 924
+        },
+        "id": "3aeKawnabeGHdKO6"
+      },
+      {
+        "type": "item-formula",
+        "position": {
+          "x": 2742.923076923077,
+          "y": 581.75
+        },
+        "id": "FXWO45XdO7uk5ywF",
+        "inputs": {
+          "item": {
+            "connection": "DycjFA4KD2w8SbhR:outputs:entry"
+          },
+          "index": {
+            "value": 2
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "ygMNNkYZrCTymzBj:ins:in"
+          }
+        }
+      },
+      {
+        "type": "roll-damage",
+        "state": "none",
+        "inputs": {
+          "formula": {
+            "connection": "FXWO45XdO7uk5ywF:outputs:formula"
+          },
+          "origin": {
+            "connection": "JRJowMD5isenrrN1:outputs:entry"
+          },
+          "targets": {
+            "connection": "3aeKawnabeGHdKO6:outputs:entry"
+          },
+          "item": {
+            "connection": "DycjFA4KD2w8SbhR:outputs:entry"
+          },
+          "options": {
+            "connection": "FXWO45XdO7uk5ywF:outputs:options"
+          },
+          "traits": {
+            "connection": "FXWO45XdO7uk5ywF:outputs:traits"
+          }
+        },
+        "position": {
+          "x": 3097,
+          "y": 421.4
+        },
+        "id": "ygMNNkYZrCTymzBj"
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 1252.923076923077,
+          "y": 442.4
+        },
+        "id": "kXBTd4cZ58r4Cwpv",
+        "custom": {
+          "outputs": {
+            "fSYusu2IrdbMccvi": {
+              "id": "fSYusu2IrdbMccvi",
+              "input": "attributes.classDC.value",
+              "label": "Class DC",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "UjWwEs4W5GNHo934:outputs:origin"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "D0dzfFMxgmAQWMK4:ins:in"
+          }
+        }
+      },
+      {
+        "type": "resolve-formula",
+        "position": {
+          "x": 1792.5594405594404,
+          "y": 705.9454545454545
+        },
+        "id": "dWtkFYq5I0xlWTLC",
+        "custom": {
+          "inputs": {
+            "4hpNOxFGwxmZptj5": {
+              "id": "4hpNOxFGwxmZptj5",
+              "input": "dc",
+              "label": "dc",
+              "slug": "variable",
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "formula": {
+            "value": "@dc + 2"
+          },
+          "4hpNOxFGwxmZptj5": {
+            "connection": "evSJXL5vU1WvKHVc:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "6wCdKw6izbkaqLsd:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "kXBTd4cZ58r4Cwpv:outputs:fSYusu2IrdbMccvi"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1647.6363636363635,
+          "y": 781.590909090909
+        },
+        "id": "evSJXL5vU1WvKHVc"
+      },
+      {
+        "type": "roll-save",
+        "state": "value",
+        "inputs": {
+          "value": {
+            "connection": "dWtkFYq5I0xlWTLC:outputs:value"
+          },
+          "origin": {
+            "connection": "BlmrPkWz6xWwVOWB:outputs:entry"
+          },
+          "target": {
+            "connection": "V8GCTWkav6wg04Zv:outputs:entry"
+          },
+          "item": {
+            "connection": "VTGtEuvewyQmgubf:outputs:entry"
+          }
+        },
+        "position": {
+          "x": 2130.636363636363,
+          "y": 691.4454545454543
+        },
+        "id": "6wCdKw6izbkaqLsd",
+        "outs": {
+          "out": {
+            "connection": "cvGXv5uuJminLDSM:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "UjWwEs4W5GNHo934:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1944.363636363636,
+          "y": 819.7727272727271
+        },
+        "id": "BlmrPkWz6xWwVOWB"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "UjWwEs4W5GNHo934:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1944.3636363636356,
+          "y": 857.0454545454545
+        },
+        "id": "V8GCTWkav6wg04Zv"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "Txd2xiBiEsuX9dXW:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1944.3636363636356,
+          "y": 897.0454545454543
+        },
+        "id": "VTGtEuvewyQmgubf"
+      },
+      {
+        "type": "roll-save",
+        "position": {
+          "x": 2132.945804195804,
+          "y": 297.92272727272734
+        },
+        "id": "4kEnMmuDbmZKD83T",
+        "inputs": {
+          "value": {
+            "connection": "evSJXL5vU1WvKHVc:outputs:entry"
+          },
+          "item": {
+            "connection": "VTGtEuvewyQmgubf:outputs:entry"
+          },
+          "target": {
+            "connection": "V8GCTWkav6wg04Zv:outputs:entry"
+          },
+          "origin": {
+            "connection": "BlmrPkWz6xWwVOWB:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "BxiB9j5KWzpyNYQZ:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "6wCdKw6izbkaqLsd:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 2413.022727272727,
+          "y": 706.7727272727274
+        },
+        "id": "cvGXv5uuJminLDSM",
+        "outs": {
+          "failure": {
+            "connection": "UbO5Q52yZH0zJOHw:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "FXWO45XdO7uk5ywF:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "4kEnMmuDbmZKD83T:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 2413.022727272727,
+          "y": 544.2727272727271
+        },
+        "id": "BxiB9j5KWzpyNYQZ",
+        "outs": {
+          "failure": {
+            "connection": "UbO5Q52yZH0zJOHw:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "FXWO45XdO7uk5ywF:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 753.9230769230769,
+          "y": 693.4
+        },
+        "id": "ny1WFgWh7PWUg2mD",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.bI1yDPR1wsUng16E"
+          },
+          "target": {
+            "connection": "92AqntQeyVWdcQIF:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "YqrAf2g5UB7GskHP:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "ny1WFgWh7PWUg2mD:outputs:item"
+          }
+        },
+        "position": {
+          "x": 1024,
+          "y": 693.25
+        },
+        "id": "YqrAf2g5UB7GskHP"
+      },
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 499,
+          "y": 693
+        },
+        "id": "92AqntQeyVWdcQIF",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "ny1WFgWh7PWUg2mD:ins:in"
+          }
+        }
+      }
+    ],
+    "variables": {
+      "Txd2xiBiEsuX9dXW:outputs:item": {
+        "isArray": false,
+        "label": "Oka",
+        "type": "item"
+      },
+      "UjWwEs4W5GNHo934:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "UjWwEs4W5GNHo934:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      },
+      "kXBTd4cZ58r4Cwpv:outputs:fSYusu2IrdbMccvi": {
+        "isArray": false,
+        "label": "Class DC",
+        "type": "number"
+      }
+    }
+}

@@ -1,0 +1,91 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Rook_Overload.png",
+  "name": "Effect: Remote Control (Overcharged)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.Qi0g1ChrQTRgue80]{Remote Control}</p><p>The Strike gains a +1 untyped bonus and deals an additional 1d6 points of damage. This increases by one additional die at 12th level, and again at 18th level, and the untyped bonus increases to +2 at 18th level.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 6
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "ternary(gte(@actor.level, 18), 3, ternary(gte(@actor.level, 12), 2, 1))",
+        "dieSize": "d6",
+        "predicate": [
+          "overcharged"
+        ],
+        "label": "Remote Control",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack"
+        ],
+        "value": "ternary(gte(@actor.level, 18), 2, 1)",
+        "predicate": [
+          "overcharged"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-remote-control-overcharged",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "oyF35FBD6d0qdmG0",
+  "sort": 0,
+  "_key": "!items!oyF35FBD6d0qdmG0"
+}

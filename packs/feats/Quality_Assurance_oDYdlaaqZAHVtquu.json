@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>When you use tools that grant an item bonus to a particular skill check, such as an expanded healer's toolkit or a sterling artisan's toolkit, you treat this item bonus as 1 higher. You also treat the item bonus as 1 higher when using tools as weapons. If you have the Raise a Tool feat, the bonus to AC granted by that feat is increased by 1, and the hardness of all tools is treated as 1 higher.</p>",
+      "value": "<p>When you use tools that grant an item bonus to a particular skill check, such as an expanded healer's toolkit or a sterling artisan's toolkit, you treat this item bonus as 1 higher. You also treat the item bonus as 1 higher when using tools as weapons. If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.vS2g02Hfg3Kqy30b]{Raise a Tool} feat, the bonus to AC granted by that feat is increased by 1, and the hardness of all tools is treated as 1 higher.</p>",
       "gm": ""
     },
     "publication": {

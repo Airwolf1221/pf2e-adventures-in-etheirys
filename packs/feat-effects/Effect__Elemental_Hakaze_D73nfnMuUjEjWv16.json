@@ -99,7 +99,7 @@
     "fromSpell": false,
     "context": null
   },
-  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Jinpu.png",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Traits/Enhanced_Fugetsu_and_Fuka.png",
   "folder": "U1SRQ2CJL9urVdO9",
   "ownership": {
     "default": 0,
@@ -115,6 +115,6 @@
     "systemVersion": "7.9.1"
   },
   "_id": "D73nfnMuUjEjWv16",
-  "sort": 1400000,
+  "sort": 2200000,
   "_key": "!items!D73nfnMuUjEjWv16"
 }

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You throw your skysteel weapon and make a Strike against a target. Your weapon gains the Mystic trait for this strike, but adds your full Intelligence modifier to the damage roll. You still take the normal penalties to your Strike due to your weapon's range increment.</p><p>If you spend 2 actions when using this ability, you can immediately redirect your weapon's path and make another Strike. This Strike can be against the original target, or against a different target. If you spend 3 actions, you can instead make three total Strikes.</p><p>After attempting all Strikes as part of this ability, your skysteel multi-tool returns to your hands.</p><hr /><p><strong>Overcharge Function</strong> Your weapon's range increment doubles for the attack, and the damage dealt by each Strike increases by one step. All Strikes made with this ability still increase your multiple attack penalty, but you only increase it after making all three Strikes,</p>",
+      "value": "<p>You throw your skysteel weapon and make a Strike against a target. Your weapon gains the Mystic trait for this strike, but adds your full Intelligence modifier to the damage roll. You still take the normal penalties to your Strike due to your weapon's range increment.</p><p>If you spend 2 actions when using this ability, you can immediately redirect your weapon's path and make another Strike. This Strike can be against the original target, or against a different target. If you spend 3 actions, you can instead make three total Strikes.</p><p>After attempting all Strikes as part of this ability, your skysteel multi-tool returns to your hands.</p><hr /><p><strong>Overcharge Function</strong> Your weapon's range increment doubles for the attack, and the damage dealt by each Strike increases by one step. All Strikes made with this ability still increase your multiple attack penalty, but you only increase it after making all three Strikes,</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Du6dIddHjG08RXWK]{Effect: AMPed Control (Overcharged)}</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,14 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      }
+    ],
     "slug": "amped-control",
     "traits": {
       "otherTags": [
@@ -71,7 +78,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

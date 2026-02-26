@@ -1,0 +1,528 @@
+{
+    "name": "Blood for Blood",
+    "folder": "FF2e - Paladin",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "paladin"
+    ],
+    "id": "CfWRzl2Hu0D4qKZq",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 34.27777777777783,
+          "y": 404.9999999999999
+        },
+        "id": "IVYuqeO23mpVHeUA",
+        "outs": {
+          "out": {
+            "connection": "VwW1itxw7QnelPKR:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 834.9230769230769,
+          "y": 426.4
+        },
+        "id": "veteFkVvHxsz5EUZ",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.actions.Item.V1C9iN2HWBgwShks"
+          },
+          "target": {
+            "connection": "MHtqaIIiYWGd38vQ:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "tW58F1k51kzSeGOi:ins:in"
+          }
+        }
+      },
+      {
+        "type": "await-confirm",
+        "position": {
+          "x": 1413.923076923077,
+          "y": 422.4
+        },
+        "id": "9P1ojoroVDdsHYgK",
+        "inputs": {
+          "title": {
+            "value": "Reaction: Blood for Blood"
+          },
+          "plain": {
+            "value": "Use Blood for Blood?"
+          },
+          "user": {
+            "connection": "2QyYIXpp41EfpU0Q:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "osyxJGTAFowPxh9V:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1072.2222222222222,
+          "y": 614.7777777777776
+        },
+        "id": "2QyYIXpp41EfpU0Q"
+      },
+      {
+        "type": "item-formula",
+        "position": {
+          "x": 1950.2564102564102,
+          "y": 434.49999999999994
+        },
+        "id": "f7qbNj9IOJPCiact",
+        "inputs": {
+          "item": {
+            "connection": "8joJpuHz3JEGWU0P:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "Bow9V7DzKqZ9JlTL:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "veteFkVvHxsz5EUZ:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1514,
+          "y": 606.4166666666666
+        },
+        "id": "8joJpuHz3JEGWU0P"
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 2261.25641025641,
+          "y": 418.3999999999999
+        },
+        "id": "Bow9V7DzKqZ9JlTL",
+        "inputs": {
+          "formula": {
+            "connection": "f7qbNj9IOJPCiact:outputs:formula"
+          },
+          "origin": {
+            "connection": "0P5SnoxtWwHCYOOh:outputs:entry"
+          },
+          "item": {
+            "connection": "XqaVyouGYQNrOnSC:outputs:entry"
+          },
+          "options": {
+            "connection": "f7qbNj9IOJPCiact:outputs:options"
+          },
+          "traits": {
+            "connection": "f7qbNj9IOJPCiact:outputs:traits"
+          },
+          "targets": {
+            "connection": "0P5SnoxtWwHCYOOh:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "A1l7oFwAi6uvEolq:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2150.333333333333,
+          "y": 568.75
+        },
+        "id": "0P5SnoxtWwHCYOOh"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "veteFkVvHxsz5EUZ:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2088.333333333333,
+          "y": 641.75
+        },
+        "id": "XqaVyouGYQNrOnSC"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2368.658008658009,
+          "y": 721.712121212121
+        },
+        "id": "MkpPEswFf4ZXGpgJ"
+      },
+      {
+        "type": "inside-aura",
+        "position": {
+          "x": 288.8119658119656,
+          "y": 402.51111111111106
+        },
+        "id": "VwW1itxw7QnelPKR",
+        "inputs": {
+          "target": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:origin"
+          },
+          "slug": {
+            "value": "paladins-aura"
+          },
+          "affects": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "nsyaXkW3kTCFhgR3:ins:in"
+          }
+        }
+      },
+      {
+        "type": "actors-match",
+        "position": {
+          "x": 598.2564102564099,
+          "y": 418.1111111111109
+        },
+        "id": "nsyaXkW3kTCFhgR3",
+        "inputs": {
+          "b": {
+            "connection": "VwW1itxw7QnelPKR:outputs:source"
+          },
+          "a": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:origin"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "veteFkVvHxsz5EUZ:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 697.6666666666667,
+          "y": 532.6944444444443
+        },
+        "id": "MHtqaIIiYWGd38vQ"
+      },
+      {
+        "type": "create-effect",
+        "position": {
+          "x": 2527.2564102564093,
+          "y": 417.34444444444426
+        },
+        "id": "A1l7oFwAi6uvEolq",
+        "custom": {
+          "inputs": {
+            "IfCbZx5UdYwnISjH": {
+              "id": "IfCbZx5UdYwnISjH",
+              "label": "Mark",
+              "slug": "rule",
+              "type": "text"
+            },
+            "Kfbc5I0jhYt7xwsL": {
+              "id": "Kfbc5I0jhYt7xwsL",
+              "label": "Flat Modifier",
+              "slug": "rule",
+              "type": "text"
+            }
+          }
+        },
+        "inputs": {
+          "target": {
+            "connection": "MkpPEswFf4ZXGpgJ:outputs:entry"
+          },
+          "origin": {
+            "connection": "MkpPEswFf4ZXGpgJ:outputs:entry"
+          },
+          "expiry": {
+            "value": "turn-end"
+          },
+          "name": {
+            "value": "Effect: Blood for Blood"
+          },
+          "pf2eImg": {
+            "value": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Fast_Blade.png"
+          },
+          "slug": {
+            "value": "effect-blood-for-blood"
+          },
+          "IfCbZx5UdYwnISjH": {
+            "value": "{\n  \"key\": \"TokenMark\",\n  \"slug\": \"blood-for-blood\",\n  \"uuid\": \"\"\n}"
+          },
+          "Kfbc5I0jhYt7xwsL": {
+            "value": "{\n  \"key\": \"FlatModifier\",\n  \"selector\": [\n    \"strike-damage\"\n  ],\n  \"value\": \"ternary(gte(@actor.level, 16), 6, ternary(gte(@actor.level, 9), 4, 2))\",\n  \"predicate\": [\n    \"target:mark:blood-for-blood\"\n  ],\n  \"slug\": \"teaching-extra-damage\",\n  \"damageType\": \"vitality\"\n}"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "8ZekgwwBl3qfdnal:ins:in"
+          }
+        }
+      },
+      {
+        "type": "send-chat",
+        "position": {
+          "x": 1712.4230769230771,
+          "y": 421.94444444444457
+        },
+        "id": "osyxJGTAFowPxh9V",
+        "inputs": {
+          "item": {
+            "connection": "8joJpuHz3JEGWU0P:outputs:entry"
+          },
+          "parent": {
+            "connection": "2QyYIXpp41EfpU0Q:outputs:entry"
+          },
+          "targets": {
+            "connection": "2QyYIXpp41EfpU0Q:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "f7qbNj9IOJPCiact:ins:in"
+          }
+        }
+      },
+      {
+        "custom": {
+          "title": "Empowered Reaction",
+          "outputs": {
+            "HQQ20Dahs6SVsI4w": {
+              "id": "HQQ20Dahs6SVsI4w",
+              "label": "Paladin",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            },
+            "C9ge6vZOncXHATSk": {
+              "id": "C9ge6vZOncXHATSk",
+              "label": "Target",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            }
+          }
+        },
+        "type": "__gate_exit__",
+        "position": {
+          "x": 35.119047619048615,
+          "y": 637.4444444444443
+        },
+        "id": "jTDoVr5K6gF411Q9",
+        "outs": {
+          "out": {
+            "connection": "uSrWucCDP8OgSjnD:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 255.70879120879204,
+          "y": 638.9555555555557
+        },
+        "id": "uSrWucCDP8OgSjnD",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.8UqBnqJ9qT6yqdLO"
+          },
+          "target": {
+            "connection": "jTDoVr5K6gF411Q9:outputs:HQQ20Dahs6SVsI4w"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "MkCh1zWb8uVNGnbt:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-persistent",
+        "position": {
+          "x": 765.7087912087914,
+          "y": 638.8333333333335
+        },
+        "id": "22ujM2J7TBrUmIth",
+        "inputs": {
+          "target": {
+            "connection": "jTDoVr5K6gF411Q9:outputs:C9ge6vZOncXHATSk"
+          },
+          "die": {
+            "connection": "MkCh1zWb8uVNGnbt:outputs:5Me4Y3y1Riqz38mx"
+          },
+          "type": {
+            "value": "vitality"
+          }
+        }
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 529.0421245421255,
+          "y": 658.2888888888892
+        },
+        "id": "MkCh1zWb8uVNGnbt",
+        "custom": {
+          "outputs": {
+            "5Me4Y3y1Riqz38mx": {
+              "id": "5Me4Y3y1Riqz38mx",
+              "input": "system.abilities.cha.mod",
+              "label": "Charisma",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "jTDoVr5K6gF411Q9:outputs:HQQ20Dahs6SVsI4w"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "22ujM2J7TBrUmIth:ins:in"
+          }
+        }
+      },
+      {
+        "custom": {
+          "inputs": {
+            "HQQ20Dahs6SVsI4w": {
+              "id": "HQQ20Dahs6SVsI4w",
+              "label": "Paladin",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            },
+            "C9ge6vZOncXHATSk": {
+              "id": "C9ge6vZOncXHATSk",
+              "label": "Target",
+              "slug": "entry",
+              "isArray": false,
+              "type": "target"
+            }
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "jTDoVr5K6gF411Q9:ins:in"
+          }
+        },
+        "type": "__gate_entry__",
+        "position": {
+          "x": 2896.375457875459,
+          "y": 418.05555555555605
+        },
+        "id": "8ZekgwwBl3qfdnal",
+        "inputs": {
+          "HQQ20Dahs6SVsI4w": {
+            "connection": "Rn9MQKD5AseDvcYj:outputs:entry"
+          },
+          "C9ge6vZOncXHATSk": {
+            "connection": "hd0H897sb6DiwpjJ:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2751.896825396826,
+          "y": 479.194444444445
+        },
+        "id": "Rn9MQKD5AseDvcYj"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "IVYuqeO23mpVHeUA:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2755.230158730159,
+          "y": 514.7500000000005
+        },
+        "id": "hd0H897sb6DiwpjJ"
+      },
+      {
+        "type": "has-option",
+        "position": {
+          "x": 1185.8278388278395,
+          "y": 427.11904761904725
+        },
+        "id": "tW58F1k51kzSeGOi",
+        "inputs": {
+          "option": {
+            "value": "self:effect:blood-for-blood"
+          },
+          "target": {
+            "connection": "2QyYIXpp41EfpU0Q:outputs:entry"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "9P1ojoroVDdsHYgK:ins:in"
+          }
+        }
+      }
+    ],
+    "variables": {
+      "veteFkVvHxsz5EUZ:outputs:item": {
+        "isArray": false,
+        "label": "Blood for Blood",
+        "type": "item"
+      },
+      "IVYuqeO23mpVHeUA:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      },
+      "IVYuqeO23mpVHeUA:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      }
+    }
+}

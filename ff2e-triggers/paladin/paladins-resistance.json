@@ -1,0 +1,59 @@
+{
+    "name": "Paladin's Resistance",
+    "folder": "FF2e - Paladin",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "paladin"
+    ],
+    "id": "jL4TJ9tQstMfptHg",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 346,
+          "y": 280
+        },
+        "id": "JtuJIFaNRZiUwKl3",
+        "outs": {
+          "out": {
+            "connection": "ORJc3B3UDTTN8SxP:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 614.9230769230769,
+          "y": 279.4
+        },
+        "id": "ORJc3B3UDTTN8SxP",
+        "inputs": {
+          "target": {
+            "connection": "JtuJIFaNRZiUwKl3:outputs:target"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.B3jJnpKXwRvCne3Q"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "e5r7boQjSnkaWoJh:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 880.9230769230769,
+          "y": 280.5
+        },
+        "id": "e5r7boQjSnkaWoJh",
+        "inputs": {
+          "item": {
+            "connection": "ORJc3B3UDTTN8SxP:outputs:item"
+          }
+        }
+      }
+    ]
+}

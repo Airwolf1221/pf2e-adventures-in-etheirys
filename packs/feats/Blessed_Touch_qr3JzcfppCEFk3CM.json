@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You use Basic Touch.</p><hr /><p>When you enter your Basic Touch stance, you disperse the magical reinforcement to nearby allies. You grant the extra damage of Basic Touch in an aura affecting all allies in a 5-foot emanation. This uses only the base damage of the stance, based on the ally's weapon specialization; it doesn't use any increase you get from bonuses or the like. As normal for duplicate effects, multiple Basic Touches affecting the same creature aren't cumulative.</p>",
+      "value": "<p><strong>Trigger</strong> You use @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.K2TXdqQGwIEZcpSf]{Basic Touch}.</p><hr /><p>When you enter your Basic Touch stance, you disperse the magical reinforcement to nearby allies. You grant the extra damage of Basic Touch in an aura affecting all allies in a 5-foot emanation. This uses only the base damage of the stance, based on the ally's weapon specialization; it doesn't use any increase you get from bonuses or the like. As normal for duplicate effects, multiple Basic Touches affecting the same creature aren't cumulative.</p>",
       "gm": ""
     },
     "publication": {
@@ -55,10 +55,18 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.PfuDdebTnFuJe76V",
+      "name": "Effect: Blessed Touch"
+    }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,

@@ -1,0 +1,82 @@
+{
+    "name": "Hissatsu Shinten",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "cfsdLBub1kXhqdBr",
+    "nodes": [
+      {
+        "type": "has-item",
+        "position": {
+          "x": 548.9230769230769,
+          "y": 429.4
+        },
+        "id": "e5Mt1PMS9GEwQZFx",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.lW6i3o2sshajZv2O"
+          },
+          "target": {
+            "connection": "AZ4PpIlR00Vlmf86:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "0mAmOTZTYDey6o1n:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "e5Mt1PMS9GEwQZFx:outputs:item"
+          }
+        },
+        "position": {
+          "x": 809,
+          "y": 430.25
+        },
+        "id": "0mAmOTZTYDey6o1n",
+        "outs": {
+          "out": {
+            "connection": "iC6KKCRdBrzScIfc:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-item",
+        "position": {
+          "x": 1020.9230769230769,
+          "y": 429.4
+        },
+        "id": "iC6KKCRdBrzScIfc",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.w8xc6658rtooQehH"
+          }
+        }
+      },
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 296,
+          "y": 430
+        },
+        "id": "AZ4PpIlR00Vlmf86",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "e5Mt1PMS9GEwQZFx:ins:in"
+          }
+        }
+      }
+    ]
+}

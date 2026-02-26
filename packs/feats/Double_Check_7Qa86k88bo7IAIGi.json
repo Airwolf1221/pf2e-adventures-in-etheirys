@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You deal additional damage with Analysis</p><hr /><p>Your Analysis revealed additional opportunities for your allies to put pressure on your foes. Choose one ally within 30 feet of both you and the target you damaged with Analysis. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to the next attack made by that ally before the end of your next turn. If you used the Overcharge Function of Analysis, that Strike deals an additional 2d6 precision damage on a hit.</p>",
+      "value": "<p><strong>Trigger</strong> You deal additional damage with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.58dVgEAlbXxhpzoF]{Analysis}</p><hr /><p>Your Analysis revealed additional opportunities for your allies to put pressure on your foes. Choose one ally within 30 feet of both you and the target you damaged with Analysis. The ally gets a +2 circumstance bonus to the next Strike made against that target before the end of your next turn. If you used the Overcharge Function of Analysis, that Strike deals an additional 2d6 precision damage on a hit.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.rfgYRqzMucHyYUd6]{Effect: Double Check}</p>",
       "gm": ""
     },
     "publication": {
@@ -61,7 +61,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

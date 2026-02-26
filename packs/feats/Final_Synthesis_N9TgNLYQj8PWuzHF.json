@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You've made it almost effortless to combine spells and attacks. You're permanently quickened. You can use your extra action only to Strike or to recharge your Synthestrike.</p>",
+      "value": "<p>You've made it almost effortless to combine spells and attacks. You're permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}. You can use your extra action only to Strike or to recharge your @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.het2E8jTuLAbWvEK]{Synthestrike}.</p>",
       "gm": ""
     },
     "publication": {

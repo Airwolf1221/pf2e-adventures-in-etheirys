@@ -1,0 +1,325 @@
+{
+    "name": "Magitek Oil",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "OUbInV5vfMPewbCF",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 317,
+          "y": 369
+        },
+        "id": "eAImEIDdiIseOOsg",
+        "outs": {
+          "out": {
+            "connection": "1orB4YuNRAUXdAcp:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 553.9230769230769,
+          "y": 384.5
+        },
+        "id": "1orB4YuNRAUXdAcp",
+        "inputs": {
+          "options": {
+            "connection": "eAImEIDdiIseOOsg:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"item:slug:magitek-oil\"\n]"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "hBu5tPgNDhnzKL6w:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "eAImEIDdiIseOOsg:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 789,
+          "y": 388.25
+        },
+        "id": "hBu5tPgNDhnzKL6w",
+        "outs": {
+          "criticalSuccess": {
+            "connection": "Ury0IA3N5SmVDIIi:ins:in"
+          },
+          "success": {
+            "connection": "2TmMMZEpomhwX7DH:ins:in"
+          },
+          "failure": {
+            "connection": "xSzgIAOvEopjhU43:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "PXr6kh5PKsXvXsPT:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 1308.923076923077,
+          "y": 592.4
+        },
+        "id": "Ury0IA3N5SmVDIIi",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei"
+          },
+          "target": {
+            "connection": "Pm31eE1FOcPcC2IG:outputs:entry"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "YSTK4FiFauY7mR41:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "eAImEIDdiIseOOsg:outputs:roller"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 931,
+          "y": 716.75
+        },
+        "id": "Pm31eE1FOcPcC2IG"
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "Ury0IA3N5SmVDIIi:outputs:item"
+          }
+        },
+        "position": {
+          "x": 1577,
+          "y": 611.25
+        },
+        "id": "YSTK4FiFauY7mR41"
+      },
+      {
+        "type": "create-persistent",
+        "position": {
+          "x": 1078.923076923077,
+          "y": 481.5
+        },
+        "id": "2TmMMZEpomhwX7DH",
+        "inputs": {
+          "target": {
+            "connection": "Pm31eE1FOcPcC2IG:outputs:entry"
+          },
+          "die": {
+            "value": "1"
+          },
+          "type": {
+            "value": "fire"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "Ury0IA3N5SmVDIIi:ins:in"
+          }
+        }
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 1078.923076923077,
+          "y": 391.4
+        },
+        "id": "xSzgIAOvEopjhU43",
+        "custom": {
+          "outputs": {
+            "ArA8dRTGABPnFznh": {
+              "id": "ArA8dRTGABPnFznh",
+              "input": "level",
+              "label": "Level",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "1ncicRoZdNKDoRnf:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "wxOfHUH2lyy9Fmos:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "eAImEIDdiIseOOsg:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 899,
+          "y": 351.75
+        },
+        "id": "1ncicRoZdNKDoRnf"
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 1079.923076923077,
+          "y": 285.4
+        },
+        "id": "PXr6kh5PKsXvXsPT",
+        "custom": {
+          "outputs": {
+            "ArA8dRTGABPnFznh": {
+              "id": "ArA8dRTGABPnFznh",
+              "input": "level",
+              "label": "Level",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "1ncicRoZdNKDoRnf:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "46qngpDQP7NqZV0X:ins:in"
+          }
+        }
+      },
+      {
+        "type": "resolve-formula",
+        "position": {
+          "x": 1314.923076923077,
+          "y": 392.4
+        },
+        "id": "wxOfHUH2lyy9Fmos",
+        "custom": {
+          "inputs": {
+            "tUEc7U0yxF99TLce": {
+              "id": "tUEc7U0yxF99TLce",
+              "input": "level",
+              "label": "level",
+              "slug": "variable",
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "formula": {
+            "value": "floor(@level / 2)"
+          },
+          "tUEc7U0yxF99TLce": {
+            "connection": "xSzgIAOvEopjhU43:outputs:ArA8dRTGABPnFznh"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "Nrv1AIXhAgPJnL9V:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-persistent",
+        "position": {
+          "x": 1625.923076923077,
+          "y": 375.5
+        },
+        "id": "Nrv1AIXhAgPJnL9V",
+        "inputs": {
+          "die": {
+            "connection": "wxOfHUH2lyy9Fmos:outputs:value"
+          },
+          "type": {
+            "value": "fire"
+          },
+          "target": {
+            "connection": "kgE2c4p4DYj2tCny:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "eAImEIDdiIseOOsg:outputs:roller"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1473,
+          "y": 513.75
+        },
+        "id": "kgE2c4p4DYj2tCny"
+      },
+      {
+        "type": "create-persistent",
+        "position": {
+          "x": 1327.923076923077,
+          "y": 205.5
+        },
+        "id": "46qngpDQP7NqZV0X",
+        "inputs": {
+          "target": {
+            "connection": "UpzCVcqJmwpi3uey:outputs:entry"
+          },
+          "die": {
+            "connection": "PXr6kh5PKsXvXsPT:outputs:ArA8dRTGABPnFznh"
+          },
+          "type": {
+            "value": "fire"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "eAImEIDdiIseOOsg:outputs:roller"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1185,
+          "y": 234.75
+        },
+        "id": "UpzCVcqJmwpi3uey"
+      }
+    ],
+    "variables": {
+      "eAImEIDdiIseOOsg:outputs:roller": {
+        "isArray": false,
+        "label": "Roller",
+        "type": "target"
+      },
+      "eAImEIDdiIseOOsg:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      }
+    }
+}

@@ -34,10 +34,7 @@ function getAllJsonFiles(dir) {
  * @returns {Object} Combined triggers object with {items: [], triggers: []}
  */
 function combineTriggers(triggersDir = "./ff2e-triggers", outputFile = null) {
-    const combined = {
-        items: [],
-        triggers: [],
-    };
+    const combined = [];
 
     const jsonFiles = getAllJsonFiles(triggersDir);
     console.log(`Found ${jsonFiles.length} JSON files!`);
@@ -47,15 +44,9 @@ function combineTriggers(triggersDir = "./ff2e-triggers", outputFile = null) {
             const content = fs.readFileSync(file, "utf8");
             const data = JSON.parse(content);
 
-            // If the file is an array, add each element
-            if (Array.isArray(data)) {
-                combined.triggers.push(...data);
-                console.log(`Added ${data.length} triggers from array in ${file}`);
-            }
-
             // If the file itself is a trigger object (has _id, nodes, etc)
-            else if (data._id && data.nodes) {
-                combined.triggers.push(data);
+            if (data.nodes && data.tags) {
+                combined.push(data);
                 console.log(`Added trigger from ${file}`);
             }
         } catch (error) {
@@ -63,7 +54,7 @@ function combineTriggers(triggersDir = "./ff2e-triggers", outputFile = null) {
         }
     }
 
-    console.log(`\nCombined ${combined.triggers.length} triggers total`);
+    console.log(`\nCombined ${combined.length} triggers total`);
 
     if (outputFile) {
         const outputDir = path.dirname(outputFile);
@@ -80,7 +71,7 @@ function combineTriggers(triggersDir = "./ff2e-triggers", outputFile = null) {
 
 if (require.main === module) {
     const triggersDir = process.argv[2] || "./ff2e-triggers";
-    const outputFile = process.argv[3] || "./ff2e-triggers/pf2e-adventures-in-etheirys.json";
+    const outputFile = process.argv[3] || "./ff2e-triggers/triggers.json";
 
     combineTriggers(triggersDir, outputFile);
 }

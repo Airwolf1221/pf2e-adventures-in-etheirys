@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You successfully avoid an attack with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2ORcBQibJPXCHyiJ]{Third Eye}</p><hr /><p>You exploit your opponent's weakness and take revenge. Until the end of your turn, your opponent is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against your attacks. Furthermore, you can Strike the target. This Strike does not count in your multiple attack penalty, but does end @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}.</p><hr /><p><strong>Special</strong> This ability cannot be used at the same time as Seigan.</p>",
+      "value": "<p><strong>Requirements</strong> You successfully avoid an attack with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.2ORcBQibJPXCHyiJ]{Third Eye}</p><hr /><p>You exploit your opponent's weakness and take revenge. Until the end of your turn, your opponent is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against your attacks. Furthermore, you can Strike the target. This Strike does not count in your multiple attack penalty, but does end @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.ymyhuyGwv8vEnLIH]{Iai Stance}.</p><hr /><p><strong>Special</strong> This ability cannot be used at the same time as @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ycmxVkoD151gRO7K]{Seigan}.</p>",
       "gm": ""
     },
     "publication": {
@@ -61,7 +61,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

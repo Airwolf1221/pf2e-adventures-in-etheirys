@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You make a low sweep and attempt to make your opponent trip. Make a melee Strike with the sweep trait. If you hit, the victim must attempt a @Check[reflex|against:class] saving throw, with a -2 penalty to the saving throw if the initial Strike is a critical success.</p><hr /><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of its next turn.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} until the start of its next turn.</p><p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+      "value": "<p><strong>Requirements</strong> You are wielding a Samurai Weapon</p><hr /><p>You make a low sweep and attempt to make your opponent trip. Make a melee Strike with the sweep trait. If you hit, the victim must attempt a @Check[reflex|against:class] saving throw, with the DC being 2 higher if the initial Strike is a critical success.</p><hr /><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of its next turn.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} until the start of its next turn.</p><p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
       "gm": ""
     },
     "publication": {
@@ -48,17 +48,25 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.0alcFG0DiJDi487K",
+      "name": "Effect: Jinpu"
+    }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

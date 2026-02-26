@@ -1,0 +1,139 @@
+{
+    "name": "Bakufu's Demand",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "3JzIJgEvVDztgngu",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 305,
+          "y": 315
+        },
+        "id": "trwPcgc14ZyGQ0X3",
+        "outs": {
+          "out": {
+            "connection": "n0rISPrhJVIsAAUN:ins:in"
+          }
+        },
+        "inputs": {
+          "for": {
+            "value": "saving-throw"
+          }
+        },
+        "state": "check"
+      },
+      {
+        "type": "match-predicate",
+        "inputs": {
+          "options": {
+            "connection": "trwPcgc14ZyGQ0X3:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"check:statistic:fortitude\",\n  \"item:slug:bakufus-demand\"\n]"
+          }
+        },
+        "position": {
+          "x": 601,
+          "y": 331.25
+        },
+        "id": "n0rISPrhJVIsAAUN",
+        "outs": {
+          "true": {
+            "connection": "143h65yLopgnp6xS:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "trwPcgc14ZyGQ0X3:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 826,
+          "y": 334.25
+        },
+        "id": "143h65yLopgnp6xS",
+        "outs": {
+          "success": {
+            "connection": "3tJJVpDpe80HkT2O:ins:in"
+          },
+          "failure": {
+            "connection": "zr1XZwvjcOEXLyhg:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "Ypf8oayHK6gW1tJB:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-item",
+        "position": {
+          "x": 1099.923076923077,
+          "y": 498.4
+        },
+        "id": "3tJJVpDpe80HkT2O",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Pg6WYiVAf8nUMZ20"
+          },
+          "target": {
+            "connection": "trwPcgc14ZyGQ0X3:outputs:roller"
+          },
+          "duplicate": {
+            "value": false
+          }
+        }
+      },
+      {
+        "type": "create-item",
+        "position": {
+          "x": 1099.923076923077,
+          "y": 313.4
+        },
+        "id": "zr1XZwvjcOEXLyhg",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.tMjyfK68xgiiAz6h"
+          },
+          "oPkjjYwWA0ape2es": {
+            "value": "rollOption:bakufusDemand:failure"
+          },
+          "target": {
+            "connection": "trwPcgc14ZyGQ0X3:outputs:roller"
+          },
+          "duplicate": {
+            "value": false
+          }
+        }
+      },
+      {
+        "type": "create-item",
+        "position": {
+          "x": 1097.923076923077,
+          "y": 123.39999999999998
+        },
+        "id": "Ypf8oayHK6gW1tJB",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.4jGnwfFXaxlnjKsL"
+          },
+          "oPkjjYwWA0ape2es": {
+            "value": "rollOption:bakufusDemand:criticalFailure"
+          },
+          "target": {
+            "connection": "trwPcgc14ZyGQ0X3:outputs:roller"
+          },
+          "duplicate": {
+            "value": false
+          }
+        }
+      }
+    ]
+}

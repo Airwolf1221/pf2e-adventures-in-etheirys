@@ -1,0 +1,85 @@
+{
+    "name": "Sekinetsu Kou",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "ogi9PqaMejDQ1ZEd",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 347,
+          "y": 382
+        },
+        "id": "NNvdYI84Mnh70ptm",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "gPxh2oIzJU3gfyEK:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 616.9230769230769,
+          "y": 382.4
+        },
+        "id": "gPxh2oIzJU3gfyEK",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.poRm83rYvXJ4DTT9"
+          },
+          "target": {
+            "connection": "NNvdYI84Mnh70ptm:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "Z45NNankDpab7nVi:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 924.9230769230769,
+          "y": 382.5
+        },
+        "id": "Z45NNankDpab7nVi",
+        "inputs": {
+          "item": {
+            "connection": "gPxh2oIzJU3gfyEK:outputs:item"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "0fyjnUgOSS4hKy0Q:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-item",
+        "position": {
+          "x": 1153.923076923077,
+          "y": 382.4
+        },
+        "id": "0fyjnUgOSS4hKy0Q",
+        "inputs": {
+          "target": {
+            "connection": "NNvdYI84Mnh70ptm:outputs:target"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.7GbIMoGenpKNMQYM"
+          }
+        }
+      }
+    ]
+}

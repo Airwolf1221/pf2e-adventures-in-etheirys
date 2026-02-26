@@ -1,0 +1,60 @@
+{
+    "name": "Ogi Namikiri",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "hF97Lszz5eJW1u0C",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 314,
+          "y": 344
+        },
+        "id": "Ms9pVhjKhxLAzhG3",
+        "outs": {
+          "out": {
+            "connection": "I0BxpW1k4HzDLcjE:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "state": "uuid",
+        "inputs": {
+          "target": {
+            "connection": "Ms9pVhjKhxLAzhG3:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.zDdg7A0k2lw2TGSt"
+          }
+        },
+        "position": {
+          "x": 545,
+          "y": 344.15
+        },
+        "id": "I0BxpW1k4HzDLcjE",
+        "outs": {
+          "true": {
+            "connection": "D9mdCNTh6Ib8PXSe:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "I0BxpW1k4HzDLcjE:outputs:item"
+          }
+        },
+        "position": {
+          "x": 815,
+          "y": 344.25
+        },
+        "id": "D9mdCNTh6Ib8PXSe"
+      }
+    ]
+}

@@ -1,0 +1,610 @@
+{
+    "name": "Higanbana",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "GDlGg2QH3AVoJtVG",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 247.8571428571429,
+          "y": 478.42857142857144
+        },
+        "id": "e7UrcqV9lkkTOE7k",
+        "outs": {
+          "out": {
+            "connection": "5GNzs9TWw2ZswzDn:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 468.7802197802198,
+          "y": 478.8285714285714
+        },
+        "id": "5GNzs9TWw2ZswzDn",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.QzDxo1AXhJHQ7MSj"
+          },
+          "target": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "MlriDDmCpvF8EHn0:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "5GNzs9TWw2ZswzDn:outputs:item"
+          }
+        },
+        "position": {
+          "x": 1021,
+          "y": 478.25
+        },
+        "id": "WTr34JkhlgKufyuf",
+        "outs": {
+          "out": {
+            "connection": "4xcSjZfIo1iVPGws:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 733.7802197802198,
+          "y": 478.8285714285714
+        },
+        "id": "MlriDDmCpvF8EHn0",
+        "inputs": {
+          "target": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.tF2gL6gJ5E7rfle4"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "WTr34JkhlgKufyuf:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 1780,
+          "y": 496.0961538461538
+        },
+        "id": "UYsJ0KR6qYtB9FRn",
+        "outs": {
+          "criticalSuccess": {
+            "connection": "QoPfOsQtflKMtHxM:ins:in"
+          },
+          "success": {
+            "connection": "IEYNgtNTUrn74cs8:ins:in"
+          }
+        }
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 1234.923076923077,
+          "y": 494.4
+        },
+        "id": "4xcSjZfIo1iVPGws",
+        "custom": {
+          "outputs": {
+            "ZBKam7JIrGUTl1ny": {
+              "id": "ZBKam7JIrGUTl1ny",
+              "input": "attributes.classDC.value",
+              "label": "Class DC",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "cEPMzs6ZLNVucdpq:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "AThvSVf6klkWPLlg:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1122,
+          "y": 582.75
+        },
+        "id": "cEPMzs6ZLNVucdpq"
+      },
+      {
+        "type": "resolve-formula",
+        "position": {
+          "x": 2036.9230769230771,
+          "y": 667.2461538461538
+        },
+        "id": "QoPfOsQtflKMtHxM",
+        "custom": {
+          "inputs": {
+            "F3JfN1r09oUzzNg9": {
+              "id": "F3JfN1r09oUzzNg9",
+              "input": "dc",
+              "label": "dc",
+              "slug": "variable",
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "formula": {
+            "value": "@dc + 3"
+          },
+          "F3JfN1r09oUzzNg9": {
+            "connection": "4xcSjZfIo1iVPGws:outputs:ZBKam7JIrGUTl1ny"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "cp1VBY9mqsXOBoQg:ins:in"
+          }
+        },
+        "state": "value"
+      },
+      {
+        "type": "roll-save",
+        "position": {
+          "x": 2347.923076923077,
+          "y": 651.2461538461538
+        },
+        "id": "cp1VBY9mqsXOBoQg",
+        "inputs": {
+          "origin": {
+            "connection": "jsAIxhuzatvc4HLb:outputs:entry"
+          },
+          "target": {
+            "connection": "CcGbnb5NZFq3vw76:outputs:entry"
+          },
+          "value": {
+            "connection": "QoPfOsQtflKMtHxM:outputs:value"
+          },
+          "item": {
+            "connection": "EctTQJt60eXFXpZ6:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "7ooaQLKH3Z3OFzbA:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2195,
+          "y": 776.5961538461538
+        },
+        "id": "jsAIxhuzatvc4HLb"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2196,
+          "y": 813.5961538461538
+        },
+        "id": "CcGbnb5NZFq3vw76"
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "cp1VBY9mqsXOBoQg:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 2590,
+          "y": 668.0961538461538
+        },
+        "id": "7ooaQLKH3Z3OFzbA",
+        "outs": {
+          "criticalFailure": {
+            "connection": "8fwAxVggLCiTGOlG:ins:in"
+          },
+          "failure": {
+            "connection": "RsDa3ozFfiamXFm1:ins:in"
+          },
+          "success": {
+            "connection": "Ji1UfaR2eyihSkXW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "roll-save",
+        "position": {
+          "x": 2346.923076923077,
+          "y": 271.2461538461538
+        },
+        "id": "IEYNgtNTUrn74cs8",
+        "inputs": {
+          "origin": {
+            "connection": "jsAIxhuzatvc4HLb:outputs:entry"
+          },
+          "target": {
+            "connection": "CcGbnb5NZFq3vw76:outputs:entry"
+          },
+          "value": {
+            "connection": "WHbPQlIrSeZm3QaZ:outputs:entry"
+          },
+          "item": {
+            "connection": "EctTQJt60eXFXpZ6:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "0BkGwLUwTRHWOYqs:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "4xcSjZfIo1iVPGws:outputs:ZBKam7JIrGUTl1ny"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2181,
+          "y": 524.5961538461538
+        },
+        "id": "WHbPQlIrSeZm3QaZ"
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "IEYNgtNTUrn74cs8:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 2590,
+          "y": 499.0961538461538
+        },
+        "id": "0BkGwLUwTRHWOYqs",
+        "outs": {
+          "criticalFailure": {
+            "connection": "8fwAxVggLCiTGOlG:ins:in"
+          },
+          "failure": {
+            "connection": "RsDa3ozFfiamXFm1:ins:in"
+          },
+          "success": {
+            "connection": "Ji1UfaR2eyihSkXW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "item-formula",
+        "position": {
+          "x": 2969.076923076923,
+          "y": 715.0769230769229
+        },
+        "id": "8fwAxVggLCiTGOlG",
+        "inputs": {
+          "item": {
+            "connection": "iNaJkUGWToQpbYVj:outputs:entry"
+          },
+          "index": {
+            "value": 2
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "zC2OcLJX8rn2FocG:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 1451.0009990009992,
+          "y": 479.0493506493508
+        },
+        "id": "AThvSVf6klkWPLlg",
+        "inputs": {
+          "target": {
+            "connection": "cEPMzs6ZLNVucdpq:outputs:entry"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.2ExqfJS92nf32ywr"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "UYsJ0KR6qYtB9FRn:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "AThvSVf6klkWPLlg:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2158.5044955044955,
+          "y": 613.9867632367631
+        },
+        "id": "EctTQJt60eXFXpZ6"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "AThvSVf6klkWPLlg:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2671.581418581419,
+          "y": 831.6790709290708
+        },
+        "id": "iNaJkUGWToQpbYVj"
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 3329.0429570429574,
+          "y": 698.0983016983015
+        },
+        "id": "zC2OcLJX8rn2FocG",
+        "inputs": {
+          "formula": {
+            "connection": "8fwAxVggLCiTGOlG:outputs:formula"
+          },
+          "options": {
+            "connection": "8fwAxVggLCiTGOlG:outputs:options"
+          },
+          "traits": {
+            "connection": "8fwAxVggLCiTGOlG:outputs:traits"
+          },
+          "item": {
+            "connection": "iNaJkUGWToQpbYVj:outputs:entry"
+          },
+          "targets": {
+            "connection": "apOkWpYMyVI3HGDZ:outputs:entry"
+          },
+          "origin": {
+            "connection": "TLVpx0qkKeMc5D18:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 3164.7352647352645,
+          "y": 676.2944555444554
+        },
+        "id": "apOkWpYMyVI3HGDZ"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 3165.504495504495,
+          "y": 636.2944555444554
+        },
+        "id": "TLVpx0qkKeMc5D18"
+      },
+      {
+        "type": "item-formula",
+        "position": {
+          "x": 2966.076923076923,
+          "y": 395.07692307692287
+        },
+        "id": "RsDa3ozFfiamXFm1",
+        "inputs": {
+          "item": {
+            "connection": "iNaJkUGWToQpbYVj:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "Ys3wDXzVaUA0Sv3Z:ins:in"
+          }
+        }
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 3326.0429570429574,
+          "y": 378.0983016983015
+        },
+        "id": "Ys3wDXzVaUA0Sv3Z",
+        "inputs": {
+          "formula": {
+            "connection": "RsDa3ozFfiamXFm1:outputs:formula"
+          },
+          "options": {
+            "connection": "RsDa3ozFfiamXFm1:outputs:options"
+          },
+          "traits": {
+            "connection": "RsDa3ozFfiamXFm1:outputs:traits"
+          },
+          "origin": {
+            "connection": "TLVpx0qkKeMc5D18:outputs:entry"
+          },
+          "targets": {
+            "connection": "apOkWpYMyVI3HGDZ:outputs:entry"
+          },
+          "item": {
+            "connection": "iNaJkUGWToQpbYVj:outputs:entry"
+          }
+        }
+      },
+      {
+        "type": "roll-damage",
+        "position": {
+          "x": 3076.7564102564106,
+          "y": 1002.7333333333331
+        },
+        "id": "Ji1UfaR2eyihSkXW",
+        "inputs": {
+          "item": {
+            "connection": "DWKX2riLbfixU4hR:outputs:item"
+          },
+          "origin": {
+            "connection": "OMpNNPbJQI8uUTlC:outputs:entry"
+          },
+          "targets": {
+            "connection": "3IZQcT4I6L0rNE07:outputs:entry"
+          },
+          "formula": {
+            "value": "(floor((@actor.level - 4)/3) + 2)d6[precision]"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "AwZTaDUN3pCXMqcW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "item-value",
+        "position": {
+          "x": 2573,
+          "y": 878.75
+        },
+        "id": "DWKX2riLbfixU4hR",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.actions.Item.D6a4phlAxmixy2lo"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2706,
+          "y": 971.75
+        },
+        "id": "OMpNNPbJQI8uUTlC"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "e7UrcqV9lkkTOE7k:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2708,
+          "y": 1007.75
+        },
+        "id": "3IZQcT4I6L0rNE07"
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 3323.20879120879,
+          "y": 1002.7380952380951
+        },
+        "id": "AwZTaDUN3pCXMqcW",
+        "inputs": {
+          "item": {
+            "connection": "xatfNKjDuQFlBplo:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "MlriDDmCpvF8EHn0:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 3178.6190476190473,
+          "y": 1299.988095238095
+        },
+        "id": "xatfNKjDuQFlBplo"
+      }
+    ],
+    "variables": {
+      "e7UrcqV9lkkTOE7k:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "e7UrcqV9lkkTOE7k:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      },
+      "4xcSjZfIo1iVPGws:outputs:ZBKam7JIrGUTl1ny": {
+        "isArray": false,
+        "label": "Class DC",
+        "type": "number"
+      },
+      "AThvSVf6klkWPLlg:outputs:item": {
+        "isArray": false,
+        "label": "Higanbana",
+        "type": "item"
+      },
+      "MlriDDmCpvF8EHn0:outputs:item": {
+        "isArray": false,
+        "label": "Hakaze",
+        "type": "item"
+      }
+    }
+}

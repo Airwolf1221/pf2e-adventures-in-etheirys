@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You gain a familiar, which must be one of the following specific familiars: aeon wyrd, ceru, clockwork familiar, elemental scamp, elemental wisp, mood cloud, poppet, shadow familiar, spellslime, or sweet beast. You must meet all normal requirements for that familiar, such as the minimum number of abilities. You may change your familiar into any of these specific familiars by spending 1 day of downtime.</p><hr /><p><strong>Special</strong> This feat is incompatible with the familiar granted by the entwined souls discipline. If you ever gain that discipline, such as by retraining or through the Multidisciplined feat, you immediately retrain this feat at no cost.</p>",
+      "value": "<p>You gain a familiar, which must be one of the following specific familiars: aeon wyrd, ceru, clockwork familiar, elemental scamp, elemental wisp, mood cloud, poppet, shadow familiar, spellslime, or sweet beast. You must meet all normal requirements for that familiar, such as the minimum number of abilities. You may change your familiar into any of these specific familiars by spending 1 day of downtime.</p><hr /><p><strong>Special</strong> This feat is incompatible with the familiar granted by the @UUID[Compendium.pf2e-adventures-in-etheirys.class-features.Item.xdUeE5u6ybXZJQKC]{Entwined Souls} discipline. If you ever gain that discipline, such as by retraining or through the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.ShRSgUu5h6GWIG3p]{Multidisciplined} feat, you immediately retrain this feat at no cost.</p>",
       "gm": ""
     },
     "publication": {

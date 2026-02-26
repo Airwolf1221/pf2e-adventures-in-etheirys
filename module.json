@@ -434,7 +434,6 @@
   ],
   "flags": {
     "pf2e-adventures-in-etheirys": {
-      "triggers": "ff2e-triggers/pf2e-adventures-in-etheirys.json",
       "pf2e-homebrew": {
         "baseWeapons": {
           "assault-gunblade": "AIE.Identifiers.Weapons.AssaultGunblade",

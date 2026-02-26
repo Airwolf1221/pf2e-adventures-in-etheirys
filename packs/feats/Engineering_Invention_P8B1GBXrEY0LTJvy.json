@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've unlocked access to a very basic engineering invention. You gain the Inventor skill feat, even if you don't meet the skill feat's requirements. Choose a major engineering invention that is not the magitek mech. You gain that invention, though you don't gain any other abilities that modify or use that invention, such as modifications.</p><hr /><p><strong>Special</strong> If you take this feat, you cannot take the Basic Mechtech feat.</p>",
+      "value": "<p>You've unlocked access to a very basic engineering invention. You gain the Inventor skill feat, even if you don't meet the skill feat's requirements. Choose a major engineering invention that is not the magitek mech. You gain that invention, though you don't gain any other abilities that modify or use that invention, such as modifications.</p><hr /><p><strong>Special</strong> If you take this feat, you cannot take the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.VmKMmFJhsRfTJNnl]{Basic Mechtech} feat.</p>",
       "gm": ""
     },
     "publication": {
@@ -87,7 +87,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "P8B1GBXrEY0LTJvy",
   "sort": 0,

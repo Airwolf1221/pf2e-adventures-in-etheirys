@@ -1,0 +1,64 @@
+{
+    "name": "Fuga",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "hPbhxcwy1jkedpDG",
+    "nodes": [
+      {
+        "type": "has-item",
+        "position": {
+          "x": 740.9230769230769,
+          "y": 399.4
+        },
+        "id": "CTTNgcaj0ZnmLXmM",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.Zfaae3ENbMG8M254"
+          },
+          "target": {
+            "connection": "5BAa0NlB5inTDTGo:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "iNQuczAUC7dUzh77:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "CTTNgcaj0ZnmLXmM:outputs:item"
+          }
+        },
+        "position": {
+          "x": 1014,
+          "y": 400.25
+        },
+        "id": "iNQuczAUC7dUzh77"
+      },
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 487,
+          "y": 399
+        },
+        "id": "5BAa0NlB5inTDTGo",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "CTTNgcaj0ZnmLXmM:ins:in"
+          }
+        }
+      }
+    ]
+}

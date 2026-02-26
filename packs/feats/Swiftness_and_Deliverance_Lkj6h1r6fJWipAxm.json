@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You roll initiative</p><hr /><p>You enter the a stance of your choice granted by the Defenders' Oaths feat or feats that require it.</p>",
+      "value": "<p><strong>Trigger</strong> You roll initiative</p><hr /><p>You enter the a stance of your choice granted by the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.7xbOD5VutKdFnKqN]{Defenders' Oaths} feat or feats that require it.</p>",
       "gm": ""
     },
     "publication": {
@@ -61,7 +61,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

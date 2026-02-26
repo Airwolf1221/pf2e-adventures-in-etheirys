@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your mech raises a force field around you, or around one ally within 30 feet of you. This counts as using the Raise a Shield action for you, or for the targeted ally, granting a +1 circumstance bonus to AC until the start of your next turn, but does not require a hand to use.</p><p>While the barrier is in effect, you can use the Shield Block reaction to block with the Barrier, using your reaction rather than the target. If the barrier is broken, the effect ends and you can't raise another barrier for 10 minutes. Unlike a normal Shield Block, you can use this reaction against the Ruin spell.</p><p>The Barrier has a hardness of 5, increasing by an additional 5 at level 6 and every 4 levels thereafter.</p><hr /><p><strong>Overcharge Function</strong> Your mech automatically Raises the barrier at the start of each of your turns for up to 1 minute. The barrier still fades when broken, however. Alternatively, you can expend a second aetheric charge to gain the following benefits, in addition to the overcharge benefits:</p><ul><li><p><strong>Second Charge</strong> Your mech creates two barriers, rather than one. You can choose which creatures in the area gain this bonus, though each target can gain a single Barrier. The Barriers last for 1 minute, but are lowered at the start of each of your turns, requiring a single action with the manipulate trait to Raise all Barriers again.</p><p>You can Shield Block as a free action for each creature with a Barrier. Once all Barriers have broken, you can't use Magitek Barrier or its Overcharge function until you take 10 minutes to repair your equipment.</p><p>At 5th level, and every 5 levels thereafter, your mech creates one additional Barrier when you use this Overcharge function.</p></li></ul><hr /><p><strong>Special</strong> You gain the Shield Block feat as part of selecting this feat if you didn't have it, but you can only use Shield Block with the magitek barrier.</p>",
+      "value": "<p>Your mech raises a force field around you, or around one ally within 30 feet of you. This counts as using the @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} action for you, or for the targeted ally, granting a +1 circumstance bonus to AC until the start of your next turn, but does not require a hand to use.</p><p>While the barrier is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction to block with the Barrier, using your reaction rather than the target. If the barrier is broken, the effect ends and you can't raise another barrier for 10 minutes. Unlike a normal Shield Block, you can use this reaction against the Ruin spell.</p><p>The Barrier has a hardness of 5, increasing by an additional 5 at level 6 and every 4 levels thereafter.</p><hr /><p><strong>Overcharge Function</strong> Your mech automatically Raises the barrier at the start of each of your turns for up to 1 minute. The barrier still fades when broken, however. Alternatively, you can expend a second aetheric charge to gain the following benefits, in addition to the overcharge benefits:</p><ul><li><p><strong>Second Charge</strong> Your mech creates two barriers, rather than one. You can choose which creatures in the area gain this bonus, though each target can gain a single Barrier. The Barriers last for 1 minute, but are lowered at the start of each of your turns, requiring a single action with the manipulate trait to Raise all Barriers again.</p><p>You can Shield Block as a free action for each creature with a Barrier. Once all Barriers have broken, you can't use Magitek Barrier or its Overcharge function until you take 10 minutes to repair your equipment.</p><p>At 5th level, and every 5 levels thereafter, your mech creates one additional Barrier when you use this Overcharge function.</p></li></ul><hr /><p><strong>Special</strong> You gain the Shield Block feat as part of selecting this feat if you didn't have it, but you can only use Shield Block with the magitek barrier.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,18 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8"
+      }
+    ],
     "slug": "magitek-barrier",
     "traits": {
       "otherTags": [
@@ -68,7 +79,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

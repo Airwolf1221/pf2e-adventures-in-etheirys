@@ -11,7 +11,7 @@
     },
     "category": "class",
     "description": {
-      "value": "<p><strong>Requirements</strong> Your last action was a successful Strike against a foe using your skysteel multi-tool.</p><hr /><p>Thanks to a hidden experimental feature you built into your weapon, your weapon explosively deploys levers, tangling hooks, or similar mechanisms to provide significant assistance when you perform a combat maneuver.</p><p>When you use Explosive Maneuver, choose Grapple, Shove, or Trip. Your skysteel multi-tool must have a weapon trait that matches the action you chose (for instance, to choose Grapple, your weapon must have the grapple trait).</p><p>You take the chosen action against the same foe as your previous successful Strike, using the same multiple attack penalty as your previous successful Strike. You still increase your multiple attack penalty after the Grapple, Shove, or Trip, as normal.</p>",
+      "value": "<p><strong>Requirements</strong> Your last action was a successful Strike against a foe using your skysteel multi-tool.</p><hr /><p>Thanks to a hidden experimental feature you built into your weapon, your weapon explosively deploys levers, tangling hooks, or similar mechanisms to provide significant assistance when you perform a combat maneuver.</p><p>When you use Explosive Maneuver, choose @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}. Your skysteel multi-tool must have a weapon trait that matches the action you chose (for instance, to choose Grapple, your weapon must have the grapple trait).</p><p>You take the chosen action against the same foe as your previous successful Strike, using the same multiple attack penalty as your previous successful Strike. You still increase your multiple attack penalty after the Grapple, Shove, or Trip, as normal.</p>",
       "gm": ""
     },
     "level": {
@@ -59,7 +59,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "flags": {

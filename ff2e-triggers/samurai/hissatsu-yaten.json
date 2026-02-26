@@ -1,0 +1,64 @@
+{
+    "name": "Hissatsu Yaten",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "53Rz9EKQQi8d8Ilf",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 285,
+          "y": 444
+        },
+        "id": "SfXi305btwmyA23v",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "rOCjDlBZHoI1Llyz:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 575.9230769230769,
+          "y": 443.4
+        },
+        "id": "rOCjDlBZHoI1Llyz",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.BBMLuiS4im3NL8Ui"
+          },
+          "target": {
+            "connection": "SfXi305btwmyA23v:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "MWWuKxpjvlMEMTTz:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "rOCjDlBZHoI1Llyz:outputs:item"
+          }
+        },
+        "position": {
+          "x": 886,
+          "y": 443.25
+        },
+        "id": "MWWuKxpjvlMEMTTz"
+      }
+    ]
+}

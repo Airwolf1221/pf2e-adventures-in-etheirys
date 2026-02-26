@@ -1,5 +1,5 @@
 {
-  "name": "Effect: Bakufu's Demand",
+  "name": "Effect: Bakufu's Demand (Success)",
   "type": "effect",
   "effects": [],
   "system": {
@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.6l8FObqtLOa1VeGG]{Bakufu's Demand}</p><p>You have your speed reduced, become restrained, or are knocked prone.</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.6l8FObqtLOa1VeGG]{Bakufu's Demand}</p><p>Your speed is halved.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,42 +18,6 @@
       "remaster": false
     },
     "rules": [
-      {
-        "key": "ChoiceSet",
-        "choices": [
-          {
-            "label": "Success",
-            "value": "success"
-          },
-          {
-            "label": "Failure",
-            "value": "failure"
-          },
-          {
-            "label": "Critical Failure",
-            "value": "criticalFailure"
-          }
-        ],
-        "flag": "successGrade",
-        "prompt": "Success, Failure or Critical Failure?",
-        "rollOption": "bakufusDemand"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM",
-        "predicate": [
-          {
-            "not": "bakufusDemand:success"
-          }
-        ]
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60",
-        "predicate": [
-          "bakufusDemand:criticalFailure"
-        ]
-      },
       {
         "key": "FlatModifier",
         "selector": [
@@ -65,7 +29,7 @@
         ]
       }
     ],
-    "slug": "effect-bakufus-demand",
+    "slug": "effect-bakufus-demand-success",
     "traits": {
       "otherTags": [],
       "value": []
@@ -91,7 +55,7 @@
     "fromSpell": false,
     "context": null
   },
-  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Shifu.png",
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Traits/Fuga_Mastery.png",
   "folder": "U1SRQ2CJL9urVdO9",
   "ownership": {
     "default": 0,
@@ -104,9 +68,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "Pg6WYiVAf8nUMZ20",
-  "sort": 300000,
+  "sort": 1100000,
   "_key": "!items!Pg6WYiVAf8nUMZ20"
 }

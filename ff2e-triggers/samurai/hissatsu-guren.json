@@ -1,0 +1,468 @@
+{
+    "name": "Hissatsu Guren",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "2bUAAWlMXFNI2lRR",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 541,
+          "y": 331
+        },
+        "id": "fx6zxwKhvtA9aFEZ",
+        "outs": {
+          "out": {
+            "connection": "SAZ8mZMCI8STYhPM:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 767.9230769230769,
+          "y": 330.4
+        },
+        "id": "SAZ8mZMCI8STYhPM",
+        "inputs": {
+          "target": {
+            "connection": "fx6zxwKhvtA9aFEZ:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.TZnC22j7YwWOEXaf"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "vi1LfHJhX5A48M3l:ins:in"
+          }
+        }
+      },
+      {
+        "type": "extract-actor",
+        "position": {
+          "x": 1047.923076923077,
+          "y": 346.4
+        },
+        "id": "vi1LfHJhX5A48M3l",
+        "custom": {
+          "outputs": {
+            "LXJksxY1oGElLrkw": {
+              "id": "LXJksxY1oGElLrkw",
+              "input": "attributes.classDC.value",
+              "label": "Class DC",
+              "slug": "path",
+              "isArray": false,
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "fx6zxwKhvtA9aFEZ:outputs:origin"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "k4byr5vao88osrrI:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "fx6zxwKhvtA9aFEZ:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 1281,
+          "y": 347.25
+        },
+        "id": "k4byr5vao88osrrI",
+        "outs": {
+          "criticalSuccess": {
+            "connection": "6GqTIOeE3xNFqEcr:ins:in"
+          },
+          "success": {
+            "connection": "i1PqkOYPRGphLwAE:ins:in"
+          }
+        }
+      },
+      {
+        "type": "resolve-formula",
+        "position": {
+          "x": 1551.923076923077,
+          "y": 496.4
+        },
+        "id": "6GqTIOeE3xNFqEcr",
+        "custom": {
+          "inputs": {
+            "syf2r05Yxuwnep5m": {
+              "id": "syf2r05Yxuwnep5m",
+              "input": "dc",
+              "label": "dc",
+              "slug": "variable",
+              "type": "number"
+            }
+          }
+        },
+        "inputs": {
+          "formula": {
+            "value": "@dc + 2"
+          },
+          "syf2r05Yxuwnep5m": {
+            "connection": "h3qHa41ts0njXxW4:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "MVcHtY9SScE2J4SS:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "vi1LfHJhX5A48M3l:outputs:LXJksxY1oGElLrkw"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1402,
+          "y": 570.75
+        },
+        "id": "h3qHa41ts0njXxW4"
+      },
+      {
+        "type": "roll-save",
+        "position": {
+          "x": 1854.923076923077,
+          "y": 482.4
+        },
+        "id": "MVcHtY9SScE2J4SS",
+        "inputs": {
+          "value": {
+            "connection": "6GqTIOeE3xNFqEcr:outputs:value"
+          },
+          "item": {
+            "connection": "bAgbLGkQkewNQ32M:outputs:item"
+          },
+          "origin": {
+            "connection": "cAnHfkwckGK4tGBJ:outputs:entry"
+          },
+          "target": {
+            "connection": "f3EyEGmz7J6lWFDe:outputs:entry"
+          },
+          "save": {
+            "value": "will"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "WCeOyE6VMdTYwPj3:ins:in"
+          }
+        },
+        "state": "value"
+      },
+      {
+        "type": "item-value",
+        "position": {
+          "x": 1584,
+          "y": 396.75
+        },
+        "id": "bAgbLGkQkewNQ32M",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.HrwIi6FLJqDhW0og"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "fx6zxwKhvtA9aFEZ:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1713,
+          "y": 321.75
+        },
+        "id": "cAnHfkwckGK4tGBJ"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "fx6zxwKhvtA9aFEZ:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1715,
+          "y": 359.75
+        },
+        "id": "f3EyEGmz7J6lWFDe"
+      },
+      {
+        "type": "roll-save",
+        "position": {
+          "x": 1857.923076923077,
+          "y": 92.4
+        },
+        "id": "i1PqkOYPRGphLwAE",
+        "inputs": {
+          "origin": {
+            "connection": "cAnHfkwckGK4tGBJ:outputs:entry"
+          },
+          "target": {
+            "connection": "f3EyEGmz7J6lWFDe:outputs:entry"
+          },
+          "item": {
+            "connection": "bAgbLGkQkewNQ32M:outputs:item"
+          },
+          "value": {
+            "connection": "B0h8WC3svJ6YKecT:outputs:entry"
+          },
+          "save": {
+            "value": "will"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "aK7QEixcNHKqdTD8:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "vi1LfHJhX5A48M3l:outputs:LXJksxY1oGElLrkw"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1708,
+          "y": 280.75
+        },
+        "id": "B0h8WC3svJ6YKecT"
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "MVcHtY9SScE2J4SS:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 2147,
+          "y": 498.25
+        },
+        "id": "WCeOyE6VMdTYwPj3",
+        "outs": {
+          "success": {
+            "connection": "3p3BuFDzVkK8PEPy:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "AIt1zly75uU0JyBh:ins:in"
+          },
+          "failure": {
+            "connection": "ebNwfNqqQEr4xx6s:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "i1PqkOYPRGphLwAE:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 2146,
+          "y": 334.25
+        },
+        "id": "aK7QEixcNHKqdTD8",
+        "outs": {
+          "success": {
+            "connection": "3p3BuFDzVkK8PEPy:ins:in"
+          },
+          "failure": {
+            "connection": "ebNwfNqqQEr4xx6s:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "AIt1zly75uU0JyBh:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 2531.923076923077,
+          "y": 582.4
+        },
+        "id": "3p3BuFDzVkK8PEPy",
+        "inputs": {
+          "condition": {
+            "value": "stupefied"
+          },
+          "target": {
+            "connection": "bl0sWKxnANSp2XWZ:outputs:entry"
+          },
+          "expiry": {
+            "value": "turn-end"
+          },
+          "origin": {
+            "connection": "N83E70iw5Kyj6wor:outputs:entry"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "fx6zxwKhvtA9aFEZ:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2262,
+          "y": 667.75
+        },
+        "id": "bl0sWKxnANSp2XWZ"
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 2530.923076923077,
+          "y": 148.39999999999998
+        },
+        "id": "ebNwfNqqQEr4xx6s",
+        "inputs": {
+          "condition": {
+            "value": "stupefied"
+          },
+          "expiry": {
+            "value": "turn-end"
+          },
+          "value": {
+            "value": 2
+          },
+          "target": {
+            "connection": "bl0sWKxnANSp2XWZ:outputs:entry"
+          },
+          "origin": {
+            "connection": "N83E70iw5Kyj6wor:outputs:entry"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 2529.923076923077,
+          "y": -285.6
+        },
+        "id": "AIt1zly75uU0JyBh",
+        "inputs": {
+          "condition": {
+            "value": "stupefied"
+          },
+          "target": {
+            "connection": "bl0sWKxnANSp2XWZ:outputs:entry"
+          },
+          "value": {
+            "value": 4
+          },
+          "origin": {
+            "connection": "N83E70iw5Kyj6wor:outputs:entry"
+          }
+        },
+        "state": "timed"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "fx6zxwKhvtA9aFEZ:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 2266,
+          "y": 702.75
+        },
+        "id": "N83E70iw5Kyj6wor"
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 797.9230769230769,
+          "y": 594.4
+        },
+        "id": "FFarlYs7yGPw6SSh",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.TZnC22j7YwWOEXaf"
+          },
+          "target": {
+            "connection": "FOTQzJMkQxzuZGZ7:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "YJkWkqTE8KkGJxrN:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "FFarlYs7yGPw6SSh:outputs:item"
+          }
+        },
+        "position": {
+          "x": 1075,
+          "y": 594.25
+        },
+        "id": "YJkWkqTE8KkGJxrN"
+      },
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 541,
+          "y": 594
+        },
+        "id": "FOTQzJMkQxzuZGZ7",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "FFarlYs7yGPw6SSh:ins:in"
+          }
+        }
+      }
+    ],
+    "variables": {
+      "vi1LfHJhX5A48M3l:outputs:LXJksxY1oGElLrkw": {
+        "isArray": false,
+        "label": "Class DC",
+        "type": "number"
+      },
+      "fx6zxwKhvtA9aFEZ:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "fx6zxwKhvtA9aFEZ:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      }
+    }
+}

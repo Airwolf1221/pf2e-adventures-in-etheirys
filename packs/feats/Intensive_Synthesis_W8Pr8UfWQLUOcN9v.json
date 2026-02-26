@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You are in Basic Touch stance and your Synthestrike is charged</p><hr /><p>Your synthesized sweeps are so wide and devastating, they splash onto nearby foes. Make a Synthestrike. Foes adjacent to the target take splash damage equal to 2 + the extra damage from Basic Touch. The damage type is the same as Basic Touch; if the spell already deals splash damage of the same type, combine the damage together before applying weaknesses or resistances.</p>",
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.K2TXdqQGwIEZcpSf]{Basic Touch} stance and your @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.het2E8jTuLAbWvEK]{Synthestrike} is charged</p><hr /><p>Your synthesized sweeps are so wide and devastating, they splash onto nearby foes. Make a Synthestrike. Foes adjacent to the target take splash damage equal to 2 + the extra damage from Basic Touch. The damage type is the same as Basic Touch; if the spell already deals splash damage of the same type, combine the damage together before applying weaknesses or resistances.</p>",
       "gm": ""
     },
     "publication": {

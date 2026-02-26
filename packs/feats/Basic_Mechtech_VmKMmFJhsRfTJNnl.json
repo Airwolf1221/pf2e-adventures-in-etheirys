@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've learned the secrets of the magitek mech, a powerful engineering invention that allows you to ride astride a powerful mechanical, pilotable contraption into battle. You gain the magitek mech major engineering invention, though you don't gain any other abilities that modify or use the magitek mech invention, such as modifications. Your mech has a few differences to a normal magitek mech, however.</p><ul><li>You become trained in Magitek Mech Lore, but your proficiency does not increase to match your Crafting proficiency.</li><li>Your Interact actions made to operate your mech do not lose the manipulate trait.</li><li>You do not replace your mech's damage rolls with half your Intelligence modifier; instead, you use your regular modifiers for all rolls the mech would do (Strength for most melee weapons, Dexterity for dexterity-based attacks and skill checks, and so on).</li><li>You cannot attach your multi-tool to your mech.</li></ul><hr /><p><strong>Special</strong> If you take this feat, you cannot take the Engineering Invention feat.</p>",
+      "value": "<p>You've learned the secrets of the magitek mech, a powerful engineering invention that allows you to ride astride a powerful mechanical, pilotable contraption into battle. You gain the magitek mech major engineering invention, though you don't gain any other abilities that modify or use the magitek mech invention, such as modifications. Your mech has a few differences to a normal magitek mech, however.</p><ul><li>You become trained in Magitek Mech Lore, but your proficiency does not increase to match your Crafting proficiency.</li><li>Your Interact actions made to operate your mech do not lose the manipulate trait.</li><li>You do not replace your mech's damage rolls with half your Intelligence modifier; instead, you use your regular modifiers for all rolls the mech would do (Strength for most melee weapons, Dexterity for dexterity-based attacks and skill checks, and so on).</li><li>You cannot attach your multi-tool to your mech.</li></ul><hr /><p><strong>Special</strong> If you take this feat, you cannot take the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.P8B1GBXrEY0LTJvy]{Engineering Invention} feat.</p>",
       "gm": ""
     },
     "publication": {
@@ -71,7 +71,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "VmKMmFJhsRfTJNnl",
   "sort": 300000,

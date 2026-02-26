@@ -1,0 +1,65 @@
+{
+    "name": "Sudden Cruelty",
+    "folder": "FF2e - Samurai",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "zQKNENpw1Ozgn1ND",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 323,
+          "y": 346
+        },
+        "id": "b0nk6mOoXcHDOweB",
+        "outs": {
+          "out": {
+            "connection": "y9zE7zvSsqyaVgc8:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 541.9230769230769,
+          "y": 362.5
+        },
+        "id": "y9zE7zvSsqyaVgc8",
+        "inputs": {
+          "predicate": {
+            "value": "[\n  \"sudden-cruelty\"\n]"
+          },
+          "options": {
+            "connection": "b0nk6mOoXcHDOweB:outputs:options"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "IKvy2NLWEQuXohDA:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-effect",
+        "position": {
+          "x": 773.9230769230769,
+          "y": 346.4
+        },
+        "id": "IKvy2NLWEQuXohDA",
+        "inputs": {
+          "target": {
+            "connection": "b0nk6mOoXcHDOweB:outputs:roller"
+          },
+          "name": {
+            "value": "Thunderous Iaijutsu Immunity"
+          },
+          "slug": {
+            "value": "thunderous-iaijutsu-immunity"
+          }
+        }
+      }
+    ]
+}

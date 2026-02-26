@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> Your Synthestrike is charged.</p><hr /><p>You pierce through your foe's resistance. Make a Synthestrike. The spell you cast as part of the Synthestrike ignores an amount of the target's resistance to elemental damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell. A creature's immunities are unaffected.</p>",
+      "value": "<p><strong>Requirements</strong> Your @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.het2E8jTuLAbWvEK]{Synthestrike} is charged.</p><hr /><p>You pierce through your foe's resistance. Make a Synthestrike. The spell you cast as part of the Synthestrike ignores an amount of the target's resistance to elemental damage equal to your level. This applies to all damage the spell deals, including @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Damage} and damage caused by an ongoing effect of the spell. A creature's immunities are unaffected.</p>",
       "gm": ""
     },
     "publication": {

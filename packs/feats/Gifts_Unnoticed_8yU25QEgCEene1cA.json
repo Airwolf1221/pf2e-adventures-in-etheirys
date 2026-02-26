@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>The land itself works to hide you. You can use Survival to Sneak, and when you roll a failure on a Sneak action, you get a success instead. You can still critically fail.</p>",
+      "value": "<p>The land itself works to hide you. You can use Survival to @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, and when you roll a failure on a Sneak action, you get a success instead. You can still critically fail.</p>",
       "gm": ""
     },
     "publication": {

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your mech fires a massive projectile. A creature within 100 feet takes @Damage[(14 + (max(0,floor((@actor.level -16)/2))))d8[force]] damage, with a @Check[reflex|against:engineer|basic] save. Each other creature within 30 feet of the primary target takes half as much damage (basic Reflex save). Each of these enemies must also make a @Check[reflex|against:class-spell|traits:incapacitate] save against your class DC or spell DC, whichever is higher. This save, but not the damage or its basic Reflex saves, has the incapacitate trait.</p><p>You can choose to spend two aetheric charges instead of just one to get the following benefits as well: Each creature that fails its basic Reflex save suffers @Damage[floor((14 + (max(0,floor((@actor.level -16)/2))))/4)d4[persistent,force]] damage for every 4 damage dice.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p><strong>Critical Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p><hr /><p><strong>Level (+2)</strong> Increase the damage by 1d8, the range by 25 feet, and the radius of the secondary damage by 5 feet.</p>",
+      "value": "<p>Your mech fires a massive projectile. A creature within 100 feet takes @Damage[(14 + (max(0,floor((@actor.level -16)/2))))d8[force]] damage, with a @Check[reflex|against:engineer|basic] save. Each other creature within 30 feet of the primary target takes half as much damage (basic Reflex save). Each of these enemies must also make a @Check[reflex|against:class-spell|traits:incapacitate] save against your class DC or spell DC, whichever is higher. This save, but not the damage or its basic Reflex saves, has the incapacitate trait.</p><p>You can choose to spend two aetheric charges instead of just one to get the following benefits as well: Each creature that fails its basic Reflex save suffers @Damage[floor((14 + (max(0,floor((@actor.level -16)/2))))/4)d4[persistent,force]] damage.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p><strong>Critical Failure</strong> The target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p><hr /><p><strong>Level (+2)</strong> Increase the damage by 1d8, the range by 25 feet, and the radius of the secondary damage by 5 feet.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,14 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      }
+    ],
     "slug": "magitek-missile",
     "traits": {
       "otherTags": [],
@@ -72,7 +79,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "TrXCX45Zz4WHJRir",
   "sort": 1300000,

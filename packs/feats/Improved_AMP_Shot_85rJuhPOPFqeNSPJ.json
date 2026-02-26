@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You further refine your invention’s aetheric generator, allowing you to create powerful ammunition out of pure, elemental energy, albeit temporarily. When you activate AMP Shot, you can create a piece of ammunition for your invention, and you can Interact to Reload it. Using AMP Shot in this way changes the damage type of your invention to the chosen element for the next attack.</p>",
+      "value": "<p>You further refine your invention’s aetheric generator, allowing you to create powerful ammunition out of pure, elemental energy, albeit temporarily. When you activate @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.H1g8AXxlIhH6faws]{AMP Shot}, you can create a piece of ammunition for your invention, and you can Interact to Reload it. Using AMP Shot in this way changes the damage type of your invention to the chosen element for the next attack.</p>",
       "gm": ""
     },
     "publication": {
@@ -61,7 +61,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

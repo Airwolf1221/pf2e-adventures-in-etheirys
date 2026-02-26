@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Make a melee Strike. If your Strike hits and damages an enemy, you gain temporary Hit Points equal to your key ability modifier. If you wielded your familiar to make that Strike, it gains an equal amount of temporary Hit Points. These temporary Hit Points last until the start of your next turn.</p>",
+      "value": "<p>Make a melee Strike. If your Strike hits and damages an enemy, you gain temporary Hit Points equal to your key ability modifier. If you wielded your familiar to make that Strike, it gains an equal amount of temporary Hit Points. These temporary Hit Points last until the start of your next turn.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.0H7xygNTOJdD3NFW]{Effect: Immaculate Mend}</p>",
       "gm": ""
     },
     "publication": {

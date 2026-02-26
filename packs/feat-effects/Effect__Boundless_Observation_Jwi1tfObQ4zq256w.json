@@ -1,0 +1,85 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Disciple/Observe.png",
+  "name": "Effect: Boundless Observation",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.8UGnMn9JqXc2Bp9D]{Boundless Observation}</p><p>You gain temporary Hit Points equal to your level, or equal to twice your level on a critical success. These temporary Hit Points disappear after 1 minute.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 10
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+            "value": "@actor.level"
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": "floor(@actor.level/2)"
+          }
+        ],
+        "flag": "boundlessTempHP",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess"
+      },
+      {
+        "key": "TempHP",
+        "value": "{item|flags.pf2e.rulesSelections.boundlessTempHP}"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-boundless-observation",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "mrv338IjnB8RuayA",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "Jwi1tfObQ4zq256w",
+  "sort": 0,
+  "_key": "!items!Jwi1tfObQ4zq256w"
+}

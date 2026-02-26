@@ -28,7 +28,7 @@
         "property": "description",
         "value": [
           {
-            "text": "The enemy also takes @Damage[@actor.system.abilities.cha.mod[persistent,holy]] damage."
+            "text": "The enemy also takes @Damage[@actor.system.abilities.cha.mod[persistent,vitality]] damage."
           }
         ],
         "predicate": [
@@ -57,7 +57,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "flags": {},

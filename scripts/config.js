@@ -32,6 +32,11 @@ Hooks.once("init", async () => {
     console.log("[Final Fantasy - Adventures in Etheirys]: BABELE READY!");
 });
 
+// Register Module Triggers
+Hooks.once("triggerEngine.registerTriggers", (registerTriggers) => {
+    registerTriggers("trigger-engine", "pf2e-trigger", "modules/pf2e-adventures-in-etheirys/ff2e-triggers/triggers.json");
+});
+
 // Perform Ready Checks
 Hooks.once("ready", async () => {
     const conversionTranslation = game.settings.get(MODULE_NAME,"conversionTranslation"), mythicSetting = game.settings.get(MODULE_NAME, 'mythic');
@@ -39,6 +44,8 @@ Hooks.once("ready", async () => {
 
     // Engineer Handling
     Hooks.on('createItem', macros.engineer.multiTool.createTool);
+    // Samurai Handling
+    Hooks.on('createChatMessage', macros.samurai.combos.incrementCombo);
 
     // Assign various hooks
     if (conversionTranslation) { // If the total conversion is enabled, enable the myriad of specific hooks for that.

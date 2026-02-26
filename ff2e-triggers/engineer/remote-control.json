@@ -1,0 +1,59 @@
+  {
+    "name": "Remote Control",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "3Kup9KOmYU19Jty3",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 378,
+          "y": 247
+        },
+        "id": "f2KrHRBCmWlWrV2G",
+        "outs": {
+          "out": {
+            "connection": "jwXVsnMFr60KRvAM:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 643.9230769230769,
+          "y": 245.39999999999998
+        },
+        "id": "jwXVsnMFr60KRvAM",
+        "inputs": {
+          "target": {
+            "connection": "f2KrHRBCmWlWrV2G:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.oyF35FBD6d0qdmG0"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "62eMgI201dGPyZF4:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 954.9230769230769,
+          "y": 244.5
+        },
+        "id": "62eMgI201dGPyZF4",
+        "inputs": {
+          "item": {
+            "connection": "jwXVsnMFr60KRvAM:outputs:item"
+          }
+        }
+      }
+    ]
+}

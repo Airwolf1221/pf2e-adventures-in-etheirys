@@ -1,0 +1,178 @@
+{
+    "name": "Goring Blade",
+    "folder": "FF2e - Paladin",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "paladin"
+    ],
+    "id": "8MifHfoqTR3PBQyo",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 353,
+          "y": 195
+        },
+        "id": "Xcn1h3H2bWDW0JXI",
+        "outs": {
+          "out": {
+            "connection": "6xpJ0MMOdLPflW0S:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 601.9230769230769,
+          "y": 211.5
+        },
+        "id": "6xpJ0MMOdLPflW0S",
+        "inputs": {
+          "options": {
+            "connection": "Xcn1h3H2bWDW0JXI:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"item:slug:goring-blade\"\n]"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "4gBzRCZ3MtODhgSU:ins:in"
+          }
+        }
+      },
+      {
+        "type": "compare-outcomes",
+        "position": {
+          "x": 1107.923076923077,
+          "y": 233.5
+        },
+        "id": "GDYJZw7NAgTndO5n",
+        "inputs": {
+          "a": {
+            "connection": "Xcn1h3H2bWDW0JXI:outputs:outcome"
+          },
+          "compare": {
+            "value": "lt"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "FBpbgePU5kdqFgQa:ins:in"
+          },
+          "false": {
+            "connection": "9MAUSEkViztqYQDr:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1447.923076923077,
+          "y": 165.39999999999998
+        },
+        "id": "FBpbgePU5kdqFgQa",
+        "inputs": {
+          "condition": {
+            "value": "drained"
+          },
+          "target": {
+            "connection": "IPWEbKRFIbaC2phc:outputs:entry"
+          },
+          "origin": {
+            "connection": "fIIkuUZViNsLBknH:outputs:entry"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "9MAUSEkViztqYQDr:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "Xcn1h3H2bWDW0JXI:outputs:roller"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1264,
+          "y": 369.75
+        },
+        "id": "IPWEbKRFIbaC2phc"
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "Xcn1h3H2bWDW0JXI:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1265,
+          "y": 403.75
+        },
+        "id": "fIIkuUZViNsLBknH"
+      },
+      {
+        "type": "create-temporary",
+        "position": {
+          "x": 1755.923076923077,
+          "y": 293.4
+        },
+        "id": "9MAUSEkViztqYQDr",
+        "inputs": {
+          "unit": {
+            "value": "hours"
+          },
+          "duration": {
+            "value": 24
+          },
+          "identifier": {
+            "value": "Immune"
+          },
+          "target": {
+            "connection": "IPWEbKRFIbaC2phc:outputs:entry"
+          },
+          "origin": {
+            "connection": "fIIkuUZViNsLBknH:outputs:entry"
+          }
+        }
+      },
+      {
+        "type": "has-temporary",
+        "position": {
+          "x": 821,
+          "y": 199
+        },
+        "id": "4gBzRCZ3MtODhgSU",
+        "inputs": {
+          "identifier": {
+            "value": "Immune"
+          },
+          "target": {
+            "connection": "Xcn1h3H2bWDW0JXI:outputs:roller"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "GDYJZw7NAgTndO5n:ins:in"
+          }
+        }
+      }
+    ],
+    "variables": {
+      "Xcn1h3H2bWDW0JXI:outputs:roller": {
+        "isArray": false,
+        "label": "Roller",
+        "type": "target"
+      },
+      "Xcn1h3H2bWDW0JXI:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      }
+    }
+}

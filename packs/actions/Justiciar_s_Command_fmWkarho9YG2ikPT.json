@@ -51,10 +51,7 @@
     },
     "category": "offensive",
     "deathNote": false,
-    "selfEffect": {
-      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.HIpIz7Vj3cekSfdj",
-      "name": "Effect: Justiciar's Command"
-    }
+    "selfEffect": null
   },
   "img": "systems/pf2e/icons/actions/Reaction.webp",
   "folder": "zWLpiq5h4r7LSlKh",
@@ -73,7 +70,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "fmWkarho9YG2ikPT",
   "sort": 300000,

@@ -22,7 +22,18 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "property": "traits",
+        "value": "finesse",
+        "predicate": [
+          "item:crafted:crafterSignature:{self|signature}"
+        ]
+      }
+    ],
     "slug": "trained-finesse",
     "traits": {
       "otherTags": [],

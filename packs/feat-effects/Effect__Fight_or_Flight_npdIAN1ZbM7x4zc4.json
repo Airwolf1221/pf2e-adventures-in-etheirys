@@ -3,7 +3,7 @@
   "name": "Effect: Fight or Flight",
   "system": {
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.3fnmB4B5MGRQop5K]{Fight or Flight}</p><p>Designate one enemy you can see. Until the start of your next turn, your Strikes against that enemy gain a +3 status bonus to damage, increasing to +4 if you have master proficiency with the weapon or unarmed attack you're using for the Strike. If you're holy or unholy and the target has the opposite trait, the bonus is +4 (or +6 if you're a master).</p>",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.3fnmB4B5MGRQop5K]{Fight or Flight}</p><p>Your blade shares your fanaticism to keep the world in balance. Designate one enemy you can see. Until the start of your next turn, your Strikes against that enemy gain a +3 status bonus to damage, increasing to +4 if you have master proficiency with the weapon or unarmed attack you're using for the Strike. If the target has the shadow trait, the bonus is +4 (or +6 if you're a master).</p><p>If the target takes a hostile action against you or one of your allies before the start of your next turn, the duration extends to the end of that enemy's next turn. If the enemy continues to attack you each turn, the duration continues to extend.</p><p>Your current Fight or Flight ends if you use the Fight or Flight action again.</p>",
       "gm": ""
     },
     "duration": {
@@ -104,7 +104,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "folder": "JxWw5kOb50AX9d3j",

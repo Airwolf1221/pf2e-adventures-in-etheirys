@@ -9,7 +9,7 @@ async function assignMythicDomain(checkData) {
 async function mythicChatMessage(chatMessage, html) {
     const actor = chatMessage.actor;
     if (!actor || !chatMessage.isRoll) return;
-    const isHPReroll = chatMessage.flags.pf2e.context?.options?.includes("check:reroll:hero-points") ?? false, isMythic = chatMessage.flags.pf2e.context.domains?.includes(mythicRollDomain);
+    const isHPReroll = chatMessage.flags.pf2e.context?.options?.includes("check:reroll:hero-points") ?? false, isMythic = chatMessage.flags?.pf2e?.context?.domains?.includes(mythicRollDomain);
     if (!isHPReroll || !isMythic) return;
     const rollData = chatMessage.rolls[0];
 

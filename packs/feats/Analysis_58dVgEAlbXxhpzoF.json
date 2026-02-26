@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You focus your attention on a creature you can observe, and hone your invention for your next assault. On your next successful Strike with your invention before the end of your next turn, you deal an additional 1d4 precision damage. At 9th level, this increases to 2d4, and at 17th level, this increases to 3d4.</p><p>If you have the aetheric boost class feature, you can change the precision damage to a type matching your current boost.</p><hr /><p><strong>Overcharge Function</strong> Your Analysis of your target grants you an additional +1 status bonus to your next attempted Strike against your target, and you can attempt to Recall Knowledge about the target using your total modifier to Crafting in place of the relevant skill check. Additionally, the precision damage die increases from d4 to d8.</p>",
+      "value": "<p>You focus your attention on a creature you can observe, and hone your invention for your next assault. On your next successful Strike with your invention before the end of your next turn, you deal an additional 1d4 precision damage. At 9th level, this increases to 2d4, and at 17th level, this increases to 3d4.</p><p>If you have the aetheric boost class feature, you can change the precision damage to a type matching your current boost.</p><hr /><p><strong>Overcharge Function</strong> Your Analysis of your target grants you an additional +1 status bonus to your next attempted Strike against your target, and you can attempt to Recall Knowledge about the target using your total modifier to Crafting in place of the relevant skill check. Additionally, the precision damage die increases from d4 to d8.</p><p>@UUID[Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.211mYIISFhGsDeBb]{Effect: Analysis (Overcharged)}</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,14 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      }
+    ],
     "slug": "analysis",
     "traits": {
       "otherTags": [
@@ -58,17 +65,25 @@
     "frequency": {
       "max": 4,
       "per": "turn"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.lkt7TIHIjqPD5kpt",
+      "name": "Effect: Analysis"
     }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

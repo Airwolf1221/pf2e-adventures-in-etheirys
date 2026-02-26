@@ -22,7 +22,18 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "property": "traits",
+        "value": "agile",
+        "predicate": [
+          "item:crafted:crafterSignature:{self|signature}"
+        ]
+      }
+    ],
     "slug": "trained-perfection",
     "traits": {
       "otherTags": [],

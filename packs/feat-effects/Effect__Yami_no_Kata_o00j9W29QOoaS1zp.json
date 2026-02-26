@@ -1,0 +1,90 @@
+{
+  "name": "Effect: Yami no Kata",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.JkzTPq9qVSkdA932]{Zanmato}</p><p>Your next Hakaze has its damage changed to d12 and its type changed to Earth.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "melee-strike-damage"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "earth-ff",
+        "predicate": [
+          "dice:slug:hakaze"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "property": "dice-faces",
+        "predicate": [
+          "dice:slug:hakaze"
+        ],
+        "mode": "upgrade",
+        "value": 12,
+        "selectors": [
+          "melee-strike-damage"
+        ]
+      }
+    ],
+    "slug": "effect-yami-no-kata",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 18
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Samurai/Gyofu.png",
+  "folder": "U1SRQ2CJL9urVdO9",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "o00j9W29QOoaS1zp",
+  "sort": 0,
+  "_key": "!items!o00j9W29QOoaS1zp"
+}

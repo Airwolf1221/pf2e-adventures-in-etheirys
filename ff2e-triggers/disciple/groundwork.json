@@ -1,0 +1,102 @@
+{
+    "name": "Groundwork",
+    "folder": "FF2e - Disciple",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "disciple"
+    ],
+    "id": "04OyMabm2w3pQUaD",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 302,
+          "y": 200
+        },
+        "id": "VFl9yuWxODiayEwz",
+        "outs": {
+          "out": {
+            "connection": "6iEtnzm6cslHbGRL:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 543.9230769230769,
+          "y": 217.5
+        },
+        "id": "6iEtnzm6cslHbGRL",
+        "inputs": {
+          "options": {
+            "connection": "VFl9yuWxODiayEwz:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"item:slug:groundwork\"\n]"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "apszJKCOWKPpGhgs:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "VFl9yuWxODiayEwz:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 778,
+          "y": 219.25
+        },
+        "id": "apszJKCOWKPpGhgs",
+        "outs": {
+          "failure": {
+            "connection": "KZg3oOSRKRuUpCoh:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "OvoOEjlCKbwRF0BX:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1109.923076923077,
+          "y": 492.4
+        },
+        "id": "KZg3oOSRKRuUpCoh",
+        "inputs": {
+          "condition": {
+            "value": "stunned"
+          },
+          "expiry": {
+            "value": "turn-end"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1110.923076923077,
+          "y": 63.400000000000006
+        },
+        "id": "OvoOEjlCKbwRF0BX",
+        "inputs": {
+          "condition": {
+            "value": "stunned"
+          },
+          "value": {
+            "value": 3
+          },
+          "expiry": {
+            "value": "turn-end"
+          }
+        }
+      }
+    ]
+}

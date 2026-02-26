@@ -60,7 +60,12 @@
         "diceNumber": "ternary(gte(@actor.level, 13), 2, 1)",
         "category": "precision",
         "predicate": [
-          "self:effect:hissatsu-shinten",
+          {
+            "or": [
+              "self:effect:hissatsu-shinten-first-attack",
+              "self:effect:hissatsu-shinten-second-attack"
+            ]
+          },
           "item:tag:samurai-weapon"
         ]
       },
@@ -212,9 +217,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "GkwrCtatqYbciob6",
-  "sort": 2000000,
+  "sort": 2800000,
   "_key": "!items!GkwrCtatqYbciob6"
 }

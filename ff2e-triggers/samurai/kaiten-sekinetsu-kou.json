@@ -1,0 +1,85 @@
+{
+    "name": "Kaiten - Sekinetsu Kou",
+    "folder": "FF2e - Samurai",
+    "priority": 10,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "OHA307CPzlRRY316",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 347,
+          "y": 382
+        },
+        "id": "NNvdYI84Mnh70ptm",
+        "inputs": {
+          "for": {
+            "value": "all"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "vu6NpCy2MFubRZqA:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 605.9230769230769,
+          "y": 382.4
+        },
+        "id": "vu6NpCy2MFubRZqA",
+        "inputs": {
+          "target": {
+            "connection": "NNvdYI84Mnh70ptm:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.GkwrCtatqYbciob6"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "gPxh2oIzJU3gfyEK:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 878.9230769230769,
+          "y": 383.4
+        },
+        "id": "gPxh2oIzJU3gfyEK",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.poRm83rYvXJ4DTT9"
+          },
+          "target": {
+            "connection": "NNvdYI84Mnh70ptm:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "Z45NNankDpab7nVi:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 1186.923076923077,
+          "y": 383.5
+        },
+        "id": "Z45NNankDpab7nVi",
+        "inputs": {
+          "item": {
+            "connection": "vu6NpCy2MFubRZqA:outputs:item"
+          }
+        }
+      }
+    ]
+}

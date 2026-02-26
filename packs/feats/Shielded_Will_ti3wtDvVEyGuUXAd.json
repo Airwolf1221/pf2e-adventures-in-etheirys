@@ -11,7 +11,7 @@
     },
     "category": "class",
     "description": {
-      "value": "<p><strong>Requirements</strong> You are wielding a shield.</p><hr /><p>By banging loudly on your shield, you get the attention of even the most stubborn of foes. @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield}, and then use @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zhNSaLTFP5jqE6Lq]{Iron Will} on a creature. Your Taunt gains the auditory trait.</p>",
+      "value": "<p><strong>Requirements</strong> You are wielding a shield.</p><hr /><p>By banging loudly on your shield, you get the attention of even the most stubborn of foes. @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield}, and then use @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.zhNSaLTFP5jqE6Lq]{Iron Will} on a creature. Your Iron Will gains the auditory trait.</p>",
       "gm": ""
     },
     "level": {
@@ -56,7 +56,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "flags": {

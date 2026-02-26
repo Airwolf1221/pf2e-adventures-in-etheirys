@@ -1,0 +1,88 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Arm_Punch.png",
+  "name": "Effect: AMPed Control (Overcharged)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.d03BJHr0zYcjkFPF]{AMPed Control}</p><p>Your weapon's range increment doubles for the attack, and the damage dealt by each Strike increases by one step. All Strikes made with this ability still increase your multiple attack penalty, but you only increase it after making all three Strikes,</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-end",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 0
+    },
+    "level": {
+      "value": 10
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{actor|flags.pf2e.trackedItems.multiTool}",
+        "key": "ItemAlteration",
+        "mode": "multiply",
+        "property": "range-increment",
+        "value": 2
+      },
+      {
+        "key": "DamageDice",
+        "override": {
+          "upgrade": true
+        },
+        "predicate": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          "overcharged"
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-amped-control-overcharged",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "Du6dIddHjG08RXWK",
+  "sort": 200000,
+  "_key": "!items!Du6dIddHjG08RXWK"
+}

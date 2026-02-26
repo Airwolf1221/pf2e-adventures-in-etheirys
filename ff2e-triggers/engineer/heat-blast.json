@@ -1,0 +1,59 @@
+{
+    "name": "Heat Blast",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "ZfGvFOwF3QYSHz5A",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 411,
+          "y": 407
+        },
+        "id": "o0Fvv3Rf2ovkdxHy",
+        "outs": {
+          "out": {
+            "connection": "QFe6k511KxQRCEXM:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 666.9230769230769,
+          "y": 408.4
+        },
+        "id": "QFe6k511KxQRCEXM",
+        "inputs": {
+          "target": {
+            "connection": "o0Fvv3Rf2ovkdxHy:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.KY9WeHeqjZwSQFHQ"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "1EZC6Duek2I55zxR:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "inputs": {
+          "item": {
+            "connection": "QFe6k511KxQRCEXM:outputs:item"
+          }
+        },
+        "position": {
+          "x": 961,
+          "y": 418.25
+        },
+        "id": "1EZC6Duek2I55zxR"
+      }
+    ]
+}

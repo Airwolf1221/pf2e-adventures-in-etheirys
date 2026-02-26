@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>When you successfully break or destroy a creature's armor with Trained Eye, the creature also takes a status penalty to all Speeds equal to twice the armor's normal Speed penalty, or 5 feet if it doesn't have one.</p>",
+      "value": "<p>When you successfully break or destroy a creature's armor with @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.enmozVO5yw8e0E3w]{Trained Eye}, the creature also takes a status penalty to all Speeds equal to twice the armor's normal Speed penalty, or 5 feet if it doesn't have one.</p>",
       "gm": ""
     },
     "publication": {

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Refining your mech's offensive capabilities, you focus your mech’s electricity to a devastating beam that pierces through even the most defensible structures.</p><p>When you use Megavolt, the damage increases to 10d4. The damage increases to 12d4 at 20th level.</p><p>You can choose to have the beam attempt to destroy any solid terrain it hits, rather than reflecting off of it. If you do, deal maximum damage to that obstacle. If the barrier is destroyed, the beam continues past it, up to its maximum range, continuing to damage barriers in the way. If the beam cannot destroy a barrier, the line stops.</p><p>If you use Megavolt’s Overcharge Function, the line increases to a 180-foot line, rather than a 120 foot line, but the damage increases to d8s instead of d12s.</p>",
+      "value": "<p>Refining your mech's offensive capabilities, you focus your mech’s electricity to a devastating beam that pierces through even the most defensible structures.</p><p>When you use @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.F8AkjalML39KtmxX]{Megavolt}, the damage increases to 10d4. The damage increases to 12d4 at 20th level.</p><p>You can choose to have the beam attempt to destroy any solid terrain it hits, rather than reflecting off of it. If you do, deal maximum damage to that obstacle. If the barrier is destroyed, the beam continues past it, up to its maximum range, continuing to damage barriers in the way. If the beam cannot destroy a barrier, the line stops.</p><p>If you use Megavolt’s Overcharge Function, the line increases to a 180-foot line, rather than a 120 foot line, but the damage increases to d8s instead of d12s.</p>",
       "gm": ""
     },
     "publication": {
@@ -85,7 +85,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

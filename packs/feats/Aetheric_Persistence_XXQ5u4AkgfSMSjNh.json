@@ -11,7 +11,7 @@
     },
     "category": "class",
     "description": {
-      "value": "<p>Your innovation sets foes on fire, covers them in acid, leaves barbed thorns behind, or otherwise deals persistent damage to your foes that sticks around long after you deliver your boosted attack. When you or your construct innovation damage a foe with offensive boost, that foe also takes 1d8 persistent damage of the same damage type as the offensive boost damage.</p>",
+      "value": "<p>Your invention sets foes on fire, covers them in acid, leaves barbed thorns behind, or otherwise deals persistent damage to your foes that sticks around long after you deliver your boosted attack. When you, your construct invention, or your magitek mech damage a foe with aetheric boost, that foe also takes 1d8 persistent damage of the same damage type as the aetheric boost damage.</p>",
       "gm": ""
     },
     "level": {
@@ -114,7 +114,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "flags": {

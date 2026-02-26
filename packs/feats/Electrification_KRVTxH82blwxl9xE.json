@@ -89,7 +89,11 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.zI1fzlwroTufOwYm",
+      "name": "Effect: Electrification"
+    }
   },
   "type": "feat",
   "_stats": {
@@ -98,7 +102,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "effects": [],
   "flags": {
@@ -106,6 +110,9 @@
       "translated": true,
       "hasTranslation": false,
       "originalName": "Electrify Armor"
+    },
+    "pf2e-toolbelt": {
+      "actionable": {}
     }
   },
   "ownership": {

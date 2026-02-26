@@ -1,0 +1,133 @@
+{
+    "name": "Standard Touch",
+    "folder": "FF2e - Disciple",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "disciple"
+    ],
+    "id": "nNmAPRTmB3aypf64",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 342,
+          "y": 130
+        },
+        "id": "wqDwnOb7isw5Ydrv",
+        "outs": {
+          "out": {
+            "connection": "WAbaSDjxEKkfHkgI:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 571.9230769230769,
+          "y": 145.5
+        },
+        "id": "WAbaSDjxEKkfHkgI",
+        "inputs": {
+          "predicate": {
+            "value": "[\n  \"item:slug:standard-touch\"\n]"
+          },
+          "options": {
+            "connection": "wqDwnOb7isw5Ydrv:outputs:options"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "Bbrymb5aOnusX9FO:ins:in"
+          }
+        }
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "wqDwnOb7isw5Ydrv:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 785,
+          "y": 147.25
+        },
+        "id": "Bbrymb5aOnusX9FO",
+        "outs": {
+          "success": {
+            "connection": "gSEuF3iyaxImgnVg:ins:in"
+          },
+          "failure": {
+            "connection": "ip6GYDyGzwDHkd4B:ins:in"
+          },
+          "criticalFailure": {
+            "connection": "nHw5qHthY3SKRaiq:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1046.923076923077,
+          "y": 765.4
+        },
+        "id": "gSEuF3iyaxImgnVg",
+        "inputs": {
+          "condition": {
+            "value": "dazzled"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1045.923076923077,
+          "y": 337.4
+        },
+        "id": "ip6GYDyGzwDHkd4B",
+        "inputs": {
+          "condition": {
+            "value": "dazzled"
+          },
+          "unit": {
+            "value": "minutes"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "fDWSenCQz0cvol2a:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1358.923076923077,
+          "y": 162.39999999999998
+        },
+        "id": "fDWSenCQz0cvol2a"
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1046.923076923077,
+          "y": -93.6
+        },
+        "id": "nHw5qHthY3SKRaiq",
+        "inputs": {
+          "condition": {
+            "value": "dazzled"
+          },
+          "unit": {
+            "value": "hours"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "fDWSenCQz0cvol2a:ins:in"
+          }
+        }
+      }
+    ]
+}

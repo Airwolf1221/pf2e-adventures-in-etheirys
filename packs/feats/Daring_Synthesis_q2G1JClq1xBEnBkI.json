@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your synthesis extends your weapon with a magical extension. Make a Synthestrike with a melee weapon, with a spell that isn't a cantrip or focus spell. Increase the weapon's reach by 5 feet x the spell's level.</p>",
+      "value": "<p>Your synthesis extends your weapon with a magical extension. Make a @UUID[Compendium.pf2e-adventures-in-etheirys.actions.Item.het2E8jTuLAbWvEK]{Synthestrike} with a melee weapon, with a spell that isn't a cantrip or focus spell. Increase the weapon's reach by 5 feet x the spell's level.</p>",
       "gm": ""
     },
     "publication": {

@@ -1,0 +1,79 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Crowned_Collider.png",
+  "name": "Effect: Artificial Boost",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.aehkfF8oeBeoe0tM]{Artificial Boost}</p><p>You gain a +1 status bonus on all checks relying on strength, and on any DCs relying on strength. This bonus lasts until the end of your turn.</p><p>If your armor has any attached materia granting an item bonus to your AC, you can increase the status bonus to the bonus granted by the materia instead, if it would be higher.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-end",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 0
+    },
+    "level": {
+      "value": 10
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "selector": [
+          "str-skill-check",
+          "str-save"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-artificial-boost",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "flags": {},
+  "_id": "xnJogciOy3fWFP64",
+  "sort": 1100000,
+  "_key": "!items!xnJogciOy3fWFP64"
+}

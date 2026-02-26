@@ -1,0 +1,112 @@
+{
+    "name": "Instrument of Zeal",
+    "folder": "FF2e - Paladin",
+    "priority": 0,
+    "tags": [
+      "ff2e"
+    ],
+    "id": "vwJVnqhsUk7yVS2D",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 322,
+          "y": 291
+        },
+        "id": "Rik9EKxDiMZ7UWZJ",
+        "outs": {
+          "out": {
+            "connection": "qvlllPb61cW9rdhd:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 544.9230769230769,
+          "y": 290.4
+        },
+        "id": "qvlllPb61cW9rdhd",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feats.Item.YaScjBazZStoM66X"
+          },
+          "target": {
+            "connection": "Rik9EKxDiMZ7UWZJ:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "DSEkZPah2LhyomOC:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 829.9230769230769,
+          "y": 291.4
+        },
+        "id": "DSEkZPah2LhyomOC",
+        "inputs": {
+          "target": {
+            "connection": "Rik9EKxDiMZ7UWZJ:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.22ajrcGgVf6VN84o"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "7jxKr6IJiVkLIKQG:ins:in"
+          }
+        }
+      },
+      {
+        "type": "compare-outcomes",
+        "position": {
+          "x": 1112.923076923077,
+          "y": 308.5
+        },
+        "id": "7jxKr6IJiVkLIKQG",
+        "inputs": {
+          "a": {
+            "connection": "Rik9EKxDiMZ7UWZJ:outputs:outcome"
+          },
+          "b": {
+            "value": "criticalSuccess"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "Xv9mg9IjcXtZnMVi:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1405.923076923077,
+          "y": 277.4
+        },
+        "id": "Xv9mg9IjcXtZnMVi",
+        "inputs": {
+          "condition": {
+            "value": "slowed"
+          },
+          "target": {
+            "connection": "Rik9EKxDiMZ7UWZJ:outputs:target"
+          },
+          "origin": {
+            "connection": "Rik9EKxDiMZ7UWZJ:outputs:origin"
+          },
+          "expiry": {
+            "value": "turn-end"
+          },
+          "duration": {
+            "value": 0
+          }
+        }
+      }
+    ]
+}

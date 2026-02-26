@@ -1,0 +1,59 @@
+{
+    "name": "Double Check",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "engineer",
+      "ff2e"
+    ],
+    "id": "FdUnnxnMD55Hw7Oy",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 400,
+          "y": 344
+        },
+        "id": "VFyqnsrMOLhclDz4",
+        "outs": {
+          "out": {
+            "connection": "yn0gFwvLYp2TR7kW:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 656.9230769230769,
+          "y": 345.4
+        },
+        "id": "yn0gFwvLYp2TR7kW",
+        "inputs": {
+          "target": {
+            "connection": "VFyqnsrMOLhclDz4:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.rfgYRqzMucHyYUd6"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "s0ZR3lxqK2GQ9F1L:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 949.9230769230769,
+          "y": 348.5
+        },
+        "id": "s0ZR3lxqK2GQ9F1L",
+        "inputs": {
+          "item": {
+            "connection": "yn0gFwvLYp2TR7kW:outputs:item"
+          }
+        }
+      }
+    ]
+}

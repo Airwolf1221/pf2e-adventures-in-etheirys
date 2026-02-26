@@ -1,0 +1,80 @@
+{
+    "name": "Kaiten - Tenka Goken",
+    "folder": "FF2e - Samurai",
+    "priority": 10,
+    "tags": [
+      "ff2e",
+      "samurai"
+    ],
+    "id": "dopxwNQP53DkXYVN",
+    "nodes": [
+      {
+        "type": "has-item",
+        "position": {
+          "x": 605.9230769230769,
+          "y": 382.4
+        },
+        "id": "vu6NpCy2MFubRZqA",
+        "inputs": {
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.GkwrCtatqYbciob6"
+          },
+          "target": {
+            "connection": "zupYnondOdrCgSUp:outputs:origin"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "4sYIBg8nEez1P13n:ins:in"
+          }
+        }
+      },
+      {
+        "type": "delete-item",
+        "position": {
+          "x": 1112.923076923077,
+          "y": 383.5
+        },
+        "id": "Z45NNankDpab7nVi",
+        "inputs": {
+          "item": {
+            "connection": "vu6NpCy2MFubRZqA:outputs:item"
+          }
+        }
+      },
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 378,
+          "y": 382
+        },
+        "id": "zupYnondOdrCgSUp",
+        "outs": {
+          "out": {
+            "connection": "vu6NpCy2MFubRZqA:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "inputs": {
+          "options": {
+            "connection": "zupYnondOdrCgSUp:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"item:slug:tenka-goken\"\n]"
+          }
+        },
+        "position": {
+          "x": 883,
+          "y": 399.25
+        },
+        "id": "4sYIBg8nEez1P13n",
+        "outs": {
+          "true": {
+            "connection": "Z45NNankDpab7nVi:ins:in"
+          }
+        }
+      }
+    ]
+}

@@ -34,6 +34,12 @@
         "key": "BaseSpeed",
         "selector": "fly",
         "value": 25
+      },
+      {
+        "key": "RollOption",
+        "option": "overcharged",
+        "label": "Overcharging",
+        "toggleable": true
       }
     ],
     "slug": "autoturret",
@@ -99,7 +105,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

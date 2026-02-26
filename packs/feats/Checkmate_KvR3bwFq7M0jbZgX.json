@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> An ally dealt additional damage with a Strike due to Double Check in the last round, and you are wielding a melee skysteel multi-tool or a loaded ranged skysteel multi-tool</p><hr /><p>You saw your foe's weaknesses, and you made contingencies for their moves. Use Analysis against the creature the required ally damaged, then make a single Strike against that creature with the required weapon. On a hit, your weapon deal maximum damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for a number of rounds equal to your Intelligence modifier.</p>",
+      "value": "<p><strong>Requirements</strong> An ally dealt additional damage with a Strike due to @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.7Qa86k88bo7IAIGi]{Double Check} in the last round, and you are wielding a melee skysteel multi-tool or a loaded ranged skysteel multi-tool</p><hr /><p>You saw your foe's weaknesses, and you made contingencies for their moves. Use @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.58dVgEAlbXxhpzoF]{Analysis} against the creature the required ally damaged, then make a single Strike against that creature with the required weapon. On a hit, your weapon deals maximum damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for a number of rounds equal to your Intelligence modifier.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,14 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      }
+    ],
     "slug": "checkmate",
     "traits": {
       "otherTags": [],
@@ -59,17 +66,25 @@
     "frequency": {
       "max": 1,
       "per": "PT10M"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.BqlkVBuJ85TiNRgI",
+      "name": "Effect: Checkmate"
     }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

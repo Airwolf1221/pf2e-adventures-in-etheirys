@@ -1,0 +1,124 @@
+{
+    "name": "Detonator",
+    "folder": "FF2e - Engineer",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "engineer"
+    ],
+    "id": "ea10q0p06n6ALC4e",
+    "nodes": [
+      {
+        "type": "damage-taken-event",
+        "position": {
+          "x": 268,
+          "y": 386
+        },
+        "id": "kTom8gGQahM1OxTL",
+        "outs": {
+          "out": {
+            "connection": "OH0FMWzhZggRaki4:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 517.9230769230769,
+          "y": 385.4
+        },
+        "id": "OH0FMWzhZggRaki4",
+        "inputs": {
+          "target": {
+            "connection": "kTom8gGQahM1OxTL:outputs:target"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.ARTu6h0NZGPeqwWY"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "YaReMzZKGxAcHpe5:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 834.9230769230769,
+          "y": 385.4
+        },
+        "id": "YaReMzZKGxAcHpe5",
+        "inputs": {
+          "target": {
+            "connection": "kTom8gGQahM1OxTL:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.class-features.Item.zd9LM74VZj4Ogjwz"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "GtECBti7LB5v2hjb:ins:in"
+          }
+        }
+      },
+      {
+        "type": "await-confirm",
+        "position": {
+          "x": 1106.923076923077,
+          "y": 385.4
+        },
+        "id": "GtECBti7LB5v2hjb",
+        "inputs": {
+          "title": {
+            "value": "Detonator"
+          },
+          "plain": {
+            "value": "Is this damage benefitting from your aetheric boost?"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "nAVuU2MzhJXREo74:ins:in"
+          }
+        }
+      },
+      {
+        "type": "effect-badge",
+        "position": {
+          "x": 1386.923076923077,
+          "y": 385.4
+        },
+        "id": "nAVuU2MzhJXREo74",
+        "inputs": {
+          "effect": {
+            "connection": "tSVWcVwDgeCZeu3v:outputs:entry"
+          },
+          "by": {
+            "value": 1
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "OH0FMWzhZggRaki4:outputs:item"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1239,
+          "y": 564.75
+        },
+        "id": "tSVWcVwDgeCZeu3v"
+      }
+    ],
+    "variables": {
+      "OH0FMWzhZggRaki4:outputs:item": {
+        "isArray": false,
+        "label": "Detonator",
+        "type": "item"
+      }
+    }
+}

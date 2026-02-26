@@ -1,0 +1,163 @@
+{
+    "name": "Iron Will",
+    "folder": "FF2e - Paladin",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "paladin"
+    ],
+    "id": "fwrluzCNowRqdBta",
+    "nodes": [
+      {
+        "type": "attack-roll-event",
+        "position": {
+          "x": 276,
+          "y": 173
+        },
+        "id": "fffZ7iDGcY4ES1Yq",
+        "outs": {
+          "out": {
+            "connection": "DJ5NFbCt6qt8QeiU:ins:in"
+          }
+        }
+      },
+      {
+        "type": "has-item",
+        "position": {
+          "x": 484.9230769230769,
+          "y": 270.4
+        },
+        "id": "DJ5NFbCt6qt8QeiU",
+        "inputs": {
+          "target": {
+            "connection": "fffZ7iDGcY4ES1Yq:outputs:origin"
+          },
+          "pf2e": {
+            "value": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.sU8QEx8ZhMztw2aW"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "uMusiTzRwV1lcWx3:ins:in"
+          }
+        }
+      },
+      {
+        "type": "actors-match",
+        "position": {
+          "x": 959.9230769230769,
+          "y": 334.5
+        },
+        "id": "NSoy2dG1epCFRUJt",
+        "inputs": {
+          "a": {
+            "connection": "uMusiTzRwV1lcWx3:outputs:oXhnqE3JoCkIxVhr"
+          },
+          "b": {
+            "connection": "1KFoeYv8uY0BfyKZ:outputs:entry"
+          }
+        },
+        "outs": {
+          "false": {
+            "connection": "eTn2Hrj0vcmOGszi:ins:in"
+          }
+        }
+      },
+      {
+        "type": "extract-item",
+        "position": {
+          "x": 738,
+          "y": 331
+        },
+        "id": "uMusiTzRwV1lcWx3",
+        "custom": {
+          "outputs": {
+            "oXhnqE3JoCkIxVhr": {
+              "id": "oXhnqE3JoCkIxVhr",
+              "input": "origin",
+              "label": "Iron Will Origin",
+              "slug": "path",
+              "isArray": false,
+              "type": "target"
+            }
+          }
+        },
+        "inputs": {
+          "input": {
+            "connection": "DJ5NFbCt6qt8QeiU:outputs:item"
+          }
+        },
+        "outs": {
+          "out": {
+            "connection": "NSoy2dG1epCFRUJt:ins:in"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "fffZ7iDGcY4ES1Yq:outputs:target"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 844,
+          "y": 425.75
+        },
+        "id": "1KFoeYv8uY0BfyKZ"
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1204.923076923077,
+          "y": 358.4
+        },
+        "id": "eTn2Hrj0vcmOGszi",
+        "inputs": {
+          "target": {
+            "connection": "temUv6IJQYPq99I7:outputs:entry"
+          },
+          "origin": {
+            "connection": "temUv6IJQYPq99I7:outputs:entry"
+          },
+          "slug": {
+            "value": "ff2e-iron-will"
+          },
+          "name": {
+            "value": "Effect: Off-Guard from Iron Will"
+          },
+          "pf2eImg": {
+            "value": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Paladin/Iron_Will.png"
+          },
+          "condition": {
+            "value": "off-guard"
+          }
+        }
+      },
+      {
+        "inputs": {
+          "entry": {
+            "connection": "fffZ7iDGcY4ES1Yq:outputs:origin"
+          }
+        },
+        "type": "__variable_getter__",
+        "position": {
+          "x": 1020,
+          "y": 568.75
+        },
+        "id": "temUv6IJQYPq99I7"
+      }
+    ],
+    "variables": {
+      "fffZ7iDGcY4ES1Yq:outputs:origin": {
+        "isArray": false,
+        "label": "Origin",
+        "type": "target"
+      },
+      "fffZ7iDGcY4ES1Yq:outputs:target": {
+        "isArray": false,
+        "label": "Target",
+        "type": "target"
+      }
+    }
+}

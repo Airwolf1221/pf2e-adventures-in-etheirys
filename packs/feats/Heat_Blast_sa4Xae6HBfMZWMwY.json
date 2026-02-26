@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your invention stores the heat produced from its STrikes, and can channel it through a Strike to great effect. Make a ranged Strike with your firearm. You deal an additional 1d4 fire damage for each die of damage your firearm deals.</p><hr /><p><strong>Overcharge Function</strong> The damage increases to 1d8, and the Strike deals 1d6 persistent fire damage for each die of damage the firearm normally deals.</p>",
+      "value": "<p>Your invention stores the heat produced from its Strikes, and can channel it through a Strike to great effect. Make a ranged Strike with your firearm. You deal an additional 1d4 fire damage for each die of damage your firearm deals.</p><hr /><p><strong>Overcharge Function</strong> The damage increases to 1d8, and the Strike deals 1d6 persistent fire damage for each die of damage the firearm normally deals.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,14 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.engineer.aethericCharges",
+        "value": 1
+      }
+    ],
     "slug": "heat-blast",
     "traits": {
       "otherTags": [
@@ -62,17 +69,25 @@
     "frequency": {
       "max": 2,
       "per": "turn"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.KY9WeHeqjZwSQFHQ",
+      "name": "Effect: Heat Blast"
     }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

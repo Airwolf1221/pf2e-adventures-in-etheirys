@@ -1,0 +1,177 @@
+{
+  "img": "modules/pf2e-adventures-in-etheirys/imgs/classabilities/Engineer/Scattergun.png",
+  "name": "Effect: AMP Shot",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.H1g8AXxlIhH6faws]{Amp Shot}</p><p>Choose between earth, fire, ice, lightning, water, or wind. Your next Strike deals an additional 1d6 damage of that type on a hit. If you overcharge, the additional damage is 1d8, and it deals 1d6 persistent damage of that type for each weapon damage die of your invention.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 6
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Guns & Gears",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Earth",
+            "value": "earth-ff"
+          },
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "Water",
+            "value": "water-ff"
+          },
+          {
+            "label": "Wind",
+            "value": "wind-ff"
+          }
+        ],
+        "flag": "element",
+        "prompt": "Choose an elemental damage type"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "damageType": "{item|flags.pf2e.rulesSelections.element}",
+        "predicate": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          "overcharged"
+        ],
+        "label": "AMP Shot",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "{item|flags.pf2e.rulesSelections.element}",
+        "predicate": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          {
+            "not": "overcharged"
+          }
+        ],
+        "label": "AMP Shot",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "@weapon.system.damage.dice",
+        "dieSize": "d6",
+        "category": "persistent",
+        "damageType": "{item|flags.pf2e.rulesSelections.element}",
+        "predicate": [
+          "item:id:{actor|flags.pf2e.trackedItems.multiTool}",
+          "overcharged"
+        ],
+        "label": "AMP Shot (Persistent)",
+        "hideIfDisabled": true
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Yes",
+            "value": "improved",
+            "predicate": [
+              "feat:improved-amp-shot"
+            ]
+          },
+          {
+            "label": "No",
+            "value": "standard"
+          }
+        ],
+        "flag": "improvedAMPShot",
+        "rollOption": "amp-shot",
+        "prompt": "Use Improved AMP Shot?"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "predicate": [
+          "dice:slug:base",
+          "item:granter:engineers-multi-tool",
+          "amp-shot:improved"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.element}",
+        "selectors": [
+          "multi-tool-damage"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-amp-shot",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "EtQ4qGiYi4GSFFxv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BaYRkOXn1K3wq5i6": 3
+  },
+  "_id": "1B2hFLh3V7l6y9kC",
+  "sort": 300000,
+  "_key": "!items!1B2hFLh3V7l6y9kC"
+}

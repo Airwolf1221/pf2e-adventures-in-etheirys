@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Byregot's Brow no longer reduces the hardness or AC bonus of tower shields. In addition, you are permanently quickened, and can use the additional action only to Raise your Shield, or to Take Cover behind your tower shield after you have Raised it.</p>",
+      "value": "<p>@UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.PaMG3C1UvOvSpKOz]{Byregot's Brow} no longer reduces the hardness or AC bonus of tower shields. In addition, you are permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}, and can use the additional action only to @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise your Shield}, or to @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} behind your tower shield after you have Raised it.</p>",
       "gm": ""
     },
     "publication": {
@@ -37,7 +37,7 @@
         "property": "description",
         "value": [
           {
-            "text": "You are permanently quickened, and can use the additional action only to Raise your Shield, or to Take Cover behind your tower shield after you have Raised it."
+            "text": "ou are permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}, and can use the additional action only to @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise your Shield}, or to @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} behind your tower shield after you have Raised it."
           }
         ]
       }

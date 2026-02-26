@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>A well aimed devastating blow attempts to disable your target. Make a Strike. If you hit and inflict damage, the victim of this strike must make a @Check[fortitude|against:class] save, with a -3 penalty for a critical success on the initial strike.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} until the end of your next turn.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 4 rounds.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 4 rounds, is in an @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} state for 2 hours, or drops to 0 hit points and dies (your choice).</p>",
+      "value": "<p>A well aimed devastating blow attempts to disable your target. Make a Strike. If you hit and inflict damage, the victim of this strike must make a @Check[fortitude|against:class] save, with the DC being 3 higher if the initial Strike is a critical success.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} until the end of your next turn.</p><p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 4 rounds.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 4 rounds, is in an @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} state for 2 hours, or drops to 0 hit points and dies (your choice).</p>",
       "gm": ""
     },
     "publication": {
@@ -54,17 +54,25 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-adventures-in-etheirys.feat-effects.Item.v0yayGqJ5cQzVeOo",
+      "name": "Effect: Zanmato"
+    }
   },
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "flags": {},
+  "flags": {
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "ownership": {
     "default": 0,

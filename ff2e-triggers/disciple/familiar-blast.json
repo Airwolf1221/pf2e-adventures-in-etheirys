@@ -1,0 +1,101 @@
+{
+    "name": "Familiar Blast",
+    "folder": "FF2e - Disciple",
+    "priority": 0,
+    "tags": [
+      "ff2e",
+      "disciple"
+    ],
+    "id": "kJ1DSXGXFhNOlxpg",
+    "nodes": [
+      {
+        "type": "check-roll-event",
+        "position": {
+          "x": 627,
+          "y": 187
+        },
+        "id": "1MVdFfbcVZOh8gtq",
+        "outs": {
+          "out": {
+            "connection": "Q7pPdbiQ59JoazxZ:ins:in"
+          }
+        }
+      },
+      {
+        "type": "match-predicate",
+        "position": {
+          "x": 866.9230769230769,
+          "y": 201.5
+        },
+        "id": "Q7pPdbiQ59JoazxZ",
+        "inputs": {
+          "options": {
+            "connection": "1MVdFfbcVZOh8gtq:outputs:options"
+          },
+          "predicate": {
+            "value": "[\n  \"item:slug:familiar-blast\"\n]"
+          }
+        },
+        "outs": {
+          "true": {
+            "connection": "dFIjU0MjJdtUkHBV:ins:in"
+          }
+        }
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1417.923076923077,
+          "y": -27.600000000000023
+        },
+        "id": "iynXvqzDRvNr2exx",
+        "inputs": {
+          "condition": {
+            "value": "drained"
+          },
+          "value": {
+            "value": 4
+          }
+        },
+        "state": "fixed"
+      },
+      {
+        "type": "create-condition",
+        "position": {
+          "x": 1415.923076923077,
+          "y": 331.4
+        },
+        "id": "XIDaAhHtusyo1DLb",
+        "inputs": {
+          "condition": {
+            "value": "drained"
+          },
+          "value": {
+            "value": 2
+          }
+        },
+        "state": "fixed"
+      },
+      {
+        "type": "split-outcome",
+        "inputs": {
+          "input": {
+            "connection": "1MVdFfbcVZOh8gtq:outputs:outcome"
+          }
+        },
+        "position": {
+          "x": 1093,
+          "y": 205.25
+        },
+        "id": "dFIjU0MjJdtUkHBV",
+        "outs": {
+          "criticalFailure": {
+            "connection": "iynXvqzDRvNr2exx:ins:in"
+          },
+          "failure": {
+            "connection": "XIDaAhHtusyo1DLb:ins:in"
+          }
+        }
+      }
+    ]
+}

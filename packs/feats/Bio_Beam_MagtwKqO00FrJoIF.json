@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your mech’s beam cannon can fire noxious energy. You activate Black Magic Beam, dealing persistent damage of the chosen element instead of its normal damage. Its area also changes from a 30-foot line to a @Template[type:cone|distance:15], and affected creatures make a @Check[fortitude|against:engineer|basic] save instead of Reflex.</p><hr /><p><strong>Overcharge Function</strong> You put ever more power into bio blaster, though you risk overstressing the projector. Add the amp and overcharge traits to Black Magic Beam. The area becomes a @Template[type:cone|distance:30]. You cannot add the effects of more than one Beam overcharge function to a single use of a beam.</p>",
+      "value": "<p>Your mech’s beam cannon can fire noxious energy. You activate @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.y9XfB6dV1MEFDnuf]{Black Magic Beam}, dealing persistent damage of the chosen element instead of its normal damage. Its area also changes from a 30-foot line to a @Template[type:cone|distance:15], and affected creatures make a @Check[fortitude|against:engineer|basic] save instead of Reflex.</p><hr /><p><strong>Overcharge Function</strong> You put ever more power into bio blaster, though you risk overstressing the projector. Add the amp and overcharge traits to Black Magic Beam. The area becomes a @Template[type:cone|distance:30]. You cannot add the effects of more than one Beam overcharge function to a single use of a beam.</p>",
       "gm": ""
     },
     "publication": {
@@ -85,7 +85,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "MagtwKqO00FrJoIF",
   "sort": 1500000,

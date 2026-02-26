@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your mech’s beam cannon is enhanced. Its damage dice are increased to d8s. If you have the White Magic Beam feat, you can also choose holy, and if you have the Black Magic Beam feat, you can also choose shadow. If you have both feats, you can choose unaspected for either. Once you choose one of these elements, you can’t choose that element again for 1d6 rounds. Additionally, both Black Magic Beam and White Magic Beam gain the following overcharge function.</p><hr /><p><strong>Overcharge Function</strong> You put ever more power into your magitek beam, though you risk overstressing the projector. Add the amp and overcharge traits to the Beam you chose. The Beam doubles its number of damage dice, and changes the area to a @Template[type:cone|distance:20]. You cannot add the effects of more than one Beam overcharge function to a single use of a beam.</p>",
+      "value": "<p>Your mech’s beam cannon is enhanced. Its damage dice are increased to d8s. If you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.vUg6c2xlmqK8PP56]{White Magic Beam} feat, you can also choose holy, and if you have the @UUID[Compendium.pf2e-adventures-in-etheirys.feats.Item.y9XfB6dV1MEFDnuf]{Black Magic Beam} feat, you can also choose shadow. If you have both feats, you can choose unaspected for either. Once you choose one of these elements, you can’t choose that element again for 1d6 rounds. Additionally, both Black Magic Beam and White Magic Beam gain the following overcharge function.</p><hr /><p><strong>Overcharge Function</strong> You put ever more power into your magitek beam, though you risk overstressing the projector. Add the amp and overcharge traits to the Beam you chose. The Beam doubles its number of damage dice, and changes the area to a @Template[type:cone|distance:20]. You cannot add the effects of more than one Beam overcharge function to a single use of a beam.</p>",
       "gm": ""
     },
     "publication": {
@@ -79,7 +79,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.9.1"
+    "systemVersion": "7.10.1"
   },
   "_id": "eEOkIpttFkuiCdO4",
   "sort": 700000,
