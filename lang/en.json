@@ -31,6 +31,10 @@
             "Mythic": {
                 "Name": "Enable Mythic Overhaul",
                 "Hint": "Enable the mythic functionality, including mythic rerolls, the blessing of light slots, and limit break automation."
+            },
+            "VitalityVoidImmunity": {
+                "Name": "Vitality/Void Immunity Override",
+                "Hint": "Override the standard immunity to vitality and void damage to allow any creature that isn't a construct to take damage from them."
             }
         },
         "Mythic": {

@@ -29,4 +29,13 @@ export function registerSettings() {
         default: false,
         requiresReload: true
     });
+    game.settings.register(MODULE_NAME, "vitalityVoidImmunity", {
+        name: "AIE.Settings.VitalityVoidImmunity.Name",
+        hint: "AIE.Settings.VitalityVoidImmunity.Hint",
+        scope: "world",
+        type: Boolean,
+        config: true,
+        default: false,
+        requiresReload: true
+    });
 }

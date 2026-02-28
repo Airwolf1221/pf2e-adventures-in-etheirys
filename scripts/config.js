@@ -5,6 +5,7 @@ import { configureDailies } from "./newDailies.js";
 import { MODULE_NAME, registerSettings } from "./settings.js";
 import { featHandler } from "./feats.js";
 import { macros } from "./macros/macros.js";
+import { vitalityVoidImmunity } from "./macros/vitalityVoidDamageSubstitution.js";
 
 // Initialise the Module
 Hooks.once("init", async () => {
@@ -30,6 +31,13 @@ Hooks.once("init", async () => {
     }
 
     console.log("[Final Fantasy - Adventures in Etheirys]: BABELE READY!");
+
+    libWrapper.register(
+        MODULE_NAME,
+        'CONFIG.Actor.documentClass.prototype.isAffectedBy',
+        vitalityVoidImmunity,
+        'OVERRIDE'
+    )
 });
 
 // Register Module Triggers

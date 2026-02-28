@@ -1,3 +1,6 @@
+# 1.12 Release
+Minor updates to add the setting for updating vitality/void damage (holy and shadow damage in the ff overhaul) to work on non-constructs.
+
 # 1.1 Release
 Some initial bugfixes and a few automation updates, with triggers too!
 
